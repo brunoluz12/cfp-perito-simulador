@@ -1,0 +1,1457 @@
+[
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às técnicas de busca de vestígios envolvendo artefatos explosivos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Deve-se adotar sempre a busca a partir do centro da explosão uma vez que é nesse local que são obtidas pistas iniciais que darão informações a respeito do artefato. Deve-se evitar busca simultânea em toda a área da explosão, necessitando padronizar uma busca sistemática a fim de evitar áreas descobertas da investigação ou varreduras duplicadas no caso de uma busca simultânea não sistematizada.",
+      "B": "Deve-se adotar sempre a busca simultânea em toda a área da explosão, uma vez que é melhor delimitar uma área maior, pois se for muito pequena, os vestígios serão destruídos, recolhidos ou não localizados, já que estariam fora do perímetro.",
+      "C": "O método de busca a partir do centro da explosão ou simultânea em toda a área da explosão deve ser adotada de acordo com o caso concreto, uma vez que cada uma tem sua aplicabilidade em condições específicas.",
+      "D": "A técnica de busca a partir do centro da explosão é aplicada quando não podem ser obtidas pistas iniciais que darão informações a respeito do artefato. Nesses casos, faz-se necessário que as buscas iniciem do epicentro tendo por objetivo um reconhecimento inicial dos vestígios, orientando a fases sucessivas de busca."
+    },
+    "resposta_correta": "C",
+    "justificativa": "a) Existe a \"busca simultânea em toda a área da explosão\"\n\nb) Existe a \"busca a partir do centro da explosão\"\n\nc) Correta\n\nd) \"Essa técnica é aplicada quando PODEM ser obtidas pistas iniciais que darão\ninformações a respeito do artefato.\"",
+    "referencia": "SimuChacal, simulado 10, questão #470 — Ref: p. 87"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos padrões de busca utilizados em perícias de locais de explosão, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O método de \"espiral\" tem início no limite do perímetro externo, sendo realizada em espiral em torno do local, seguindo até um ponto próximo ao centro da explosão.",
+      "B": "O método de \"espiral\" é aplicado, geralmente, em ambientes menores, como uma sala.",
+      "C": "No método \"Quadrante, zona, setor\" o local é dividido e marcado com fitas, cordas ou barbantes, identificando-se cada espaço com letras, números ou ambos, os quais são vistoriados individualmente.",
+      "D": "O método \"Quadrante, zona, setor\" é aplicável principalmente em áreas cobertas, quando cada cômodo pode ser individualizado, funcionando como um quadrante ou setor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "a) \"Espiral - tem início em ponto próximo ao centro da explosão, sendo realizada\nem espiral em torno do local, seguindo até o limite do perímetro externo.\"\n\nb) Correta\n\nc) \"Rede - o local é dividido e marcado com fitas, cordas ou barbantes, identifi\ncando-se cada espaço com letras, números ou ambos, os quais são vistoriados\nindividualmente.\"\n\nd) \"Quadrante, zona, setor - (...) Esse padrão é aplicável em grandes áreas abertas.\"",
+    "referencia": "SimuChacal, simulado 10, questão #471 — Ref: p. 87-88"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No seu trabalho policial, o Perito Criminal Federal pode, em tese, ser responsabilizado criminal, civil e administrativamente no desempenho de suas funções, desde que seja ele quem tenha dado causa ao evento que resultou prejuízo.\nNo que concerne ao tema, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é extremamente limitada, pois todo o ordenamento jurídico no Brasil ampara sua conduta quanto a qualquer prejuízo causado a terceiros.",
+      "B": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é inexistente, pois todo o ordenamento jurídico em vigor no Brasil ampara a conduta do Perito Criminal Federal quanto a qualquer prejuízo causado a terceiros, independentemente de dolo ou culpa do servidor, quando da desativação de petrechos explosivos.",
+      "C": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é agravada e superior à de outras atividades periciais, uma vez que a grande repercussão e o elevado risco à vida e ao patrimônio exigem que o Perito Criminal Federal responda de forma mais rígida e objetiva por qualquer prejuízo causado a terceiros durante a operação.",
+      "D": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é idêntica à de qualquer outra área de atuação pericial, uma vez que a responsabilidade civil do Estado é objetiva pelos danos causados a terceiros, sendo assegurado o direito de regresso contra o servidor nos casos comprovados de dolo ou culpa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A (CORRETA): “Na sua atribuição relacionada com a desativação de petrechos explosivos, essa responsabilidade é extremamente limitada, pois todo o ordenamento jurídico em vigor no Brasil ampara a conduta do Perito Criminal Federal quanto a qualquer prejuízo causado a terceiros, quando da desativação de petrechos explosivos.”, página 99, Bombas e Explosivos.",
+    "referencia": "SimuChacal, simulado 10, questão #472 — Ref: Página 99, Bombas e Explosivos"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como funciona o método de desativação disruptor?",
+    "alternativas": {
+      "A": "Ele fundamenta-se basicamente na força hidrodinâmica. Consiste em um equipamento capaz de desarticular um artefato explosivo com grande probabilidade de não acioná-lo.",
+      "B": "Ele fundamenta-se pela diferença de pressão. Consiste em desativar o método de ativação e separando-o do artefato explosivo.",
+      "C": "Ele fundamenta-se pela interrupção das ondas eletromagnéticas. Consiste em formar um campo que corta a comunicação entre o método de ativação e o artefato explosivo.",
+      "D": "Ele fundamenta-se pela força termoestática. Consiste em queimar os circuitos de ativação do artefato explosivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Disruptor (canhão d’água) - O canhão d’água fundamenta-se basicamente na força hidrodinâmica. Consiste em um equipamento capaz de desarticular um artefato explosivo com grande probabilidade de não acioná-lo.\nO resto tudo foi inventado.",
+    "referencia": "SimuChacal, simulado 10, questão #475 — Ref: 41"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como são classificadas as técnicas de desativação?",
+    "alternativas": {
+      "A": "Chuta e Dispara.",
+      "B": "Explosão e Implosão.",
+      "C": "Ativos e Passivos.",
+      "D": "Carregar e Descarregar."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As outras foram inventadas.",
+    "referencia": "SimuChacal, simulado 10, questão #476 — Ref: 41"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como funciona os artefatos explosivos que utilizam o sistema de ativação barométrico?",
+    "alternativas": {
+      "A": "São sistemas ativados pela diferença de pressões na água e no ar. Geralmente, são vinculados a dispositivos que serão movidos por meio de transportes que implicam grandes flutuações de altitude ou profundidade.",
+      "B": "Artefatos com esse tipo de mecanismo são iniciados quando mudados de posição ou mesmo quando sofrem qualquer tipo de vibração.",
+      "C": "A solução de cloreto cúprico corrói o fio que tenciona a lâmina até o momento em que o fio se parte e a lâmina toca o contato de espera, ocorrendo a explosão.",
+      "D": "É o tipo de mecanismo de acionamento característico das bombas-relógio, podendo ser utilizados substâncias químicas, estopins, cigarros, etc."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As demais informações tratam-se de outros sistema de ativação:\nB - Antimovimento/Antidistúbio\nC - Retardo químico\nD - Tempo de retardo",
+    "referencia": "SimuChacal, simulado 10, questão #477 — Ref: p. 36 a 39"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os explosivos podem ser classificados:",
+    "alternativas": {
+      "A": "Quanto ao uso:\nExplosivos militares e\nExplosivos comerciais\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nMédios explosivos e\nAltos explosivos.",
+      "B": "Quanto ao uso:\nExplosivos militares e\nExplosivos civis\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nAltos explosivos primários e\nAltos explosivos secundários",
+      "C": "Quanto ao uso:\nExplosivos militares e\nExplosivos comerciais\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nAltos explosivos comerciais e\nAltos explosivos militares",
+      "D": "Quanto ao uso:\nExplosivos militares e\nExplosivos comerciais\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nAltos explosivos primários e\nAltos explosivos secundários"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #484 — Ref: Item 2.5, páginas 16 e 17"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a desativação de um pacote suspeito em uma área residencial, um Perito Criminal Federal que seguia os protocolos técnicos utiliza uma carga de ruptura que acaba por causar danos estruturais à residência da vítima. Após a intervenção, constata-se que o objeto não continha explosivos, tratando-se portanto de um simulacro.\n\nConsiderando o ordenamento jurídico brasileiro e a doutrina pericial vigente, assinale a alternativa correta quanto à responsabilidade do perito:",
+    "alternativas": {
+      "A": "A responsabilidade civil do Perito Criminal Federal, no exercício desta função, é de natureza objetiva em razão do risco excepcional da atividade; portanto, o servidor deverá indenizar diretamente o terceiro pelos danos causados.",
+      "B": "O perito é isento de pena criminal e não poderá sofrer ação regressiva por parte do Estado, pois o Código Penal ampara aquele que, por erro plenamente justificado, supõe situação de fato que, se existisse, tornaria a ação legítima, como a remoção de perigo iminente.",
+      "C": "O servidor poderá responder modalidade culposa imperícia, uma vez que o fato de o artefato ser um simulacro inofensivo demonstra que houve falha técnica na avaliação preliminar do objeto, o que afasta a proteção legal do estrito cumprimento do dever legal.",
+      "D": "De acordo com a Constituição Federal, a responsabilidade do Estado é objetiva, o que torna o direito de regresso contra o Perito Criminal Federal obrigatório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"Há casos em que, na desativação de um pacote suspeito, o perito causa danos à residência da vítima e aquilo que se parecia com um objeto contendo explosivos revela-se uma brincadeira ou uma forma de assustar um desafeto. Qual seria a responsabilidade do perito nessa ocorrência? A resposta é simples: nenhuma, pois o Código Penal Brasileiro, em seu artigo 20, parágrafo 1º, diz: É isento de pena quem por erro plenamente justificado pelas circunstâncias supõe situação de fato, que se existisse, tornaria a ação legítima. [...] conclui-se que penalmente não existe na legislação brasileira amparo para a punição do Perito Criminal quando este trabalha bem, dentro das normas de segurança e dentro da técnica correta\"\n\n\"se o perito trabalhar dentro das normas e da legalidade, nenhuma ação poderá subsistir com amparo legal [...] consubstanciada na Ação regressiva contra o servidor Perito Criminal Federal\"\n\n\"penalmente não existe na legislação brasileira amparo para a punição do Perito Criminal quando este trabalha bem, dentro das normas de segurança e dentro da técnica correta no manuseio de explosivos, no caso de perigo iminente.\"\n\n\"assegurado o direito de regresso, contra o responsável, nos casos de dolo ou culpa\"",
+    "referencia": "SimuChacal, simulado 10, questão #487 — Ref: Página 99, Bombas e Explosivos"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exercício da atribuição de desativação de artefatos explosivos, a atuação do Perito Criminal Federal é cercada de riscos que demandam um amparo jurídico específico. Considerando as normas de responsabilidade civil e penal aplicáveis a esse mister, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A responsabilidade civil do Perito Criminal Federal por danos causados a terceiros é de natureza objetiva, conforme o Art. 37, § 6º da Constituição Federal; dessa forma, constatado o prejuízo patrimonial, o servidor deverá indenizar diretamente a vítima, restando-lhe buscar o ressarcimento junto à União caso comprove ter agido sem dolo ou culpa.",
+      "B": "b) No caso de um perito destruir parte de uma edificação para desativar um pacote que, ao final, revela-se ser um simulacro inofensivo, a isenção de pena criminal pelo erro de fato (Art. 20, § 1º do CP) não impede a procedência de ação regressiva contra o servidor, visto que o erro na identificação da carga explosiva caracteriza, por si só, a modalidade culposa de imperícia.",
+      "C": "De acordo com o ordenamento jurídico vigente, não constitui ato ilícito a deterioração de coisa alheia com o fim de remover perigo iminente; portanto, se o perito atuar no estrito cumprimento do dever legal e dentro da técnica correta, não subsistirá amparo legal para ação regressiva contra o servidor, ainda que o Estado responda objetivamente perante o terceiro prejudicado.",
+      "D": "A autoridade competente, em caso de iminente perigo público, pode usar de propriedade particular para realizar a neutralização de bombas, sendo que o proprietário terá direito à indenização ulterior apenas se houver a comprovação de que o perito agiu com negligência ou fora dos protocolos de segurança estabelecidos pela ANP."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A (INCORRETA): \"As pessoas jurídicas de direito público e as de direito privado, prestadoras de serviço, responderão pelos danos que seus agentes causarem a terceiros, nessa qualidade, assegurado o direito de regresso, contra o responsável, nos casos de dolo ou culpa\", página 100, Caderno de Bombas e Explosivos. O erro reside em atribuir a responsabilidade objetiva ao servidor, quando a ação inicial de indenização deve ser movida contra o Estado.\n\nAlternativa B (INCORRETA): \"É isento de pena quem por erro plenamente justificado pelas circunstâncias supõe situação de fato, que se existisse, tornaria a ação legítima. [...] conclui-se que penalmente não existe na legislação brasileira amparo para a punição do Perito Criminal quando este trabalha bem, dentro das normas de segurança e dentro da técnica correta\", página 100, Caderno de Bombas e Explosivos.\n\nAlternativa C (CORRETA): \"Não constituem atos ilícitos: [...] a deterioração ou destruição da coisa alheia, a fim de remover perigo iminente. [...] se o perito trabalhar dentro das normas e da legalidade, nenhuma ação poderá subsistir com amparo legal [...] consubstanciada na Ação regressiva contra o servidor Perito Criminal Federal\", página 100, Caderno de Bombas e Explosivos.\n\nAlternativa D (INCORRETA): \"No caso de iminente perigo público, a autoridade competente poderá usar da propriedade particular, assegurado ao proprietário indenização ulterior, se houver dano\", páginas 100 e 101, Caderno de Bombas e Explosivos. Não é requerida a \"comprovação de negligência\", visto que o texto constitucional citado garante a indenização pelo simples fato de haver dano.",
+    "referencia": "SimuChacal, simulado 10, questão #488"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São tipos de explosivos, de acordo com o material",
+    "alternativas": {
+      "A": "Fulminato de mercúrio\nÁcido pícrico\nSlurries\nTetril\nFlex-X",
+      "B": "Pólvora\nFulminato de chumbo\nDinamites\nNitroglicerina (NG)\nEmulsões",
+      "C": "Azida de mercúrio\nNitroglicerina (NG)\nTrinitrotolueno (TNT)\nNitropenta (PETN)\nExplosivos plásticos",
+      "D": "Pólvora\nDiazodinitrofenol (DDNP)\nNitrato de boro\nEmulsões\nLamas explosivas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "alternativas:\nA - correta\nB - errada - fulminato de chumbo não existe. O certo seria fulminato de mercúrio ou Azida de chumbo\nC - errada - Azida de mercúrio não existe. O certo seria fulminato de mercúrio ou Azida de chumbo\nD - errada - O certo seria Nitrato de Bário ou de amônio. O Nitrato de boro é uma espécie de revestimento cerâmico",
+    "referencia": "SimuChacal, simulado 10, questão #489 — Ref: item 2.6, páginas 17 a 22"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos tipos de explosivos, julgue os itens a seguir:\nI - Há pelo menos 6 tipos diferentes de pólvora conhecidas: Negra, Cloratada, de base simples, de base dupla, Balistita e Composites\nII - O Fulminato de mercúrio, a Azida de chumbo e o Diazodinitrofenol são exemplos de explosivos primários\nIII - A Dinamite, a Nitroglicerina e o TNT são exemplos de explosivos secundários\nIV - Os Slurries ou lamas explosivas, o Nitropenta e os Explosivos Plásticos (C2, C3, C4, entre outros) são exemplos de explosivos terciários\nV - O Fulminato de Mercúrio e a Azida de Chumbo tem velocidades de detonação muito próximas",
+    "alternativas": {
+      "A": "Estão corretas as alternativas III, IV e V",
+      "B": "Estão corretas as alternativas I, II, III e V",
+      "C": "Todas as alternativas estão corretas",
+      "D": "Estão corretas as alternativas I, II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "está errada apenas a alternativa IV - Os Slurries ou lamas explosivas, o Nitropenta e os Explosivos Plásticos (C2, C3, C4, entre outros) são exemplos de explosivos SECUNDÁRIOS.",
+    "referencia": "SimuChacal, simulado 10, questão #491 — Ref: item 2.6, páginas 16 a 22"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que corresponde às atividades da Polícia Federal nas quais, geralmente, são aplicados conhecimentos específicos sobre terrorismo e explosivos.",
+    "alternativas": {
+      "A": "Planos de segurança de dignitários, segurança aeroportuária da aviação civil, atendimento a locais sob ameaça de bomba em instalações públicas federais, operações policiais especiais e perícias em locais de explosão.",
+      "B": "Controle migratório em aeroportos, fiscalização de produtos químicos, perícias ambientais e segurança de fronteiras.",
+      "C": "Proteção de testemunhas, policiamento ostensivo em rodovias federais, fiscalização de armas e operações de combate ao tráfico de drogas.",
+      "D": "Investigação de crimes cibernéticos, segurança de autoridades estrangeiras, fiscalização aduaneira e análise de documentos falsificados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Correta. A apostila afirma literalmente:\n\"No âmbito da competência da Polícia Federal as atividades em que, geralmente, se aplicam conhecimentos específicos sobre este tema são: nos planos de seguranças de dignitários, plano de segurança aeroportuária para aviação civil, locais sob ameaça de bomba em instalações públicas federais, operações policiais especiais e em perícias em locais de explosão.\"",
+    "referencia": "SimuChacal, simulado 10, questão #497"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Atualmente o terrorismo brasileiro com bombas está relacionado, principalmente:",
+    "alternativas": {
+      "A": "à expansão de organizações terroristas internacionais no território nacional.",
+      "B": "a conflitos militares entre Estados.",
+      "C": "a atos criminosos e sub-revolucionários que afetam consideravelmente a segurança pública.",
+      "D": "exclusivamente ao contexto da segurança nacional."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C) Correta. O conteúdo da apostila afirma:\n\"Atualmente, o terrorismo brasileiro com bombas está relacionado com atos criminosos e sub-revolucionários, que, apesar de pouco influenciarem o contexto da segurança nacional, afetam consideravelmente a segurança pública.\"",
+    "referencia": "SimuChacal, simulado 10, questão #498"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o inter-relacionamento entre os segmentos da Polícia Federal nas atividades relacionadas ao terrorismo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O inter-relacionamento entre a Inteligência Policial, a Defesa Institucional e a Criminalística tem por finalidade elevar o nível de segurança dos servidores empenhados nessas missões, observando as normatizações da Polícia Federal.",
+      "B": "O inter-relacionamento entre os segmentos da Polícia Federal tem como finalidade ampliar a produção de provas periciais para subsidiar os inquéritos policiais.",
+      "C": "O inter-relacionamento entre a Inteligência Policial, a Defesa Institucional e a Criminalística tem como principal objetivo fortalecer a investigação criminal e a responsabilização dos autores dos atentados.",
+      "D": "O inter-relacionamento entre os segmentos da Polícia Federal visa coordenar as atividades de inteligência e de perícia para identificar organizações criminosas envolvidas em atos terroristas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "\"...invariavelmente, há a necessidade do inter-relacionamento de diversos segmentos da PF, como, por exemplo, a Inteligência Policial, a Defesa Institucional e a Criminalística, com a finalidade de se elevar o nível de segurança dos servidores empenhados nessas missões, obedecendo as seguintes normatizações...\"",
+    "referencia": "SimuChacal, simulado 10, questão #499"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os padrões de busca utilizados em perícias de locais de explosão preconizados na apostila são:",
+    "alternativas": {
+      "A": "Espiral; Rede; Quadrante, zona, setor; Fileiras ou linhas",
+      "B": "Busca a partir do centro da explosão e Busca simultânea em toda a área da explosão",
+      "C": "Espiral; Linha; Linha Cruzada; Quadrante",
+      "D": "Busca a partir do perímetro externo da explosão; Busca segmentada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) Correta\n\nb) Essas são as TÉCNICAS de busca, e não os padrões\n\nc) Esse padrões são os preconizados na apostila de LOCAL DE CRIME\n\nd) São o oposto da alternativa correta",
+    "referencia": "SimuChacal, simulado 10, questão #506 — Ref: 87/88"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base no documento técnico, no que se refere aos mecanismos de acionamento de artefatos explosivos por tempo (ou retardo), assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Os dispositivos com comandos digitais emitem ruídos característicos elevados de seus mecanismos de engrenagem, o que facilita a detecção do artefato antes do acionamento.",
+      "B": "Temporizadores construídos por pessoas com conhecimento em eletrônica possuem circuitos que limitam o atraso da carga explosiva a um prazo máximo de 24 horas ininterruptas.",
+      "C": "No caso do emprego de um relógio analógico de ponteiros como mecanismo de tempo, é comum que a chave seja formada por um contato de espera no vidro do relógio e o outro no próprio ponteiro.",
+      "D": "O mecanismo de acionamento por tempo funciona exclusivamente por meio de isolantes físicos que, ao serem puxados, fecham mecanicamente o circuito elétrico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O documento afirma que, no caso de relógio analógico de ponteiros, é comum que a chave seja um contato de espera no vidro do relógio e o outro, o próprio ponteiro. A alternativa A está incorreta pois comandos digitais (com chip em circuito integrado) podem ser regulados \"sem produzir ruídos\". A alternativa B está incorreta porque o circuito dedicado construído por quem tem conhecimento em eletrônica pode iniciar a carga explosiva \"a qualquer momento ou mesmo após vários dias\". A alternativa D descreve o princípio do mecanismo de \"Tração\", e não o de tempo.",
+    "referencia": "SimuChacal, simulado 10, questão #528 — Ref: Páginas 35 e 36."
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O acionamento de artefatos por controle remoto pode ser realizado por diferentes meios, incluindo rádio frequência (RF). Sobre o funcionamento e as soluções táticas para desativação desse tipo específico de sistema, é correto afirmar que:",
+    "alternativas": {
+      "A": "É um sistema considerado imune a interferências eletromagnéticas, o que garante estabilidade e impede o acionamento indesejado do artefato.",
+      "B": "O funcionamento básico exige que o receptor emita constantemente sinais de RF para o transmissor para que este último feche a chave comutadora.",
+      "C": "O princípio de funcionamento do controle remoto por ondas de rádio (RF) exige um contato visual direto em feixe contínuo, impedindo seu uso com obstáculos físicos entre as partes.",
+      "D": "Uma das soluções apontadas para a desativação desse mecanismo é o uso de uma manta metálica, rede ou papel alumínio na tentativa de realizar uma blindagem eletromagnética."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Como solução para desativação de sistemas ativados por ondas RF, o texto sugere \"usar uma manta metálica (ou mesmo rede ou papel alumínio) na tentativa de fazer a blindagem eletromagnética\". A alternativa A está incorreta, pois o material destaca explicitamente que se trata de \"um sistema suscetível a interferências eletromagnéticas que podem provocar o acionamento indesejado\". A alternativa B inverte a ordem, pois é o transmissor que emite sinais de RF e o receptor fecha a chave comutadora. A alternativa C confunde RF com o mecanismo por feixe de infravermelho.",
+    "referencia": "SimuChacal, simulado 10, questão #529 — Ref: Páginas 37 e 38."
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina pericial classifica os mecanismos de iniciação com base em seu princípio de funcionamento. Comparando os conceitos de iniciação por \"Tração\" e \"Antimovimento/antidistúrbio\" descritos no documento, assinale a afirmação correta:",
+    "alternativas": {
+      "A": "Artefatos equipados com mecanismo antimovimento/antidistúrbio são iniciados quando sofrem qualquer tipo de vibração ou mudança de posição, podendo empregar chaves de mercúrio ou mecanismos de alarme antifurto de automóveis.",
+      "B": "O mecanismo de pêndulo, ilustrado como uma esfera condutora dentro de um cilindro com revestimento interno condutor, é uma característica clássica de acionamento por tração.",
+      "C": "Em um mecanismo de tração que possua pino de segurança e pino de liberação, a retirada isolada do pino de segurança já garante o acionamento imediato da espoleta pelo percussor.",
+      "D": "O sistema de tração funciona por meio da corrosão de um fio tensionado que impede que o circuito elétrico seja fechado; ao romper-se por vibração, o mecanismo é ativado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto define que artefatos com mecanismo antimovimento/antidistúrbio são iniciados quando mudados de posição ou quando sofrem vibração, podendo utilizar pêndulo, chave de mercúrio ou mecanismos de alarme antifurto. A alternativa B está incorreta porque o pêndulo é um mecanismo antimovimento, não de tração. A alternativa C está incorreta porque o funcionamento descrito exige que, uma vez retirado o pino de segurança, o pino de liberação também seja retirado para o percussor acionar a espoleta. A alternativa D mistura o conceito de tração com o de \"Retardo químico\" (corrosão de filamento).",
+    "referencia": "SimuChacal, simulado 10, questão #530 — Ref: Páginas 35, 36 e 38."
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação dos explosivos quanto à velocidade de detonação, qual das alternativas abaixo descreve corretamente os altos explosivos secundários?",
+    "alternativas": {
+      "A": "São também denominados explosivos deflagrantes e apresentam uma combustão lenta e progressiva de até 1.000 m/s.",
+      "B": "São explosivos de iniciação que fornecem energia de ativação para o explosivo de ruptura, sendo muito sensíveis ao choque mecânico.",
+      "C": "São conhecidos como explosivos de ruptura, possuem alto poder de brisância e, em geral, não necessitam de confinamento para explodir.",
+      "D": "São exemplificados pela pólvora negra, que possui uma velocidade de deflagração em torno de 300 m/s e precisa de confinamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #534"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o Trinitrotolueno (TNT), também chamado de Trotil, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "É um alto explosivo secundário de uso militar, considerado o mais seguro dos explosivos e usado como padrão de referência para outros.",
+      "B": "É um explosivo primário extremamente sensível ao calor, choque e fricção, utilizado exclusivamente na fabricação de espoletas.",
+      "C": "Apresenta-se sob a forma de líquido viscoso e incolor, tornando-se altamente instável quando se solidifica a 13 graus.",
+      "D": "Possui uma velocidade de detonação de 3.000 m/s e é o principal componente dos fertilizantes agrícolas conhecidos como Anfo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #535"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre os explosivos e acessórios listados nas fontes, qual é descrito como o mais antigo explosivo primário, de cor amarela-clara, e que vem sendo gradativamente substituído pela azida de chumbo ou pelo DDNP?",
+    "alternativas": {
+      "A": "Nitroglicerina (NG).",
+      "B": "Fulminato de mercúrio.",
+      "C": "Ácido pícrico.",
+      "D": "Pólvora cloratada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #536"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o ordenamento normativo e a organização das atividades de bombas e explosivos no âmbito do Departamento de Polícia Federal, analise os itens a seguir:\nI. A Constituição Federal estabelece que a Polícia Federal exerce a segurança pública para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio.\nII. De acordo com a Instrução Normativa nº 005/04-DG/PF, a remoção e a desativação de artefatos explosivos encontrados cabem à Polícia Federal através de seus serviços especializados.\nIII. Os Grupos Especializados em Bombas e Explosivos (GBE) são unidades integrantes do Sistema de Criminalística da Polícia Federal.\nIV. O estudo de bombas e explosivos é considerado uma disciplina isolada da química, não possuindo relação técnica com as áreas de mecânica ou eletricidade.",
+    "alternativas": {
+      "A": "I e III.",
+      "B": "II e IV.",
+      "C": "I, II e III.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O item I reflete o Art. 144 da CF citado na fonte. O item III está de acordo com a IN nº 005/04, que coloca o GBE dentro do Sistema de Criminalística.",
+    "referencia": "SimuChacal, simulado 10, questão #543 — Ref: 9-11"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal está elaborando um relatório sobre o histórico do terrorismo para um curso de especialização. Com base no panorama internacional apresentado na apostila, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O evento conhecido como \"The Gunpowder Plot\" ocorreu no século XVII, quando extremistas católicos tentaram explodir o Parlamento Britânico para vingar o exílio de padres jesuítas.",
+      "B": "Na Colômbia, os primeiros registros de incidentes terroristas remontam a 1976, ano em que surgiu o narcoterrorismo com 262 casos registrados.",
+      "C": "A motivação do terrorismo na Espanha é classificada como estritamente subversiva e política, sem fundamentos étnicos.",
+      "D": "Guy Fawkes, responsável pela colocação das bombas sob a Casa dos Lordes, foi executado imediatamente na noite de 4 de novembro de 1605, após ser descoberto por Lord Monteagle."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto confirma que em 4 de novembro de 1605 ocorreu a tentativa de explodir 36 barris de pólvora sob a Casa dos Lordes por vingança ao exílio de jesuítas.",
+    "referencia": "SimuChacal, simulado 10, questão #544 — Ref: 9-11"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina de Bombas e Explosivos da Polícia Federal destaca a necessidade de especialização constante e os fatores que influenciam o aumento da complexidade da área. Sobre esse tema, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O profissional da área, uma vez especializado, prescinde de aperfeiçoamento constante devido ao caráter estático das técnicas de manuseio.",
+      "B": "A Norma de Serviço nº 001/80 - CCP/PF é o instrumento que organiza e institui os Grupos Especializados em Bombas e Explosivos (GBE).",
+      "C": "O aumento do grau de complexidade técnica dos artefatos e dos incidentes nos Estados é atribuído, entre outros fatores, à facilidade de acesso a manuais e receitas de explosivos na Internet.",
+      "D": "Na Colômbia, o terrorismo se divide em três modalidades distintas: étnico, subversivo e narcoterrorismo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As fontes indicam que manuais como o do \"Terrorista\" ou \"Anarquista\" na Internet aumentaram a complexidade técnica dos artefatos e a preocupação dos profissionais.",
+    "referencia": "SimuChacal, simulado 10, questão #545 — Ref: 9-11"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos mecanismos de acionamento e dos riscos relacionados ao manuseio de bombas postais, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Os mecanismos mais usuais em cartas-bomba são os de pressão e antimovimento, razão pela qual se presume que o artefato poderá ser acionado imediatamente após qualquer deslocamento da correspondência.",
+      "B": "Os mecanismos mais usuais em cartas-bomba são os de descompressão e/ou tração, sendo razoável supor que a bomba postal não desengatilhará até que seja aberta; contudo, o manuseio desnecessário deve ser evitado, pois poderá deslocar o mecanismo e aumentar o risco de explosão.",
+      "C": "Embora os mecanismos de descompressão sejam frequentes, os mecanismos de tração são incomuns em bombas postais, pois exigem necessariamente a retirada completa do conteúdo do envelope para seu acionamento.",
+      "D": "A utilização predominante de mecanismos de descompressão e/ou tração permite que uma bomba postal seja transportada e manuseada com segurança, desde que permaneça fechada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“Os mecanismos de acionamento mais usuais em cartas-bomba são os de descompressão e/ou tração. Assim, é razoável supor que uma bomba postal não desengatilhará até que seja aberta. De qualquer forma, deve-se evitar manuseá-la desnecessariamente, pois é possível que, após muito manuseio, o mecanismo seja deslocado, aumentando o risco de explosão.”",
+    "referencia": "SimuChacal, simulado 10, questão #578 — Ref: 45"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as técnicas de desativação ativa indicadas pelo material para bombas postais, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "São indicadas exclusivamente as técnicas do cartão em V e do canhão d’água, visando prioritariamente à neutralização da carga explosiva principal.",
+      "B": "São indicadas as técnicas do chicote, do cartão em V e do canhão d’água, devendo a intervenção visar exclusivamente à destruição do invólucro externo da correspondência.",
+      "C": "São indicadas as técnicas do chicote, do cartão em V e do canhão d’água, sempre visando ao mecanismo de acionamento, aos fios e às baterias do artefato.",
+      "D": "A técnica do chicote constitui medida passiva de desativação, enquanto o cartão em V e o canhão d’água constituem técnicas ativas destinadas à destruição integral do artefato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“As técnicas de desativação ativa indicadas para o caso de bombas postais são as do ‘chicote’, do cartão em V e o uso do canhão d’água, sempre visando o mecanismo de acionamento, os fios e as baterias do artefato.”",
+    "referencia": "SimuChacal, simulado 10, questão #579 — Ref: 46"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a avaliação de uma correspondência suspeita, cogitou-se o emprego de detectores de vapores explosivos e fibroscópios. De acordo com o material, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Ambos permitem a inspeção externa do pacote sem necessidade de qualquer intervenção física sobre seu invólucro.",
+      "B": "Apenas o fibroscópio requer a perfuração do pacote, enquanto o detector de vapores explosivos permite a análise integralmente externa da correspondência.",
+      "C": "Apenas o detector de vapores explosivos requer uma incisão no pacote, enquanto o fibroscópio permite a inspeção por meio de radiação penetrante.",
+      "D": "Tanto os detectores de vapores explosivos quanto os fibroscópios requerem que seja feita uma incisão no pacote ou que ele seja perfurado para inspeção interna."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“Detectores de vapores explosivos; [...] Fibroscópios. Obs.: Os dois últimos requerem que seja feita uma incisão no pacote ou que o pacote seja perfurado para inspeção interna.”",
+    "referencia": "SimuChacal, simulado 10, questão #580 — Ref: 47"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre os materiais que devem ser levados para perícia um local de crime que envolva explosivos pode se citar:\nI. Toldos, lonas, embalagens para empacotamento.\nII. Materiais para medição, como trenas réguas e escalas, para desenho do croqui, e fotografias\nIII. Reagente químicos para teste preliminar de tipo de explosivo.\nIV. Material para orientação (ex. GPS)\nV. Pás, ancinho, peneiras e imãs, para a busca do epicentro",
+    "alternativas": {
+      "A": "I, II, III e V",
+      "B": "I, II, IV e V",
+      "C": "I, III, IV e V",
+      "D": "Todas as alternativas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Não são realizados testes preliminares na cena de local de bomba/ explosivo",
+    "referencia": "SimuChacal, simulado 10, questão #588 — Ref: 84"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o disposto na Instrução Normativa 08/1988, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Cabe à Força Aerea Nacional a inspecionar a documentação de viagem e proceder à revista pessoal e da bagagem de mão dos passageiros e tripulantes embarcando em vôos internacionais e, quando necessário, nos domésticos.",
+      "B": "A Polícia Federal não tem atribuições de prevenção e repressão a atos ilícitos praticados a bordo de aeronaves.",
+      "C": "Se um artefato explosivo for encontrado em uma aeronave, a Polícia Federal não precisa ser informada, já que a responsabilidade pela segurança da aeronave é da companhia aérea.",
+      "D": "Compete à Polícia Federal inspecionar bagagem desacompanhada, abandonada, mala postal, encomendas e cargas em geral, quando objeto de fundadas suspeitas de ilícito\npenal em áreas aeroportuárias."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #589 — Ref: p. 103"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação ao atendimento a um local de explosão, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Os possíveis perigos na área incluem: dispositivos explosivos secundários, DEI não consumidos, focos de incêndio, fios energizados.",
+      "B": "A inspeção preliminar deve ser realizada pelo menor número de pessoas\npossível, devendo incluir um especialista em bombas.",
+      "C": "A inspeção preliminar tem como finalidades: Estabelecer o controle administrativo e emocional, avaliar a extensão da área de busca, organizar o POP, estimar a quantidade de pessoal e o equipamento necessário, desenvolver uma teoria geral para o crime.",
+      "D": "Não é recomendado solicitar apoio de outros órgãos como corpo de bombeiros, engenheiros civis, pelo elevado risco de adentrar uma área em que foi alvo de explosivos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A apostila orienta a verificar a necessidade de apoio de outros órgãos como corpo de bombeiros, engenheiros , defesa civil",
+    "referencia": "SimuChacal, simulado 10, questão #592 — Ref: 85"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades da explosão:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Sensibilidade, velocidade do som e onda de choque.",
+      "C": "Brisância, primariedade e fragmentação.",
+      "D": "Distância de choque, brisância e bola de fogo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #594 — Ref: p. 17"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São efeitos primários de uma explosão:",
+    "alternativas": {
+      "A": "Brisância, fogo central e calor termodinâmico.",
+      "B": "fogo central, fragmentação e onda de choque.",
+      "C": "Onda de pressão explosiva, fragmentação e efeito térmico-incendiários.",
+      "D": "ar comprimido, vácuo da explosão e fragmentação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Em uma explosão, ocorrem efeitos primários e secundários. Os efeitos primá-\nrios são: onda de pressão explosiva, fragmentação e efeito térmico-incendiário.",
+    "referencia": "SimuChacal, simulado 10, questão #599 — Ref: p. 23"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação ao estabelecimento do perímetro, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Formulário para registro de ocorrência - serve para documentar, em\nbreves descrições, os eventos principais e os horários em que ocorreram, como\npor exemplo, a chegada ao local, nomes dos contatos pessoais, interrupções do\ntrabalho e respectivos motivos, etc",
+      "B": "O perímetro externo geralmente é marcado em um ponto 20% maior que\na distância entre o local da explosão da bomba e a maior distância onde foi\nencontrado um vestígio no levantamento preliminar.",
+      "C": "O estabelecimento do posto de comando deve ser a ultima etapa, quando houver certeza que a área está segura.",
+      "D": "Formulário de localização de vestígios serve para anotar as seqüências foto\ngráficas, os equipamentos e as escalas utilizados, etc."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Citação da apostila\nB) O perímetro externo geralmente é marcado em um ponto 50% maior que a distância entre o local da explosão da bomba e a maior distância onde foi encontrado um vestígio no levantamento preliminar.\nC) O estabelecimento do posto de comando deve ser feita o mais rápido possível.\nD) Esse é o formulário de registro fotográfico.",
+    "referencia": "SimuChacal, simulado 10, questão #601 — Ref: 86"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos procedimentos de segurança ao localizar um objeto suspeito de ser um artefato explosivo, a doutrina estabelece restrições severas. Sobre o manuseio de uma \"bomba-cano\" (bomba-tubo), assinale a alternativa que descreve o risco técnico específico de tentar desrosqueá-la:",
+    "alternativas": {
+      "A": "O risco de acionamento por rádio-frequência devido à antena improvisada no metal.",
+      "B": "A possibilidade de presença de partículas de explosivos ou limalha de ferro nas roscas de fechamento, que podem causar a detonação pelo atrito.",
+      "C": "A instabilidade química do invólucro de ferro quando exposto à oxigenação repentina durante a abertura.",
+      "D": "A ativação automática de um sistema barométrico interno que detecta a mudança de pressão no interior do tubo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – Conforme a fonte, não se deve tentar desroscar uma bomba-cano porque partículas de explosivos ou limalha de ferro nas roscas podem causar a iniciação pelo atrito",
+    "referencia": "SimuChacal, simulado 10, questão #609 — Ref: 69 a 71"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a diferenciação operacional entre artefatos de fabricação caseira (DEI) e artefatos militares, as orientações técnicas da Academia Nacional de Polícia determinam que:",
+    "alternativas": {
+      "A": "Devem ser aplicados exatamente os mesmos protocolos operacionais, visto que a carga explosiva secundária é invariavelmente a mesma.",
+      "B": "Artefatos militares permitem a neutralização por resfriamento térmico (criogenia), enquanto os caseiros devem ser detonados no local.",
+      "C": "Não se deve tentar os mesmos procedimentos de bombas caseiras em artefatos militares, devendo-se notificar obrigatoriamente a unidade militar mais próxima.",
+      "D": "Apenas o esquadrão antibombas da Polícia Federal pode manusear artefatos militares, sendo vedado o acionamento das Forças Armadas para este fim."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A orientação é clara no sentido de não aplicar procedimentos de bombas caseiras em artefatos militares, exigindo a notificação da unidade militar",
+    "referencia": "SimuChacal, simulado 10, questão #611 — Ref: 69 a 71"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de um artefato explosivo que se encontra aparentemente \"falhado\" após um período de tempo ou tentativa de acionamento, a conduta correta prescrita é:",
+    "alternativas": {
+      "A": "Proceder com a remoção imediata para uma área remota para evitar que a carga se torne instável com o tempo.",
+      "B": "Não tentar remover ou manusear o objeto, pois a condição de \"falha\" não garante a segurança contra uma detonação tardia.",
+      "C": "Realizar a entrada manual imediata com ferramentas de mão para cortar os fios do circuito de fogo.",
+      "D": "Mergulhar o objeto em água para neutralizar quimicamente os iniciadores primários sensíveis."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – A recomendação é não tentar remover ou manusear artefatos encontrados que estejam aparentemente \"falhados\"",
+    "referencia": "SimuChacal, simulado 10, questão #612 — Ref: 69 a 71"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Fatores a considerar no trato com explosivos:\nI - Segurança pessoal - todo procedimento deverá ser orientado, principalmente, pela busca da máxima segurança do técnico em bombas.\nII - Prevenção e minimização de riscos - deve-se procurar minimizar os riscos a que estão submetidos os técnicos em bombas, o público envolvido e, por último, o patrimônio.\nIII - Processo investigatório - os procedimentos anteriores nunca devem levar em consideração uma possível preservação de elementos materiais, que possam auxiliar na condução da investigação criminal.\nEstão corretas:",
+    "alternativas": {
+      "A": "Somente I",
+      "B": "Somente II",
+      "C": "Somente I e II",
+      "D": "Todas alternativas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Processo investigatório - os procedimentos anteriores devem SEMPRE levar em consideração uma possível preservação de elementos materiais, que possam auxiliar na condução da investigação criminal.",
+    "referencia": "SimuChacal, simulado 10, questão #619"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades do explosivo:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Deslocamento de ar, efeito térmico e fragmentação",
+      "C": "Ondas de choque, efeito cumulativo e efeito Monroe",
+      "D": "Sistema de iniciação, propelente e combustível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Propriedades dos explosivos:\n- A sensibilidade de um explosivo refere-se à facilidade com que ele pode ser iniciado por meio de choque (impacto ou percussão), faísca, calor ou mesmo chama, eletricidade estática, atrito, vibração ou fricção, etc.\n- Brisância Capacidade de ruptura do explosivo, mensurada pela rapidez com este atinge a sua máxima pressão\n- A velocidade de detonação é a medida, em metros por segundo, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo.\nB - Efeito da explosão\nC - Efeito da explosão\nD - Sem relação com propriedade do explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #620"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades do explosivo:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Deslocamento de ar, efeito térmico e fragmentação",
+      "C": "Ondas de choque, efeito cumulativo e efeito Monroe",
+      "D": "Sistema de iniciação, propelente e combustível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Propriedades dos explosivos:\n- A sensibilidade de um explosivo refere-se à facilidade com que ele pode ser iniciado por meio de choque (impacto ou percussão), faísca, calor ou mesmo chama, eletricidade estática, atrito, vibração ou fricção, etc.\n- Brisância Capacidade de ruptura do explosivo, mensurada pela rapidez com este atinge a sua máxima pressão\n- A velocidade de detonação é a medida, em metros por segundo, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo.\nB - Efeito da explosão\nC - Efeito da explosão\nD - Sem relação com propriedade do explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #621"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades do explosivo:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Deslocamento de ar, efeito térmico e fragmentação",
+      "C": "Ondas de choque, efeito cumulativo e efeito Monroe",
+      "D": "Sistema de iniciação, propelente e combustível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Propriedades dos explosivos:\n- A sensibilidade de um explosivo refere-se à facilidade com que ele pode ser iniciado por meio de choque (impacto ou percussão), faísca, calor ou mesmo chama, eletricidade estática, atrito, vibração ou fricção, etc.\n- Brisância Capacidade de ruptura do explosivo, mensurada pela rapidez com este atinge a sua máxima pressão\n- A velocidade de detonação é a medida, em metros por segundo, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo.\nB - Efeito da explosão\nC - Efeito da explosão\nD - Sem relação com propriedade do explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #622"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange à doutrina de Procedimentos de Reação a Bombas adotada pela Polícia Federal, e considerando a atuação de uma equipe em um local com suspeita de artefato explosivo, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A preservação dos vestígios deve ser a prioridade da equipe, visto que a determinação da autoria após a detonação é extremamente difícil devido ao estado dos fragmentos.",
+      "B": "Na hierarquia de prioridades, a segurança pública deve vir em primeiro lugar, seguida pela vida do técnico em bombas, para que este possa tomar decisões que preservem a coletividade.",
+      "C": "De acordo com a sequência de eventos, ao estabelecer o perímetro de isolamento, a sugestão é que seja feita uma evacuação de 100m de raio, preferencialmente sem visada direta do epicentro de modo a evitar possíveis estilhaços.",
+      "D": "No posto de controle, a equipe de resposta deve ser composta por, no mínimo, três integrantes, sendo obrigatório que todos participem diretamente da neutralização do artefato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A (Incorreta): A coleta e preservação de vestígios é a última prioridade na hierarquia (Vida > Patrimônio > Vestígios).\n\nB (Incorreta): A vida do técnico em bombas deve vir em primeiro lugar, pois seu conhecimento é o que permite tomar decisões para preservar as demais vidas.\n\nC (Correta): O manual sugere exatamente o raio de 100 metros e a cautela de evitar a visada direta do epicentro para proteger contra estilhaços.\n\nD (Incorreta): A equipe é composta por, no mínimo, dois integrantes e a regra de ouro é que somente um técnico vá até a bomba de cada vez.",
+    "referencia": "SimuChacal, simulado 10, questão #623 — Ref: p. 75-77"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O que o servidor ou funcionário não deve fazer ao receber uma ameaça de bomba por telefone?",
+    "alternativas": {
+      "A": "Manter a calma e obter o máximo de informações sobre a ameaça.",
+      "B": "Manter a calma e preencher um formulário de ameaça de bomba.",
+      "C": "Manter a calma e evacuar imediatamente o local.",
+      "D": "Manter a calma e tratar a ameaça com seriedade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A ameaça deve ser tratada com seriedade, e buscar o máximo de informações no telefone com o denunciante, o formulário auxilia na obtenção dessas informações. A apostila não fala sobre evacuar imediatamente o local, e diz que deve ser trabalhada de maneira discreta de acordo com o plano de segurança. Então, a evacuação não é imediata.",
+    "referencia": "SimuChacal, simulado 10, questão #624 — Ref: p. 51 a 53"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Instrução Normativa (IN) 005/2004 - DG/PF, quais das ATRIBUIÇÕES abaixo são pertinentes aos INTEGRANTES dos Grupos de Bombas e Explosivos (GBE):\n\nI – manter os recursos materiais disponíveis, em condições operacionais para o pronto emprego;\nII – participar de reuniões preparatórias visando à elaboração de planos de segurança de dignitários, sempre que necessárias as vistorias preventivas de segurança;\nIII – preservar dados e informações coletados nas atividades visando aos exames periciais, a investigação e a inteligência policial, assim como a manutenção de banco de dados específico;\nIV – planejar, pesquisar, desenvolver, testar, implementar, controlar e atualizar técnicas para o estabelecimento de procedimentos operacionais necessários ao adequado desempenho das atividades;\nV – propor ao Diretor Técnico-Científico, através do INC, ou aos Superintendentes Regionais, por intermédio das unidades Técnico-Científicas, a adoção de medidas para facilitar a consecução dos trabalhos a serem executados pelos grupos;",
+    "alternativas": {
+      "A": "I, III e IV;",
+      "B": "II, IV e V;",
+      "C": "I, II, III e IV;",
+      "D": "I e III"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Art. 6° Aos integrantes dos GBEs incumbe:\nI – manter os recursos materiais disponíveis, em condições operacionais para\no pronto emprego;\nII – sugerir e participar de ações de capacitação;\nIII – preservar dados e informações coletados nas atividades visando aos exames periciais, a investigação e a inteligência policial, assim como a manutenção\nde banco de dados específico; e\nIV – executar outras atividades, relacionadas a bombas e explosivos, determinadas pelos responsáveis e nos limites de suas atribuições.",
+    "referencia": "SimuChacal, simulado 10, questão #625 — Ref: P.109"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Instrução Normativa (IN) 005/2004 - DG/PF, quais das ATRIBUIÇÕES abaixo NÃO são exclusivas dos RESPONSÁVEIS pelos Grupos de Bombas e Explosivos (GBE):",
+    "alternativas": {
+      "A": "Gerir e manter os recursos humanos e materiais disponíveis em condições\nde pronto emprego",
+      "B": "Preservar dados e informações coletados nas atividades visando aos exames periciais, a investigação e a inteligência policial, assim como a manutenção de banco de dados específico;",
+      "C": "Participar de reuniões preparatórias visando à elaboração de planos\nde segurança de dignitários, sempre que necessárias as vistorias preventivas de\nsegurança;",
+      "D": "Propor ao Diretor Técnico-Científico, através do INC, ou aos Superintendentes Regionais, por intermédio das unidades Técnico-Científicas, a adoção de medidas para facilitar a consecução dos trabalhos a serem executados pelos grupos;"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Preservar dados e informações coletados nas atividades visando aos exames periciais (...), é atribuição de todos os integrantes dos GBEs, não são exclusivas dos responsáveis pelo grupo.",
+    "referencia": "SimuChacal, simulado 10, questão #626 — Ref: P.109"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Instrução Normativa (IN) 005/2004 - DG/PF, julgue os itens a seguir:\n\nI- A participação do servidor policial federal como integrante do GBE exclui da execução das atribuições inerentes ao respectivo cargo;\nII - A capacidade e perfil dos interessados em integrar o GBE é avaliada por comissão, composta pelo responsável e demais integrantes do Grupo, com posterior aprovação da DITEC;\nIII- É requisito para participação como integrante do GBE ser servidor da Carreira Policial Federal, ativo ou aposentado;\nIV – gerir e manter os recursos humanos e materiais disponíveis em condições de pronto emprego é atribuição dos responsáveis pelo GBE;\nV - sugerir e participar de ações de capacitação é atribuição dos responsáveis pelo GBE;\n\nEstão certas as afirmações:",
+    "alternativas": {
+      "A": "II e IV",
+      "B": "I, II, III e V",
+      "C": "I, III e V",
+      "D": "II, IV e V"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #634 — Ref: P.109"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação às AÇÕES REPRESSIVAS, além das medidas de caráter preventivo, incumbe ao Departamento de Polícia Federal o exercício das seguintes tarefas, EXCETO:",
+    "alternativas": {
+      "A": "apurar infrações penais de qualquer natureza cometidas a bordo de aeronaves;",
+      "B": "apurar em processo próprio as infrações cometidas pelas empresas que\natuam no tráfego internacional, nos casos de condução para o território nacional de passageiros e tripulantes em situação irregular, aplicando-lhes as sanções legais cabíveis;",
+      "C": "assumir o comando das operações policiais, até solução final, nos casos\nde apoderamento ilícito de aeronaves;",
+      "D": "colocar no interior de aeronaves pessoas apanhadas em flagrante delito\nou cuja retirada seja determinada por autoridade competente;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "VI - retirar do interior de aeronaves pessoas apanhadas em flagrante delito\nou cuja retirada seja determinada por autoridade competente",
+    "referencia": "SimuChacal, simulado 10, questão #641 — Ref: 106"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos aeroportos, a ligação da Polícia Federal com as empresas aéreas\ne outras entidades ali sediadas será feita através:",
+    "alternativas": {
+      "A": "Seção de Fiscalização do Tráfego Internacional (SFTI)",
+      "B": "Coordenação Central Policial (CCP)",
+      "C": "Divisões de Polícia Marítima, Aérea e de\nFronteiras (DPMAF)",
+      "D": "Divisão de Ordem Política e Social (DOPS)"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Art. 10. Nos aeroportos, a ligação da Polícia Federal com as empresas aéreas\ne outras entidades ali sediadas será feita através da Seção de Fiscalização do\nTráfego Internacional (SFTI).",
+    "referencia": "SimuChacal, simulado 10, questão #642 — Ref: 106"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que concerne ao estabelecimento do Posto de Controle e aos procedimentos de Avaliação e Observação de um suposto artefato explosivo, assinale a alternativa correta, de acordo com a doutrina estabelecida no manual:",
+    "alternativas": {
+      "A": "O Posto de Controle deve ser montado em local que ofereça proteção balística à equipe, inclusive contra ataques de franco-atiradores.",
+      "B": "As informações fornecidas por testemunhas oculares (\"Eu vi uma enorme caixa preta\") devem ser aceitas de maneira absoluta para definir o método de neutralização, visando ganhar tempo na operação.",
+      "C": "O chefe da equipe, por ser o membro que realiza as incursões e corre o maior risco, deve tomar decisões, sendo desaconselhável o debate.",
+      "D": "A estimativa da quantidade de explosivos presente no pacote, realizada durante a fase de avaliação, serve apenas para fins de registro pericial posterior, não tendo impacto na manutenção ou ampliação do perímetro de isolamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A (Correta): O material destaca uma precaução muitas vezes ignorada: como o alvo do artefato é desconhecido, a equipe deve se proteger contra \"snipers\" no posto de controle.\n\nB (Incorreta): O técnico deve ser crítico com as testemunhas. O manual cita o exemplo de que uma \"enorme caixa preta\" relatada pode ser, na verdade, uma caixa pequena e branca.\n\nC (Incorreta): A doutrina é enfática: o chefe deve levar fotos para debate e OUVIR SEMPRE SUA EQUIPE, pois o parceiro pode ter uma solução melhor.\n\nD (Incorreta): A estimativa da carga é fundamental justamente para \"saber se o perímetro de isolamento deve ser aumentado ou não\".",
+    "referencia": "SimuChacal, simulado 10, questão #644 — Ref: p.75-77"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação às MEDIDAS PREVENTIVAS, ao Departamento de Polícia Federal, no exercício de suas atribuições, especialmente no tocante aos serviços de Polícia Aérea, compete desempenhar nas áreas aeroportuárias as seguintes tarefas, EXCETO:",
+    "alternativas": {
+      "A": "inspecionar a documentação de viagem e proceder à revista pessoal e da\nbagagem de mão dos passageiros e tripulantes embarcando em vôos internacionais e, quando necessário, nos domésticos;",
+      "B": "proceder à identificação e revista pessoal e da bagagem de mão das pessoas que, excepcional e devidamente autorizadas, pela autoridade da PF encarregada da fiscalização do tráfego internacional ou pela autoridade aduaneira local, acompanharem passageiros ou tripulantes à área de embarque internacional, respeitando as prerrogativas pessoais conferidas por lei, tratados e convenções;",
+      "C": "submeter aos procedimentos previstos no item I deste artigo os passageiros e tripulantes que forem embarcar em vôo internacional, com previsão de desembarque, em solo pátrio;",
+      "D": "inspecionar a documentação dos passageiros e tripulantes chegando de voos nacionais, procedendo de acordo com a legislação específica sobre as condições;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "IV - inspecionar a documentação dos passageiros e tripulantes chegando do exterior, procedendo de acordo com a legislação específica sobre as condiçõesde desembarque e admissibilidade no território nacional;",
+    "referencia": "SimuChacal, simulado 10, questão #647 — Ref: 103"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, assinale a alternativa que NÃO corresponde a um dos elementos previstos no plano de segurança em caso de ameaça de bomba.",
+    "alternativas": {
+      "A": "Estabelecimento de uma cadeia de comando para evitar ações repetidas ou divergentes.",
+      "B": "Elaboração de um plano de comunicação restrito aos integrantes do plano de segurança.",
+      "C": "Definição de rotas fixas e permanentes de evacuação, a fim de facilitar a orientação dos ocupantes.",
+      "D": "Realização de exercícios periódicos dos planos de vistoria e evacuação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nEssa medida integra o plano de segurança. O texto afirma que deve ser estabelecida uma cadeia de comando para evitar ações repetidas ou divergentes.\n\nAlternativa B – Incorreta.\nO plano de comunicação é apontado como uma ferramenta vital para evitar o pânico, utilizando meio de comunicação restrito aos integrantes do plano de segurança.\n\nAlternativa C – Correta.\nO texto afirma justamente o contrário: devem ser previstas rotas de evacuação com rodízio, evitando o estabelecimento de uma rotina previsível que facilite um ataque terrorista.\n\nAlternativa D – Incorreta.\nO texto prevê a realização regular de exercícios e simulações dos planos de vistoria e evacuação.",
+    "referencia": "SimuChacal, simulado 10, questão #648 — Ref: Págs. 54 - 56"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação da ameaça de bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A ameaça verde constitui uma ameaça real e demanda evacuação imediata.",
+      "B": "A ameaça âmbar corresponde à ameaça que não é levada em consideração.",
+      "C": "A ameaça vermelha indica que a ameaça é considerada real.",
+      "D": "A classificação da ameaça é realizada exclusivamente pelo chefe da segurança da empresa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nSegundo a nomenclatura apresentada, ameaça verde é aquela que não é levada em consideração.\n\nAlternativa B – Incorreta.\nA ameaça âmbar significa que a ameaça pode vir a ser considerada, e não que seja desconsiderada.\n\nAlternativa C – Correta.\nO texto estabelece que ameaça vermelha é aquela que constitui uma ameaça real.\n\nAlternativa D – Incorreta.\nO texto afirma que cada membro da Assessoria de Risco realiza a classificação da ameaça após a avaliação dos dados, e não apenas o chefe da segurança.",
+    "referencia": "SimuChacal, simulado 10, questão #649 — Ref: Págs. 54 - 56"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre bombas, considere as afirmativas:\nI - As bombas são construídas necessariamente para explodir.\nII - Algumas bombas têm formato característico, como bomba-tubo, ou são ocultadas em malas, garrafas, livros e até veículos.\nIII - Algumas bombas são construídas para explodir se tocadas, movimentadas ou meramente\npor aproximação.\nIV - Os dispositivos explosivos irregulares (DEI), também conhecidos como artefatos explosivos ou bombas caseiras, são facilmente disfarçados e podem ter vários tipos de forma e tamanho, sendo rústicos ou sofisticados.\n\nAssinale a alternativa que apresenta apenas as alternativas corretas.",
+    "alternativas": {
+      "A": "I, II e III",
+      "B": "II e III",
+      "C": "I, II, III e IV",
+      "D": "II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"As bombas não são construídas necessariamente para explodir. Há as bombas incendiárias, [...]. Existem também bombas postais ou cartas-bomba, [...]\"\n\nDEI = Dispositivos Explosivos Improvisados",
+    "referencia": "SimuChacal, simulado 10, questão #651 — Ref: p. 51"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a ameça de bomba é correto afirmar:",
+    "alternativas": {
+      "A": "A ameaça de bomba é comunicação normalmente identificada, contra pessoas\nou instituições, usualmente feita diretamente ao alvo.",
+      "B": "Na maioria dos casos, as denúncias atingem seus objetivos que é desafiar a polícia a encontrar a bomba.",
+      "C": "No caso de uma nova chamada para um mesmo local, basta acionar a polícia, pois já que a primeira chamada foi enganosa não é necessário seguir o plano de segurança.",
+      "D": "É necessário que tanto a segurança quanto o segurado se envolvam com o problema e estejam determinados a solucioná-lo, cada um com as suas responsabilidades e atribuições."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #652 — Ref: p. 51 e 52"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da Identificação Positiva do Alvo (IPA/PTI) em caso de ameaça de bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Corresponde à confirmação, pelas equipes de segurança, de que há um artefato explosivo instalado no local ameaçado.",
+      "B": "Consiste na existência, na ameaça, de informações específicas sobre o alvo que não sejam de conhecimento público, indicando conhecimento singular ou em primeira mão.",
+      "C": "Corresponde ao registro formal da ameaça para utilização em futuras investigações.",
+      "D": "É um procedimento realizado apenas após a conclusão da vistoria do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nA IPA/PTI não consiste na confirmação da existência de um artefato explosivo, mas na presença de informações específicas sobre o alvo que indiquem conhecimento singular ou em primeira mão.\n\nAlternativa B – Correta.\nO texto define a Identificação Positiva do Alvo (IPA/PTI) como a existência de informações referentes ao alvo — como nome, cargo, setor ou outras informações não públicas — indicando conhecimento singular ou em primeira mão.\n\nAlternativa C – Incorreta.\nO registro da ameaça é uma providência distinta da IPA/PTI, embora também seja recomendado pelo texto.\n\nAlternativa D – Incorreta.\nA IPA/PTI é utilizada durante a avaliação da ameaça para auxiliar sua classificação, e não apenas após a vistoria.",
+    "referencia": "SimuChacal, simulado 10, questão #653 — Ref: Págs. 54 - 56"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere uma ocorrência em que a equipe de bombas estabeleceu um perímetro de isolamento, mas não possui visada direta do objeto suspeito a partir de uma distância segura. Com base nos Procedimentos de Reação a Bombas, assinale a alternativa que descreve a conduta técnico-doutrinária correta:",
+    "alternativas": {
+      "A": "Caso o técnico precise aproximar-se para fotografar o artefato devido à falta de visada direta, ele deve priorizar o detalhamento descritivo e a busca por vestígios de autoria no local.",
+      "B": "A fase de Avaliação permite que o técnico pondere as informações das testemunhas e sua própria inspeção visual para, entre outras finalidades, estimar a carga explosiva e decidir pela manutenção ou ampliação do perímetro de isolamento.",
+      "C": "O debate das fotografias no Posto de Controle é uma etapa opcional e, caso aja discordância técnica quanto a natureza do artefato, prevalece sempre a decisão/opnião do membro mais experiente.",
+      "D": "Para garantir a descrição técnica fiel do artefato, as comunicações via rádio ou telefone celular devem ser realizadas o mais próximo possível do artefato, permitindo que o posto de comando receba informações precisas e em tempo real."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A (Incorreta): A regra de ouro é o tempo mínimo no alvo. Quanto mais tempo o técnico permanece próximo ao artefato, maior a probabilidade de ele se ferir em caso de explosão. Além disso, a coleta de vestígios é a última prioridade na hierarquia.\n\nB (Correta): Durante a avaliação, o técnico utiliza seu treinamento e experiência para ponderar as informações. A estimativa da quantidade de explosivos é fundamental para saber se o perímetro de isolamento deve ser aumentado ou não.\n\nC (Incorreta): A doutrina é enfática ao dizer que o chefe deve ouvir sempre sua equipe. O parceiro, mesmo o menos experiente, pode ter uma solução melhor.\n\nD (Incorreta): Não devem ser feitas comunicações perto do artefato, pois o uso de aparelhos de radiofrequência (RF) pode vir a acioná-lo acidentalmente. Assim, todas as comunicações com o exterior devem ser feitas a partir do posto de control.",
+    "referencia": "SimuChacal, simulado 10, questão #656 — Ref: p. 75-78"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante os trabalhos periciais em um cenário de pós-explosão ocorrido em uma grande praça pública, a equipe se depara com a necessidade de coordenar a busca por vestígios sob duas condições críticas: a área afetada é muito extensa e há uma forte pressão social e governamental para a liberação e reabertura rápida do espaço urbano. Considerando as técnicas de busca representadas graficamente nas diretrizes técnicas oficiais, qual decisão metodológica adota a justificativa correta para o caso?",
+    "alternativas": {
+      "A": "Optar pela busca partindo do centro da explosão, uma vez que a prioridade governamental exige a obtenção imediata das pistas iniciais do artefato.",
+      "B": "Adotar a busca simultânea, justificada pela necessidade de cobrir grandes áreas e viabilizar a liberação célere do local",
+      "C": "Empregar o método partindo do centro com o uso de fileiras, pois o alinhamento de braços abertos é o padrão indicado para coletar pistas iniciais de forma rápida",
+      "D": "Suspender a divisão em perímetros e aplicar a busca simultânea, já que a urgência na liberação do local impede a delimitação física da cena."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Justificativa da Correta: A busca simultânea em fileiras é expressamente recomendada para cenários onde se faz necessária a varredura de grandes áreas e a subsequente liberação do local\n. A alternativa A está incorreta porque a busca partindo do centro visa a obtenção de pistas iniciais e não é prioridade para reabertura de grandes áreas\n. As alternativas C e D estão erradas porque confundem as técnicas e violam a regra básica de preservação física dos perímetros\nCitação Direta do Documento: \"SIMULTÂNEA Fileira Motivo: - grandes áreas - liberação do local\"",
+    "referencia": "SimuChacal, simulado 10, questão #662 — Ref: 90"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame pericial de um local de explosão, a equipe iniciou a busca de vestígios diretamente na área mais próxima ao epicentro, expandindo posteriormente a vistoria em direção ao perímetro externo. Considerando o procedimento descrito na apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O procedimento está correto, pois a busca deve necessariamente iniciar no ponto de maior destruição.",
+      "B": "O procedimento está incorreto, pois o grupo de busca de vestígios deve vistoriar a área partindo do perímetro externo para o interno.",
+      "C": "O procedimento está correto, desde que previamente autorizado pelo chefe da equipe.",
+      "D": "O procedimento está incorreto, pois somente o perito químico pode realizar a busca de vestígios em locais de explosão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a apostila, compete ao grupo de busca de vestígios determinar o método de busca e vistoriar a área partindo do perímetro externo para o interno. A busca específica no perímetro interno e na área da explosão é atribuída ao grupo de busca do local da explosão (epicentro). (Apostila, p. 82 – item 10.2, “Grupo de busca de vestígios”).",
+    "referencia": "SimuChacal, simulado 10, questão #664"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processamento de um local de explosão, foram identificados diversos vestígios espalhados pela área. Antes da coleta, um dos integrantes da equipe propôs que todos fossem imediatamente reunidos e acondicionados em uma única embalagem, a fim de agilizar os trabalhos.\n\nDe acordo com a apostila, essa conduta é:",
+    "alternativas": {
+      "A": "adequada, desde que os vestígios sejam posteriormente classificados pelo perito químico.",
+      "B": "adequada, caso todos os vestígios tenham sido encontrados no mesmo perímetro.",
+      "C": "inadequada, pois os vestígios encontrados devem ser registrados e empacotados individualmente.",
+      "D": "inadequada, pois nenhum vestígio pode ser retirado do local antes da reconstrução integral do artefato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila estabelece, entre as atribuições do grupo de busca de vestígios, o dever de registrar e empacotar individualmente os vestígios encontrados. Além disso, na área do epicentro, os vestígios devem ser registrados e empacotados depois de fotografados. (Apostila, p. 82 – item 10.2, “Grupo de busca de vestígios” e “Grupo de busca do local da explosão”).",
+    "referencia": "SimuChacal, simulado 10, questão #666"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma perícia realizada após uma explosão, analise as atribuições abaixo:\n\nI. Medir a largura, o comprimento e a profundidade da cratera.\nII. Coletar amostras para laboratório e contraprovas.\nIII. Tentar determinar o ângulo de maior destruição da explosão.\nIV. Fazer croquis dos perímetros externo e interno.\n\nSão atribuições do grupo de busca do local da explosão (epicentro):",
+    "alternativas": {
+      "A": "I, II e III, apenas.",
+      "B": "I e IV, apenas.",
+      "C": "II, III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Compete ao grupo de busca do local da explosão (epicentro) medir as dimensões e o formato da cratera, coletar amostras para laboratório e contraprovas e tentar determinar o ângulo de maior destruição. A elaboração de croquis da área e dos perímetros externo e interno é atribuição do desenhista, razão pela qual o item IV está incorreto. (Apostila, pp. 82–83 – item 10.2, “Grupo de busca do local da explosão” e “Desenhista”).",
+    "referencia": "SimuChacal, simulado 10, questão #667"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso prático de pós-explosão em via pública, o perito responsável começa a organizar o isolamento e a segurança da cena do crime antes do início da coleta de vestígios. Ele deve definir os limites físicos para a multidão, a imprensa (mídia), o posicionamento das viaturas oficiais e a delimitação da área de segurança. De acordo com o modelo gráfico de preservação da cena estabelecido no documento pericial, qual disposição espacial atende corretamente a essa organização?",
+    "alternativas": {
+      "A": "As viaturas de emergência devem ser estacionadas no epicentro da explosão para dar suporte rápido, enquanto a área de segurança é deslocada para fora do perímetro externo junto à multidão.",
+      "B": "A imprensa (mídia) possui trânsito livre na área de segurança para registrar os trabalhos, desde que a multidão seja isolada fora do perímetro interno.",
+      "C": "A mídia e a multidão devem ser mantidas restritas fora do perímetro externo, enquanto a viatura oficial e a área de segurança ficam posicionadas no espaço compreendido dentro do perímetro externo",
+      "D": "A área de segurança deve coincidir exatamente com o perímetro interno, de modo que as viaturas e os peritos permaneçam no epicentro da explosão, mantendo a mídia e a multidão no perímetro externo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: No modelo de preservação do local, a multidão e a mídia devem ser mantidas restritas e isoladas por barreiras de segurança fora do perímetro externo\n. Em contrapartida, as viaturas oficiais e a área de segurança operacional dos técnicos ficam posicionadas dentro dos limites do perímetro externo\n. As outras opções propõem a invasão da mídia ou das viaturas no epicentro, o que geraria contaminação de vestígios e violação dos protocolos gráficos estabelecidos\n.\nCitação Direta do Documento: \"Multidão \\n ISOLAR \\n Mídia \\n ISOLAR \\n Perímetro externo (marcar) \\n VIATURA \\n ÁREA DE SEGURANÇA\"",
+    "referencia": "SimuChacal, simulado 10, questão #668"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe de peritos criminais está documentando os trabalhos realizados em um local de pós-explosão de grande repercussão. Para garantir a precisão das informações e a instrução do laudo pericial, a equipe precisa preencher os formulários padronizados oficiais. Eles devem registrar a cronologia detalhada das atividades e horários (incluindo o início do exame pericial, eventuais interrupções e término), bem como as informações do local quanto a pontos cardeais, objetos fixos de referência e medidas de localização física de cada evidência. Com base nos padrões oficiais de documentação técnica, como esses dados devem ser distribuídos?",
+    "alternativas": {
+      "A": "O Formulário de Registro Administrativo é o instrumento adequado para indicar a escala utilizada e a legenda (chave) das evidências físicas encontradas na cena.",
+      "B": "Todas as medições de distância e pontos cardeais devem ser registradas exclusivamente nas colunas de \"Descrição / Informação Pertinente\" do Formulário de Registro Administrativo, dispensando o uso de diagramas",
+      "C": "O Formulário de Esquema/Diagrama da Cena do Crime destina-se a listar cronologicamente as atividades dos assistentes e horários de coleta, enquanto o Registro Administrativo contém os objetos fixos e pontos cardeais",
+      "D": "O cronograma de eventos e horários de interrupção deve ser registrado no Formulário de Registro Administrativo, enquanto a indicação de pontos cardeais, objetos fixos e medidas deve constar no Formulário de Esquema/Diagrama da Cena do Crime."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Justificativa da Correta: O Formulário 1 (Registro Administrativo) possui campos destinados especificamente a documentar a sequência temporal dos fatos, trazendo as variáveis de Horário e Descrição / Informação Pertinente\n. Já o Formulário 2 (Esquema/Diagrama da Cena do Crime) foca na representação espacial da cena, englobando as variáveis de Pontos cardeais, Objetos fixos, Medidas e Chave / Legenda\n. As alternativas A, B e C estão incorretas pois invertem as atribuições exclusivas de cada formulário ou sugerem a supressão de uma das ferramentas formais de documentação\n.\nCitação Direta do Documento: \"Formulário 1 – Amostra de Registro Administrativo ... Horário Descrição / Informação Pertinente ... Formulário 2 – Amostra de Esquema/Diagrama da Cena do Crime ... Pontos cardeais Evidência Assistentes Objetos fixos Medidas Chave / Legenda\"",
+    "referencia": "SimuChacal, simulado 10, questão #669"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às cargas de ataque utilizadas no canhão d'água, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A carga Avon é indicada para uso geral, pois sua dispersão promove ampla separação dos componentes do artefato.",
+      "B": "A carga de água é preferencialmente utilizada em alvos rígidos, como bombas-tubo metálicas.",
+      "C": "A carga Avon, composta por gesso, esferas ocas metálicas e água, forma um balote rígido que não provoca ricochete, sendo indicada para alvos mais resistentes.",
+      "D": "As cargas de água e Avon possuem a mesma aplicação prática, diferenciando-se apenas pelo volume de água empregado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"A carga Avon forma um balote relativamente rígido e resistente, sendo indicada para alvos mais rígidos, como bombas-tubo. Já a carga de água é de uso geral, explorando a força hidrodinâmica.\" P 42",
+    "referencia": "SimuChacal, simulado 10, questão #678"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação às técnicas de desativação e abertura remota de artefatos e objetos suspeitos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na técnica de desativação com garrafa plástica, cordel e água, a utilização da garrafa plástica tem como finalidade aumentar a produção de fragmentos para romper o invólucro do artefato.",
+      "B": "Na técnica do chicote, a abertura do envelope ocorre em razão da onda explosiva produzida pelo cordel, sem participação de qualquer outro elemento.",
+      "C": "Na abertura remota de envelope com cordel em cartão formato V, experiências têm apresentado bons resultados com a utilização de cordel Nitropenta.",
+      "D": "Na abertura remota de envelope com cordel e fio rígido, o cordel deve permanecer em contato direto com o envelope para garantir a abertura."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"• O cordel deve ficar próximo à borda do envelope;\n• A distância cordel-envelope depende da natureza de ambos;\n• Experiências têm dado bons resultados com o uso de cordel NP 05.\" P 43",
+    "referencia": "SimuChacal, simulado 10, questão #679"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O principal mecanismo de atuação do canhão d'água (disruptor) na desativação de artefatos explosivos consiste em:",
+    "alternativas": {
+      "A": "Produzir calor suficiente para fundir os componentes internos do artefato.",
+      "B": "Utilizar a força hidrodinâmica de uma coluna de água lançada sob alta pressão para desarticular o artefato.",
+      "C": "Gerar uma onda de choque por explosivo de alto poder para destruir completamente o artefato.",
+      "D": "Emitir pulsos eletromagnéticos para interromper o circuito de acionamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O disruptor utiliza a força hidrodinâmica de uma coluna de água lançada sob alta pressão para separar os componentes do artefato, reduzindo a probabilidade de acionamento.",
+    "referencia": "SimuChacal, simulado 10, questão #680"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o processamento pericial de um local de crime pós-explosão ocorrido em uma grande área aberta, a equipe de busca encontra-se com um número limitado de peritos para cobrir toda a extensão do terreno. De acordo com os procedimentos operacionais padrão adotados em perícias dessa natureza, qual padrão de busca é considerado o mais eficiente para garantir uma varredura sistemática e coordenada nessas condições?",
+    "alternativas": {
+      "A": "Padrão em Espiral, com deslocamento contínuo a partir do perímetro externo em direção ao epicentro.",
+      "B": "Padrão em Fileiras ou Linhas, alinhando os componentes lado a lado a uma distância de braços abertos, avançando em linha reta.",
+      "C": "Padrão em Rede (ou Grelha), dividindo o cenário com fitas e barbantes para uma varredura individual e circular em cada quadrícula.",
+      "D": "Padrão em Zona ou Quadrante, onde um único perito centraliza a recolha executando círculos concêntricos e concêntricos inversos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta: O método em espiral é indicado principalmente para divisões fechadas, divisões pequenas ou áreas externas muito restritas, iniciando-se geralmente no foco (epicentro) para fora (ou vice-versa), tornando-se ineficaz e geograficamente impreciso em grandes extensões com poucos recursos.\n\nB) Correta: O padrão em fileiras ou linhas (também chamado de busca em linha) é o método ideal para grandes áreas abertas. Permite que uma equipa, mesmo reduzida, se alinhe lado a lado e avance de forma coordenada, cobrindo uma faixa contínua do terreno. Se alguém avistar um vestígio, a linha para, o objeto é marcado/registado e a progressão recomeça.\n\nC) Incorreta: O método em rede (grelha) exige o cruzamento de duas passagens (uma horizontal e outra vertical) na mesma área. Embora seja muito minucioso, consome o dobro do tempo e exige um esforço ou número de operacionais que o torna contraproducente para uma equipa limitada numa área muito vasta.\n\nD) Incorreta: O método por zonas divide o local em subáreas (setores). Contudo, a descrição de \"um único perito a executar círculos concêntricos\" descaracteriza a aplicação prática e eficiente deste método para grandes territórios abertos e desvirtua a doutrina de varredura setorial.",
+    "referencia": "SimuChacal, simulado 10, questão #690 — Ref: 87"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a ocorrência de uma explosão em um ambiente urbano, a primeira equipe pericial a chegar ao local deve realizar o isolamento e o estabelecimento dos perímetros de segurança para preservar os vestígios e garantir a integridade dos operadores. De acordo com a doutrina de processamento de locais de pós-explosão, como deve ser dimensionado o perímetro externo de isolamento inicial?",
+    "alternativas": {
+      "A": "Deve ser fixado a uma distância fixa e padrão de exatamente 100 metros a partir do ponto central presumido da explosão, independentemente do tipo de dano observado.",
+      "B": "Deve ser estabelecido com base na localização do vestígio ou fragmento mais distante da explosão encontrado visualmente, acrescido de uma margem de segurança de cerca de 50%.",
+      "C": "Deve ser restrito estritamente à área que apresenta danos estruturais graves ou colapso iminente de edificações.",
+      "D": "Deve ser delimitado utilizando um raio equivalente ao dobro da distância entre o epicentro e o local onde foi identificada a primeira vítima fatal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta: O estabelecimento de perímetros em locais de explosão não segue uma métrica rígida e fixa para todos os casos, pois o raio de dispersão depende diretamente da quantidade e do tipo de explosivo utilizado, além das características do ambiente.\n\nB) Correta: A regra doutrinária para o isolamento inicial de locais pós-explosão determina que o perímetro externo deve cobrir uma área que vá além do fragmento (seja do engenho, do veículo ou da estrutura) arremessado à maior distância encontrada durante a varredura visual inicial, adicionando-se uma margem de segurança (geralmente recomendada em 50%) para garantir que nenhum vestígio periférico seja alterado ou destruído.\n\nC) Incorreta: Limitar o perímetro apenas à zona de colapso estrutural (que corresponde geralmente à zona de pressão máxima ou perímetro interno) deixa de fora a zona de fragmentação secundária, onde componentes cruciais para a identificação do engenho explosivo costumam ser projetados.\n\nD) Incorreta: A localização de vítimas não é o critério técnico balizador para o dimensionamento do raio geográfico de isolamento de vestígios materiais, uma vez que corpos ou feridos podem ser movidos ou deslocados por socorristas antes da delimitação pericial.",
+    "referencia": "SimuChacal, simulado 10, questão #691 — Ref: 85"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A realização de uma documentação minuciosa e padronizada das tarefas executadas em locais de pós-explosão é considerada etapa fundamental para subsidiar a elaboração do laudo definitivo, servindo de base para a reconstrução do artefato, para a reconstituição do local e para o direcionamento das investigações policiais em curso. A respeito dos quatro tipos de formulários sugeridos pela doutrina para utilização por parte da equipe pericial, analise os itens a seguir:\n\nI. O Formulário para registro de ocorrência destina-se a registrar, por meio de descrições breves, os horários e os principais eventos verificados, abrangendo dados como a chegada da equipe ao local, nomes dos contatos pessoais, bem como eventuais interrupções dos trabalhos e suas respectivas justificativas.\nII. O Formulário de registro fotográfico é a ferramenta indicada para a catalogação e anotação das sequências fotográficas realizadas na cena de crime, contendo também dados complementares relativos aos equipamentos técnicos e às escalas que foram utilizados nas capturas de imagem.\nIII. O Formulário para diagramas e croquis do local constitui um dos quatro modelos expressamente recomendados e tem sua aplicação técnica voltada à documentação espacial gráfica do cenário.\nIV. O Formulário de localização de vestígios cumpre a função de correlacionar cada elemento material encontrado com a sua devida amarração geográfica no local, o número correspondente da fotografia, o método empregado para sua coleta e empacotamento, além da identificação do operador que o localizou.\n\nCom relação aos itens expostos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Apenas dois itens estão corretos.",
+      "B": "Apenas três itens estão corretos.",
+      "C": "Todos os quatro itens estão corretos.",
+      "D": "Nenhum item está correto."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens (I, II, III e IV) estão corretos: A questão reproduziu de forma exata a literalidade das funções e nomenclaturas atribuídas a cada um dos quatro formulários sugeridos na doutrina oficial de perícia em locais de explosão:\n\nO item I reflete perfeitamente o Formulário para registro de ocorrência (eventos, horários, contatos e interrupções).\n\nO item II detalha fielmente o Formulário de registro fotográfico (sequências, equipamentos e escalas).\n\nO item III cita textualmente o Formulário para diagramas e croquis do local.\n\nO item IV transcreve rigorosamente as funções do Formulário de localização de vestígios (relação do vestígio, amarração, foto, método de coleta/empacotamento e quem encontrou).",
+    "referencia": "SimuChacal, simulado 10, questão #692 — Ref: 86"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação técnica dos materiais explosivos exige a correlação entre sua finalidade de emprego, sensibilidade e comportamento termodinâmico de detonação. Com base nessas propriedades, avalie o perfil dos altos explosivos secundários",
+    "alternativas": {
+      "A": "Exigem um dispositivo de iniciação prévio e prescindem de confinamento estrutural para deflagrar sua ruptura",
+      "B": "Caracterizam-se fundamentalmente por uma combustão de natureza progressiva inferior a mil metros por segundo nos trabalhos industriais",
+      "C": "Constituem a substância prioritária na elaboração de detonadores devido à sua extrema reatividade perante atritos físicos, choques mecânicos e altas temperaturas",
+      "D": "Apresentam estabilidade molecular superior e sensibilidade elevada perante o atrito contínuo, garantindo a conversão da carga em energia expansiva durante o processo químico"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os altos explosivos secundários (de ruptura) necessitam de uma carga inicial, como um detonador (com exceção da nitroglicerina), e não precisam de confinamento para explodir.",
+    "referencia": "SimuChacal, simulado 10, questão #696"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pólvora atua como um baixo explosivo de características deflagrantes, cujo comportamento termodinâmico varia conforme seus reagentes. Considerando a composição da pólvora cloratada frente à pólvora negra tradicional, qual é a distinção química observada?",
+    "alternativas": {
+      "A": "A combustão dessa mistura termodinâmica específica dispensa completamente o confinamento mecânico para atingir o pico ideal de pressão máxima",
+      "B": "A proporção de carvão vegetal é elevada de forma a compensar a ausência integral das substâncias sulfurosas na formulação básica",
+      "C": "O nitrato de potássio cede espaço estrutural ao clorato de potássio e adiciona-se o elemento do açúcar refinado",
+      "D": "O processo exotérmico converte substâncias elementares líquidas em gases expansivos mesmo sem a aplicação prévia de chamas diretas ou fricções"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Na pólvora cloratada, o salitre é substituído pelo clorato de potássio, e a mistura passa a conter também 15% de açúcar refinado.",
+    "referencia": "SimuChacal, simulado 10, questão #697"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A dinâmica de uma detonação abrange a propagação de ondas de choque e a taxa de reatividade mecânica do material. Sobre os fatores físicos que regem esse fenômeno, assinale a constatação técnica adequada",
+    "alternativas": {
+      "A": "O trinitrotolueno e os compostos plásticos representam elementos químicos com extrema suscetibilidade de iniciação acidental ocasionada por atritos mecânicos ou faíscas",
+      "B": "A capacidade de brisância de uma carga de ruptura é mensurada pela contagem exata de resíduos remanescentes localizados após sua detonação primária",
+      "C": "As detonações de perfil puramente mecânico caracterizam-se pela transformação instantânea da matéria em energia originada da ruptura dos núcleos atômicos",
+      "D": "A rapidez de propagação da onda pelo artefato oscila conforme a densidade estrutural e a granulometria da substância"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A velocidade de detonação, medida em m/s, varia dependendo de fatores como o diâmetro do cartucho, a granulometria, o grau de confinamento e a densidade do material explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #698"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o primeiro contato visual direto do técnico com o suposto artefato explosivo, qual regra deve ser observada?",
+    "alternativas": {
+      "A": "Aguardar o “tempo de molho” de 20 minutos.",
+      "B": "Permanecer próximo até concluir a avaliação da situação.",
+      "C": "Manter o tempo mínimo no alvo.",
+      "D": "Iniciar imediatamente uma entrada manual."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“Tirar várias fotos e sair o mais rapidamente possível de perto do suposto artefato explosivo, pois quanto mais tempo permanecer próximo, maior será a probabilidade de que ele venha a explodir e o técnico se machuque.\nA regra é: tempo mínimo no alvo.”",
+    "referencia": "SimuChacal, simulado 10, questão #711 — Ref: p. 78-80"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os procedimentos aplicáveis a um incidente classificado na Categoria B, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os trabalhos devem começar imediatamente, sem perda de tempo com entrevistas, e a entrada manual deve ser a primeira opção.",
+      "B": "Todas as informações disponíveis devem ser colhidas antes das operações, devendo-se observar o período de espera adequado e, se possível, utilizar métodos remotos.",
+      "C": "A situação representa perigo mínimo para o pessoal e normalmente deve ser solucionada mediante contracarga com explosivo.",
+      "D": "O local não deve ser evacuado, pois existe ameaça indireta à vida e direta ao patrimônio."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O período de espera adequado deve ser observado antes de iniciar a operação para neutralizar a bomba.”\n\n“Se possível, devem ser usados métodos remotos, como a técnica da corda para mover de um local para outro o suposto artefato explosivo.”\n\n“Todas as informações disponíveis serão colhidas antes de começar as operações para neutralizar a bomba.”",
+    "referencia": "SimuChacal, simulado 10, questão #713 — Ref: p. 78-80"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas sobre a categorização dos incidentes envolvendo supostos artefatos explosivos:\n\nI. Na Categoria A, existe ameaça imediata e direta à vida, devendo os trabalhos começar imediatamente.\nII. Na Categoria B, se o artefato explodir, não deverá causar danos à vida, pois o local já terá sido evacuado.\nIII. A Categoria C somente deve ser considerada depois que as categorias A e B tiverem sido eliminadas.\nIV. Na Categoria C, quando for utilizada uma técnica ativa, deve-se aguardar o “tempo de molho” de 20 minutos antes da aproximação.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas II, III e IV estão corretas.",
+      "C": "Apenas I, II e III estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Afirmativa I:\n\n“Na categoria A existe ameaça imediata (direta) à vida, ou seja, se o suposto artefato explodir, irá ferir ou matar alguém.”\n\n“Por se tratar de situações de extrema periculosidade, os trabalhos com o suposto artefato explosivo devem começar imediatamente, assim que o técnico chegar ao local.”\n\nAfirmativa II:\n\n“Na categoria B, se o suposto artefato vier a explodir não deverá causar danos à vida, pois o local já terá sido evacuado.”\n\nAfirmativa III:\n\n“Essa situação deve ser considerada depois que as categorias A e B tiverem sido eliminadas.”\n\nAfirmativa IV — incorreta:\n\nO “tempo de molho” de 20 minutos pertence à Categoria B, e não à Categoria C:\n\n“Quando for usada uma técnica ativa, deve-se esperar o ‘tempo de molho’ de 20 minutos antes de se aproximar novamente do suposto artefato explosivo.”",
+    "referencia": "SimuChacal, simulado 10, questão #714 — Ref: p. 78-80"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em conformidade com a metodologia de inspeção detalhada de uma sala, descrita no material, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "a) A vistoria deve ser iniciada imediatamente pela inspeção física dos móveis e objetos mais próximos da porta, a fim de reduzir o tempo de permanência dos técnicos no ambiente.",
+      "B": "b) Antes do ingresso na sala, deve ser realizada uma breve avaliação audiovisual a partir da porta de acesso, podendo ruídos ou objetos suspeitos indicar a necessidade de evacuação do local, após a devida autorização pelo coordenador da vistoria.",
+      "C": "c) A divisão visual do ambiente em três seções tem como finalidade distribuir a inspeção entre três técnicos, sendo obrigatória a composição mínima de equipe com esse efetivo.",
+      "D": "d) Para evitar redundância na inspeção, ambos os técnicos devem percorrer o ambiente no mesmo sentido, preferencialmente no sentido horário."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O procedimento descrito determina que a vistoria seja realizada por equipes de, no mínimo, dois técnicos e tenha início com uma breve parada na porta para avaliação audiovisual. Caso sejam percebidos ruídos ou objetos suspeitos, poderá haver evacuação, mediante autorização do coordenador da vistoria. Após o ingresso, o ambiente é dividido visualmente em três faixas de altura, enquanto um técnico percorre o ambiente no sentido horário e o outro no sentido anti-horário.",
+    "referencia": "SimuChacal, simulado 10, questão #735 — Ref: p. 59"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No curso de uma vistoria de segurança, foi localizado um objeto suspeito abandonado em uma sala. Considerando exclusivamente as recomendações constantes do material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Confirmada a inexistência de proprietário do objeto, este deverá ser removido para área confinada, reduzindo-se o risco para os demais ocupantes da edificação.",
+      "B": "b) A primeira providência consiste em isolar o objeto, abrindo-o cuidadosamente para verificar a existência de mecanismo explosivo, evitando evacuações desnecessárias.",
+      "C": "c) Após verificar que o objeto aparentemente não sofreu detonação, admite-se sua remoção manual, desde que realizada por policial treinado e utilizando equipamentos de proteção individual.",
+      "D": "d) Caso o objeto não pertença a ninguém, deve-se evacuar o local, mas sem manusear, tentar abrir ou remover o material suspeito."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material é categórico ao estabelecer como principal regra de segurança: \"NÃO O TOCAR\". Recomenda-se verificar a quem pertence o objeto e, caso não haja proprietário, evacuar o local, sem manusear, abrir ou remover o material. Também é expressamente vedado tentar remover artefatos aparentemente falhados ou transportar objetos suspeitos para áreas confinadas.",
+    "referencia": "SimuChacal, simulado 10, questão #736 — Ref: p. 60"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a localização de um objeto suspeito durante uma vistoria de segurança, diversas medidas foram propostas pela equipe responsável. À luz das recomendações constantes do material, assinale a alternativa que reúne apenas procedimentos compatíveis com o protocolo descrito.",
+    "alternativas": {
+      "A": "Elaborar croqui somente após a neutralização do artefato; manter o objeto em ambiente fechado para reduzir a propagação da onda de choque; comunicar os bombeiros apenas se houver confirmação de explosivos.",
+      "B": "Remover cuidadosamente o artefato para área aberta; desligar os equipamentos elétricos do ambiente; elaborar posteriormente um croqui do local, caso solicitado pelo esquadrão antibombas.",
+      "C": "Cercar o objeto suspeito apenas após a chegada do esquadrão antibombas; remover imediatamente materiais inflamáveis das proximidades; cortar os fios aparentes para eliminar eventual alimentação elétrica do dispositivo.",
+      "D": "Elaborar, tão breve quanto possível, um diagrama do objeto e do local onde foi encontrado; notificar os bombeiros e, quando necessário, solicitar apoio médico; evitar cortar fios, arames ou cordões ligados ao objeto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material recomenda que seja elaborado o mais rapidamente possível um diagrama ou esboço do objeto e do local para subsidiar o planejamento do esquadrão antibombas. Também orienta a notificação dos bombeiros, a solicitação de apoio médico quando necessário e determina expressamente não cortar fios, arames ou cordões ligados ao objeto suspeito. As demais alternativas contrariam recomendações explícitas do texto.",
+    "referencia": "SimuChacal, simulado 10, questão #737 — Ref: p. 60"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sistema disparador de tubo de choque",
+    "alternativas": {
+      "A": "Consiste em um cilindro metálico maciço, rígido e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança.",
+      "B": "Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (TNT - (Trinitrotolueno) + ferro em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança.",
+      "C": "Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma onda de choque que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, detonando a espoleta com muito mais segurança.",
+      "D": "Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A O texto descreve o elemento como um tubo plástico oco (não maciço) e flexível (não rígido). Um cilindro metálico maciço e rígido é estruturalmente oposto ao descrito, impossibilitando que uma chama percorra seu interior (já que é maciço, não há interior oco).\n\nB O texto especifica que o material pirotécnico é composto por HMX (Octogênio) + alumínio em pó. Trocar por TNT (que é um explosivo de alto poder, mas não pirotécnico para produção de chama contínua) e ferro em pó (que não tem a mesma reação pirotécnica do alumínio) altera a composição química descrita, tornando a afirmação incompatível com o texto.\n\nC O texto afirma que o dispositivo produz uma chama (fenômeno de combustão/defiagrante), não uma onda de choque (fenômeno detonante/supersônico com pressão). Além disso, o efeito sobre a espoleta é sensibilizá-la (torná-la sensível/ativá-la) e não detoná-la (que seria uma reação explosiva violenta e instantânea). A troca dos termos altera tanto a natureza física do fenômeno quanto o efeito final descrito.\n\nD Gab",
+    "referencia": "SimuChacal, simulado 10, questão #754 — Ref: pg 30"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as medidas de segurança no manuseio, transporte e armazenamento de explosivos e detonadores, conforme descrito no texto, analise as afirmativas abaixo:\n\nI. Durante o transporte e armazenamento, explosivos e detonadores devem ser mantidos juntos para facilitar o acesso rápido em caso de emergência.\n\nII. Os detonadores comuns devem ser acondicionados separadamente uns dos outros com a finalidade de evitar atrito entre eles.\n\nIII. Nos detonadores elétricos, as pontas dos fios devem ser mantidas separadas para evitar curtos-circuitos que poderiam desarmar o dispositivo.\n\nIV. É permitido transportar cápsula explosiva elétrica no porta-luvas de viaturas, desde que os equipamentos eletrônicos do tipo radiotransmissor estejam desligados.",
+    "alternativas": {
+      "A": "Apenas a II está correta",
+      "B": "Apenas I e III estão corretos.",
+      "C": "I, III e IV estão corretos.",
+      "D": "Apenas IV está incorreta."
+    },
+    "resposta_correta": "A",
+    "justificativa": "I. Incorreta. O texto ordena que se deve separar explosivos de detonadores durante transporte e armazenamento, e não mantê-los juntos.\nII. Correta. O texto afirma textualmente que os detonadores comuns devem ser \"acondicionados, separadamente\" para evitar atrito.\nIII. Incorreta. O texto determina que, no caso de detonadores elétricos, deve-se unir as pontas dos fios para evitar iniciação acidental — e não mantê-las separadas.\nIV. Incorreta. O texto proíbe expressamente o transporte de cápsula explosiva elétrica no porta-luvas de viaturas que contenham equipamentos eletrônicos do tipo radiotransmissor, sem qualquer ressalva sobre o estado (ligado/desligado) do equipamento.",
+    "referencia": "SimuChacal, simulado 10, questão #757"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as medidas de segurança no manuseio de detonadores e espoletas elétricas, conforme descrito no texto, analise as afirmativas abaixo:\n\nI. É permitido o uso de detonadores próximos à rede de alta tensão, desde que as espoletas elétricas estejam devidamente isoladas termicamente.\n\nII. Recomenda-se evitar o trabalho com espoletas elétricas em condições adversas de tempo, conforme orientação do texto.\n\nIII. Os detonadores elétricos devem ser colocados no chão com os fios já enrolados e abertos, para facilitar o manuseio posterior.\n\nIV. O radiotransmissor, incluindo HT e celulares, deve ser desligado próximo ao local sob ameaça.",
+    "alternativas": {
+      "A": "Apenas I e IV estão corretas",
+      "B": "Apenas II e III estão corretas",
+      "C": "Apenas III e IV estão corretas.",
+      "D": "Apenas II e IV estão corretas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "I. Incorreta. O texto proíbe expressamente o uso de detonadores próximo à rede de alta tensão, pois as espoletas elétricas podem detonar por indução eletromagnética — e não por isolamento térmico, que sequer é mencionado.\n\nII. Correta. O texto afirma textualmente que não se deve trabalhar com espoletas elétricas em condições adversas de tempo.\n\nIII. Incorreta. O texto orienta que os detonadores elétricos devem ser colocados no chão com os fios já desenrolados e curto-circuitados — e não \"enrolados e abertos\", que é o oposto do descrito.\n\nIV. Correta. O texto determina que se deve desligar o radiotransmissor (inclusive HT e celulares) próximo ao local sob ameaça.",
+    "referencia": "SimuChacal, simulado 10, questão #758"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A escolha do local para a colocação de uma bomba leva em conta normalmente:",
+    "alternativas": {
+      "A": "A altura de colocação do artefato",
+      "B": "A visibilidade obtida com o efeito do atentado",
+      "C": "Facilidade de ocultação do artefato",
+      "D": "Cumprimento a requisitos das ideologias terroristas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pag. 50.\nSão 3 aspectos que a apostila enumera como considerados para colocação de uma bomba:\n• Facilidade de acesso e ocultação do artefato;\n• Menor possibilidade de que o indivíduo que irá colocá-la seja visto;\n• Chance de causar o maior dano possível.",
+    "referencia": "SimuChacal, simulado 10, questão #759"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre inspeções e planejamento de segurança, julgue",
+    "alternativas": {
+      "A": "No planejamento da segurança de comitivas, deve-se ter 2 rotas alternativas que também serão vistoriadas.",
+      "B": "Recomenda-se formar hábitos diários com a comitiva, para consolidar o procedimento de segurança na equipe.",
+      "C": "As inspeções de segurança verificam se há perigos intencionais à autoridade que estará presente. Os perigos\nnaturais, como piso excessivamente encerado, potencial causador de quedas, são objetos de outro tipo de equipe\ne de contexto.",
+      "D": "A varredura preventiva deve inspecionar toda a área imediata e mediata"
+    },
+    "resposta_correta": "D",
+    "justificativa": "pag. 49\nGAB. D\na) deve-se ter 1 rota alternativa\nb) deve-se evitar formar hábitos diários\nc) verifica-se tanto perigos naturais quanto intencionais\nd) certo.",
+    "referencia": "SimuChacal, simulado 10, questão #760"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com as regras de segurança descritas no Anexo 1, qual é o procedimento padrão correto a ser adotado ao manusear o detonador e a carga principal?",
+    "alternativas": {
+      "A": "Conectar a linha de fogo diretamente à carga principal e, por último, fixar o detonador.",
+      "B": "Conectar o detonador à linha para só então conectá-lo à carga principal.",
+      "C": "Conectar o detonador à carga principal primeiro e depois estender a linha até a área de segurança.",
+      "D": "Acionar a linha de fogo antes mesmo de verificar a conexão com o detonador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto do Anexo 1 é explícito ao determinar: \"Adote como procedimento padrão, conectar o detonador à linha para só então conectá-lo à carga principal\". Esse protocolo minimiza o risco de uma detonação acidental enquanto os operadores manuseiam a carga principal.",
+    "referencia": "SimuChacal, simulado 10, questão #761 — Ref: p. 95"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No caso de ocorrer uma explosão acidental durante os exercícios práticos, qual deve ser a conduta imediata de todos os alunos presentes na área de testes?",
+    "alternativas": {
+      "A": "Correr imediatamente para fora da área de testes a fim de buscar ajuda externa.",
+      "B": "Permanecer no local exato onde estão e aguardar que o professor vá até eles.",
+      "C": "Retornar imediatamente à área de segurança.",
+      "D": "Tentar recolher os resíduos da explosão para limpar a área."
+    },
+    "resposta_correta": "C",
+    "justificativa": "De acordo com a observação (OBS) ao final do documento: \"Se uma explosão acidental ocorrer, todos os alunos deverão retornar à área de segurança\". Correr sem rumo ou permanecer na área de detonação representa um grave risco à integridade física.",
+    "referencia": "SimuChacal, simulado 10, questão #762 — Ref: p. 95"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre os motivos que originam uma solicitação de varredura, qual não está incluído?",
+    "alternativas": {
+      "A": "Visita",
+      "B": "Denúncia anônima",
+      "C": "Instalação",
+      "D": "Rotina"
+    },
+    "resposta_correta": "B",
+    "justificativa": "GAB. B.\npag. 49.\nOs motivos que originam uma solicitação de varredura podem ser:\nVisita - na ocorrência de eventos na própria cidade, fora do ambiente normal\nde trabalho ou quando em visita a outras cidades;\nPerigo iminente - quando sob ameaça por carta, telefonemas, etc.;\nRotina - inspeção onde se verifica se um ambiente mantido sob constante\nvigilância apresenta alguma alteração;\nInstalação - em cerimônias de posse ou quando da ocupação temporária\nou definitiva de um local;\nVazamento de informações ou infiltrações - quando se tem notícia de\nvazamento de informações em função da presença de elementos infiltrados.",
+    "referencia": "SimuChacal, simulado 10, questão #763"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Toda explosão realizada com iniciação elétrica ou tubo de choque exige um protocolo de comunicação verbal rigoroso. Assinale a alternativa que apresenta corretamente o grito de alerta padrão e o procedimento subsequente:",
+    "alternativas": {
+      "A": "\"Cuidado, fogo na torre!\", seguido do acionamento imediato.",
+      "B": "\"Fogo!\", seguido de uma contagem regressiva de 10 segundos.",
+      "C": "\"Atenção, linha quente!\", sendo então iniciada a contagem regressiva.",
+      "D": "\"Afastem-se todos!\", seguido da autorização do professor."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A última regra do anexo estabelece o padrão exato de comunicação de segurança: \"Toda explosão com iniciação elétrica ou tubo de choque será precedida do grito de alerta: 'Atenção, linha quente!', sendo então iniciada a contagem regressiva.\"",
+    "referencia": "SimuChacal, simulado 10, questão #764 — Ref: p. 95"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as vistorias em locais com ameaça de bomba, é correto afirmar:",
+    "alternativas": {
+      "A": "Deve ser feitas geralmente de dentro pra fora, de cima para baixo",
+      "B": "Nos casos de vistoria externa em carros-bomba, decidindo-se pela aproximação, esta deve ser feita pela diagonal",
+      "C": "ao encontrar objeto suspeito, deve-se retira-lo imediatamente e deixar o ambiente seguro",
+      "D": "Em vistorias em aeronaves, o isolamento inicial é de 1000m e todas as portas da aeronaves devem ser abertas, exceto as de emergência"
+    },
+    "resposta_correta": "B",
+    "justificativa": "a) errada. Pág 58\n\nb) correta. Pág 71\n\nc) erradao.\n\nd) errada. Pág 73",
+    "referencia": "SimuChacal, simulado 10, questão #782"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre ameaças de bomba, é correto afirmar que:",
+    "alternativas": {
+      "A": "As ameaças de bomba são comunicadas de forma normalmente anônima, sendo que na maioria dos casos, as denúncias são verdadeiras e os técnicos anti-bomba devem ser acionados imediatamente.",
+      "B": "As ameaças são classificadas com nomeclatura internacional em ameaça verde, ameaça amarela e ameaça vermelha.",
+      "C": "A Identificação Positiva do Alvo (IPA) é um fator de enorme relevância nas ameaças de bomba. Trata-se da informação referente ao alvo da ameaça.",
+      "D": "Em casos de ameaça sem IPA e sem fato gerador, deve ser feita evacuação parcial imediata, devido à ameaça real."
+    },
+    "resposta_correta": "C",
+    "justificativa": "a) errado.\n\nb) errado. Ameaça âmbar.\n\nc) correto. Pág 56.\n\nd) errado. Tabela da pág 56.",
+    "referencia": "SimuChacal, simulado 10, questão #783"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as vistorias em locais de ameaça de bomba, é correto afirmar que:",
+    "alternativas": {
+      "A": "Caso se encontre um objeto suspeito, deve-se procurar saber a quem pertence, ou quem deixou no local. Se não pertencer a ninguém, deve-se evacuar o local",
+      "B": "Em casos de objeto suspeito, devem-se fechar as portas e janelas para evitar a propagação da onda de choque de uma possível explosão",
+      "C": "A equipe de resposta a um chamado de bombas é sempre composta por no mínimo dois integrandes, sendo um chefe. O chefe é quem menos se expõe à bomba",
+      "D": "durante a vistoria em local sob ameaça de bomba, deve-se ficar atento aos objetos que não deveriam estar no local vistoriado ou estejam fora de seu lugar habtual, mas salienta-se que podem ter áreas que não serão checadas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) certo. Pág 60.\n\nb) errado. Pág 59.\n\nc) errado. É quem mais se expõe (pág 77).\n\nd) errado. Nenhuma área deve ficar sem ser checada (pág 58).",
+    "referencia": "SimuChacal, simulado 10, questão #784"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a Norma de Serviço n° 001/80-CCP/PF, quem é responsável pela remoção, neutralização ou desativação de artefatos explosivos e/ou incendiários encontrados?",
+    "alternativas": {
+      "A": "O responsável pelo local ameaçado",
+      "B": "A Polícia Militar local",
+      "C": "A Polícia Federal, por meio de serviços especializados",
+      "D": "O Instituto Nacional de Criminalística"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #800 — Ref: P. 101 e 102."
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando um servidor da Polícia Federal recebe denúncia sobre artefatos explosivos/incendiários, qual deve ser sua primeira providência?",
+    "alternativas": {
+      "A": "Isolar imediatamente o local ameaçado",
+      "B": "Comunicar à Delegacia de Ordem Política e Social ou Delegacia Executiva da PF mais próxima",
+      "C": "Solicitar apoio médico e contra incêndio",
+      "D": "Acionar diretamente o Instituto Nacional de Criminalística"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #801 — Ref: P. 101 e 102."
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo os procedimentos da Norma, ao confirmar a existência de artefato explosivo/incendiário, a Delegacia competente deve:",
+    "alternativas": {
+      "A": "Suspender o isolamento imediatamente",
+      "B": "Solicitar ao responsável pelo local que desative o artefato",
+      "C": "Acionar o setor competente e providenciar isolamento da área",
+      "D": "Evitar comunicar o fato para não gerar pânico"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #802 — Ref: P. 101 e 102."
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação adotada na apostila, constituem efeitos primários de uma explosão:",
+    "alternativas": {
+      "A": "Onda de pressão explosiva, fragmentação e efeito térmico-incendiário.",
+      "B": "Fragmentação, formação de vácuo e deslocamento de detritos.",
+      "C": "Onda de choque, efeito Monroe e deslocamento de ar.",
+      "D": "Efeito térmico, implosão e fragmentação secundária."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A apostila classifica como efeitos primários da explosão a onda de pressão explosiva, a fragmentação e o efeito térmico-incendiário. Os efeitos secundários dependem das características do ambiente onde ocorre a detonação, enquanto fenômenos como o efeito Monroe representam aplicações específicas das ondas de choque, e não uma classificação dos efeitos primários",
+    "referencia": "SimuChacal, simulado 10, questão #820"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a apostila, assinale a alternativa correta acerca das ondas de choque produzidas por explosões.",
+    "alternativas": {
+      "A": "São responsáveis exclusivamente pela propagação de calor, não produzindo efeitos mecânicos.",
+      "B": "Podem provocar a detonação de outra carga explosiva próxima por influência (simpatia), princípio empregado no funcionamento dos detonadores.",
+      "C": "Seu estudo limita-se à estimativa da área de danos, não possuindo aplicação na neutralização de artefatos explosivos.",
+      "D": "O efeito cumulativo ocorre quando uma única onda de choque sofre reflexão em obstáculos próximos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A apostila explica que as ondas de choque produzem efeitos mecânicos e podem desencadear explosões por influência (simpatia), princípio utilizado no funcionamento dos detonadores. Também ressalta que seu estudo permite o desenvolvimento de explosões dirigidas e pode auxiliar na neutralização de artefatos explosivos. O efeito cumulativo decorre da atuação de detonações dirigidas, potencializando as pressões obtidas.",
+    "referencia": "SimuChacal, simulado 10, questão #821"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação ao Efeito Monroe (ou efeito bazuca), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Consiste na dispersão uniforme das ondas de choque para reduzir a pressão exercida sobre o alvo.",
+      "B": "É empregado para direcionar a explosão mediante a convergência de várias ondas de choque para um mesmo ponto, sendo utilizado, por exemplo, em implosões.",
+      "C": "Seu funcionamento baseia-se exclusivamente na fragmentação produzida pelo recipiente que contém o explosivo.",
+      "D": "Caracteriza-se pela propagação paralela das ondas de choque ao longo da superfície da carga explosiva."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A apostila descreve o Efeito Monroe como o fenômeno em que várias ondas de choque convergem para um mesmo ponto, aumentando significativamente a pressão exercida sobre um alvo específico. Essa característica permite direcionar a explosão, sendo amplamente utilizada em implosões e no corte de estruturas metálicas. Além disso, a orientação da onda de choque ocorre perpendicularmente à superfície da carga explosiva.",
+    "referencia": "SimuChacal, simulado 10, questão #822"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após uma explosão, a equipe pericial encontrou resíduos da substância explosiva que não foi consumida durante o evento. Um integrante da equipe afirmou que essa constatação demonstraria, necessariamente, o emprego de um baixo explosivo.\n\nConsiderando os conceitos de ordem da explosão e de classificação dos explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A afirmação está correta, pois baixos explosivos sempre deixam resíduos, enquanto altos explosivos são integralmente consumidos.",
+      "B": "A afirmação está correta, pois “explosão de baixa ordem” e “baixo explosivo” são expressões equivalentes.",
+      "C": "A afirmação está incorreta, pois a presença de resíduos caracteriza uma explosão de baixa ordem, mas não permite, isoladamente, classificar a substância como baixo explosivo.",
+      "D": "A afirmação está incorreta, pois a presença de resíduos caracteriza necessariamente uma explosão mecânica, e não química."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A explosão de primeira ordem ou alta ordem é aquela em que o explosivo é totalmente consumido. Quando permanecem resíduos não consumidos, ocorre uma explosão de segunda ordem ou baixa ordem. Essa classificação descreve o grau de consumo da carga no evento e não deve ser confundida com a divisão entre baixos e altos explosivos, que considera o comportamento da reação e a velocidade de propagação.\n\nA está errada: a existência de resíduos não permite determinar, por si só, se a substância era um baixo ou alto explosivo.\nB está errada: “baixa ordem” refere-se à explosão incompleta; “baixo explosivo” é uma categoria da substância.\nD está errada: explosão mecânica decorre, por exemplo, da ruptura de um recipiente pelo aumento da pressão interna, não da simples presença de resíduos.",
+    "referencia": "SimuChacal, simulado 10, questão #838"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a avaliação técnica de determinada substância explosiva, foram observadas as seguintes características:\n\nI. facilidade de iniciação por choque, calor, faísca ou atrito;\nII. rapidez com que o explosivo atinge sua pressão máxima, produzindo ruptura nos materiais próximos;\nIII. rapidez com que a onda de choque se propaga através da massa explosiva.\n\nAs propriedades descritas em I, II e III correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "sensibilidade, brisância e velocidade de detonação.",
+      "B": "brisância, sensibilidade e potência explosiva.",
+      "C": "velocidade de detonação, brisância e sensibilidade.",
+      "D": "sensibilidade, velocidade de detonação e brisância."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A sensibilidade representa a facilidade com que o explosivo pode ser iniciado por estímulos como choque, calor, faísca, eletricidade estática ou atrito. A brisância corresponde à capacidade de ruptura, relacionada à rapidez com que a pressão máxima é alcançada. Já a velocidade de detonação indica a rapidez, em metros por segundo, com que a onda de choque se propaga através do explosivo.\n\nB está errada: inverte sensibilidade e brisância, além de empregar “potência explosiva”, que não corresponde ao conceito apresentado no item III.\nC está errada: facilidade de iniciação não é velocidade de detonação, mas sensibilidade.\nD está errada: a capacidade de ruptura está relacionada à brisância, e não diretamente à velocidade de propagação da onda.\n\nDistinção importante: um explosivo pode apresentar elevada velocidade de detonação sem ser altamente sensível. Assim, velocidade, sensibilidade e brisância são propriedades relacionadas, mas não equivalentes.",
+    "referencia": "SimuChacal, simulado 10, questão #839"
+  },
+  {
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cadeia de iniciação, determinado componente é bastante sensível ao choque, ao calor e à fricção, sendo utilizado para fornecer a energia necessária à iniciação de uma carga de ruptura, que apresenta elevada brisância.\n\nConsiderando a classificação quanto à velocidade e à função dos explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O primeiro componente é um baixo explosivo, enquanto a carga de ruptura é obrigatoriamente uma mistura incendiária.",
+      "B": "O primeiro componente é um alto explosivo secundário, enquanto a carga de ruptura é um alto explosivo primário.",
+      "C": "Ambos são altos explosivos primários, pois todos os componentes de uma cadeia de iniciação devem apresentar elevada sensibilidade.",
+      "D": "O primeiro componente é um alto explosivo primário, enquanto a carga de ruptura é um alto explosivo secundário."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os altos explosivos primários são explosivos de iniciação: apresentam elevada sensibilidade e fornecem a energia de ativação necessária para iniciar os explosivos de ruptura.\n\nPor isso, são utilizados em detonadores. Os altos explosivos secundários, por sua vez, são as cargas de ruptura, possuem elevada brisância e ocupam a parte final da cadeia de iniciação. Em regra, necessitam de detonador ou reforçador para serem iniciados.\n\nA está errada: o componente sensível empregado para iniciar outra carga corresponde a um alto explosivo primário, não a um baixo explosivo.\n\nB está errada: as funções foram invertidas. O primário inicia; o secundário produz o efeito principal de ruptura.\n\nC está errada: a carga principal de ruptura é classificada como alto explosivo secundário, normalmente menos sensível que o explosivo primário.\n\nItens mais importantes para memorizar:\nAlta ou baixa ordem: indica se houve consumo total ou incompleto da carga.\nBaixo ou alto explosivo: classificação relacionada ao modo e à velocidade da reação.\nSensibilidade: facilidade de iniciação.\nBrisância: capacidade de ruptura.\nVelocidade de detonação: propagação da onda de choque pelo explosivo.\nPrimário: inicia a cadeia de fogo.\nSecundário: carga de ruptura, normalmente iniciada por detonador ou reforçador.",
+    "referencia": "SimuChacal, simulado 10, questão #840"
+  }
+]

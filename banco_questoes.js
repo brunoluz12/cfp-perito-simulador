@@ -40210,5 +40210,5845 @@ const questoesDB = [
     "justificativa": "Pela seção 19.4, na precipitação a projeção perpendicular sugere acidente e a oblíqua com afastamento horizontal sugere ação voluntária ou criminosa; no afogamento, buscam-se o cogumelo de espuma e a pele anserina (arrepiada). A alternativa B inverte perpendicular/oblíqua e a interpretação. A C erra: a ausência desses sinais não confirma acidente, e o exame das vias respiratórias e dos sinais internos de asfixia é recomendado. A D inverte a lógica dos obstáculos: nos casos voluntários a vítima geralmente escolhe locais sem obstáculos.",
     "referencia": "PDF, Cap. 19, itens 19.4.3 e 19.4.5",
     "nivel": "dificil"
+  },
+  {
+    "id": 2684,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às técnicas de busca de vestígios envolvendo artefatos explosivos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Deve-se adotar sempre a busca a partir do centro da explosão uma vez que é nesse local que são obtidas pistas iniciais que darão informações a respeito do artefato. Deve-se evitar busca simultânea em toda a área da explosão, necessitando padronizar uma busca sistemática a fim de evitar áreas descobertas da investigação ou varreduras duplicadas no caso de uma busca simultânea não sistematizada.",
+      "B": "Deve-se adotar sempre a busca simultânea em toda a área da explosão, uma vez que é melhor delimitar uma área maior, pois se for muito pequena, os vestígios serão destruídos, recolhidos ou não localizados, já que estariam fora do perímetro.",
+      "C": "O método de busca a partir do centro da explosão ou simultânea em toda a área da explosão deve ser adotada de acordo com o caso concreto, uma vez que cada uma tem sua aplicabilidade em condições específicas.",
+      "D": "A técnica de busca a partir do centro da explosão é aplicada quando não podem ser obtidas pistas iniciais que darão informações a respeito do artefato. Nesses casos, faz-se necessário que as buscas iniciem do epicentro tendo por objetivo um reconhecimento inicial dos vestígios, orientando a fases sucessivas de busca."
+    },
+    "resposta_correta": "C",
+    "justificativa": "a) Existe a \"busca simultânea em toda a área da explosão\"\n\nb) Existe a \"busca a partir do centro da explosão\"\n\nc) Correta\n\nd) \"Essa técnica é aplicada quando PODEM ser obtidas pistas iniciais que darão\ninformações a respeito do artefato.\"",
+    "referencia": "SimuChacal, simulado 10, questão #470 — Ref: p. 87"
+  },
+  {
+    "id": 2685,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos padrões de busca utilizados em perícias de locais de explosão, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O método de \"espiral\" tem início no limite do perímetro externo, sendo realizada em espiral em torno do local, seguindo até um ponto próximo ao centro da explosão.",
+      "B": "O método de \"espiral\" é aplicado, geralmente, em ambientes menores, como uma sala.",
+      "C": "No método \"Quadrante, zona, setor\" o local é dividido e marcado com fitas, cordas ou barbantes, identificando-se cada espaço com letras, números ou ambos, os quais são vistoriados individualmente.",
+      "D": "O método \"Quadrante, zona, setor\" é aplicável principalmente em áreas cobertas, quando cada cômodo pode ser individualizado, funcionando como um quadrante ou setor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "a) \"Espiral - tem início em ponto próximo ao centro da explosão, sendo realizada\nem espiral em torno do local, seguindo até o limite do perímetro externo.\"\n\nb) Correta\n\nc) \"Rede - o local é dividido e marcado com fitas, cordas ou barbantes, identifi\ncando-se cada espaço com letras, números ou ambos, os quais são vistoriados\nindividualmente.\"\n\nd) \"Quadrante, zona, setor - (...) Esse padrão é aplicável em grandes áreas abertas.\"",
+    "referencia": "SimuChacal, simulado 10, questão #471 — Ref: p. 87-88"
+  },
+  {
+    "id": 2686,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No seu trabalho policial, o Perito Criminal Federal pode, em tese, ser responsabilizado criminal, civil e administrativamente no desempenho de suas funções, desde que seja ele quem tenha dado causa ao evento que resultou prejuízo.\nNo que concerne ao tema, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é extremamente limitada, pois todo o ordenamento jurídico no Brasil ampara sua conduta quanto a qualquer prejuízo causado a terceiros.",
+      "B": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é inexistente, pois todo o ordenamento jurídico em vigor no Brasil ampara a conduta do Perito Criminal Federal quanto a qualquer prejuízo causado a terceiros, independentemente de dolo ou culpa do servidor, quando da desativação de petrechos explosivos.",
+      "C": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é agravada e superior à de outras atividades periciais, uma vez que a grande repercussão e o elevado risco à vida e ao patrimônio exigem que o Perito Criminal Federal responda de forma mais rígida e objetiva por qualquer prejuízo causado a terceiros durante a operação.",
+      "D": "Na sua atribuição relacionada com a desativação de petrechos explosivos, a responsabilidade do Perito é idêntica à de qualquer outra área de atuação pericial, uma vez que a responsabilidade civil do Estado é objetiva pelos danos causados a terceiros, sendo assegurado o direito de regresso contra o servidor nos casos comprovados de dolo ou culpa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A (CORRETA): “Na sua atribuição relacionada com a desativação de petrechos explosivos, essa responsabilidade é extremamente limitada, pois todo o ordenamento jurídico em vigor no Brasil ampara a conduta do Perito Criminal Federal quanto a qualquer prejuízo causado a terceiros, quando da desativação de petrechos explosivos.”, página 99, Bombas e Explosivos.",
+    "referencia": "SimuChacal, simulado 10, questão #472 — Ref: Página 99, Bombas e Explosivos"
+  },
+  {
+    "id": 2687,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como funciona o método de desativação disruptor?",
+    "alternativas": {
+      "A": "Ele fundamenta-se basicamente na força hidrodinâmica. Consiste em um equipamento capaz de desarticular um artefato explosivo com grande probabilidade de não acioná-lo.",
+      "B": "Ele fundamenta-se pela diferença de pressão. Consiste em desativar o método de ativação e separando-o do artefato explosivo.",
+      "C": "Ele fundamenta-se pela interrupção das ondas eletromagnéticas. Consiste em formar um campo que corta a comunicação entre o método de ativação e o artefato explosivo.",
+      "D": "Ele fundamenta-se pela força termoestática. Consiste em queimar os circuitos de ativação do artefato explosivo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Disruptor (canhão d’água) - O canhão d’água fundamenta-se basicamente na força hidrodinâmica. Consiste em um equipamento capaz de desarticular um artefato explosivo com grande probabilidade de não acioná-lo.\nO resto tudo foi inventado.",
+    "referencia": "SimuChacal, simulado 10, questão #475 — Ref: 41"
+  },
+  {
+    "id": 2688,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como são classificadas as técnicas de desativação?",
+    "alternativas": {
+      "A": "Chuta e Dispara.",
+      "B": "Explosão e Implosão.",
+      "C": "Ativos e Passivos.",
+      "D": "Carregar e Descarregar."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As outras foram inventadas.",
+    "referencia": "SimuChacal, simulado 10, questão #476 — Ref: 41"
+  },
+  {
+    "id": 2689,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como funciona os artefatos explosivos que utilizam o sistema de ativação barométrico?",
+    "alternativas": {
+      "A": "São sistemas ativados pela diferença de pressões na água e no ar. Geralmente, são vinculados a dispositivos que serão movidos por meio de transportes que implicam grandes flutuações de altitude ou profundidade.",
+      "B": "Artefatos com esse tipo de mecanismo são iniciados quando mudados de posição ou mesmo quando sofrem qualquer tipo de vibração.",
+      "C": "A solução de cloreto cúprico corrói o fio que tenciona a lâmina até o momento em que o fio se parte e a lâmina toca o contato de espera, ocorrendo a explosão.",
+      "D": "É o tipo de mecanismo de acionamento característico das bombas-relógio, podendo ser utilizados substâncias químicas, estopins, cigarros, etc."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As demais informações tratam-se de outros sistema de ativação:\nB - Antimovimento/Antidistúbio\nC - Retardo químico\nD - Tempo de retardo",
+    "referencia": "SimuChacal, simulado 10, questão #477 — Ref: p. 36 a 39"
+  },
+  {
+    "id": 2690,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os explosivos podem ser classificados:",
+    "alternativas": {
+      "A": "Quanto ao uso:\nExplosivos militares e\nExplosivos comerciais\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nMédios explosivos e\nAltos explosivos.",
+      "B": "Quanto ao uso:\nExplosivos militares e\nExplosivos civis\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nAltos explosivos primários e\nAltos explosivos secundários",
+      "C": "Quanto ao uso:\nExplosivos militares e\nExplosivos comerciais\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nAltos explosivos comerciais e\nAltos explosivos militares",
+      "D": "Quanto ao uso:\nExplosivos militares e\nExplosivos comerciais\n///\nQuanto à velocidade de detonação:\nBaixos explosivos,\nAltos explosivos primários e\nAltos explosivos secundários"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #484 — Ref: Item 2.5, páginas 16 e 17"
+  },
+  {
+    "id": 2691,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a desativação de um pacote suspeito em uma área residencial, um Perito Criminal Federal que seguia os protocolos técnicos utiliza uma carga de ruptura que acaba por causar danos estruturais à residência da vítima. Após a intervenção, constata-se que o objeto não continha explosivos, tratando-se portanto de um simulacro.\n\nConsiderando o ordenamento jurídico brasileiro e a doutrina pericial vigente, assinale a alternativa correta quanto à responsabilidade do perito:",
+    "alternativas": {
+      "A": "A responsabilidade civil do Perito Criminal Federal, no exercício desta função, é de natureza objetiva em razão do risco excepcional da atividade; portanto, o servidor deverá indenizar diretamente o terceiro pelos danos causados.",
+      "B": "O perito é isento de pena criminal e não poderá sofrer ação regressiva por parte do Estado, pois o Código Penal ampara aquele que, por erro plenamente justificado, supõe situação de fato que, se existisse, tornaria a ação legítima, como a remoção de perigo iminente.",
+      "C": "O servidor poderá responder modalidade culposa imperícia, uma vez que o fato de o artefato ser um simulacro inofensivo demonstra que houve falha técnica na avaliação preliminar do objeto, o que afasta a proteção legal do estrito cumprimento do dever legal.",
+      "D": "De acordo com a Constituição Federal, a responsabilidade do Estado é objetiva, o que torna o direito de regresso contra o Perito Criminal Federal obrigatório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"Há casos em que, na desativação de um pacote suspeito, o perito causa danos à residência da vítima e aquilo que se parecia com um objeto contendo explosivos revela-se uma brincadeira ou uma forma de assustar um desafeto. Qual seria a responsabilidade do perito nessa ocorrência? A resposta é simples: nenhuma, pois o Código Penal Brasileiro, em seu artigo 20, parágrafo 1º, diz: É isento de pena quem por erro plenamente justificado pelas circunstâncias supõe situação de fato, que se existisse, tornaria a ação legítima. [...] conclui-se que penalmente não existe na legislação brasileira amparo para a punição do Perito Criminal quando este trabalha bem, dentro das normas de segurança e dentro da técnica correta\"\n\n\"se o perito trabalhar dentro das normas e da legalidade, nenhuma ação poderá subsistir com amparo legal [...] consubstanciada na Ação regressiva contra o servidor Perito Criminal Federal\"\n\n\"penalmente não existe na legislação brasileira amparo para a punição do Perito Criminal quando este trabalha bem, dentro das normas de segurança e dentro da técnica correta no manuseio de explosivos, no caso de perigo iminente.\"\n\n\"assegurado o direito de regresso, contra o responsável, nos casos de dolo ou culpa\"",
+    "referencia": "SimuChacal, simulado 10, questão #487 — Ref: Página 99, Bombas e Explosivos"
+  },
+  {
+    "id": 2692,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exercício da atribuição de desativação de artefatos explosivos, a atuação do Perito Criminal Federal é cercada de riscos que demandam um amparo jurídico específico. Considerando as normas de responsabilidade civil e penal aplicáveis a esse mister, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A responsabilidade civil do Perito Criminal Federal por danos causados a terceiros é de natureza objetiva, conforme o Art. 37, § 6º da Constituição Federal; dessa forma, constatado o prejuízo patrimonial, o servidor deverá indenizar diretamente a vítima, restando-lhe buscar o ressarcimento junto à União caso comprove ter agido sem dolo ou culpa.",
+      "B": "b) No caso de um perito destruir parte de uma edificação para desativar um pacote que, ao final, revela-se ser um simulacro inofensivo, a isenção de pena criminal pelo erro de fato (Art. 20, § 1º do CP) não impede a procedência de ação regressiva contra o servidor, visto que o erro na identificação da carga explosiva caracteriza, por si só, a modalidade culposa de imperícia.",
+      "C": "De acordo com o ordenamento jurídico vigente, não constitui ato ilícito a deterioração de coisa alheia com o fim de remover perigo iminente; portanto, se o perito atuar no estrito cumprimento do dever legal e dentro da técnica correta, não subsistirá amparo legal para ação regressiva contra o servidor, ainda que o Estado responda objetivamente perante o terceiro prejudicado.",
+      "D": "A autoridade competente, em caso de iminente perigo público, pode usar de propriedade particular para realizar a neutralização de bombas, sendo que o proprietário terá direito à indenização ulterior apenas se houver a comprovação de que o perito agiu com negligência ou fora dos protocolos de segurança estabelecidos pela ANP."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A (INCORRETA): \"As pessoas jurídicas de direito público e as de direito privado, prestadoras de serviço, responderão pelos danos que seus agentes causarem a terceiros, nessa qualidade, assegurado o direito de regresso, contra o responsável, nos casos de dolo ou culpa\", página 100, Caderno de Bombas e Explosivos. O erro reside em atribuir a responsabilidade objetiva ao servidor, quando a ação inicial de indenização deve ser movida contra o Estado.\n\nAlternativa B (INCORRETA): \"É isento de pena quem por erro plenamente justificado pelas circunstâncias supõe situação de fato, que se existisse, tornaria a ação legítima. [...] conclui-se que penalmente não existe na legislação brasileira amparo para a punição do Perito Criminal quando este trabalha bem, dentro das normas de segurança e dentro da técnica correta\", página 100, Caderno de Bombas e Explosivos.\n\nAlternativa C (CORRETA): \"Não constituem atos ilícitos: [...] a deterioração ou destruição da coisa alheia, a fim de remover perigo iminente. [...] se o perito trabalhar dentro das normas e da legalidade, nenhuma ação poderá subsistir com amparo legal [...] consubstanciada na Ação regressiva contra o servidor Perito Criminal Federal\", página 100, Caderno de Bombas e Explosivos.\n\nAlternativa D (INCORRETA): \"No caso de iminente perigo público, a autoridade competente poderá usar da propriedade particular, assegurado ao proprietário indenização ulterior, se houver dano\", páginas 100 e 101, Caderno de Bombas e Explosivos. Não é requerida a \"comprovação de negligência\", visto que o texto constitucional citado garante a indenização pelo simples fato de haver dano.",
+    "referencia": "SimuChacal, simulado 10, questão #488"
+  },
+  {
+    "id": 2693,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São tipos de explosivos, de acordo com o material",
+    "alternativas": {
+      "A": "Fulminato de mercúrio\nÁcido pícrico\nSlurries\nTetril\nFlex-X",
+      "B": "Pólvora\nFulminato de chumbo\nDinamites\nNitroglicerina (NG)\nEmulsões",
+      "C": "Azida de mercúrio\nNitroglicerina (NG)\nTrinitrotolueno (TNT)\nNitropenta (PETN)\nExplosivos plásticos",
+      "D": "Pólvora\nDiazodinitrofenol (DDNP)\nNitrato de boro\nEmulsões\nLamas explosivas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "alternativas:\nA - correta\nB - errada - fulminato de chumbo não existe. O certo seria fulminato de mercúrio ou Azida de chumbo\nC - errada - Azida de mercúrio não existe. O certo seria fulminato de mercúrio ou Azida de chumbo\nD - errada - O certo seria Nitrato de Bário ou de amônio. O Nitrato de boro é uma espécie de revestimento cerâmico",
+    "referencia": "SimuChacal, simulado 10, questão #489 — Ref: item 2.6, páginas 17 a 22"
+  },
+  {
+    "id": 2694,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos tipos de explosivos, julgue os itens a seguir:\nI - Há pelo menos 6 tipos diferentes de pólvora conhecidas: Negra, Cloratada, de base simples, de base dupla, Balistita e Composites\nII - O Fulminato de mercúrio, a Azida de chumbo e o Diazodinitrofenol são exemplos de explosivos primários\nIII - A Dinamite, a Nitroglicerina e o TNT são exemplos de explosivos secundários\nIV - Os Slurries ou lamas explosivas, o Nitropenta e os Explosivos Plásticos (C2, C3, C4, entre outros) são exemplos de explosivos terciários\nV - O Fulminato de Mercúrio e a Azida de Chumbo tem velocidades de detonação muito próximas",
+    "alternativas": {
+      "A": "Estão corretas as alternativas III, IV e V",
+      "B": "Estão corretas as alternativas I, II, III e V",
+      "C": "Todas as alternativas estão corretas",
+      "D": "Estão corretas as alternativas I, II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "está errada apenas a alternativa IV - Os Slurries ou lamas explosivas, o Nitropenta e os Explosivos Plásticos (C2, C3, C4, entre outros) são exemplos de explosivos SECUNDÁRIOS.",
+    "referencia": "SimuChacal, simulado 10, questão #491 — Ref: item 2.6, páginas 16 a 22"
+  },
+  {
+    "id": 2695,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que corresponde às atividades da Polícia Federal nas quais, geralmente, são aplicados conhecimentos específicos sobre terrorismo e explosivos.",
+    "alternativas": {
+      "A": "Planos de segurança de dignitários, segurança aeroportuária da aviação civil, atendimento a locais sob ameaça de bomba em instalações públicas federais, operações policiais especiais e perícias em locais de explosão.",
+      "B": "Controle migratório em aeroportos, fiscalização de produtos químicos, perícias ambientais e segurança de fronteiras.",
+      "C": "Proteção de testemunhas, policiamento ostensivo em rodovias federais, fiscalização de armas e operações de combate ao tráfico de drogas.",
+      "D": "Investigação de crimes cibernéticos, segurança de autoridades estrangeiras, fiscalização aduaneira e análise de documentos falsificados."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Correta. A apostila afirma literalmente:\n\"No âmbito da competência da Polícia Federal as atividades em que, geralmente, se aplicam conhecimentos específicos sobre este tema são: nos planos de seguranças de dignitários, plano de segurança aeroportuária para aviação civil, locais sob ameaça de bomba em instalações públicas federais, operações policiais especiais e em perícias em locais de explosão.\"",
+    "referencia": "SimuChacal, simulado 10, questão #497"
+  },
+  {
+    "id": 2696,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Atualmente o terrorismo brasileiro com bombas está relacionado, principalmente:",
+    "alternativas": {
+      "A": "à expansão de organizações terroristas internacionais no território nacional.",
+      "B": "a conflitos militares entre Estados.",
+      "C": "a atos criminosos e sub-revolucionários que afetam consideravelmente a segurança pública.",
+      "D": "exclusivamente ao contexto da segurança nacional."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C) Correta. O conteúdo da apostila afirma:\n\"Atualmente, o terrorismo brasileiro com bombas está relacionado com atos criminosos e sub-revolucionários, que, apesar de pouco influenciarem o contexto da segurança nacional, afetam consideravelmente a segurança pública.\"",
+    "referencia": "SimuChacal, simulado 10, questão #498"
+  },
+  {
+    "id": 2697,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o inter-relacionamento entre os segmentos da Polícia Federal nas atividades relacionadas ao terrorismo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O inter-relacionamento entre a Inteligência Policial, a Defesa Institucional e a Criminalística tem por finalidade elevar o nível de segurança dos servidores empenhados nessas missões, observando as normatizações da Polícia Federal.",
+      "B": "O inter-relacionamento entre os segmentos da Polícia Federal tem como finalidade ampliar a produção de provas periciais para subsidiar os inquéritos policiais.",
+      "C": "O inter-relacionamento entre a Inteligência Policial, a Defesa Institucional e a Criminalística tem como principal objetivo fortalecer a investigação criminal e a responsabilização dos autores dos atentados.",
+      "D": "O inter-relacionamento entre os segmentos da Polícia Federal visa coordenar as atividades de inteligência e de perícia para identificar organizações criminosas envolvidas em atos terroristas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "\"...invariavelmente, há a necessidade do inter-relacionamento de diversos segmentos da PF, como, por exemplo, a Inteligência Policial, a Defesa Institucional e a Criminalística, com a finalidade de se elevar o nível de segurança dos servidores empenhados nessas missões, obedecendo as seguintes normatizações...\"",
+    "referencia": "SimuChacal, simulado 10, questão #499"
+  },
+  {
+    "id": 2698,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os padrões de busca utilizados em perícias de locais de explosão preconizados na apostila são:",
+    "alternativas": {
+      "A": "Espiral; Rede; Quadrante, zona, setor; Fileiras ou linhas",
+      "B": "Busca a partir do centro da explosão e Busca simultânea em toda a área da explosão",
+      "C": "Espiral; Linha; Linha Cruzada; Quadrante",
+      "D": "Busca a partir do perímetro externo da explosão; Busca segmentada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) Correta\n\nb) Essas são as TÉCNICAS de busca, e não os padrões\n\nc) Esse padrões são os preconizados na apostila de LOCAL DE CRIME\n\nd) São o oposto da alternativa correta",
+    "referencia": "SimuChacal, simulado 10, questão #506 — Ref: 87/88"
+  },
+  {
+    "id": 2699,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base no documento técnico, no que se refere aos mecanismos de acionamento de artefatos explosivos por tempo (ou retardo), assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Os dispositivos com comandos digitais emitem ruídos característicos elevados de seus mecanismos de engrenagem, o que facilita a detecção do artefato antes do acionamento.",
+      "B": "Temporizadores construídos por pessoas com conhecimento em eletrônica possuem circuitos que limitam o atraso da carga explosiva a um prazo máximo de 24 horas ininterruptas.",
+      "C": "No caso do emprego de um relógio analógico de ponteiros como mecanismo de tempo, é comum que a chave seja formada por um contato de espera no vidro do relógio e o outro no próprio ponteiro.",
+      "D": "O mecanismo de acionamento por tempo funciona exclusivamente por meio de isolantes físicos que, ao serem puxados, fecham mecanicamente o circuito elétrico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O documento afirma que, no caso de relógio analógico de ponteiros, é comum que a chave seja um contato de espera no vidro do relógio e o outro, o próprio ponteiro. A alternativa A está incorreta pois comandos digitais (com chip em circuito integrado) podem ser regulados \"sem produzir ruídos\". A alternativa B está incorreta porque o circuito dedicado construído por quem tem conhecimento em eletrônica pode iniciar a carga explosiva \"a qualquer momento ou mesmo após vários dias\". A alternativa D descreve o princípio do mecanismo de \"Tração\", e não o de tempo.",
+    "referencia": "SimuChacal, simulado 10, questão #528 — Ref: Páginas 35 e 36."
+  },
+  {
+    "id": 2700,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O acionamento de artefatos por controle remoto pode ser realizado por diferentes meios, incluindo rádio frequência (RF). Sobre o funcionamento e as soluções táticas para desativação desse tipo específico de sistema, é correto afirmar que:",
+    "alternativas": {
+      "A": "É um sistema considerado imune a interferências eletromagnéticas, o que garante estabilidade e impede o acionamento indesejado do artefato.",
+      "B": "O funcionamento básico exige que o receptor emita constantemente sinais de RF para o transmissor para que este último feche a chave comutadora.",
+      "C": "O princípio de funcionamento do controle remoto por ondas de rádio (RF) exige um contato visual direto em feixe contínuo, impedindo seu uso com obstáculos físicos entre as partes.",
+      "D": "Uma das soluções apontadas para a desativação desse mecanismo é o uso de uma manta metálica, rede ou papel alumínio na tentativa de realizar uma blindagem eletromagnética."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Como solução para desativação de sistemas ativados por ondas RF, o texto sugere \"usar uma manta metálica (ou mesmo rede ou papel alumínio) na tentativa de fazer a blindagem eletromagnética\". A alternativa A está incorreta, pois o material destaca explicitamente que se trata de \"um sistema suscetível a interferências eletromagnéticas que podem provocar o acionamento indesejado\". A alternativa B inverte a ordem, pois é o transmissor que emite sinais de RF e o receptor fecha a chave comutadora. A alternativa C confunde RF com o mecanismo por feixe de infravermelho.",
+    "referencia": "SimuChacal, simulado 10, questão #529 — Ref: Páginas 37 e 38."
+  },
+  {
+    "id": 2701,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina pericial classifica os mecanismos de iniciação com base em seu princípio de funcionamento. Comparando os conceitos de iniciação por \"Tração\" e \"Antimovimento/antidistúrbio\" descritos no documento, assinale a afirmação correta:",
+    "alternativas": {
+      "A": "Artefatos equipados com mecanismo antimovimento/antidistúrbio são iniciados quando sofrem qualquer tipo de vibração ou mudança de posição, podendo empregar chaves de mercúrio ou mecanismos de alarme antifurto de automóveis.",
+      "B": "O mecanismo de pêndulo, ilustrado como uma esfera condutora dentro de um cilindro com revestimento interno condutor, é uma característica clássica de acionamento por tração.",
+      "C": "Em um mecanismo de tração que possua pino de segurança e pino de liberação, a retirada isolada do pino de segurança já garante o acionamento imediato da espoleta pelo percussor.",
+      "D": "O sistema de tração funciona por meio da corrosão de um fio tensionado que impede que o circuito elétrico seja fechado; ao romper-se por vibração, o mecanismo é ativado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto define que artefatos com mecanismo antimovimento/antidistúrbio são iniciados quando mudados de posição ou quando sofrem vibração, podendo utilizar pêndulo, chave de mercúrio ou mecanismos de alarme antifurto. A alternativa B está incorreta porque o pêndulo é um mecanismo antimovimento, não de tração. A alternativa C está incorreta porque o funcionamento descrito exige que, uma vez retirado o pino de segurança, o pino de liberação também seja retirado para o percussor acionar a espoleta. A alternativa D mistura o conceito de tração com o de \"Retardo químico\" (corrosão de filamento).",
+    "referencia": "SimuChacal, simulado 10, questão #530 — Ref: Páginas 35, 36 e 38."
+  },
+  {
+    "id": 2702,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação dos explosivos quanto à velocidade de detonação, qual das alternativas abaixo descreve corretamente os altos explosivos secundários?",
+    "alternativas": {
+      "A": "São também denominados explosivos deflagrantes e apresentam uma combustão lenta e progressiva de até 1.000 m/s.",
+      "B": "São explosivos de iniciação que fornecem energia de ativação para o explosivo de ruptura, sendo muito sensíveis ao choque mecânico.",
+      "C": "São conhecidos como explosivos de ruptura, possuem alto poder de brisância e, em geral, não necessitam de confinamento para explodir.",
+      "D": "São exemplificados pela pólvora negra, que possui uma velocidade de deflagração em torno de 300 m/s e precisa de confinamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #534"
+  },
+  {
+    "id": 2703,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o Trinitrotolueno (TNT), também chamado de Trotil, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "É um alto explosivo secundário de uso militar, considerado o mais seguro dos explosivos e usado como padrão de referência para outros.",
+      "B": "É um explosivo primário extremamente sensível ao calor, choque e fricção, utilizado exclusivamente na fabricação de espoletas.",
+      "C": "Apresenta-se sob a forma de líquido viscoso e incolor, tornando-se altamente instável quando se solidifica a 13 graus.",
+      "D": "Possui uma velocidade de detonação de 3.000 m/s e é o principal componente dos fertilizantes agrícolas conhecidos como Anfo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #535"
+  },
+  {
+    "id": 2704,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre os explosivos e acessórios listados nas fontes, qual é descrito como o mais antigo explosivo primário, de cor amarela-clara, e que vem sendo gradativamente substituído pela azida de chumbo ou pelo DDNP?",
+    "alternativas": {
+      "A": "Nitroglicerina (NG).",
+      "B": "Fulminato de mercúrio.",
+      "C": "Ácido pícrico.",
+      "D": "Pólvora cloratada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #536"
+  },
+  {
+    "id": 2705,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o ordenamento normativo e a organização das atividades de bombas e explosivos no âmbito do Departamento de Polícia Federal, analise os itens a seguir:\nI. A Constituição Federal estabelece que a Polícia Federal exerce a segurança pública para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio.\nII. De acordo com a Instrução Normativa nº 005/04-DG/PF, a remoção e a desativação de artefatos explosivos encontrados cabem à Polícia Federal através de seus serviços especializados.\nIII. Os Grupos Especializados em Bombas e Explosivos (GBE) são unidades integrantes do Sistema de Criminalística da Polícia Federal.\nIV. O estudo de bombas e explosivos é considerado uma disciplina isolada da química, não possuindo relação técnica com as áreas de mecânica ou eletricidade.",
+    "alternativas": {
+      "A": "I e III.",
+      "B": "II e IV.",
+      "C": "I, II e III.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O item I reflete o Art. 144 da CF citado na fonte. O item III está de acordo com a IN nº 005/04, que coloca o GBE dentro do Sistema de Criminalística.",
+    "referencia": "SimuChacal, simulado 10, questão #543 — Ref: 9-11"
+  },
+  {
+    "id": 2706,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal está elaborando um relatório sobre o histórico do terrorismo para um curso de especialização. Com base no panorama internacional apresentado na apostila, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O evento conhecido como \"The Gunpowder Plot\" ocorreu no século XVII, quando extremistas católicos tentaram explodir o Parlamento Britânico para vingar o exílio de padres jesuítas.",
+      "B": "Na Colômbia, os primeiros registros de incidentes terroristas remontam a 1976, ano em que surgiu o narcoterrorismo com 262 casos registrados.",
+      "C": "A motivação do terrorismo na Espanha é classificada como estritamente subversiva e política, sem fundamentos étnicos.",
+      "D": "Guy Fawkes, responsável pela colocação das bombas sob a Casa dos Lordes, foi executado imediatamente na noite de 4 de novembro de 1605, após ser descoberto por Lord Monteagle."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto confirma que em 4 de novembro de 1605 ocorreu a tentativa de explodir 36 barris de pólvora sob a Casa dos Lordes por vingança ao exílio de jesuítas.",
+    "referencia": "SimuChacal, simulado 10, questão #544 — Ref: 9-11"
+  },
+  {
+    "id": 2707,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A doutrina de Bombas e Explosivos da Polícia Federal destaca a necessidade de especialização constante e os fatores que influenciam o aumento da complexidade da área. Sobre esse tema, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O profissional da área, uma vez especializado, prescinde de aperfeiçoamento constante devido ao caráter estático das técnicas de manuseio.",
+      "B": "A Norma de Serviço nº 001/80 - CCP/PF é o instrumento que organiza e institui os Grupos Especializados em Bombas e Explosivos (GBE).",
+      "C": "O aumento do grau de complexidade técnica dos artefatos e dos incidentes nos Estados é atribuído, entre outros fatores, à facilidade de acesso a manuais e receitas de explosivos na Internet.",
+      "D": "Na Colômbia, o terrorismo se divide em três modalidades distintas: étnico, subversivo e narcoterrorismo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As fontes indicam que manuais como o do \"Terrorista\" ou \"Anarquista\" na Internet aumentaram a complexidade técnica dos artefatos e a preocupação dos profissionais.",
+    "referencia": "SimuChacal, simulado 10, questão #545 — Ref: 9-11"
+  },
+  {
+    "id": 2708,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos mecanismos de acionamento e dos riscos relacionados ao manuseio de bombas postais, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Os mecanismos mais usuais em cartas-bomba são os de pressão e antimovimento, razão pela qual se presume que o artefato poderá ser acionado imediatamente após qualquer deslocamento da correspondência.",
+      "B": "Os mecanismos mais usuais em cartas-bomba são os de descompressão e/ou tração, sendo razoável supor que a bomba postal não desengatilhará até que seja aberta; contudo, o manuseio desnecessário deve ser evitado, pois poderá deslocar o mecanismo e aumentar o risco de explosão.",
+      "C": "Embora os mecanismos de descompressão sejam frequentes, os mecanismos de tração são incomuns em bombas postais, pois exigem necessariamente a retirada completa do conteúdo do envelope para seu acionamento.",
+      "D": "A utilização predominante de mecanismos de descompressão e/ou tração permite que uma bomba postal seja transportada e manuseada com segurança, desde que permaneça fechada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“Os mecanismos de acionamento mais usuais em cartas-bomba são os de descompressão e/ou tração. Assim, é razoável supor que uma bomba postal não desengatilhará até que seja aberta. De qualquer forma, deve-se evitar manuseá-la desnecessariamente, pois é possível que, após muito manuseio, o mecanismo seja deslocado, aumentando o risco de explosão.”",
+    "referencia": "SimuChacal, simulado 10, questão #578 — Ref: 45"
+  },
+  {
+    "id": 2709,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as técnicas de desativação ativa indicadas pelo material para bombas postais, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "São indicadas exclusivamente as técnicas do cartão em V e do canhão d’água, visando prioritariamente à neutralização da carga explosiva principal.",
+      "B": "São indicadas as técnicas do chicote, do cartão em V e do canhão d’água, devendo a intervenção visar exclusivamente à destruição do invólucro externo da correspondência.",
+      "C": "São indicadas as técnicas do chicote, do cartão em V e do canhão d’água, sempre visando ao mecanismo de acionamento, aos fios e às baterias do artefato.",
+      "D": "A técnica do chicote constitui medida passiva de desativação, enquanto o cartão em V e o canhão d’água constituem técnicas ativas destinadas à destruição integral do artefato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“As técnicas de desativação ativa indicadas para o caso de bombas postais são as do ‘chicote’, do cartão em V e o uso do canhão d’água, sempre visando o mecanismo de acionamento, os fios e as baterias do artefato.”",
+    "referencia": "SimuChacal, simulado 10, questão #579 — Ref: 46"
+  },
+  {
+    "id": 2710,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a avaliação de uma correspondência suspeita, cogitou-se o emprego de detectores de vapores explosivos e fibroscópios. De acordo com o material, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Ambos permitem a inspeção externa do pacote sem necessidade de qualquer intervenção física sobre seu invólucro.",
+      "B": "Apenas o fibroscópio requer a perfuração do pacote, enquanto o detector de vapores explosivos permite a análise integralmente externa da correspondência.",
+      "C": "Apenas o detector de vapores explosivos requer uma incisão no pacote, enquanto o fibroscópio permite a inspeção por meio de radiação penetrante.",
+      "D": "Tanto os detectores de vapores explosivos quanto os fibroscópios requerem que seja feita uma incisão no pacote ou que ele seja perfurado para inspeção interna."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“Detectores de vapores explosivos; [...] Fibroscópios. Obs.: Os dois últimos requerem que seja feita uma incisão no pacote ou que o pacote seja perfurado para inspeção interna.”",
+    "referencia": "SimuChacal, simulado 10, questão #580 — Ref: 47"
+  },
+  {
+    "id": 2711,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre os materiais que devem ser levados para perícia um local de crime que envolva explosivos pode se citar:\nI. Toldos, lonas, embalagens para empacotamento.\nII. Materiais para medição, como trenas réguas e escalas, para desenho do croqui, e fotografias\nIII. Reagente químicos para teste preliminar de tipo de explosivo.\nIV. Material para orientação (ex. GPS)\nV. Pás, ancinho, peneiras e imãs, para a busca do epicentro",
+    "alternativas": {
+      "A": "I, II, III e V",
+      "B": "I, II, IV e V",
+      "C": "I, III, IV e V",
+      "D": "Todas as alternativas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Não são realizados testes preliminares na cena de local de bomba/ explosivo",
+    "referencia": "SimuChacal, simulado 10, questão #588 — Ref: 84"
+  },
+  {
+    "id": 2712,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o disposto na Instrução Normativa 08/1988, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Cabe à Força Aerea Nacional a inspecionar a documentação de viagem e proceder à revista pessoal e da bagagem de mão dos passageiros e tripulantes embarcando em vôos internacionais e, quando necessário, nos domésticos.",
+      "B": "A Polícia Federal não tem atribuições de prevenção e repressão a atos ilícitos praticados a bordo de aeronaves.",
+      "C": "Se um artefato explosivo for encontrado em uma aeronave, a Polícia Federal não precisa ser informada, já que a responsabilidade pela segurança da aeronave é da companhia aérea.",
+      "D": "Compete à Polícia Federal inspecionar bagagem desacompanhada, abandonada, mala postal, encomendas e cargas em geral, quando objeto de fundadas suspeitas de ilícito\npenal em áreas aeroportuárias."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #589 — Ref: p. 103"
+  },
+  {
+    "id": 2713,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação ao atendimento a um local de explosão, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Os possíveis perigos na área incluem: dispositivos explosivos secundários, DEI não consumidos, focos de incêndio, fios energizados.",
+      "B": "A inspeção preliminar deve ser realizada pelo menor número de pessoas\npossível, devendo incluir um especialista em bombas.",
+      "C": "A inspeção preliminar tem como finalidades: Estabelecer o controle administrativo e emocional, avaliar a extensão da área de busca, organizar o POP, estimar a quantidade de pessoal e o equipamento necessário, desenvolver uma teoria geral para o crime.",
+      "D": "Não é recomendado solicitar apoio de outros órgãos como corpo de bombeiros, engenheiros civis, pelo elevado risco de adentrar uma área em que foi alvo de explosivos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A apostila orienta a verificar a necessidade de apoio de outros órgãos como corpo de bombeiros, engenheiros , defesa civil",
+    "referencia": "SimuChacal, simulado 10, questão #592 — Ref: 85"
+  },
+  {
+    "id": 2714,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades da explosão:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Sensibilidade, velocidade do som e onda de choque.",
+      "C": "Brisância, primariedade e fragmentação.",
+      "D": "Distância de choque, brisância e bola de fogo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #594 — Ref: p. 17"
+  },
+  {
+    "id": 2715,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São efeitos primários de uma explosão:",
+    "alternativas": {
+      "A": "Brisância, fogo central e calor termodinâmico.",
+      "B": "fogo central, fragmentação e onda de choque.",
+      "C": "Onda de pressão explosiva, fragmentação e efeito térmico-incendiários.",
+      "D": "ar comprimido, vácuo da explosão e fragmentação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Em uma explosão, ocorrem efeitos primários e secundários. Os efeitos primá-\nrios são: onda de pressão explosiva, fragmentação e efeito térmico-incendiário.",
+    "referencia": "SimuChacal, simulado 10, questão #599 — Ref: p. 23"
+  },
+  {
+    "id": 2716,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação ao estabelecimento do perímetro, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Formulário para registro de ocorrência - serve para documentar, em\nbreves descrições, os eventos principais e os horários em que ocorreram, como\npor exemplo, a chegada ao local, nomes dos contatos pessoais, interrupções do\ntrabalho e respectivos motivos, etc",
+      "B": "O perímetro externo geralmente é marcado em um ponto 20% maior que\na distância entre o local da explosão da bomba e a maior distância onde foi\nencontrado um vestígio no levantamento preliminar.",
+      "C": "O estabelecimento do posto de comando deve ser a ultima etapa, quando houver certeza que a área está segura.",
+      "D": "Formulário de localização de vestígios serve para anotar as seqüências foto\ngráficas, os equipamentos e as escalas utilizados, etc."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Citação da apostila\nB) O perímetro externo geralmente é marcado em um ponto 50% maior que a distância entre o local da explosão da bomba e a maior distância onde foi encontrado um vestígio no levantamento preliminar.\nC) O estabelecimento do posto de comando deve ser feita o mais rápido possível.\nD) Esse é o formulário de registro fotográfico.",
+    "referencia": "SimuChacal, simulado 10, questão #601 — Ref: 86"
+  },
+  {
+    "id": 2717,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos procedimentos de segurança ao localizar um objeto suspeito de ser um artefato explosivo, a doutrina estabelece restrições severas. Sobre o manuseio de uma \"bomba-cano\" (bomba-tubo), assinale a alternativa que descreve o risco técnico específico de tentar desrosqueá-la:",
+    "alternativas": {
+      "A": "O risco de acionamento por rádio-frequência devido à antena improvisada no metal.",
+      "B": "A possibilidade de presença de partículas de explosivos ou limalha de ferro nas roscas de fechamento, que podem causar a detonação pelo atrito.",
+      "C": "A instabilidade química do invólucro de ferro quando exposto à oxigenação repentina durante a abertura.",
+      "D": "A ativação automática de um sistema barométrico interno que detecta a mudança de pressão no interior do tubo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – Conforme a fonte, não se deve tentar desroscar uma bomba-cano porque partículas de explosivos ou limalha de ferro nas roscas podem causar a iniciação pelo atrito",
+    "referencia": "SimuChacal, simulado 10, questão #609 — Ref: 69 a 71"
+  },
+  {
+    "id": 2718,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a diferenciação operacional entre artefatos de fabricação caseira (DEI) e artefatos militares, as orientações técnicas da Academia Nacional de Polícia determinam que:",
+    "alternativas": {
+      "A": "Devem ser aplicados exatamente os mesmos protocolos operacionais, visto que a carga explosiva secundária é invariavelmente a mesma.",
+      "B": "Artefatos militares permitem a neutralização por resfriamento térmico (criogenia), enquanto os caseiros devem ser detonados no local.",
+      "C": "Não se deve tentar os mesmos procedimentos de bombas caseiras em artefatos militares, devendo-se notificar obrigatoriamente a unidade militar mais próxima.",
+      "D": "Apenas o esquadrão antibombas da Polícia Federal pode manusear artefatos militares, sendo vedado o acionamento das Forças Armadas para este fim."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A orientação é clara no sentido de não aplicar procedimentos de bombas caseiras em artefatos militares, exigindo a notificação da unidade militar",
+    "referencia": "SimuChacal, simulado 10, questão #611 — Ref: 69 a 71"
+  },
+  {
+    "id": 2719,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de um artefato explosivo que se encontra aparentemente \"falhado\" após um período de tempo ou tentativa de acionamento, a conduta correta prescrita é:",
+    "alternativas": {
+      "A": "Proceder com a remoção imediata para uma área remota para evitar que a carga se torne instável com o tempo.",
+      "B": "Não tentar remover ou manusear o objeto, pois a condição de \"falha\" não garante a segurança contra uma detonação tardia.",
+      "C": "Realizar a entrada manual imediata com ferramentas de mão para cortar os fios do circuito de fogo.",
+      "D": "Mergulhar o objeto em água para neutralizar quimicamente os iniciadores primários sensíveis."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – A recomendação é não tentar remover ou manusear artefatos encontrados que estejam aparentemente \"falhados\"",
+    "referencia": "SimuChacal, simulado 10, questão #612 — Ref: 69 a 71"
+  },
+  {
+    "id": 2720,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Fatores a considerar no trato com explosivos:\nI - Segurança pessoal - todo procedimento deverá ser orientado, principalmente, pela busca da máxima segurança do técnico em bombas.\nII - Prevenção e minimização de riscos - deve-se procurar minimizar os riscos a que estão submetidos os técnicos em bombas, o público envolvido e, por último, o patrimônio.\nIII - Processo investigatório - os procedimentos anteriores nunca devem levar em consideração uma possível preservação de elementos materiais, que possam auxiliar na condução da investigação criminal.\nEstão corretas:",
+    "alternativas": {
+      "A": "Somente I",
+      "B": "Somente II",
+      "C": "Somente I e II",
+      "D": "Todas alternativas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Processo investigatório - os procedimentos anteriores devem SEMPRE levar em consideração uma possível preservação de elementos materiais, que possam auxiliar na condução da investigação criminal.",
+    "referencia": "SimuChacal, simulado 10, questão #619"
+  },
+  {
+    "id": 2721,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades do explosivo:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Deslocamento de ar, efeito térmico e fragmentação",
+      "C": "Ondas de choque, efeito cumulativo e efeito Monroe",
+      "D": "Sistema de iniciação, propelente e combustível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Propriedades dos explosivos:\n- A sensibilidade de um explosivo refere-se à facilidade com que ele pode ser iniciado por meio de choque (impacto ou percussão), faísca, calor ou mesmo chama, eletricidade estática, atrito, vibração ou fricção, etc.\n- Brisância Capacidade de ruptura do explosivo, mensurada pela rapidez com este atinge a sua máxima pressão\n- A velocidade de detonação é a medida, em metros por segundo, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo.\nB - Efeito da explosão\nC - Efeito da explosão\nD - Sem relação com propriedade do explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #620"
+  },
+  {
+    "id": 2722,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades do explosivo:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Deslocamento de ar, efeito térmico e fragmentação",
+      "C": "Ondas de choque, efeito cumulativo e efeito Monroe",
+      "D": "Sistema de iniciação, propelente e combustível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Propriedades dos explosivos:\n- A sensibilidade de um explosivo refere-se à facilidade com que ele pode ser iniciado por meio de choque (impacto ou percussão), faísca, calor ou mesmo chama, eletricidade estática, atrito, vibração ou fricção, etc.\n- Brisância Capacidade de ruptura do explosivo, mensurada pela rapidez com este atinge a sua máxima pressão\n- A velocidade de detonação é a medida, em metros por segundo, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo.\nB - Efeito da explosão\nC - Efeito da explosão\nD - Sem relação com propriedade do explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #621"
+  },
+  {
+    "id": 2723,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São propriedades do explosivo:",
+    "alternativas": {
+      "A": "Sensibilidade, brisância e velocidade de detonação.",
+      "B": "Deslocamento de ar, efeito térmico e fragmentação",
+      "C": "Ondas de choque, efeito cumulativo e efeito Monroe",
+      "D": "Sistema de iniciação, propelente e combustível."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Propriedades dos explosivos:\n- A sensibilidade de um explosivo refere-se à facilidade com que ele pode ser iniciado por meio de choque (impacto ou percussão), faísca, calor ou mesmo chama, eletricidade estática, atrito, vibração ou fricção, etc.\n- Brisância Capacidade de ruptura do explosivo, mensurada pela rapidez com este atinge a sua máxima pressão\n- A velocidade de detonação é a medida, em metros por segundo, da rapidez com que a onda de choque se propaga através de uma coluna de um determinado explosivo.\nB - Efeito da explosão\nC - Efeito da explosão\nD - Sem relação com propriedade do explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #622"
+  },
+  {
+    "id": 2724,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange à doutrina de Procedimentos de Reação a Bombas adotada pela Polícia Federal, e considerando a atuação de uma equipe em um local com suspeita de artefato explosivo, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A preservação dos vestígios deve ser a prioridade da equipe, visto que a determinação da autoria após a detonação é extremamente difícil devido ao estado dos fragmentos.",
+      "B": "Na hierarquia de prioridades, a segurança pública deve vir em primeiro lugar, seguida pela vida do técnico em bombas, para que este possa tomar decisões que preservem a coletividade.",
+      "C": "De acordo com a sequência de eventos, ao estabelecer o perímetro de isolamento, a sugestão é que seja feita uma evacuação de 100m de raio, preferencialmente sem visada direta do epicentro de modo a evitar possíveis estilhaços.",
+      "D": "No posto de controle, a equipe de resposta deve ser composta por, no mínimo, três integrantes, sendo obrigatório que todos participem diretamente da neutralização do artefato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A (Incorreta): A coleta e preservação de vestígios é a última prioridade na hierarquia (Vida > Patrimônio > Vestígios).\n\nB (Incorreta): A vida do técnico em bombas deve vir em primeiro lugar, pois seu conhecimento é o que permite tomar decisões para preservar as demais vidas.\n\nC (Correta): O manual sugere exatamente o raio de 100 metros e a cautela de evitar a visada direta do epicentro para proteger contra estilhaços.\n\nD (Incorreta): A equipe é composta por, no mínimo, dois integrantes e a regra de ouro é que somente um técnico vá até a bomba de cada vez.",
+    "referencia": "SimuChacal, simulado 10, questão #623 — Ref: p. 75-77"
+  },
+  {
+    "id": 2725,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O que o servidor ou funcionário não deve fazer ao receber uma ameaça de bomba por telefone?",
+    "alternativas": {
+      "A": "Manter a calma e obter o máximo de informações sobre a ameaça.",
+      "B": "Manter a calma e preencher um formulário de ameaça de bomba.",
+      "C": "Manter a calma e evacuar imediatamente o local.",
+      "D": "Manter a calma e tratar a ameaça com seriedade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A ameaça deve ser tratada com seriedade, e buscar o máximo de informações no telefone com o denunciante, o formulário auxilia na obtenção dessas informações. A apostila não fala sobre evacuar imediatamente o local, e diz que deve ser trabalhada de maneira discreta de acordo com o plano de segurança. Então, a evacuação não é imediata.",
+    "referencia": "SimuChacal, simulado 10, questão #624 — Ref: p. 51 a 53"
+  },
+  {
+    "id": 2726,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Instrução Normativa (IN) 005/2004 - DG/PF, quais das ATRIBUIÇÕES abaixo são pertinentes aos INTEGRANTES dos Grupos de Bombas e Explosivos (GBE):\n\nI – manter os recursos materiais disponíveis, em condições operacionais para o pronto emprego;\nII – participar de reuniões preparatórias visando à elaboração de planos de segurança de dignitários, sempre que necessárias as vistorias preventivas de segurança;\nIII – preservar dados e informações coletados nas atividades visando aos exames periciais, a investigação e a inteligência policial, assim como a manutenção de banco de dados específico;\nIV – planejar, pesquisar, desenvolver, testar, implementar, controlar e atualizar técnicas para o estabelecimento de procedimentos operacionais necessários ao adequado desempenho das atividades;\nV – propor ao Diretor Técnico-Científico, através do INC, ou aos Superintendentes Regionais, por intermédio das unidades Técnico-Científicas, a adoção de medidas para facilitar a consecução dos trabalhos a serem executados pelos grupos;",
+    "alternativas": {
+      "A": "I, III e IV;",
+      "B": "II, IV e V;",
+      "C": "I, II, III e IV;",
+      "D": "I e III"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Art. 6° Aos integrantes dos GBEs incumbe:\nI – manter os recursos materiais disponíveis, em condições operacionais para\no pronto emprego;\nII – sugerir e participar de ações de capacitação;\nIII – preservar dados e informações coletados nas atividades visando aos exames periciais, a investigação e a inteligência policial, assim como a manutenção\nde banco de dados específico; e\nIV – executar outras atividades, relacionadas a bombas e explosivos, determinadas pelos responsáveis e nos limites de suas atribuições.",
+    "referencia": "SimuChacal, simulado 10, questão #625 — Ref: P.109"
+  },
+  {
+    "id": 2727,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Instrução Normativa (IN) 005/2004 - DG/PF, quais das ATRIBUIÇÕES abaixo NÃO são exclusivas dos RESPONSÁVEIS pelos Grupos de Bombas e Explosivos (GBE):",
+    "alternativas": {
+      "A": "Gerir e manter os recursos humanos e materiais disponíveis em condições\nde pronto emprego",
+      "B": "Preservar dados e informações coletados nas atividades visando aos exames periciais, a investigação e a inteligência policial, assim como a manutenção de banco de dados específico;",
+      "C": "Participar de reuniões preparatórias visando à elaboração de planos\nde segurança de dignitários, sempre que necessárias as vistorias preventivas de\nsegurança;",
+      "D": "Propor ao Diretor Técnico-Científico, através do INC, ou aos Superintendentes Regionais, por intermédio das unidades Técnico-Científicas, a adoção de medidas para facilitar a consecução dos trabalhos a serem executados pelos grupos;"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Preservar dados e informações coletados nas atividades visando aos exames periciais (...), é atribuição de todos os integrantes dos GBEs, não são exclusivas dos responsáveis pelo grupo.",
+    "referencia": "SimuChacal, simulado 10, questão #626 — Ref: P.109"
+  },
+  {
+    "id": 2728,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme Instrução Normativa (IN) 005/2004 - DG/PF, julgue os itens a seguir:\n\nI- A participação do servidor policial federal como integrante do GBE exclui da execução das atribuições inerentes ao respectivo cargo;\nII - A capacidade e perfil dos interessados em integrar o GBE é avaliada por comissão, composta pelo responsável e demais integrantes do Grupo, com posterior aprovação da DITEC;\nIII- É requisito para participação como integrante do GBE ser servidor da Carreira Policial Federal, ativo ou aposentado;\nIV – gerir e manter os recursos humanos e materiais disponíveis em condições de pronto emprego é atribuição dos responsáveis pelo GBE;\nV - sugerir e participar de ações de capacitação é atribuição dos responsáveis pelo GBE;\n\nEstão certas as afirmações:",
+    "alternativas": {
+      "A": "II e IV",
+      "B": "I, II, III e V",
+      "C": "I, III e V",
+      "D": "II, IV e V"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #634 — Ref: P.109"
+  },
+  {
+    "id": 2729,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação às AÇÕES REPRESSIVAS, além das medidas de caráter preventivo, incumbe ao Departamento de Polícia Federal o exercício das seguintes tarefas, EXCETO:",
+    "alternativas": {
+      "A": "apurar infrações penais de qualquer natureza cometidas a bordo de aeronaves;",
+      "B": "apurar em processo próprio as infrações cometidas pelas empresas que\natuam no tráfego internacional, nos casos de condução para o território nacional de passageiros e tripulantes em situação irregular, aplicando-lhes as sanções legais cabíveis;",
+      "C": "assumir o comando das operações policiais, até solução final, nos casos\nde apoderamento ilícito de aeronaves;",
+      "D": "colocar no interior de aeronaves pessoas apanhadas em flagrante delito\nou cuja retirada seja determinada por autoridade competente;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "VI - retirar do interior de aeronaves pessoas apanhadas em flagrante delito\nou cuja retirada seja determinada por autoridade competente",
+    "referencia": "SimuChacal, simulado 10, questão #641 — Ref: 106"
+  },
+  {
+    "id": 2730,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos aeroportos, a ligação da Polícia Federal com as empresas aéreas\ne outras entidades ali sediadas será feita através:",
+    "alternativas": {
+      "A": "Seção de Fiscalização do Tráfego Internacional (SFTI)",
+      "B": "Coordenação Central Policial (CCP)",
+      "C": "Divisões de Polícia Marítima, Aérea e de\nFronteiras (DPMAF)",
+      "D": "Divisão de Ordem Política e Social (DOPS)"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Art. 10. Nos aeroportos, a ligação da Polícia Federal com as empresas aéreas\ne outras entidades ali sediadas será feita através da Seção de Fiscalização do\nTráfego Internacional (SFTI).",
+    "referencia": "SimuChacal, simulado 10, questão #642 — Ref: 106"
+  },
+  {
+    "id": 2731,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que concerne ao estabelecimento do Posto de Controle e aos procedimentos de Avaliação e Observação de um suposto artefato explosivo, assinale a alternativa correta, de acordo com a doutrina estabelecida no manual:",
+    "alternativas": {
+      "A": "O Posto de Controle deve ser montado em local que ofereça proteção balística à equipe, inclusive contra ataques de franco-atiradores.",
+      "B": "As informações fornecidas por testemunhas oculares (\"Eu vi uma enorme caixa preta\") devem ser aceitas de maneira absoluta para definir o método de neutralização, visando ganhar tempo na operação.",
+      "C": "O chefe da equipe, por ser o membro que realiza as incursões e corre o maior risco, deve tomar decisões, sendo desaconselhável o debate.",
+      "D": "A estimativa da quantidade de explosivos presente no pacote, realizada durante a fase de avaliação, serve apenas para fins de registro pericial posterior, não tendo impacto na manutenção ou ampliação do perímetro de isolamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A (Correta): O material destaca uma precaução muitas vezes ignorada: como o alvo do artefato é desconhecido, a equipe deve se proteger contra \"snipers\" no posto de controle.\n\nB (Incorreta): O técnico deve ser crítico com as testemunhas. O manual cita o exemplo de que uma \"enorme caixa preta\" relatada pode ser, na verdade, uma caixa pequena e branca.\n\nC (Incorreta): A doutrina é enfática: o chefe deve levar fotos para debate e OUVIR SEMPRE SUA EQUIPE, pois o parceiro pode ter uma solução melhor.\n\nD (Incorreta): A estimativa da carga é fundamental justamente para \"saber se o perímetro de isolamento deve ser aumentado ou não\".",
+    "referencia": "SimuChacal, simulado 10, questão #644 — Ref: p.75-77"
+  },
+  {
+    "id": 2732,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação às MEDIDAS PREVENTIVAS, ao Departamento de Polícia Federal, no exercício de suas atribuições, especialmente no tocante aos serviços de Polícia Aérea, compete desempenhar nas áreas aeroportuárias as seguintes tarefas, EXCETO:",
+    "alternativas": {
+      "A": "inspecionar a documentação de viagem e proceder à revista pessoal e da\nbagagem de mão dos passageiros e tripulantes embarcando em vôos internacionais e, quando necessário, nos domésticos;",
+      "B": "proceder à identificação e revista pessoal e da bagagem de mão das pessoas que, excepcional e devidamente autorizadas, pela autoridade da PF encarregada da fiscalização do tráfego internacional ou pela autoridade aduaneira local, acompanharem passageiros ou tripulantes à área de embarque internacional, respeitando as prerrogativas pessoais conferidas por lei, tratados e convenções;",
+      "C": "submeter aos procedimentos previstos no item I deste artigo os passageiros e tripulantes que forem embarcar em vôo internacional, com previsão de desembarque, em solo pátrio;",
+      "D": "inspecionar a documentação dos passageiros e tripulantes chegando de voos nacionais, procedendo de acordo com a legislação específica sobre as condições;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "IV - inspecionar a documentação dos passageiros e tripulantes chegando do exterior, procedendo de acordo com a legislação específica sobre as condiçõesde desembarque e admissibilidade no território nacional;",
+    "referencia": "SimuChacal, simulado 10, questão #647 — Ref: 103"
+  },
+  {
+    "id": 2733,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, assinale a alternativa que NÃO corresponde a um dos elementos previstos no plano de segurança em caso de ameaça de bomba.",
+    "alternativas": {
+      "A": "Estabelecimento de uma cadeia de comando para evitar ações repetidas ou divergentes.",
+      "B": "Elaboração de um plano de comunicação restrito aos integrantes do plano de segurança.",
+      "C": "Definição de rotas fixas e permanentes de evacuação, a fim de facilitar a orientação dos ocupantes.",
+      "D": "Realização de exercícios periódicos dos planos de vistoria e evacuação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nEssa medida integra o plano de segurança. O texto afirma que deve ser estabelecida uma cadeia de comando para evitar ações repetidas ou divergentes.\n\nAlternativa B – Incorreta.\nO plano de comunicação é apontado como uma ferramenta vital para evitar o pânico, utilizando meio de comunicação restrito aos integrantes do plano de segurança.\n\nAlternativa C – Correta.\nO texto afirma justamente o contrário: devem ser previstas rotas de evacuação com rodízio, evitando o estabelecimento de uma rotina previsível que facilite um ataque terrorista.\n\nAlternativa D – Incorreta.\nO texto prevê a realização regular de exercícios e simulações dos planos de vistoria e evacuação.",
+    "referencia": "SimuChacal, simulado 10, questão #648 — Ref: Págs. 54 - 56"
+  },
+  {
+    "id": 2734,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação da ameaça de bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A ameaça verde constitui uma ameaça real e demanda evacuação imediata.",
+      "B": "A ameaça âmbar corresponde à ameaça que não é levada em consideração.",
+      "C": "A ameaça vermelha indica que a ameaça é considerada real.",
+      "D": "A classificação da ameaça é realizada exclusivamente pelo chefe da segurança da empresa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nSegundo a nomenclatura apresentada, ameaça verde é aquela que não é levada em consideração.\n\nAlternativa B – Incorreta.\nA ameaça âmbar significa que a ameaça pode vir a ser considerada, e não que seja desconsiderada.\n\nAlternativa C – Correta.\nO texto estabelece que ameaça vermelha é aquela que constitui uma ameaça real.\n\nAlternativa D – Incorreta.\nO texto afirma que cada membro da Assessoria de Risco realiza a classificação da ameaça após a avaliação dos dados, e não apenas o chefe da segurança.",
+    "referencia": "SimuChacal, simulado 10, questão #649 — Ref: Págs. 54 - 56"
+  },
+  {
+    "id": 2735,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre bombas, considere as afirmativas:\nI - As bombas são construídas necessariamente para explodir.\nII - Algumas bombas têm formato característico, como bomba-tubo, ou são ocultadas em malas, garrafas, livros e até veículos.\nIII - Algumas bombas são construídas para explodir se tocadas, movimentadas ou meramente\npor aproximação.\nIV - Os dispositivos explosivos irregulares (DEI), também conhecidos como artefatos explosivos ou bombas caseiras, são facilmente disfarçados e podem ter vários tipos de forma e tamanho, sendo rústicos ou sofisticados.\n\nAssinale a alternativa que apresenta apenas as alternativas corretas.",
+    "alternativas": {
+      "A": "I, II e III",
+      "B": "II e III",
+      "C": "I, II, III e IV",
+      "D": "II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"As bombas não são construídas necessariamente para explodir. Há as bombas incendiárias, [...]. Existem também bombas postais ou cartas-bomba, [...]\"\n\nDEI = Dispositivos Explosivos Improvisados",
+    "referencia": "SimuChacal, simulado 10, questão #651 — Ref: p. 51"
+  },
+  {
+    "id": 2736,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a ameça de bomba é correto afirmar:",
+    "alternativas": {
+      "A": "A ameaça de bomba é comunicação normalmente identificada, contra pessoas\nou instituições, usualmente feita diretamente ao alvo.",
+      "B": "Na maioria dos casos, as denúncias atingem seus objetivos que é desafiar a polícia a encontrar a bomba.",
+      "C": "No caso de uma nova chamada para um mesmo local, basta acionar a polícia, pois já que a primeira chamada foi enganosa não é necessário seguir o plano de segurança.",
+      "D": "É necessário que tanto a segurança quanto o segurado se envolvam com o problema e estejam determinados a solucioná-lo, cada um com as suas responsabilidades e atribuições."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #652 — Ref: p. 51 e 52"
+  },
+  {
+    "id": 2737,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da Identificação Positiva do Alvo (IPA/PTI) em caso de ameaça de bomba, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Corresponde à confirmação, pelas equipes de segurança, de que há um artefato explosivo instalado no local ameaçado.",
+      "B": "Consiste na existência, na ameaça, de informações específicas sobre o alvo que não sejam de conhecimento público, indicando conhecimento singular ou em primeira mão.",
+      "C": "Corresponde ao registro formal da ameaça para utilização em futuras investigações.",
+      "D": "É um procedimento realizado apenas após a conclusão da vistoria do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nA IPA/PTI não consiste na confirmação da existência de um artefato explosivo, mas na presença de informações específicas sobre o alvo que indiquem conhecimento singular ou em primeira mão.\n\nAlternativa B – Correta.\nO texto define a Identificação Positiva do Alvo (IPA/PTI) como a existência de informações referentes ao alvo — como nome, cargo, setor ou outras informações não públicas — indicando conhecimento singular ou em primeira mão.\n\nAlternativa C – Incorreta.\nO registro da ameaça é uma providência distinta da IPA/PTI, embora também seja recomendado pelo texto.\n\nAlternativa D – Incorreta.\nA IPA/PTI é utilizada durante a avaliação da ameaça para auxiliar sua classificação, e não apenas após a vistoria.",
+    "referencia": "SimuChacal, simulado 10, questão #653 — Ref: Págs. 54 - 56"
+  },
+  {
+    "id": 2738,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere uma ocorrência em que a equipe de bombas estabeleceu um perímetro de isolamento, mas não possui visada direta do objeto suspeito a partir de uma distância segura. Com base nos Procedimentos de Reação a Bombas, assinale a alternativa que descreve a conduta técnico-doutrinária correta:",
+    "alternativas": {
+      "A": "Caso o técnico precise aproximar-se para fotografar o artefato devido à falta de visada direta, ele deve priorizar o detalhamento descritivo e a busca por vestígios de autoria no local.",
+      "B": "A fase de Avaliação permite que o técnico pondere as informações das testemunhas e sua própria inspeção visual para, entre outras finalidades, estimar a carga explosiva e decidir pela manutenção ou ampliação do perímetro de isolamento.",
+      "C": "O debate das fotografias no Posto de Controle é uma etapa opcional e, caso aja discordância técnica quanto a natureza do artefato, prevalece sempre a decisão/opnião do membro mais experiente.",
+      "D": "Para garantir a descrição técnica fiel do artefato, as comunicações via rádio ou telefone celular devem ser realizadas o mais próximo possível do artefato, permitindo que o posto de comando receba informações precisas e em tempo real."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A (Incorreta): A regra de ouro é o tempo mínimo no alvo. Quanto mais tempo o técnico permanece próximo ao artefato, maior a probabilidade de ele se ferir em caso de explosão. Além disso, a coleta de vestígios é a última prioridade na hierarquia.\n\nB (Correta): Durante a avaliação, o técnico utiliza seu treinamento e experiência para ponderar as informações. A estimativa da quantidade de explosivos é fundamental para saber se o perímetro de isolamento deve ser aumentado ou não.\n\nC (Incorreta): A doutrina é enfática ao dizer que o chefe deve ouvir sempre sua equipe. O parceiro, mesmo o menos experiente, pode ter uma solução melhor.\n\nD (Incorreta): Não devem ser feitas comunicações perto do artefato, pois o uso de aparelhos de radiofrequência (RF) pode vir a acioná-lo acidentalmente. Assim, todas as comunicações com o exterior devem ser feitas a partir do posto de control.",
+    "referencia": "SimuChacal, simulado 10, questão #656 — Ref: p. 75-78"
+  },
+  {
+    "id": 2739,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante os trabalhos periciais em um cenário de pós-explosão ocorrido em uma grande praça pública, a equipe se depara com a necessidade de coordenar a busca por vestígios sob duas condições críticas: a área afetada é muito extensa e há uma forte pressão social e governamental para a liberação e reabertura rápida do espaço urbano. Considerando as técnicas de busca representadas graficamente nas diretrizes técnicas oficiais, qual decisão metodológica adota a justificativa correta para o caso?",
+    "alternativas": {
+      "A": "Optar pela busca partindo do centro da explosão, uma vez que a prioridade governamental exige a obtenção imediata das pistas iniciais do artefato.",
+      "B": "Adotar a busca simultânea, justificada pela necessidade de cobrir grandes áreas e viabilizar a liberação célere do local",
+      "C": "Empregar o método partindo do centro com o uso de fileiras, pois o alinhamento de braços abertos é o padrão indicado para coletar pistas iniciais de forma rápida",
+      "D": "Suspender a divisão em perímetros e aplicar a busca simultânea, já que a urgência na liberação do local impede a delimitação física da cena."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Justificativa da Correta: A busca simultânea em fileiras é expressamente recomendada para cenários onde se faz necessária a varredura de grandes áreas e a subsequente liberação do local\n. A alternativa A está incorreta porque a busca partindo do centro visa a obtenção de pistas iniciais e não é prioridade para reabertura de grandes áreas\n. As alternativas C e D estão erradas porque confundem as técnicas e violam a regra básica de preservação física dos perímetros\nCitação Direta do Documento: \"SIMULTÂNEA Fileira Motivo: - grandes áreas - liberação do local\"",
+    "referencia": "SimuChacal, simulado 10, questão #662 — Ref: 90"
+  },
+  {
+    "id": 2740,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame pericial de um local de explosão, a equipe iniciou a busca de vestígios diretamente na área mais próxima ao epicentro, expandindo posteriormente a vistoria em direção ao perímetro externo. Considerando o procedimento descrito na apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O procedimento está correto, pois a busca deve necessariamente iniciar no ponto de maior destruição.",
+      "B": "O procedimento está incorreto, pois o grupo de busca de vestígios deve vistoriar a área partindo do perímetro externo para o interno.",
+      "C": "O procedimento está correto, desde que previamente autorizado pelo chefe da equipe.",
+      "D": "O procedimento está incorreto, pois somente o perito químico pode realizar a busca de vestígios em locais de explosão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a apostila, compete ao grupo de busca de vestígios determinar o método de busca e vistoriar a área partindo do perímetro externo para o interno. A busca específica no perímetro interno e na área da explosão é atribuída ao grupo de busca do local da explosão (epicentro). (Apostila, p. 82 – item 10.2, “Grupo de busca de vestígios”).",
+    "referencia": "SimuChacal, simulado 10, questão #664"
+  },
+  {
+    "id": 2741,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processamento de um local de explosão, foram identificados diversos vestígios espalhados pela área. Antes da coleta, um dos integrantes da equipe propôs que todos fossem imediatamente reunidos e acondicionados em uma única embalagem, a fim de agilizar os trabalhos.\n\nDe acordo com a apostila, essa conduta é:",
+    "alternativas": {
+      "A": "adequada, desde que os vestígios sejam posteriormente classificados pelo perito químico.",
+      "B": "adequada, caso todos os vestígios tenham sido encontrados no mesmo perímetro.",
+      "C": "inadequada, pois os vestígios encontrados devem ser registrados e empacotados individualmente.",
+      "D": "inadequada, pois nenhum vestígio pode ser retirado do local antes da reconstrução integral do artefato."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila estabelece, entre as atribuições do grupo de busca de vestígios, o dever de registrar e empacotar individualmente os vestígios encontrados. Além disso, na área do epicentro, os vestígios devem ser registrados e empacotados depois de fotografados. (Apostila, p. 82 – item 10.2, “Grupo de busca de vestígios” e “Grupo de busca do local da explosão”).",
+    "referencia": "SimuChacal, simulado 10, questão #666"
+  },
+  {
+    "id": 2742,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma perícia realizada após uma explosão, analise as atribuições abaixo:\n\nI. Medir a largura, o comprimento e a profundidade da cratera.\nII. Coletar amostras para laboratório e contraprovas.\nIII. Tentar determinar o ângulo de maior destruição da explosão.\nIV. Fazer croquis dos perímetros externo e interno.\n\nSão atribuições do grupo de busca do local da explosão (epicentro):",
+    "alternativas": {
+      "A": "I, II e III, apenas.",
+      "B": "I e IV, apenas.",
+      "C": "II, III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Compete ao grupo de busca do local da explosão (epicentro) medir as dimensões e o formato da cratera, coletar amostras para laboratório e contraprovas e tentar determinar o ângulo de maior destruição. A elaboração de croquis da área e dos perímetros externo e interno é atribuição do desenhista, razão pela qual o item IV está incorreto. (Apostila, pp. 82–83 – item 10.2, “Grupo de busca do local da explosão” e “Desenhista”).",
+    "referencia": "SimuChacal, simulado 10, questão #667"
+  },
+  {
+    "id": 2743,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um caso prático de pós-explosão em via pública, o perito responsável começa a organizar o isolamento e a segurança da cena do crime antes do início da coleta de vestígios. Ele deve definir os limites físicos para a multidão, a imprensa (mídia), o posicionamento das viaturas oficiais e a delimitação da área de segurança. De acordo com o modelo gráfico de preservação da cena estabelecido no documento pericial, qual disposição espacial atende corretamente a essa organização?",
+    "alternativas": {
+      "A": "As viaturas de emergência devem ser estacionadas no epicentro da explosão para dar suporte rápido, enquanto a área de segurança é deslocada para fora do perímetro externo junto à multidão.",
+      "B": "A imprensa (mídia) possui trânsito livre na área de segurança para registrar os trabalhos, desde que a multidão seja isolada fora do perímetro interno.",
+      "C": "A mídia e a multidão devem ser mantidas restritas fora do perímetro externo, enquanto a viatura oficial e a área de segurança ficam posicionadas no espaço compreendido dentro do perímetro externo",
+      "D": "A área de segurança deve coincidir exatamente com o perímetro interno, de modo que as viaturas e os peritos permaneçam no epicentro da explosão, mantendo a mídia e a multidão no perímetro externo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: No modelo de preservação do local, a multidão e a mídia devem ser mantidas restritas e isoladas por barreiras de segurança fora do perímetro externo\n. Em contrapartida, as viaturas oficiais e a área de segurança operacional dos técnicos ficam posicionadas dentro dos limites do perímetro externo\n. As outras opções propõem a invasão da mídia ou das viaturas no epicentro, o que geraria contaminação de vestígios e violação dos protocolos gráficos estabelecidos\n.\nCitação Direta do Documento: \"Multidão \\n ISOLAR \\n Mídia \\n ISOLAR \\n Perímetro externo (marcar) \\n VIATURA \\n ÁREA DE SEGURANÇA\"",
+    "referencia": "SimuChacal, simulado 10, questão #668"
+  },
+  {
+    "id": 2744,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe de peritos criminais está documentando os trabalhos realizados em um local de pós-explosão de grande repercussão. Para garantir a precisão das informações e a instrução do laudo pericial, a equipe precisa preencher os formulários padronizados oficiais. Eles devem registrar a cronologia detalhada das atividades e horários (incluindo o início do exame pericial, eventuais interrupções e término), bem como as informações do local quanto a pontos cardeais, objetos fixos de referência e medidas de localização física de cada evidência. Com base nos padrões oficiais de documentação técnica, como esses dados devem ser distribuídos?",
+    "alternativas": {
+      "A": "O Formulário de Registro Administrativo é o instrumento adequado para indicar a escala utilizada e a legenda (chave) das evidências físicas encontradas na cena.",
+      "B": "Todas as medições de distância e pontos cardeais devem ser registradas exclusivamente nas colunas de \"Descrição / Informação Pertinente\" do Formulário de Registro Administrativo, dispensando o uso de diagramas",
+      "C": "O Formulário de Esquema/Diagrama da Cena do Crime destina-se a listar cronologicamente as atividades dos assistentes e horários de coleta, enquanto o Registro Administrativo contém os objetos fixos e pontos cardeais",
+      "D": "O cronograma de eventos e horários de interrupção deve ser registrado no Formulário de Registro Administrativo, enquanto a indicação de pontos cardeais, objetos fixos e medidas deve constar no Formulário de Esquema/Diagrama da Cena do Crime."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Justificativa da Correta: O Formulário 1 (Registro Administrativo) possui campos destinados especificamente a documentar a sequência temporal dos fatos, trazendo as variáveis de Horário e Descrição / Informação Pertinente\n. Já o Formulário 2 (Esquema/Diagrama da Cena do Crime) foca na representação espacial da cena, englobando as variáveis de Pontos cardeais, Objetos fixos, Medidas e Chave / Legenda\n. As alternativas A, B e C estão incorretas pois invertem as atribuições exclusivas de cada formulário ou sugerem a supressão de uma das ferramentas formais de documentação\n.\nCitação Direta do Documento: \"Formulário 1 – Amostra de Registro Administrativo ... Horário Descrição / Informação Pertinente ... Formulário 2 – Amostra de Esquema/Diagrama da Cena do Crime ... Pontos cardeais Evidência Assistentes Objetos fixos Medidas Chave / Legenda\"",
+    "referencia": "SimuChacal, simulado 10, questão #669"
+  },
+  {
+    "id": 2745,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às cargas de ataque utilizadas no canhão d'água, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A carga Avon é indicada para uso geral, pois sua dispersão promove ampla separação dos componentes do artefato.",
+      "B": "A carga de água é preferencialmente utilizada em alvos rígidos, como bombas-tubo metálicas.",
+      "C": "A carga Avon, composta por gesso, esferas ocas metálicas e água, forma um balote rígido que não provoca ricochete, sendo indicada para alvos mais resistentes.",
+      "D": "As cargas de água e Avon possuem a mesma aplicação prática, diferenciando-se apenas pelo volume de água empregado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"A carga Avon forma um balote relativamente rígido e resistente, sendo indicada para alvos mais rígidos, como bombas-tubo. Já a carga de água é de uso geral, explorando a força hidrodinâmica.\" P 42",
+    "referencia": "SimuChacal, simulado 10, questão #678"
+  },
+  {
+    "id": 2746,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação às técnicas de desativação e abertura remota de artefatos e objetos suspeitos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na técnica de desativação com garrafa plástica, cordel e água, a utilização da garrafa plástica tem como finalidade aumentar a produção de fragmentos para romper o invólucro do artefato.",
+      "B": "Na técnica do chicote, a abertura do envelope ocorre em razão da onda explosiva produzida pelo cordel, sem participação de qualquer outro elemento.",
+      "C": "Na abertura remota de envelope com cordel em cartão formato V, experiências têm apresentado bons resultados com a utilização de cordel Nitropenta.",
+      "D": "Na abertura remota de envelope com cordel e fio rígido, o cordel deve permanecer em contato direto com o envelope para garantir a abertura."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"• O cordel deve ficar próximo à borda do envelope;\n• A distância cordel-envelope depende da natureza de ambos;\n• Experiências têm dado bons resultados com o uso de cordel NP 05.\" P 43",
+    "referencia": "SimuChacal, simulado 10, questão #679"
+  },
+  {
+    "id": 2747,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O principal mecanismo de atuação do canhão d'água (disruptor) na desativação de artefatos explosivos consiste em:",
+    "alternativas": {
+      "A": "Produzir calor suficiente para fundir os componentes internos do artefato.",
+      "B": "Utilizar a força hidrodinâmica de uma coluna de água lançada sob alta pressão para desarticular o artefato.",
+      "C": "Gerar uma onda de choque por explosivo de alto poder para destruir completamente o artefato.",
+      "D": "Emitir pulsos eletromagnéticos para interromper o circuito de acionamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O disruptor utiliza a força hidrodinâmica de uma coluna de água lançada sob alta pressão para separar os componentes do artefato, reduzindo a probabilidade de acionamento.",
+    "referencia": "SimuChacal, simulado 10, questão #680"
+  },
+  {
+    "id": 2748,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o processamento pericial de um local de crime pós-explosão ocorrido em uma grande área aberta, a equipe de busca encontra-se com um número limitado de peritos para cobrir toda a extensão do terreno. De acordo com os procedimentos operacionais padrão adotados em perícias dessa natureza, qual padrão de busca é considerado o mais eficiente para garantir uma varredura sistemática e coordenada nessas condições?",
+    "alternativas": {
+      "A": "Padrão em Espiral, com deslocamento contínuo a partir do perímetro externo em direção ao epicentro.",
+      "B": "Padrão em Fileiras ou Linhas, alinhando os componentes lado a lado a uma distância de braços abertos, avançando em linha reta.",
+      "C": "Padrão em Rede (ou Grelha), dividindo o cenário com fitas e barbantes para uma varredura individual e circular em cada quadrícula.",
+      "D": "Padrão em Zona ou Quadrante, onde um único perito centraliza a recolha executando círculos concêntricos e concêntricos inversos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta: O método em espiral é indicado principalmente para divisões fechadas, divisões pequenas ou áreas externas muito restritas, iniciando-se geralmente no foco (epicentro) para fora (ou vice-versa), tornando-se ineficaz e geograficamente impreciso em grandes extensões com poucos recursos.\n\nB) Correta: O padrão em fileiras ou linhas (também chamado de busca em linha) é o método ideal para grandes áreas abertas. Permite que uma equipa, mesmo reduzida, se alinhe lado a lado e avance de forma coordenada, cobrindo uma faixa contínua do terreno. Se alguém avistar um vestígio, a linha para, o objeto é marcado/registado e a progressão recomeça.\n\nC) Incorreta: O método em rede (grelha) exige o cruzamento de duas passagens (uma horizontal e outra vertical) na mesma área. Embora seja muito minucioso, consome o dobro do tempo e exige um esforço ou número de operacionais que o torna contraproducente para uma equipa limitada numa área muito vasta.\n\nD) Incorreta: O método por zonas divide o local em subáreas (setores). Contudo, a descrição de \"um único perito a executar círculos concêntricos\" descaracteriza a aplicação prática e eficiente deste método para grandes territórios abertos e desvirtua a doutrina de varredura setorial.",
+    "referencia": "SimuChacal, simulado 10, questão #690 — Ref: 87"
+  },
+  {
+    "id": 2749,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a ocorrência de uma explosão em um ambiente urbano, a primeira equipe pericial a chegar ao local deve realizar o isolamento e o estabelecimento dos perímetros de segurança para preservar os vestígios e garantir a integridade dos operadores. De acordo com a doutrina de processamento de locais de pós-explosão, como deve ser dimensionado o perímetro externo de isolamento inicial?",
+    "alternativas": {
+      "A": "Deve ser fixado a uma distância fixa e padrão de exatamente 100 metros a partir do ponto central presumido da explosão, independentemente do tipo de dano observado.",
+      "B": "Deve ser estabelecido com base na localização do vestígio ou fragmento mais distante da explosão encontrado visualmente, acrescido de uma margem de segurança de cerca de 50%.",
+      "C": "Deve ser restrito estritamente à área que apresenta danos estruturais graves ou colapso iminente de edificações.",
+      "D": "Deve ser delimitado utilizando um raio equivalente ao dobro da distância entre o epicentro e o local onde foi identificada a primeira vítima fatal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta: O estabelecimento de perímetros em locais de explosão não segue uma métrica rígida e fixa para todos os casos, pois o raio de dispersão depende diretamente da quantidade e do tipo de explosivo utilizado, além das características do ambiente.\n\nB) Correta: A regra doutrinária para o isolamento inicial de locais pós-explosão determina que o perímetro externo deve cobrir uma área que vá além do fragmento (seja do engenho, do veículo ou da estrutura) arremessado à maior distância encontrada durante a varredura visual inicial, adicionando-se uma margem de segurança (geralmente recomendada em 50%) para garantir que nenhum vestígio periférico seja alterado ou destruído.\n\nC) Incorreta: Limitar o perímetro apenas à zona de colapso estrutural (que corresponde geralmente à zona de pressão máxima ou perímetro interno) deixa de fora a zona de fragmentação secundária, onde componentes cruciais para a identificação do engenho explosivo costumam ser projetados.\n\nD) Incorreta: A localização de vítimas não é o critério técnico balizador para o dimensionamento do raio geográfico de isolamento de vestígios materiais, uma vez que corpos ou feridos podem ser movidos ou deslocados por socorristas antes da delimitação pericial.",
+    "referencia": "SimuChacal, simulado 10, questão #691 — Ref: 85"
+  },
+  {
+    "id": 2750,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A realização de uma documentação minuciosa e padronizada das tarefas executadas em locais de pós-explosão é considerada etapa fundamental para subsidiar a elaboração do laudo definitivo, servindo de base para a reconstrução do artefato, para a reconstituição do local e para o direcionamento das investigações policiais em curso. A respeito dos quatro tipos de formulários sugeridos pela doutrina para utilização por parte da equipe pericial, analise os itens a seguir:\n\nI. O Formulário para registro de ocorrência destina-se a registrar, por meio de descrições breves, os horários e os principais eventos verificados, abrangendo dados como a chegada da equipe ao local, nomes dos contatos pessoais, bem como eventuais interrupções dos trabalhos e suas respectivas justificativas.\nII. O Formulário de registro fotográfico é a ferramenta indicada para a catalogação e anotação das sequências fotográficas realizadas na cena de crime, contendo também dados complementares relativos aos equipamentos técnicos e às escalas que foram utilizados nas capturas de imagem.\nIII. O Formulário para diagramas e croquis do local constitui um dos quatro modelos expressamente recomendados e tem sua aplicação técnica voltada à documentação espacial gráfica do cenário.\nIV. O Formulário de localização de vestígios cumpre a função de correlacionar cada elemento material encontrado com a sua devida amarração geográfica no local, o número correspondente da fotografia, o método empregado para sua coleta e empacotamento, além da identificação do operador que o localizou.\n\nCom relação aos itens expostos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Apenas dois itens estão corretos.",
+      "B": "Apenas três itens estão corretos.",
+      "C": "Todos os quatro itens estão corretos.",
+      "D": "Nenhum item está correto."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Todos os itens (I, II, III e IV) estão corretos: A questão reproduziu de forma exata a literalidade das funções e nomenclaturas atribuídas a cada um dos quatro formulários sugeridos na doutrina oficial de perícia em locais de explosão:\n\nO item I reflete perfeitamente o Formulário para registro de ocorrência (eventos, horários, contatos e interrupções).\n\nO item II detalha fielmente o Formulário de registro fotográfico (sequências, equipamentos e escalas).\n\nO item III cita textualmente o Formulário para diagramas e croquis do local.\n\nO item IV transcreve rigorosamente as funções do Formulário de localização de vestígios (relação do vestígio, amarração, foto, método de coleta/empacotamento e quem encontrou).",
+    "referencia": "SimuChacal, simulado 10, questão #692 — Ref: 86"
+  },
+  {
+    "id": 2751,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação técnica dos materiais explosivos exige a correlação entre sua finalidade de emprego, sensibilidade e comportamento termodinâmico de detonação. Com base nessas propriedades, avalie o perfil dos altos explosivos secundários",
+    "alternativas": {
+      "A": "Exigem um dispositivo de iniciação prévio e prescindem de confinamento estrutural para deflagrar sua ruptura",
+      "B": "Caracterizam-se fundamentalmente por uma combustão de natureza progressiva inferior a mil metros por segundo nos trabalhos industriais",
+      "C": "Constituem a substância prioritária na elaboração de detonadores devido à sua extrema reatividade perante atritos físicos, choques mecânicos e altas temperaturas",
+      "D": "Apresentam estabilidade molecular superior e sensibilidade elevada perante o atrito contínuo, garantindo a conversão da carga em energia expansiva durante o processo químico"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os altos explosivos secundários (de ruptura) necessitam de uma carga inicial, como um detonador (com exceção da nitroglicerina), e não precisam de confinamento para explodir.",
+    "referencia": "SimuChacal, simulado 10, questão #696"
+  },
+  {
+    "id": 2752,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pólvora atua como um baixo explosivo de características deflagrantes, cujo comportamento termodinâmico varia conforme seus reagentes. Considerando a composição da pólvora cloratada frente à pólvora negra tradicional, qual é a distinção química observada?",
+    "alternativas": {
+      "A": "A combustão dessa mistura termodinâmica específica dispensa completamente o confinamento mecânico para atingir o pico ideal de pressão máxima",
+      "B": "A proporção de carvão vegetal é elevada de forma a compensar a ausência integral das substâncias sulfurosas na formulação básica",
+      "C": "O nitrato de potássio cede espaço estrutural ao clorato de potássio e adiciona-se o elemento do açúcar refinado",
+      "D": "O processo exotérmico converte substâncias elementares líquidas em gases expansivos mesmo sem a aplicação prévia de chamas diretas ou fricções"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Na pólvora cloratada, o salitre é substituído pelo clorato de potássio, e a mistura passa a conter também 15% de açúcar refinado.",
+    "referencia": "SimuChacal, simulado 10, questão #697"
+  },
+  {
+    "id": 2753,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A dinâmica de uma detonação abrange a propagação de ondas de choque e a taxa de reatividade mecânica do material. Sobre os fatores físicos que regem esse fenômeno, assinale a constatação técnica adequada",
+    "alternativas": {
+      "A": "O trinitrotolueno e os compostos plásticos representam elementos químicos com extrema suscetibilidade de iniciação acidental ocasionada por atritos mecânicos ou faíscas",
+      "B": "A capacidade de brisância de uma carga de ruptura é mensurada pela contagem exata de resíduos remanescentes localizados após sua detonação primária",
+      "C": "As detonações de perfil puramente mecânico caracterizam-se pela transformação instantânea da matéria em energia originada da ruptura dos núcleos atômicos",
+      "D": "A rapidez de propagação da onda pelo artefato oscila conforme a densidade estrutural e a granulometria da substância"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A velocidade de detonação, medida em m/s, varia dependendo de fatores como o diâmetro do cartucho, a granulometria, o grau de confinamento e a densidade do material explosivo.",
+    "referencia": "SimuChacal, simulado 10, questão #698"
+  },
+  {
+    "id": 2754,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o primeiro contato visual direto do técnico com o suposto artefato explosivo, qual regra deve ser observada?",
+    "alternativas": {
+      "A": "Aguardar o “tempo de molho” de 20 minutos.",
+      "B": "Permanecer próximo até concluir a avaliação da situação.",
+      "C": "Manter o tempo mínimo no alvo.",
+      "D": "Iniciar imediatamente uma entrada manual."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“Tirar várias fotos e sair o mais rapidamente possível de perto do suposto artefato explosivo, pois quanto mais tempo permanecer próximo, maior será a probabilidade de que ele venha a explodir e o técnico se machuque.\nA regra é: tempo mínimo no alvo.”",
+    "referencia": "SimuChacal, simulado 10, questão #711 — Ref: p. 78-80"
+  },
+  {
+    "id": 2755,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os procedimentos aplicáveis a um incidente classificado na Categoria B, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os trabalhos devem começar imediatamente, sem perda de tempo com entrevistas, e a entrada manual deve ser a primeira opção.",
+      "B": "Todas as informações disponíveis devem ser colhidas antes das operações, devendo-se observar o período de espera adequado e, se possível, utilizar métodos remotos.",
+      "C": "A situação representa perigo mínimo para o pessoal e normalmente deve ser solucionada mediante contracarga com explosivo.",
+      "D": "O local não deve ser evacuado, pois existe ameaça indireta à vida e direta ao patrimônio."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O período de espera adequado deve ser observado antes de iniciar a operação para neutralizar a bomba.”\n\n“Se possível, devem ser usados métodos remotos, como a técnica da corda para mover de um local para outro o suposto artefato explosivo.”\n\n“Todas as informações disponíveis serão colhidas antes de começar as operações para neutralizar a bomba.”",
+    "referencia": "SimuChacal, simulado 10, questão #713 — Ref: p. 78-80"
+  },
+  {
+    "id": 2756,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas sobre a categorização dos incidentes envolvendo supostos artefatos explosivos:\n\nI. Na Categoria A, existe ameaça imediata e direta à vida, devendo os trabalhos começar imediatamente.\nII. Na Categoria B, se o artefato explodir, não deverá causar danos à vida, pois o local já terá sido evacuado.\nIII. A Categoria C somente deve ser considerada depois que as categorias A e B tiverem sido eliminadas.\nIV. Na Categoria C, quando for utilizada uma técnica ativa, deve-se aguardar o “tempo de molho” de 20 minutos antes da aproximação.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas II, III e IV estão corretas.",
+      "C": "Apenas I, II e III estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Afirmativa I:\n\n“Na categoria A existe ameaça imediata (direta) à vida, ou seja, se o suposto artefato explodir, irá ferir ou matar alguém.”\n\n“Por se tratar de situações de extrema periculosidade, os trabalhos com o suposto artefato explosivo devem começar imediatamente, assim que o técnico chegar ao local.”\n\nAfirmativa II:\n\n“Na categoria B, se o suposto artefato vier a explodir não deverá causar danos à vida, pois o local já terá sido evacuado.”\n\nAfirmativa III:\n\n“Essa situação deve ser considerada depois que as categorias A e B tiverem sido eliminadas.”\n\nAfirmativa IV — incorreta:\n\nO “tempo de molho” de 20 minutos pertence à Categoria B, e não à Categoria C:\n\n“Quando for usada uma técnica ativa, deve-se esperar o ‘tempo de molho’ de 20 minutos antes de se aproximar novamente do suposto artefato explosivo.”",
+    "referencia": "SimuChacal, simulado 10, questão #714 — Ref: p. 78-80"
+  },
+  {
+    "id": 2757,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em conformidade com a metodologia de inspeção detalhada de uma sala, descrita no material, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "a) A vistoria deve ser iniciada imediatamente pela inspeção física dos móveis e objetos mais próximos da porta, a fim de reduzir o tempo de permanência dos técnicos no ambiente.",
+      "B": "b) Antes do ingresso na sala, deve ser realizada uma breve avaliação audiovisual a partir da porta de acesso, podendo ruídos ou objetos suspeitos indicar a necessidade de evacuação do local, após a devida autorização pelo coordenador da vistoria.",
+      "C": "c) A divisão visual do ambiente em três seções tem como finalidade distribuir a inspeção entre três técnicos, sendo obrigatória a composição mínima de equipe com esse efetivo.",
+      "D": "d) Para evitar redundância na inspeção, ambos os técnicos devem percorrer o ambiente no mesmo sentido, preferencialmente no sentido horário."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O procedimento descrito determina que a vistoria seja realizada por equipes de, no mínimo, dois técnicos e tenha início com uma breve parada na porta para avaliação audiovisual. Caso sejam percebidos ruídos ou objetos suspeitos, poderá haver evacuação, mediante autorização do coordenador da vistoria. Após o ingresso, o ambiente é dividido visualmente em três faixas de altura, enquanto um técnico percorre o ambiente no sentido horário e o outro no sentido anti-horário.",
+    "referencia": "SimuChacal, simulado 10, questão #735 — Ref: p. 59"
+  },
+  {
+    "id": 2758,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No curso de uma vistoria de segurança, foi localizado um objeto suspeito abandonado em uma sala. Considerando exclusivamente as recomendações constantes do material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Confirmada a inexistência de proprietário do objeto, este deverá ser removido para área confinada, reduzindo-se o risco para os demais ocupantes da edificação.",
+      "B": "b) A primeira providência consiste em isolar o objeto, abrindo-o cuidadosamente para verificar a existência de mecanismo explosivo, evitando evacuações desnecessárias.",
+      "C": "c) Após verificar que o objeto aparentemente não sofreu detonação, admite-se sua remoção manual, desde que realizada por policial treinado e utilizando equipamentos de proteção individual.",
+      "D": "d) Caso o objeto não pertença a ninguém, deve-se evacuar o local, mas sem manusear, tentar abrir ou remover o material suspeito."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material é categórico ao estabelecer como principal regra de segurança: \"NÃO O TOCAR\". Recomenda-se verificar a quem pertence o objeto e, caso não haja proprietário, evacuar o local, sem manusear, abrir ou remover o material. Também é expressamente vedado tentar remover artefatos aparentemente falhados ou transportar objetos suspeitos para áreas confinadas.",
+    "referencia": "SimuChacal, simulado 10, questão #736 — Ref: p. 60"
+  },
+  {
+    "id": 2759,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a localização de um objeto suspeito durante uma vistoria de segurança, diversas medidas foram propostas pela equipe responsável. À luz das recomendações constantes do material, assinale a alternativa que reúne apenas procedimentos compatíveis com o protocolo descrito.",
+    "alternativas": {
+      "A": "Elaborar croqui somente após a neutralização do artefato; manter o objeto em ambiente fechado para reduzir a propagação da onda de choque; comunicar os bombeiros apenas se houver confirmação de explosivos.",
+      "B": "Remover cuidadosamente o artefato para área aberta; desligar os equipamentos elétricos do ambiente; elaborar posteriormente um croqui do local, caso solicitado pelo esquadrão antibombas.",
+      "C": "Cercar o objeto suspeito apenas após a chegada do esquadrão antibombas; remover imediatamente materiais inflamáveis das proximidades; cortar os fios aparentes para eliminar eventual alimentação elétrica do dispositivo.",
+      "D": "Elaborar, tão breve quanto possível, um diagrama do objeto e do local onde foi encontrado; notificar os bombeiros e, quando necessário, solicitar apoio médico; evitar cortar fios, arames ou cordões ligados ao objeto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material recomenda que seja elaborado o mais rapidamente possível um diagrama ou esboço do objeto e do local para subsidiar o planejamento do esquadrão antibombas. Também orienta a notificação dos bombeiros, a solicitação de apoio médico quando necessário e determina expressamente não cortar fios, arames ou cordões ligados ao objeto suspeito. As demais alternativas contrariam recomendações explícitas do texto.",
+    "referencia": "SimuChacal, simulado 10, questão #737 — Ref: p. 60"
+  },
+  {
+    "id": 2760,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sistema disparador de tubo de choque",
+    "alternativas": {
+      "A": "Consiste em um cilindro metálico maciço, rígido e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança.",
+      "B": "Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (TNT - (Trinitrotolueno) + ferro em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança.",
+      "C": "Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma onda de choque que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, detonando a espoleta com muito mais segurança.",
+      "D": "Consiste em um tubo plástico oco, flexível e resistente, de pequeno diâmetro (cerca de 3 mm), com as paredes revestidas internamente por uma fina camada de material pirotécnico (HMX - (Octogênio) + alumínio em pó). Quando acionado, produz uma chama que percorre o interior do tubo a uma velocidade de cerca de 1.000 m/s, sensibilizando a espoleta com muito mais segurança."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A O texto descreve o elemento como um tubo plástico oco (não maciço) e flexível (não rígido). Um cilindro metálico maciço e rígido é estruturalmente oposto ao descrito, impossibilitando que uma chama percorra seu interior (já que é maciço, não há interior oco).\n\nB O texto especifica que o material pirotécnico é composto por HMX (Octogênio) + alumínio em pó. Trocar por TNT (que é um explosivo de alto poder, mas não pirotécnico para produção de chama contínua) e ferro em pó (que não tem a mesma reação pirotécnica do alumínio) altera a composição química descrita, tornando a afirmação incompatível com o texto.\n\nC O texto afirma que o dispositivo produz uma chama (fenômeno de combustão/defiagrante), não uma onda de choque (fenômeno detonante/supersônico com pressão). Além disso, o efeito sobre a espoleta é sensibilizá-la (torná-la sensível/ativá-la) e não detoná-la (que seria uma reação explosiva violenta e instantânea). A troca dos termos altera tanto a natureza física do fenômeno quanto o efeito final descrito.\n\nD Gab",
+    "referencia": "SimuChacal, simulado 10, questão #754 — Ref: pg 30"
+  },
+  {
+    "id": 2761,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as medidas de segurança no manuseio, transporte e armazenamento de explosivos e detonadores, conforme descrito no texto, analise as afirmativas abaixo:\n\nI. Durante o transporte e armazenamento, explosivos e detonadores devem ser mantidos juntos para facilitar o acesso rápido em caso de emergência.\n\nII. Os detonadores comuns devem ser acondicionados separadamente uns dos outros com a finalidade de evitar atrito entre eles.\n\nIII. Nos detonadores elétricos, as pontas dos fios devem ser mantidas separadas para evitar curtos-circuitos que poderiam desarmar o dispositivo.\n\nIV. É permitido transportar cápsula explosiva elétrica no porta-luvas de viaturas, desde que os equipamentos eletrônicos do tipo radiotransmissor estejam desligados.",
+    "alternativas": {
+      "A": "Apenas a II está correta",
+      "B": "Apenas I e III estão corretos.",
+      "C": "I, III e IV estão corretos.",
+      "D": "Apenas IV está incorreta."
+    },
+    "resposta_correta": "A",
+    "justificativa": "I. Incorreta. O texto ordena que se deve separar explosivos de detonadores durante transporte e armazenamento, e não mantê-los juntos.\nII. Correta. O texto afirma textualmente que os detonadores comuns devem ser \"acondicionados, separadamente\" para evitar atrito.\nIII. Incorreta. O texto determina que, no caso de detonadores elétricos, deve-se unir as pontas dos fios para evitar iniciação acidental — e não mantê-las separadas.\nIV. Incorreta. O texto proíbe expressamente o transporte de cápsula explosiva elétrica no porta-luvas de viaturas que contenham equipamentos eletrônicos do tipo radiotransmissor, sem qualquer ressalva sobre o estado (ligado/desligado) do equipamento.",
+    "referencia": "SimuChacal, simulado 10, questão #757"
+  },
+  {
+    "id": 2762,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as medidas de segurança no manuseio de detonadores e espoletas elétricas, conforme descrito no texto, analise as afirmativas abaixo:\n\nI. É permitido o uso de detonadores próximos à rede de alta tensão, desde que as espoletas elétricas estejam devidamente isoladas termicamente.\n\nII. Recomenda-se evitar o trabalho com espoletas elétricas em condições adversas de tempo, conforme orientação do texto.\n\nIII. Os detonadores elétricos devem ser colocados no chão com os fios já enrolados e abertos, para facilitar o manuseio posterior.\n\nIV. O radiotransmissor, incluindo HT e celulares, deve ser desligado próximo ao local sob ameaça.",
+    "alternativas": {
+      "A": "Apenas I e IV estão corretas",
+      "B": "Apenas II e III estão corretas",
+      "C": "Apenas III e IV estão corretas.",
+      "D": "Apenas II e IV estão corretas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "I. Incorreta. O texto proíbe expressamente o uso de detonadores próximo à rede de alta tensão, pois as espoletas elétricas podem detonar por indução eletromagnética — e não por isolamento térmico, que sequer é mencionado.\n\nII. Correta. O texto afirma textualmente que não se deve trabalhar com espoletas elétricas em condições adversas de tempo.\n\nIII. Incorreta. O texto orienta que os detonadores elétricos devem ser colocados no chão com os fios já desenrolados e curto-circuitados — e não \"enrolados e abertos\", que é o oposto do descrito.\n\nIV. Correta. O texto determina que se deve desligar o radiotransmissor (inclusive HT e celulares) próximo ao local sob ameaça.",
+    "referencia": "SimuChacal, simulado 10, questão #758"
+  },
+  {
+    "id": 2763,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A escolha do local para a colocação de uma bomba leva em conta normalmente:",
+    "alternativas": {
+      "A": "A altura de colocação do artefato",
+      "B": "A visibilidade obtida com o efeito do atentado",
+      "C": "Facilidade de ocultação do artefato",
+      "D": "Cumprimento a requisitos das ideologias terroristas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Pag. 50.\nSão 3 aspectos que a apostila enumera como considerados para colocação de uma bomba:\n• Facilidade de acesso e ocultação do artefato;\n• Menor possibilidade de que o indivíduo que irá colocá-la seja visto;\n• Chance de causar o maior dano possível.",
+    "referencia": "SimuChacal, simulado 10, questão #759"
+  },
+  {
+    "id": 2764,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre inspeções e planejamento de segurança, julgue",
+    "alternativas": {
+      "A": "No planejamento da segurança de comitivas, deve-se ter 2 rotas alternativas que também serão vistoriadas.",
+      "B": "Recomenda-se formar hábitos diários com a comitiva, para consolidar o procedimento de segurança na equipe.",
+      "C": "As inspeções de segurança verificam se há perigos intencionais à autoridade que estará presente. Os perigos\nnaturais, como piso excessivamente encerado, potencial causador de quedas, são objetos de outro tipo de equipe\ne de contexto.",
+      "D": "A varredura preventiva deve inspecionar toda a área imediata e mediata"
+    },
+    "resposta_correta": "D",
+    "justificativa": "pag. 49\nGAB. D\na) deve-se ter 1 rota alternativa\nb) deve-se evitar formar hábitos diários\nc) verifica-se tanto perigos naturais quanto intencionais\nd) certo.",
+    "referencia": "SimuChacal, simulado 10, questão #760"
+  },
+  {
+    "id": 2765,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com as regras de segurança descritas no Anexo 1, qual é o procedimento padrão correto a ser adotado ao manusear o detonador e a carga principal?",
+    "alternativas": {
+      "A": "Conectar a linha de fogo diretamente à carga principal e, por último, fixar o detonador.",
+      "B": "Conectar o detonador à linha para só então conectá-lo à carga principal.",
+      "C": "Conectar o detonador à carga principal primeiro e depois estender a linha até a área de segurança.",
+      "D": "Acionar a linha de fogo antes mesmo de verificar a conexão com o detonador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto do Anexo 1 é explícito ao determinar: \"Adote como procedimento padrão, conectar o detonador à linha para só então conectá-lo à carga principal\". Esse protocolo minimiza o risco de uma detonação acidental enquanto os operadores manuseiam a carga principal.",
+    "referencia": "SimuChacal, simulado 10, questão #761 — Ref: p. 95"
+  },
+  {
+    "id": 2766,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No caso de ocorrer uma explosão acidental durante os exercícios práticos, qual deve ser a conduta imediata de todos os alunos presentes na área de testes?",
+    "alternativas": {
+      "A": "Correr imediatamente para fora da área de testes a fim de buscar ajuda externa.",
+      "B": "Permanecer no local exato onde estão e aguardar que o professor vá até eles.",
+      "C": "Retornar imediatamente à área de segurança.",
+      "D": "Tentar recolher os resíduos da explosão para limpar a área."
+    },
+    "resposta_correta": "C",
+    "justificativa": "De acordo com a observação (OBS) ao final do documento: \"Se uma explosão acidental ocorrer, todos os alunos deverão retornar à área de segurança\". Correr sem rumo ou permanecer na área de detonação representa um grave risco à integridade física.",
+    "referencia": "SimuChacal, simulado 10, questão #762 — Ref: p. 95"
+  },
+  {
+    "id": 2767,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre os motivos que originam uma solicitação de varredura, qual não está incluído?",
+    "alternativas": {
+      "A": "Visita",
+      "B": "Denúncia anônima",
+      "C": "Instalação",
+      "D": "Rotina"
+    },
+    "resposta_correta": "B",
+    "justificativa": "GAB. B.\npag. 49.\nOs motivos que originam uma solicitação de varredura podem ser:\nVisita - na ocorrência de eventos na própria cidade, fora do ambiente normal\nde trabalho ou quando em visita a outras cidades;\nPerigo iminente - quando sob ameaça por carta, telefonemas, etc.;\nRotina - inspeção onde se verifica se um ambiente mantido sob constante\nvigilância apresenta alguma alteração;\nInstalação - em cerimônias de posse ou quando da ocupação temporária\nou definitiva de um local;\nVazamento de informações ou infiltrações - quando se tem notícia de\nvazamento de informações em função da presença de elementos infiltrados.",
+    "referencia": "SimuChacal, simulado 10, questão #763"
+  },
+  {
+    "id": 2768,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Toda explosão realizada com iniciação elétrica ou tubo de choque exige um protocolo de comunicação verbal rigoroso. Assinale a alternativa que apresenta corretamente o grito de alerta padrão e o procedimento subsequente:",
+    "alternativas": {
+      "A": "\"Cuidado, fogo na torre!\", seguido do acionamento imediato.",
+      "B": "\"Fogo!\", seguido de uma contagem regressiva de 10 segundos.",
+      "C": "\"Atenção, linha quente!\", sendo então iniciada a contagem regressiva.",
+      "D": "\"Afastem-se todos!\", seguido da autorização do professor."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A última regra do anexo estabelece o padrão exato de comunicação de segurança: \"Toda explosão com iniciação elétrica ou tubo de choque será precedida do grito de alerta: 'Atenção, linha quente!', sendo então iniciada a contagem regressiva.\"",
+    "referencia": "SimuChacal, simulado 10, questão #764 — Ref: p. 95"
+  },
+  {
+    "id": 2769,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as vistorias em locais com ameaça de bomba, é correto afirmar:",
+    "alternativas": {
+      "A": "Deve ser feitas geralmente de dentro pra fora, de cima para baixo",
+      "B": "Nos casos de vistoria externa em carros-bomba, decidindo-se pela aproximação, esta deve ser feita pela diagonal",
+      "C": "ao encontrar objeto suspeito, deve-se retira-lo imediatamente e deixar o ambiente seguro",
+      "D": "Em vistorias em aeronaves, o isolamento inicial é de 1000m e todas as portas da aeronaves devem ser abertas, exceto as de emergência"
+    },
+    "resposta_correta": "B",
+    "justificativa": "a) errada. Pág 58\n\nb) correta. Pág 71\n\nc) erradao.\n\nd) errada. Pág 73",
+    "referencia": "SimuChacal, simulado 10, questão #782"
+  },
+  {
+    "id": 2770,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre ameaças de bomba, é correto afirmar que:",
+    "alternativas": {
+      "A": "As ameaças de bomba são comunicadas de forma normalmente anônima, sendo que na maioria dos casos, as denúncias são verdadeiras e os técnicos anti-bomba devem ser acionados imediatamente.",
+      "B": "As ameaças são classificadas com nomeclatura internacional em ameaça verde, ameaça amarela e ameaça vermelha.",
+      "C": "A Identificação Positiva do Alvo (IPA) é um fator de enorme relevância nas ameaças de bomba. Trata-se da informação referente ao alvo da ameaça.",
+      "D": "Em casos de ameaça sem IPA e sem fato gerador, deve ser feita evacuação parcial imediata, devido à ameaça real."
+    },
+    "resposta_correta": "C",
+    "justificativa": "a) errado.\n\nb) errado. Ameaça âmbar.\n\nc) correto. Pág 56.\n\nd) errado. Tabela da pág 56.",
+    "referencia": "SimuChacal, simulado 10, questão #783"
+  },
+  {
+    "id": 2771,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as vistorias em locais de ameaça de bomba, é correto afirmar que:",
+    "alternativas": {
+      "A": "Caso se encontre um objeto suspeito, deve-se procurar saber a quem pertence, ou quem deixou no local. Se não pertencer a ninguém, deve-se evacuar o local",
+      "B": "Em casos de objeto suspeito, devem-se fechar as portas e janelas para evitar a propagação da onda de choque de uma possível explosão",
+      "C": "A equipe de resposta a um chamado de bombas é sempre composta por no mínimo dois integrandes, sendo um chefe. O chefe é quem menos se expõe à bomba",
+      "D": "durante a vistoria em local sob ameaça de bomba, deve-se ficar atento aos objetos que não deveriam estar no local vistoriado ou estejam fora de seu lugar habtual, mas salienta-se que podem ter áreas que não serão checadas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) certo. Pág 60.\n\nb) errado. Pág 59.\n\nc) errado. É quem mais se expõe (pág 77).\n\nd) errado. Nenhuma área deve ficar sem ser checada (pág 58).",
+    "referencia": "SimuChacal, simulado 10, questão #784"
+  },
+  {
+    "id": 2772,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a Norma de Serviço n° 001/80-CCP/PF, quem é responsável pela remoção, neutralização ou desativação de artefatos explosivos e/ou incendiários encontrados?",
+    "alternativas": {
+      "A": "O responsável pelo local ameaçado",
+      "B": "A Polícia Militar local",
+      "C": "A Polícia Federal, por meio de serviços especializados",
+      "D": "O Instituto Nacional de Criminalística"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #800 — Ref: P. 101 e 102."
+  },
+  {
+    "id": 2773,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando um servidor da Polícia Federal recebe denúncia sobre artefatos explosivos/incendiários, qual deve ser sua primeira providência?",
+    "alternativas": {
+      "A": "Isolar imediatamente o local ameaçado",
+      "B": "Comunicar à Delegacia de Ordem Política e Social ou Delegacia Executiva da PF mais próxima",
+      "C": "Solicitar apoio médico e contra incêndio",
+      "D": "Acionar diretamente o Instituto Nacional de Criminalística"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #801 — Ref: P. 101 e 102."
+  },
+  {
+    "id": 2774,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo os procedimentos da Norma, ao confirmar a existência de artefato explosivo/incendiário, a Delegacia competente deve:",
+    "alternativas": {
+      "A": "Suspender o isolamento imediatamente",
+      "B": "Solicitar ao responsável pelo local que desative o artefato",
+      "C": "Acionar o setor competente e providenciar isolamento da área",
+      "D": "Evitar comunicar o fato para não gerar pânico"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 10, questão #802 — Ref: P. 101 e 102."
+  },
+  {
+    "id": 2775,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação adotada na apostila, constituem efeitos primários de uma explosão:",
+    "alternativas": {
+      "A": "Onda de pressão explosiva, fragmentação e efeito térmico-incendiário.",
+      "B": "Fragmentação, formação de vácuo e deslocamento de detritos.",
+      "C": "Onda de choque, efeito Monroe e deslocamento de ar.",
+      "D": "Efeito térmico, implosão e fragmentação secundária."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A apostila classifica como efeitos primários da explosão a onda de pressão explosiva, a fragmentação e o efeito térmico-incendiário. Os efeitos secundários dependem das características do ambiente onde ocorre a detonação, enquanto fenômenos como o efeito Monroe representam aplicações específicas das ondas de choque, e não uma classificação dos efeitos primários",
+    "referencia": "SimuChacal, simulado 10, questão #820"
+  },
+  {
+    "id": 2776,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a apostila, assinale a alternativa correta acerca das ondas de choque produzidas por explosões.",
+    "alternativas": {
+      "A": "São responsáveis exclusivamente pela propagação de calor, não produzindo efeitos mecânicos.",
+      "B": "Podem provocar a detonação de outra carga explosiva próxima por influência (simpatia), princípio empregado no funcionamento dos detonadores.",
+      "C": "Seu estudo limita-se à estimativa da área de danos, não possuindo aplicação na neutralização de artefatos explosivos.",
+      "D": "O efeito cumulativo ocorre quando uma única onda de choque sofre reflexão em obstáculos próximos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A apostila explica que as ondas de choque produzem efeitos mecânicos e podem desencadear explosões por influência (simpatia), princípio utilizado no funcionamento dos detonadores. Também ressalta que seu estudo permite o desenvolvimento de explosões dirigidas e pode auxiliar na neutralização de artefatos explosivos. O efeito cumulativo decorre da atuação de detonações dirigidas, potencializando as pressões obtidas.",
+    "referencia": "SimuChacal, simulado 10, questão #821"
+  },
+  {
+    "id": 2777,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação ao Efeito Monroe (ou efeito bazuca), assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Consiste na dispersão uniforme das ondas de choque para reduzir a pressão exercida sobre o alvo.",
+      "B": "É empregado para direcionar a explosão mediante a convergência de várias ondas de choque para um mesmo ponto, sendo utilizado, por exemplo, em implosões.",
+      "C": "Seu funcionamento baseia-se exclusivamente na fragmentação produzida pelo recipiente que contém o explosivo.",
+      "D": "Caracteriza-se pela propagação paralela das ondas de choque ao longo da superfície da carga explosiva."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A apostila descreve o Efeito Monroe como o fenômeno em que várias ondas de choque convergem para um mesmo ponto, aumentando significativamente a pressão exercida sobre um alvo específico. Essa característica permite direcionar a explosão, sendo amplamente utilizada em implosões e no corte de estruturas metálicas. Além disso, a orientação da onda de choque ocorre perpendicularmente à superfície da carga explosiva.",
+    "referencia": "SimuChacal, simulado 10, questão #822"
+  },
+  {
+    "id": 2778,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após uma explosão, a equipe pericial encontrou resíduos da substância explosiva que não foi consumida durante o evento. Um integrante da equipe afirmou que essa constatação demonstraria, necessariamente, o emprego de um baixo explosivo.\n\nConsiderando os conceitos de ordem da explosão e de classificação dos explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A afirmação está correta, pois baixos explosivos sempre deixam resíduos, enquanto altos explosivos são integralmente consumidos.",
+      "B": "A afirmação está correta, pois “explosão de baixa ordem” e “baixo explosivo” são expressões equivalentes.",
+      "C": "A afirmação está incorreta, pois a presença de resíduos caracteriza uma explosão de baixa ordem, mas não permite, isoladamente, classificar a substância como baixo explosivo.",
+      "D": "A afirmação está incorreta, pois a presença de resíduos caracteriza necessariamente uma explosão mecânica, e não química."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A explosão de primeira ordem ou alta ordem é aquela em que o explosivo é totalmente consumido. Quando permanecem resíduos não consumidos, ocorre uma explosão de segunda ordem ou baixa ordem. Essa classificação descreve o grau de consumo da carga no evento e não deve ser confundida com a divisão entre baixos e altos explosivos, que considera o comportamento da reação e a velocidade de propagação.\n\nA está errada: a existência de resíduos não permite determinar, por si só, se a substância era um baixo ou alto explosivo.\nB está errada: “baixa ordem” refere-se à explosão incompleta; “baixo explosivo” é uma categoria da substância.\nD está errada: explosão mecânica decorre, por exemplo, da ruptura de um recipiente pelo aumento da pressão interna, não da simples presença de resíduos.",
+    "referencia": "SimuChacal, simulado 10, questão #838"
+  },
+  {
+    "id": 2779,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a avaliação técnica de determinada substância explosiva, foram observadas as seguintes características:\n\nI. facilidade de iniciação por choque, calor, faísca ou atrito;\nII. rapidez com que o explosivo atinge sua pressão máxima, produzindo ruptura nos materiais próximos;\nIII. rapidez com que a onda de choque se propaga através da massa explosiva.\n\nAs propriedades descritas em I, II e III correspondem, respectivamente, a:",
+    "alternativas": {
+      "A": "sensibilidade, brisância e velocidade de detonação.",
+      "B": "brisância, sensibilidade e potência explosiva.",
+      "C": "velocidade de detonação, brisância e sensibilidade.",
+      "D": "sensibilidade, velocidade de detonação e brisância."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A sensibilidade representa a facilidade com que o explosivo pode ser iniciado por estímulos como choque, calor, faísca, eletricidade estática ou atrito. A brisância corresponde à capacidade de ruptura, relacionada à rapidez com que a pressão máxima é alcançada. Já a velocidade de detonação indica a rapidez, em metros por segundo, com que a onda de choque se propaga através do explosivo.\n\nB está errada: inverte sensibilidade e brisância, além de empregar “potência explosiva”, que não corresponde ao conceito apresentado no item III.\nC está errada: facilidade de iniciação não é velocidade de detonação, mas sensibilidade.\nD está errada: a capacidade de ruptura está relacionada à brisância, e não diretamente à velocidade de propagação da onda.\n\nDistinção importante: um explosivo pode apresentar elevada velocidade de detonação sem ser altamente sensível. Assim, velocidade, sensibilidade e brisância são propriedades relacionadas, mas não equivalentes.",
+    "referencia": "SimuChacal, simulado 10, questão #839"
+  },
+  {
+    "id": 2780,
+    "disciplina": "PCEB - Bombas e Explosivos",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma cadeia de iniciação, determinado componente é bastante sensível ao choque, ao calor e à fricção, sendo utilizado para fornecer a energia necessária à iniciação de uma carga de ruptura, que apresenta elevada brisância.\n\nConsiderando a classificação quanto à velocidade e à função dos explosivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O primeiro componente é um baixo explosivo, enquanto a carga de ruptura é obrigatoriamente uma mistura incendiária.",
+      "B": "O primeiro componente é um alto explosivo secundário, enquanto a carga de ruptura é um alto explosivo primário.",
+      "C": "Ambos são altos explosivos primários, pois todos os componentes de uma cadeia de iniciação devem apresentar elevada sensibilidade.",
+      "D": "O primeiro componente é um alto explosivo primário, enquanto a carga de ruptura é um alto explosivo secundário."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os altos explosivos primários são explosivos de iniciação: apresentam elevada sensibilidade e fornecem a energia de ativação necessária para iniciar os explosivos de ruptura.\n\nPor isso, são utilizados em detonadores. Os altos explosivos secundários, por sua vez, são as cargas de ruptura, possuem elevada brisância e ocupam a parte final da cadeia de iniciação. Em regra, necessitam de detonador ou reforçador para serem iniciados.\n\nA está errada: o componente sensível empregado para iniciar outra carga corresponde a um alto explosivo primário, não a um baixo explosivo.\n\nB está errada: as funções foram invertidas. O primário inicia; o secundário produz o efeito principal de ruptura.\n\nC está errada: a carga principal de ruptura é classificada como alto explosivo secundário, normalmente menos sensível que o explosivo primário.\n\nItens mais importantes para memorizar:\nAlta ou baixa ordem: indica se houve consumo total ou incompleto da carga.\nBaixo ou alto explosivo: classificação relacionada ao modo e à velocidade da reação.\nSensibilidade: facilidade de iniciação.\nBrisância: capacidade de ruptura.\nVelocidade de detonação: propagação da onda de choque pelo explosivo.\nPrimário: inicia a cadeia de fogo.\nSecundário: carga de ruptura, normalmente iniciada por detonador ou reforçador.",
+    "referencia": "SimuChacal, simulado 10, questão #840"
+  },
+  {
+    "id": 2781,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Tal como para armas de fogo, cartuchos de munição e elementos de munição apreendidos podem passar por exames de identificação direta, com descrição de suas características e procedência, além de teste de eficiência para os cartuchos recebidos íntegros ou de confronto balístico para os elementos de munição recebidos disparados.\n\nNo que se refere à descrição de estojos, assinale a alternativa incorreta:",
+    "alternativas": {
+      "A": "Devem ser indicados o calibre, a marca, e a procedência.",
+      "B": "Devem ser indicados o calibre nominal, e o tipo de matéria do qual são constituídos o estojo.",
+      "C": "Devem ser indicados o tipo de matéria da cápsula de espoletamento, e o sistema de percussão.",
+      "D": "Devem ser indicados o tipo e a constituição de seus projéteis."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alternativa D (INCORRETA): “Na descrição de cartuchos e estojos, devem ser indicados o calibre, a marca, a procedência, o calibre nominal, o tipo de matéria do qual são constituídos o estojo e a cápsula de espoletamento, sistema de percussão e outras características peculiares que o perito achar convenientes descrever. Para os cartuchos, deverão ser descritos o tipo e a constituição de seus projéteis.”, página 69, Caderno Balística. As características “tipo e constituição do projétil” é específica dos cartuchos.",
+    "referencia": "SimuChacal, simulado 11, questão #474 — Ref: página 69, Caderno Balística."
+  },
+  {
+    "id": 2782,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual a diferença entre Calibre real e nominal? (Essa teoricamente é importante)",
+    "alternativas": {
+      "A": "Não há diferenças entre os 2.",
+      "B": "O calibre real é a medida que corresponde ao diâmetro interno da alma, já o calibre nominal é sempre designativo de um tipo particular de munição e também do tipo de arma que a utiliza.",
+      "C": "O calibre real é o designado na munição e o calibre nominal é a medida do diâmetro interno da arma.",
+      "D": "O calibre real é medida do diâmetro externo da alma e calibre nominal é designado de um tipo particular de munição."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Literalidade nas páginas 29-30",
+    "referencia": "SimuChacal, simulado 11, questão #481"
+  },
+  {
+    "id": 2783,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual o problema de usar cartuchos nominais diferentes ao indicado na arma?",
+    "alternativas": {
+      "A": "Não ocorrerá problemas.",
+      "B": "A arma não funcionará em nenhuma hipótese.",
+      "C": "Poderá causar danos à arma e ao atirador.",
+      "D": "É recomendado alterar as características originais da arma para que esta calce cartuchos de calibres nominais diferentes daqueles para os quais foi concebida."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O uso de cartuchos nominais diferentes poderá causar danos à arma e ao atirador, sendo desaconselhado alterar as características originais da arma para que esta calce cartuchos de calibres nominais diferentes daqueles para os quais foi concebida.",
+    "referencia": "SimuChacal, simulado 11, questão #482 — Ref: p. 30"
+  },
+  {
+    "id": 2784,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o calibre real:\n\nI - Quando o número de raias é par, tal tarefa é simples, visto que dois cheios estarão opostos um ao outro.\nII - Quando o número de raias é ímpar, entretanto, um cheio estará oposto a uma raia, devendo a medida do calibre real ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia em posição oposta.\nIII - Todo cartucho de munição apresenta, gravado na base do culote, o calibre real de uso.\nIV - Os calibres reais são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres reais para um único calibre nominal.",
+    "alternativas": {
+      "A": "Somente I.",
+      "B": "Somente I, II.",
+      "C": "Somente I, II, III.",
+      "D": "I, II, III, IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "I e II - Quando o número de raias é par, tal tarefa é simples, visto que dois cheios estarão opostos um ao outro. Quando o número de raias é ímpar, entretanto, um cheio estará oposto a uma raia, devendo a medida do calibre real ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia em posição oposta, conforme a figura anterior.\nIII - Assim, todo cartucho de munição apresenta, gravado na base do culote, o calibre NOMINAL de uso.\nIV - Os calibres NOMINAIS são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres NOMINAIS para um único calibre REAL. Inverti as palavras",
+    "referencia": "SimuChacal, simulado 11, questão #483 — Ref: p. 30"
+  },
+  {
+    "id": 2785,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Da mesma forma que no caso das armas de fogo e cartuchos de munição, todos os elementos de munição recebidos como questionados devem ser descritos e fotografados. Quanto mais extensiva for a descrição e a documentação fotográfica tanto mais seguro estará o perito quanto a questionamentos que possam ocorrer, referentes ao seu laudo, no futuro.\n\nNo que se refere à descrição de projéteis, assinale a alternativa incorreta:",
+    "alternativas": {
+      "A": "Deve-se determinar seu calibre nominal, quando possível, bem como o número e orientação ressaltos e cavados.",
+      "B": "Deve-se indicar a massa e dimensões, descrevendo, por fim, tão bem quanto possível e quando existirem, as deformações acidentais que o projétil tenha.",
+      "C": "Caso o perito receba um conjunto de fragmentos de projéteis, estes devem ser descritos individualmente, indicando quais são fragmentos de projéteis, quais são fragmentos de encamisamento e quais são fragmentos de núcleos de projéteis.",
+      "D": "Havendo material aderido ao projétil questionado, este deve ser caracterizado, com indicação precisa de sua localização, sendo vedada sua remoção para evitar danos às ranhuras do projétil."
+    },
+    "resposta_correta": "D",
+    "justificativa": "“Na descrição de projéteis, determinar seu calibre nominal, quando possível, bem como o número e orientação ressaltos e cavados. Indicar a massa e dimensões, descrevendo, por fim, tão bem quanto possível e quando existirem, as deformações acidentais que o projétil tenha. Caso o perito receba um conjunto de fragmentos de projéteis, estes devem ser descritos individualmente, indicando quais são fragmentos de projéteis, quais são fragmentos de encamisamento e quais são fragmentos de núcleos de projéteis.\nExistindo algum material aderido ao material questionado, este deve ser caracterizado, indicando o mais exatamente possível sua localização. Caso seja necessário, os materiais deverão ser removidos, tomando-se o cuidado de não danificar quaisquer deformações normais, sendo então pesados, descritos e acondicionados adequadamente para análise posterior.”, página 69, Caderno Balística.",
+    "referencia": "SimuChacal, simulado 11, questão #485 — Ref: página 69, Caderno Balística."
+  },
+  {
+    "id": 2786,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O resultado dos procedimentos de comparação dos projéteis e estojos depende diretamente da qualidade dos padrões colhidos da arma. Desta forma, é importante reproduzir, tanto quanto possível, as mesmas condições do fato que originou o projétil ou estojo questionado.\nÉ importante que os cartuchos utilizados no procedimento de coleta de padrões atendam aos requisitos de autenticidade, adequabilidade, contemporaneidade e quantidade.\n\nCom relação ao procedimento de coleta de padrões de projéteis, assinale a alternativa incorreta:",
+    "alternativas": {
+      "A": "Uma forma de coletar o padrão de projéteis expansivos consiste em selar sua ponta oca, evitando a reversão dos bordos de expansão.",
+      "B": "Se o cano da arma estiver desobstruído, ainda que apresente indícios de chumbamento (depósito de chumbo metálico em seu interior), ele não deverá ser limpo, independentemente do estado de seus raiamentos.",
+      "C": "De acordo com os requisitos no procedimento de coleta de padrões, um padrão é considerado adequado quando possui origem certa e inquestionável, isto é, quando há certeza de que foi produzido pela arma questionada.",
+      "D": "A utilização de um projétil padrão com composição diversa da do projétil questionado é absolutamente inútil, inviabilizando o exame pericial balístico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A (CORRETA): “O tanque de água tem a vantagem da praticidade, mas um cuidado especial deve ser tomado ao se coletar projéteis expansivos, selando sua ponta oca, de modo que os bordos de expansão não sejam revertidos.”, página 72, Caderno Balística.\n\nAlternativa B (CORRETA): “Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja, visto que ele pode estar “chumbado”, devendo os primeiros padrões serem coletados com o cano no estado em que se encontra.”, página 71, Caderno Balística.\n\nAlternativa C (INCORRETA):\n\nRequisito da Autenticidade: “A autenticidade é o mais importante requisito de um padrão. Um padrão é autêntico quando tiver origem certa e inquestionável, ou seja, há a certeza de que\no padrão foi colhido com a arma questionada.”, página 70, Caderno Balística.\n\nRequisito da Adequabilidade: “Os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.”, página 70, Caderno Balística.\n\nAlternativa D (CORRETA):\n\n“Caso o projétil questionado seja, por exemplo, ogival de chumbo nu, é absolutamente inútil coletar um projétil padrão expansivo de ponta oca semiencamisado.”, página 71, Caderno Balística.",
+    "referencia": "SimuChacal, simulado 11, questão #486"
+  },
+  {
+    "id": 2787,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma arma de fogo somente pode ser considerada como tal quando coexistem quais elementos essenciais?",
+    "alternativas": {
+      "A": "Aparato arremessador, carga de projeção e projétil.",
+      "B": "Aparato arremessador, projétil e mecanismo de disparo.",
+      "C": "Aparato arremessador, cano e carga de projeção.",
+      "D": "Carga de projeção, projétil e sistema de pontaria."
+    },
+    "resposta_correta": "A",
+    "justificativa": "elementos essenciais:\n\"a) aparato arremessador (...); b) carga de projeção (...); c) projétil (...).\"\n\n\"..., uma arma de fogo somente pode ser considerada como tal se os três elementos estiverem coexistindo ao mesmo tempo.\"",
+    "referencia": "SimuChacal, simulado 11, questão #500"
+  },
+  {
+    "id": 2788,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação das armas de arremesso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As armas de arremesso complexas possuem um aparato lançador por meio do qual são lançados projéteis substituíveis, que representam parte da munição da arma.",
+      "B": "As armas de arremesso simples utilizam um aparato lançador para impulsionar projéteis substituíveis.",
+      "C": "As armas de arremesso complexas caracterizam-se pelo lançamento direto da arma pela mão do atirador.",
+      "D": "Revólveres, pistolas e arcos são classificados como armas de arremesso simples."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Correta. A apostila afirma literalmente:\n\"Armas de arremesso complexas são aquelas constituídas de um aparato lançador, ou arma propriamente dita, por meio do qual são lançados projéteis, os quais são substituíveis e representam parte da munição da arma.\"\nB) Incorreta. A apostila define:\n\"Armas de arremesso simples são aquelas cujo lançamento é efetuado diretamente pela mão do atirador...\"\nC) Incorreta. O lançamento diretamente pela mão do atirador caracteriza as armas de arremesso simples.\nD) Incorreta. A apostila afirma que:\n\"Incluem-se nesta categoria [armas de arremesso complexas] catapultas, bestas, arcos, revólveres, pistolas e outras armas de fogo.\"",
+    "referencia": "SimuChacal, simulado 11, questão #501"
+  },
+  {
+    "id": 2789,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação das armas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Armas próprias correspondem às armas manuais, enquanto armas impróprias correspondem às armas de arremesso.",
+      "B": "As armas de arremesso complexas são classificadas como armas próprias, ao passo que as armas de arremesso simples são classificadas como armas impróprias.",
+      "C": "Armas próprias são aquelas concebidas especificamente para serem utilizadas como arma, ao passo que armas impróprias são objetos que, embora tenham outra finalidade, podem eventualmente ser utilizados como arma.",
+      "D": "A distinção entre armas próprias e impróprias baseia-se na possibilidade de produzir lesão à distância ou em contato direto com a vítima."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A) Incorreta. A apostila não estabelece qualquer correspondência entre armas próprias/impróprias e armas de arremesso simples/complexas. São classificações independentes.\nB) Incorreta. A alternativa confunde dois critérios distintos de classificação. A classificação em armas próprias e impróprias considera a finalidade para a qual o objeto foi concebido, enquanto a classificação em armas manuais e armas de arremesso considera a forma de emprego da arma.\nC) Correta.\n\"Alguns objetos, como uma espada ou uma arma de fogo, foram concebidos com a finalidade específica de serem utilizados como arma e, por isso, são denominadas 'armas próprias', porém outros, embora não tenham sido projetados com esta finalidade, podem eventualmente ser utilizados como arma (...) sendo denominados 'armas impróprias'.\"\nD) Incorreta. O critério apresentado corresponde à distinção entre armas manuais e armas de arremesso, e não entre armas próprias e impróprias.",
+    "referencia": "SimuChacal, simulado 11, questão #502"
+  },
+  {
+    "id": 2790,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos resíduos nas mãos do atirador, julgue a alternativa correta:",
+    "alternativas": {
+      "A": "Se o atirador lavar as mãos com água corrente após os disparos, todos os resíduos são completamente eliminados",
+      "B": "Se o atirador lavar as mãos com água e sabão, apenas técnicas muito sensíveis serão capazes de identificar os resíduos.",
+      "C": "50% dos testes forneceram um resultado positivo quando os resíduos foram coletados cerca de duas horas após os disparos",
+      "D": "90% dos testes fornecem um resultado positivo quando os resíduos foram coletados imediatamente após os disparos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"a) 90% dos testes fornecem um resultado positivo quando os resíduos foram coletados imediatamente após os disparos;\nb) 60% dos testes forneceram um resultado positivo quando os resíduos foram coletados cerca de duas horas após os disparos;\nc) se o atirador lavar as mãos com água corrente após efetuar os disparos, a técnica fica no limite de detecção;\nd) se o atirador lavar as mãos com água e sabão, todos os resíduos são completamente eliminados\"",
+    "referencia": "SimuChacal, simulado 11, questão #507 — Ref: 61"
+  },
+  {
+    "id": 2791,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao procedimento de coleta de resíduo para MEV, julgue a assertiva correta:",
+    "alternativas": {
+      "A": "A técnica padronizada de coleta inclui a utilização de stub com fita de enxofre dupla face",
+      "B": "Após fechados os recipientes, mais de um stub pode ser acondicionado em um mesmo envelope de segurança",
+      "C": "A coleta de resíduos deverá ser realizado em superfícies corporais, evitando a coleta em objetos devido a sujidades dessas superfícies (como fios de roupa) que podem dificultar a análise microscópica",
+      "D": "A principal área de coleta de resíduos é qualquer das mãos ou braços do atirador, não havendo predileção por uma área específica, desde que em um desses membros"
+    },
+    "resposta_correta": "B",
+    "justificativa": "a) A técnica padronizada de coleta inclui a utilização de stub com fita DE CARBONO dupla face\n\nb) Correto. \"Após fechados os recipientes, mais de um stub pode ser acondicionado em um mesmo envelope de segurança, recomendando-se um envelope para cada pessoa ou objeto de coleta. \"\n\nc) (...) uma ampla variedade de superfícies ou regiões poderá ser objeto de coleta, tanto em pessoas (vivas ou mortas, nas mãos, rosto e pescoço, por exemplo), quanto em objetos (exemplo: vestimentas, portas, assentos e forros).\n\nd) (...) a principal área de coleta na mão de um suspeito de ter atirado é a área escura indicada na figura",
+    "referencia": "SimuChacal, simulado 11, questão #508 — Ref: 61"
+  },
+  {
+    "id": 2792,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao procedimento de coleta de resíduo para MEV, julgue a assertiva correta:",
+    "alternativas": {
+      "A": "Devem ser efetuados no mínimo cinquenta toques ou até que a fita perca a cola",
+      "B": "Deve-se esfregar ou girar o stub contra a superfície que se deseja a coleta até que a fita perca a cola",
+      "C": "Não se deve retirar a película de proteção da fita de carbono, garantindo a integridade da cadeia de custódia",
+      "D": "Para realização de nova coleta com outro stub, as luvas devem ser trocadas ou a mão lavada novamente, admitindo-se a mesma luva apenas se a coleta for feita no mesmo suspeito em outra parte do corpo"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) Correta\n\nb) \"pressionar (não esfregar ou girar) contra superfície que se deseja a coleta de resíduos para análise do MEV (...)\n\nc) \"• calçar luvas e abrir o recipiente do stub (retirar a película de proteção da fita de carbono se existente);\"\n\nd) Para realização de NOVA COLETA com OUTRO STUB, as luvas devem ser trocadas ou a mão lavada novamente;\"",
+    "referencia": "SimuChacal, simulado 11, questão #509 — Ref: 62"
+  },
+  {
+    "id": 2793,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o funcionamento das pistolas semiautomáticas e automáticas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nas pistolas semiautomáticas, um único acionamento do gatilho permite disparos contínuos até o término da munição.",
+      "B": "Tanto as armas automáticas quanto as semiautomáticas utilizam o aproveitamento dos gases gerados na detonação da munição para realizar a ciclagem da arma.",
+      "C": "As armas automáticas dependem do acionamento manual do ferrolho após cada disparo para realizar a ciclagem.",
+      "D": "O funcionamento das pistolas semiautomáticas independe da ciclagem da arma após o disparo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nEssa característica pertence às armas automáticas. Nas semiautomáticas, \"cada tiro deverá ser precedido de acionamento do gatilho por parte do atirador\".\n\nAlternativa B – Correta.\nO texto afirma que \"o princípio do funcionamento das armas automáticas e semiautomáticas (...) é o do aproveitamento dos gases gerados na detonação da munição para efetuar a ciclagem da arma\".\n\nAlternativa C – Incorreta.\nO texto não afirma que a ciclagem dependa de acionamento manual do ferrolho. Pelo contrário, ela ocorre pelo aproveitamento dos gases da combustão.\n\nAlternativa D – Incorreta.\nA ciclagem é justamente uma característica essencial do funcionamento das pistolas semiautomáticas, permitindo a alimentação de um novo cartucho e o preparo para novo disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #514 — Ref: Págs. 39 e 40."
+  },
+  {
+    "id": 2794,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das partes constituintes da pistola semiautomática, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O carregador é fixo à armação e tem como única função alojar o mecanismo de disparo.",
+      "B": "O cano possui raiamento em toda a sua extensão, inclusive na câmara de combustão.",
+      "C": "O ferrolho é uma peça móvel responsável por realizar a ciclagem da arma, deslizando durante as fases de recuo e recuperação.",
+      "D": "A armação serve exclusivamente como suporte ao cano, não abrigando qualquer mecanismo relacionado ao disparo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto informa que o carregador \"é usualmente uma peça separada da arma\" e sua função é armazenar a munição que será apresentada durante a ciclagem.\n\nAlternativa B – Incorreta.\nA câmara de combustão é descrita como \"desprovida de raiamento\". Apenas a porção central do cano possui alma raiada.\n\nAlternativa C – Correta.\nO texto descreve o ferrolho como \"uma peça móvel que desliza nas fases de recuo e recuperação de um disparo, com o objetivo de efetuar a correta ciclagem da arma\".\n\nAlternativa D – Incorreta.\nAlém de suportar o cano e o ferrolho, a armação abriga praticamente todo o mecanismo de disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #515 — Ref: Págs. 39 e 40."
+  },
+  {
+    "id": 2795,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, é correto afirmar que as pistolas podem ser classificadas:",
+    "alternativas": {
+      "A": "Apenas quanto ao funcionamento e ao calibre.",
+      "B": "Quanto ao funcionamento, à montagem do cano, à percussão e ao mecanismo de disparo.",
+      "C": "Exclusivamente quanto ao sistema de alimentação e ao tipo de munição utilizada.",
+      "D": "Apenas quanto ao funcionamento, sendo as demais classificações aplicáveis somente aos revólveres."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nO texto apresenta outras formas de classificação além do funcionamento.\n\nAlternativa B – Correta.\nSegundo o texto, as pistolas podem ser classificadas \"quanto ao funcionamento, quanto à montagem do cano, quanto à percussão e quanto ao mecanismo de disparo\".\n\nAlternativa C – Incorreta.\nSistema de alimentação e tipo de munição não são apresentados como critérios de classificação no trecho.\n\nAlternativa D – Incorreta.\nO texto afirma expressamente que as pistolas, assim como os revólveres, podem ser classificadas segundo esses quatro critérios, não apenas quanto ao funcionamento.",
+    "referencia": "SimuChacal, simulado 11, questão #516 — Ref: Págs. 39 e 40."
+  },
+  {
+    "id": 2796,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos resíduos em anteparos e distência de tiro, quais itens abaixo são verdadeiros?\nI - Tiro a curta distância é aquele que ocorre dentro da região\nespacial na qual os efeitos secundários do disparo imprimem marcas sobre o alvo.\nII - A distância máxima na qual os efeitos secundários são sentidos\ndepende do alcance, grau de concentração e especificidade dos resíduos expelidos,\no que depende da arma, da munição e das condições ambientais no momento\ndo disparo.\nIII - Tomando-se por base os resíduos geralmente pesquisados, ou seja,\nresíduos de combustão da pólvora e espoleta, o limite prático é de cerca de um\nmetro, se não houver vento no momento do disparo. Caso haja vento, esse limite\npode diminuir para cerca de meio metro.",
+    "alternativas": {
+      "A": "Item I somente",
+      "B": "Itens I e II",
+      "C": "Itens II e III",
+      "D": "Todos os itens estão corretos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Com base na página 63 do caderno didático:\nDefine-se como tiro a curta distância aquele que ocorre dentro da região\nespacial na qual os efeitos secundários do disparo imprimem marcas sobre o alvo.\nAlém desse limite, os tiros são ditos distantes. Este é um conceito eminentemente\nprático, pois a distância máxima na qual os efeitos secundários são sentidos\ndepende do alcance, grau de concentração e especificidade dos resíduos expelidos,\no que depende da arma, da munição e das condições ambientais no momento\ndo disparo. Tomando-se por base os resíduos geralmente pesquisados, ou seja,\nresíduos de combustão da pólvora e espoleta, o limite prático é de cerca de um\nmetro, se não houver vento no momento do disparo. Caso haja vento, esse limite\npode diminuir para cerca de meio metro.",
+    "referencia": "SimuChacal, simulado 11, questão #517 — Ref: 63"
+  },
+  {
+    "id": 2797,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao realizar um procedimento experimental para se determinar a distância do anteparo, após realizar a coleta de padrões o Perito encontrou os seguintes resultados:\nA uma distância de 5cm, presença de zona de chama e zona de esfumaçamento.\nA uma distância de 10cm, presença de zona de esfumaçamento de zona de tatuagem.\nO material questionado tinha a presença de zona de chama, zona de esfumaçamento e zona de tatuagem.\nQual pode ser a conclusão do Perito?",
+    "alternativas": {
+      "A": "Não pode concluir nada, pois não localizou as mesmas zonas no padrão coletado.",
+      "B": "Pode concluir que o disparo questionado foi efetuado a uma distância de 5 a 10cm do anteparo.",
+      "C": "Pode concluir que foi um tiro a mais de 10cm do anteparo",
+      "D": "Pode concluir que foi um tiro a longa distância"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Página 65:\nDadas as características intermediárias do residuograma questionado com\nrelação aos residuogramas padrões, colhidos nas distâncias de cinco centímetros\ne dez centímetros, o perito pode concluir que o disparo foi efetuado entre essas\ndistâncias, ou seja, o disparo questionado foi efetuado a uma distância de cinco\na dez centímetros do anteparo.\nConsiderando o grande número de variáveis envolvidas no momento de um\ndisparo, as marcas impressas pelos efeitos secundários são pouco precisas, de\nmodo que o exame acima discutido pode apenas gerar uma estimativa de distância.\n\nFiguras 54 e 55 do caderno didático (pag. 65).",
+    "referencia": "SimuChacal, simulado 11, questão #518 — Ref: 65"
+  },
+  {
+    "id": 2798,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As substâncias pesquisáveis para a determinação de distância de tiro são:\nI - nitritos: resultantes da combustão da pólvora e revelados por meio do Reagente de Griess, o qual tinge as áreas contaminadas com uma coloração rosada;\nII - chumbo: proveniente de fragmentos do projétil e revelados por meio do\nreagente rodizonato de sódio, o qual tinge as áreas contaminadas com\numa coloração violeta ou púrpura;\nIII - cobre: proveniente do encamisamento de projéteis e revelados por meio do reagente ditiooxamida ou ácido rubeânico, o qual tinge as áreas contaminadas com coloração verde;\nIV - compostos sulfurados: presentes apenas na pólvora negra, são revelados por meio da reação de azida de sódio com o iodo, ficando o suporte incolor nas regiões contaminadas.",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "I, II e III",
+      "D": "I, II, III, IV"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme página 64 do caderno didático",
+    "referencia": "SimuChacal, simulado 11, questão #519 — Ref: 64"
+  },
+  {
+    "id": 2799,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a Portaria nº 8.714-DG/PF, a respeito do funcionamento das armas de fogo semiautomáticas e automáticas, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nas armas semiautomáticas, a expansão dos gases é responsável tanto pelo acionamento do mecanismo de disparo quanto pelo mecanismo de repetição.",
+      "B": "O conjunto de ações que engloba o acionamento do gatilho, a deflagração da munição e a realimentação pelo sistema de repetição da arma é denominado ciclagem.",
+      "C": "As armas automáticas são aquelas em que a força muscular do atirador é responsável pela ciclagem da arma de forma contínua enquanto houver munição íntegra na câmara.",
+      "D": "Uma arma de assalto moderna que possui seletor para rajada de três ou cinco tiros, mas possui o modo intermitente como padrão, não é classificada como arma automática."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O conjunto de ações \"acionamento do gatilho pelo atirador + deflagração da munição + realimentação pelo sistema de repetição da arma\" é denominado ciclagem. A alternativa A está incorreta porque, nas semiautomáticas, a força muscular aciona o disparo e os gases acionam a repetição. A alternativa C está incorreta porque é a expansão dos gases que continua a ciclagem nas armas automáticas, não a força muscular. A alternativa D está incorreta pois, se a arma possui modos automáticos (como rajadas), ela é classificada como automática.",
+    "referencia": "SimuChacal, simulado 11, questão #525 — Ref: Página 27."
+  },
+  {
+    "id": 2800,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange à classificação das armas de fogo quanto à mobilidade, o texto aponta divergências entre a doutrina clássica e as definições da legislação nacional (Decreto 11.615/2023). Com base nas definições exclusivas deste Decreto apresentadas no texto, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A doutrina e a legislação convergem ao definir armas portáteis como aquelas transportadas por uma só pessoa, dividindo-as formalmente nas subclasses longas e curtas.",
+      "B": "A arma de fogo de porte é definida como aquela cujo peso e dimensões permitem o transporte por um indivíduo, exigindo, em situações normais, o uso de ambas as mãos para o disparo.",
+      "C": "O conceito de armas portáteis foi restringido às armas longas, que podem ser transportadas por apenas um indivíduo, mas que não são conduzidas em coldre.",
+      "D": "Uma arma fixada em uma estrutura permanente é classificada pela legislação como de porte especial não portátil."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Ignorando a definição doutrinária (que dividia em longas e curtas), no Decreto 11.615/2023, as armas portáteis foram restringidas a armas longas , sendo aquelas cujo peso e dimensões permitem transporte por um indivíduo, mas não conduzidas em coldre. A alternativa A está incorreta justamente pela divergência citada. A alternativa B descreve a arma portátil, e não a de porte (que é disparada com apenas uma das mãos e inclui pistolas e revólveres). A alternativa D está incorreta porque a classificação é simplesmente \"arma de fogo não portátil\", sem o termo \"porte especial\".",
+    "referencia": "SimuChacal, simulado 11, questão #526 — Ref: Páginas 28 e 29."
+  },
+  {
+    "id": 2801,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito de calibre em armas de fogo com alma raiada, com base nas definições técnicas do documento fornecido, assinale a alternativa que descreve corretamente o calibre real:",
+    "alternativas": {
+      "A": "Corresponde à maior dimensão transversal da alma do cano, devendo ser medida exatamente entre o fundo de duas raias diametralmente opostas.",
+      "B": "Trata-se de uma medida exata e aferível tomada na boca do cano, correspondendo tecnicamente à menor dimensão da alma, medida entre dois cheios diametralmente opostos.",
+      "C": "É uma referência padronizada não exata, utilizada apenas para indicar o tipo particular de cartucho a ser utilizado na câmara de combustão.",
+      "D": "O calibre real em armas raiadas é inalterável e medido da mesma forma que o calibre das armas de fogo com almas lisas, desconsiderando eventuais alterações por meio do choke."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O calibre real de uma arma de fogo com alma raiada é uma medida tomada na boca do cano e corresponde ao diâmetro interno da alma. Tecnicamente, corresponde à menor dimensão da alma do cano, devendo ser determinado pela medida entre dois cheios diametralmente opostos no sistema de raias. A alternativa A inverte os conceitos (fala em maior dimensão e fundo de raias). A alternativa C descreve o conceito geral de calibre para munição/referência, não o calibre real aferível. A alternativa D está incorreta pois o texto explicitamente diz que há distinção entre calibres para armas raiadas e armas de alma lisa.",
+    "referencia": "SimuChacal, simulado 11, questão #527 — Ref: Página 29."
+  },
+  {
+    "id": 2802,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as divisões didáticas da Balística Forense e seus campos de atuação, analise os itens abaixo:\nI. O estudo da trajetória, velocidade e energia do projétil, bem como a influência da resistência do ar sobre ele, é objeto da Balística Externa.\nII. A Balística Interna estuda os fenômenos ocorridos na arma desde a detonação da espoleta até o momento em que o projétil atinge o alvo final.\nIII. Quando o disparo atinge um ser humano, o estudo das lesões traumáticas resultantes (vestígios intrínsecos) é de competência da Balística Terminal.\nIV. A identificação mediata de uma arma de fogo ocorre por meio do confronto balístico, comparando vestígios impressos em elementos de munição.\nEstá(ão) correta(s) apenas:",
+    "alternativas": {
+      "A": "I e IV.",
+      "B": "I, II e III.",
+      "C": "II e IV.",
+      "D": "III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O item I descreve exatamente o escopo da Balística Externa. O item IV define corretamente a identificação mediata (confronto de vestígios em munições).",
+    "referencia": "SimuChacal, simulado 11, questão #540 — Ref: 9-10"
+  },
+  {
+    "id": 2803,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal recebe uma pistola com a numeração de série raspada para exame. Durante a análise, ele também deve verificar se a arma é capaz de realizar disparos e quais os efeitos que ela produz em alvos de teste para subsidiar a investigação. De acordo com as divisões da Balística Forense e os campos de pesquisa da PF, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A restauração do número de série da arma insere-se na caracterização das armas de fogo.",
+      "B": "A verificação da capacidade da arma de efetuar disparos é denominada verificação de eficiência, podendo incluir a determinação dos possíveis efeitos dos tiros.",
+      "C": "O estudo do movimento da arma de fogo no momento do recuo, por ser um corpo livre no espaço, é classificado como Balística Geral.",
+      "D": "A análise de munições recarregadas e a determinação de sua energia são atividades exclusivas da Balística Interna, pois ocorrem dentro do estojo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A verificação de eficiência testa a aptidão para o disparo e relaciona os resultados com os efeitos da investigação.",
+    "referencia": "SimuChacal, simulado 11, questão #541 — Ref: 9-10"
+  },
+  {
+    "id": 2804,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos conceitos fundamentais e à natureza da Balística, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O termo balística tem origem latina (baleare) e grega (ballo), cujo significado literal é \"explosão de pólvora\".",
+      "B": "A Balística Forense é considerada uma disciplina integrante da Medicina Legal, não possuindo autonomia metodológica dentro da Criminalística.",
+      "C": "Na Balística Terminal, o estudo dos resíduos de pólvora e dos projéteis em um alvo humano é considerado estudo de vestígios extrínsecos, competindo à Balística.",
+      "D": "Projétil é conceituado tecnicamente como todo corpo que se desloca em meio líquido ou gasoso, independentemente de ter recebido um impulso inicial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila define que resíduos e projéteis são vestígios extrínsecos ao ser humano, ficando a cargo da Balística o seu estudo.",
+    "referencia": "SimuChacal, simulado 11, questão #542 — Ref: 9-10"
+  },
+  {
+    "id": 2805,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos resultados do SINAB e de sua relevância para a investigação criminal, selecione o item incorreto.",
+    "alternativas": {
+      "A": "O SINAB possibilita a correlação balística em rede, permitindo vincular crimes ocorridos em diferentes localidades, inclusive entre unidades da Federação, bem como relacionar armas apreendidas a delitos pretéritos.",
+      "B": "A implementação do SINAB promoveu uma mudança de paradigma na investigação de crimes cometidos com arma de fogo, deslocando a perícia criminal de uma postura exclusivamente reativa para uma atuação proativa e orientada por inteligência pericial.",
+      "C": "A efetividade do SINAB decorre essencialmente da atuação autônoma da perícia criminal, sendo prescindível a integração permanente com a investigação policial e a inteligência.",
+      "D": "Na Polícia Federal, a Portaria DITEC/PF nº 1.493, de 28 de novembro de 2024, dispõe sobre a padronização de procedimentos para o encaminhamento de vestígios balísticos e padrões de arma de fogo para cadastro no Banco Nacional de Perfis Balísticos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "item C: Errado. O texto afirma expressamente que a efetividade do sistema depende da integração permanente entre Polícia Científica, investigação policial e inteligência.",
+    "referencia": "SimuChacal, simulado 11, questão #551 — Ref: p. 79"
+  },
+  {
+    "id": 2806,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir acerca do funcionamento e dos resultados do SINAB e selecione o item errado.",
+    "alternativas": {
+      "A": "As correlações são realizadas automaticamente pelo servidor central do SINAB, considerando a compatibilidade de calibre e outras características denominadas de classe.",
+      "B": "O SINAB possibilitou a identificação de milhares de ligações entre crimes, inclusive em situações nas quais não havia requisição prévia de comparação balística ou indícios investigativos de autoria.",
+      "C": "A correlação balística em rede permite vincular crimes ocorridos em diferentes localidades, inclusive entre unidades da Federação, e relacionar armas apreendidas a delitos pretéritos.",
+      "D": "Entre as funções estratégicas do SINAB estão a identificação de séries criminosas, a atuação contra organizações criminosas e grupos armados e a integração entre investigações estaduais e federais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Item A: Errado. Conforme o material, as correlações automáticas são realizadas pelo servidor central do BNPB (Banco Nacional de Perfis Balísticos), e não pelo SINAB. O SINAB corresponde ao sistema/rede mais amplo em que se insere a utilização do banco.",
+    "referencia": "SimuChacal, simulado 11, questão #552 — Ref: p. 79"
+  },
+  {
+    "id": 2807,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os resultados e a relevância do SINAB para a investigação criminal, analise os itens a seguir:\n\nI. Permite a identificação de séries criminosas.\nII. Possibilita a integração entre investigações estaduais e federais.\nIII. Restringe a correlação balística a crimes ocorridos na mesma unidade da Federação.\nIV. Depende exclusivamente da atuação da Polícia Científica para sua efetividade.\nV. Atua apenas quando há requisição prévia de comparação balística.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I e II.",
+      "B": "I e III.",
+      "C": "II e IV.",
+      "D": "III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) I e II. p. 79",
+    "referencia": "SimuChacal, simulado 11, questão #553 — Ref: p. 79"
+  },
+  {
+    "id": 2808,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os seguintes itens sobre os projéteis de arma de fogo:\nI - Os projéteis de liga de chumbo podem conter estanho, antimônio e arsênico\nII - Os projéteis encamisados não contém chumbo em sua composição\nIII - Alguns tipos de projéteis comumente encontrados são: Ogival, Ponta Plana, Ponta Oca, Semi Canto Vivo e Canto Vivo\nIV - O projétil é o elemento inerte do cartucho, na medida em que nem participa do processo de combustão, nem é expelido pelo cano da arma.",
+    "alternativas": {
+      "A": "Todas estão corretas",
+      "B": "Estão corretas as alternativas I e III",
+      "C": "Estão corretas as alternativas I, II e IV",
+      "D": "Está correta apenas a alternativa III"
+    },
+    "resposta_correta": "D",
+    "justificativa": "I - Errada - a liga de chumbo presente nos projéteis contem ARSÊNIO, não arsênico;\nII - Errada - De acordo com o material, projéteis semiencamisados e encamisados (...) são constituídos por (...) e um núcleo, geralmente\ncomposto por ligas de chumbo;\nIII - Certa - Ver figura 8, página 18;\nIV - Errada - A descrição apresentada é do estojo, não do projétil.",
+    "referencia": "SimuChacal, simulado 11, questão #559 — Ref: páginas 17 e 18"
+  },
+  {
+    "id": 2809,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal analisa uma munição destinada a um fuzil de alta precisão com cano longo. Ao verificar as especificações da carga de projeção, ele observa que o propelente deve ter uma queima controlada para acompanhar o deslocamento do projétil por toda a extensão do cano. Qual a classificação técnica dessa pólvora e a justificativa para seu uso nesse armamento?",
+    "alternativas": {
+      "A": "Pólvora viva, pois sua queima intensa e rápida garante que o projétil atinja a velocidade máxima antes de percorrer metade do cano longo.",
+      "B": "Pólvora de base dupla, visto que a adição de nitroglicerina é o único fator que permite a combustão lenta necessária para armas de grande porte.",
+      "C": "Pólvora progressiva, uma vez que o cano maior oferece mais tempo para impulsionar o projétil, exigindo uma liberação de gases gradual e constante.",
+      "D": "Pólvora de base simples, pois a ausência de nitroglicerina impede que a pressão interna atinja níveis críticos em canos com raiamento complexo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: Armas longas possuem canos maiores, o que permite que o projétil seja impulsionado por mais tempo. Por isso, utilizam pólvoras progressivas, que queimam de forma mais lenta e constante, ao contrário das armas curtas, que exigem pólvoras vivas de queima rápida.\nCitação Direta do Documento: \"Pólvoras utilizadas em armas curtas, denominadas pólvoras vivas, queimam de forma mais intensa e rápida do que as pólvoras utilizadas em armas longas, denominadas pólvoras progressivas. Essa diferença se baseia no fato de que... a pólvora pode queimar mais lentamente nas armas longas, visto que o cano é maior e há mais tempo para impulsionar o projétil.\"",
+    "referencia": "SimuChacal, simulado 11, questão #572 — Ref: pp. 25 e 26"
+  },
+  {
+    "id": 2810,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma análise laboratorial de vestígios de disparos, identifica-se a presença de nitroglicerina misturada à nitrocelulose na composição química dos grãos de propelente. Considerando a classificação das pólvoras químicas modernas, esse material é classificado como:",
+    "alternativas": {
+      "A": "Pólvora de base dupla, caracterizada pela combinação desses dois compostos para alterar as propriedades de queima e energia.",
+      "B": "Pólvora negra, já que a presença de compostos nitrogenados em estado líquido é um indicativo de formulações antigas de alta fumaça.",
+      "C": "Pólvora de base simples, pois a nitroglicerina atua apenas como um agente estabilizador, não alterando a classificação principal da nitrocelulose.",
+      "D": "Pólvora progressiva, dado que a mistura de dois explosivos invariavelmente resulta em uma queima mais lenta e controlada em armas curtas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A classificação das pólvoras modernas depende de sua composição química de base. Se for composta apenas por nitrocelulose, é base simples; se associar nitrocelulose e nitroglicerina, é classificada como base dupla.\nCitação Direta do Documento: \"As cargas de projeção modernas são denominadas pólvoras químicas... Quando constituídas somente de nitrocelulose, recebem a denominação de pólvora de base simples, e quando constituídas de nitrocelulose e nitroglicerina, recebem a denominação de pólvora de base dupla.\"",
+    "referencia": "SimuChacal, simulado 11, questão #573 — Ref: pp. 25 e 26"
+  },
+  {
+    "id": 2811,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao investigar a evolução histórica dos cartuchos, um perito explica por que a pólvora negra, composta por salitre, carvão e enxofre, tornou-se obsoleta para o uso em armas de fogo modernas. De acordo com os parâmetros técnicos de eficiência, qual o principal motivo dessa substituição?",
+    "alternativas": {
+      "A": "A instabilidade química dos grãos de enxofre, que sofriam ignição espontânea em ambientes de alta umidade.",
+      "B": "A incapacidade de gerar gases em volume suficiente para impulsionar projéteis de chumbo endurecido com arsênio.",
+      "C": "O excesso de fumaça gerado e a combustão ineficiente, que dificultavam o uso tático e a manutenção do armamento.",
+      "D": "A impossibilidade de ser utilizada em cartuchos de fogo central devido à alta sensibilidade ao sistema de espoletamento Boxer."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: A pólvora negra foi substituída pelas pólvoras químicas devido a limitações práticas graves. Sua queima era ineficiente e produzia grandes volumes de fumaça e resíduos sólidos, o que é incompatível com o desempenho exigido por armas modernas.\nCitação Direta do Documento: \"Entretanto, devido à ineficiência de combustão e à grande quantidade de fumaça e resíduos produzidos, deixou de ser utilizada em armas modernas depois do advento das pólvoras sem fumaça.\"",
+    "referencia": "SimuChacal, simulado 11, questão #574 — Ref: pp. 25 e 26"
+  },
+  {
+    "id": 2812,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as características construtivas e funcionais do revólver, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O revólver caracteriza-se pela presença de um tambor giratório dotado de câmaras, sendo cada uma delas responsável pelo alojamento do cartucho e pelo guiamento integral do projétil até sua saída da arma.",
+      "B": "No revólver, as câmaras localizadas no tambor são sucessivamente alinhadas ao cano, constituindo, em conjunto com este, uma única câmara de combustão permanente.",
+      "C": "O revólver é uma arma de fogo curta dotada de um tambor giratório com várias câmaras de combustão, as quais são sucessivamente alinhadas com o cano para possibilitar a realização dos disparos.",
+      "D": "O tambor do revólver funciona exclusivamente como reservatório de munições, uma vez que a combustão da carga de projeção ocorre integralmente na parte posterior do cano."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“Revólver é uma arma de fogo curta, dotada de várias câmaras de combustão dispostas paralelamente ao redor de um eixo, as quais são sucessivamente alinhadas com o cano por meio da rotação de um cilindro denominado tambor.”",
+    "referencia": "SimuChacal, simulado 11, questão #575 — Ref: 33"
+  },
+  {
+    "id": 2813,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de um revólver, constatou-se que o armamento apresentava um tambor contendo seis câmaras de combustão e apenas um cano. Considerando o funcionamento desse tipo de arma, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O disparo somente pode ocorrer quando uma das câmaras do tambor encontra-se alinhada simultaneamente com o cano e com o mecanismo de percussão da arma.",
+      "B": "A rotação do tambor tem como finalidade principal realizar a extração automática dos estojos deflagrados e alimentar o cano com novos cartuchos.",
+      "C": "Cada câmara do tambor constitui um compartimento destinado exclusivamente ao armazenamento da munição, sendo a combustão da carga de projeção iniciada somente após o cartucho ser transferido para o cano.",
+      "D": "Após cada disparo, o cartucho seguinte é retirado do tambor e introduzido em uma câmara de combustão localizada na parte posterior do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "“Para que ocorra o disparo, uma das câmaras do tambor deve estar alinhada com o cano e com o mecanismo de percussão da arma.”",
+    "referencia": "SimuChacal, simulado 11, questão #576 — Ref: 34"
+  },
+  {
+    "id": 2814,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da relação entre o tambor, as câmaras de combustão e o cano nos revólveres, analise as afirmativas:\n\nI. O revólver possui diversas câmaras de combustão dispostas paralelamente ao redor do eixo de rotação do tambor.\n\nII. Durante o funcionamento da arma, as câmaras do tambor são sucessivamente posicionadas em alinhamento com o cano.\n\nIII. Diferentemente das pistolas semiautomáticas, nos revólveres cada cartucho permanece alojado em uma das câmaras do tambor no momento do disparo.\n\nIV. A rotação do tambor permite que diferentes câmaras de combustão utilizem sucessivamente um mesmo cano para a realização dos disparos.",
+    "alternativas": {
+      "A": "Apenas as afirmativas I e II estão corretas.",
+      "B": "As afirmativas I, II, III e IV estão corretas.",
+      "C": "Apenas as afirmativas II e III estão corretas.",
+      "D": "Apenas as afirmativas I, II e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“Revólver é uma arma de fogo curta, dotada de várias câmaras de combustão dispostas paralelamente ao redor de um eixo, as quais são sucessivamente alinhadas com o cano por meio da rotação de um cilindro denominado tambor.”",
+    "referencia": "SimuChacal, simulado 11, questão #577 — Ref: 33"
+  },
+  {
+    "id": 2815,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação ao confronto balístico em projéteis, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Não é possível fazer comparações do projétil questionado quando ele estiver intensamente deformado.",
+      "B": "Mesmo quando um projétil questionado se encontrar intensamente deformado, ainda assim, é possível realizar um confronto balístico com um projétil padrão.",
+      "C": "É possível realizar a comparação entre um projétil questionado intensamente deformado e um projétil padrão. Entretanto, se o projétil questionado for do tipo expansivo ou estiver completamente fragmentado, não é possível realizar essa comparação.",
+      "D": "A perícia criminal, no Brasil, não realiza confronto balístico em projéteis, já que o confronto em estojos apresenta resultados superiores."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Mesmo quando um projétil questionado se encontrar intensamente deformado,\npor impacto contra objeto resistente ou devido à completa reversão dos bordos de\nexpansão em projéteis expansivos, ou completamente fragmentado, ainda assim\né possível realizar um confronto balístico com um projétil padrão, de modo que\né importante que todos os projéteis e fragmentos sejam preservados para perícia",
+    "referencia": "SimuChacal, simulado 11, questão #584 — Ref: P. 75"
+  },
+  {
+    "id": 2816,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Tendo em vista o que está exposto na apostila em relação ao confronto balístico em estojos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Diversas são as características que podem ser analisadas em estojos questionados, citamos marcas de percussão, marcas de ejeção, marcas de extração e marcas de culatra ou chapa de obturação na base do estojo.",
+      "B": "Poucos elementos no estojo deflagrado são úteis para o perito, por isso, na PF, predomina o uso de projéteis para o confronto balístico.",
+      "C": "O estojo deflagrado não é utilizado em armas de calibre de alta energia (rifles e fuzis), já que o estojo pode se perder ou se fragmentar de tal forma que impossibilite o confronto microscópico.",
+      "D": "O confronto balístico negativo indica que um estojo questionado foi percutido pela mesma arma que o estojo padrão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A - literalidade a apostila\nB - O estojo possui diversas características úteis\nC - O projétil é que geralmente não é utilizado.\nD - Isso é indicado pelo confronto balístico positivo",
+    "referencia": "SimuChacal, simulado 11, questão #586 — Ref: p. 76"
+  },
+  {
+    "id": 2817,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame microcomparativo pode ser efetuado entre projéteis padrões e\nquestionados, quando a arma questionada estiver disponível ao perito, ou entre\ndiversos projéteis questionados, visando determinar se todos foram expelidos pelo\ncano da mesma arma. Sobre esse assunto, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Projeteis de determinado calibre nominal só podem ser expelidos por armas com o mesmo calibre nominal.",
+      "B": "Prójeteis de calibre 9 mm não podem ser expelidos por armas de calibre .380\".",
+      "C": "Projéteis de um calibre nominal podem ser expelidos por canos de armas de outros calibres nominais, desde que o calibre real seja similar.",
+      "D": "Os projéteis não são importantes para a perícia e após coletados em cenas de crime devem ser entregues para a fabricante para que possam ser reciclados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quanto a isso, o perito apenas deve tomar cuidado com relação ao calibre\ndo projétil, lembrando que projéteis de um calibre nominal podem ser expelidos\npor canos de armas de outros calibres nominais, desde que o calibre real seja\nsimilar. Por exemplo, projéteis de calibre .380” Auto podem ser expelidos por\ncanos de armas calibre 9 mm ou .38” SPECIAL, devendo o perito acautelar-se\nquanto a esse aspecto.",
+    "referencia": "SimuChacal, simulado 11, questão #587 — Ref: p. 75"
+  },
+  {
+    "id": 2818,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As armas de fogo longas são caracterizadas principalmente por:",
+    "alternativas": {
+      "A": "Possuírem exclusivamente funcionamento automático.",
+      "B": "Serem utilizadas apenas para defesa pessoal.",
+      "C": "Apresentarem comprimento acentuado devido às dimensões do cano e da coronha.",
+      "D": "Serem operadas apenas com uma das mãos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #590 — Ref: Pág. 43"
+  },
+  {
+    "id": 2819,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O termo rifle deriva do inglês rifled, que significa:",
+    "alternativas": {
+      "A": "Automático",
+      "B": "Raiado ou estriado.",
+      "C": "Cano curto.",
+      "D": "Arma de assalto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #591 — Ref: Pág. 43"
+  },
+  {
+    "id": 2820,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma característica que diferencia a carabina dos rifles e fuzis é:",
+    "alternativas": {
+      "A": "Possuir exclusivamente dois canos.",
+      "B": "Utilizar apenas munição de fogo central.",
+      "C": "Apresentar cano de menor comprimento.",
+      "D": "Não possuir alma raiada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #593 — Ref: Pág. 43"
+  },
+  {
+    "id": 2821,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a tabela de correspondência técnica entre calibres nominais e calibres reais para armas de alma lisa, é correto afirmar que:",
+    "alternativas": {
+      "A": "O calibre nominal 36 apresenta um calibre real de aproximadamente 14,3 mm.",
+      "B": "O calibre nominal 24 possui uma medida de calibre real de 10,2 mm.",
+      "C": "O calibre nominal 28 corresponde a um calibre real de 13,0 mm.",
+      "D": "O calibre nominal 32 é tecnicamente idêntico ao calibre nominal 36 em termos de diâmetro real."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A tabela na página 50 mostra explicitamente que o calibre nominal 28 corresponde a 13,0 mm",
+    "referencia": "SimuChacal, simulado 11, questão #595 — Ref: 50"
+  },
+  {
+    "id": 2822,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na descrição de cartuchos e estojos, devem ser indicados, EXCETO:",
+    "alternativas": {
+      "A": "Calibre",
+      "B": "Marca",
+      "C": "Procedência",
+      "D": "Propelente"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na descrição de cartuchos e estojos, devem ser indicados o calibre, a marca\na procedência, o calibre nominal, o tipo de matéria do qual são constituídos o\nestojo e a cápsula de espoletamento, sistema de percussão e outras características\npeculiares que o perito achar convenientes descrever",
+    "referencia": "SimuChacal, simulado 11, questão #596"
+  },
+  {
+    "id": 2823,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime onde foram efetuados disparos de espingarda e os projéteis (balins) estão dispersos, qual elemento de munição é considerado fundamental para a indicação do calibre nominal da arma empregada, segundo a fonte?",
+    "alternativas": {
+      "A": "O estojo plástico, pois sua cor indica obrigatoriamente o calibre nominal.",
+      "B": "A mistura iniciadora, que possui componentes químicos distintos para cada calibre.",
+      "C": "A bucha, pois em geral é uma peça única com diâmetro de seção reta similar ao calibre real do cano.",
+      "D": "O pólen ou resíduo de pólvora, que se deposita de forma específica conforme o diâmetro da alma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A bucha guarda relação com o calibre da arma por ter diâmetro similar ao calibre real do cano, sendo fundamental para a indicação do calibre nominal em locais de crime.",
+    "referencia": "SimuChacal, simulado 11, questão #597 — Ref: 49 e 50"
+  },
+  {
+    "id": 2824,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o cálculo e a definição do calibre nominal em armas de alma lisa (como o calibre 12), a literatura técnica da Academia Nacional de Polícia estabelece que:",
+    "alternativas": {
+      "A": "Dizer que uma arma é calibre 12 garante que ela utilize invariavelmente esferas de chumbo com exatos 18,5 mm de diâmetro.",
+      "B": "O calibre nominal é fixo por lei, impedindo que fábricas diferentes apresentem variações de calibre real para o mesmo calibre nominal.",
+      "C": "O cálculo do calibre 12 baseia-se no diâmetro de esferas de chumbo que totalizam uma libra de massa, onde cada esfera teria cerca de 18,5 mm.",
+      "D": "O calibre real de uma arma de alma lisa é aferido apenas pela boca do cano, desconsiderando o diâmetro da câmara de combustão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A bucha guarda relação com o calibre da arma por ter diâmetro similar ao calibre real do cano, sendo fundamental para a indicação do calibre nominal em locais de crime",
+    "referencia": "SimuChacal, simulado 11, questão #598 — Ref: 49 e 50"
+  },
+  {
+    "id": 2825,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos:",
+    "alternativas": {
+      "A": "Autenticidade, adequabilidade, contemporaneidade e quantidade.",
+      "B": "Autoridade, adequabilidade, contemporaneidade e qualidade.",
+      "C": "Autenticidade, adaptabilidade, contemporaneidade e quantidade.",
+      "D": "Autenticidade, adequabilidade, mesmidade e quantidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos de autenticidade, adequabilidade, contemporaneidade\ne quantidade.",
+    "referencia": "SimuChacal, simulado 11, questão #600"
+  },
+  {
+    "id": 2826,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as técnicas e limitações da revelação de caracteres suprimidos em armas de fogo, analise as afirmações abaixo:\n\nI. A revelação de numerações removidas é possível porque o processo de cunhagem a frio altera a estrutura metálica por baixo dos caracteres, deixando sinais latentes que podem ser reagidos quimicamente.\n\nII. O procedimento experimental de revelação é plenamente eficaz e produz resultados positivos mesmo quando os caracteres originais foram gravados por meio de processos de impressão a laser.\n\nIII. Durante a preparação da arma, deve-se evitar o uso de graxa nas partes não relacionadas à área a ser revelada, permitindo que os ácidos voláteis da solução limpem toda a superfície do armamento.\n\nIV. Caso a pressão utilizada no momento da cunhagem original tenha sido desigual entre um caractere e outro, a revelação pericial desses caracteres também poderá ocorrer de modo desigual.\n\nAssinale a opção que indica as afirmações INCORRETAS:",
+    "alternativas": {
+      "A": "I e II",
+      "B": "II e III",
+      "C": "III e IV",
+      "D": "II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As afirmações II e III estão incorretas.\n\nJustificativa II: os procedimentos de revelação serão infrutíferos se a impressão não tiver sido por cunhagem a frio, citando a impressão a laser como exemplo de caso onde a revelação não funciona.\n\nJustificativa III: O procedimento exige proteger com uma generosa camada de graxa todas as partes da arma sem relação com a área de estudo, pois os ácidos das soluções podem corroer e danificar desnecessariamente o restante da arma.",
+    "referencia": "SimuChacal, simulado 11, questão #602 — Ref: p.53,54"
+  },
+  {
+    "id": 2827,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação ao mecanismo de disparo dos revólveres, selecione a afirmativa correta:",
+    "alternativas": {
+      "A": "Os revólveres de movimento duplo são assim denominados em função de\nque seu sistema de disparo funciona através de dois movimentos para realizar o disparo.",
+      "B": "Os revólveres de movimento simples são denominados de ação simples quando o cão não precisa ser manualmente engatilhado antes de se efetuar o disparo por meio de acionamento do gatilho.",
+      "C": "Os revólveres de movimento simples são denominados de ação dupla quando o cão não fica imobilizado na posição engatilhada, devendo o atirador, por meio de pressão no gatilho, deslocar o cão para a retaguarda, a cada disparo que desejar efetuar.",
+      "D": "Quanto ao mecanismo de disparo, a armação é um quadro inteiriço e rígido, ficando o tambor montado em um suporte que se articula com a armação, permitindo que ele seja projetado para fora desta em um arco."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A) Invenção\nB) \"Não\" do carioca\nC) Literalidade da apostila\nD) Afirmação sobre armação e tambor correta, porém sem relação com mecanismo de disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #603 — Ref: p. 38"
+  },
+  {
+    "id": 2828,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos de autenticidade, adequabilidade, contemporaneidade\ne quantidade:\nI - A autenticidade é o mais importante requisito de um padrão. Um padrão é autêntico quando tiver origem certa e inquestionável, ou seja, há a certeza de que o padrão foi colhido com a arma questionada.\nII - Adequabilidade: os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.\nIII - Por contemporaneidade se entende que um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos.\nIV - Quantidade: Não é possível precisar quantos padrões são necessários para efetuar, com\nsucesso, um exame de comparação balística, devendo ser colhidos tantos padrões quantos sejam necessários para formar a convicção dos peritos.\nEstão CORRETAS:",
+    "alternativas": {
+      "A": "Somente I e II",
+      "B": "Somente I, II e III",
+      "C": "Somente II, III e IV",
+      "D": "Todas alternativas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Literal da apostila, folha 71.",
+    "referencia": "SimuChacal, simulado 11, questão #605"
+  },
+  {
+    "id": 2829,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o procedimento experimental para a revelação de caracteres suprimidos, qual é a primeira medida que o perito deve tomar para evitar que os ácidos das soluções reveladoras danifiquem as partes da arma que não serão analisadas?",
+    "alternativas": {
+      "A": "Lavar a arma em água destilada para neutralizar resíduos de pólvora.",
+      "B": "Aplicar uma camada de verniz transparente sobre a superfície metálica da arma.",
+      "C": "Proteger as partes da arma sem relação com a área a ser revelada com uma generosa camada de graxa.",
+      "D": "Lixar profundamente a região lateral da arma para garantir que o ácido não escorra."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O material didático afirma que o procedimento consiste em, primeiramente, proteger com graxa as partes que não têm relação com a área de estudo, pois as soluções possuem ácidos voláteis que podem corroer e danificar o restante do armamento.",
+    "referencia": "SimuChacal, simulado 11, questão #606 — Ref: p. 54"
+  },
+  {
+    "id": 2830,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização do exame para revelação de numeração de série em uma arma de fogo, o que o perito deve fazer caso a primeira tentativa de aplicação do reagente químico não seja bem-sucedida?",
+    "alternativas": {
+      "A": "Encerrar o exame e declarar a numeração como permanentemente irrecuperável.",
+      "B": "Limpar e polir a superfície novamente, repetindo o processo até que os caracteres comecem a aparecer.",
+      "C": "Utilizar uma lixa de metal grossa para remover uma camada profunda de aço e tentar novamente.",
+      "D": "Aquecer a arma em uma estufa para acelerar a reação química do ácido remanescente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A material didático estabelece que, se a primeira tentativa de revelação falhar, a superfície deve passar por uma nova limpeza e polimento delicado, repetindo-se o procedimento até que os sinais latentes da cunhagem original comecem a ser revelados.",
+    "referencia": "SimuChacal, simulado 11, questão #608 — Ref: p.43"
+  },
+  {
+    "id": 2831,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta de amostras e análises\nI. A análise de resíduos de disparo, quando requisitada, deve ser a primeira tarefa a\nser efetuada em uma arma.\nII. O resultado do teste será positivo se houver uma coloração azul, de modo geral, tanto mais intenso quanto maior for a quantidade de nitritos, no(s) cone(s).\nIII. No caso dos tambores de revólveres, cada câmara pode ser analisada de modo\nindependente, colocando-se um cone de papel em cada uma e procedendo-se\ncomo nos exames dos canos de armas.\nIV. Qualquer disparo que o perito efetuar, previamente à análise de nitritos, irá formar uma camada de resíduos no interior do cano e câmaras, sendo que estes resíduos fornecerão um resultado positivo no teste de recentidade causando interferência nos resultados.",
+    "alternativas": {
+      "A": "I, II, IV",
+      "B": "II, III, IV",
+      "C": "I, III e IV",
+      "D": "Todas as alternativas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A coloração no teste positivo para nitrito é rosa.",
+    "referencia": "SimuChacal, simulado 11, questão #610 — Ref: 59"
+  },
+  {
+    "id": 2832,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação a classificação dos revólveres quanto à percussão, selecione a afirmativa INCORRETA.",
+    "alternativas": {
+      "A": "Os revólveres de percussão intrínseca radial, nos quais a munição não apresenta cápsula de espoletamento, sendo estas armas praticamente restritas ao calibre .22”.",
+      "B": "Os revólveres de percussão extrínseca central, nos quais a munição apresenta uma cápsula de espoletamento no centro da base do cartucho, constituindo a grande maioria dos revólveres da atualidade;",
+      "C": "Os revólveres de percussão intrínseca perpendicular, representada unicamente pelos obsoletos revólveres Lefaucheux.",
+      "D": "A percussão intrínseca pode ser direta, se o pino percussor está ligado diretamente ao cão, de modo fixo ou oscilante, ou indireta, se o cão transfere a energia de percussão por meio de um pino percussor flutuante alojado na armação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #614 — Ref: p. 38"
+  },
+  {
+    "id": 2833,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação à extração dos revólveres, selecione a afirmativa verdadeira.",
+    "alternativas": {
+      "A": "Quanto à extração, os revólveres podem ser classificados como de extração manual, podendo esta ser simples ou dupla.",
+      "B": "Quanto à extração, os revólveres podem ser classificados como de extração manual, sendo esta apenas simples.",
+      "C": "Quanto à extração, os revólveres podem ser classificados como de extração dupla, sendo esta apenas simultânea.",
+      "D": "Quanto à extração, os revólveres podem ser classificados como de extração automática, sendo esta apenas simultânea."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #616 — Ref: p. 38"
+  },
+  {
+    "id": 2834,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames de resíduos na mão do atirador, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "As técnicas de detecção de resíduos de nitritos (denominada prova de Iturrioz) e resíduos de chumbo ( reação com rodizonato de sódio) são as mais utilizadas hoje em dia, por oferecerem resultados sensíveis e específicos.",
+      "B": "Certas armas, tais como os pistolas e espingardas, possuem zonas de escape intenso na junção do tambor com o cano, enquanto outras como revólveres, quase não possuem zonas de escape intensas, já que as câmaras são herméticas.",
+      "C": "100% dos testes de resíduos de disparos de arma de fogo forneceram um resultado positivo quando os resíduos foram coletados cerca de duas horas após os disparos",
+      "D": "Se o atirador lavar a mão com água e sabão, os resíduos são completamente eliminados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A) essas técnicas não são mais realizadas hoje em dia. O indicado é a MEV.\nB) alternativa está invertida, os revolveres possuem zona de escape intenso, e não as espingardas e pistolas.\nC) 60 % dos testes de resíduos de disparos de arma de fogo forneceram um resultado positivo ...\nD) pg 61",
+    "referencia": "SimuChacal, simulado 11, questão #617 — Ref: 60 e 61"
+  },
+  {
+    "id": 2835,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA com relação aos exames realizados e utilização de reagentes.",
+    "alternativas": {
+      "A": "Para a detecção de nitritos no interior dos estojos é utilizado um fragmento de papel filtro, no qual são pingadas 3 gotas de cada reagente de Griess.",
+      "B": "Excetuando-se o cano e as câmaras do tambor do revolver , nas demais partes da arma os resíduos de nitrito podem ser coletados com um algodão limpo embebido em água destilada morna, sendo as soluções",
+      "C": "O reagente de Griess é formado por duas soluções separadas, que devem ser mantidas em frascos independentes e sob refrigeração, as quais devem ser gotejadas sobre o material investigado ou suporte de coleta.",
+      "D": "No caso de canos de armas de fogo, formar pequenos cones utilizando papel\nde filtro novo e limpo, os quais são introduzidos diretamente na boca do(s) cano(s)\na serem analisados"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A presença de nitritos também pode ser verificada no interior de estojos\npercutidos e deflagrados. Para isso, o interior do estojo é lavado três vezes com\numa solução de ácido acético 5%, utilizando cerca de um mililitro a cada vez, e\njuntando-se as águas de lavagem.",
+    "referencia": "SimuChacal, simulado 11, questão #618 — Ref: 58-60"
+  },
+  {
+    "id": 2836,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Sistema Nacional de Análise Balística (SINAB) permite, EXCETO:",
+    "alternativas": {
+      "A": "aquisição padronizada de imagens de projéteis e estojos;",
+      "B": "armazenamento descentralizado de imagens e metadados;",
+      "C": "correlação automatizada de novas amostras contra todas as demais compatíveis no banco;",
+      "D": "geração de listas ordenadas de possíveis correspondências (HITs), a serem analisadas por Peritos Criminais;"
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"armazenamento CENTRALIZADO de imagens e metadados;\"\n\nO sistema permite:\n• aquisição padronizada de imagens de projéteis e estojos;\n• armazenamento CENTRALIZADO de imagens e metadados;\n• correlação automatizada de novas amostras contra todas as demais\ncompatíveis no banco;\n• geração de listas ordenadas de possíveis correspondências (HITs),\na serem analisadas por Peritos Criminais.",
+    "referencia": "SimuChacal, simulado 11, questão #630 — Ref: Página 78"
+  },
+  {
+    "id": 2837,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é a principal finalidade da indicação do calibre nominal gravada na arma de fogo?",
+    "alternativas": {
+      "A": "Informar o calibre real do projétil medido em milímetros.",
+      "B": "Indicar ao atirador qual cartucho deve ser utilizado na arma.",
+      "C": "Demonstrar a energia de disparo produzida pela munição.",
+      "D": "Identificar o fabricante da arma e do cartucho."
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"A indicação do calibre nominal de uma determinada arma serve como alerta para o atirador, o qual deve utilizar um cartucho de calibre correspondente\"",
+    "referencia": "SimuChacal, simulado 11, questão #631 — Ref: p 31"
+  },
+  {
+    "id": 2838,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa correta quanto as características de calibre nominal e real de armas de fogo e munições.",
+    "alternativas": {
+      "A": "Todo calibre real corresponde a apenas um calibre nominal.",
+      "B": "Cartuchos de calibres nominais diferentes jamais podem ser utilizados na mesma arma.",
+      "C": "Diferentes calibres nominais podem apresentar correspondência de medidas e, em determinadas situações, serem utilizados em uma mesma arma.",
+      "D": "A classificação legal das armas de fogo é determinada exclusivamente pelo calibre nominal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os calibres nominais são designados, conforme o tipo de medida utilizado,\npelas suas respectivas frações de polegada ou milímetros, podendo haver diversos\ncalibres nominais para um único calibre real. Além disso, há correspondência de\nmedidas entre diversos calibres nominais diferentes, os quais podem ser utilizados\nna mesma arma",
+    "referencia": "SimuChacal, simulado 11, questão #635 — Ref: P. 30"
+  },
+  {
+    "id": 2839,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Legislação nacional a respeito de banco de dados\nbalísticos assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Em 2019, através da Lei nº 13.964/2019, foi acrescentado o art. 34A na Lei\nnº 10.826/2003, criando o Banco Nacional de Perfis Balísticos (BNPB;",
+      "B": "o Banco Nacional de Perfis Balísticos (BNPB)É destinado a armazenar perfis balísticos de projéteis e estojos relacionados a crimes, sob gestão da unidade oficial de perícia criminal;",
+      "C": "O Decreto nº 10.711/2021 instituiu formalmente o BNPB, criou o Sistema Nacional de Análise Balística (SINAB) e um Comitê Gestor no âmbito do Ministério da Justiça e Segurança Pública;",
+      "D": "No Brasil, o Estatuto do Desarmamento (Lei nº 10.826/2003) previu dentre\nas competências do SINARM, cadastrar as características das impressões digitais de suspeitos da prática crime com arma de fogo;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "No Brasil, o Estatuto do Desarmamento (Lei nº 10.826/2003) previu dentre\nas competências do SINARM, cadastrar as características das impressões de raiamento e de microestriamento de projétil disparado, conforme arcação e testes obrigatoriamente realizados pelo fabricante, dispositivo que implicaria a criação",
+    "referencia": "SimuChacal, simulado 11, questão #637 — Ref: 77"
+  },
+  {
+    "id": 2840,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a elaboração de um laudo pericial, o perito verifica que a arma analisada possui gravado um calibre nominal diferente daquele constante nas tabelas das Portarias Conjuntas C Ex/DG-PF nº 2/2023 e nº 3/2024. Entretanto, após análise técnica, conclui que ambas as designações correspondem ao mesmo calibre nominal. À luz do texto, a conduta mais adequada é:",
+    "alternativas": {
+      "A": "Classificar a arma como de calibre diverso do previsto nas portarias, em razão da diferença de nomenclatura.",
+      "B": "Desconsiderar a marcação existente na arma e utilizar exclusivamente o calibre real obtido por medição.",
+      "C": "Consignar expressamente no laudo que o calibre nominal gravado na arma corresponde ao calibre previsto nas tabelas das portarias, ainda que possua designação diferente.",
+      "D": "Reclassificar a arma com base exclusivamente na possibilidade de utilização de munições de outros calibres nominais compatíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Um ponto de atenção para o perito criminal é que a maioria dos calibres nominais possui mais de uma designação, devendo consignar em Laudo se o calibre nominal da arma ou munição em análise é o mesmo que determinado calibre constante nas tabelas das portarias conjuntas.\"",
+    "referencia": "SimuChacal, simulado 11, questão #638 — Ref: P. 32"
+  },
+  {
+    "id": 2841,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos Protocolos de operação do SINAB, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Os Protocolos de Operação do SINAB, estabelecidos pelo Comitê Gestor do Ministério da Justiça e Segurança Pública, definem critérios de legibilidade e priorização de casos, tendo em vista limitações operacionais;",
+      "B": "Com relação aos elementos de munição relacionados a crimes, são selecionadas as peças com as maiores marcas individualizadoras para inserção no sistema;",
+      "C": "São coletados e cadastrados padrões de armas de fogo apreendidas relacionadas a crimes.",
+      "D": "Elementos de munição relacionados a crimes passam, inicialmente, por triagem em microscópio comparador óptico;"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Elementos de munição relacionados a crimes passam, inicialmente, por triagem em microscópio comparador óptico, sendo selecionadas as peças com melhores marcas individualizadoras para inserção no sistema.",
+    "referencia": "SimuChacal, simulado 11, questão #639 — Ref: 78"
+  },
+  {
+    "id": 2842,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise pericial de uma camiseta de algodão de cor clara recuperada de uma vítima de disparo de arma de fogo, o perito criminal constata a presença de uma nítida zona de esfumaçamento e de grãos de pólvora incombusta incrustados ao redor do orifício de entrada (zona de tatuagem).\nContudo, após exame macroscópico minucioso, não é observado nenhum sinal de crestamento de pelos ou queimadura no tecido.\nConsiderando a dinâmica espacial dos resíduos do disparo, qual é a conclusão técnica correta sobre o ocorrido?",
+    "alternativas": {
+      "A": "O disparo foi efetuado a uma distância dita \"distante\", uma vez que a ausência de queimaduras ou de efeitos térmicos imediatos no suporte afasta completamente a possibilidade de caracterização de um tiro a curta distância",
+      "B": "Trata-se de um disparo encostado, pois a deposição homogênea de resíduos secundários sem chama ocorre especificamente quando os gases em alta temperatura são totalmente retidos pelo próprio cano da arma.",
+      "C": "O disparo ocorreu fora do limite espacial dos efeitos secundários do tiro, devendo os vestígios de fumaça e de grãos de pólvora ser atribuídos a uma contaminação ambiental posterior à ocorrência.",
+      "D": "Trata-se de um tiro a curta distância, cuja distância entre a boca do cano da arma e o anteparo no momento do disparo provavelmente excedeu dez centímetros, dada a preservação das fibras do tecido contra os gases em combustão"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Justificativa da Correta: A opção D está correta porque a presença de zona de esfumaçamento e zona de tatuagem caracteriza o tiro como sendo a curta distância, ou seja, aquele em que os efeitos secundários atingem o alvo\n. Como a zona de chama (efeito dos gases em combustão responsável por queimar tecido ou crestar pelos) dificilmente é detectável além de dez centímetros da boca do cano\n, a ausência desses efeitos térmicos, em conjunto com a presença das outras zonas secundárias, indica que o disparo foi efetuado a uma distância intermediária dentro do limite de curta distância, porém superior a 10 cm do anteparo.\nCitação Direta do Documento: \"A zona de chama é aquela produzida pelos gases em combustão e em alta temperatura que são expelidos pelo cano, gerando efeitos característicos, como tecido queimado ou pelos crestados. Seus efeitos dificilmente são detectáveis além de dez centímetros da boca do cano.\"",
+    "referencia": "SimuChacal, simulado 11, questão #640"
+  },
+  {
+    "id": 2843,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe pericial é acionada para atender a um local de crime de homicídio por disparo de arma de fogo. Para viabilizar os exames posteriores de determinação de distância de tiro em laboratório, os peritos precisam coletar e preservar a camiseta da vítima, a qual está bastante manchada de sangue e não possui botões ou aberturas frontais\n. Qual procedimento de coleta e preservação atende rigorosamente aos padrões científicos para evitar contaminação e preservar os resíduos secundários?",
+    "alternativas": {
+      "A": "Realizar a descrição e a documentação fotográfica com escala dos resíduos ainda com a veste no corpo da vítima, retirá-la por meio de cortes para evitar contaminação cruzada, e preservá-la colocando uma folha de papel branco e limpo em suas faces interna e externa antes de dobrá-la ou enrolá-la",
+      "B": "Retirar a veste puxando-a cuidadosamente pela cabeça da vítima para preservar a integridade estrutural das fibras que circundam o orifício\ne, em seguida, acondicioná-la ainda úmida em um envelope plástico hermeticamente fechado.",
+      "C": "Proceder à lavagem biológica preliminar da veste em água morna para desobstruir os resíduos metálicos latentes e, somente após a secagem completa à sombra, realizar o registro fotográfico com escala milimétrica",
+      "D": "Realizar a raspagem imediata dos resíduos particulados presentes na superfície do tecido ainda no local de crime, transferindo o material recuperado para stubs metálicos com fita condutora de carbono em dupla face"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A opção A descreve perfeitamente o protocolo técnico estabelecido para a coleta e preservação de vestes como anteparos. A documentação fotográfica com escala deve ser feita com a veste ainda na vítima\n. Se a peça não tiver botões, deve ser cortada para não contaminar outras partes da veste\n. A preservação exige o uso de papel branco e limpo em ambas as faces (interna e externa) antes de dobrar ou enrolar para evitar a transferência ou contaminação dos resíduos secundários\n. As demais alternativas violam essas diretrizes ao propor métodos que causam contaminação cruzada, lavagens que removem nitritos solúveis em água ou técnicas inadequadas para a análise integral da veste\nCitação Direta do Documento: \"O primeiro passo consiste na descrição e documentação fotográfica dos resíduos do disparo enquanto as vestes ainda estão na vítima, observando que as fotos deverão apresentar escala. Em seguida, as vestes devem ser removidas, sendo que, caso não possuam botões, é preferível cortá-las, permitindo sua retirada sem a contaminação de outras partes da vestimenta. Para a preservação, deve-se colocar uma folha de papel branco e limpo, tanto na face interna quanto na externa da roupa, podendo esta, então, ser dobrada ou enrolada e armazenada para análise.\"",
+    "referencia": "SimuChacal, simulado 11, questão #643"
+  },
+  {
+    "id": 2844,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um laboratório de balística forense, um perito criminal analisa os resíduos secundários deixados ao redor do orifício de entrada em um anteparo de tecido questionado\n. Para determinar se o projétil que produziu o impacto era do tipo encamisado (jaquetado) ou de chumbo nu, o perito decide realizar testes químicos específicos para detecção de metais\n. Qual associação de reagente, reação observada e interpretação química está correta e permite identificar o uso de um projétil encamisado?",
+    "alternativas": {
+      "A": "A aplicação de rodizonato de sódio na área periférica do orifício, gerando uma coloração violeta ou púrpura, o que confirma a presença de cobre proveniente do encamisamento do projétil",
+      "B": "A aplicação de uma reação de azida de sódio com iodo sobre o tecido, resultando em uma coloração verde intensa que denuncia a presença de compostos sulfurados metálicos do encamisamento",
+      "C": "A aplicação de ditiooxamida ou ácido rubeânico na área questionada, resultando em uma coloração verde, o que comprova a deposição de cobre proveniente do encamisamento do projétil",
+      "D": "A aplicação do reagente de Griess diretamente sobre a zona de impacto, gerando uma coloração rosada que atesta a presença de fragmentos de chumbo metálico oriundos do núcleo do projétil"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: A opção C está correta porque o cobre é o elemento metálico característico do encamisamento de projéteis e sua presença é revelada especificamente pelo reagente ditiooxamida ou ácido rubeânico, que tinge o local com uma coloração verde\n. A alternativa A erra ao associar o rodizonato de sódio (que revela chumbo e tinge de violeta/púrpura) ao cobre\n. A alternativa B erra porque a reação de azida de sódio com iodo identifica compostos sulfurados de pólvora negra (deixando o suporte incolor)\n, não cobre. A alternativa D erra pois o reagente de Griess revela nitritos da queima da pólvora (coloração rosada)\n, e não fragmentos de chumbo\nCitação Direta do Documento: \"cobre: proveniente do encamisamento de projéteis e revelados por meio do reagente ditiooxamida ou ácido rubeânico, o qual tinge as áreas contaminadas com coloração verde;\"",
+    "referencia": "SimuChacal, simulado 11, questão #645"
+  },
+  {
+    "id": 2845,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "E m relação aos conceitos de calibre nominal e calibre real nas armas de alma raiada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre nominal identifica o tipo de munição e de arma para o qual esta foi concebida, enquanto o calibre real corresponde à medida física do diâmetro do projétil ou do cano, sendo possível que diferentes calibres nominais possuam calibre real semelhante",
+      "B": "O calibre real corresponde à designação comercial da munição, enquanto o calibre nominal representa a medida exata do diâmetro interno do cano.",
+      "C": "O calibre nominal e o calibre real são conceitos equivalentes, razão pela qual um único calibre real corresponde necessariamente a um único calibre nominal.",
+      "D": "O calibre real é gravado na base do culote dos cartuchos e no cano da arma, enquanto o calibre nominal é obtido apenas por medição pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "\"Tecnicamente, o calibre real corresponde à menor dimensão da alma do cano, devendo ser determinado pela medida entre dois cheios diametralmente opostos no sistema de raias (observar a nomenclatura na figura abaixo). \"P 29\n\"Os calibres nominais são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres nominais para um único calibre real\" P 30",
+    "referencia": "SimuChacal, simulado 11, questão #646"
+  },
+  {
+    "id": 2846,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos projéteis, qual a função do encamisamento?",
+    "alternativas": {
+      "A": "Não permitir que a pólvora entre em contato com o núcleo do projétil",
+      "B": "Impedir o derretimento do projétil no interior do cano das armas com maior poder de fogo",
+      "C": "Aumentar a penetrabilidade do projétil no alvo",
+      "D": "Expandir-se ao contato com o alvo, aumentando a lesividade do projétil"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A - Errada - Apesar de proteger o núcleo do contato com a pólvora, não é essa a função para a qual o encamisamento foi criado\nB - Certa - De acordo com o material: \"A função do encamisamento é impedir o derretimento do projétil no interior do cano de armas com maior poder de fogo, o que ocorreria se o projétil fosse confeccionado somente\ncom liga de chumbo.\"\nC - Errada - Aumentar a penetrabilidade do projétil no alvo não é a função principal do encamisamento\nD - Errada - Expandir-se ao contato com o alvo, aumentando a lesividade do projétil pode ser dito como função dos projéteis expansíveis, encamisados ou não.",
+    "referencia": "SimuChacal, simulado 11, questão #654 — Ref: pág. 18, item 2.2.4"
+  },
+  {
+    "id": 2847,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame pericial em uma arma de fogo apreendida, foi obtido resultado positivo para nitritos no interior do cano, mediante emprego do reagente de Griess. Com base nesse resultado, o perito poderá concluir que:",
+    "alternativas": {
+      "A": "a arma necessariamente efetuou disparo, pois os nitritos são resíduos exclusivos da combustão da pólvora.",
+      "B": "foram encontrados resíduos indicativos de, pelo menos, um disparo, sem que seja possível determinar a quantidade ou precisar exatamente o momento do disparo.",
+      "C": "a arma efetuou disparo recente, embora não seja possível determinar quantos disparos foram realizados.",
+      "D": "a presença de nitritos permite comprovar o disparo, mas sua instabilidade impede apenas a determinação da quantidade de tiros."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O resultado positivo permite indicar a presença de resíduos indicativos de, pelo menos, um disparo, mas não permite determinar se houve um ou mais disparos nem precisar exatamente quando ocorreram. A, C e D atribuem caráter conclusivo ao teste, ignorando que os nitritos podem ter origem externa e não permitem determinar a recenticidade.",
+    "referencia": "SimuChacal, simulado 11, questão #659 — Ref: págs. 57–58"
+  },
+  {
+    "id": 2848,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma arma de fogo é encaminhada para exame pericial, havendo suspeita de ter sido utilizada em crime ocorrido há alguns dias. O teste para nitritos apresenta resultado negativo.\n\nNessa situação, é correto afirmar que:",
+    "alternativas": {
+      "A": "o resultado exclui a ocorrência de disparo, desde que os suportes de coleta tenham sido devidamente controlados por amostras brancas.",
+      "B": "a ausência de nitritos comprova que a arma não efetuou disparo recente, embora não exclua disparos antigos.",
+      "C": "o resultado negativo é inconclusivo quanto à ocorrência de disparos, pois a arma pode ter sido limpa, lavada com água ou os nitritos podem ter desaparecido com o tempo.",
+      "D": "a negatividade somente poderá ser considerada inconclusiva quando demonstrada elevada umidade no local de armazenamento da arma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O resultado negativo não comprova que não houve disparo. A arma pode ter sido limpa pelo atirador, caído ou sido lavada com água, ou o disparo pode ser antigo e os nitritos já terem desaparecido. A, B e D atribuem à negatividade uma capacidade de exclusão que a técnica não possui.",
+    "referencia": "SimuChacal, simulado 11, questão #660"
+  },
+  {
+    "id": 2849,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da utilização dos nitritos como indicativos de disparo de arma de fogo, analise os itens:\n\nI. Os nitritos são razoavelmente instáveis na presença de ar.\n\nII. O tempo de degradação dos nitritos no interior da arma, em condições normais, apresenta comportamento previsível e reprodutível.\n\nIII. Os nitritos são muito solúveis em água.\n\nIV. Os nitritos podem ser encontrados em fontes externas à arma, como resíduos de urina, cinzas, fertilizantes e aditivos de alimentos.\n\nEstá correto o que se afirma em:",
+    "alternativas": {
+      "A": "I e II, apenas.",
+      "B": "II e III, apenas.",
+      "C": "I, III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Estão corretos I, III e IV. O item II está errado porque o tempo de degradação dos nitritos não segue comportamento previsível e reprodutível. Essa imprevisibilidade é justamente uma das limitações para determinar o tempo decorrido desde o disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #661"
+  },
+  {
+    "id": 2850,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um projétil é composto de:",
+    "alternativas": {
+      "A": "Cápsula metálica, composto químico detonante e bigorna",
+      "B": "Cápsula de espoletamento, propelente e estojo",
+      "C": "Ogiva, corpo cilíndrico, ranhuras de lubrificação e base",
+      "D": "Estifinato de chumbo, nitrato de bário e trissulfeto de antimônio"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A- Errada - essa é a descrição dos componentes de uma espoleta\nB - Errada - essa é a descrição dos componentes de um cartucho de munição\nC - Certa\nD - Errada - essa alternativa enumera os principais componentes da mistura iniciadora, presente na espoleta",
+    "referencia": "SimuChacal, simulado 11, questão #663 — Ref: Página 17, Figura 7"
+  },
+  {
+    "id": 2851,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Caso um dispositivo possua propelente e projétil, mas careça do aparato arremessador propriamente dito, qual função técnica é imediatamente comprometida?",
+    "alternativas": {
+      "A": "Ignição por percussão mecânica",
+      "B": "Combustão da carga de projeção",
+      "C": "Vetorização da expansão gasosa",
+      "D": "Estabilidade da massa vulnerante"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O aparato arremessador tem a função essencial de permitir a expansão dos gases apenas em direção e sentido determinados, servindo como conduto guia.",
+    "referencia": "SimuChacal, simulado 11, questão #693"
+  },
+  {
+    "id": 2852,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual elemento de engenharia é projetado para suportar o estresse mecânico do raiamento em altas velocidades?",
+    "alternativas": {
+      "A": "Configuração do núcleo de chumbo",
+      "B": "Proteção periférica (encamisamento)",
+      "C": "Vedação do côncavo da base",
+      "D": "Sistema de anéis de lubrificação"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O encamisamento protege o núcleo do projétil contra o atrito e o calor gerado pelo raiamento do cano, comum em munições de pistola de maior energia.\nOs anéis de lubrificação, são típicos de projéteis de chumbo exposto para reduzir o chumbamento do cano, não no encamisado.",
+    "referencia": "SimuChacal, simulado 11, questão #694"
+  },
+  {
+    "id": 2853,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação dos revólveres quanto à extração dos cartuchos e estojos distingue a extração manual da automática, podendo ainda ser simples ou simultânea. Acerca dessa classificação, assinale a opção correta.",
+    "alternativas": {
+      "A": "A extração automática pode ser simples ou simultânea, conforme a configuração do mecanismo da arma analisada",
+      "B": "A extração simultânea ocorre exclusivamente em revólveres de armação rígida com janela lateral, por meio de vareta única",
+      "C": "Nos revólveres de tambor reversível há extração automática simultânea, acionada pelo basculamento do conjunto tambor-cano",
+      "D": "A extração manual pode ser simples ou simultânea, ao passo que a extração automática é apenas simultânea"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os revólveres podem ser de extração manual (simples ou simultânea) ou de extração automática (apenas simultânea).",
+    "referencia": "SimuChacal, simulado 11, questão #695 — Ref: p. 38"
+  },
+  {
+    "id": 2854,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os revólveres podem ser classificados em diversas categorias.\nAssinale a alternativa que contém as classificações.",
+    "alternativas": {
+      "A": "Quanto à armação, quanto ao mecanismo de disparo, quanto à percussão, quanto à extração, quanto ao funcionamento.",
+      "B": "Quanto ao mecanismo de disparo, quanto à percussão, quanto ao calibre, quanto à extração.",
+      "C": "Quanto ao calibre, quanto ao recuo, quanto à forma de empunhadura, quanto à percussão.",
+      "D": "Quanto à forma de empunhadura, quanto à percussão, quanto à extração, quanto ao mecanismo de disparo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "pag 35.",
+    "referencia": "SimuChacal, simulado 11, questão #721"
+  },
+  {
+    "id": 2855,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais são as duas modalidades da armação possíveis para revólveres?",
+    "alternativas": {
+      "A": "Rígida e Flexível",
+      "B": "Sólida e Condutora",
+      "C": "Rígida e Articulada",
+      "D": "Articulada e Fixa"
+    },
+    "resposta_correta": "C",
+    "justificativa": "pag. 36",
+    "referencia": "SimuChacal, simulado 11, questão #722"
+  },
+  {
+    "id": 2856,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de revólveres",
+    "alternativas": {
+      "A": "Nos revólveres de armação articulada, a introdução de cartuchos é feita um de cada\nvez, por meio de uma janela lateral",
+      "B": "Revólveres de armação rígida permitem a inserção de apenas 1 estojo por vez e esse\ntipo de armação não é obsoleta, encontrando aplicação na atualidade.",
+      "C": "Revólveres de armação rígida contam com um extrator único para todas as\ncâmaras",
+      "D": "Os revólveres de armação articulada podem ser subdivididos em 3 grupos:\nrevólveres de armação de junta, revólveres com tambor reversível e revólveres com extração automática"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pag. 36\n\na) Essa descrição é dos revólveres de armação rígida\nc) Essa descrição é dos revólveres de armação articulada\nd) Existem 2 subgrupos dentro de revólveres de armação articulada, somente os 2 primeiros mencionados, já o terceiro não existe.",
+    "referencia": "SimuChacal, simulado 11, questão #723"
+  },
+  {
+    "id": 2857,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a estrutura e o funcionamento dos cartuchos de munição para espingardas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Assim como nos cartuchos destinados a armas de alma raiada, a deflagração da carga de propulsão atua diretamente sobre os projéteis, sendo a bucha destinada apenas ao fechamento frontal do estojo.",
+      "B": "b) A diferença básica entre um cartucho para espingarda e um cartucho para arma de alma raiada é o objeto que é propelido quando a carga de propulsão\né deflagrada: no primeiro é uma bucha, geralmente plástica ou de papelão, a qual impele os projéteis para fora do cano; no último o próprio projétil é impelido\npela força dos gases.",
+      "C": "c) A presença de múltiplos projéteis esféricos constitui requisito estrutural dos cartuchos para espingarda, razão pela qual o emprego de projétil único descaracteriza essa modalidade de munição.",
+      "D": "d) O corpo do estojo de munição para espingarda é integralmente metálico, diferenciando-se dos estojos para armas de alma raiada apenas pela presença da bucha entre a carga de propulsão e os projéteis"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa b está correta. A alternativa \"a\" está incorreta, pois nos cartuchos para espingarda a bucha impele os projéteis para fora do cano. A alternativa \"c\" está incorreta porque cartuchos para espingarda podem conter, inclusive, projéteis únicos denominados balotes. A alternativa \"d\" contraria a descrição do estojo, composto por base metálica resistente e corpo cilíndrico de papelão ou plástico.",
+    "referencia": "SimuChacal, simulado 11, questão #728 — Ref: p. 47 e 48"
+  },
+  {
+    "id": 2858,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à constituição dos cartuchos para espingarda e à variedade de projéteis ou materiais que podem ser neles empregados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Os cartuchos para espingarda são necessariamente carregados com balins esféricos de chumbo, cuja classificação segue sistema internacional uniforme baseado em números e letras.",
+      "B": "b) O fechamento frontal do estojo é realizado necessariamente pelas próprias bordas do corpo cilíndrico, mediante fechamento estrela, não se admitindo o emprego de elemento autônomo para retenção do conteúdo interno.",
+      "C": "c) Embora sejam, em geral, carregados com chumbos ou balins esféricos de dimensões e massas variáveis, os cartuchos para espingarda podem, em razão das características de seus estojos, ser recarregados com materiais diversos, inclusive projéteis únicos denominados balotes.",
+      "D": "d) A utilização de materiais distintos dos balins esféricos restringe-se a projéteis especificamente fabricados para espingardas, uma vez que as dimensões do estojo impedem a acomodação de objetos não concebidos originalmente como componentes de munição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa c está correta. O texto afirma que os cartuchos para espingarda são, de modo geral, carregados com chumbos ou balins esféricos, mas podem ser recarregados virtualmente com qualquer coisa que caiba no estojo. O material menciona pedras, porcas, parafusos, projéteis de calibre .38\" para revólver, balotes e balas de borracha. A alternativa a também erra ao afirmar que a denominação dos projéteis segue padrão internacional uniforme: segundo o texto, essa denominação é bastante arbitrária e varia entre países. O estojo, por sua vez, pode ser fechado por disco de papelão ou pelo denominado fechamento estrela, tornando incorreta a alternativa b.",
+    "referencia": "SimuChacal, simulado 11, questão #729 — Ref: p. 47 e 48"
+  },
+  {
+    "id": 2859,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de uma espingarda, um perito pretende determinar o seu calibre real e avaliar a configuração do choke. Considerando os conceitos aplicáveis às armas de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) O calibre real deve ser obtido na boca do cano, pois esse ponto representa o diâmetro final efetivamente percorrido pelos projéteis antes de deixarem a arma, ainda que exista choke.",
+      "B": "b) O calibre real corresponde ao diâmetro interno medido na porção mediana do cano, não devendo ser determinado na câmara de combustão nem na boca do cano; o choke, por sua vez, consiste em uma redução do diâmetro da boca destinada a favorecer o agrupamento dos balins por maior distância durante a trajetória.",
+      "C": "c) O choke corresponde a uma ampliação progressiva do diâmetro interno do cano em direção à boca, destinada a reduzir a dispersão dos balins mediante diminuição da resistência à sua saída.",
+      "D": "d) A classificação do choke expressa exclusivamente a presença ou a ausência de estrangulamento, não havendo gradações intermediárias entre o Full e o Cylinder."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa b está correta. O calibre real é medido na porção mediana do cano. A medição não deve ser realizada na câmara de combustão, que é ampliada para receber o cartucho, nem na boca do cano, porque esta pode apresentar choke. O choke consiste em uma redução do diâmetro da boca do cano, iniciada como uma rampa cônica interna até atingir o estrangulamento máximo. Sua finalidade é favorecer o agrupamento dos balins, mantendo-os unidos por maior distância e melhorando a precisão do tiro. O choque pode ser cambiável, por meio de uma peça rosqueada na boca\ndo cano, e é classificado em cinco tipos:\na) Full (F): ou pleno;\nb) Improved Modified (IM): com 3/4 de choke full;\nc) Modified (M): com 1/2 do choke full;\nd) Improved Cylinder (IC): com 1/4 de choke full; e\ne) Cylinder (C): ou cilíndrico, sem choke.",
+    "referencia": "SimuChacal, simulado 11, questão #730 — Ref: p. 47 e 48"
+  },
+  {
+    "id": 2860,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Armas de percussão intrínseca radial, anelar ou periférica (rimfire) são aquelas nas quais a",
+    "alternativas": {
+      "A": "Munição possui um canal estriado na base do cartucho no interior do qual se encontra a carga propulsora. A percussão, ao invés de se dar no centro da base do cartucho, se dá na sua borda. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão praticamente restritas ao calibre .22”.",
+      "B": "Munição possui um ressalto oco na base do cartucho no interior do qual se encontra a mistura iniciadora. A percussão, ao invés de se dar no centro da base do cartucho, se dá na sua borda. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão praticamente restritas ao calibre .22”.",
+      "C": "Munição possui um ressalto oco na base do cartucho no interior do qual se encontra a mistura iniciadora. A percussão, ao invés de se dar no fundo da base do cartucho, se dá no seu ombro. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão praticamente restritas ao calibre .22”.",
+      "D": "Munição possui um ressalto oco na base do cartucho no interior do qual se encontra a mistura iniciadora. A percussão, ao invés de se dar no centro da base do cartucho, se dá na sua borda. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão integralmente restritas ao calibre .30”."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A O texto diz explicitamente que o que existe no interior do ressalto é a mistura iniciadora, e não carga propulsora (pólvora). Além disso, o elemento é um ressalto oco, não um canal estriado.\nB\nC O texto afirma que a percussão não se dá no centro, mas sim na borda. Trocar \"centro\" por \"fundo\" e \"borda\" por \"ombro\" altera completamente a localização descrita, tornando a afirmação incompatível com o texto.\nD O texto usa \"praticamente\" (que admite exceções) e afirma que o calibre é \".22”\" (vinte e dois centésimos de polegada). Trocar por \"integralmente\" (exclusão total) e \".30”\" (calibre diferente) torna a frase falsa tanto na abrangência quanto no dado numérico.",
+    "referencia": "SimuChacal, simulado 11, questão #747"
+  },
+  {
+    "id": 2861,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas armas de percussão intrínseca indireta",
+    "alternativas": {
+      "A": "a energia do cão ou martelo é transferida para a cápsula de espoletamento por meio de um pino, denominado pino percussor, geralmente flutuante e afixado à armação ou ao ferrolho da arma. Dessa forma, o cão bate no pino percussor que, por sua vez, percute a cápsula de espoletamento.",
+      "B": "a energia da mola ou gatilho é transferida para a estojo do cartucho por meio de um pino, denominado pino percussor, geralmente flutuante e afixado à armação ou ao ferrolho da arma. Dessa forma, a mola bate no pino percussor que, por sua vez, percute a estojo do cartucho.",
+      "C": "a energia do cão ou martelo é transferida para a cápsula de espoletamento por meio de um pino, denominado pino percussor, geralmente fixo e removível à armação ou ao ferrolho da arma. Dessa forma, o cão bate no pino percussor que, por sua vez, percute a cápsula de espoletamento.",
+      "D": "a energia do cão ou martelo é transferida para a cápsula de espoletamento por meio de um pino, denominado pino percussor, geralmente flutuante e afixado à armação ou ao ferrolho da arma. Dessa forma, o cão aciona a alavanca que, por sua vez, comprime o explosivo da cápsula de espoletamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "B O texto afirma que a energia é do cão ou martelo e que ela é transferida para a cápsula de espoletamento (não para o estojo do cartucho como um todo). A mola é um componente que armazena energia, mas não é ela quem bate no pino — é o cão/martelo. Além disso, quem percute é o pino percussor, e o alvo é a cápsula de espoletamento.\nC O texto descreve o pino percussor como flutuante (que tem certa liberdade de movimento) e afixado (fixado/permanentemente ligado) à armação ou ferrolho. Trocar por \"fixo\" (que implica imobilidade total, contradizendo \"flutuante\") e \"removível\" (que implica possibilidade de retirada, contradizendo \"afixado\") torna a descrição tecnicamente falsa.\nD O texto descreve uma sequência mecânica clara: o cão bate no pino percussor, e o pino percussor percute a cápsula. Trocar \"bate no pino percussor\" por \"aciona a alavanca\" insere um componente (alavanca) que não existe no texto. Trocar \"percute a cápsula\" por \"comprime o explosivo\" altera a ação mecânica (percussão = impacto; compressão = pressão contínua), sendo ações distintas e não descritas no texto.",
+    "referencia": "SimuChacal, simulado 11, questão #749 — Ref: 24"
+  },
+  {
+    "id": 2862,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As armas de percussão intrínseca podem ainda ser classificadas",
+    "alternativas": {
+      "A": "como de percussão retrógrada ou progressiva conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca retrógrada, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, de modo que o próprio cão é responsável pela percussão da espoleta.",
+      "B": "como de percussão direta ou indireta conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca direta, o cão ou martelo possui um pino percussor indiretamente acoplado ou articulado a seu corpo, de modo que o próprio cão é responsável pela percussão da espoleta.",
+      "C": "como de percussão direta ou indireta conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca direta, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, de modo que o próprio cão é responsável pela percussão da espoleta.",
+      "D": "como de percussão direta ou indireta conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca direta, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, de modo que a mola principal é responsável pela percussão do cartucho."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A O texto classifica a percussão como direta ou indireta, e não como retrógrada ou progressiva. A troca dos termos classificatórios torna a afirmação incompatível com o texto.\n\nB O texto afirma que, na percussão direta, o pino é diretamente usinado ou afixado ao corpo do cão/martelo. Trocar por \"indiretamente acoplado ou articulado\" descreve justamente o oposto (que seria característico da percussão indireta), tornando a frase falsa.\n\nC GAB\n\nD O texto afirma que, na percussão direta, o próprio cão é o responsável pela percussão da espoleta. Trocar \"próprio cão\" por \"mola principal\" (que é um componente que armazena energia, mas não percute diretamente) e \"espoleta\" por \"cartucho\" (sendo que a espoleta é o componente específico que recebe a percussão) distorce completamente o mecanismo descrito.",
+    "referencia": "SimuChacal, simulado 11, questão #751"
+  },
+  {
+    "id": 2863,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização de testes de eficiência em munições no âmbito da Polícia Federal, alguns procedimentos específicos devem ser seguidos devido à natureza destrutiva do exame. De acordo com o texto, assinale a alternativa correta sobre esse processo:",
+    "alternativas": {
+      "A": "Os estojos resultantes dos testes de eficiência são obrigatoriamente devolvidos à unidade de origem junto com o laudo.",
+      "B": "O teste por amostragem é proibido, exigindo-se a deflagração de 100% dos cartuchos íntegros apreendidos.",
+      "C": "O registro fotográfico prévio é dispensável, já que o material residual do disparo serve como comprovação do teste.",
+      "D": "Os elementos de munição coletados como padrões para o Banco Nacional de Perfis Balísticos devem ser registrados como novos materiais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma expressamente que a munição utilizada nos testes eficazes é consumida e seus estojos são descartados, exceto os elementos de munição coletados como padrões de armas para exames de confronto balístico ou inserção e busca no Banco Nacional de Perfis Balísticos, os quais devem ser registrados como novos materiais. Além disso, o texto menciona que o teste por amostragem é permitido e o registro fotográfico prévio é de suma importância.",
+    "referencia": "SimuChacal, simulado 11, questão #769 — Ref: p. 68 e 69"
+  },
+  {
+    "id": 2864,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame de confronto balístico fundamenta-se nos princípios científicos da identificação mediata das armas de fogo, que envolvem a reprodutibilidade e a unicidade das marcas. Com base nos conceitos apresentados no texto, a unicidade refere-se ao fato de que:",
+    "alternativas": {
+      "A": "As deformações plásticas ocorrem de forma idêntica em qualquer calibre de munição utilizado na mesma arma.",
+      "B": "As marcas nas superfícies internas do cano e partes da arma são geradas aleatoriamente na fabricação e no uso, sendo exclusivas de cada arma.",
+      "C": "A elevada pressão interna do disparo padroniza os estriamentos, tornando todas as armas de um mesmo fabricante idênticas.",
+      "D": "Cada projétil disparado só pode ser submetido a um único confronto macroscópico antes de perder suas características."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item \"b\" do subtópico 6.3, a unicidade estabelece que \"as marcas nas superfícies internas do cano e partes da arma são geradas aleatoriamente durante os processos de fabricação e subsequente uso da arma, e como tais são únicas para cada arma de fogo, permitindo a individualização da arma empregada\".",
+    "referencia": "SimuChacal, simulado 11, questão #770 — Ref: p. 68 e 69"
+  },
+  {
+    "id": 2865,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A preservação das marcas microscópicas em elementos de munição questionados é crítica para o sucesso do confronto balístico. Diante das recomendações técnicas descritas no texto, assinale a conduta correta que o operador deve adotar em um local de crime:",
+    "alternativas": {
+      "A": "Utilizar alicates ou pinças metálicas diretamente no projétil para extraí-lo com rapidez de superfícies duras.",
+      "B": "Gravar as iniciais do perito ou o número da ocorrência diretamente na lateral dos estojos e projéteis questionados para evitar misturas.",
+      "C": "Escavar uma porção do material no qual o projétil se encontra incrustado, remetendo todo o conjunto para análise, em vez de extraí-lo com ferramentas metálicas diretas.",
+      "D": "Limpar imediatamente com água corrente todos os projéteis coletados no local de crime, mesmo se houver pedido de exame de DNA ou papiloscópico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto condena o uso direto de ferramentas metálicas (como alicates ou pinças) no projétil e indica que o procedimento correto é escavar a porção do material ao redor. Também proíbe marcar diretamente os elementos (a identificação deve ser na embalagem) e ressalta que a limpeza com água deve aguardar a finalização de exames de DNA ou papiloscópicos, se houver tal solicitação.",
+    "referencia": "SimuChacal, simulado 11, questão #771 — Ref: p. 68 e 69"
+  },
+  {
+    "id": 2866,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Arma de fogo longa de repetição, com cano de alma raiada que, diferente de arma de tiro único, possui um carregador denominado depósito na coronha, e que tem como característica marcante a presença de um ferrolho com alavanca para extração do estojo. O texto exposto traz características de uma arma denominada de:",
+    "alternativas": {
+      "A": "espingarda",
+      "B": "fuzil",
+      "C": "rifle",
+      "D": "mosquetão"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #779 — Ref: pág 45"
+  },
+  {
+    "id": 2867,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a espingarda, está correto afirmar, exceto:",
+    "alternativas": {
+      "A": "a principal característica é a alma lisa de seus canos",
+      "B": "as espingardas de cano curto e grosso calibre costumam ser denominadas escopetas",
+      "C": "o sistema de alimentação pode ser manual ou semiautomático",
+      "D": "todas as espingardas possuem alma lisa"
+    },
+    "resposta_correta": "D",
+    "justificativa": "resp. Alternativa d) justificativa: Há a excessão das espingardas longas de alma mista, denominada slug gun (pág 46)",
+    "referencia": "SimuChacal, simulado 11, questão #780"
+  },
+  {
+    "id": 2868,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as armas de fogo, assinale a opção correta",
+    "alternativas": {
+      "A": "O texto legal (Lei 10.826/2003) não conceitua o que é arma de fogo, deixando essa delimitação a cargo de regulamentos",
+      "B": "O estilingue é exemplo de arma de arremesso simples, pois apesar de ter aparato lançador, o projétil não é lançado por expansão de gases",
+      "C": "A parte anterior do estojo, próxima ao projétil, é denominada culote",
+      "D": "O calibre real de armas de alma lisa é medido na porção anterior do cano"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) correta. pág 12.\n\nb) errada. Armas de arremesso simples são aquelas lançadas direto pela mão do atirador, como dardos, lanças e granadas. As complexas são constituídas de aparato lançador, como é o caso do estilingue (pág 11).\n\nc) errado. Culote é a parte posterior do estojo, onde fica a espoleta e caracteres (pág 15).\n\nd) errado. É medido na porção mediana do cano (pág 48).",
+    "referencia": "SimuChacal, simulado 11, questão #781"
+  },
+  {
+    "id": 2869,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é o objetivo do exame de eficiência de uma arma de fogo?",
+    "alternativas": {
+      "A": "Determinar exclusivamente o calibre nominal e a origem da arma.",
+      "B": "Determinar se a arma está eficaz para produzir tiro e, em caso negativo, identificar as causas de sua ineficácia.",
+      "C": "Verificar apenas se a arma possui munição compatível em seu carregador.",
+      "D": "Determinar se a arma já foi utilizada anteriormente para efetuar disparos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O objetivo dos exames efetuados pelo perito será determinar se a arma se encontra eficaz para produzir tiro, e se não, quais as causas da sua ineficácia.”",
+    "referencia": "SimuChacal, simulado 11, questão #785"
+  },
+  {
+    "id": 2870,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos testes de eficiência realizados em armas de fogo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Devem ser testados apenas os procedimentos de percussão e ejeção, sendo os problemas com a munição considerados defeitos de funcionamento da arma.",
+      "B": "Devem ser testados os procedimentos de alimentação, percussão, extração e ejeção, sendo considerado defeito qualquer incidente que interrompa o tiro ou a cadência de tiros, exceto problemas com a munição.",
+      "C": "A interrupção do tiro por peças danificadas não é considerada defeito de funcionamento quando a falha ocorre de maneira esporádica.",
+      "D": "A ciclagem da arma somente precisa ser observada quando houver falha no carregador ou no retém do tambor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #786"
+  },
+  {
+    "id": 2871,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas relacionadas ao exame de eficiência de armas de fogo:\n\nI. Antes dos disparos, deve ser realizada inspeção visual para verificar se o cano está desobstruído, se a arma aparentemente está em bom estado para o tiro e se o mecanismo está operante em seco.\n\nII. Caso existam dúvidas sobre a capacidade de a arma manter sua integridade durante o disparo, o teste de eficiência deve ser efetuado remotamente.\n\nIII. Quando a arma apresenta defeito, basta descrever suas causas prováveis, não sendo necessário determinar se ela ainda poderia ser utilizada para efetuar disparos.\n\nIV. Depois dos testes, o perito deve certificar-se, especialmente no caso de armas com defeitos, de que a arma está devidamente descarregada.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas II, III e IV estão corretas.",
+      "C": "Apenas I, II e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #787"
+  },
+  {
+    "id": 2872,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos procedimentos de coleta projéteis padrões, avalie as assertivas abaixo.\n\nI. Os disparos com revólver devem ser produzidos inicialmente em ação simples, por ser esta a forma usual de produzir disparos com tais armas, em casos raros, pode ser necessário coletar padrões de diferentes câmaras.\nII. Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja.\nIII. Os atiradores, em sua maioria, empunham a arma na posição vertical para atirar, devendo ser esta a posição preferencial para a coleta de padrões.",
+    "alternativas": {
+      "A": "Estão corretas apenas as alternativas I e II.",
+      "B": "Estão corretas apenas as alternativas II e III.",
+      "C": "Está correta apenas a alternativa I.",
+      "D": "Está correta apenas a alternativa III."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa C correta. Pois apenas o item II está adequado.\n\nI. Errado. Os disparos com revólver devem ser produzidos inicialmente em ação DUPLA, por ser esta a forma usual de produzir disparos com tais armas, em casos raros, pode\nser necessário coletar padrões de diferentes câmaras.p.72\nII. Correto. Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja, visto que ele pode estar “chumbado”, devendo os primeiros padrões serem coletados com o cano no estado em que se encontra. p.71\nIII. Errado. Os atiradores, em sua maioria, empunham a arma na posição HORIZONTAL\npara atirar, devendo ser esta a posição preferencial para a coleta de padrões. p.72",
+    "referencia": "SimuChacal, simulado 11, questão #796 — Ref: p. 71 e 72"
+  },
+  {
+    "id": 2873,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Não é possível precisar quantos padrões são necessários para efetuar, com sucesso, um exame de comparação balística, devendo ser colhidos tantos padrões quantos sejam necessários para formar a convicção dos peritos. O caso ideal é enviar a arma para os peritos que farão o confronto balístico.\n\nCaso isso seja impossível, qual o mínimo de padrões que deverá ser colhido de cada arma e enviado para análise juntamente com os materiais questionados?",
+    "alternativas": {
+      "A": "2 padrões.",
+      "B": "3 padrões.",
+      "C": "4 padrões.",
+      "D": "5 padrões."
+    },
+    "resposta_correta": "C",
+    "justificativa": "P. 71:\nCaso isso seja impossível, um mínimo de QUATRO padrões deverá ser colhido de cada arma e enviado para análise juntamente com os materiais questionados. .",
+    "referencia": "SimuChacal, simulado 11, questão #797 — Ref: P. 71."
+  },
+  {
+    "id": 2874,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto de Padrões em Balística Forense, acerca do requisito de contemporaneidade dos padrões, é correto afirmar que:",
+    "alternativas": {
+      "A": "Um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos.",
+      "B": "A coleta deve ser feita preferencialmente por meio do uso de armamentos mais recentes.",
+      "C": "Os padrões colhidos serão contemporâneos quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.",
+      "D": "A contemporaneidade é o mais importante requisito de um padrão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A. Correto. Por contemporaneidade se entende que um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos. Isto é devido ao fato que, a cada novo disparo, ocorre um pequeno desgaste do cano e de outras partes da arma questionada.\n\nAlternativa B. Incorreto. Nesse contexto, não tem a ver com a modernidade do equipamento utilizado. A coleta deve ser feita a partir dos armamentos questionados.\n\nAlternativa C. Incorreto. A alternativa trata sobre ADEQUABILIDADE, em vez da CONTEMPORANEIDADE, objeto de estudo na questão. p. 70: Os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.\n\nAlternativa D. Incorreto. P. 70: A autenticidade é o mais importante requisito de um padrão.",
+    "referencia": "SimuChacal, simulado 11, questão #799 — Ref: p. 70 e 71"
+  },
+  {
+    "id": 2875,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das armas de fogo quanto à alma do cano, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nas armas de alma lisa, a seção reta do cano pode apresentar formatos variados em razão da existência de raiamento.",
+      "B": "As armas de alma raiada possuem sulcos helicoidais, mas não apresentam cristas, uma vez que o raiamento é formado exclusivamente pelas raias.",
+      "C": "As armas de alma mista possuem simultaneamente canos de alma lisa e de alma raiada, reunindo ambas as características em um mesmo armamento.",
+      "D": "A classificação quanto à alma considera exclusivamente o calibre do cano e a presença de choke."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila classifica as armas em alma lisa, alma raiada e alma mista. As armas de alma mista possuem um cano de alma lisa e outro de alma raiada. Já o raiamento é formado por cristas (cheios) e sulcos (raias), e a classificação não depende do calibre",
+    "referencia": "SimuChacal, simulado 11, questão #817 — Ref: Pag. 19-20"
+  },
+  {
+    "id": 2876,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do raiamento das armas de fogo, conforme a apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O principal objetivo do raiamento é reduzir o atrito entre o projétil e o cano, aumentando a velocidade inicial.",
+      "B": "Um raiamento classificado como 6-D indica seis sulcos apenas, orientados no sentido anti-horário.",
+      "C": "O objetivo das raias é imprimir movimento de rotação ao projétil em torno de seu eixo longitudinal, aumentando sua estabilidade após deixar a boca do cano.",
+      "D": "Os raiamentos existentes são exclusivamente compostos por cinco ou seis raias, por constituírem o padrão internacional de fabricação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo a apostila, a função do raiamento é imprimir rotação ao projétil ao longo de seu eixo longitudinal, conferindo maior estabilidade em voo devido ao momento angular. O raiamento 6-D corresponde a seis raias dextrógiras (sentido horário), e a apostila ressalta que existem raiamentos com diferentes números de raias, inclusive pares e ímpares.",
+    "referencia": "SimuChacal, simulado 11, questão #818 — Ref: P.19-20"
+  },
+  {
+    "id": 2877,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante um exame pericial, verificou-se que determinada arma possui raiamento do tipo 6-S. De acordo com a nomenclatura adotada pela apostila, essa informação significa que o cano apresenta:",
+    "alternativas": {
+      "A": "seis cristas e seis sulcos, com raias helicoidais orientadas no sentido anti-horário.",
+      "B": "seis sulcos apenas, orientados no sentido horário.",
+      "C": "três cristas e três sulcos, totalizando seis elementos de raiamento.",
+      "D": "seis cristas apenas, com orientação sinistrógira."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A apostila esclarece que, ao se afirmar que uma arma possui raiamento tipo 6, visualizam-se seis cristas intercaladas com seis sulcos. A letra S indica que o raiamento é sinistrógiro, ou seja, orientado no sentido anti-horário.",
+    "referencia": "SimuChacal, simulado 11, questão #819 — Ref: P. 19-20"
+  },
+  {
+    "id": 2878,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para realizar um confronto balístico, foram obtidos diversos estojos padrões. Posteriormente, constatou-se que:\n\nI. os estojos foram recolhidos em um estande onde também havia materiais provenientes de outras armas;\nII. foi utilizada munição de marca e composição diferentes das encontradas no estojo questionado;\nIII. os padrões foram produzidos muito tempo depois do fato investigado, após numerosos disparos com a arma.\n\nEmbora tenham sido coletados muitos estojos, os problemas descritos comprometem, respectivamente, os requisitos de:",
+    "alternativas": {
+      "A": "quantidade, contemporaneidade e autenticidade.",
+      "B": "adequabilidade, autenticidade e quantidade.",
+      "C": "autenticidade, adequabilidade e contemporaneidade.",
+      "D": "contemporaneidade, quantidade e adequabilidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "I — Autenticidade:\nUm padrão é autêntico quando sua origem é certa e inquestionável. A coleta em local com estojos de outras armas cria risco de mistura e impede a certeza de que todos os padrões vieram da arma examinada.\n\nII — Adequabilidade:\nO padrão deve apresentar características tão semelhantes quanto possível às do material questionado. Na coleta de estojos padrões, recomenda-se utilizar cartuchos da mesma marca, calibre e composição do estojo questionado.\n\nIII — Contemporaneidade:\nOs padrões devem ser produzidos no menor intervalo possível em relação ao material questionado, porque novos disparos provocam desgaste gradual no cano e em outras partes da arma.\n\nA está errada: o primeiro problema não diz respeito à quantidade, mas à incerteza sobre a origem dos padrões.\nB está errada: a utilização de munição diferente compromete a adequabilidade, e não a autenticidade.\nD está errada: o longo intervalo e os numerosos disparos comprometem a contemporaneidade.\n\nA obtenção de grande quantidade de padrões não corrige a ausência de autenticidade ou adequabilidade. Muitos padrões de origem incerta continuam sendo inadequados para uma conclusão segura.\n\nItens mais importantes para memorizar\nBalística Interna: fenômenos ocorridos na arma até a saída do projétil.\nBalística Externa: trajetória após a saída do cano.\nBalística Terminal: efeitos do projétil ao atingir o alvo.\nIdentificação imediata: determinação das características da própria arma.\nIdentificação mediata: comparação das marcas impressas pela arma nos elementos de munição.\nCaracterísticas de classe: calibre real, número de raias e orientação do raiamento.\nConcordância de classe: não individualiza; apenas admite a possibilidade.\nDiscordância de classe: pode excluir a arma.\nConfronto microcomparativo: pode permitir a identificação individual.\nRequisitos dos padrões: autenticidade, adequabilidade, contemporaneidade e quantidade.",
+    "referencia": "SimuChacal, simulado 11, questão #847"
+  },
+  {
+    "id": 2879,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de uma pistola, o perito verificou a inscrição “9 mm Luger” no ferrolho. Em seguida, realizou uma medição instrumental na boca do cano, entre dois cheios diametralmente opostos, obtendo o diâmetro interno da alma.\n\nA inscrição e a medida obtida correspondem, respectivamente, ao:",
+    "alternativas": {
+      "A": "calibre real e calibre nominal.",
+      "B": "calibre nominal e calibre real.",
+      "C": "calibre legal e calibre comercial.",
+      "D": "calibre do projétil e calibre da munição, necessariamente idênticos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O calibre nominal é a designação atribuída ao tipo de munição e à arma para a qual ela foi concebida, como “9 mm Luger”, “.380 Auto” ou “.38 Special”. Normalmente, essa designação aparece gravada na arma e no culote do cartucho.\n\nO calibre real é uma medida física, exata e aferível do diâmetro interno da alma do cano. Em armas raiadas, corresponde à menor dimensão da alma, medida entre dois cheios diametralmente opostos.\n\nA está errada: inverte os conceitos.\nC está errada: a medição instrumental não corresponde à classificação jurídica da arma.\nD está errada: calibre nominal e calibre real não são necessariamente numericamente idênticos.",
+    "referencia": "SimuChacal, simulado 11, questão #848"
+  },
+  {
+    "id": 2880,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, foi recuperado um projétil identificado como compatível com munição de calibre nominal .380 Auto. Posteriormente, foi apreendida uma pistola calibre nominal 9 mm. Um investigador descartou imediatamente a arma, alegando que calibres nominais diferentes jamais poderiam apresentar compatibilidade balística.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "O investigador está correto, pois a divergência do calibre nominal exclui necessariamente a arma.",
+      "B": "O investigador está incorreto, pois calibres nominais diferentes podem apresentar calibres reais semelhantes, sendo necessária a análise das características do projétil e do cano.",
+      "C": "O investigador está correto, pois somente projéteis com a mesma inscrição nominal podem atravessar determinado cano.",
+      "D": "O investigador está incorreto, porque o calibre nominal não possui qualquer utilidade para a perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Podem existir diversos calibres nominais relacionados a calibres reais próximos. A apostila apresenta, por exemplo, projéteis de calibres nominais .380 Auto, 9 × 19 mm, .38 Special e .357 Magnum com calibres reais semelhantes.\n\nAssim, a divergência nominal, isoladamente, não permite excluir a arma. O perito deve considerar o calibre real, o número e a orientação das raias e, sendo essas características compatíveis, realizar o confronto microscópico.\n\nA está errada: confunde designação comercial com medida física.\nC está errada: a inscrição nominal não determina, sozinha, a possibilidade física de passagem pelo cano.\nD está errada: o calibre nominal possui grande utilidade para identificar o tipo de munição apropriado, embora não seja suficiente para individualizar a arma.\n\nAtenção: a existência de calibre real semelhante não significa que seja seguro utilizar qualquer munição na arma. O emprego de cartucho inadequado pode causar danos ao armamento e ao atirador.",
+    "referencia": "SimuChacal, simulado 11, questão #849"
+  },
+  {
+    "id": 2881,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características e a função do estojo em um cartucho de munição, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "É a parte vulnerante do cartucho, sendo expelida pelo cano da arma em direção ao alvo.",
+      "B": "Participa ativamente do processo de combustão da pólvora, sendo consumido durante o disparo.",
+      "C": "Constitui o elemento inerte do cartucho, pois não participa da combustão nem é expelido pelo cano.",
+      "D": "É confeccionado exclusivamente em polímeros para garantir a leveza da munição em armas modernas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #855"
+  },
+  {
+    "id": 2882,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que se refere à cápsula de espoletamento e aos sistemas de fogo central, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A comunicação entre a espoleta e o interior do estojo ocorre por meio de orifícios denominados eventos",
+      "B": "Existem apenas dois tipos de espoletas utilizadas em cartuchos modernos: a tipo Boxer e a tipo Berdan.",
+      "C": "A bigorna é uma substância química líquida cuja finalidade é iniciar a queima da pólvora por contato.",
+      "D": "A mistura iniciadora, ou escorva, é composta unicamente por alumínio em pó para gerar a centelha inicial"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #856"
+  },
+  {
+    "id": 2883,
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à carga de projeção (pólvora) e sua aplicação em diferentes tipos de armamento, é correto afirmar que:",
+    "alternativas": {
+      "A": "Armas curtas utilizam pólvoras progressivas para garantir que o projétil saia do cano com baixa velocidade.",
+      "B": "As pólvoras vivas, utilizadas em armas curtas, queimam de forma mais intensa e rápida devido às dimensões reduzidas do cano.",
+      "C": "As armas longas exigem pólvoras de queima instantânea, pois o tempo de percurso do projétil no cano é muito curto.",
+      "D": "Não há diferença técnica entre a pólvora utilizada em revólveres e a utilizada em fuzis, sendo a carga idêntica para ambos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #857"
+  },
+  {
+    "id": 2884,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o tratamento dado no material ao uso religioso da ayahuasca, assinale a alternativa correta.\nI. A Resolução n.º 4-CONAD, de 4 de novembro de 2004, instituiu grupo de trabalho multidisciplinar para levantamento e acompanhamento do uso religioso da ayahuasca.\nII. O grupo de trabalho também envolvia a pesquisa da utilização terapêutica da ayahuasca, em caráter experimental.\nIII. A Resolução n.º 1-CONAD, de 25 de janeiro de 2010, regulamentou o uso da bebida, restrito a ambientes religiosos.\nIV. O relatório final afastou o uso religioso da ayahuasca e restringiu sua utilização exclusivamente à pesquisa laboratorial.\nÉ correto o que se afirma em:",
+    "alternativas": {
+      "A": "I, II e III, apenas.",
+      "B": "I e IV, apenas.",
+      "C": "II, III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": ", II e III estão compatíveis com o material: houve instituição de grupo de trabalho em 2004, com levantamento e acompanhamento do uso religioso da ayahuasca e pesquisa de sua utilização terapêutica em caráter experimental; posteriormente, a Resolução n.º 1-CONAD/2010 regulamentou o uso da bebida restrito a ambientes religiosos. A IV está errada porque inverte o sentido do texto: o relatório final ratificou o uso religioso da ayahuasca. Tópico: 2.6.3.2 Chá de Santo Daime/Ayahuasca — p. 40.",
+    "referencia": "SimuChacal, simulado 13, questão #467 — Ref: Chá de Santo Daime/Ayahuasca — p. 40"
+  },
+  {
+    "id": 2885,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as “outras drogas” e os exemplos citados no material, analise os itens a seguir.\nI. Cola de sapateiro, fluidos para limpeza, fluido para isqueiro, aerossóis, removedor de esmaltes, cola para modelos de aviação e gasolina aparecem no material como exemplos de produtos comerciais relacionados ao grupo dos inalantes.\nII. O chá de Santo Daime, também denominado ayahuasca, é tratado no material como substância comercial de uso doméstico ou laboratorial, incluída no grupo dos inalantes.\nIII. A mistura conhecida como “cheirinho da loló” ou “loló” é citada como uma das formas comuns de uso de inalantes, contendo éter etílico, clorofórmio, álcool e essências.\nIV. Os inalantes são apresentados como substâncias de difícil aquisição, razão pela qual seu uso abusivo é pouco frequente.\nÉ correto o que se afirma em:",
+    "alternativas": {
+      "A": "I e III, apenas.",
+      "B": "I, II e III, apenas.",
+      "C": "II e IV, apenas.",
+      "D": "I, III e IV, apenas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A I está correta porque o material lista esses produtos comerciais como exemplos relacionados aos inalantes, incluindo a gasolina. A III também está correta, pois o texto cita a “loló” como mistura contendo éter etílico, clorofórmio, álcool e essências. A II está errada porque a ayahuasca/chá de Santo Daime aparece em outro contexto, ligado ao uso religioso, e não como inalante. A IV também está errada, pois o material afirma que os inalantes são frequentemente utilizados de forma abusiva pela facilidade de aquisição, e não pela dificuldade. Tópico: 2.7.1 Inalantes — pp. 40–41.",
+    "referencia": "SimuChacal, simulado 13, questão #468 — Ref: 2.7.1 Inalantes — pp. 40–41."
+  },
+  {
+    "id": 2886,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os inalantes, conforme o trecho da apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "São substâncias necessariamente ilícitas, sem emprego comercial regular, cujo uso abusivo decorre principalmente da dificuldade de fiscalização laboratorial.",
+      "B": "Consistem em grupo de substâncias comerciais de uso laboratorial ou doméstico, capazes de causar efeitos no SNC quando utilizadas por inalação ou ingestão.",
+      "C": "São produtos exclusivamente laboratoriais, sem presença em formulações domésticas, e somente produzem efeitos quando inalados.",
+      "D": "São substâncias comerciais que, apesar da facilidade de aquisição, não são frequentemente utilizadas de forma abusiva segundo o material."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B reproduz corretamente a lógica do material: inalantes são substâncias comerciais de uso laboratorial ou doméstico e podem causar efeitos no sistema nervoso central quando utilizadas por inalação ou ingestão. A alternativa A erra ao tratá-las como necessariamente ilícitas e sem uso comercial regular. A C restringe indevidamente o grupo a produtos exclusivamente laboratoriais e exclui a ingestão. A D inverte o texto, pois a facilidade de aquisição é apontada como fator associado ao uso abusivo frequente. Tópico: 2.7.1 Inalantes — p. 40.",
+    "referencia": "SimuChacal, simulado 13, questão #469 — Ref: 2.7.1 Inalantes — p. 40"
+  },
+  {
+    "id": 2887,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As drogas de abuso possuem distintas e diversas formas de uso e apresentação, É uma prática comum a mesclagem de duas ou mais substâncias para potencializar os efeitos ou facilitar o uso.\nA substância popularmente conhecida como SpeedBall é resultado da combinação de quais substancias?",
+    "alternativas": {
+      "A": "Maconha e Crack ou Cocaína",
+      "B": "Cocaína e MDA/MDMA",
+      "C": "Ecstasy e Sedativos",
+      "D": "Cocaína e Heroína"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Formas de uso da heroína",
+    "referencia": "SimuChacal, simulado 13, questão #473 — Ref: P. 32"
+  },
+  {
+    "id": 2888,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais são os efeitos adversos do uso da cannabis?",
+    "alternativas": {
+      "A": "Aumento da percepção e energia extra.",
+      "B": "Sudorese, dilatação das pupilas, rubor, tremor, inquietação, irritabilidade, agitação, aumento da pressão arterial, taquicardia.",
+      "C": "Paranoia, secura da boca, problemas respiratórios, taquicardia, perda de concentração, cansaço e confusão mental.",
+      "D": "Experiência fora do corpo (dissociação) e quase morte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Não há muito a comentar. Os efeitos adversos do emprego de cannabis são: paranoia, secura da boca, problemas respiratórios, taquicardia, perda de concentração, cansaço e confusão mental.",
+    "referencia": "SimuChacal, simulado 13, questão #478 — Ref: P. 25"
+  },
+  {
+    "id": 2889,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como podem ser classificados os efeitos da Cannabis?\n\n( ) Sensação de bem-estar\n( ) Efeitos Visuais\n( ) Falhas na atenção e memória\n( ) Aumento do apetite\n( ) Paranóia\n\nB - Baixa dosagem do THC; H - Dosagens maiores de THC",
+    "alternativas": {
+      "A": "B, B, H, H, H",
+      "B": "B, B, B, B, H",
+      "C": "B, B, H, B, H",
+      "D": "B, H, H, B, H"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Baixas dosagens de THC causam: sensação de bem-estar, relaxamento e alteração da percepção, oriunda do aumento de sensibilidade dos sentidos, sobretudo tato, paladar e olfato. Também pode ocorrer alteração de expressão, aumento de apetite e verborragia.\nDosagens maiores de THC podem provocar: efeitos visuais, alteração de noções de espaço e tempo, falhas na atenção e na memória, além de alteração da percepção mental. É possível que usuários de skunk (ver item 2.2.1) experimentem intensos efeitos alucinógenos, o que pode levar o usuário a um estado de paranoia.",
+    "referencia": "SimuChacal, simulado 13, questão #479 — Ref: p. 25"
+  },
+  {
+    "id": 2890,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como é utilizado o haxixe?\n\nI - Inalado\nII - Ingerido\nIII - Fumado\nIV - Por meio de seringas",
+    "alternativas": {
+      "A": "Somente I",
+      "B": "Somente I e II",
+      "C": "Somente II e III",
+      "D": "I, II, III, IV"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Não há o que comentar.",
+    "referencia": "SimuChacal, simulado 13, questão #480 — Ref: p. 25"
+  },
+  {
+    "id": 2891,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A amostragem deve seguir critérios aceitos (ex.: IT nº 06/2006-DITEC), pois quanto mais representativa do material apreendido, maior a eficiência da perícia, otimizando recursos e fortalecendo a prova material.\n\nConsidere as hipóteses abaixo e assinale a alternativa correta:",
+    "alternativas": {
+      "A": "No caso de um grupo de material apreendido contendo 120 unidades com características comuns, o perito deverá selecionar aleatoriamente 11 unidades para amostragem, seguindo a regra da raiz quadrada com arredondamento para o inteiro superior.",
+      "B": "Para grupos que possuam entre 10 e 100 unidades, a amostragem deve ser calculada por meio da raiz quadrada do total de unidades, arredondando-se o resultado, se necessário.",
+      "C": "Sempre que o número total de unidades de um grupo for inferior a 10, o perito tem a discricionariedade de amostrar apenas a metade das unidades, desde que o material remanescente seja preservado para contraprova.",
+      "D": "Quando o total de unidades for superior a 100, deve-se coletar a raiz quadrada do total, sendo que o resultado deve ser obrigatoriamente arredondado para o número inteiro mais próximo (seja ele superior ou inferior)."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A (CORRETA): Para n > 100, a regra é raiz de n, com arredondamento para o inteiro superior. Como a raiz de 120 é aproximadamente 10,95, o arredondamento para o superior resulta em 11.\n\nAlternativa B (INCORRETA): Para o intervalo entre 10 e 100 unidades, a norma prevê um número fixo de 10 unidades, e não o cálculo da raiz quadrada.\n\nAlternativa C (INCORRETA): Se n < 10, deve-se amostrar todas as unidades, e não apenas a metade.\n\nAlternativa D (INCORRETA): A norma exige o arredondamento para o inteiro superior, e não para o \"mais próximo\" (o que poderia levar a um arredondamento para baixo em alguns casos).",
+    "referencia": "SimuChacal, simulado 13, questão #490 — Ref: Página 51, Caderno Química Forense"
+  },
+  {
+    "id": 2892,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em apreensões de drogas com múltiplas unidades, o perito deve separar os materiais em grupos homogêneos (embalagem, estado físico e apresentação) e realizar amostragem representativa para o laudo de constatação, observando os critérios quantitativos da IT n.º 06/2006-DITEC.\n\nConsiderando uma amostragem a ser realizada em material arrecadado durante o cumprimento de mandado de busca e apreensão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Caso for encontrado, em recipiente transparente, produto líquido na forma de mistura homogênea, deve-se retirar amostra de cada uma das fases.",
+      "B": "Independentemente do critério de amostragem adotado, deve-se respeitar o limite mínimo de 200 mL para líquidos em geral e de 2 g para materiais sólidos.",
+      "C": "Havendo suspeita da presença de resíduos do material questionado em suporte, como um pano utilizado na filtragem de cocaína, deve-se amostrar uma área correspondente à raiz quadrada da área total do tecido.",
+      "D": "Caso for encontrado produto líquido em recipiente que não permita visualização, deve-se realizar a coleta em pelo menos dois pontos do recipiente (superfície e fundo)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A (INCORRETA): \"No caso de produto líquido na forma de mistura heterogênea, acondicionado em recipiente transparente, deve-se retirar uma amostra de cada uma das fases.\", página 51, Caderno de Química Forense. A assertiva inverte o conceito; a obrigatoriedade de retirar amostras de cada fase aplica-se apenas a misturas heterogêneas, onde os componentes estão separados visualmente. Em uma mistura homogênea, há apenas uma fase.\n\nAlternativa B (CORRETA): \"Sólidos em geral: 2,0 g (três colheres de sopa). Líquidos em geral: 200 ml (um copo).\", página 52, Caderno de Química Forense. Esta alternativa reflete corretamente as quantidades mínimas de amostra estipuladas na Tabela 3 da IT n.º 06/2006-DITEC para viabilizar as análises laboratoriais.\n\nAlternativa C (INCORRETA): \"No caso de suspeita da existência de resíduos de material questionado em suporte (ex.: resíduos de cocaína em uma balança ou pano utilizado para filtragem), não deve ser realizado procedimento de amostragem. O suporte suspeito deve ser encaminhado em sua totalidade para exame definitivo...\", página 51, Caderno de Química Forense. Diferente do que afirma a assertiva, suportes com resíduos (como panos e balanças) não admitem amostragem parcial ou por regras matemáticas; devem ser enviados integralmente para a perícia.\n\nAlternativa D (INCORRETA): \"No caso de produto líquido acondicionado em recipiente que não permita a sua visualização, a amostra deverá ser coletada em pelo menos três pontos do recipiente (superfície, meio e fundo).\", página 51, Caderno de Química Forense. A assertiva está incorreta por mencionar apenas dois pontos (superfície e fundo), enquanto a norma técnica exige a coleta em três pontos distintos para garantir a representatividade da amostra em recipientes opacos.",
+    "referencia": "SimuChacal, simulado 13, questão #492"
+  },
+  {
+    "id": 2893,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O laudo de constatação possui caráter indicativo e fundamenta a lavratura do auto de prisão em flagrante e a materialidade do delito. Para a caracterização inequívoca da droga, as amostras devem ser submetidas a exames definitivos em laboratório, com técnicas de maior poder discriminatório.\n\nConsiderando a elaboração dos resultados no laudo, analise a assertiva correta.",
+    "alternativas": {
+      "A": "No texto do laudo de constatação, deve-se evitar a menção ao enquadramento legal das substâncias investigadas, a fim de não antecipar o juízo de valor que cabe à autoridade policial.",
+      "B": "A realização de exame definitivo em substâncias suspeitas somente é necessária quando os testes preliminares apresentarem resultado positivo.",
+      "C": "Não é válida a identificação de cannabis, realizada por botânicos, que se basear somente nas características morfológicas da planta.",
+      "D": "Para fins de cumprimento dos critérios de combinação de técnicas na identificação definitiva de drogas, métodos hifenados validados, como a Cromatografia Gasosa acoplada à Espectrometria de Massas (CG/EM), devem ser considerados como técnicas separadas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alternativa A (INCORRETA): O material afirma que \"é aconselhável citar o enquadramento legal das substâncias investigadas nos testes\", página 52, Caderno de Química Forense.\n\nAlternativa B (INCORRETA): O erro está na restrição (\"somente\"). O manual esclarece que \"nada impede, entretanto, que materiais testados em exames preliminares que tenham gerado resultado negativo sejam encaminhados para exames definitivos\", página 53, Caderno de Química Forense.\n\nAlternativa C (INCORRETA): A assertiva contraria a permissão expressa do manual: \"Profissionais com formação de botânicos podem identificar a planta do gênero cannabis... utilizando somente as características morfológicas da planta\", página 54, Caderno de Química Forense.\n\nAlternativa D (CORRETA): Esta é a resposta correta e representa um detalhe técnico avançado. O texto literal diz: \"No caso de técnicas hifenadas, como CG/EM ou CLAE/DAD-UV, estas deverão ser consideradas técnicas separadas (desde que validadas)\", página 54, Caderno de Química Forense.",
+    "referencia": "SimuChacal, simulado 13, questão #493"
+  },
+  {
+    "id": 2894,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os barbitúricos, classificados na lista B1 da portaria 344/98 - SVS, fazem parte de qual classe das drogas de abuso",
+    "alternativas": {
+      "A": "Opioides",
+      "B": "Metanfetaminas",
+      "C": "Estimulantes",
+      "D": "Sedativos e hipnóticos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "São usados como sedativos, hipnóticos (tratamento de insônia) pré-anestésicos, tratamento de ansiedade, dentre outros.",
+    "referencia": "SimuChacal, simulado 13, questão #494 — Ref: P.33"
+  },
+  {
+    "id": 2895,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O ópio é consumido há cerca de cinco mil anos com fins medicinais, colhido artesanalmente por meio de incisões nos frutos verdes do vegetal Papaver Somniferum Linneu (dormideira ou papoula) cultivado em diversos países.\nQual o principal alcaloide presente nesta substância?",
+    "alternativas": {
+      "A": "Tebaína",
+      "B": "Narcotina",
+      "C": "Morfina",
+      "D": "Codeína"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O ópio bruto contem mais de 20 alcaloides. Os principais são:\nMorfina - 10%\nNarcotina - 6%\nPapaverina - 1%\nCodeína - 0,5%\nTebaína - 0,2%",
+    "referencia": "SimuChacal, simulado 13, questão #495 — Ref: P.31"
+  },
+  {
+    "id": 2896,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Fármaco é o produto farmacêutico obtido tecnicamente, contendo um ou mais princípios ativos.",
+      "B": "Medicamento é uma substância química capaz de modificar ou explorar o sistema fisiológico ou estado patológico, em benefício do organismo receptor.",
+      "C": "Fármaco é uma substância de estrutura química definida, com ação farmacológica conhecida, capaz de modificar ou explorar o sistema fisiológico ou estado patológico, em benefício do organismo receptor.",
+      "D": "Medicamento é qualquer substância química capaz de causar dano a um sistema biológico, alterando uma função ou levando-o à morte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A) Incorreta. Esse é o conceito de medicamento, e não de fármaco.\nB) Incorreta. A definição apresentada corresponde ao fármaco, e não ao medicamento.\nC) Correta. A apostila define:\n\"Fármaco: estrutura química definida - ação farmacológica conhecida, capaz de modificar ou explorar o sistema fisiológico ou estado patológico, em benefício do organismo receptor.\"\nD) Incorreta. Essa definição corresponde ao conceito de tóxico.",
+    "referencia": "SimuChacal, simulado 13, questão #503"
+  },
+  {
+    "id": 2897,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa correta acerca dos conceitos de psicotrópicos e substâncias psicoativas.",
+    "alternativas": {
+      "A": "Psicotrópicos são substâncias capazes de causar dano a um sistema biológico, sendo sinônimo de tóxico.",
+      "B": "Substâncias psicoativas correspondem exclusivamente às Novas Substâncias Psicoativas (NSP).",
+      "C": "Psicotrópicos é o termo utilizado para designar substâncias derivadas de plantas.",
+      "D": "Substâncias psicoativas é sinônimo de psicotrópicos, sendo que o termo \"Novas Substâncias Psicoativas\" refere-se a substâncias não listadas na Convenção de Psicotrópicos de 1971 nem em suas atualizações."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A) Incorreta. A definição apresentada corresponde ao conceito de tóxico.\nB) Incorreta. substâncias psicoativas são sinônimo de psicotrópicos. As NSP constituem apenas um termo derivado.\nC) Incorreta. não há essa definição\nD) Correta.\n\"Substâncias Psicoativas: sinônimo de psicotrópicos.\"\ne\n\"Novas Substâncias Psicoativas (...) são substâncias não listadas na Convenção de Psicotrópicos de 1971, nem nas suas atualizações.\"",
+    "referencia": "SimuChacal, simulado 13, questão #504"
+  },
+  {
+    "id": 2898,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre adulterantes e diluentes empregados em drogas de abuso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Adulterantes e diluentes possuem atividade farmacológica e são utilizados para potencializar os efeitos da droga.",
+      "B": "Os adulterantes podem potencializar ou simular alguns dos efeitos das drogas de abuso, enquanto os diluentes não possuem atividade farmacológica e são adicionados para aumentar a massa do produto.",
+      "C": "Os diluentes são substâncias utilizadas para facilitar o isolamento dos alcaloides presentes nas drogas de abuso, sem modificar sua composição.",
+      "D": "Adulterantes e diluentes são sinônimos, diferenciando-se apenas pela quantidade adicionada à droga."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. Diluentes não possuem atividade farmacológica.\nB) Correta.\n\"Adulterantes: podem potencializar ou simular algum dos efeitos das drogas de abuso (a cocaína, por exemplo) no usuário.\"\ne\n\"Diluentes: sem atividade farmacológica, adicionadas para diluir drogas de abuso (...) e aumentar a massa do produto a ser comercializado.\"\nC) Incorreta. alcaloides são substâncias nitrogenadas que podem ser isoladas de plantas por processos físico-químicos, mas não relaciona os diluentes ao isolamento de alcaloides.\nD) Incorreta. conceitos são distintos para adulterantes e diluentes",
+    "referencia": "SimuChacal, simulado 13, questão #505"
+  },
+  {
+    "id": 2899,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos Conceitos Acerca das Novas Substâncias Psicoativas (NSP), julgue as alternativas a seguir:\n\nI. O termo “novas” se referem apenas às substâncias criadas ou sintetizadas nos últimos anos, não contemplando aquelas substâncias sintetizadas há anos, mas disponibilizadas recentemente no mercado\n\nII. As Novas substâncias psicoativas (NSP) são substâncias com potencial de abuso, seja na forma pura ou em preparações (misturas), que não são controladas nos termos das Convenções que tratam do tema, mas que podem representar uma ameaça à saúde pública\n\nIII. Três grupos de NSP merecem destaque em virtude do número e das características das\napreensões no Brasil: canabinoides sintéticos, catinonas sintéticas e fenciclidina (PCP)",
+    "alternativas": {
+      "A": "Apenas as alternativas I e II estão corretas",
+      "B": "Apenas as alternativas II e III estão corretas",
+      "C": "Apenas a alternativa II está correta",
+      "D": "Todas as alternativas estão corretas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "I. O termo “novas” não se refere necessariamente às substâncias criadas ou sintetizadas nos últimos anos, mas sim às substâncias disponíveis no mercado recentemente\n\nII. Correta\n\nIII. Três grupos merecem destaque em virtude do número e das características das\napreensões no Brasil: canabinoides sintéticos, catinonas sintéticas e feniletilaminas",
+    "referencia": "SimuChacal, simulado 13, questão #510 — Ref: p. 43"
+  },
+  {
+    "id": 2900,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o teste preliminar para as drogas Ópio, morfina , codeína e heroína é correto afirmar:",
+    "alternativas": {
+      "A": "O teste mais indicado é o Ehrlich, que apresenta coloração violeta para resultados positivos.",
+      "B": "O teste mais indicado é o Marquis, que apresenta coloração violeta à púpura-avermelhada para resultados positivos.",
+      "C": "O teste mais indicado é o Marquis, que apresenta coloração negra para resultados positivos.",
+      "D": "O teste mais indicado é o Simon, que apresenta coloração violeta à púpura-avermelhada para resultados positivos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme tabela apresentada na página 47.\n\nTeste Marquis - Ópio / morfina /codeína / heroína - Cor violeta à púrpura--avermelhada indica presença de opioides.\n\nTeste Ehrlich - LSD - Cor violeta que aparece após alguns minutos.\n\nTeste Simon - teste para MDMA/MDA (azul escuro intenso indica MDA) e Anfetaminas/metanfetaminas (Metanfetamina não produz cor, anfetaminas diversas\nproduzem tons de azul.)\n\nO Teste Marquis também é utilizado para MDMA/MDA (cor negra ou púrpura indica MDMA ou MDA) E Anfetaminas/metanfetaminas (cor laranja que tende para marrom indica presença de anfetaminas ou metanfetaminas).",
+    "referencia": "SimuChacal, simulado 13, questão #511 — Ref: 47"
+  },
+  {
+    "id": 2901,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São testes preliminares possíveis para Cloreto de etila (lança-perfume):\nI - Teste de Chama\nII - Teste para cloretos\nIII - Teste de ponto de ebulição\nIV - Teste de coloração",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "I, II e III",
+      "D": "I, II, III e IV"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Conforme tabela apresentada na página 47:\nTeste de chama: ao queimar produz uma chama verde.\nTeste para cloretos: o resíduo da chama produz sólido branco, floculento, indicativo para cloretos.\nTeste de ponto de ebulição: temperatura de ebulição de 12ºC.",
+    "referencia": "SimuChacal, simulado 13, questão #512 — Ref: 47"
+  },
+  {
+    "id": 2902,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre testes preliminares em NSPs (Novas Substâncias Psicoativas), é correto afirmar:",
+    "alternativas": {
+      "A": "As NSPs não representam uma dificuldade, pois podem ser usados testes genéricos e abrangentes.",
+      "B": "O quantidade de reagentes necessários para cobrir um número significativo de NSPs é relativamente pequeno.",
+      "C": "NSPs não devem ser submetidas a testes preliminares.",
+      "D": "Uma alternativa para realizar testes preliminares de maneira mais confiável é o uso de equipamentos de instrumentação analítica portáteis, tais como espectrômetro Raman ou espectrofotômetro de FTIR."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Página 48 do caderno didático:\nDesde o crescimento no número de casos de novas substâncias psicoativas,\nos peritos da área de Química Forense têm enfrentado sérios problemas na reali\nzação de testes preliminares adequados para a avaliação de NSPs. Avaliando-se\na aplicabilidade de testes de coloração nessas drogas, uma das conclusões a\nque se chega é que o número de reagentes necessários para cobrir um número\nsignificativo dessas drogas é imenso. Uma alternativa para realizar testes preli\nminares de maneira mais confiável é o uso de equipamentos de instrumentação\nanalítica portáteis, tais como espectrômetro Raman ou espectrofotômetro de FTIR,\npor exemplo (ver também item 4.3 – Exames Definitivos Instrumentais). A Fig. 23\nmostra um modelo de Raman portátil usado para exames preliminares em drogas.",
+    "referencia": "SimuChacal, simulado 13, questão #513 — Ref: 48"
+  },
+  {
+    "id": 2903,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os agentes inalantes, que podem causar diversos efeitos no sistema nervoso central, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Seu uso não é mais tão difundido por serem substâncias de difícil acesso e causarem dependência química mesmo quando usados poucas vezes.",
+      "B": "O inalante conhecido como \"loló\" consiste em uma mistura contendo éter etílico, clorofórmio, álcool e essências.",
+      "C": "Os efeitos depressores dos agentes inalantes se assemelham aos de bebidas alcoólicas, porém de maior duração. Depois de inaladas as substancias chegam ao sistema nervoso central e causam alteração no estado de consciência, diminuição do ritmo cardíaco e estimulação do do sistema nervoso central, podendo gerar agrssividade.",
+      "D": "A forma de uso dos inalantes é apenas pela inspiração próximo ao frasco original, devido sua volatilidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A)Seu uso é bastante difundido por serem substâncias de fácil acesso. A dependência ocorre quando usados de maneira abusiva\nB) Correto, pag 41\nC) Os efeitos são parecidos com o álcool portém de MENOR duração. Além disso causa arritimias e não diminuição da frequência cardíaca e DEPRESSÃO do sistem nervoso central.\nD) Os inalantes podem também podem ser transferidos para sacos plásticos ou panos e então inalado.",
+    "referencia": "SimuChacal, simulado 13, questão #520 — Ref: 41"
+  },
+  {
+    "id": 2904,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os agentes inalantes, quais das alternativas abaixo estão corretas?\nI. O Éter está incluído na lista de produtos químicos utilizados para fabricação e psicotrópicos e/ou entorpecentes.\nII.O clorofórmio já foi utilizado como anestésico devido suas propriedades sedativas.\nIII. O inalante conhecido como \"loló\" causa dependência física com poucas doses de uso.\nIV. Agentes inalantes incluem o fluido para isqueiro e removedor de esmalte de unhas.",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "I e II",
+      "C": "I, II, IV",
+      "D": "Todas as alternativas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "III. errada: os agentes inalatórios causam dependência com uso constante.\ndemais alternativas: pag 41",
+    "referencia": "SimuChacal, simulado 13, questão #521 — Ref: 41"
+  },
+  {
+    "id": 2905,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a substancia popularmente conhecida como \"lança-perfume\", quais as alternativas a seguir encontram-se corretas:\nI. em condições normais de temperatura e pressão o cloreto de etila se encontra na forma de gás, é um líquido, quando armazenado sobre pressão e em altas temperaturas ele se encontra na forma de gás.\nII. O cloreto de etila é permitido apenas quando usado para finalidades médicas.\nIII. O lança perfume pode causar dependência psíquica quando usado de maneira abusiva.\nIV. O cloreto de etila é um depressor do sistema nervoso central que pode causar euforia.",
+    "alternativas": {
+      "A": "I e II apenas",
+      "B": "II e III apenas",
+      "C": "III e IV apenas",
+      "D": "I, III e IV"
+    },
+    "resposta_correta": "C",
+    "justificativa": "I. sob condições normais o cloreto de etila está na forma de gás, fica líquido sob pressão.\nII. O uso do cloreto de etila é proscrito para finalidades médicas, aerossol ou aromatizador de ambiente\nIII e IV corretas - pag 42",
+    "referencia": "SimuChacal, simulado 13, questão #522 — Ref: 42"
+  },
+  {
+    "id": 2906,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A apostila adota a classificação das drogas de abuso quanto aos efeitos psicotrópicos.\nSão exemplos dos efeitos os presentes na alternativa:",
+    "alternativas": {
+      "A": "estimulantes,\nassociativos,\nalucinógenos,\ncanabinoides",
+      "B": "opioides,\nhipnóticos,\ndissociativos,\nalucinógenos",
+      "C": "canabinoides,\nselativos,\nhipnóticos,\ndissociativos",
+      "D": "estimulantes,\nopioides,\nsedativos,\nassociativos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "alternativa A - ERRADA - a apostila não faz referência a drogas de efeitos psicotrópicos do tipo \"associativos\";\nalternativa B - CERTA;\nalternativa C - ERRADA - a apostila não faz referência a drogas de efeitos psicotrópicos do tipo \"selativos\" ;\nalternativa D - ERRADA - a apostila não faz referência a drogas de efeitos psicotrópicos do tipo \"associativos\".\nA apostila adota a seguinte classificação das drogas de abuso quanto aos seus efeitos psicotrópicos:\na) estimulantes;\nb) canabinoides;\nc) opioides;\nd) sedativos e hipnóticos;\ne) dissociativos;\nf) alucinógenos.",
+    "referencia": "SimuChacal, simulado 13, questão #523 — Ref: página 15, item 1.3"
+  },
+  {
+    "id": 2907,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da dependência de drogas, julgue os itens a seguir:\nI - A dependência se caracteriza pela condição humana em que o uso de uma droga se torna compulsivo, tornando-se prioritário em relação a outras necessidades.\nII - A dependência se caracteriza por um conjunto de sintomas cognitivos, comportamentais e fisiológicos que indicam que uma pessoa não tem controle sobre o uso de uma droga e continua fazendo uso dela, apesar das consequências adversas.\nIII - A dependência apresenta elementos físicos (relacionados à tolerância e à síndrome de abstinência) e elementos psíquicos (relacionados à falta de controle no uso).\nIV - A tolerância se caracteriza pelo aparecimento de transtornos físicos intensos quando o uso da substância é interrompido, enquanto a síndrome de abstinência se caracteriza pela resposta fisiológica diminuída para uma mesma dose de uma substância.",
+    "alternativas": {
+      "A": "estão corretas as alternativas I, II e IV",
+      "B": "estão corretas as alternativas I, III e IV",
+      "C": "estão corretas as alternativas I, II e III",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #524 — Ref: item 1.4, páginas 15 e 16"
+  },
+  {
+    "id": 2908,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o histórico de síntese e as características químicas e fisiológicas da MDMA e do MDA. Assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A MDMA foi sintetizada inicialmente em 1910 por Mannish e Jacobson como um moderador de apetite para a empresa Merck, sendo logo em seguida descartada.",
+      "B": "A 3,4-metilenodioxianfetamina (MDA) possui um mecanismo de ação similar ao da MDMA, contudo apresenta efeitos mais intensos e duradouros no usuário.",
+      "C": "O ecstasy passou a ser utilizado mundialmente como droga de abuso após o químico americano Alexander Shulgin comercializá-lo em larga escala no balneário de Ibiza na década de 1960.",
+      "D": "O MDA foi resgatado pela comunidade científica em 1960 e apelidado de \"droga do amor\" após estudos com o intuito de desenvolver uma nova substância capaz de aumentar a libido."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O documento afirma que a MDA (3,4-metilenodioxianfetamina) foi sintetizada em 1910 por Mannish e Jacobson e possui mecanismo de ação similar ao do MDMA, porém com efeitos mais intensos e duradouros. A alternativa A está incorreta porque quem sintetizou a droga em 1910 foram Mannish e Jacobson (criando o MDA, não a MDMA, que foi em 1912). A alternativa C está incorreta porque o uso como droga de abuso em Ibiza ocorreu no final da década de 80, e não por comercialização de Shulgin na década de 60. A alternativa D está incorreta porque a substância estudada em 1960 para aumentar a libido e apelidada de \"droga do amor\" foi a MDMA, e não a MDA.",
+    "referencia": "SimuChacal, simulado 13, questão #531 — Ref: Página 24."
+  },
+  {
+    "id": 2909,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto fornecido, a 3,4-metilenodioximetanfetamina (MDMA) teve diferentes propósitos de pesquisa desde a sua síntese inicial. Sobre essa trajetória histórica, é correto afirmar que:",
+    "alternativas": {
+      "A": "A substância foi primeiramente sintetizada na década de 1980 com o objetivo exclusivo de ser uma droga recreativa para o balneário espanhol de Ibiza.",
+      "B": "A MDMA foi criada em 1960 pelo químico Alexander Shulgin com a finalidade de ser o principal moderador de apetite comercializado pela empresa Merck.",
+      "C": "Após ser inicialmente descartada como moderador de apetite, a MDMA teve seus documentos reestudados em 1960 por um químico que buscava uma substância para aumentar a libido, tornando-se conhecida como a \"droga do amor\".",
+      "D": "O composto originou-se de pesquisas exclusivas de Mannish e Jacobson na tentativa de criar uma variação mais fraca do ecstasy, conhecida comercialmente como Adam, X e XTC."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A MDMA surgiu em 1912 na pesquisa de moderadores de apetite para a Merck e foi descartada. Somente em 1960, o químico Alexander \"Sasha\" Theodore Shulgin reestudou os documentos buscando uma substância que aumentasse a libido, momento em que a MDMA passou a ser conhecida como \"droga do amor\". A alternativa A está incorreta quanto ao ano e propósito original. A alternativa B inverte os criadores e as datas do moderador de apetite. A alternativa D está incorreta pois Mannish e Jacobson sintetizaram a MDA em 1910.",
+    "referencia": "SimuChacal, simulado 13, questão #532 — Ref: Página 24."
+  },
+  {
+    "id": 2910,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que descreve corretamente as nomenclaturas comuns do ecstasy, sua principal forma de apresentação e a sua respectiva via de administração:",
+    "alternativas": {
+      "A": "Também conhecido pelos nomes de Adam, X e XTC, o ecstasy é comercializado tipicamente na forma de pó cristalino puro, sendo a inalação sua principal forma de uso.",
+      "B": "O ecstasy possui como forma de apresentação ampolas líquidas incolores que são administradas exclusivamente por via intravenosa, garantindo o efeito da \"droga do amor\".",
+      "C": "Denominado cientificamente apenas como MDA, o ecstasy é vendido na forma de cápsulas lisas e sem marcações para evitar sua identificação, sendo absorvido de forma sublingual.",
+      "D": "O ecstasy (Adam, X e XTC) é comercializado normalmente sob a forma de comprimidos de formatos e cores diversas, que usualmente apresentam chancelas grafadas, sendo utilizado por via oral (ingestão)."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto especifica que o ecstasy (também conhecido como Adam, X e XTC) é normalmente comercializado sob a forma de comprimidos, de formatos e cores diversas, os quais usualmente apresentam chancelas grafadas em uma ou ambas as faces. A via de uso descrita no documento é a oral, por ingestão dos comprimidos. As alternativas A, B e C apresentam formas de comercialização ou vias de administração (pó para inalação, ampolas intravenosas, cápsulas sublinguais) que não constam no material de referência.",
+    "referencia": "SimuChacal, simulado 13, questão #533 — Ref: Página 24."
+  },
+  {
+    "id": 2911,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a Portaria n.º 344/98-SVS, como são tratadas as definições de entorpecente e psicotrópico em comparação com a visão da Farmacologia?",
+    "alternativas": {
+      "A": "A portaria apresenta definições científicas distintas e precisas que seguem rigorosamente os tratados internacionais de Farmacologia.",
+      "B": "O termo psicotrópico é definido apenas como substância de origem vegetal, enquanto o entorpecente é exclusivamente sintético.",
+      "C": "As definições legais adotadas pela portaria para ambos os termos são coincidentes, embora essa sobreposição não seja considerada correta sob a ótica da Farmacologia.",
+      "D": "A legislação brasileira não utiliza o termo psicotrópico, substituindo-o inteiramente pelo conceito de \"substância precursoras\"."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #537"
+  },
+  {
+    "id": 2912,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Lista F, que elenca as substâncias de uso proscrito (proibido) em território nacional, assinale a alternativa que apresenta a correlação correta entre a lista e seus exemplos:",
+    "alternativas": {
+      "A": "Lista F1: Substâncias entorpecentes, exemplificadas pela cocaína e heroína.",
+      "B": "Lista F2: Substâncias precursoras, como a fenilpropanolamina e o lindano.",
+      "C": "Lista F3: Outras substâncias de uso proibido, como o THC e o MDMA.",
+      "D": "Lista F4: Plantas proscritas que podem originar entorpecentes ou psicotrópicos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #538"
+  },
+  {
+    "id": 2913,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A cocaína apresenta uma particularidade em sua classificação. Segundo o texto, como ela é classificada conforme a Portaria n.º 344 e qual é a sua real classificação dentro da Farmacologia?",
+    "alternativas": {
+      "A": "Classificada legalmente como psicotrópico e farmacologicamente como alucinógeno.",
+      "B": "Classificada legalmente como estimulante e farmacologicamente como entorpecente.",
+      "C": "Classificada legalmente como entorpecente, apesar de ser farmacologicamente uma substância estimulante.",
+      "D": "Classificada legalmente como precursor e farmacologicamente como sedativo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #539"
+  },
+  {
+    "id": 2914,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os conceitos fundamentais, a abrangência e os procedimentos da Química Forense, analise os itens abaixo:\nI. A Química Forense é o ramo da Perícia Criminal que estuda e identifica vestígios químicos de um crime, podendo atuar tanto na apreensão de substâncias quanto na análise de vestígios em locais de crime.\nII. O rol de materiais investigados pela Polícia Federal na área química é restrito a drogas de abuso, medicamentos e explosivos, não abrangendo análises de alimentos ou minerais.\nIII. De acordo com a Lei n.º 11.343/2006, o laudo preliminar de constatação de droga pode ser emitido por Peritos Criminais de qualquer área de formação acadêmica.\nIV. A definição de droga para fins legais é estática, sendo as substâncias especificadas em lei complementar de caráter permanente, sem necessidade de atualizações periódicas.\n\nEstá(ão) correta(s) apenas:",
+    "alternativas": {
+      "A": "I e III.",
+      "B": "II e IV.",
+      "C": "I, II e III.",
+      "D": "III e IV."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O item I traz a definição literal de Química Forense. O item III reflete a previsão da Lei n.º 11.343/2006, que permite a emissão do laudo preliminar por peritos de qualquer área.",
+    "referencia": "SimuChacal, simulado 13, questão #546 — Ref: 7-8"
+  },
+  {
+    "id": 2915,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que se refere à classificação e à natureza das drogas e substâncias químicas, assinale a alternativa CORRETA, de acordo com o texto base:",
+    "alternativas": {
+      "A": "As drogas naturais são aquelas que, embora presentes na natureza, obrigatoriamente sofrem alteração em sua molécula original durante o processo de extração.",
+      "B": "A Heroína é classificada como uma droga natural, uma vez que é derivada diretamente da substância natural morfina sem passar por síntese química.",
+      "C": "As drogas sintéticas, como o LSD e o MDMA, não existem na natureza e são criadas pelo homem por meio de modificações químicas de precursores.",
+      "D": "O conceito de fármaco aplica-se a qualquer substância de estrutura química indefinida, desde que possua ação biológica sobre o organismo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto define drogas sintéticas como aquelas que não existem na natureza, sendo criadas por síntese química em laboratório, citando LSD e MDMA como exemplos.",
+    "referencia": "SimuChacal, simulado 13, questão #547 — Ref: 7-8"
+  },
+  {
+    "id": 2916,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que se refere à classificação e à natureza das drogas e substâncias químicas, assinale a alternativa CORRETA, de acordo com o texto base:",
+    "alternativas": {
+      "A": "As drogas naturais são aquelas que, embora presentes na natureza, obrigatoriamente sofrem alteração em sua molécula original durante o processo de extração.",
+      "B": "A Heroína é classificada como uma droga natural, uma vez que é derivada diretamente da substância natural morfina sem passar por síntese química.",
+      "C": "As drogas sintéticas, como o LSD e o MDMA, não existem na natureza e são criadas pelo homem por meio de modificações químicas de precursores.",
+      "D": "O conceito de fármaco aplica-se a qualquer substância de estrutura química indefinida, desde que possua ação biológica sobre o organismo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A apostila lista explicitamente cocaína, THC e morfina como exemplos de drogas naturais.",
+    "referencia": "SimuChacal, simulado 13, questão #548 — Ref: 7-8"
+  },
+  {
+    "id": 2917,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às Novas Substâncias Psicoativas (NSP), julgue a assertiva correta:",
+    "alternativas": {
+      "A": "Os canabinoides sintéticos foram detectados inicialmente em materiais vegetais.",
+      "B": "As catinonas sintéticas agem no sistema nervoso periférico predominantemente como estimulantes, mediando as ações de dopamina, norepinefrina e/ou serotonina, mimetizando efeitos de drogas tradicionais como ópio e maconha.",
+      "C": "As feniletilaminas referem-se a uma classe de substâncias com conhecidos efeitos psicoativos depressores.",
+      "D": "As NSP apresentam efeitos únicos, não havendo semelhança com os efeitos de substâncias controladas internacionalmente. Por conta disso, apresentam um alto valor de mercado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) Correta\n\nb) \"As catinonas sintéticas (...) Agem no sistema nervoso CENTRAL predominantemente como estimulantes, mediando as ações de dopamina, norepinefrina e/ou serotonina, mimetizando efeitos de drogas tradicionais como COCAÍNA, ANFETAMINA, METANFETAMINA e MDMA\"\n\nc) \"As feniletilaminas referem-se a uma classe de substâncias com conhecidos efeitos psicoativos ALUCINÓGENOS e/ou ESTIMULANTES.\"\n\nd) \"Cabe destacar que muitas NSP apresentam efeitos similares aos efeitos de substâncias controladas internacionalmente, sendo vendidas como tais, levando os usuários ao desconhecimento sobre o que realmente estão usando. Portanto, ressalta-se que as novas substâncias psicoativas representam um grande risco à saúde pública.\"",
+    "referencia": "SimuChacal, simulado 13, questão #549 — Ref: 43"
+  },
+  {
+    "id": 2918,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às questões legais para controle das substâncias entorpecentes ou psicotrópicas, julgue as alternativas abaixo:\n\nI. O Brasil sempre adotou o sistema de classificação genérica para controlar as substâncias entorpecentes ou psicotrópicas, uma vez que o surgimento crescente de novas drogas em uma velocidade superior a inclusão dessas substâncias nos instrumentos normativos do País inviabilizaria a listagem nominal\n\nII. A classificação genérica define uma estrutura molecular nuclear e aponta variações particulares nessa estrutura que especificam as substâncias que devem ser controladas, permitindo a proibição de grupos e subgrupos de substâncias de maneira abrangente, a fim de antecipar o controle sobre novas substâncias que porventura venham a surgir\n\nIII. A classificação genérica é especialmente eficiente para NSP, pois é comum a síntese de novas substâncias por intermédio de pequenas alterações estruturais em moléculas já controladas, com o objetivo de burlar as medidas de controle impostas às moléculas originais",
+    "alternativas": {
+      "A": "Apenas a II está correta",
+      "B": "Apenas a III está correta",
+      "C": "Todas estão corretas",
+      "D": "Apenas as II e III estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "I. \"O Brasil adotava somente o tradicional sistema de listagem nominal para controlar as substâncias entorpecentes ou psicotrópicas\"\n\nII. Correta\n\nIII. Correta",
+    "referencia": "SimuChacal, simulado 13, questão #550 — Ref: 44"
+  },
+  {
+    "id": 2919,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange ao histórico e à farmacologia dos barbitúricos, identifique a afirmação tecnicamente precisa baseada no material:",
+    "alternativas": {
+      "A": "O ácido barbitúrico, precursor da classe, foi sintetizado pela primeira vez em 1903 por Emil Fischer e Joseph von Mehring, sob o nome comercial de Veronal.",
+      "B": "Atualmente, o uso clínico dos barbitúricos é amplo e preferencial em relação aos benzodiazepínicos, devido ao menor risco de síndromes de abstinência fatais.",
+      "C": "O Tiopental é citado como um exemplo de barbitúrico ainda utilizado em ambiente hospitalar com a função específica de pré-anestésico.",
+      "D": "Existem aproximadamente 3.500 derivados do ácido barbitúrico sintetizados, todos apresentando atividade anticonvulsivante idêntica à do Gardenal (fenobarbital)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – O Tiopental é usado como pré-anestésico; o ácido barbitúrico foi obtido em 1864 por Baeyer, e o Veronal em 1903 por Fischer/Mehring",
+    "referencia": "SimuChacal, simulado 13, questão #554 — Ref: 33"
+  },
+  {
+    "id": 2920,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o texto, assinale a alternativa correta acerca da regulamentação da Cannabis sativa e de seus derivados no Brasil.",
+    "alternativas": {
+      "A": "A Cannabis sativa integra a Lista F2 da Portaria nº 344/98-SVS/MS, enquanto o THC integra a Lista E.",
+      "B": "O canabidiol (CBD) encontra-se incluído na Lista F1 da Portaria nº 344/98-SVS/MS.",
+      "C": "A Cannabis sativa está incluída na Lista E da Portaria nº 344/98-SVS/MS, enquanto o THC integra a Lista F2 e o CBS a Lista F1.",
+      "D": "A RDC nº 17/2015 proibiu a importação de medicamentos à base de canabidiol (CBD)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto afirma justamente o contrário: a Cannabis sativa está na Lista E, enquanto o THC integra a Lista F2.\n\nAlternativa B – Incorreta.\nSegundo o texto, quem integra a Lista F1 é o CBS, e não o CBD.\n\nAlternativa C – Correta.\nO texto dispõe que \"A cannabis sativa encontra-se incluída na Lista E (...). O THC encontra-se incluído na Lista F2. O CBS está na lista F1.\"\n\nAlternativa D – Incorreta.\nO texto afirma que a RDC nº 17/2015 estabeleceu critérios para importação de medicamentos à base de CBD, e não que a proibiu.",
+    "referencia": "SimuChacal, simulado 13, questão #555 — Ref: Pág. 30"
+  },
+  {
+    "id": 2921,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a respeito da regulamentação dos produtos derivados de Cannabis sativa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A RDC nº 1.015/2026 regulamenta exclusivamente a prescrição de produtos de cannabis medicinal.",
+      "B": "Os medicamentos registrados na Anvisa contendo derivados de Cannabis sativa em concentração de até 30 mg/mL de THC e 30 mg/mL de CBD estão previstos no adendo 2 da Lista A3.",
+      "C": "O Mevatyl foi o primeiro medicamento exclusivamente à base de CBD registrado no Brasil.",
+      "D": "A RDC nº 39/2012 revogou integralmente a Portaria nº 344/98-SVS/MS."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nA RDC nº 1.015/2026 trata das regras de fabricação, importação, comercialização e prescrição, e não apenas da prescrição.\n\nAlternativa B – Correta.\nO texto afirma que os medicamentos registrados na Anvisa contendo derivados de Cannabis sativa, \"em concentração de no máximo 30 mg/mL de THC e 30 mg/mL de CBD, estão no adendo 2 da Lista A3.\"\n\nAlternativa C – Incorreta.\nO texto informa que o Mevatyl foi o primeiro medicamento registrado à base de CBD e THC, e não exclusivamente de CBD.\n\nAlternativa D – Incorreta.\nO texto apenas menciona que a Portaria nº 344/98-SVS/MS foi atualizada pela RDC nº 39/2012, sem afirmar que houve revogação integral.",
+    "referencia": "SimuChacal, simulado 13, questão #556 — Ref: Pág. 30"
+  },
+  {
+    "id": 2922,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classe dos Dissociativos, descrita no início da seção correspondente, assinale a alternativa que descreve corretamente sua natureza farmacológica:",
+    "alternativas": {
+      "A": "São substâncias que, em qualquer dosagem, provocam apenas sedação leve, nunca atingindo o plano anestésico ou alucinógeno.",
+      "B": "Em doses clínicas são usados como anestésicos, mas doses elevadas podem causar experiências de \"fora do corpo\" e alucinações.",
+      "C": "O PCP (fenciclidina) é um dissociativo de origem natural, extraído de fungos, utilizado recreacionalmente na forma de chás.",
+      "D": "A fenciclidina está classificada na Lista F1 (Entorpecentes Proscritos) por ser um derivado sintético do ópio."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – Dissociativos em altas doses causam alucinações e efeitos de experiência fora do corpo.",
+    "referencia": "SimuChacal, simulado 13, questão #557 — Ref: 33 a 35"
+  },
+  {
+    "id": 2923,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos efeitos dos opioides, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os opioides promovem aumento da frequência respiratória, taquicardia e aumento do apetite.",
+      "B": "O uso de opioides provoca dependência exclusivamente psíquica, sem desenvolvimento de tolerância.",
+      "C": "Entre os efeitos dos opioides estão sensação de bem-estar, redução da ansiedade, bradicardia, diminuição da frequência respiratória, analgesia e intenso relaxamento.",
+      "D": "Os opioides caracterizam-se por aumentar o estado de alerta e reduzir o sono."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto descreve os efeitos opostos: bradicardia, diminuição da frequência respiratória e perda de apetite.\n\nAlternativa B – Incorreta.\nO texto afirma que os opioides causam forte dependência física e psíquica, além de desencadearem o fenômeno da tolerância.\n\nAlternativa C – Correta.\nEssa alternativa reproduz fielmente os efeitos mencionados no texto: sensação de bem-estar, redução da ansiedade, bradicardia, diminuição da frequência respiratória, intenso relaxamento, sono, analgesia e perda de apetite.\n\nAlternativa D – Incorreta.\nO texto afirma que os opioides produzem sono e intenso relaxamento, e não aumento do estado de alerta.",
+    "referencia": "SimuChacal, simulado 13, questão #558 — Ref: Pág. 30"
+  },
+  {
+    "id": 2924,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a classificação legal (Portaria nº 344/98-SVS/MS) para as classes de sedativos, hipnóticos e tranquilizantes, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Os barbitúricos estão incluídos na Lista A3 (Psicotrópicos), enquanto os tranquilizantes pertencem à Lista B1.",
+      "B": "Tanto os barbitúricos quanto os tranquilizantes (benzodiazepínicos) estão incluídos na Lista B1 (Substâncias Psicotrópicas).",
+      "C": "O diazepam é a única exceção entre os benzodiazepínicos, constando na Lista F2 de substâncias de uso proscrito no Brasil.",
+      "D": "A fenciclidina (PCP) e os barbitúricos compartilham a mesma classificação na Lista B2 (Psicotrópicos Anorexígenos)."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – Ambos (barbitúricos e tranquilizantes) constam na Lista B1",
+    "referencia": "SimuChacal, simulado 13, questão #560 — Ref: 33 a 35"
+  },
+  {
+    "id": 2925,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma localidade isolada de fronteira, uma equipe policial realiza a apreensão de um pacote contendo um pó branco suspeito de ser entorpecente. O laboratório de perícia oficial mais próximo fica a centenas de quilômetros de distância e a autoridade de polícia judiciária nomeia formalmente um dos investigadores da equipe, considerado pessoa idônea, para realizar o teste de constatação preliminar da droga e assinar o respectivo laudo. A defesa do custodiado alega nulidade absoluta da prisão, argumentando que a ausência de um perito oficial para assinar o laudo preliminar descaracteriza a materialidade do delito de forma insanável. A validade desse ato baseia-se no fato de que:",
+    "alternativas": {
+      "A": "A nomeação de policial como pessoa idônea para confeccionar o laudo preliminar é admitida em caráter excepcional quando restrições logísticas de deslocamento do perito oficial colocarem em risco o prazo legal de lavratura do flagrante",
+      "B": "O laudo preliminar assinado por policial nomeado dispensa a posterior realização de exames confirmatórios por perito oficial, desde que o teste colorimétrico tenha sido acompanhado por duas testemunhas civis",
+      "C": "A atuação de pessoa idônea não pertencente aos quadros policiais é obrigatória em caso de pós ou grumos suspeitos, sendo a substituição por investigadores restrita à apreensão de drogas vegetais trituradas",
+      "D": "O flagrante deve ser considerado nulo porque a complexidade de adulteração por misturas exige, mesmo sob urgência, a realização prévia de amostragem pericial e testes confirmatórios em espectrômetro analítico portátil"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A opção A está correta porque, de acordo com o documento, quando a logística necessária para que o perito faça o teste preliminar (deslocamento do perito ou do material) colocar em risco o prazo legal de 24 horas e puder prejudicar a lavratura do auto de prisão em flagrante, tais testes preliminares podem ser realizados por policial nomeado pela autoridade policial. As demais opções estão incorretas porque o teste definitivo posterior sempre será exigido, a lei admite a nomeação de policial (pessoa idônea) para qualquer droga\n, e o laudo de constatação preliminar não exige equipamentos sofisticados fora do contexto de triagem simples.\nCitação Direta do Documento: \"Nos casos em que a logística necessária para que o perito faça o teste (o deslocamento dele até o material suspeito ou vice-versa) ponha em risco o prazo legal de 24 horas, o que poderia, em tese, prejudicar a lavratura do auto de prisão e apreensão, os testes preliminares podem ser realizados por policial nomeado pela autoridade policial.\"",
+    "referencia": "SimuChacal, simulado 13, questão #569"
+  },
+  {
+    "id": 2926,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma operação policial, um investigador realiza o teste de Scott modificado em uma substância esbranquiçada suspeita e observa o desenvolvimento de uma coloração azul intensa. Sabe-se que a triagem colorimétrica preliminar de entorpecentes é uma etapa sensível a fatores químicos externos que podem mascarar o resultado ou induzir a conclusões equivocadas antes da análise confirmatória em laboratório. Considerando as propriedades, interferentes e limitações do teste colorimétrico de Scott modificado indicado na tabela de referência oficial de química forense, a interpretação correta desse cenário pericial indica que:",
+    "alternativas": {
+      "A": "O desenvolvimento da coloração azul é meramente indicativo e pode decorrer de reações idênticas (falsos positivos) com substâncias como lidocaína, heroína ou metadona, além de estar sujeito a interferências de compostos metálicos, como sais de ferro",
+      "B": "A cor azul gerada afasta a hipótese de adulteração ou de falsos positivos com outros anestésicos locais, visto que o teste de Scott modificado é quimicamente específico para cloridratos de origem exclusivamente natural",
+      "C": "A presença de impurezas orgânicas ou de adulterantes comuns, tais como o patchouli ou óleos essenciais, atua como o principal interferente no teste de Scott, bloqueando a reação e gerando uma coloração violeta na camada inferior clorofórmica",
+      "D": "O teste de Scott modificado é uma reação confirmatória de alta seletividade que atesta categoricamente a pureza da cocaína na amostra, de modo que eventuais falsos positivos são limitados apenas pela idade da amostra de droga"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A opção A está correta porque a tabela de testes preliminares indica expressamente que compostos metálicos (como sais de ferro) são interferentes do teste de Scott modificado para cocaína, enquanto heroína, metadona e lidocaína são descritos como falsos positivos que também geram a cor azul. As demais opções são incorretas porque o teste de Scott não é confirmatório nem imune a reações cruzadas\n, e o patchouli e óleos essenciais são indicados como falsos positivos e interferentes de idade para os testes de maconha (Fast Blue e Duquenois Levine), e não para o de Scott\nCitação Direta do Documento: Tabela 1 - Tabela de testes preliminares para identificação de drogas: Para a droga \"Cocaína\", sob o teste \"Scott modificado\", o resultado é \"Cor azul indica a presença de cocaína.\", contendo como interferente \"Compostos metálicos, ex.: sais de ferro.\" e falsos positivos \"Heroína, metadona, lidocaína, dentre outros.\"",
+    "referencia": "SimuChacal, simulado 13, questão #570"
+  },
+  {
+    "id": 2927,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um laboratório descentralizado recebe duas amostras suspeitas de conter drogas sintéticas de abuso apreendidas em uma festa. O perito decide realizar testes preliminares baseados em evolução de cor para triagem rápida. A amostra \"X\" gera uma coloração negra no teste com o reagente de Marquis, enquanto a amostra \"Y\" gera uma cor laranja que tende para o marrom no mesmo teste. Diante do perfil de reações colorimétricas estabelecido na tabela de referência oficial, o perito deve deduzir que:",
+    "alternativas": {
+      "A": "amostra \"X\" indica a presença de MDMA ou MDA, ao passo que a amostra \"Y\" é indicativa de anfetaminas ou metanfetaminas",
+      "B": "A amostra \"X\" é indicativa de LSD ou benzodiazepínicos, enquanto a amostra \"Y\" indica a presença de canabinoides sintéticos ativos",
+      "C": "A coloração negra da amostra \"X\" indica a presença exclusiva de metanfetamina pura, pois o MDMA reage com o Marquis produzindo cor amarela à marrom-amarelado",
+      "D": "Ambas as amostras devem ser classificadas como opioides típicos (morfina ou codeína), visto que o reagente de Marquis produz as cores preta e laranja na presença de analgésicos narcóticos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A opção A está correta porque, segundo a tabela de testes preliminares, a cor negra ou púrpura no teste de Marquis indica a presença de MDMA ou MDA (amostra X), ao passo que a cor laranja que tende para o marrom no teste de Marquis indica a presença de anfetaminas ou metanfetaminas (amostra Y)\n. As demais opções trazem correspondências incorretas de colorações ou substâncias que não correspondem aos dados da tabela de referência\n.\nCitação Direta do Documento: Tabela 1 - Tabela de testes preliminares para identificação de drogas: Para \"MDMA / MDA\", sob o teste \"Marquis\", o resultado é \"Cor negra ou púrpura indica MDMA ou MDA.\"\ne para \"Anfetaminas / metanfetaminas\", sob o teste \"Marquis\", o resultado é \"Cor laranja que tende para marrom indica presença de anfetaminas ou metanfetaminas.\"",
+    "referencia": "SimuChacal, simulado 13, questão #571"
+  },
+  {
+    "id": 2928,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do teor de tetrahidrocanabinol (THC) na maconha e dos fatores que podem influenciar sua concentração na planta, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O THC constitui o principal componente psicoativo da maconha, apresentando concentração normalmente situada entre 0,5% e 4%, determinada principalmente pela variedade genética da planta e pelo local de cultivo.",
+      "B": "A concentração de THC na planta varia de 0,5% a 4%, podendo sofrer influência da quantidade de luz, local de plantio, época da colheita, clima, armazenamento, plantio, cultura e processos de separação e secagem.",
+      "C": "O THC constitui o principal componente psicoativo da maconha, cuja concentração varia entre 0,5% e 4%, dependendo exclusivamente das condições de cultivo, da quantidade de luz e da época da colheita.",
+      "D": "A concentração do principal componente psicoativo da maconha varia de 0,5% a 4%, sendo influenciada principalmente pelos processos posteriores à colheita, como armazenamento, separação e secagem."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O delta-9-trans-tetrahidrocanabinol, que é simplesmente denominado tetrahidrocanabinol [...] também conhecido pela sigla THC, é o principal componente psicoativo da maconha, sendo que sua concentração na planta varia de 0,5% a 4%. Todavia, essa concentração depende de vários fatores: quantidade de luz, local de plantio, época da colheita, clima, armazenamento, plantio, cultura e processos de separação e secagem.”",
+    "referencia": "SimuChacal, simulado 13, questão #581 — Ref: 27"
+  },
+  {
+    "id": 2929,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as características e formas de apresentação da maconha e do skunk, conforme descritas no material, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "A maconha normalmente é apresentada sob a forma de folhas e sumidades floridas, geralmente secas e trituradas, podendo apresentar-se prensada e conter sementes, fragmentos de sementes e de talos.",
+      "B": "O material vegetal comercializado ilicitamente pode apresentar coloração castanho-esverdeada, sendo que sua forma de apresentação pode variar de acordo com o país ou região.",
+      "C": "O skunk é derivado do cruzamento entre diversas variedades de cannabis, principalmente variedades originárias do Afeganistão, Marrocos e Tailândia.",
+      "D": "A maior concentração de THC encontrada no skunk decorre exclusivamente do cruzamento entre variedades de cannabis, não sendo influenciada pelo emprego de tecnologias específicas de cultivo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "“Plantas com uma concentração de THC maior, derivadas do cruzamento entre diversas variedades de cannabis, principalmente as originárias do Afeganistão, Marrocos e Tailândia.”\n“Além do cruzamento entre variedades, o uso de tecnologia de cultivo (hiperluminosidade, dosagem de nutrientes, adubos, saturação do ambiente com dióxido de carbono) permitem que este híbrido complete um ciclo de floração em apenas dois meses.”",
+    "referencia": "SimuChacal, simulado 13, questão #582 — Ref: 27"
+  },
+  {
+    "id": 2930,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca do skunk e das técnicas utilizadas em seu cultivo, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O emprego de hiperluminosidade, dosagem de nutrientes, adubos e saturação do ambiente com dióxido de carbono permite que o skunk complete um ciclo integral de cultivo, desde a germinação até a colheita, em aproximadamente dois meses.",
+      "B": "O uso de tecnologias de cultivo permite que o skunk complete um ciclo de floração em apenas dois meses, sendo a qualidade da cannabis definida pelo teor de THC contido nas folhas e flores secas.",
+      "C": "A qualidade da cannabis é determinada conjuntamente pela concentração de THC, CBN e CBD existente nas folhas e inflorescências secas da planta.",
+      "D": "As técnicas de cultivo empregadas no skunk permitem reduzir o período de amadurecimento da planta para dois meses, independentemente das variedades de cannabis utilizadas no cruzamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“Além do cruzamento entre variedades, o uso de tecnologia de cultivo (hiperluminosidade, dosagem de nutrientes, adubos, saturação do ambiente com dióxido de carbono) permitem que este híbrido complete um ciclo de floração em apenas dois meses. A qualidade da cannabis é definida pelo teor de seu ingrediente ativo, tetrahidrocanabinol (THC), contido nas folhas e flores secas.”",
+    "referencia": "SimuChacal, simulado 13, questão #583 — Ref: 27"
+  },
+  {
+    "id": 2931,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Caso o teste preliminar de drogas tenham resultado posivo, o que é necessário ser feito?",
+    "alternativas": {
+      "A": "Nada mais precisa ser realizado, o exame preliminar é suficiente para incriminar o seujeito que estava portando a droga.",
+      "B": "Pode-se descartar a droga apreendida, já que o exame preliminar já indica com certeza que o produto testado é ilegal.",
+      "C": "Deve ser realizado um exame definitivo, mas o laudoé opcional, tendo em vista que já foi elaborado um laudo preliminar.",
+      "D": "É necessária a realização dos chamados exames definitivos, cujo resultado é relatado no laudo de perícia criminal federal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "literalidade da apostila.",
+    "referencia": "SimuChacal, simulado 13, questão #604 — Ref: p. 53"
+  },
+  {
+    "id": 2932,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As recomendações presentes na IT n.º 06/2006 dividem os exames de drogas de acordo com seu poder de discriminação em três categorias. Sobre essa classificação, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A Espectroscopia Raman é considerada de Categoria A.",
+      "B": "Os testes de cor e preciptação são de Cateoria A.",
+      "C": "Existem apenas duas categorias de classificação, Categoria A e Categoria B.",
+      "D": "Existem três categorias de classificação: exames bons, médios e ruins."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #607 — Ref: p. 53"
+  },
+  {
+    "id": 2933,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos exames definitivos de drogas, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Materias que foram testados com exames preliminares e que geraram reultados negativos não podem ser encaminhados para exames definitivos.",
+      "B": "Os exames definitivos não são capazes de estabelecer de forma mais precisa a composição do material apreendido.",
+      "C": "Nada impede que materiais testados em exames preliminares que tenham gerado resultado negativo sejam encaminhados para exames definitivos.",
+      "D": "Os exames definitivos são muito trabalhosos, por isso devem ser feitos em último caso, apenas quando não existirem reagentes para os exames preliminares no SETEC."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #613 — Ref: p. 53"
+  },
+  {
+    "id": 2934,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A heroína é um produto sintético derivado:",
+    "alternativas": {
+      "A": "Da cocaína.",
+      "B": "Da papaverina.",
+      "C": "Da codeína.",
+      "D": "Da morfina."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #632 — Ref: Pág. 32"
+  },
+  {
+    "id": 2935,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a Portaria n.º 344/98-SVS/MS, a heroína está incluída na:",
+    "alternativas": {
+      "A": "Lista E – Plantas Proscritas.",
+      "B": "Lista A1 – Substâncias Entorpecentes.",
+      "C": "Lista F1 – Substâncias de Uso Proscrito no Brasil.",
+      "D": "Lista C1 – Outras Substâncias Sujeitas a Controle Especial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #633 — Ref: Pág. 32"
+  },
+  {
+    "id": 2936,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a RDC n.º 70, de 22 de dezembro de 2009, a importação de sementes de dormideira (Papaver somniferum L.) é permitida quando:",
+    "alternativas": {
+      "A": "Destinada à produção de medicamentos à base de morfina.",
+      "B": "Utilizada para fins de pesquisa científica sem autorização.",
+      "C": "Comprovadamente destinada à finalidade alimentícia, observando a legislação sanitária específica.",
+      "D": "Destinada ao cultivo comercial da planta."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #636 — Ref: Pág. 32"
+  },
+  {
+    "id": 2937,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A IT n.º 06/2006 propõe as seguintes recomendações para identificação de drogas de abuso, EXCETO:",
+    "alternativas": {
+      "A": "Quando um método validado do tipo A é usado na identificação, ao menos um teste de outra categoria (A, B ou C) deve ser realizado.",
+      "B": "Profissionais com formação de botânicos podem identificar a planta do gênero cannabis, bem como material vegetal relacionado, utilizando somente as características morfológicas da planta.",
+      "C": "Quando não for realizado um teste de categoria do tipo B, ao menos três testes de outras categorias devem ser conduzidos, sendo que dois destes três testes devem ser da categoria B (mas não relacionados entre si).",
+      "D": "Quando analisadas características macroscópicas e microscópicas da cannabis, esse tipo de análise pode ser considerado como teste da categoria B."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quando não for realizado um teste de categoria do tipo A, ao menos três testes de outras categorias devem ser conduzidos, sendo que dois destes três testes devem ser da categoria B (mas não relacionados entre si).",
+    "referencia": "SimuChacal, simulado 13, questão #650"
+  },
+  {
+    "id": 2938,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre elaboração do laudo preliminar: precauções, aspectos formais, amostragem e confecção marque a alternativa correta:",
+    "alternativas": {
+      "A": "O Perito Criminal Federal, quando designado para realizar um exame preliminar, deve, em primeiro lugar, estar ciente de que, dependendo do tipo de droga a ser constatada, não são necessários os cuidados durante o manuseio de substância, para garantir sua própria segurança e de sua equipe.",
+      "B": "Quanto melhor a amostragem, mais representativa ela será do total apreendido.",
+      "C": "No caso de produto líquido na forma de mistura heterogênea, acondicionado em recipiente transparente, deve-se retirar uma amostra apenas da parte superior do material.",
+      "D": "No caso de produto líquido acondicionado em recipiente que não permita a sua visualização, a amostra deverá ser coletada em pelo menos dois pontos do recipiente (superfície e fundo)"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O Perito Criminal Federal, quando designado para realizar um exame preli￾minar, deve, em primeiro lugar, estar ciente de que, independentemente do tipo\nde droga a ser constatada, são necessários os cuidados durante o manuseio de\nqualquer substância, para garantir sua própria segurança e de sua equipe.\n\nNo caso de produto líquido na forma de mistura heterogênea, acondi￾cionado em recipiente transparente, deve-se retirar uma amostra de cada\numa das fases.\n• No caso de produto líquido acondicionado em recipiente que não permita\na sua visualização, a amostra deverá ser coletada em pelo menos três\npontos do recipiente (superfície, meio e fundo).",
+    "referencia": "SimuChacal, simulado 13, questão #655"
+  },
+  {
+    "id": 2939,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual teste é apropriado para detecção no laudo preliminar de Maconha:",
+    "alternativas": {
+      "A": "Scott",
+      "B": "Simon",
+      "C": "Fast Blue",
+      "D": "Marquis"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Maconha e derivados - Fast Blue e Duquenois Levine (DL)",
+    "referencia": "SimuChacal, simulado 13, questão #657"
+  },
+  {
+    "id": 2940,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para LSD é qual teste é recomendado para constatação preliminar:",
+    "alternativas": {
+      "A": "Fast Blue",
+      "B": "Simon",
+      "C": "Marquis",
+      "D": "Ehrlich"
+    },
+    "resposta_correta": "D",
+    "justificativa": "LSD Ehrlich\nCor violeta\nque aparece\napós alguns\nminutos indica\npresença de\nLSD.",
+    "referencia": "SimuChacal, simulado 13, questão #658"
+  },
+  {
+    "id": 2941,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas sobre as formas de uso da maconha:\nI - Fumada: consumida sob a forma de cigarros.\nII - Fumada: na forma de preparados alcoólicos (tinturas) à base de folhas e flores de cannabis.\nIII - Ingerida: extraídos com óleo ou manteiga, para servirem de base na preparação de bolos e outras receitas culinárias.\nIV - Ingerida: consumida em narguilés (cachimbo de água).\n\nAssinale a alternativa que contém as afirmativas corretas.",
+    "alternativas": {
+      "A": "II e III",
+      "B": "II e IV",
+      "C": "I e III",
+      "D": "I, II e III"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Só tá trocado o ingerida por fumada nas erradas",
+    "referencia": "SimuChacal, simulado 13, questão #665 — Ref: p. 29"
+  },
+  {
+    "id": 2942,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os efeitos da maconha, selecione a alternativa correta.",
+    "alternativas": {
+      "A": "Os efeitos dependem apenas da dosagem ingerida ou fumada da planta.",
+      "B": "Os efeitos adversos do emprego de cannabis são: paranoia, secura da boca, problemas respiratórios, taquicardia, perda de concentração, cansaço e confusão anal.",
+      "C": "Baixas dosagem de THC causam sensação de bem-estar, relaxamento e alteração da percepção, oriunda do aumento de sensibilidade dos sentidos, sobretudo tato, paladar e olfato.",
+      "D": "Dosagens maiores de THC podem provocar: efeitos visuais, alteração de noções de espaço e tempo, melhora na atenção e na memória, além de alteração da percepção mental. É possível que usuários de skunk experimentem intensos efeitos alucinógenos, o que pode levar o usuário a um estado de paranoia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A) \"Os efeitos dependem da dosagem e da qualidade da planta.\"\nB) Maconha estragada essa\nD) \"piora na atenção e na memória\"",
+    "referencia": "SimuChacal, simulado 13, questão #670 — Ref: p. 29"
+  },
+  {
+    "id": 2943,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual forma de uso da maconha você prefere:",
+    "alternativas": {
+      "A": "Fumada: consumida sob a forma de cigarros.",
+      "B": "Ingerida: na forma de preparados alcoólicos (tinturas).",
+      "C": "Fumada em narguilés (cachimbo de água).",
+      "D": "Nenhuma das anteriores."
+    },
+    "resposta_correta": "D",
+    "justificativa": "És usuário aluno?",
+    "referencia": "SimuChacal, simulado 13, questão #671 — Ref: p. 29"
+  },
+  {
+    "id": 2944,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Projeto da Polícia Federal que tem como objetivos principais a determinação da origem geográfica de drogas e o estabelecimento de correlação entre as apreensões é denominado:",
+    "alternativas": {
+      "A": "Kiwi",
+      "B": "Abacaxi",
+      "C": "Poncã",
+      "D": "Pequi"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Segundo o material, \"um dos projetos estratégicos implementados no âmbito da Polícia Federal é o projeto de Perfil Químico de Drogas (PeQui), coordenado pela CGPRE e Ditec, cujos objetivos principais são a determinação da origem geográfica de drogas e o estabelecimento de correlação entre as apreensões.\"",
+    "referencia": "SimuChacal, simulado 13, questão #672 — Ref: Pág. 21, item 2.1.1.4"
+  },
+  {
+    "id": 2945,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Complete as lacunas:\n\n\"Para boa parte das drogas mais comuns, tais como _______ e _______, a cromatografia de camada delgada é uma técnica que gera resultados confiáveis.\"",
+    "alternativas": {
+      "A": "Morfina e Heroina",
+      "B": "MDMA e MDA",
+      "C": "Cocaína e Maconha",
+      "D": "Ecstasy e LSD"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Para boa parte das drogas mais comuns, tais como cocaína e maconha, a cromatografia de camada delgada é uma técnica que gera resultados confiáveis.",
+    "referencia": "SimuChacal, simulado 13, questão #673 — Ref: 54"
+  },
+  {
+    "id": 2946,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Complete a lacuna:\n\n\"Profissionais com formação de botânicos podem identificar a planta do gênero ________, bem como material vegetal relacionado, utilizando somente as características morfológicas da planta.\"",
+    "alternativas": {
+      "A": "Papaver somniferum Linneu (Família Papaveraceae),",
+      "B": "Erythroxylum coca",
+      "C": "Psychotria viridis (chacrona)",
+      "D": "Cannabis"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Profissionais com formação de botânicos podem identificar a planta do gênero cannabis, bem como material vegetal relacionado, utilizando somente as características morfológicas da planta.",
+    "referencia": "SimuChacal, simulado 13, questão #674 — Ref: 54"
+  },
+  {
+    "id": 2947,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o LSD (dietilamida do ácido lisérgico), qual é a sua forma de apresentação mais comum no mercado ilícito?",
+    "alternativas": {
+      "A": "Grandes pedras de coloração bege para serem fumadas.",
+      "B": "Pó granulado, geralmente comercializado em sacos plásticos.",
+      "C": "Pequenos pedaços de papel, conhecidos como selos, impregnados com a substância\nsendo geralmente utilizada por absorção sublingual.",
+      "D": "Líquido volátil vendido em frascos de spray."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As soluções contendo LSD são comumente impregnadas em papel em forma de selos, mas também podem ser encontradas como micropontos, microcomprimidos, cubos ou granulados. A droga é extremamente potente, bastando apenas cerca de 20 microgramas para produzir efeitos alucinógenos em um homem adulto. No Brasil, o LSD é classificado como uma substância psicotrópica de uso proscrito (proibido), pertencente à Lista F2 da Portaria n.º 344/98-SVS/MS.",
+    "referencia": "SimuChacal, simulado 13, questão #675 — Ref: p.36"
+  },
+  {
+    "id": 2948,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a dimetiltriptamina (DMT) e o chá de Santo Daime (Ayahuasca), assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "O DMT é um alcaloide natural extraído de diversos vegetais, como a Psychotria viridis (chacrona) e a Mimosa hostilis (jurema).",
+      "B": "Os efeitos psicodélicos do chá, causados pelo DMT, incluem visões ou miragens que podem durar até 5 horas durante os rituais.",
+      "C": "No preparo tradicional do chá, o DMT é extraído principalmente do caule da trepadeira Banisteriopsis caapi (cipó mariri).",
+      "D": "O Conselho Nacional de Políticas sobre Drogas (CONAD) regulamentou o uso da Ayahuasca no Brasil, restringindo-o a ambientes religiosos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C está incorreta porque inverte a origem das substâncias. Segundo o caderno didático, no preparo tradicional do chá, a folha da Psychotria viridis (chacrona) é a fonte de DMT, enquanto o caule da trepadeira Banisteriopsis caapi (cipó mariri) é a fonte de harmina e harmalina. A combinação dessas duas classes de substâncias naturais é o que permite a atividade alucinógena do chá.\n\nAlém disso, é importante notar que:\nO DMT (dimetiltriptamina) isolado é uma substância psicotrópica de uso proscrito no Brasil, pertencente à Lista F2 da Portaria n.º 344/98-SVS/MS.\n\nO uso da bebida Ayahuasca é permitido exclusivamente para fins religiosos, conforme normas do CONAD ratificadas em 2010.",
+    "referencia": "SimuChacal, simulado 13, questão #676 — Ref: p. 38"
+  },
+  {
+    "id": 2949,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Química Forense, o grupo dos alucinógenos reúne substâncias que, apesar de possuírem origens diversas — variando de sínteses laboratoriais complexas a extrações de fontes naturais —, compartilham a característica fundamental de alterar a percepção sensorial e os processos mentais do usuário. Sobre os aspectos gerais e a classificação legal deste grupo no Brasil, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Por serem extraídos diretamente da natureza, substâncias como a psilocibina e o DMT são consideradas drogas permitidas para consumo recreativo, ao contrário do LSD, que é sintético.",
+      "B": "O LSD e o DMT, embora pertençam ao grupo dos alucinógenos, possuem classificações distintas na Portaria n.º 344/98-SVS/MS, sendo o primeiro considerado medicamento de controle especial (Lista C1) e o segundo, proscrito.",
+      "C": "Apesar de substâncias como o LSD e o DMT serem classificadas como proscritas (Lista F2), o ordenamento jurídico brasileiro prevê exceções para o uso de certas preparações naturais, como a Ayahuasca, quando restritas ao contexto de rituais religiosos.",
+      "D": "Os alucinógenos são caracterizados por possuírem baixa potência farmacológica, exigindo que o perito apreenda grandes quantidades de massa (na escala de quilogramas) para para que o uso seja caracterizado como tráfico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O grupo alucinógenos engloba tanto drogas sintéticas (LSD, derivado do ácido lisérgico de um fungo) quanto naturais (Psilocibina de cogumelos e DMT de vegetais como a chacrona).\n\nA regra geral para essas substâncias isoladas é a proibição, estando listadas na Lista F2 da Portaria n.º 344/98-SVS/MS. Existe uma nuance contextual e legal importante: o uso da bebida Ayahuasca (que contém DMT) é regulamentado e permitido exclusivamente para fins religiosos pelo CONAD, o que demonstra que a Química Forense deve estar atenta ao contexto da apreensão e ao uso da substância.\n\nO LSD, por exemplo, é extremamente potente, agindo na escala de microgramas, o que desafia a percepção de que apenas grandes volumes são relevantes.",
+    "referencia": "SimuChacal, simulado 13, questão #677 — Ref: p.36-39."
+  },
+  {
+    "id": 2950,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os principais componentes químicos da maconha, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os principais canabinoides da maconha são o delta-9-tetrahidrocanabinol (THC), o canabinol (CBN) e o canabidiol (CBD).",
+      "B": "O único componente químico presente na maconha é o delta-9-tetrahidrocanabinol (THC).",
+      "C": "O principal componente psicoativo da maconha é o canabidiol (CBD).",
+      "D": "O canabinol (CBN) é o único composto responsável pelos efeitos psicoativos da maconha."
+    },
+    "resposta_correta": "A",
+    "justificativa": "\"Os principais canabinoides da maconha são o delta-9-tetrahidrocanabinol (THC), o canabinol (CBN) e o Canabidiol (CBD).\" P 26",
+    "referencia": "SimuChacal, simulado 13, questão #681"
+  },
+  {
+    "id": 2951,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base no texto, assinale a alternativa correta acerca da distribuição dos princípios ativos e das características reprodutivas da maconha.",
+    "alternativas": {
+      "A": "A maior concentração de princípios ativos encontra-se nas sementes produzidas pela planta feminina após a polinização.",
+      "B": "Embora todas as partes das plantas masculina e feminina contenham substâncias psicoativas, a maior concentração de princípios ativos ocorre nas folhas e, principalmente, nas inflorescências da planta feminina",
+      "C": "Apenas a planta feminina contém substâncias psicoativas, razão pela qual a planta masculina não possui interesse para o cultivo ilícito.",
+      "D": "As inflorescências masculinas apresentam maior concentração de THC do que as femininas, motivo pelo qual são preferidas para produção de maconha."
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"Embora todas as partes da planta, tanto da masculina quanto da feminina,\ncontenham substâncias psicoativas, a maior concentração de princípios ativos\nencontra-se nas folhas e, principalmente, nas inflorescências dos espécimes\nfemininos,\"",
+    "referencia": "SimuChacal, simulado 13, questão #682"
+  },
+  {
+    "id": 2952,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, qual das 3 espécies do gênero Cannabis é a mais popular nas Américas?",
+    "alternativas": {
+      "A": "Cannabis indica.",
+      "B": "Cannabis ruderalis.",
+      "C": "Cannabis sativa",
+      "D": "Cannabis americana."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Existem três espécies distintas do gênero Cannabis: sativa, indica e ruderalis.\nA mais popular nas Américas é a Cannabis sativa linneu. \"",
+    "referencia": "SimuChacal, simulado 13, questão #683"
+  },
+  {
+    "id": 2953,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O regramento nacional sobre drogas estabelece uma dinâmica conjunta entre diferentes esferas normativas para a definição técnica do que constitui uma substância entorpecente. Com base estritamente na redação da Lei nº 11.343/06 e nos atos infralegais correlatos apresentados no documento, assinale a alternativa correta",
+    "alternativas": {
+      "A": "A Lei de Drogas elenca taxativamente em seu próprio texto todas as substâncias químicas que estão sujeitas a controle especial no país",
+      "B": "A classificação de drogas exige a previsão expressa em lei ou em listas atualizadas pelo Poder Executivo",
+      "C": "Sistema Nacional de Políticas Públicas sobre Drogas detém competência normativa exclusiva para elaborar as RDCs que atualizam a respectiva Portaria",
+      "D": "Convenção Contra o Tráfico Ilícito de Entorpecentes de 1988 instituiu de forma direta o conceito de dependência química adotado internamente"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O parágrafo único do art. 1º da Lei nº 11.343/06 define expressamente que as drogas são substâncias \"assim especificadas em lei ou relacionadas em listas atualizadas periodicamente pelo Poder Executivo da União\".",
+    "referencia": "SimuChacal, simulado 13, questão #699"
+  },
+  {
+    "id": 2954,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A materialidade delitiva e os trâmites do auto de prisão em flagrante possuem rito pericial específico na Lei nº 11.343/06. Considerando o disciplinamento legal dos exames toxicológicos e as comunicações processuais inerentes, assinale a assertiva estruturalmente compatível com a norma.",
+    "alternativas": {
+      "A": "O estabelecimento da materialidade na prisão em flagrante impõe a apresentação incontinenti do laudo toxicológico definitivo ao Ministério Público em vinte e quatro horas",
+      "B": "O perito responsável pelo exame de constatação preliminar fica resguardado e legalmente impossibilitado de laborar na elaboração do respectivo laudo técnico-científico definitivo",
+      "C": "O laudo provisório subscrito por pessoa idônea satisfaz a exigência de materialidade delitiva em caso específico",
+      "D": "A comunicação formal da prisão em flagrante ao juiz competente deve ocorrer de forma estritamente simultânea à remessa da cópia do auto ao órgão acusatório"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo o § 1º do art. 50, para estabelecer a materialidade no auto de prisão em flagrante, é suficiente o laudo de constatação assinado por perito oficial ou, \"na falta deste, por pessoa idônea\". Vale ressaltar que o perito do laudo provisório não fica impedido de atuar no laudo definitivo, e a comunicação ao juiz é imediata (enquanto o Ministério Público tem vista em 24h).",
+    "referencia": "SimuChacal, simulado 13, questão #700"
+  },
+  {
+    "id": 2955,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A apuração de ilícitos que envolvem a corrupção ou adulteração de produtos destinados a fins terapêuticos possui delimitações investigativas pormenorizadas na legislação. Em relação à competência e atuação repressiva disposta no texto legal, assinale a opção tecnicamente adequada.",
+    "alternativas": {
+      "A": "A investigação policial federal de medicamentos alterados exige repercussão interestadual ou internacional e a necessidade de repressão uniforme",
+      "B": "A investigação de infrações penais envolvendo medicamentos corrompidos via internet afasta e transfere compulsoriamente a titularidade apuratória para as forças federais",
+      "C": "O dispositivo de lei suprime a competência persecutória originária das Polícias Civis dos Estados sempre que constatada a comercialização transnacional criminosa",
+      "D": "A criação da Câmara de Regulação do Mercado de Medicamentos delegou expressamente aos peritos federais o poder de vigilância sanitária primária sobre insumos correlatos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Lei nº 12.894/13, que alterou a Lei nº 10.446/02, permite a atuação investigativa do Departamento de Polícia Federal nesses crimes (art. 273 do Código Penal) caso haja \"repercussão interestadual ou internacional que exija repressão uniforme\". Isso ocorre, segundo o próprio texto legal, \"sem prejuízo da responsabilidade dos órgãos de segurança pública [...] em especial das Polícias Militares e Civis dos Estados\".",
+    "referencia": "SimuChacal, simulado 13, questão #701"
+  },
+  {
+    "id": 2956,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O chá de Santo Daime é normalmente preparado mediante a combinação de:",
+    "alternativas": {
+      "A": "Folhas de Psychotria viridis, fonte de harmina e harmalina, com caules de Banisteriopsis caapi, fonte de DMT.",
+      "B": "Folhas de Psychotria viridis, fonte de DMT, com caules de Banisteriopsis caapi, fonte de harmina e harmalina.",
+      "C": "Folhas de Peganum harmala, fonte de DMT, com caules de Mimosa hostilis, fonte de harmina e harmalina.",
+      "D": "Folhas de Desmanthus illinoensis, fonte de harmina e harmalina, com caules de Psychotria viridis, fonte de DMT."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #708 — Ref: p. 38-39"
+  },
+  {
+    "id": 2957,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as formas de uso, ações e efeitos do chá de Santo Daime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O chá é utilizado por ingestão oral, podendo provocar palidez, midríase, tremores, alterações de personalidade e visões que se estendem por até cinco horas.",
+      "B": "O chá é utilizado por ingestão oral, mas seus efeitos restringem-se a irritações no fígado e na mucosa gástrica.",
+      "C": "O chá é utilizado em rituais religiosos por meio da inalação, podendo provocar miragens que se estendem por até cinco horas.",
+      "D": "O chá é utilizado por ingestão oral e provoca apenas alterações de personalidade e episódios neuróticos, sem efeitos físicos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #709 — Ref: p. 38-39"
+  },
+  {
+    "id": 2958,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as questões legais relacionadas à DMT e à ayahuasca, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A DMT integra a Lista F2 da Portaria n.º 344/98-SVS/MS, e o relatório final contrário ao uso religioso da ayahuasca foi publicado no DOU de 26 de janeiro de 2010.",
+      "B": "A DMT integra a Lista F2 da Portaria n.º 344/98-SVS/MS, e a Resolução n.º 1-CONAD, de 25 de janeiro de 2010, instituiu o grupo de trabalho multidisciplinar para pesquisar seu uso religioso.",
+      "C": "A DMT integra a Lista F2 da Portaria n.º 344/98-SVS/MS, e a Resolução n.º 4-CONAD, de 4 de novembro de 2004, regulamentou definitivamente o uso da bebida em ambientes religiosos.",
+      "D": "A DMT integra a Lista F2 da Portaria n.º 344/98-SVS/MS, e a Resolução n.º 1-CONAD, de 25 de janeiro de 2010, regulamentou o uso da bebida, restringindo-o aos ambientes religiosos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #710 — Ref: p. 38-39"
+  },
+  {
+    "id": 2959,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise de uma apreensão envolvendo substâncias derivadas da Papaver somniferum, o perito elaborou as seguintes afirmações:\n\nI. O ópio é obtido a partir do látex extraído por incisões realizadas nas cápsulas imaturas da planta, sendo posteriormente seco ao ar livre.\n\nII. Após a secagem, o látex forma uma massa marrom gomosa que pode ser transformada em pó ou grânulos.\n\nIII. Os frutos destinados à extração do ópio são colhidos artesanalmente nas primeiras horas do dia, quando é maior a concentração dos princípios ativos.\n\nIV. O ópio bruto contém apenas quatro alcaloides, dos quais a morfina representa aproximadamente 10%.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Apenas as assertivas I, II e III estão corretas.",
+      "B": "b) Apenas as assertivas I e IV estão corretas.",
+      "C": "c) Apenas as assertivas II, III e IV estão corretas.",
+      "D": "d) Todas as assertivas estão corretas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As assertivas I, II e III reproduzem corretamente o texto. A assertiva IV está incorreta porque o material informa que o ópio bruto contém mais de 20 alcaloides, sendo a morfina (10%), a codeína (0,5%), a narcotina/noscapina (6%), a papaverina (1%) e a tebaína (0,2%) apenas os principais.",
+    "referencia": "SimuChacal, simulado 13, questão #731 — Ref: p. 31"
+  },
+  {
+    "id": 2960,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da heroína, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) A heroína foi sintetizada originalmente como substituto da morfina para reduzir o potencial de dependência desta, porém verificou-se posteriormente que sua capacidade de causar dependência era ainda maior.",
+      "B": "b) A heroína corresponde a um alcaloide naturalmente presente no ópio bruto, sendo encontrada em concentrações inferiores às da morfina.",
+      "C": "c) A comercialização da heroína como medicamento para combate à tosse ocorreu apenas após sua popularização como droga de abuso nas décadas de 1960 e 1970.",
+      "D": "d) A heroína é utilizada exclusivamente por via injetável, não sendo descritas outras formas de administração."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Comentário: A heroína é descrita no material como um produto sintético derivado da morfina, sintetizado em 1874 na tentativa de substituir a morfina e evitar sua dependência. Posteriormente verificou-se que a heroína possuía potencial de dependência ainda maior. Ela chegou a ser comercializada como antitussígeno em 1898, teve sua produção suspensa pela Bayer em 1913 e pode ser utilizada por via injetável, aspirada ou fumada, inclusive em associação com cocaína (\"speedball\").",
+    "referencia": "SimuChacal, simulado 13, questão #732 — Ref: p. 32"
+  },
+  {
+    "id": 2961,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que se refere ao enquadramento legal do ópio, da Papaver somniferum, da morfina e da heroína, conforme o material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) O ópio e a morfina integram a Lista A1 da Portaria nº 344/98-SVS/MS, enquanto a heroína integra a Lista F1. A Papaver somniferum integra a Lista E (Plantas Proscritas que Podem Originar Substâncias Entorpecentes e/ou Psicotrópicas), porém é possível a importação de suas sementes nos casos em que seja comprovada sua destinação à finalidade alimentícia, observada a legislação sanitária específica.",
+      "B": "b) O ópio, a morfina e a heroína integram a Lista A1 da Portaria nº 344/98-SVS/MS, enquanto a Papaver somniferum integra a Lista F1.",
+      "C": "c) A comercialização hospitalar da morfina decorre de sua inclusão na Lista F1, a mesma lista em que se encontra a heroína.",
+      "D": "d) A importação de sementes de Papaver somniferum é vedada em qualquer hipótese, independentemente da finalidade declarada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Segundo o material, o ópio e a morfina estão incluídos na Lista A1 (Substâncias Entorpecentes), sujeitas à Notificação de Receita \"A\". A Papaver somniferum integra a Lista E (Plantas Proscritas que Podem Originar Substâncias Entorpecentes e/ou Psicotrópicas). Já a heroína integra a Lista F1 (Substâncias de Uso Proscrito no Brasil). O texto também ressalta a exceção prevista pela RDC nº 70/2009 para a importação de sementes de dormideira destinadas comprovadamente à finalidade alimentícia, observada a legislação sanitária específica.",
+    "referencia": "SimuChacal, simulado 13, questão #733 — Ref: p. 32 e 33"
+  },
+  {
+    "id": 2962,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Devido ao crescimento no número de casos de Novas Substâncias Psicoativas (NSPs), os testes tradicionais de coloração têm enfrentado limitações práticas na Química Forense. De acordo com o texto, qual é a principal alternativa apontada para realizar testes preliminares de maneira mais confiável?",
+    "alternativas": {
+      "A": "A substituição completa dos testes laboratoriais por perícias baseadas puramente no aspecto operacional e em suspeitas.",
+      "B": "O uso de reagentes químicos universais de coloração capazes de identificar qualquer classe de droga com uma única gota.",
+      "C": "O uso de equipamentos de instrumentação analítica portáteis, tais como o espectrômetro Raman ou o espectrofotômetro de FTIR.",
+      "D": "O encaminhamento obrigatório e imediato de todas as amostras apreendidas para laboratórios centrais, extinguindo os exames preliminares."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto destaca que o número de reagentes necessários para cobrir as NSPs por testes de coloração é imenso. Como alternativa mais confiável na fase preliminar, aponta o uso de instrumentação analítica portátil, citando textualmente o espectrômetro Raman e o espectrofotômetro de FTIR.",
+    "referencia": "SimuChacal, simulado 13, questão #765 — Ref: P. 48"
+  },
+  {
+    "id": 2963,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a afirmação correta sobre entorpecentes, suas formas e derivados",
+    "alternativas": {
+      "A": "O haxixe é uma droga obtida a partir de plantas com uma concentração de THC maior, derivadas do cruzamento entre diversas variedades de cannabis",
+      "B": "O haxixe é uma substância resinosa de coloração marrom escura (ou preta) derivada de extração das partes superiores do vegetal do gênero cannabis",
+      "C": "A cannabis pode ser encontrada em forma de óleo, mas o haxixe não, apenas na forma de tabletes ou bolotas de cor escura.",
+      "D": "A concentração de THC no haxixe não é muito elevada, então seus efeitos normalmente são relaxamento, aumento de apetite e aumento de sensibilidade dos sentidos, sobretudo do tato, paladar e olfato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "pag. 28\na) Essa é a descrição do Skunk, não do haxixe. (pag 27)\nb) certo.\nc) Errado. Haxixe também tem sua versão em óleo.\nd) Errado Haxixe tem alta concentração de THC.",
+    "referencia": "SimuChacal, simulado 13, questão #766"
+  },
+  {
+    "id": 2964,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para garantir a qualidade e a confiabilidade dos exames preliminares de constatação, o texto estabelece algumas diretrizes técnicas obrigatórias. Assinale a alternativa que apresenta corretamente um desses procedimentos de controle:",
+    "alternativas": {
+      "A": "Os exames preliminares devem ser acompanhados de um teste em branco, ou seja, uma amostra que não contenha a droga investigada.",
+      "B": "As amostras complexas devem ser testadas utilizando os mesmos utensílios repetidamente para acelerar o processo.",
+      "C": "Os testes de coloração dispensam a limpeza de utensílios quando aplicados em materiais apreendidos de um mesmo lote de tráfico.",
+      "D": "O teste em branco consiste em misturar a droga investigada com bebidas ou comidas antes da análise instrumental."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O texto afirma textualmente que \"Os exames preliminares de constatação devem ser acompanhados de um teste em branco, isto é, uma amostra que não contenha a droga que está sendo investigada\". Além disso, reforça a necessidade de utensílios limpos e secos para evitar a contaminação cruzada.",
+    "referencia": "SimuChacal, simulado 13, questão #767 — Ref: P. 48"
+  },
+  {
+    "id": 2965,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O texto menciona que traficantes utilizam estratégias de camuflagem e adulteração para burlar a fiscalização policial. Qual técnica específica é citada como exemplo para dificultar a realização de exames preliminares baseados em reações de coloração em amostras de cocaína de alta pureza?",
+    "alternativas": {
+      "A": "A diluição da droga em compartimentos secretos com substâncias líquidas incolores.",
+      "B": "A adição de sais de ferro, que possuem coloração avermelhada.",
+      "C": "A mistura da substância exclusivamente com bebidas alcoólicas e comidas para gerar resultados falso-negativos.",
+      "D": "O encapsulamento da droga em polímeros que bloqueiam a radiação dos espectrômetros portáteis."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O trecho final do texto ilustra essa prática criminosa: \"A título de exemplo, as amostras apresentadas a seguir são de cocaína de alto grau de pureza. Em alguns casos, traficantes adicionaram sais de ferro (materiais de coloração avermelhada) para dificultar a realização de exames preliminares baseados em reações de coloração.\"",
+    "referencia": "SimuChacal, simulado 13, questão #768 — Ref: P. 48"
+  },
+  {
+    "id": 2966,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre entorpecentes, suas formas e derivados",
+    "alternativas": {
+      "A": "A maconha apresenta diversas formas de apresentação, como o Skunk e o Haxixe.",
+      "B": "A planta de onde se coleta a maconha pode ser mantida por várias colheitas, porque o THC é encontrado nas flores secas, mas não nas folhas da planta.",
+      "C": "Sementes de Skunk são vendidas pela Internet e o país que mais fornece esse produto é o Paraguai, que conta com ampla área de plantio de maconha.",
+      "D": "A maconha pode ser fumada e normalmente não é ingerida, por ser potencial causadora de alucinações. Os princípios psicoativos da planta podem ser extraídos em substâncias polares."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pag. 27, 28.\na) certo\nb) Errado. Pag. 27, nas folhas e nas flores secas.\nc) Errado. Holanda é de onde mais se vende sementes de skunk. Paraguai não tem muito skunk, somente maconha comum.\nd) Errado. É ingerida e para extrair o psicoativo usa substância apolar (óleo). Pag. 29.",
+    "referencia": "SimuChacal, simulado 13, questão #772"
+  },
+  {
+    "id": 2967,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre entorpecentes, suas formas e derivados, julgue",
+    "alternativas": {
+      "A": "O uso de óleos de THC podem ser liberados, já que a cannabis é proscrita no Brasil, na lista F2, mas o tetrahidrocanabinol não.",
+      "B": "O canabidiol está incluído na lista das substâncias psicotrópicas de uso proscrito no Brasil (lista F2)",
+      "C": "Efeitos de paranoia são comumente vistos com uso frequente de cocaína e drogas com princípios parecidos. Esse efeito colateral não é encontrado nos usuários de maconha.",
+      "D": "O mevatyl foi o primeiro medicamento a base de CBD e THC registrado pela anvisa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "a) Errado. THC também está na lista. Pág. 30.\nb) Errado. O canabidiol é usado para outros fins... ele é controlado (lista C1, substâncias com controle especial), não proscrito. Pag. 30.\nc) Errado. Normalmente altas quantidades de thc provocam paranoia e alucinação. Normalmente quando ingerida ou uso de skunk.. pag. 29\nd) certo. pag 30.\nO medicamente é utilizado contra a espasmos moderados e graves, relacionados à esclerose múltipla.",
+    "referencia": "SimuChacal, simulado 13, questão #773"
+  },
+  {
+    "id": 2968,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma operação de combate ao tráfico internacional, foram apreendidas três amostras de cocaína.\n\nAmostra A: pó branco cristalino, com teor estimado entre 92% e 98%.\nAmostra B: pó bege-claro, apresentando teor superior a 90%, destinado ao consumo fumado.\nAmostra C: material em pó e pequenos grumos de coloração bege escura, com teor variando entre 30% e 70%.\n\nConsiderando as formas de apresentação da cocaína descritas no caderno didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Amostra A corresponde à cocaína base; Amostra B ao crack; Amostra C ao cloridrato de cocaína.",
+      "B": "Amostra A corresponde ao cloridrato de cocaína; Amostra B à cocaína base; Amostra C à pasta base de cocaína.",
+      "C": "Amostra A corresponde ao crack; Amostra B ao cloridrato de cocaína; Amostra C à merla.",
+      "D": "As três amostras representam apenas diferentes graus de pureza do cloridrato de cocaína."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. A amostra A apresenta características típicas do cloridrato, enquanto o crack não se apresenta em pó bege-claro.\n\nB) Correta. O cloridrato de cocaína apresenta-se normalmente como pó branco cristalino, com pureza entre 92% e 98%; a cocaína base possui coloração bege mais clara e pureza geralmente superior a 90%; a pasta base é o primeiro produto obtido da extração, geralmente em pó ou grumos bege ou pardacentos, com teor entre 30% e 70%.\n\nC) Incorreta. O crack apresenta-se na forma de pedras, e não como pó branco cristalino.\n\nD) Incorreta. O material diferencia claramente as formas de apresentação quanto ao processo de obtenção, aspecto físico e grau de pureza.",
+    "referencia": "SimuChacal, simulado 13, questão #788 — Ref: Pág. 19 – Item 2.1.1.2 (Formas de apresentação)."
+  },
+  {
+    "id": 2969,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das formas de uso e das propriedades físico-químicas da cocaína, assinale a alternativa incorreta.\n\nMarque a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O cloridrato de cocaína é a única forma indicada no material como passível de administração por via injetável.",
+      "B": "A cocaína em forma de base livre apresenta maior afinidade por solventes orgânicos do que pela água.",
+      "C": "Em meio ácido, a cocaína encontra-se na forma de sal, tornando-se solúvel em água.",
+      "D": "Todas as formas de apresentação da cocaína podem ser utilizadas por via injetável, desde que previamente dissolvidas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A) Correta. O material afirma expressamente que apenas o cloridrato de cocaína é utilizado por via injetável.\n\nB) Correta. A cocaína na forma de base livre é solúvel em solventes orgânicos, como hexano, gasolina e querosene.\n\nC) Correta. Em meio ácido, a cocaína transforma-se em sal (cloridrato, por exemplo), tornando-se solúvel em água.\n\nD) Incorreta. O caderno afirma expressamente que somente o cloridrato de cocaína é empregado por via injetável.",
+    "referencia": "SimuChacal, simulado 13, questão #789 — Ref: Pág. 20 – Item 2.1.1.3 (Formas de uso)."
+  },
+  {
+    "id": 2970,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as assertivas.\n\nI. A pasta base de cocaína corresponde ao primeiro produto obtido durante o processo extrativo das folhas de coca.\n\nII. A cocaína base resulta da purificação da pasta base, podendo apresentar pureza igual ou superior a 90%.\n\nIII. O cloridrato de cocaína é obtido, em regra, pela reação entre cocaína base livre e ácido clorídrico.\n\nIV. O crack corresponde ao cloridrato de cocaína precipitado em solventes orgânicos.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e III estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "Todas estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "I) Correta. O material identifica a pasta base como o primeiro produto obtido da extração das folhas de coca.\n\nII) Correta. A cocaína base corresponde à pasta base purificada, normalmente apresentando pureza igual ou superior a 90%.\n\nIII) Correta. O cloridrato é produzido pela reação da cocaína base livre com ácido clorídrico.\n\nIV) Incorreta. O crack consiste em cocaína base apresentada na forma de pedras, e não em cloridrato precipitado.",
+    "referencia": "SimuChacal, simulado 13, questão #790 — Ref: Pág. 19 – Item 2.1.1.2 (Formas de apresentação)."
+  },
+  {
+    "id": 2971,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante perícia em laboratório clandestino, foram apreendidos ácido clorídrico concentrado em álcool etílico (\"la bomba\"), éter etílico, acetona e cocaína base.\n\nSegundo o caderno didático, a principal finalidade da utilização da solução conhecida como \"la bomba\" é:",
+    "alternativas": {
+      "A": "Produzir diretamente crack a partir da pasta base.",
+      "B": "Converter cocaína base em cloridrato de cocaína com elevado rendimento.",
+      "C": "Elevar o teor de pureza da merla.",
+      "D": "Produzir free-base por cristalização."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. O material não associa o método \"la bomba\" à produção de crack.\n\nB) Correta. O texto explica que \"la bomba\" consiste em uma solução altamente concentrada de ácido clorídrico em álcool etílico, adicionada diretamente sobre a cocaína base para obtenção de cocaína cloridrato com elevado rendimento.\n\nC) Incorreta. A merla possui outro processo de obtenção.\n\nD) Incorreta. A produção de free-base utiliza outro conjunto de reagentes e procedimentos.",
+    "referencia": "SimuChacal, simulado 13, questão #791 — Ref: Pág. 19 (final) – Método \"La Bomba\"."
+  },
+  {
+    "id": 2972,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma aula prática, um instrutor apresentou as seguintes afirmações:\n\nI. As formas de apresentação da cocaína podem ser facilmente interconvertidas.\n\nII. O método de conversão pode variar conforme a disponibilidade dos insumos empregados.\n\nIII. A transformação entre cocaína base e cloridrato de cocaína fundamenta-se em reações do tipo ácido-base.\n\nIV. O crack somente pode ser convertido em outra forma de apresentação mediante síntese química completa do alcaloide.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e III estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "Todas estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "I) Correta. O caderno afirma que as formas de apresentação podem ser interconvertidas com relativa facilidade.\n\nII) Correta. O método de conversão depende da disponibilidade dos insumos químicos.\n\nIII) Correta. O processo de conversão entre base livre e sal fundamenta-se em reações ácido-base.\n\nIV) Incorreta. O próprio diagrama do material demonstra que as formas podem ser convertidas entre si, não sendo necessária nova síntese do alcaloide.",
+    "referencia": "SimuChacal, simulado 13, questão #792 — Ref: Pág. 20 – Item 2.1.1.3"
+  },
+  {
+    "id": 2973,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da elaboração do laudo preliminar: precauções, aspectos formais, amostragem e confecção, do que trata acerca das quantidades mínimas de amostras a serem coletadas por unidade, conforme o tipo de produto. Qual é a quantidade mínima de amostra a ser coletada para líquidos em geral?",
+    "alternativas": {
+      "A": "50 ml",
+      "B": "100 ml (meio copo)",
+      "C": "200 ml (um copo)",
+      "D": "Embalagem original"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa correta é a C, segundo a Tabela 3 - Quantidades mínimas de amostras a serem coletadas por unidade, conforme o tipo de produto, página 52.\n\nA D estaria correta se estivéssemos falando de líquido volátil.",
+    "referencia": "SimuChacal, simulado 13, questão #804 — Ref: p. 52."
+  },
+  {
+    "id": 2974,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o art. 50 da Lei n.º 11.343/2006 (Lei de Drogas), para efeito da lavratura do auto de prisão em flagrante e estabelecimento da materialidade do delito, é suficiente:",
+    "alternativas": {
+      "A": "O laudo definitivo assinado por dois peritos oficiais",
+      "B": "O laudo preliminar de constatação firmado por perito oficial ou pessoa idônea",
+      "C": "A comunicação imediata ao Ministério Público",
+      "D": "A apreensão da substância sem necessidade de laudo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 13, questão #805 — Ref: p. 52."
+  },
+  {
+    "id": 2975,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No laudo preliminar de constatação, o peso aferido deve ser preferencialmente:",
+    "alternativas": {
+      "A": "Peso bruto (peso das substâncias com embalagem/invólucro)",
+      "B": "Peso líquido (peso das substâncias descontadas as embalagens/invólucros)",
+      "C": "Peso estimado, sem necessidade de aferição",
+      "D": "Peso médio calculado entre bruto e líquido"
+    },
+    "resposta_correta": "B",
+    "justificativa": "p. 52:\n\nO laudo preliminar de constatação deve ser um documento claro, conciso. Ele\ndeve relatar as características observadas no exame visual do material apreendido\ne o peso aferido, especificando se este é o peso líquido (peso das substâncias\ndescontadas as embalagens/invólucros, preferencialmente) ou peso bruto (com\nembalagem/invólucro), QUANDO AS CIRCUNSTÂNCIAS NÃO PERMITIREM A AFERIÇÃO DO PESO LÍQUIDO NO MOMENTO DO FLAGRANTE.",
+    "referencia": "SimuChacal, simulado 13, questão #806 — Ref: p. 52."
+  },
+  {
+    "id": 2976,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando exclusivamente as informações da apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Dentre as aproximadamente 250 espécies do gênero Erythroxylum, todas apresentam teor de cocaína suficiente para exploração ilícita.",
+      "B": "A variedade Ipadú (Epadu ou Patu) da espécie Erythroxylum coca é amplamente empregada como matéria-prima para produção ilícita de cocaína por apresentar elevado teor do alcaloide.",
+      "C": "As folhas da espécie Erythroxylum coca, variedade coca, apresentam o maior teor de cocaína entre as variedades citadas, razão pela qual constituem a principal matéria-prima da produção ilícita.",
+      "D": "As espécies Erythroxylum coca e Erythroxylum novogranatense possuem teor semelhante de cocaína em todas as suas variedades."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila informa que apenas duas espécies possuem quantidades de cocaína suficientes para exploração ilícita (E. coca e E. novogranatense), destacando que a variedade coca da espécie Erythroxylum coca apresenta o maior teor (0,5% a 1,2% ou mais), sendo a principal matéria-prima para produção ilícita. A variedade Ipadú possui baixo teor e não é utilizada para esse fim",
+    "referencia": "SimuChacal, simulado 13, questão #823"
+  },
+  {
+    "id": 2977,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das formas de apresentação da cocaína descritas na apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A cocaína base corresponde ao primeiro produto obtido da extração das folhas de coca, apresentando teor de pureza entre 30% e 70%.",
+      "B": "O cloridrato de cocaína é obtido diretamente das folhas de coca, dispensando processos de purificação da cocaína base.",
+      "C": "A cocaína base corresponde à pasta base purificada, obtida após processos de oxidação que removem alcaloides cis e trans-cinamoilcocaína, apresentando, em geral, pureza igual ou superior a 90%.",
+      "D": "O crack consiste em cocaína na forma de sal, precipitada com ácido clorídrico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila diferencia claramente pasta base e cocaína base. A pasta base é o primeiro produto da extração (30% a 70% de cocaína). Já a cocaína base resulta da purificação da pasta base por processos de oxidação, removendo alcaloides minoritários e atingindo pureza geralmente igual ou superior a 90%. O crack também é cocaína base, porém apresentada na forma de \"pedras\".",
+    "referencia": "SimuChacal, simulado 13, questão #824"
+  },
+  {
+    "id": 2978,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a apostila, assinale a alternativa que apresenta corretamente a associação entre a forma de apresentação da cocaína e sua característica predominante.",
+    "alternativas": {
+      "A": "Merla – cocaína base na forma de cristais brancos, com pureza superior a 90%.",
+      "B": "Free-base – cocaína base na forma de cristais brancos, geralmente com teor de pureza superior a 90%.",
+      "C": "Crack – cocaína na forma de sal, de coloração branca, preparada pela reação com ácido clorídrico.",
+      "D": "Cloridrato de cocaína – cocaína base impura, normalmente de coloração bege escura e pureza entre 30% e 70%."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme a apostila, o free-base consiste em cocaína base na forma de cristais brancos, geralmente com pureza superior a 90%. A merla apresenta-se como uma pasta branca com elevado teor de água; o crack é cocaína base em forma de pedras; e o cloridrato de cocaína corresponde à cocaína na forma de sal, normalmente um pó cristalino branco",
+    "referencia": "SimuChacal, simulado 13, questão #825"
+  },
+  {
+    "id": 2979,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na análise de uma amostra de cocaína comercializada ilicitamente, foram identificadas duas substâncias adicionadas ao material original:\n\nI. uma substância farmacologicamente ativa, capaz de produzir efeitos semelhantes aos da cocaína;\nII. uma substância inerte, adicionada apenas para aumentar a massa do produto comercializado.\n\nAs substâncias descritas em I e II são classificadas, respectivamente, como:",
+    "alternativas": {
+      "A": "diluente e adulterante.",
+      "B": "adulterante e diluente",
+      "C": "fármaco e medicamento.",
+      "D": "substância psicoativa e princípio ativo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O adulterante possui atividade farmacológica e pode potencializar ou simular algum dos efeitos da droga. O diluente, por sua vez, não apresenta atividade farmacológica e é acrescentado para aumentar a massa ou o volume do produto comercializado.\n\nA está errada: inverte os conceitos. A substância farmacologicamente ativa é adulterante, enquanto a substância inerte é diluente.\n\nC está errada: fármaco é uma substância de estrutura definida e ação farmacológica conhecida; medicamento é o produto farmacêutico terminado que contém um ou mais fármacos. Esses conceitos não correspondem necessariamente às substâncias adicionadas ilicitamente.\nD está errada: embora o adulterante possa possuir ação farmacológica ou psicoativa, “princípio ativo” e “substância psicoativa” não são as classificações específicas empregadas para distinguir as duas formas de adição descritas.\n\nExemplo conceitual: uma substância anestésica adicionada para imitar determinados efeitos seria um adulterante; uma substância inerte usada apenas para aumentar a quantidade comercializada seria um diluente.",
+    "referencia": "SimuChacal, simulado 13, questão #844"
+  },
+  {
+    "id": 2980,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma apreensão, um teste preliminar colorimétrico produziu resultado positivo para cocaína. Com base exclusivamente nesse resultado, um policial afirmou que:\n\na presença da cocaína estava definitivamente comprovada;\nnão seria mais necessária a realização de exame definitivo;\nsomente um perito oficial poderia subscrever o laudo de constatação.\n\nConsiderando a natureza dos testes preliminares e a Lei nº 11.343/2006, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As três afirmações estão corretas, pois o teste preliminar positivo possui valor conclusivo e encerra a análise química.",
+      "B": "Apenas a terceira afirmação está correta, pois o laudo de constatação jamais pode ser firmado por pessoa que não seja perito oficial.",
+      "C": "As três afirmações estão incorretas, pois o teste preliminar não possui qualquer valor jurídico ou científico.",
+      "D": "As afirmações 1, 2 e 3 estão incorretas: o teste preliminar fornece resultado indicativo, normalmente deve ser seguido de exame definitivo e, na falta de perito oficial, o laudo de constatação pode ser firmado por pessoa idônea."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os testes preliminares são simples, rápidos e práticos, mas fornecem indícios sobre a natureza do material. Podem sofrer interferências e apresentar falsos positivos. Por isso, um resultado positivo não deve ser interpretado como identificação química definitiva.\n\nHavendo resultado positivo no exame preliminar, são necessários exames definitivos para estabelecer com maior precisão a composição do material. Além disso, até mesmo uma amostra com resultado preliminar negativo pode ser encaminhada para exame definitivo quando houver suspeita de interferentes, complexidade da matriz ou dúvida investigativa.\n\nQuanto à autoria do laudo de constatação, o art. 50 da Lei nº 11.343/2006 estabelece que ele deve ser firmado por perito oficial ou, na falta deste, por pessoa idônea. O profissional que participar do laudo preliminar não fica impedido de participar do laudo definitivo.\n\nA está errada: o teste preliminar não é conclusivo e não elimina a necessidade do exame definitivo.\nB está errada: na falta de perito oficial, uma pessoa idônea pode subscrever o laudo de constatação.\nC está errada: o teste preliminar possui relevância científica e jurídica. O laudo de constatação é suficiente para a lavratura do auto de prisão em flagrante e para o estabelecimento inicial da materialidade, sem que isso o transforme em exame definitivo.\nD está correta: diferencia adequadamente o valor indicativo do exame preliminar, a necessidade do definitivo e a regra legal sobre quem pode subscrever o laudo.",
+    "referencia": "SimuChacal, simulado 13, questão #845"
+  },
+  {
+    "id": 2981,
+    "disciplina": "PCEB - Química Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um exame, foram analisadas duas formas de apresentação da cocaína:\n\nAmostra I: substância na forma de sal, solúvel em água, normalmente encontrada como pó cristalino branco;\nAmostra II: substância na forma de base livre, adequada ao consumo por via fumada.\n\nConsiderando as propriedades físico-químicas e as formas de apresentação da cocaína, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A amostra I é compatível com cloridrato de cocaína, enquanto a amostra II pode corresponder a crack, pasta base, merla ou outra forma de cocaína base.",
+      "B": "A amostra I é necessariamente crack, pois toda cocaína de coloração branca encontra-se na forma de base livre.",
+      "C": "A amostra II é cloridrato de cocaína, pois os sais são as formas mais adequadas para o consumo por via fumada.",
+      "D": "As duas amostras são quimicamente indistinguíveis, pois a forma de sal ou de base não interfere na solubilidade nem na forma de uso"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O cloridrato de cocaína é a cocaína na forma de sal, geralmente apresentada como pó cristalino branco. Por ser solúvel em água, é a forma indicada no material para uso injetável, embora também possa ser utilizada por via inalada.\n\nAs formas de cocaína base, como pasta base, cocaína base, crack, merla e free-base, podem ser utilizadas por via fumada. Em meio básico, a cocaína encontra-se como base livre, com maior solubilidade em solventes orgânicos; em meio ácido, apresenta-se como sal, solúvel em água.\n\nB está errada: a cor não determina, isoladamente, a forma química. O crack é cocaína base em forma de “pedras” e pode variar do branco-marfim ao bege ou bege pardacento.\nC está errada: o cloridrato corresponde à forma salina e não é a forma descrita como apropriada ao consumo fumado.\nD está errada: a conversão entre base livre e sal modifica propriedades como solubilidade e influencia a forma de apresentação e as possibilidades de uso.\nA está correta: relaciona adequadamente a forma salina ao cloridrato e as formas fumáveis à cocaína base.\n\nItens mais importantes para memorizar\n\nAdulterante: possui atividade farmacológica e pode simular ou potencializar efeitos.\nDiluente: não possui atividade farmacológica; aumenta a massa do produto.\nTeste preliminar: rápido e indicativo, sujeito a interferentes e falsos positivos.\nLaudo de constatação: suficiente para o flagrante e para o estabelecimento inicial da materialidade.\nExame definitivo: identifica com maior precisão a composição do material.\nPessoa idônea: pode subscrever o laudo preliminar quando não houver perito oficial.\nCocaína base: associada às formas fumáveis, como crack, pasta base, merla e free-base.\nCloridrato de cocaína: forma salina, solúvel em água e normalmente apresentada como pó branco.",
+    "referencia": "SimuChacal, simulado 13, questão #846"
+  },
+  {
+    "id": 2982,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à duplicação forense utilizando um computador comum, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É indicada apenas quando a mídia original não pode ser removida do equipamento.",
+      "B": "Oferece maior flexibilidade na escolha de interfaces e aplicativos, sendo útil, entre outras situações, para discos rígidos não reconhecidos por equipamentos especializados.",
+      "C": "Deve ser realizada exclusivamente em ambiente Windows, utilizando softwares forenses específicos.",
+      "D": "É considerada mais segura que a duplicação com equipamentos especializados por eliminar o risco de alteração dos dados originais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nO texto afirma que esse procedimento é normalmente utilizado quando a mídia pode ser removida, embora também possa ser empregado em situações em que sua remoção não seja possível ou conveniente.\n\nAlternativa B – Correta.\nO texto informa que a duplicação com computador comum apresenta \"maior flexibilidade na escolha de interfaces e aplicativos\", sendo especialmente útil para discos rígidos não reconhecidos por equipamentos especializados ou quando são necessários procedimentos especiais.\n\nAlternativa C – Incorreta.\nO texto recomenda o uso de distribuições forenses Linux (CAINE e Kali), embora admita o uso do Windows com FTK Imager em situações específicas.\n\nAlternativa D – Incorreta.\nO texto destaca justamente o contrário: o principal problema da duplicação em computador comum é o risco de alteração acidental dos dados da mídia original.",
+    "referencia": "SimuChacal, simulado 14, questão #686 — Ref: Págs. 37-38"
+  },
+  {
+    "id": 2983,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a utilização de uma distribuição forense do Linux, como o CAINE ou o Kali, é recomendada porque:",
+    "alternativas": {
+      "A": "permite recuperar automaticamente setores defeituosos da mídia original.",
+      "B": "é especialmente projetada para não efetuar modificações nas mídias conectadas ao computador.",
+      "C": "possibilita a duplicação apenas de mídias protegidas contra escrita.",
+      "D": "substitui a necessidade de utilização de softwares forenses em qualquer situação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nO texto não atribui às distribuições forenses a recuperação automática de setores defeituosos.\n\nAlternativa B – Correta.\nSegundo o texto, essas distribuições são projetadas para não efetuar qualquer modificação nas mídias conectadas ao computador, reduzindo o risco de alteração dos dados.\n\nAlternativa C – Incorreta.\nO texto não restringe seu uso às mídias protegidas contra escrita.\n\nAlternativa D – Incorreta.\nEm determinadas situações, o próprio texto recomenda o uso do Windows em conjunto com o FTK Imager.",
+    "referencia": "SimuChacal, simulado 14, questão #688 — Ref: Págs. 37-38"
+  },
+  {
+    "id": 2984,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos métodos de bloqueio de escrita, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O bloqueio físico consiste na utilização de software especializado para impedir a gravação de dados em interfaces do computador.",
+      "B": "A trava mecânica é obtida mediante dispositivos de hardware instalados entre a mídia e o computador.",
+      "C": "O bloqueio lógico pode impedir a modificação de um pen drive conectado à porta USB por meio de software especializado.",
+      "D": "O bloqueio de escrita é aplicável apenas a mídias naturalmente protegidas contra gravação, como CDs e DVDs somente leitura."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto não relaciona a escolha à preferência do perito, mas às necessidades técnicas do procedimento.\n\nAlternativa B – Incorreta.\nA disponibilidade de equipamentos é um dos fatores considerados, mas não o único.\n\nAlternativa C – Correta.\nO texto afirma que \"em função das características da mídia recebida para duplicação e dos equipamentos disponíveis, o Perito Criminal deverá determinar qual conjunto de hardware e software será mais adequado para realizar o procedimento.\"\n\nAlternativa D – Incorreta.\nO texto não restringe a escolha ao software disponível, mas determina a avaliação conjunta das características da mídia e dos equipamentos disponíveis.",
+    "referencia": "SimuChacal, simulado 14, questão #689 — Ref: Págs. 37-38"
+  },
+  {
+    "id": 2985,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O acesso aos dados armazenados em dispositivos móveis modernos impõe desafios periciais atrelados ao gerenciamento volátil de credenciais pelo sistema operacional. Considerando os mecanismos de proteção abordados no material forense, assinale a correlação técnica exata sobre as condições de apreensão e extração de informações.",
+    "alternativas": {
+      "A": "O método de extração fundamentado no sistema de arquivos recupera nativamente todas as informações deletadas das áreas não alocadas, sobrepondo-se à exigência de extração física para a recomposição do histórico de navegação web e estruturação de logs",
+      "B": "O bloqueio da comunicação telefônica em campo deve ser efetuado mediante a substituição mecânica do microchip eSIM, visto que a simples ativação do modo avião apresenta falhas no isolamento contra o envio de comandos remotos de apagamento (wipe)",
+      "C": "A transição do dispositivo do estado After First Unlock (AFU) para Before First Unlock (BFU) provoca a remoção das chaves criptográficas da memória volátil, inviabilizando o acesso aos dados protegidos mesmo com ferramentas forenses",
+      "D": "A extração física da memória flash do aparelho móvel dispensa categoricamente a implementação de bootloaders customizados, uma vez que o sistema operacional em uso concede acesso contínuo às partições encriptadas por meio da remoção prévia do cartão SIM"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Se o aparelho for reiniciado ou desligado, ele sai do estado AFU e entra no estado BFU. Nesse momento, as chaves de criptografia são removidas da RAM, impedindo o acesso aos dados protegidos mesmo por softwares forenses sofisticados. A alternativa A está errada porque o que recupera dados não alocados profundamente é a extração física, não a lógica/sistema de arquivos. A alternativa B está errada pois o eSIM não pode ser removido mecanicamente (é soldado). A D está errada porque o fabricante bloqueia o acesso à memória flash, obrigando os equipamentos a desenvolverem bootloaders próprios.",
+    "referencia": "SimuChacal, simulado 14, questão #702"
+  },
+  {
+    "id": 2986,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O procedimento de processamento de anexos digitais exige a comprovação inquestionável de que o conteúdo analisado pelo perito permaneceu inalterado ao longo da persecução penal. Sobre a aplicação das funções unidirecionais de resumo nesse contexto documental, assinale a opção correta",
+    "alternativas": {
+      "A": "A validade probatória da mídia anexa consolida-se pela transcrição no corpo do laudo pericial do valor criptográfico correspondente ao arquivo de texto que elenca os identificadores dos vestígios",
+      "B": "O emprego da técnica de recuperação orientada por assinaturas resgata de maneira estrita os atributos estruturais e as nomenclaturas originais dos itens apagados, condicionando a validação probatória à leitura da tabela de indexação primária",
+      "C": "A função criptográfica MD5 confere ao examinador a capacidade de reverter o respectivo resumo matemático para resgatar credenciais de acesso bancário, aplicando o modelo probabilístico de dicionários customizados na etapa de filtragem eletrônica",
+      "D": "O cálculo do algoritmo de segurança lógica sobre o arquivo-contêiner global dispensa a listagem individualizada dos vestígios no formato de texto, simplificando substancialmente a cadeia de custódia e a posterior etapa de autenticação material"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para garantir a autenticidade e integridade da mídia anexa, o perito gera um arquivo de texto com a lista de hashes de todos os arquivos extraídos, calcula o hash desse próprio arquivo de texto e o transcreve no corpo do laudo que será assinado (garantia de inviolabilidade cruzada). A alternativa B erra ao dizer que a recuperação por assinatura (data carving) resgata nomes/atributos; isso não ocorre, pois ignora o sistema de arquivos. A C erra porque o hash MD5 é unidirecional e matematicamente irreversível. A D erra porque a listagem individual (o hashes.txt) é um procedimento explícito e obrigatório descrito no manual da PF.",
+    "referencia": "SimuChacal, simulado 14, questão #703"
+  },
+  {
+    "id": 2987,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A triagem pericial de materiais contendo exploração sexual infantojuvenil (ASI) submete o examinador a um rigoroso protocolo de identificação, classificação e limitação de exposição. Com base nas diretrizes organizacionais dessa modalidade de exame, assinale a assertiva técnica compatível com a norma",
+    "alternativas": {
+      "A": "O agrupamento cronológico de registros ilícitos infantojuvenis no interior do Banco Federal de Arquivos Conhecidos restringe a identificação da autoria subjacente às condutas de armazenamento e de difusão de conteúdo no relatório técnico de encerramento das investigações",
+      "B": "O atingimento da cota de quinhentos elementos visuais comprobatórios fundamenta a interrupção da triagem voltada à caracterização da posse do material ilícito",
+      "C": "A recuperação de itens residuais deletados e armazenados provisoriamente na mídia de destino demanda a indexação ininterrupta do mapa de bits para permitir a catalogação do material recém-extraído nas partições de produção primária e de distribuição sistêmica",
+      "D": "A constatação secundária de arquivos suspeitos processada por algoritmos heurísticos dispensa a validação laboratorial do perito criminal para configurar a materialidade técnica na categoria de disponibilização executada em arquiteturas descentralizadas de rede"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O normativo interno estipula que 500 arquivos configuram a chamada \"saturação qualitativa\". Ao atingir esse número, o exame de posse de imagens de ASI pode ser interrompido para proteger o perito, visto que o conjunto probatório já é legalmente suficiente. A alternativa A cria confusão com o propósito do BFAC. A C inventa trâmites não descritos sobre formatação do mapa de bits para triagem de ASI. A D erra pois arquivos classificados por Inteligência Artificial (IA) sem confirmação visual do perito precisam de marcador próprio com a ressalva de não terem tido confirmação humana direta.",
+    "referencia": "SimuChacal, simulado 14, questão #704"
+  },
+  {
+    "id": 2988,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise de um computador apreendido, um aluno afirmou que teclado, mouse, scanner, webcam e microfone pertencem todos à mesma categoria funcional de periféricos.\n\nÀ luz do material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Todos são periféricos exclusivamente de saída.",
+      "B": "Todos são periféricos exclusivamente de entrada.",
+      "C": "Teclado e mouse são periféricos de entrada, enquanto scanner, webcam e microfone são periféricos de saída.",
+      "D": "Apenas teclado e mouse podem ser considerados periféricos, pois os demais integram o gabinete do computador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. Periféricos de saída são aqueles utilizados para apresentar ao usuário os dados resultantes do processamento, como monitor, impressora e caixas de som.\n\nB) Correta. O material classifica teclado, mouse, scanner, webcam e microfone como periféricos de entrada, pois fornecem dados ao computador para processamento.\n\nC) Incorreta. Scanner, webcam e microfone também são dispositivos de entrada, e não de saída.\n\nD) Incorreta. Todos os dispositivos mencionados são considerados periféricos, normalmente localizados fora do gabinete.",
+    "referencia": "SimuChacal, simulado 14, questão #712 — Ref: Página 19 / Item 2.2.5 – Periféricos."
+  },
+  {
+    "id": 2989,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as assertivas a seguir.\n\nI. O sistema operacional gerencia o acesso aos recursos do computador.\n\nII. Entre suas funções estão a gerência de memória, o acesso a dispositivos de entrada e saída e o gerenciamento do sistema de arquivos.\n\nIII. O sistema operacional funciona como camada intermediária entre os programas e os dispositivos físicos do computador.\n\nIV. Discos rígidos, impressoras e portas USB podem ser acessados diretamente por qualquer programa, sem intermediação do sistema operacional.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e III estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "Todas as assertivas estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "I) Correta. O sistema operacional é o software responsável por gerenciar o acesso aos recursos do computador.\n\nII) Correta. O material menciona expressamente a gerência de memória, o acesso a dispositivos de entrada e saída, o carregamento de programas, a interface gráfica e o gerenciamento do sistema de arquivos.\n\nIII) Correta. A figura apresentada no material mostra os programas acima do sistema operacional, enquanto os dispositivos físicos ficam abaixo, evidenciando sua função intermediadora.\n\nIV) Incorreta. O acesso aos dispositivos é gerenciado pelo sistema operacional, que fornece aos programas os meios necessários para utilização dos recursos de hardware",
+    "referencia": "SimuChacal, simulado 14, questão #715"
+  },
+  {
+    "id": 2990,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame em uma mídia digital, verificou-se que o dispositivo estava organizado logicamente em unidades mínimas de armazenamento. Um pequeno arquivo, embora ocupasse poucos bytes, utilizava uma unidade inteira, enquanto arquivos maiores ocupavam tantas unidades quantas fossem necessárias.\n\nA estrutura descrita corresponde ao conceito de:",
+    "alternativas": {
+      "A": "Diretório-raiz.",
+      "B": "Bloco ou unidade de alocação.",
+      "C": "Memória RAM.",
+      "D": "Setor de inicialização do sistema operacional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. O diretório-raiz é uma estrutura de organização de arquivos e pastas, não a unidade mínima de espaço ocupada por um arquivo.\n\nB) Correta. O bloco, também chamado de unidade de alocação, é a unidade mínima de armazenamento que um arquivo pode ocupar. Mesmo um arquivo muito pequeno recebe um bloco inteiro.\n\nC) Incorreta. A memória RAM é uma memória volátil utilizada durante o processamento, não uma unidade lógica do sistema de arquivos.\n\nD) Incorreta. O enunciado descreve a forma de alocação de arquivos, e não uma área específica de inicialização.",
+    "referencia": "SimuChacal, simulado 14, questão #716"
+  },
+  {
+    "id": 2991,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um computador com sistema Windows possui uma mídia de armazenamento formatada para permitir a gravação, leitura e organização estruturada de arquivos e diretórios.\n\nCom base no material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O sistema de arquivos é responsável por fornecer mecanismos para gravação e leitura de arquivos e diretórios, sendo interpretado pelo sistema operacional.",
+      "B": "O sistema de arquivos substitui integralmente o sistema operacional.",
+      "C": "FAT32 e NTFS são sistemas operacionais utilizados em computadores Windows.",
+      "D": "A divisão da mídia em blocos impede que arquivos maiores utilizem mais de uma unidade de alocação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Correta. O sistema de arquivos organiza os dados na mídia e fornece meios para gravação e leitura de arquivos e diretórios. O sistema operacional compreende essa estrutura e disponibiliza o acesso aos demais programas.\n\nB) Incorreta. O sistema de arquivos é gerenciado pelo sistema operacional e não o substitui.\n\nC) Incorreta. FAT32 e NTFS são sistemas de arquivos associados ao Windows, e não sistemas operacionais.\n\nD) Incorreta. Arquivos grandes ocupam tantos blocos quantos forem necessários para armazenar seu conteúdo.",
+    "referencia": "SimuChacal, simulado 14, questão #717"
+  },
+  {
+    "id": 2992,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de um mandado de busca e apreensão, a equipe policial arrecadou um smartphone desbloqueado pertencente ao investigado. Ao justificar a relevância do exame pericial do aparelho, o Perito Criminal Federal fundamentou sua manifestação na apostila da ANP.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os smartphones possuem relevância pericial inferior à dos computadores pessoais, pois armazenam quantidade reduzida de vestígios digitais.",
+      "B": "Os aparelhos celulares modernos têm importância pericial principalmente por armazenarem agenda telefônica e registros de chamadas, funções que permanecem como sua principal utilidade investigativa.",
+      "C": "A relevância dos smartphones decorre do armazenamento de comunicações, localização, dados de aplicativos e outras informações relacionadas à rotina do usuário, além de permanecerem normalmente em constante proximidade dele.",
+      "D": "Sempre que houver notebook apreendido, o exame do smartphone torna-se dispensável, pois ambos normalmente contêm os mesmos vestígios."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila destaca que os smartphones se tornaram uma das principais fontes de evidências digitais por armazenarem comunicações, localização (GPS), redes sociais, aplicativos e diversos outros dados, permanecendo quase sempre junto ao usuário. As alternativas A, B e D diminuem ou distorcem essa importância.",
+    "referencia": "SimuChacal, simulado 14, questão #718 — Ref: Capítulo 7 – 7.1 Dispositivos móveis: conceitos fu"
+  },
+  {
+    "id": 2993,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas abaixo acerca das tecnologias de telefonia móvel.\n\nI. O IMEI identifica unicamente o aparelho celular.\n\nII. O IMSI identifica o assinante do serviço móvel e é armazenado no cartão SIM.\n\nIII. O ICCID corresponde ao identificador único do cartão SIM.\n\nIV. O ESN é um identificador utilizado pela tecnologia GSM.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e III estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As afirmativas I, II e III estão de acordo com a apostila. A afirmativa IV é a pegadinha: o ESN (ou MEID) é utilizado na tecnologia CDMA, e não na GSM.",
+    "referencia": "SimuChacal, simulado 14, questão #719 — Ref: Capítulo 7 – 7.1 Dispositivos móveis: conceitos fu"
+  },
+  {
+    "id": 2994,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a elaboração de um laudo, um servidor registra a seguinte afirmação:\n\n\"Na tecnologia GSM, o cartão SIM identifica fisicamente o aparelho celular, enquanto o IMEI identifica o assinante da linha.\"\n\nÀ luz da apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A afirmação está correta.",
+      "B": "A afirmação está incorreta porque o IMEI identifica o aparelho celular, enquanto o IMSI, armazenado no cartão SIM, identifica o assinante.",
+      "C": "A afirmação está incorreta porque o cartão SIM armazena apenas o ICCID, não contendo qualquer informação referente ao assinante.",
+      "D": "A afirmação está incorreta porque a tecnologia GSM não utiliza cartão SIM."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A questão explora uma inversão clássica de conceitos. O IMEI identifica o equipamento, enquanto o IMSI identifica o assinante e fica armazenado no cartão SIM. O ICCID, por sua vez, identifica o próprio cartão SIM. A alternativa D também está errada, pois o uso do cartão SIM é justamente uma característica da tecnologia GSM.",
+    "referencia": "SimuChacal, simulado 14, questão #720 — Ref: pág. 56."
+  },
+  {
+    "id": 2995,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação à classificação dos crimes informáticos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os crimes informáticos puros ou próprios caracterizam-se por utilizarem o computador apenas como instrumento para atingir um bem jurídico localizado fora do ambiente digital, como ocorre no estelionato eletrônico.",
+      "B": "Nos crimes informáticos indiretos ou incidentais, o computador constitui o objeto material da infração penal, sendo indispensável que haja dano ao sistema informatizado.",
+      "C": "Os crimes informáticos impuros ou impróprios são aqueles em que a conduta é praticada por meio do computador, mas a lesão ao bem jurídico protegido ocorre fora do espaço cibernético.",
+      "D": "Nos crimes informáticos indiretos ou incidentais, o computador é utilizado como instrumento indispensável para a prática da infração penal, razão pela qual a consumação do delito depende de ataque direto ao sistema informatizado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A — Errada - descreve crimes em que o prejuízo ocorre fora do ambiente digital, o que corresponde aos impuros/impróprios, e não aos puros/próprios.\n\nAlternativa B — Errada - nos crimes indiretos o computador não é o meio para o crime, mas uma fonte de evidências.\n\nAlternativa D — Errada - \"Indireto ou Incidental: abrange condutas criminosas realizadas nos casos em que os computadores não são meio para o crime, mas são como 'testemunhas' que possuem planilhas, documentos, imagens e mensagens de correio eletrônico relacionados ao crime investigado.\"",
+    "referencia": "SimuChacal, simulado 14, questão #724"
+  },
+  {
+    "id": 2996,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto da Informática Forense aplicada a dispositivos móveis, os estados de criptografia AFU (After First Unlock) e BFU (Before First Unlock) são determinantes para o sucesso da extração de dados. Sobre esses estados e os procedimentos de preservação, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Se o aparelho está em AFU no momento da apreensão, a prioridade absoluta é evitar que ele volte ao estado BFU, sendo regra de preservação não desligar ou reiniciar o dispositivo sob nenhuma hipótese, uma vez que o retorno ao estado BFU remove as chaves de criptografia da memória RAM, tornando os dados inacessíveis em determinados aparelhos.",
+      "B": "O estado BFU (Before First Unlock) caracteriza-se pelo momento em que o aparelho foi ligado ou reiniciado e as chaves principais de criptografia já se encontram carregadas na memória volátil, embora o sistema ainda aguarde a primeira interação biométrica ou por PIN do usuário para liberar o acesso à interface.",
+      "C": "A manutenção do dispositivo no estado AFU permite que o sistema operacional acesse, de forma transparente, informações protegidas como mensagens e arquivos, porém esse estado não abrange o acesso a credenciais e histórico de navegação, que permanecem cifrados por chaves de grupo não carregadas na inicialização.",
+      "D": "Para garantir a integridade do estado AFU, o perito deve manter o aparelho ligado com alimentação contínua e, visando a celeridade, realizar a extração dos dados remotamente via conexão Wi-Fi ou rede celular o mais rápido possível, a fim de mitigar o risco de recebimento de comandos de wipe."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A (CORRETA): Página: 69 e 70.\n\nAlternativa B (INCORRETA): \"BFU — Before First Unlock (Antes do Primeiro Desbloqueio) [...] as chaves principais de criptografia ainda não foram carregadas na memória RAM.\", Página: 68 e 69.\n\nAlternativa C (INCORRETA): \"Essas chaves permitem que o sistema operacional acesse, de forma transparente, informações protegidas como mensagens, arquivos, histórico de navegação, dados de aplicativos e credenciais.\", Página: 70.\n\nAlternativa D (INCORRETA): \"Preservação do Estado AFU [...] Ativar o modo avião; Desabilitar as conexões de rede celular, Wi-Fi e Bluetooth; Usar bolsas de Faraday, quando aplicável\"; \"O isolamento do dispositivo examinado de qualquer rede de comunicação [é de fundamental importância] para não ocorrer perda ou alteração dos dados armazenados. A maioria dos fabricantes oferece um meio para comandar um 'wipe' remoto\", Página: 59 e 69.",
+    "referencia": "SimuChacal, simulado 14, questão #725"
+  },
+  {
+    "id": 2997,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A preservação do estado AFU (After First Unlock) é um procedimento crítico na perícia de dispositivos móveis. Sobre as medidas práticas de preservação e os riscos associados à perda deste estado, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Caso o dispositivo retorne ao estado BFU (Before First Unlock) por falta de bateria, as chaves criptográficas permanecem armazenadas de forma persistente na memória, permitindo ao perito acessar informações protegidas após inicialização controlada em laboratório.",
+      "B": "Entre as medidas práticas para a preservação do estado do aparelho, o perito deve ativar o modo avião e as conexões de rede celular, Wi-Fi e Bluetooth.",
+      "C": "Quando as chaves de criptografia estão carregadas na memória RAM durante o estado AFU, o dispositivo somente retorna ao estado BFU por meio de manual desligamento, reinicialização, ou esgotamento da bateria.",
+      "D": "No cenário de aparelhos celulares ligados sem senha fornecida, o perito deve priorizar a apreensão imediata se o aparelho estiver em uso; além disso, pode-se tentar remover o bloqueio de acesso e buscar descobrir a senha junto a terceiros no local."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alternativa A (INCORRETA): \"Caso o dispositivo retorne ao estado BFU (Before First Unlock), seja por reinicialização, desligamento manual ou por falta de bateria, essas chaves são removidas da memória. Como consequência, os dados permanecem armazenados, porém criptografados e inacessíveis em determinados aparelhos\", Página: 70.\n\nAlternativa B (INCORRETA): \"Medidas práticas: [...] Ativar o modo avião; Desabilitar as conexões de rede celular, Wi-Fi e Bluetooth;\", Página: 69.\n\nAlternativa C (INCORRETA): \"Perda do estado AFU caso ocorra um longo período desde o último desbloqueio do usuário, que pode provocar a reinicialização automática do dispositivo.\", Página: 69.\n\nAlternativa D (CORRETA): \"Aparelhos celulares ligados sem senha fornecida: Nesse cenário, deve ser priorizada a apreensão imediata se o aparelho estiver em uso. Ativar o modo avião e tentar remover o bloqueio de acesso, se viável. Além disso, buscar descobrir a senha junto a terceiros no local.”, Página: 71.",
+    "referencia": "SimuChacal, simulado 14, questão #726"
+  },
+  {
+    "id": 2998,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As etapas típicas de uma perícia envolvendo crimes de informática seguem um fluxo procedimental estabelecido para garantir a validade jurídica e a eficácia técnica do exame. Sobre essas etapas e sua sequência cronológica, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O fluxo pericial inicia-se com a seleção, coleta e transporte do material, seguida da expedição do mandado judicial que ratifica a apreensão, permitindo a identificação no SISCRIM e a realização dos exames.",
+      "B": "O fluxo pericial inicia-se com a expedição do mandado judicial, seguida da seleção, coleta e transporte do material; depois ocorre a identificação no SISCRIM, os exames, a elaboração do laudo e a devolução do laudo e materiais, se não houver questionamentos.",
+      "C": "O fluxo pericial inicia-se com o mandado e a coleta do material; os exames são realizados antes da identificação e descrição detalhada no SISCRIM, que ficam para a elaboração do laudo.",
+      "D": "O fluxo pericial inicia-se com a seleção e coleta do material, identificação no SISCRIM e exames, com devolução do material após a realização dos exames."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As etapas típicas de perícias envolvendo crimes de informática começam com a expedição de um mandado judicial autorizando a apreensão e análise de material possivelmente utilizado para a prática de crime. O ideal é que os peritos participem do planejamento e da coordenação da operação de busca e apreensão, orientando quanto à seleção, coleta e transporte correto do material que deve ser arrecadado no local. Uma vez que o material de informática chega à unidade de Criminalística, o primeiro procedimento a ser adotado é a devida identificação e descrição do material no Sistema Criminalística. Materiais de informática apresentam características distintas, como marca, modelo, número de série e capacidade de armazenamento, que devem ser informadas. Além disso, é essencial observar o estado de conservação do material recebido e a presença ou não de lacres. Essas informações devem ser consignadas no sistema. Em seguida, são realizados os exames propriamente ditos. Ao término desses exames, é finalizado também o laudo que descreve o material examinado, os procedimentos realizados e os resultados obtidos. Não havendo mais questionamentos envolvendo o material examinado, ele é devolvido juntamente com o laudo. Geralmente, a produção do Laudo resulta na geração de uma ou mais mídias (DVD/Blu-Ray/Pendrive/HD Externo/, etc.) como anexo, o que exige a realização de procedimentos adicionais para garantir sua integridade e autenticidade.",
+    "referencia": "SimuChacal, simulado 14, questão #727 — Ref: Página 12"
+  },
+  {
+    "id": 2999,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização de exames periciais em vestígios digitais podem ser adotados procedimentos de inclusão de arquivos digitais no corpo do laudo ou gravação em mídia externa e encaminhada como anexo ao laudo.\nConsiderando o material didático quais etapas abaixo compõem o procedimento de geração de anexo ao laudo pericial.\n\nI - Criação de uma lista com os hashes de todos os arquivos que serão gravados em anexo;\nII - Informação de todos os hashes (de todos os arquivos) no laudo pericial;\nIII - Cálculo do hashe do arquivo com a lista de hashes de todos os arquivos que serão gravados na mídia em anexo;\nIV - Transcrição do calculo hashe do arquivo com a lista de hashes no laudo pericial\nV - Inclusão do laudo pericial entre os arquivos na mídia anexa;\nVI - Gravação dos arquivos em mídia externa com adoção de procedimentos que impeça qualquer alteração (mídia não regravável ou configuração como somente leitura);\n\nEstão CORRETAS as alternativas",
+    "alternativas": {
+      "A": "II;III;V;VI",
+      "B": "I; III, IV e VI",
+      "C": "I; II; III; IV e VI",
+      "D": "I; III;VI"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A lista de hashes dos aquivos não é informada no laudo pericial;\nO laudo pericial não é inserido entre os anexos da mídia externa, isso ocasionaria alteração no conjunto de arquivos e a consequente alteração no resultado do cálculo do hashe;",
+    "referencia": "SimuChacal, simulado 14, questão #734 — Ref: P.75"
+  },
+  {
+    "id": 3000,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a etapa de extração e processamento de uma mídia digital, o Perito Criminal pretende localizar documentos que contenham determinado padrão textual. O disco analisado não passou pelo processo de indexação. Considerando exclusivamente o material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A ausência de indexação impede a realização da pesquisa por palavras-chave, tornando indispensável o reprocessamento da mídia antes da continuidade do exame.",
+      "B": "Na ausência de indexação, a pesquisa por palavras-chave permanece possível por meio da denominada busca live, que exige a varredura exaustiva de todo o conteúdo da mídia analisada e pode ser extremamente lenta.",
+      "C": "A busca indexada e a busca live diferem apenas quanto à interface utilizada pela ferramenta pericial, produzindo tempos de execução equivalentes.",
+      "D": "A utilização de caracteres curingas somente é admitida quando a pesquisa é realizada por meio de índice previamente gerado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material esclarece que a indexação apenas agiliza a pesquisa. Quando ela não foi realizada, a busca continua possível por meio da busca live, que realiza varredura exaustiva da mídia e pode ser extremamente lenta. O uso de caracteres curingas é descrito independentemente da modalidade de busca.",
+    "referencia": "SimuChacal, simulado 14, questão #738 — Ref: p. 44 e 45"
+  },
+  {
+    "id": 3001,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das etapas de análise e seleção no exame de Informática Forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A análise consiste exclusivamente na inspeção visual dos arquivos previamente filtrados, ao passo que a seleção corresponde à reconstrução de sistemas e bancos de dados.",
+      "B": "A seleção destina-se a identificar aplicativos de interesse, reconstruir cronologias dos eventos e examinar artefatos do sistema operacional, cabendo à análise apenas exportar os arquivos probatórios.",
+      "C": "A análise pode variar desde uma simples inspeção visual até a remontagem de sistemas ou bancos de dados, sendo orientada pelos objetivos do exame e pela quesitação; já a seleção visa agrupar e exportar, em formato inteligível, os arquivos de conteúdo probatório.",
+      "D": "A seleção é etapa obrigatoriamente posterior à elaboração do laudo pericial, pois sua finalidade é apenas anexar arquivos às conclusões já produzidas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O material diferencia claramente as duas etapas. A análise depende dos objetivos do exame e da quesitação, podendo envolver identificação de aplicativos relevantes, análise de logs, cache, histórico de navegação, programas maliciosos, compartilhamento de arquivos e organização cronológica das informações. A seleção tem por finalidade agrupar e exportar os arquivos com conteúdo probatório para formato inteligível, podendo inclusive constituir a resposta a determinado quesito.",
+    "referencia": "SimuChacal, simulado 14, questão #739 — Ref: p. 45 e 46"
+  },
+  {
+    "id": 3002,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto da decifragem de arquivos, um Perito Criminal necessita recuperar a senha de arquivos protegidos por criptografia. Considere as seguintes assertivas:\n\nI. O ataque de força bruta consiste em testar exaustivamente todas as combinações possíveis de determinado conjunto de caracteres, sendo teoricamente capaz de encontrar qualquer senha, embora apresente melhor desempenho para senhas curtas.\n\nII. O ataque por dicionário limita-se às palavras existentes em dicionários convencionais da língua, não admitindo modificações das entradas nem utilização de informações pessoais do usuário.\n\nIII. Métodos probabilísticos são bastante complexos e visam determinar sequências com maior probabilidade de terem sido utilizadas como senha, utilizando probabilidades condicionais e gramáticas especializadas, evitando testar senhas que dificilmente seriam memorizadas por um ser humano.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas a assertiva I está correta.",
+      "B": "Apenas as assertivas I e II estão corretas.",
+      "C": "Apenas as assertivas I e III estão corretas.",
+      "D": "As assertivas I, II e III estão corretas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A assertiva I reproduz corretamente o conceito de força bruta. A assertiva III também está correta ao descrever os métodos probabilísticos. A assertiva II está incorreta porque o material informa que o ataque por dicionário não se restringe a palavras de dicionários tradicionais: ele pode utilizar nomes de lugares, expressões de filmes, informações pessoais, dados encontrados no disco rígido e ainda aplicar transformações às entradas, como substituir letras por símbolos, converter letras em maiúsculas ou acrescentar números.",
+    "referencia": "SimuChacal, simulado 14, questão #740 — Ref: p. 46 e 47"
+  },
+  {
+    "id": 3003,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o laudo pericial e a autenticidade da mídia anexa, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O laudo é assinado digitalmente, garantindo autenticidade do seu teor",
+      "B": "É realizado o calculo do hash dos arquivos de hashes e transcrito no corpo do laudo",
+      "C": "O cálculo do hashe das mídias utilizadas para o exame e anexas ao laudo garante autenticidade e integridade dos arquivos.",
+      "D": "A lista com hashes dos arquivos anexos é inserida no corpo do laudo"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Apenas o hash da lista de hashes é transcrito no corpo do laudo (assinado digitalmente); .",
+    "referencia": "SimuChacal, simulado 14, questão #741 — Ref: p.75"
+  },
+  {
+    "id": 3004,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais dos procedimentos abaixo são realizados para verificação da integridade e autenticidade das mídias digitais anexas ao laudo pericial?\nI- Verificação de autenticidade da assinatura digital do laudo pericial;\nII - Cálculo do hashe do arquivo com a lista de hashes dos arquivos anexos e comparação com o hashe informado no corpo do laudo;\nIII - Cálculo do hashe de todos os arquivos e comparação com os hashes informados na lista de hashes.\nIV - Cálculo do hashe de todos os arquivos e comparação com os hashes informados no corpo do laudo;\nV - Verificação de mecanismos que não permita alteração da mídia (mídia não regravável e configuração somente leitura para mídias externas por meio da função DiskPart)",
+    "alternativas": {
+      "A": "II e III",
+      "B": "I, IV e V",
+      "C": "I, III e IV",
+      "D": "II, III e V"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Etapas II e III estão corretas;\n\nAutenticidade da assinatura digital do laudo não está entre as etapas de verificação da integridade e autenticidade das mídias digitais; (I)\nO hashe de todos os arquivos não é informado no corpo do laudo (IV)\nNão é verificado o estado de alteração da mídia; (V)",
+    "referencia": "SimuChacal, simulado 14, questão #742 — Ref: P.75"
+  },
+  {
+    "id": 3005,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a apreensão de computadores:\nI - É importante apreender o computador inteiro para depois pedir uso.\nII - É importante apreender o computador inteiro devido a possibilidade de haver criptografia de disco ativada, vinculada a um módulo de segurança existente na placa-mãe (TPM).\nIII - Não deve apreender o computador inteiro, somente retirar o HD que é a parte principal que contém os dados.\nIV - Na hora de apreender tem que apreender mouse, teclado, gabinete, monitor e qualquer acessório sem distinção.\nV - Deve apreender o computador inteiro devido a possibilidade de existência de configurações lógicas de conexão entre múltiplos discos (ex: RAID) que possam complicar a leitura desses discos sem o restante do hardware do computador.",
+    "alternativas": {
+      "A": "I, II, III, IV e V",
+      "B": "Somente II e V",
+      "C": "Somente I, II e III",
+      "D": "Somente II"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As informações de interesse estão geralmente armazenadas na memória permanente desses equipamentos, ou seja, no disco rígido (HD ou SSD). Entretanto, eles não devem ser retirados do gabinete ou do notebook para serem apreendidos: a regra é apreender os computadores por inteiro.\nO principal motivo é a possibilidade de haver criptografia de disco ativada, vinculada a um módulo de segurança existente na placa-mãe (TPM), que faz com que os dados contidos nos discos avulsos se tornem inacessíveis. Devem ser consideradas também as dificuldades de acesso físico ao interior de notebooks, além da possibilidade de existência de configurações lógicas de conexão entre múltiplos discos (ex: RAID) que possam complicar a leitura desses discos sem o restante do hardware do computador.",
+    "referencia": "SimuChacal, simulado 14, questão #743 — Ref: p. 27"
+  },
+  {
+    "id": 3006,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Caso o equipamento esteja ligado, qual o procedimento a ser feito?",
+    "alternativas": {
+      "A": "Desliga-lo imediatamente.",
+      "B": "Ignorar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil.",
+      "C": "Colocar no estado de suspensão.",
+      "D": "Verificar a necessidade de registrar flagrante, de acordo com o que estiver claramente visível na tela do computador."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Erro da alternativa A e C- Não é para desligar/suspender e sim colocar no estado de hibernação.\nErro da B - Tem que verificar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil.\nCaso o computador esteja ligado, deve-se:\n• verificar a necessidade de registrar flagrante, de acordo com o que estiver claramente visível na tela do computador;\n• verificar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil, avaliando a necessidade de realizar procedimentos para a preservação dos dados, como:\n• obtenção da chave de recuperação do Bitlocker;\n• configuração do Bitlocker em modo de suspensão;\n• obtenção das chaves criptográficas do WhatsApp Web;\n• ativação do modo de hibernação do Windows;\n• captura da memória RAM; e\n• colocar o computador em modo de hibernação.",
+    "referencia": "SimuChacal, simulado 14, questão #744 — Ref: p. 28"
+  },
+  {
+    "id": 3007,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São sugeridas algumas dicas no momento da seleção do material a ser apreendido:\nI - Independente do mérito da investigação deve apreender os computadores mesmo que tenha documentos que já comprovem o que será buscado, pois o computador sempre terá mais dados;\nII - Nunca deve imprimir um relatório diretamente do banco de dados ou do sistema de informática da empresa, para não alterar o material que se deseja apreender;\nIII - Deve ser considerado a possibilidade de ser feita a cópia de dados no local;",
+    "alternativas": {
+      "A": "Somente I",
+      "B": "Somente II e III",
+      "C": "Somente III",
+      "D": "Nenhuma das alternativas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "São sugeridas algumas dicas no momento da seleção do material a ser apreendido:\n• saber o que se deseja provar – às vezes, uma prova documental encontrada no local já é suficiente;\n• imprimir um relatório diretamente do banco de dados ou do sistema de informática da empresa pode ser mais eficaz que apreender os respectivos computadores;\n• senhas, nomes de usuários ou detalhes do funcionamento de sistemas podem ser necessários em um exame futuro. Essas informações podem ser encontradas em anotações próximas aos computadores ou ser solicitadas às pessoas presentes no local, mesmo que sejam os próprios suspeitos da investigação (embora não haja por parte deles obrigação de fornecer esses dados).\nUma busca em local envolvendo crimes por computador normalmente apreende computadores e mídias avulsas. Pode ser necessária a realização de cópia de dados no local.",
+    "referencia": "SimuChacal, simulado 14, questão #745 — Ref: p. 27"
+  },
+  {
+    "id": 3008,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o conceito, a evolução histórica e os elementos distintivos da Informática Forense, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A Informática Forense é a área das Ciências Forenses que trata da coleta, preservação, análise e apresentação de evidências digitais que possam ser utilizadas e sustentadas em juízo.",
+      "B": "Podemos definir a Informática Forense como o conjunto de procedimentos realizados sobre mídias de armazenamento e outros equipamentos computacionais em busca de evidências digitais.",
+      "C": "Um dos fatores que faz com que a Informática Forense seja equivalente às demais áreas da informática é a preocupação jurídica inerente à sua destinação.",
+      "D": "Um dos fatores que torna a Informática Forense distinta das demais áreas da informática é a realização de procedimentos sólidos que não suscitem dúvidas ou questionamentos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A e B - corretas\nPodemos definir a Informática Forense como o conjunto de procedimentos realizados sobre mídias de armazenamento e outros equipamentos computacionais em busca de evidências digitais. Em outras palavras, a Informática Forense é a área das Ciências Forenses que trata da coleta, preservação, análise e apresentação de evidências digitais que possam ser utilizadas e sustentadas em juízo.\n\nC errada e D correta\nO que torna a Informática Forense distinta das demais áreas da informática é a preocupação jurídica inerente à sua destinação, a aplicação de conceitos da Criminalística (como a cadeia de custódia e a preservação do local do crime) e a realização de procedimentos sólidos que não suscitem dúvidas ou questionamentos.",
+    "referencia": "SimuChacal, simulado 14, questão #774"
+  },
+  {
+    "id": 3009,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em 2001, em Budapeste, na Hungria, o Conselho da Europa publicou a\nConvenção de Crimes Cibernéticos, conhecida como Convenção de Budapeste.\nO objetivo dessa convenção é aprimorar o enfrentamento aos crimes cibernéticos com melhorias de legislação e facilitação da cooperação internacional. Em 2026, mais de 80 países já haviam assinado a Convenção2, incluindo o Brasil, que aderiu em",
+    "alternativas": {
+      "A": "2021",
+      "B": "2022",
+      "C": "2023",
+      "D": "2024"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #775"
+  },
+  {
+    "id": 3010,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos \"EXAMES EM EQUIPAMENTOS ELETRÔNICOS PORTÁTEIS\", julgue as assertivas corretas:\n\nI. Os registros dos dados de registros de ligações e mensagens encontrados em um cartão SIM sempre correspondem aos registrados pela operadora\n\nII. Apenas a operadora pode informar com precisão as chamadas realmente realizadas ou recebidas, bem como as mensagens de texto e correio de voz\n\nIII. Não é recomendável inserir os cartões em um aparelho diverso do telefone examinado para visualizar e extrair suas informações",
+    "alternativas": {
+      "A": "Apenas II está correta",
+      "B": "Apenas III está correta",
+      "C": "Todas estão corretas",
+      "D": "Apenas II e III estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "I. Uma ressalva deve ser feita com relação aos dados de registros de ligações e mensagens, pois não se pode garantir que os registros encontrados na memória do aparelho ou em um cartão SIM correspondam aos registrados pela operadora\n\nII. Correta\n\nIII. Correta",
+    "referencia": "SimuChacal, simulado 14, questão #793 — Ref: p.59-60"
+  },
+  {
+    "id": 3011,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos \"EXAMES EM EQUIPAMENTOS ELETRÔNICOS PORTÁTEIS\", julgue as assertivas corretas:\n\nI. Pode haver uma troca de informações entre o cartão SIM e um aparelho diverso do telefone examinado, possivelmente sobrescrevendo informações previamente armazenadas, como o histórico de IMEIs atrelados àquele cartão SIM (caso essa informação seja salva)\n\nII. Os cartões SIM e de memória devem ser analisados conjuntamente, uma vez que se utilizam dos mesmos leitores.\n\nIII. Os dados disponíveis em aparelho de telefonia celular independem do sistema operacional do aparelho, sua versão, bem como dos aplicativos instalados.",
+    "alternativas": {
+      "A": "Apenas I está correta",
+      "B": "Apenas I e III estão corretas",
+      "C": "Apenas II e III estão corretas",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "I. Correta\n\nII. Os cartões SIM e de memória devem ser analisados separadamente, utilizando-se leitores específicos\n\nIII. Os dados disponíveis em aparelho de telefonia celular DEPENDEM do sistema\noperacional do aparelho, sua versão, bem como dos aplicativos instalados.",
+    "referencia": "SimuChacal, simulado 14, questão #794 — Ref: p. 60"
+  },
+  {
+    "id": 3012,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA no que diz respeito à organização e priorização do material examinado em casos de Abuso Sexual Infantojuvenil (ASI):",
+    "alternativas": {
+      "A": "O perito deve separar os arquivos examinados em três conjuntos distintos, caso não haja disposição diversa na quesitação: disponibilização (transmissão via P2P, redes sociais, etc.), produção (material possivelmente produzido pelo investigado) e posse (demais materiais não enquadrados nos grupos anteriores).",
+      "B": "Para a priorização do material, recomenda-se ordenar os arquivos primeiro por identificação positiva via BFAC (Banco Federal de Arquivos Conhecidos) e, posteriormente, por maior probabilidade de conter MASI (Material de ASI) utilizando modelos de Inteligência Artificial.",
+      "C": "O exame de Identificação de MASI para caracterizar a posse deve ser realizado de forma exaustiva em todo o dispositivo, não sendo permitida a interrupção do exame antes da análise de 100% das mídias, a fim de garantir a materialidade total do crime.",
+      "D": "Arquivos classificados como MASI unicamente por ferramentas de IA ou pelo BFAC, sem a confirmação visual do perito, devem ser identificados por marcador próprio que explicite tal circunstância, e o uso da IA deve sempre constar no laudo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C está incorreta porque o manual estabelece o conceito de saturação qualitativa. Por exemplo, quanto à posse de MASI, a quantidade de 500 arquivos é considerada suficiente para estabelecer o conjunto probatório quanto à posse. Portanto, constatada essa quantidade, o exame de identificação para fins de posse pode ser interrompido, pois novos arquivos deixariam de acrescentar informações contextuais relevantes.",
+    "referencia": "SimuChacal, simulado 14, questão #795 — Ref: p. 51-52"
+  },
+  {
+    "id": 3013,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que diz respeito aos procedimentos e critérios técnicos para a identificação visual de Material de Abuso Sexual Infantojuvenil (MASI), assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A identificação visual de MASI baseia-se principalmente na constatação de conotação sexual explícita.",
+      "B": "Para a caracterização da menoridade, o perito deve observar critérios físicos como a proporção corporal típica, traços faciais infantis e a ausência ou início precoce de desenvolvimento puberal.",
+      "C": "Ao constatar indícios de menoridade em uma cena, é dever do perito criminal realizar a estimativa da idade numérica aproximada (ex: 10 a 13 anos) dos indivíduos representados, a fim de garantir a precisão técnica necessária para o enquadramento legal.",
+      "D": "Elementos contextuais, tais como o uso de termos sugestivos em nomes de pastas (ex: \"pthc\", \"13yo\") ou a classificação prévia por ferramentas de Inteligência Artificial, possuem caráter informativo e não podem ser utilizados para corroborar a conclusão pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B reproduz fielmente as orientações do manual para a avaliação da menoridade, citando a proporção corporal (cabeça proporcionalmente maior que o corpo), traços faciais específicos (olhos proporcionalmente grandes) e o estágio de desenvolvimento puberal (testículos e genitália subdesenvolvidos).\n\nAnálise das alternativas incorretas:\nA: Incorreta porque a identificação de MASI exige a presença simultânea de indícios de menoridade e conotação sexual, sendo ambos de responsabilidade do perito.\n\nC: Incorreta porque o manual proíbe expressamente o perito de estimar a idade numérica dos representados.\n\nD: Incorreta porque o manual afirma que elementos contextuais e termos sugestivos podem, sim, ser levados em consideração para corroborar a conclusão do perito.",
+    "referencia": "SimuChacal, simulado 14, questão #798 — Ref: p.52-53"
+  },
+  {
+    "id": 3014,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as diretrizes para a realização de exames em casos de Abuso Sexual Infantojuvenil (ASI) estabelecidas no Manual de Informática Forense da Polícia Federal, analise as afirmativas abaixo:\n\nI. O Exame de Identificação de MASImaterial de ASI) consiste na análise visual do conteúdo e, segundo a Portaria 1710/2026, pode ser realizado por perito de qualquer área, desde que incida sobre dados previamente extraídos e processados por ferramenta forense.\n\nII. Na organização do material, o perito deve separar os arquivos em três conjuntos distintos: disponibilização, produção e posse, devendo os arquivos do grupo \"Produção\" serem encaminhados para inclusão no BFAC (Banco Federal de Arquivos Conhecidos).\n\nIII. Para otimizar o exame e garantir a saúde mental do perito, o manual estabelece a \"saturação qualitativa\", que permite a interrupção da análise de posse após a constatação de conjunto probatório suficiente.\n\nIV. O conceito de Abuso Sexual Infantojuvenil (ASI) para fins periciais é amplo, abrangendo situações em que a criança ou adolescente seja envolvido em atividades de natureza sexual de forma real ou simulada.\n\nAssinale a alternativa que indica quais afirmativas estão CORRETAS:",
+    "alternativas": {
+      "A": "Apenas I e IV",
+      "B": "Apenas II, III e IV",
+      "C": "Apenas I, II e III.",
+      "D": "Todas as afirmativas estão corretas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #803 — Ref: p. 49-53"
+  },
+  {
+    "id": 3015,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos \"EXAMES EM EQUIPAMENTOS ELETRÔNICOS PORTÁTEIS\", julgue as assertivas corretas:\n\nI. É de fundamental importância o isolamento do dispositivo examinado de qualquer rede de comunicação para não ocorrer perda ou alteração dos dados armazenados.\n\nII. A maioria dos fabricantes oferece um meio para comandar um “wipe” remoto dos equipamentos ), tornando a recuperação de qualquer dado uma tarefa quase impossível.\n\nIII. Para manter o aparelho isolado de redes sem fio (celular, Wi-Fi ou Bluetooth), podem ser usadas diversas estratégias a depender da disponibilidade de meios do momento, como a remoção do(s) cartão(ões) SIM, uso de bolsas ou caixas Faraday e ativação do modo avião do aparelho",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas",
+      "B": "Apenas II e III estão corretas",
+      "C": "Apenas I e III estão corretas",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #807 — Ref: p. 59"
+  },
+  {
+    "id": 3016,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A apreensão de dados por meio de cópias, em vez da apreensão dos equipamentos, pode ser realizada quando:",
+    "alternativas": {
+      "A": "O proprietário dos equipamentos não autorizar sua apreensão, independentemente de decisão judicial.",
+      "B": "O equipamento possuir capacidade de armazenamento superior a 1 TB.",
+      "C": "Houver inviabilidade legal ou técnica para apreender os equipamentos, ou para reduzir o volume de material arrecadado",
+      "D": "Os dados estiverem armazenados exclusivamente em mídias removíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Quando houver inviabilidade legal ou técnica à apreensão de equipamentos, poderão ser efetuadas cópias dos dados existentes no local, os quais serão posteriormente examinados. A apreensão de dados pode ser realizada ainda para reduzir o volume de material arrecadado\" P 29",
+    "referencia": "SimuChacal, simulado 14, questão #808"
+  },
+  {
+    "id": 3017,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a apreensão de mídias que claramente não possuem dados relevantes ao processo investigativo deve ser:",
+    "alternativas": {
+      "A": "Limitada apenas às mídias encontradas em empresas.",
+      "B": "Realizada somente mediante autorização do proprietário.",
+      "C": "Sempre realizada, pois qualquer mídia pode conter evidências ocultas.",
+      "D": "Evitada, como no caso de CDs e DVDs originais contendo músicas ou instaladores de programas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"Deve ser evitada a apreensão de mídias que claramente não possuem dados relevantes ao processo apuratório, como CDs e DVDs originais contendo músicas ou instalação de programas, por exemplo.\" P 29",
+    "referencia": "SimuChacal, simulado 14, questão #809"
+  },
+  {
+    "id": 3018,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a arrecadação de vestígios de informática, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Os discos rígidos devem ser acondicionados, preferencialmente, em embalagens próprias.",
+      "B": "Na ausência de embalagens próprias, pode-se utilizar papelão ou plástico-bolha para proteção.",
+      "C": "As etiquetas identificadoras devem, preferencialmente, ser afixadas na embalagem, evitando contato direto com o equipamento.",
+      "D": "Os cabos de dados, carregadores e demais acessórios devem ser embalados juntamente com o equipamento correspondente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"As etiquetas identificadoras devem, preferencialmente, ser afixadas sobre o equipamento em si, não sobre as embalagens.\"",
+    "referencia": "SimuChacal, simulado 14, questão #810 — Ref: 31"
+  },
+  {
+    "id": 3019,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a realização de cópias de dados para apreensão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O hash dos dados deve ser calculado apenas quando solicitado pela autoridade policial.",
+      "B": "A presença de testemunhas do local é obrigatória, sendo inválida a apreensão realizada sem elas.",
+      "C": "A realização das cópias depende, entre outros requisitos, da disponibilidade de mídias adequadas, equipamentos e softwares compatíveis, além de recursos humanos suficientes para executá-las em tempo hábil.",
+      "D": "A supervisão de Perito Criminal da área de informática é dispensável, desde que a cópia seja feita por um funcionário da empresa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Além disso, a apreensão de dados só deve ser realizada quando houver:\n• disponibilidade de mídias de tipo e capacidade adequados para armazenar\nas cópias;\n• disponibilidade de equipamentos e software adequados; e\n• disponibilidade de recursos humanos para realização das cópias em\ntempo hábil.\" P 30",
+    "referencia": "SimuChacal, simulado 14, questão #811"
+  },
+  {
+    "id": 3020,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao acondicionamento de vestígios digitais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os discos rígidos retirados de um mesmo gabinete devem ser embalados separadamente para preservar a cadeia de custódia.",
+      "B": "Todas as mídias removíveis devem ser reunidas em um único volume lacrado, independentemente do tipo.",
+      "C": "Os cabos e carregadores devem ser acondicionados separadamente para evitar interferências eletromagnéticas.",
+      "D": "Os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume, enquanto as mídias removíveis devem ser agrupadas por tipo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"Os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume. Mídias removíveis devem ser agrupadas por tipo e cada conjunto deve ser embalado e lacrado separadamente.\"",
+    "referencia": "SimuChacal, simulado 14, questão #812 — Ref: 31"
+  },
+  {
+    "id": 3021,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o material, qual é a justificativa para a utilização, sempre que possível, de embalagens antiestáticas durante a arrecadação de vestígios de informática?",
+    "alternativas": {
+      "A": "Impedir a oxidação dos componentes metálicos.",
+      "B": "Evitar a exposição das mídias à luz solar.",
+      "C": "Reduzir a vibração mecânica durante o transporte.",
+      "D": "Evitar danos causados pela eletricidade estática aos componentes eletrônicos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"Os componentes eletrônicos são muito suscetíveis à eletricidade estática. A estática presente no corpo humano pode danificar componentes eletrônicos. Os plásticos para acondicionamento de vestígios também podem acumular eletricidade estática. Portanto, deve-se, sempre que possível, utilizar embalagens antiestáticas.\"",
+    "referencia": "SimuChacal, simulado 14, questão #813 — Ref: 31"
+  },
+  {
+    "id": 3022,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando não houver disposição diversa na quesitação, os arquivos examinados devem ser separados em quais conjuntos?",
+    "alternativas": {
+      "A": "Identificação, classificação e confirmação.",
+      "B": "Disponibilização, produção e posse.",
+      "C": "ASI, suspeita de ASI e pornografia adulta.",
+      "D": "Arquivos ativos, arquivos apagados e arquivos recuperados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O perito responsável pelo Exame de Análise de Conteúdo – ASI deve separar os arquivos examinados em três conjuntos:\nI. disponibilização;\nII. produção; e\nIII. posse.”",
+    "referencia": "SimuChacal, simulado 14, questão #814"
+  },
+  {
+    "id": 3023,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a priorização dos arquivos examinados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os arquivos devem ser ordenados inicialmente pela classificação realizada por ferramenta de IA e, depois, pela identificação positiva via BFAC.",
+      "B": "A ordem de prioridade deve ser: pornografia adulta, ASI, suspeita de ASI, pessoas sem conotação sexual e outros.",
+      "C": "Recomenda-se ordenar primeiro os arquivos com identificação positiva via BFAC e, em cada conjunto, pela maior probabilidade de conter MASI.",
+      "D": "Os arquivos classificados como “outros” devem ser analisados antes daqueles identificados como ASI."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #815"
+  },
+  {
+    "id": 3024,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas:\n\nI. A Portaria 1710/2026 considera 500 arquivos contendo cenas de ASI como quantidade suficiente para alcançar a saturação qualitativa no grupo referente à posse.\n\nII. Alcançada essa quantidade, o exame destinado a caracterizar a posse pode ser interrompido, pois se considera estabelecido conjunto probatório suficiente.\n\nIII. Arquivos classificados como MASI exclusivamente por IA ou BFAC, sem confirmação visual do perito, devem ser incluídos normalmente nos mesmos marcadores dos arquivos visualmente confirmados.\n\nIV. O uso de ferramenta de IA deve ser consignado no laudo, independentemente do grau de supervisão humana.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e IV estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #816"
+  },
+  {
+    "id": 3025,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base na descrição da apostila, assinale a alternativa correta acerca da placa-mãe.",
+    "alternativas": {
+      "A": "O BIOS é armazenado na memória RAM e sua execução ocorre apenas após o carregamento do sistema operacional.",
+      "B": "Placas de rede e de vídeo são obrigatoriamente conectadas à placa-mãe por cabos, enquanto discos rígidos utilizam slots dedicados.",
+      "C": "O BIOS tem como função identificar, configurar, testar e inicializar os dispositivos do sistema, estando gravado em um tipo de memória existente na placa-mãe.",
+      "D": "Dispositivos classificados como on-board são aqueles conectados externamente à placa-mãe por meio de interfaces USB."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo a apostila, a placa-mãe contém uma memória onde está gravado o BIOS (Basic Input Output System), responsável por identificar, configurar, testar e inicializar os dispositivos do sistema. Placas de vídeo e rede normalmente utilizam slots, podendo ser integradas (on-board), enquanto discos rígidos e leitores conectam-se por cabos.",
+    "referencia": "SimuChacal, simulado 14, questão #826"
+  },
+  {
+    "id": 3026,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da interação entre processador, memória RAM e memória secundária, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os programas são executados diretamente a partir da memória secundária, dispensando transferência para a memória principal.",
+      "B": "A memória RAM é permanente, enquanto a memória secundária perde seu conteúdo após o desligamento do computador.",
+      "C": "Dados e programas permanecem armazenados na memória secundária e, quando necessários, são transferidos para a memória principal, onde podem ser utilizados pelo processador.",
+      "D": "O processador executa apenas operações aritméticas, cabendo à memória RAM realizar operações lógicas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila explica que dados e programas permanecem armazenados na memória secundária (não volátil) e, quando necessários, são transportados para a memória principal (RAM), utilizada pelo processador durante a execução. A RAM é volátil, enquanto o processador executa instruções que podem envolver busca de dados, cálculos e testes lógicos",
+    "referencia": "SimuChacal, simulado 14, questão #827"
+  },
+  {
+    "id": 3027,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação adotada pela apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O SSD utiliza discos magnéticos concêntricos divididos em trilhas e setores, diferindo do HD apenas pela velocidade de acesso.",
+      "B": "O monitor touch-screen é classificado exclusivamente como periférico de entrada.",
+      "C": "As memórias flash são utilizadas em dispositivos como cartões de memória, pen drives e SSDs, preservando os dados mesmo sem alimentação elétrica.",
+      "D": "As mídias ópticas (CD, DVD e Blu-ray) são classificadas como memória principal devido à elevada velocidade de leitura."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo a apostila, as memórias flash utilizam chips capazes de manter os dados de forma persistente, sendo empregadas em cartões de memória, pen drives, memória interna de celulares e nos SSDs. Já o HD utiliza discos magnéticos; o monitor touch-screen é periférico de entrada e saída; e mídias ópticas constituem memória secundária (não volátil).",
+    "referencia": "SimuChacal, simulado 14, questão #828"
+  },
+  {
+    "id": 3028,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a finalidade e a concepção das ferramentas integradas na Informática Forense, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Elas são projetadas para substituir o Perito Criminal, automatizando completamente a tomada de decisão jurídica.",
+      "B": "Visam à praticidade e produtividade, agregando funcionalidades de diversas ferramentas específicas para cada etapa do exame pericial",
+      "C": "Devem ser utilizadas exclusivamente para a cópia lógica de dados, sendo ineficazes para a recuperação de arquivos apagados.",
+      "D": "São softwares de uso restrito a laboratórios centrais, não podendo ser levadas para exames em campo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – O texto afirma que as ferramentas integradas agregam funcionalidades específicas de cada etapa do exame para aumentar a produtividade",
+    "referencia": "SimuChacal, simulado 14, questão #829 — Ref: 47 e 48"
+  },
+  {
+    "id": 3029,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Utilizando uma única ferramenta integrada, o Perito Criminal é capaz de realizar uma série de procedimentos. De acordo com o texto, qual das opções abaixo NÃO representa uma dessas funcionalidades?",
+    "alternativas": {
+      "A": "Copiar o conteúdo de um disco questionado para um arquivo-imagem",
+      "B": "Realizar a indexação e a pesquisa por palavras-chave",
+      "C": "Gerar relatórios com links para os arquivos que foram selecionados pelo perito",
+      "D": "Alterar o código-fonte de sistemas operacionais proprietários para remover senhas de BIOS."
+    },
+    "resposta_correta": "D",
+    "justificativa": "D – As funcionalidades citadas incluem cópia de imagem, recuperação, indexação, pesquisa e geração de relatórios. A alteração de código-fonte de BIOS não é mencionada como função dessas ferramentas.",
+    "referencia": "SimuChacal, simulado 14, questão #830 — Ref: 47 e 48"
+  },
+  {
+    "id": 3030,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação ao IPED (Indexador e Processador de Evidências Digitais), é correto afirmar que:",
+    "alternativas": {
+      "A": "É uma solução de software proprietária, desenvolvida por empresas estrangeiras e licenciada para a Polícia Federal.",
+      "B": "Trata-se de um software de código aberto desenvolvido internamente pela Polícia Federal para cobrir as principais etapas da análise de vestígios",
+      "C": "Sua única função é a duplicação pericial, não permitindo a visualização ou categorização de arquivos.",
+      "D": "É uma ferramenta de hardware utilizada exclusivamente para extração de dados de aparelhos celulares antigos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – O IPED é explicitamente descrito como uma solução de código aberto da própria Polícia Federal",
+    "referencia": "SimuChacal, simulado 14, questão #831 — Ref: 47 e 48"
+  },
+  {
+    "id": 3031,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais tipos de bloqueios estão definidos na apostila como tipos de bloqueios mais comuns, disponíveis em aparelhos celulares modernos:",
+    "alternativas": {
+      "A": "Numérica (ou PIN); Padrão Trigonométrico; Alfanumérica; Biométrica.",
+      "B": "Numérica (ou PIN); Padrão geométrico; Alfanumérica; Térmico.",
+      "C": "Numérica (ou PIN); Padrão geométrico; Alfanumérica; Desbloqueio por aplicativo.",
+      "D": "Numérica (ou PIN); Padrão geométrico; Alfanumérica; Biométrica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Folha 67",
+    "referencia": "SimuChacal, simulado 14, questão #832"
+  },
+  {
+    "id": 3032,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seguir estão descritos os tipos de bloqueios mais comuns, disponíveis em\naparelhos celulares modernos:\n\n• Numérica (ou PIN): Bloqueio feito através da inserção de 4 a 8 algarismos, dependendo da versão do modelo e do sistema operacional do dispositivo, escolhidos pelo usuário. Trata-se de um dos bloqueios mais comuns e sua segurança é considerada média;\n\n• Padrão geométrico: Bloqueio feito através da inserção de padrão geométrico ou um “desenho” definido pelo usuário. A segurança deste tipo de bloqueio é considerada baixa, devido ao número limitado de padrões possíveis e, geralmente, o padrão escolhido ser de fácil “desenho” para facilitar o uso no dia a dia do usuário;\n\n• Alfanumérica: Bloqueio feito através da inserção de caracteres alfanuméricos. A quantidade de caracteres é definida pelo usuário. Trata-se de um bloqueio com alta qualidade de proteção, devido ao fato de as senhas geradas serem complexas, com algarismos e letras, e com um número mínimo de caracteres para a senha;\n\n• Biométrica: Bloqueio feito por uso de características biométricas do usuário, como digital, íris ou formato da face (reconhecimento facial). Normalmente, este bloqueio deve ser utilizado combinado com um outro tipo, como bloqueio de PIN ou padrão geométrico, que são exigidos toda vez que o aparelho é reiniciado ou fica um longo período sem desbloqueio.\n\nQuantas afirmativas estão corretas?",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A seguir estão descritos os tipos de bloqueios mais comuns, disponíveis em\naparelhos celulares modernos:\n• Numérica (ou PIN): Bloqueio feito através da inserção de 4 a 8 alga￾rismos, dependendo da versão do modelo e do sistema operacional do\ndispositivo, escolhidos pelo usuário. Trata-se de um dos bloqueios mais\ncomuns e sua segurança é considerada média;\n• Padrão geométrico: Bloqueio feito através da inserção de padrão geo￾métrico ou um “desenho” definido pelo usuário. A segurança deste tipo\nde bloqueio é considerada baixa, devido ao número limitado de padrões\npossíveis e, geralmente, o padrão escolhido ser de fácil “desenho” para\nfacilitar o uso no dia a dia do usuário;\n• Alfanumérica: Bloqueio feito através da inserção de caracteres alfanu￾méricos. A quantidade de caracteres é definida pelo usuário. Trata-se de\num bloqueio com alta qualidade de proteção, devido ao fato de as senhas\ngeradas serem complexas, com algarismos e letras, e com um número\nmínimo de caracteres para a senha;\n• Biométrica: Bloqueio feito por uso de características biométricas do\nusuário, como digital, íris ou formato da face (reconhecimento facial).\nNormalmente, este bloqueio deve ser utilizado combinado com um outro\ntipo, como bloqueio de PIN ou padrão geométrico, que são exigidos toda\nvez que o aparelho é reiniciado ou fica um longo período sem desbloqueio.",
+    "referencia": "SimuChacal, simulado 14, questão #833"
+  },
+  {
+    "id": 3033,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A criptografia é um mecanismo de segurança utilizado para proteger informações armazenadas na memória de dispositivos eletrônicos, como smartphones.\nSobre o tema assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Seu objetivo principal é garantir que apenas pessoas autorizadas (proprietário do\naparelho) consigam acessar os dados.",
+      "B": "Seu objetivo principal é garantir que nenhuma pessoa consiga acessar os dados.",
+      "C": "De forma simplificada, a criptografia transforma informações legíveis (como fotos, mensagens e arquivos) em um formato organizado.",
+      "D": "Nenhuma das alternativas acima."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A criptografia é um mecanismo de segurança utilizado para proteger informa-\nções armazenadas na memória de dispositivos eletrônicos, como smartphones.\nSeu objetivo principal é garantir que apenas pessoas autorizadas (proprietário do\naparelho) consigam acessar os dados.\nDe forma simplificada, a criptografia transforma informações legíveis (como\nfotos, mensagens e arquivos) em um formato embaralhado, que só pode ser\ncompreendido mediante o uso de uma chave correta, geralmente associada a\numa senha, PIN ou biometria.",
+    "referencia": "SimuChacal, simulado 14, questão #834"
+  },
+  {
+    "id": 3034,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto de apreensão de dispositivos móveis, em um cenário de apreensão de aparelhos celulares ligados com senha fornecida, qual deveria ser a primeira medida?",
+    "alternativas": {
+      "A": "Remover e identificar os cartões SIM.",
+      "B": "Deve ser priorizada a apreensão imediata se o aparelho estiver em uso.",
+      "C": "Ativar o modo avião e confirmar o bloqueio de conexões (rede celular, Wi-Fi e Bluetooth).",
+      "D": "Ativar o modo avião e verificar se há senha configurada nas definições."
+    },
+    "resposta_correta": "C",
+    "justificativa": "7.4.1.1 Aparelhos celulares ligados com senha fornecida:\n\nNesse cenário, a primeira medida é ativar o modo avião e confirmar o bloqueio de conexões (rede celular, Wi-Fi e Bluetooth).",
+    "referencia": "SimuChacal, simulado 14, questão #835 — Ref: página 70"
+  },
+  {
+    "id": 3035,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um laudo típico da área de informática contém, além do preâmbulo, os\nseguintes itens, EXCETO:",
+    "alternativas": {
+      "A": "Histórico (opcional)",
+      "B": "Material",
+      "C": "Objetivo",
+      "D": "Hash"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Um laudo típico da área de informática contém, além do preâmbulo, os seguintes itens: Histórico (opcional); Material; Objetivo; Exame e Respostas aos quesitos ou Conclusão.",
+    "referencia": "SimuChacal, simulado 14, questão #836 — Ref: página 73"
+  },
+  {
+    "id": 3036,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme já mencionado, com o uso de funções unidirecionais de resumo,\né possível garantir que determinado arquivo não seja alterado sem que isso seja inequivocamente detectado, ou seja, é possível garantir sua:",
+    "alternativas": {
+      "A": "autenticidade",
+      "B": "confidencialidade",
+      "C": "disponibilidade",
+      "D": "integridade"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme já mencionado, com o uso de funções unidirecionais de resumo,\né possível garantir que determinado arquivo não seja alterado sem que isso seja inequivocamente detectado, ou seja, é possível garantir sua integridade",
+    "referencia": "SimuChacal, simulado 14, questão #837 — Ref: 73"
+  },
+  {
+    "id": 3037,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma investigação de corrupção, foi apreendido o computador pessoal de um dos investigados. Os elementos disponíveis indicam que o equipamento não foi utilizado para executar a negociação ilícita nem constituiu o alvo da conduta criminosa. Entretanto, foram encontradas nele planilhas de pagamentos, documentos e mensagens relacionadas aos fatos investigados.\n\nConsiderando a classificação dos crimes informáticos, o computador desempenha, nessa situação, papel relacionado a um crime:",
+    "alternativas": {
+      "A": "informático puro ou próprio, porque os elementos probatórios estão armazenados em formato digital.",
+      "B": "informático impróprio, porque todo crime que produz consequências fora do ambiente cibernético pertence necessariamente a essa categoria.",
+      "C": "informático indireto ou incidental, porque o computador atua como uma espécie de testemunha, armazenando informações relacionadas ao crime, sem ter sido seu alvo ou instrumento.",
+      "D": "cibernético próprio, porque a presença de documentos digitais transforma automaticamente a infração investigada em crime cibernético."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No crime informático indireto ou incidental, o computador não constitui o alvo nem o meio utilizado para a execução do delito. Ele funciona como uma espécie de “testemunha”, pois armazena planilhas, documentos, imagens, mensagens ou outros registros relacionados ao fato investigado.\n\nA está errada: a natureza digital do vestígio não torna o crime automaticamente próprio. No crime próprio, o recurso informático é o alvo da ação, como ocorre na invasão de uma rede.\n\nB está errada: nos crimes impróprios, o computador é efetivamente utilizado como meio para a prática da conduta, embora o prejuízo ao bem jurídico ocorra fora do espaço cibernético.\n\nD está errada: a simples existência de provas digitais não modifica a natureza jurídica ou operacional do crime originalmente investigado.",
+    "referencia": "SimuChacal, simulado 14, questão #841"
+  },
+  {
+    "id": 3038,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma mídia apreendida foi submetida à duplicação forense. Antes do exame, calculou-se o hash da mídia original. Posteriormente, o mesmo algoritmo foi aplicado à cópia forense, sendo obtido valor idêntico.\n\nConsiderando as propriedades das funções unidirecionais de resumo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A igualdade dos hashes comprova, isoladamente, a autoria dos arquivos e a regularidade de toda a cadeia de custódia.",
+      "B": "A igualdade dos hashes indica, para fins periciais, que os conteúdos submetidos ao cálculo permaneceram íntegros e equivalentes, mas não comprova, isoladamente, autoria, propriedade ou regularidade de todos os procedimentos adotados.",
+      "C": "O hash permite reconstruir integralmente o conteúdo da mídia original, desde que seja conhecido o algoritmo utilizado.",
+      "D": "A igualdade somente poderia ocorrer se a mídia original e a cópia possuíssem exatamente a mesma capacidade física de armazenamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O hash funciona como uma espécie de impressão digital do conjunto de dados. A mesma entrada, submetida ao mesmo algoritmo, produz a mesma saída. A alteração de um único bit tende a produzir um valor completamente diferente. Assim, a coincidência dos hashes fornece forte suporte técnico à integridade e à equivalência dos conteúdos comparados.\n\nEntretanto, o hash não demonstra, sozinho, quem criou o arquivo, quem utilizou o equipamento ou se todas as etapas da cadeia de custódia foram corretamente observadas.\n\nA está errada: o hash verifica a integridade dos dados, não a autoria nem toda a cadeia de custódia.\n\nC está errada: a função é unidirecional; não é possível obter o conteúdo original apenas a partir do valor do hash.\n\nD está errada: a saída possui tamanho fixo determinado pelo algoritmo, independentemente do tamanho da entrada. Arquivos de tamanhos diferentes produzem hashes com o mesmo comprimento quando submetidos ao mesmo algoritmo.",
+    "referencia": "SimuChacal, simulado 14, questão #842"
+  },
+  {
+    "id": 3039,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de um mandado de busca, foi encontrado um aparelho celular ligado e bloqueado. A equipe verificou que o usuário já havia desbloqueado o dispositivo pelo menos uma vez após sua última inicialização.\n\nConsiderando os estados de criptografia dos dispositivos móveis, qual é a conduta tecnicamente mais adequada?",
+    "alternativas": {
+      "A": "Desligar imediatamente o aparelho, porque a interrupção da energia preserva as chaves criptográficas armazenadas na memória RAM.",
+      "B": "Reiniciar o dispositivo para eliminar processos em execução, pois a reinicialização facilita o acesso aos dados criptografados.",
+      "C": "Manter o aparelho ligado e carregado, isolá-lo das redes de comunicação, evitar seu desligamento ou reinicialização e realizar a extração dos dados tão logo seja possível.",
+      "D": "Manter o aparelho conectado às redes celular e Wi-Fi, pois a comunicação com os servidores do fabricante é necessária para conservar o estado AFU."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O aparelho está no estado AFU — After First Unlock, pois já foi desbloqueado pelo usuário ao menos uma vez depois de ser ligado. Nesse estado, determinadas chaves criptográficas encontram-se carregadas na memória RAM, permitindo o acesso a uma quantidade maior de dados.\n\nA prioridade é impedir que o dispositivo retorne ao estado BFU — Before First Unlock. Por isso, deve-se mantê-lo ligado e carregado, evitar reinicializações, isolar as conexões de rede e realizar a extração o mais rapidamente possível.\n\nA está errada: o desligamento elimina da memória volátil as chaves disponíveis no estado AFU e pode tornar parte dos dados inacessível.\nB está errada: a reinicialização leva o aparelho ao estado BFU, no qual as principais chaves ainda não foram carregadas na memória RAM.\nD está errada: manter conexões ativas pode permitir bloqueio, alteração ou apagamento remoto dos dados. O isolamento de rede busca justamente reduzir esse risco.\n\nCaso o aparelho seja desligado, reiniciado ou fique sem bateria, as chaves podem ser removidas da memória, embora os dados continuem armazenados de forma criptografada.\n\nItens mais importantes para memorizar\nCrime próprio: o sistema ou recurso informático é o alvo da ação.\nCrime impróprio: o computador é o meio empregado, mas o prejuízo ocorre fora do ambiente cibernético.\nCrime incidental: o computador não é alvo nem instrumento; funciona como repositório de vestígios.\nHash: saída de tamanho fixo, determinística e unidirecional.\nHash igual: indica integridade ou equivalência prática do conteúdo, não autoria.\nBFU: aparelho ainda não foi desbloqueado depois de ligado ou reiniciado.\nAFU: aparelho já foi desbloqueado e possui mais chaves criptográficas carregadas na RAM.\nPreservação do AFU: manter ligado, carregado, isolado das redes e não reiniciar.",
+    "referencia": "SimuChacal, simulado 14, questão #843"
+  },
+  {
+    "id": 3040,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a duplicação de mídia para arquivo-imagem, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Essa técnica garante a recuperação de cada bit da mídia de origem.",
+      "B": "Nessa técnica, todo o conteúdo da mídia original é armazenado em arquivos.",
+      "C": "Devido à maior flexibilidade para se analisar diversos arquivos-imagem simultaneamente e à maior facilidade para se manter a integridade dos dados, a duplicação de mídia para arquivo-imagem é o método mais indicado para a realização de exames periciais.",
+      "D": "Nesta técnica, é necessário “zerar” a mídia de destino após cada duplicação, pois o conteúdo da mídia original estará restrito ao conteúdo dos arquivos gerados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Não é necessário zerar, acaba sendo uma das vantagens da técnica.",
+    "referencia": "SimuChacal, simulado 14, questão #850 — Ref: p. 35"
+  },
+  {
+    "id": 3041,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a realização da duplicação forense é correto afirmar:",
+    "alternativas": {
+      "A": "É recomendado a duplicação forense por meio de equipamentos especializados, como exemplo o Tableau.",
+      "B": "Os equipamentos especializados assumem que seja possível retirar a mídia de\narmazenamento do equipamento recebido para análise.",
+      "C": "Não é recomendado levar os equipamentos de extração para campo.",
+      "D": "Os equipamentos à disposição do Perito Criminal, como o Tableau TD3, Tableau TX1 e Atola, possuem interface para praticamente todos os tipos de discos rígidos e possuem a capacidade de realizar duplicações individualmente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #851 — Ref: p. 36"
+  },
+  {
+    "id": 3042,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As principais dificuldades encontradas durante a análise pericial de equipa\nmentos eletrônicos são:\nI - bateria\nII - código de travamento e senhas\nIII - número da linha\nIV - aparelho danificado\nV - erros durante a extração",
+    "alternativas": {
+      "A": "I,II,IV e V estão corretas",
+      "B": "I, II e IV estão corretas",
+      "C": "II e V estão corretas",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todas são citadas na página 65 como dificuldades econtradas durante a análise pericial de equipamentos eletrônicos.",
+    "referencia": "SimuChacal, simulado 14, questão #852 — Ref: 65"
+  },
+  {
+    "id": 3043,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com a evolução dos mecanismos de segurança dos dispositivos móveis, tem-se tornado cada vez mais frequente a necessidade de utilização de técnicas mais avançadas para acesso a dados protegidos na memória do aparelho.\nQual das opções abaixo NÃO trata de uma dessas técnicas?",
+    "alternativas": {
+      "A": "Desbloqueio de bootloader",
+      "B": "Obtenção de privilégios de root",
+      "C": "Força bruta",
+      "D": "Realização de jailbreak"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Erros durante a extração: com a evolução dos mecanismos de segurança dos dispositivos móveis, tem-se tornado cada vez mais frequente a necessidade de utilização de técnicas mais avançadas para acesso a dados protegidos na memória do aparelho. Entre essas técnicas, destacam-se procedimentos como desbloqueio de bootloader, obtenção de privilégios de root6 ou realização de jailbreak7.\nEntretanto, tais abordagens envolvem riscos inerentes, podendo falhar ou, em situações adversas, comprometer o funcionamento do dispositivo, tornando-o parcial ou totalmente inoperante. Diante disso, recomenda-se que o perito criminal adote uma abordagem progressiva, iniciando sempre por métodos menos invasivos e mais\nseguros de extração. Somente após esgotadas essas possibilidades é que se deve avaliar o emprego de técnicas mais avançadas, considerando-se os riscos envolvidos, a relevância dos dados a serem obtidos e a devida documentação de todo o procedimento.",
+    "referencia": "SimuChacal, simulado 14, questão #853 — Ref: 65"
+  },
+  {
+    "id": 3044,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a utilização de ferramentas para a extração e recuperação de dados em equipamentos eletrônicos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O Perito Criminal deve limitar sua atuação ao uso exclusivo dessas ferramentas forenses, sendo desnecessário buscar outras abordagens ou soluções para a extração dos dados solicitados.",
+      "B": "As ferramentas forenses possuem capacidades padronizadas, de forma que o uso de qualquer uma delas isoladamente garante a obtenção dos mesmos resultados de extração.",
+      "C": "Recomenda-se a utilização de ferramentas forenses em conjunto, pois, como possuem capacidades diferentes de extração, elas se complementam, aumentando a quantidade e a qualidade das informações recuperadas.",
+      "D": "Ferramentas sofisticadas, como o Cellebrite Inseyets e o Magnet GrayKey, realizam a extração lógica ou física dos aparelhos exclusivamente por meio de acessos e conexões sem fio (wireless)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A - Incorreta: O texto afirma expressamente que o Perito Criminal não deve se ater apenas a essas ferramentas para a realização dos exames, devendo buscar outras soluções de extração sempre que for necessário para satisfazer o objetivo\n.\nB - Incorreta: As ferramentas são desenvolvidas por diferentes empresas ou desenvolvedores independentes e, por esse motivo, cada uma pode ter capacidades de extração distintas, de modo que uma ferramenta pode conseguir acessar dados que a outra não consegue\n.\nC - Correta: Como as capacidades de extração variam de acordo com o desenvolvedor, ao serem utilizadas em conjunto, elas se complementam e aumentam a quantidade e a qualidade das informações recuperadas\n.\nD - Incorreta: O manual detalha que essas ferramentas mais sofisticadas, a exemplo do Cellebrite Inseyets e do Magnet GrayKey, realizam a extração lógica ou física dos dados por meio de cabos conectados diretamente a um computador ou a um equipamento específico",
+    "referencia": "SimuChacal, simulado 14, questão #854 — Ref: 65"
+  },
+  {
+    "id": 3045,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Informática Forense, os exames podem ser divididos pelo tipo de material encaminhado para análise. Qual categoria abrange dados armazenados em aparelhos celulares, smartphones e tablets?",
+    "alternativas": {
+      "A": "Mídias de armazenamento computacional.",
+      "B": "Dispositivos computacionais portáteis.",
+      "C": "Redes de computadores.",
+      "D": "Servidores remotos de arquivos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #858"
+  },
+  {
+    "id": 3046,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O objetivo de um exame pericial estabelece o resultado esperado da análise. Qual tipo de exame visa colocar os dados de um equipamento em um formato facilmente legível para terceiros, realizando procedimentos como recuperação de arquivos apagados e aplicação de listas de palavras-chave?",
+    "alternativas": {
+      "A": "Análise de sistemas.",
+      "B": "Análise de registros (logs).",
+      "C": "Engenharia reversa.",
+      "D": "Extração de dados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #859"
+  },
+  {
+    "id": 3047,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A \"Análise de Sistemas\" é um tipo de exame realizado pelo Perito Criminal para atingir objetivos específicos. Segundo as fontes, quais métodos são geralmente empregados e qual é um exemplo de sua aplicação?",
+    "alternativas": {
+      "A": "Inspeção visual; usado para determinar a hora em que o computador foi ligado.",
+      "B": "Engenharia reversa ou análise comportamental; usado para analisar aplicativos maliciosos de fraudes bancárias.",
+      "C": "Recuperação de metadados; usado para identificar se um arquivo foi impresso.",
+      "D": "Mapeamento de redes; usado para localizar arquivos armazenados na \"nuvem\"."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #860"
+  },
+  {
+    "id": 3048,
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é o método de duplicação forense que garante a extração de todos os seus dados, conseguindo recuperar bit a bit da mídia original para um ou mais arquivos gravados\nna mídia de destino?",
+    "alternativas": {
+      "A": "Duplicação de mídia para mídia.",
+      "B": "Duplicação de arquivo para arquivo.",
+      "C": "Duplicação de mídia para arquivo-imagem.",
+      "D": "Duplicação de arquivo para mídia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"A duplicação forense do tipo mídia para arquivo-imagem consiste na cópia completa dos dados de uma mídia de origem para um ou mais arquivos gravados na mídia de destino. Dessa forma, o primeiro bit da mídia original será idêntico ao primeiro bit do arquivo gravado, e assim por diante.\"\n(você recupera todos os bits em ambos os métodos de duplicação)",
+    "referencia": "SimuChacal, simulado 14, questão #862 — Ref: p. 35"
   }
 ];

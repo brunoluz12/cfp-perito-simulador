@@ -1,0 +1,1547 @@
+[
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Tal como para armas de fogo, cartuchos de munição e elementos de munição apreendidos podem passar por exames de identificação direta, com descrição de suas características e procedência, além de teste de eficiência para os cartuchos recebidos íntegros ou de confronto balístico para os elementos de munição recebidos disparados.\n\nNo que se refere à descrição de estojos, assinale a alternativa incorreta:",
+    "alternativas": {
+      "A": "Devem ser indicados o calibre, a marca, e a procedência.",
+      "B": "Devem ser indicados o calibre nominal, e o tipo de matéria do qual são constituídos o estojo.",
+      "C": "Devem ser indicados o tipo de matéria da cápsula de espoletamento, e o sistema de percussão.",
+      "D": "Devem ser indicados o tipo e a constituição de seus projéteis."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alternativa D (INCORRETA): “Na descrição de cartuchos e estojos, devem ser indicados o calibre, a marca, a procedência, o calibre nominal, o tipo de matéria do qual são constituídos o estojo e a cápsula de espoletamento, sistema de percussão e outras características peculiares que o perito achar convenientes descrever. Para os cartuchos, deverão ser descritos o tipo e a constituição de seus projéteis.”, página 69, Caderno Balística. As características “tipo e constituição do projétil” é específica dos cartuchos.",
+    "referencia": "SimuChacal, simulado 11, questão #474 — Ref: página 69, Caderno Balística."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual a diferença entre Calibre real e nominal? (Essa teoricamente é importante)",
+    "alternativas": {
+      "A": "Não há diferenças entre os 2.",
+      "B": "O calibre real é a medida que corresponde ao diâmetro interno da alma, já o calibre nominal é sempre designativo de um tipo particular de munição e também do tipo de arma que a utiliza.",
+      "C": "O calibre real é o designado na munição e o calibre nominal é a medida do diâmetro interno da arma.",
+      "D": "O calibre real é medida do diâmetro externo da alma e calibre nominal é designado de um tipo particular de munição."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Literalidade nas páginas 29-30",
+    "referencia": "SimuChacal, simulado 11, questão #481"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual o problema de usar cartuchos nominais diferentes ao indicado na arma?",
+    "alternativas": {
+      "A": "Não ocorrerá problemas.",
+      "B": "A arma não funcionará em nenhuma hipótese.",
+      "C": "Poderá causar danos à arma e ao atirador.",
+      "D": "É recomendado alterar as características originais da arma para que esta calce cartuchos de calibres nominais diferentes daqueles para os quais foi concebida."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O uso de cartuchos nominais diferentes poderá causar danos à arma e ao atirador, sendo desaconselhado alterar as características originais da arma para que esta calce cartuchos de calibres nominais diferentes daqueles para os quais foi concebida.",
+    "referencia": "SimuChacal, simulado 11, questão #482 — Ref: p. 30"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o calibre real:\n\nI - Quando o número de raias é par, tal tarefa é simples, visto que dois cheios estarão opostos um ao outro.\nII - Quando o número de raias é ímpar, entretanto, um cheio estará oposto a uma raia, devendo a medida do calibre real ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia em posição oposta.\nIII - Todo cartucho de munição apresenta, gravado na base do culote, o calibre real de uso.\nIV - Os calibres reais são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres reais para um único calibre nominal.",
+    "alternativas": {
+      "A": "Somente I.",
+      "B": "Somente I, II.",
+      "C": "Somente I, II, III.",
+      "D": "I, II, III, IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "I e II - Quando o número de raias é par, tal tarefa é simples, visto que dois cheios estarão opostos um ao outro. Quando o número de raias é ímpar, entretanto, um cheio estará oposto a uma raia, devendo a medida do calibre real ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia em posição oposta, conforme a figura anterior.\nIII - Assim, todo cartucho de munição apresenta, gravado na base do culote, o calibre NOMINAL de uso.\nIV - Os calibres NOMINAIS são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres NOMINAIS para um único calibre REAL. Inverti as palavras",
+    "referencia": "SimuChacal, simulado 11, questão #483 — Ref: p. 30"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Da mesma forma que no caso das armas de fogo e cartuchos de munição, todos os elementos de munição recebidos como questionados devem ser descritos e fotografados. Quanto mais extensiva for a descrição e a documentação fotográfica tanto mais seguro estará o perito quanto a questionamentos que possam ocorrer, referentes ao seu laudo, no futuro.\n\nNo que se refere à descrição de projéteis, assinale a alternativa incorreta:",
+    "alternativas": {
+      "A": "Deve-se determinar seu calibre nominal, quando possível, bem como o número e orientação ressaltos e cavados.",
+      "B": "Deve-se indicar a massa e dimensões, descrevendo, por fim, tão bem quanto possível e quando existirem, as deformações acidentais que o projétil tenha.",
+      "C": "Caso o perito receba um conjunto de fragmentos de projéteis, estes devem ser descritos individualmente, indicando quais são fragmentos de projéteis, quais são fragmentos de encamisamento e quais são fragmentos de núcleos de projéteis.",
+      "D": "Havendo material aderido ao projétil questionado, este deve ser caracterizado, com indicação precisa de sua localização, sendo vedada sua remoção para evitar danos às ranhuras do projétil."
+    },
+    "resposta_correta": "D",
+    "justificativa": "“Na descrição de projéteis, determinar seu calibre nominal, quando possível, bem como o número e orientação ressaltos e cavados. Indicar a massa e dimensões, descrevendo, por fim, tão bem quanto possível e quando existirem, as deformações acidentais que o projétil tenha. Caso o perito receba um conjunto de fragmentos de projéteis, estes devem ser descritos individualmente, indicando quais são fragmentos de projéteis, quais são fragmentos de encamisamento e quais são fragmentos de núcleos de projéteis.\nExistindo algum material aderido ao material questionado, este deve ser caracterizado, indicando o mais exatamente possível sua localização. Caso seja necessário, os materiais deverão ser removidos, tomando-se o cuidado de não danificar quaisquer deformações normais, sendo então pesados, descritos e acondicionados adequadamente para análise posterior.”, página 69, Caderno Balística.",
+    "referencia": "SimuChacal, simulado 11, questão #485 — Ref: página 69, Caderno Balística."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O resultado dos procedimentos de comparação dos projéteis e estojos depende diretamente da qualidade dos padrões colhidos da arma. Desta forma, é importante reproduzir, tanto quanto possível, as mesmas condições do fato que originou o projétil ou estojo questionado.\nÉ importante que os cartuchos utilizados no procedimento de coleta de padrões atendam aos requisitos de autenticidade, adequabilidade, contemporaneidade e quantidade.\n\nCom relação ao procedimento de coleta de padrões de projéteis, assinale a alternativa incorreta:",
+    "alternativas": {
+      "A": "Uma forma de coletar o padrão de projéteis expansivos consiste em selar sua ponta oca, evitando a reversão dos bordos de expansão.",
+      "B": "Se o cano da arma estiver desobstruído, ainda que apresente indícios de chumbamento (depósito de chumbo metálico em seu interior), ele não deverá ser limpo, independentemente do estado de seus raiamentos.",
+      "C": "De acordo com os requisitos no procedimento de coleta de padrões, um padrão é considerado adequado quando possui origem certa e inquestionável, isto é, quando há certeza de que foi produzido pela arma questionada.",
+      "D": "A utilização de um projétil padrão com composição diversa da do projétil questionado é absolutamente inútil, inviabilizando o exame pericial balístico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A (CORRETA): “O tanque de água tem a vantagem da praticidade, mas um cuidado especial deve ser tomado ao se coletar projéteis expansivos, selando sua ponta oca, de modo que os bordos de expansão não sejam revertidos.”, página 72, Caderno Balística.\n\nAlternativa B (CORRETA): “Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja, visto que ele pode estar “chumbado”, devendo os primeiros padrões serem coletados com o cano no estado em que se encontra.”, página 71, Caderno Balística.\n\nAlternativa C (INCORRETA):\n\nRequisito da Autenticidade: “A autenticidade é o mais importante requisito de um padrão. Um padrão é autêntico quando tiver origem certa e inquestionável, ou seja, há a certeza de que\no padrão foi colhido com a arma questionada.”, página 70, Caderno Balística.\n\nRequisito da Adequabilidade: “Os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.”, página 70, Caderno Balística.\n\nAlternativa D (CORRETA):\n\n“Caso o projétil questionado seja, por exemplo, ogival de chumbo nu, é absolutamente inútil coletar um projétil padrão expansivo de ponta oca semiencamisado.”, página 71, Caderno Balística.",
+    "referencia": "SimuChacal, simulado 11, questão #486"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma arma de fogo somente pode ser considerada como tal quando coexistem quais elementos essenciais?",
+    "alternativas": {
+      "A": "Aparato arremessador, carga de projeção e projétil.",
+      "B": "Aparato arremessador, projétil e mecanismo de disparo.",
+      "C": "Aparato arremessador, cano e carga de projeção.",
+      "D": "Carga de projeção, projétil e sistema de pontaria."
+    },
+    "resposta_correta": "A",
+    "justificativa": "elementos essenciais:\n\"a) aparato arremessador (...); b) carga de projeção (...); c) projétil (...).\"\n\n\"..., uma arma de fogo somente pode ser considerada como tal se os três elementos estiverem coexistindo ao mesmo tempo.\"",
+    "referencia": "SimuChacal, simulado 11, questão #500"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à classificação das armas de arremesso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As armas de arremesso complexas possuem um aparato lançador por meio do qual são lançados projéteis substituíveis, que representam parte da munição da arma.",
+      "B": "As armas de arremesso simples utilizam um aparato lançador para impulsionar projéteis substituíveis.",
+      "C": "As armas de arremesso complexas caracterizam-se pelo lançamento direto da arma pela mão do atirador.",
+      "D": "Revólveres, pistolas e arcos são classificados como armas de arremesso simples."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Correta. A apostila afirma literalmente:\n\"Armas de arremesso complexas são aquelas constituídas de um aparato lançador, ou arma propriamente dita, por meio do qual são lançados projéteis, os quais são substituíveis e representam parte da munição da arma.\"\nB) Incorreta. A apostila define:\n\"Armas de arremesso simples são aquelas cujo lançamento é efetuado diretamente pela mão do atirador...\"\nC) Incorreta. O lançamento diretamente pela mão do atirador caracteriza as armas de arremesso simples.\nD) Incorreta. A apostila afirma que:\n\"Incluem-se nesta categoria [armas de arremesso complexas] catapultas, bestas, arcos, revólveres, pistolas e outras armas de fogo.\"",
+    "referencia": "SimuChacal, simulado 11, questão #501"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação das armas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Armas próprias correspondem às armas manuais, enquanto armas impróprias correspondem às armas de arremesso.",
+      "B": "As armas de arremesso complexas são classificadas como armas próprias, ao passo que as armas de arremesso simples são classificadas como armas impróprias.",
+      "C": "Armas próprias são aquelas concebidas especificamente para serem utilizadas como arma, ao passo que armas impróprias são objetos que, embora tenham outra finalidade, podem eventualmente ser utilizados como arma.",
+      "D": "A distinção entre armas próprias e impróprias baseia-se na possibilidade de produzir lesão à distância ou em contato direto com a vítima."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A) Incorreta. A apostila não estabelece qualquer correspondência entre armas próprias/impróprias e armas de arremesso simples/complexas. São classificações independentes.\nB) Incorreta. A alternativa confunde dois critérios distintos de classificação. A classificação em armas próprias e impróprias considera a finalidade para a qual o objeto foi concebido, enquanto a classificação em armas manuais e armas de arremesso considera a forma de emprego da arma.\nC) Correta.\n\"Alguns objetos, como uma espada ou uma arma de fogo, foram concebidos com a finalidade específica de serem utilizados como arma e, por isso, são denominadas 'armas próprias', porém outros, embora não tenham sido projetados com esta finalidade, podem eventualmente ser utilizados como arma (...) sendo denominados 'armas impróprias'.\"\nD) Incorreta. O critério apresentado corresponde à distinção entre armas manuais e armas de arremesso, e não entre armas próprias e impróprias.",
+    "referencia": "SimuChacal, simulado 11, questão #502"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos resíduos nas mãos do atirador, julgue a alternativa correta:",
+    "alternativas": {
+      "A": "Se o atirador lavar as mãos com água corrente após os disparos, todos os resíduos são completamente eliminados",
+      "B": "Se o atirador lavar as mãos com água e sabão, apenas técnicas muito sensíveis serão capazes de identificar os resíduos.",
+      "C": "50% dos testes forneceram um resultado positivo quando os resíduos foram coletados cerca de duas horas após os disparos",
+      "D": "90% dos testes fornecem um resultado positivo quando os resíduos foram coletados imediatamente após os disparos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"a) 90% dos testes fornecem um resultado positivo quando os resíduos foram coletados imediatamente após os disparos;\nb) 60% dos testes forneceram um resultado positivo quando os resíduos foram coletados cerca de duas horas após os disparos;\nc) se o atirador lavar as mãos com água corrente após efetuar os disparos, a técnica fica no limite de detecção;\nd) se o atirador lavar as mãos com água e sabão, todos os resíduos são completamente eliminados\"",
+    "referencia": "SimuChacal, simulado 11, questão #507 — Ref: 61"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao procedimento de coleta de resíduo para MEV, julgue a assertiva correta:",
+    "alternativas": {
+      "A": "A técnica padronizada de coleta inclui a utilização de stub com fita de enxofre dupla face",
+      "B": "Após fechados os recipientes, mais de um stub pode ser acondicionado em um mesmo envelope de segurança",
+      "C": "A coleta de resíduos deverá ser realizado em superfícies corporais, evitando a coleta em objetos devido a sujidades dessas superfícies (como fios de roupa) que podem dificultar a análise microscópica",
+      "D": "A principal área de coleta de resíduos é qualquer das mãos ou braços do atirador, não havendo predileção por uma área específica, desde que em um desses membros"
+    },
+    "resposta_correta": "B",
+    "justificativa": "a) A técnica padronizada de coleta inclui a utilização de stub com fita DE CARBONO dupla face\n\nb) Correto. \"Após fechados os recipientes, mais de um stub pode ser acondicionado em um mesmo envelope de segurança, recomendando-se um envelope para cada pessoa ou objeto de coleta. \"\n\nc) (...) uma ampla variedade de superfícies ou regiões poderá ser objeto de coleta, tanto em pessoas (vivas ou mortas, nas mãos, rosto e pescoço, por exemplo), quanto em objetos (exemplo: vestimentas, portas, assentos e forros).\n\nd) (...) a principal área de coleta na mão de um suspeito de ter atirado é a área escura indicada na figura",
+    "referencia": "SimuChacal, simulado 11, questão #508 — Ref: 61"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao procedimento de coleta de resíduo para MEV, julgue a assertiva correta:",
+    "alternativas": {
+      "A": "Devem ser efetuados no mínimo cinquenta toques ou até que a fita perca a cola",
+      "B": "Deve-se esfregar ou girar o stub contra a superfície que se deseja a coleta até que a fita perca a cola",
+      "C": "Não se deve retirar a película de proteção da fita de carbono, garantindo a integridade da cadeia de custódia",
+      "D": "Para realização de nova coleta com outro stub, as luvas devem ser trocadas ou a mão lavada novamente, admitindo-se a mesma luva apenas se a coleta for feita no mesmo suspeito em outra parte do corpo"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) Correta\n\nb) \"pressionar (não esfregar ou girar) contra superfície que se deseja a coleta de resíduos para análise do MEV (...)\n\nc) \"• calçar luvas e abrir o recipiente do stub (retirar a película de proteção da fita de carbono se existente);\"\n\nd) Para realização de NOVA COLETA com OUTRO STUB, as luvas devem ser trocadas ou a mão lavada novamente;\"",
+    "referencia": "SimuChacal, simulado 11, questão #509 — Ref: 62"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o funcionamento das pistolas semiautomáticas e automáticas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nas pistolas semiautomáticas, um único acionamento do gatilho permite disparos contínuos até o término da munição.",
+      "B": "Tanto as armas automáticas quanto as semiautomáticas utilizam o aproveitamento dos gases gerados na detonação da munição para realizar a ciclagem da arma.",
+      "C": "As armas automáticas dependem do acionamento manual do ferrolho após cada disparo para realizar a ciclagem.",
+      "D": "O funcionamento das pistolas semiautomáticas independe da ciclagem da arma após o disparo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nEssa característica pertence às armas automáticas. Nas semiautomáticas, \"cada tiro deverá ser precedido de acionamento do gatilho por parte do atirador\".\n\nAlternativa B – Correta.\nO texto afirma que \"o princípio do funcionamento das armas automáticas e semiautomáticas (...) é o do aproveitamento dos gases gerados na detonação da munição para efetuar a ciclagem da arma\".\n\nAlternativa C – Incorreta.\nO texto não afirma que a ciclagem dependa de acionamento manual do ferrolho. Pelo contrário, ela ocorre pelo aproveitamento dos gases da combustão.\n\nAlternativa D – Incorreta.\nA ciclagem é justamente uma característica essencial do funcionamento das pistolas semiautomáticas, permitindo a alimentação de um novo cartucho e o preparo para novo disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #514 — Ref: Págs. 39 e 40."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca das partes constituintes da pistola semiautomática, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O carregador é fixo à armação e tem como única função alojar o mecanismo de disparo.",
+      "B": "O cano possui raiamento em toda a sua extensão, inclusive na câmara de combustão.",
+      "C": "O ferrolho é uma peça móvel responsável por realizar a ciclagem da arma, deslizando durante as fases de recuo e recuperação.",
+      "D": "A armação serve exclusivamente como suporte ao cano, não abrigando qualquer mecanismo relacionado ao disparo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto informa que o carregador \"é usualmente uma peça separada da arma\" e sua função é armazenar a munição que será apresentada durante a ciclagem.\n\nAlternativa B – Incorreta.\nA câmara de combustão é descrita como \"desprovida de raiamento\". Apenas a porção central do cano possui alma raiada.\n\nAlternativa C – Correta.\nO texto descreve o ferrolho como \"uma peça móvel que desliza nas fases de recuo e recuperação de um disparo, com o objetivo de efetuar a correta ciclagem da arma\".\n\nAlternativa D – Incorreta.\nAlém de suportar o cano e o ferrolho, a armação abriga praticamente todo o mecanismo de disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #515 — Ref: Págs. 39 e 40."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, é correto afirmar que as pistolas podem ser classificadas:",
+    "alternativas": {
+      "A": "Apenas quanto ao funcionamento e ao calibre.",
+      "B": "Quanto ao funcionamento, à montagem do cano, à percussão e ao mecanismo de disparo.",
+      "C": "Exclusivamente quanto ao sistema de alimentação e ao tipo de munição utilizada.",
+      "D": "Apenas quanto ao funcionamento, sendo as demais classificações aplicáveis somente aos revólveres."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nO texto apresenta outras formas de classificação além do funcionamento.\n\nAlternativa B – Correta.\nSegundo o texto, as pistolas podem ser classificadas \"quanto ao funcionamento, quanto à montagem do cano, quanto à percussão e quanto ao mecanismo de disparo\".\n\nAlternativa C – Incorreta.\nSistema de alimentação e tipo de munição não são apresentados como critérios de classificação no trecho.\n\nAlternativa D – Incorreta.\nO texto afirma expressamente que as pistolas, assim como os revólveres, podem ser classificadas segundo esses quatro critérios, não apenas quanto ao funcionamento.",
+    "referencia": "SimuChacal, simulado 11, questão #516 — Ref: Págs. 39 e 40."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos resíduos em anteparos e distência de tiro, quais itens abaixo são verdadeiros?\nI - Tiro a curta distância é aquele que ocorre dentro da região\nespacial na qual os efeitos secundários do disparo imprimem marcas sobre o alvo.\nII - A distância máxima na qual os efeitos secundários são sentidos\ndepende do alcance, grau de concentração e especificidade dos resíduos expelidos,\no que depende da arma, da munição e das condições ambientais no momento\ndo disparo.\nIII - Tomando-se por base os resíduos geralmente pesquisados, ou seja,\nresíduos de combustão da pólvora e espoleta, o limite prático é de cerca de um\nmetro, se não houver vento no momento do disparo. Caso haja vento, esse limite\npode diminuir para cerca de meio metro.",
+    "alternativas": {
+      "A": "Item I somente",
+      "B": "Itens I e II",
+      "C": "Itens II e III",
+      "D": "Todos os itens estão corretos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Com base na página 63 do caderno didático:\nDefine-se como tiro a curta distância aquele que ocorre dentro da região\nespacial na qual os efeitos secundários do disparo imprimem marcas sobre o alvo.\nAlém desse limite, os tiros são ditos distantes. Este é um conceito eminentemente\nprático, pois a distância máxima na qual os efeitos secundários são sentidos\ndepende do alcance, grau de concentração e especificidade dos resíduos expelidos,\no que depende da arma, da munição e das condições ambientais no momento\ndo disparo. Tomando-se por base os resíduos geralmente pesquisados, ou seja,\nresíduos de combustão da pólvora e espoleta, o limite prático é de cerca de um\nmetro, se não houver vento no momento do disparo. Caso haja vento, esse limite\npode diminuir para cerca de meio metro.",
+    "referencia": "SimuChacal, simulado 11, questão #517 — Ref: 63"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao realizar um procedimento experimental para se determinar a distância do anteparo, após realizar a coleta de padrões o Perito encontrou os seguintes resultados:\nA uma distância de 5cm, presença de zona de chama e zona de esfumaçamento.\nA uma distância de 10cm, presença de zona de esfumaçamento de zona de tatuagem.\nO material questionado tinha a presença de zona de chama, zona de esfumaçamento e zona de tatuagem.\nQual pode ser a conclusão do Perito?",
+    "alternativas": {
+      "A": "Não pode concluir nada, pois não localizou as mesmas zonas no padrão coletado.",
+      "B": "Pode concluir que o disparo questionado foi efetuado a uma distância de 5 a 10cm do anteparo.",
+      "C": "Pode concluir que foi um tiro a mais de 10cm do anteparo",
+      "D": "Pode concluir que foi um tiro a longa distância"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Página 65:\nDadas as características intermediárias do residuograma questionado com\nrelação aos residuogramas padrões, colhidos nas distâncias de cinco centímetros\ne dez centímetros, o perito pode concluir que o disparo foi efetuado entre essas\ndistâncias, ou seja, o disparo questionado foi efetuado a uma distância de cinco\na dez centímetros do anteparo.\nConsiderando o grande número de variáveis envolvidas no momento de um\ndisparo, as marcas impressas pelos efeitos secundários são pouco precisas, de\nmodo que o exame acima discutido pode apenas gerar uma estimativa de distância.\n\nFiguras 54 e 55 do caderno didático (pag. 65).",
+    "referencia": "SimuChacal, simulado 11, questão #518 — Ref: 65"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As substâncias pesquisáveis para a determinação de distância de tiro são:\nI - nitritos: resultantes da combustão da pólvora e revelados por meio do Reagente de Griess, o qual tinge as áreas contaminadas com uma coloração rosada;\nII - chumbo: proveniente de fragmentos do projétil e revelados por meio do\nreagente rodizonato de sódio, o qual tinge as áreas contaminadas com\numa coloração violeta ou púrpura;\nIII - cobre: proveniente do encamisamento de projéteis e revelados por meio do reagente ditiooxamida ou ácido rubeânico, o qual tinge as áreas contaminadas com coloração verde;\nIV - compostos sulfurados: presentes apenas na pólvora negra, são revelados por meio da reação de azida de sódio com o iodo, ficando o suporte incolor nas regiões contaminadas.",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "I, II e III",
+      "D": "I, II, III, IV"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme página 64 do caderno didático",
+    "referencia": "SimuChacal, simulado 11, questão #519 — Ref: 64"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a Portaria nº 8.714-DG/PF, a respeito do funcionamento das armas de fogo semiautomáticas e automáticas, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nas armas semiautomáticas, a expansão dos gases é responsável tanto pelo acionamento do mecanismo de disparo quanto pelo mecanismo de repetição.",
+      "B": "O conjunto de ações que engloba o acionamento do gatilho, a deflagração da munição e a realimentação pelo sistema de repetição da arma é denominado ciclagem.",
+      "C": "As armas automáticas são aquelas em que a força muscular do atirador é responsável pela ciclagem da arma de forma contínua enquanto houver munição íntegra na câmara.",
+      "D": "Uma arma de assalto moderna que possui seletor para rajada de três ou cinco tiros, mas possui o modo intermitente como padrão, não é classificada como arma automática."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O conjunto de ações \"acionamento do gatilho pelo atirador + deflagração da munição + realimentação pelo sistema de repetição da arma\" é denominado ciclagem. A alternativa A está incorreta porque, nas semiautomáticas, a força muscular aciona o disparo e os gases acionam a repetição. A alternativa C está incorreta porque é a expansão dos gases que continua a ciclagem nas armas automáticas, não a força muscular. A alternativa D está incorreta pois, se a arma possui modos automáticos (como rajadas), ela é classificada como automática.",
+    "referencia": "SimuChacal, simulado 11, questão #525 — Ref: Página 27."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange à classificação das armas de fogo quanto à mobilidade, o texto aponta divergências entre a doutrina clássica e as definições da legislação nacional (Decreto 11.615/2023). Com base nas definições exclusivas deste Decreto apresentadas no texto, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A doutrina e a legislação convergem ao definir armas portáteis como aquelas transportadas por uma só pessoa, dividindo-as formalmente nas subclasses longas e curtas.",
+      "B": "A arma de fogo de porte é definida como aquela cujo peso e dimensões permitem o transporte por um indivíduo, exigindo, em situações normais, o uso de ambas as mãos para o disparo.",
+      "C": "O conceito de armas portáteis foi restringido às armas longas, que podem ser transportadas por apenas um indivíduo, mas que não são conduzidas em coldre.",
+      "D": "Uma arma fixada em uma estrutura permanente é classificada pela legislação como de porte especial não portátil."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Ignorando a definição doutrinária (que dividia em longas e curtas), no Decreto 11.615/2023, as armas portáteis foram restringidas a armas longas , sendo aquelas cujo peso e dimensões permitem transporte por um indivíduo, mas não conduzidas em coldre. A alternativa A está incorreta justamente pela divergência citada. A alternativa B descreve a arma portátil, e não a de porte (que é disparada com apenas uma das mãos e inclui pistolas e revólveres). A alternativa D está incorreta porque a classificação é simplesmente \"arma de fogo não portátil\", sem o termo \"porte especial\".",
+    "referencia": "SimuChacal, simulado 11, questão #526 — Ref: Páginas 28 e 29."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito de calibre em armas de fogo com alma raiada, com base nas definições técnicas do documento fornecido, assinale a alternativa que descreve corretamente o calibre real:",
+    "alternativas": {
+      "A": "Corresponde à maior dimensão transversal da alma do cano, devendo ser medida exatamente entre o fundo de duas raias diametralmente opostas.",
+      "B": "Trata-se de uma medida exata e aferível tomada na boca do cano, correspondendo tecnicamente à menor dimensão da alma, medida entre dois cheios diametralmente opostos.",
+      "C": "É uma referência padronizada não exata, utilizada apenas para indicar o tipo particular de cartucho a ser utilizado na câmara de combustão.",
+      "D": "O calibre real em armas raiadas é inalterável e medido da mesma forma que o calibre das armas de fogo com almas lisas, desconsiderando eventuais alterações por meio do choke."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O calibre real de uma arma de fogo com alma raiada é uma medida tomada na boca do cano e corresponde ao diâmetro interno da alma. Tecnicamente, corresponde à menor dimensão da alma do cano, devendo ser determinado pela medida entre dois cheios diametralmente opostos no sistema de raias. A alternativa A inverte os conceitos (fala em maior dimensão e fundo de raias). A alternativa C descreve o conceito geral de calibre para munição/referência, não o calibre real aferível. A alternativa D está incorreta pois o texto explicitamente diz que há distinção entre calibres para armas raiadas e armas de alma lisa.",
+    "referencia": "SimuChacal, simulado 11, questão #527 — Ref: Página 29."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as divisões didáticas da Balística Forense e seus campos de atuação, analise os itens abaixo:\nI. O estudo da trajetória, velocidade e energia do projétil, bem como a influência da resistência do ar sobre ele, é objeto da Balística Externa.\nII. A Balística Interna estuda os fenômenos ocorridos na arma desde a detonação da espoleta até o momento em que o projétil atinge o alvo final.\nIII. Quando o disparo atinge um ser humano, o estudo das lesões traumáticas resultantes (vestígios intrínsecos) é de competência da Balística Terminal.\nIV. A identificação mediata de uma arma de fogo ocorre por meio do confronto balístico, comparando vestígios impressos em elementos de munição.\nEstá(ão) correta(s) apenas:",
+    "alternativas": {
+      "A": "I e IV.",
+      "B": "I, II e III.",
+      "C": "II e IV.",
+      "D": "III."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O item I descreve exatamente o escopo da Balística Externa. O item IV define corretamente a identificação mediata (confronto de vestígios em munições).",
+    "referencia": "SimuChacal, simulado 11, questão #540 — Ref: 9-10"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um Perito Criminal Federal recebe uma pistola com a numeração de série raspada para exame. Durante a análise, ele também deve verificar se a arma é capaz de realizar disparos e quais os efeitos que ela produz em alvos de teste para subsidiar a investigação. De acordo com as divisões da Balística Forense e os campos de pesquisa da PF, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A restauração do número de série da arma insere-se na caracterização das armas de fogo.",
+      "B": "A verificação da capacidade da arma de efetuar disparos é denominada verificação de eficiência, podendo incluir a determinação dos possíveis efeitos dos tiros.",
+      "C": "O estudo do movimento da arma de fogo no momento do recuo, por ser um corpo livre no espaço, é classificado como Balística Geral.",
+      "D": "A análise de munições recarregadas e a determinação de sua energia são atividades exclusivas da Balística Interna, pois ocorrem dentro do estojo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A verificação de eficiência testa a aptidão para o disparo e relaciona os resultados com os efeitos da investigação.",
+    "referencia": "SimuChacal, simulado 11, questão #541 — Ref: 9-10"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos conceitos fundamentais e à natureza da Balística, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O termo balística tem origem latina (baleare) e grega (ballo), cujo significado literal é \"explosão de pólvora\".",
+      "B": "A Balística Forense é considerada uma disciplina integrante da Medicina Legal, não possuindo autonomia metodológica dentro da Criminalística.",
+      "C": "Na Balística Terminal, o estudo dos resíduos de pólvora e dos projéteis em um alvo humano é considerado estudo de vestígios extrínsecos, competindo à Balística.",
+      "D": "Projétil é conceituado tecnicamente como todo corpo que se desloca em meio líquido ou gasoso, independentemente de ter recebido um impulso inicial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila define que resíduos e projéteis são vestígios extrínsecos ao ser humano, ficando a cargo da Balística o seu estudo.",
+    "referencia": "SimuChacal, simulado 11, questão #542 — Ref: 9-10"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos resultados do SINAB e de sua relevância para a investigação criminal, selecione o item incorreto.",
+    "alternativas": {
+      "A": "O SINAB possibilita a correlação balística em rede, permitindo vincular crimes ocorridos em diferentes localidades, inclusive entre unidades da Federação, bem como relacionar armas apreendidas a delitos pretéritos.",
+      "B": "A implementação do SINAB promoveu uma mudança de paradigma na investigação de crimes cometidos com arma de fogo, deslocando a perícia criminal de uma postura exclusivamente reativa para uma atuação proativa e orientada por inteligência pericial.",
+      "C": "A efetividade do SINAB decorre essencialmente da atuação autônoma da perícia criminal, sendo prescindível a integração permanente com a investigação policial e a inteligência.",
+      "D": "Na Polícia Federal, a Portaria DITEC/PF nº 1.493, de 28 de novembro de 2024, dispõe sobre a padronização de procedimentos para o encaminhamento de vestígios balísticos e padrões de arma de fogo para cadastro no Banco Nacional de Perfis Balísticos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "item C: Errado. O texto afirma expressamente que a efetividade do sistema depende da integração permanente entre Polícia Científica, investigação policial e inteligência.",
+    "referencia": "SimuChacal, simulado 11, questão #551 — Ref: p. 79"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir acerca do funcionamento e dos resultados do SINAB e selecione o item errado.",
+    "alternativas": {
+      "A": "As correlações são realizadas automaticamente pelo servidor central do SINAB, considerando a compatibilidade de calibre e outras características denominadas de classe.",
+      "B": "O SINAB possibilitou a identificação de milhares de ligações entre crimes, inclusive em situações nas quais não havia requisição prévia de comparação balística ou indícios investigativos de autoria.",
+      "C": "A correlação balística em rede permite vincular crimes ocorridos em diferentes localidades, inclusive entre unidades da Federação, e relacionar armas apreendidas a delitos pretéritos.",
+      "D": "Entre as funções estratégicas do SINAB estão a identificação de séries criminosas, a atuação contra organizações criminosas e grupos armados e a integração entre investigações estaduais e federais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Item A: Errado. Conforme o material, as correlações automáticas são realizadas pelo servidor central do BNPB (Banco Nacional de Perfis Balísticos), e não pelo SINAB. O SINAB corresponde ao sistema/rede mais amplo em que se insere a utilização do banco.",
+    "referencia": "SimuChacal, simulado 11, questão #552 — Ref: p. 79"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os resultados e a relevância do SINAB para a investigação criminal, analise os itens a seguir:\n\nI. Permite a identificação de séries criminosas.\nII. Possibilita a integração entre investigações estaduais e federais.\nIII. Restringe a correlação balística a crimes ocorridos na mesma unidade da Federação.\nIV. Depende exclusivamente da atuação da Polícia Científica para sua efetividade.\nV. Atua apenas quando há requisição prévia de comparação balística.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I e II.",
+      "B": "I e III.",
+      "C": "II e IV.",
+      "D": "III e V."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) I e II. p. 79",
+    "referencia": "SimuChacal, simulado 11, questão #553 — Ref: p. 79"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os seguintes itens sobre os projéteis de arma de fogo:\nI - Os projéteis de liga de chumbo podem conter estanho, antimônio e arsênico\nII - Os projéteis encamisados não contém chumbo em sua composição\nIII - Alguns tipos de projéteis comumente encontrados são: Ogival, Ponta Plana, Ponta Oca, Semi Canto Vivo e Canto Vivo\nIV - O projétil é o elemento inerte do cartucho, na medida em que nem participa do processo de combustão, nem é expelido pelo cano da arma.",
+    "alternativas": {
+      "A": "Todas estão corretas",
+      "B": "Estão corretas as alternativas I e III",
+      "C": "Estão corretas as alternativas I, II e IV",
+      "D": "Está correta apenas a alternativa III"
+    },
+    "resposta_correta": "D",
+    "justificativa": "I - Errada - a liga de chumbo presente nos projéteis contem ARSÊNIO, não arsênico;\nII - Errada - De acordo com o material, projéteis semiencamisados e encamisados (...) são constituídos por (...) e um núcleo, geralmente\ncomposto por ligas de chumbo;\nIII - Certa - Ver figura 8, página 18;\nIV - Errada - A descrição apresentada é do estojo, não do projétil.",
+    "referencia": "SimuChacal, simulado 11, questão #559 — Ref: páginas 17 e 18"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um perito criminal analisa uma munição destinada a um fuzil de alta precisão com cano longo. Ao verificar as especificações da carga de projeção, ele observa que o propelente deve ter uma queima controlada para acompanhar o deslocamento do projétil por toda a extensão do cano. Qual a classificação técnica dessa pólvora e a justificativa para seu uso nesse armamento?",
+    "alternativas": {
+      "A": "Pólvora viva, pois sua queima intensa e rápida garante que o projétil atinja a velocidade máxima antes de percorrer metade do cano longo.",
+      "B": "Pólvora de base dupla, visto que a adição de nitroglicerina é o único fator que permite a combustão lenta necessária para armas de grande porte.",
+      "C": "Pólvora progressiva, uma vez que o cano maior oferece mais tempo para impulsionar o projétil, exigindo uma liberação de gases gradual e constante.",
+      "D": "Pólvora de base simples, pois a ausência de nitroglicerina impede que a pressão interna atinja níveis críticos em canos com raiamento complexo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: Armas longas possuem canos maiores, o que permite que o projétil seja impulsionado por mais tempo. Por isso, utilizam pólvoras progressivas, que queimam de forma mais lenta e constante, ao contrário das armas curtas, que exigem pólvoras vivas de queima rápida.\nCitação Direta do Documento: \"Pólvoras utilizadas em armas curtas, denominadas pólvoras vivas, queimam de forma mais intensa e rápida do que as pólvoras utilizadas em armas longas, denominadas pólvoras progressivas. Essa diferença se baseia no fato de que... a pólvora pode queimar mais lentamente nas armas longas, visto que o cano é maior e há mais tempo para impulsionar o projétil.\"",
+    "referencia": "SimuChacal, simulado 11, questão #572 — Ref: pp. 25 e 26"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma análise laboratorial de vestígios de disparos, identifica-se a presença de nitroglicerina misturada à nitrocelulose na composição química dos grãos de propelente. Considerando a classificação das pólvoras químicas modernas, esse material é classificado como:",
+    "alternativas": {
+      "A": "Pólvora de base dupla, caracterizada pela combinação desses dois compostos para alterar as propriedades de queima e energia.",
+      "B": "Pólvora negra, já que a presença de compostos nitrogenados em estado líquido é um indicativo de formulações antigas de alta fumaça.",
+      "C": "Pólvora de base simples, pois a nitroglicerina atua apenas como um agente estabilizador, não alterando a classificação principal da nitrocelulose.",
+      "D": "Pólvora progressiva, dado que a mistura de dois explosivos invariavelmente resulta em uma queima mais lenta e controlada em armas curtas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A classificação das pólvoras modernas depende de sua composição química de base. Se for composta apenas por nitrocelulose, é base simples; se associar nitrocelulose e nitroglicerina, é classificada como base dupla.\nCitação Direta do Documento: \"As cargas de projeção modernas são denominadas pólvoras químicas... Quando constituídas somente de nitrocelulose, recebem a denominação de pólvora de base simples, e quando constituídas de nitrocelulose e nitroglicerina, recebem a denominação de pólvora de base dupla.\"",
+    "referencia": "SimuChacal, simulado 11, questão #573 — Ref: pp. 25 e 26"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao investigar a evolução histórica dos cartuchos, um perito explica por que a pólvora negra, composta por salitre, carvão e enxofre, tornou-se obsoleta para o uso em armas de fogo modernas. De acordo com os parâmetros técnicos de eficiência, qual o principal motivo dessa substituição?",
+    "alternativas": {
+      "A": "A instabilidade química dos grãos de enxofre, que sofriam ignição espontânea em ambientes de alta umidade.",
+      "B": "A incapacidade de gerar gases em volume suficiente para impulsionar projéteis de chumbo endurecido com arsênio.",
+      "C": "O excesso de fumaça gerado e a combustão ineficiente, que dificultavam o uso tático e a manutenção do armamento.",
+      "D": "A impossibilidade de ser utilizada em cartuchos de fogo central devido à alta sensibilidade ao sistema de espoletamento Boxer."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: A pólvora negra foi substituída pelas pólvoras químicas devido a limitações práticas graves. Sua queima era ineficiente e produzia grandes volumes de fumaça e resíduos sólidos, o que é incompatível com o desempenho exigido por armas modernas.\nCitação Direta do Documento: \"Entretanto, devido à ineficiência de combustão e à grande quantidade de fumaça e resíduos produzidos, deixou de ser utilizada em armas modernas depois do advento das pólvoras sem fumaça.\"",
+    "referencia": "SimuChacal, simulado 11, questão #574 — Ref: pp. 25 e 26"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as características construtivas e funcionais do revólver, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O revólver caracteriza-se pela presença de um tambor giratório dotado de câmaras, sendo cada uma delas responsável pelo alojamento do cartucho e pelo guiamento integral do projétil até sua saída da arma.",
+      "B": "No revólver, as câmaras localizadas no tambor são sucessivamente alinhadas ao cano, constituindo, em conjunto com este, uma única câmara de combustão permanente.",
+      "C": "O revólver é uma arma de fogo curta dotada de um tambor giratório com várias câmaras de combustão, as quais são sucessivamente alinhadas com o cano para possibilitar a realização dos disparos.",
+      "D": "O tambor do revólver funciona exclusivamente como reservatório de munições, uma vez que a combustão da carga de projeção ocorre integralmente na parte posterior do cano."
+    },
+    "resposta_correta": "C",
+    "justificativa": "“Revólver é uma arma de fogo curta, dotada de várias câmaras de combustão dispostas paralelamente ao redor de um eixo, as quais são sucessivamente alinhadas com o cano por meio da rotação de um cilindro denominado tambor.”",
+    "referencia": "SimuChacal, simulado 11, questão #575 — Ref: 33"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de um revólver, constatou-se que o armamento apresentava um tambor contendo seis câmaras de combustão e apenas um cano. Considerando o funcionamento desse tipo de arma, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O disparo somente pode ocorrer quando uma das câmaras do tambor encontra-se alinhada simultaneamente com o cano e com o mecanismo de percussão da arma.",
+      "B": "A rotação do tambor tem como finalidade principal realizar a extração automática dos estojos deflagrados e alimentar o cano com novos cartuchos.",
+      "C": "Cada câmara do tambor constitui um compartimento destinado exclusivamente ao armazenamento da munição, sendo a combustão da carga de projeção iniciada somente após o cartucho ser transferido para o cano.",
+      "D": "Após cada disparo, o cartucho seguinte é retirado do tambor e introduzido em uma câmara de combustão localizada na parte posterior do cano."
+    },
+    "resposta_correta": "A",
+    "justificativa": "“Para que ocorra o disparo, uma das câmaras do tambor deve estar alinhada com o cano e com o mecanismo de percussão da arma.”",
+    "referencia": "SimuChacal, simulado 11, questão #576 — Ref: 34"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da relação entre o tambor, as câmaras de combustão e o cano nos revólveres, analise as afirmativas:\n\nI. O revólver possui diversas câmaras de combustão dispostas paralelamente ao redor do eixo de rotação do tambor.\n\nII. Durante o funcionamento da arma, as câmaras do tambor são sucessivamente posicionadas em alinhamento com o cano.\n\nIII. Diferentemente das pistolas semiautomáticas, nos revólveres cada cartucho permanece alojado em uma das câmaras do tambor no momento do disparo.\n\nIV. A rotação do tambor permite que diferentes câmaras de combustão utilizem sucessivamente um mesmo cano para a realização dos disparos.",
+    "alternativas": {
+      "A": "Apenas as afirmativas I e II estão corretas.",
+      "B": "As afirmativas I, II, III e IV estão corretas.",
+      "C": "Apenas as afirmativas II e III estão corretas.",
+      "D": "Apenas as afirmativas I, II e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“Revólver é uma arma de fogo curta, dotada de várias câmaras de combustão dispostas paralelamente ao redor de um eixo, as quais são sucessivamente alinhadas com o cano por meio da rotação de um cilindro denominado tambor.”",
+    "referencia": "SimuChacal, simulado 11, questão #577 — Ref: 33"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação ao confronto balístico em projéteis, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Não é possível fazer comparações do projétil questionado quando ele estiver intensamente deformado.",
+      "B": "Mesmo quando um projétil questionado se encontrar intensamente deformado, ainda assim, é possível realizar um confronto balístico com um projétil padrão.",
+      "C": "É possível realizar a comparação entre um projétil questionado intensamente deformado e um projétil padrão. Entretanto, se o projétil questionado for do tipo expansivo ou estiver completamente fragmentado, não é possível realizar essa comparação.",
+      "D": "A perícia criminal, no Brasil, não realiza confronto balístico em projéteis, já que o confronto em estojos apresenta resultados superiores."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Mesmo quando um projétil questionado se encontrar intensamente deformado,\npor impacto contra objeto resistente ou devido à completa reversão dos bordos de\nexpansão em projéteis expansivos, ou completamente fragmentado, ainda assim\né possível realizar um confronto balístico com um projétil padrão, de modo que\né importante que todos os projéteis e fragmentos sejam preservados para perícia",
+    "referencia": "SimuChacal, simulado 11, questão #584 — Ref: P. 75"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Tendo em vista o que está exposto na apostila em relação ao confronto balístico em estojos, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Diversas são as características que podem ser analisadas em estojos questionados, citamos marcas de percussão, marcas de ejeção, marcas de extração e marcas de culatra ou chapa de obturação na base do estojo.",
+      "B": "Poucos elementos no estojo deflagrado são úteis para o perito, por isso, na PF, predomina o uso de projéteis para o confronto balístico.",
+      "C": "O estojo deflagrado não é utilizado em armas de calibre de alta energia (rifles e fuzis), já que o estojo pode se perder ou se fragmentar de tal forma que impossibilite o confronto microscópico.",
+      "D": "O confronto balístico negativo indica que um estojo questionado foi percutido pela mesma arma que o estojo padrão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A - literalidade a apostila\nB - O estojo possui diversas características úteis\nC - O projétil é que geralmente não é utilizado.\nD - Isso é indicado pelo confronto balístico positivo",
+    "referencia": "SimuChacal, simulado 11, questão #586 — Ref: p. 76"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame microcomparativo pode ser efetuado entre projéteis padrões e\nquestionados, quando a arma questionada estiver disponível ao perito, ou entre\ndiversos projéteis questionados, visando determinar se todos foram expelidos pelo\ncano da mesma arma. Sobre esse assunto, é CORRETO afirmar que:",
+    "alternativas": {
+      "A": "Projeteis de determinado calibre nominal só podem ser expelidos por armas com o mesmo calibre nominal.",
+      "B": "Prójeteis de calibre 9 mm não podem ser expelidos por armas de calibre .380\".",
+      "C": "Projéteis de um calibre nominal podem ser expelidos por canos de armas de outros calibres nominais, desde que o calibre real seja similar.",
+      "D": "Os projéteis não são importantes para a perícia e após coletados em cenas de crime devem ser entregues para a fabricante para que possam ser reciclados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quanto a isso, o perito apenas deve tomar cuidado com relação ao calibre\ndo projétil, lembrando que projéteis de um calibre nominal podem ser expelidos\npor canos de armas de outros calibres nominais, desde que o calibre real seja\nsimilar. Por exemplo, projéteis de calibre .380” Auto podem ser expelidos por\ncanos de armas calibre 9 mm ou .38” SPECIAL, devendo o perito acautelar-se\nquanto a esse aspecto.",
+    "referencia": "SimuChacal, simulado 11, questão #587 — Ref: p. 75"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As armas de fogo longas são caracterizadas principalmente por:",
+    "alternativas": {
+      "A": "Possuírem exclusivamente funcionamento automático.",
+      "B": "Serem utilizadas apenas para defesa pessoal.",
+      "C": "Apresentarem comprimento acentuado devido às dimensões do cano e da coronha.",
+      "D": "Serem operadas apenas com uma das mãos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #590 — Ref: Pág. 43"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O termo rifle deriva do inglês rifled, que significa:",
+    "alternativas": {
+      "A": "Automático",
+      "B": "Raiado ou estriado.",
+      "C": "Cano curto.",
+      "D": "Arma de assalto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #591 — Ref: Pág. 43"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma característica que diferencia a carabina dos rifles e fuzis é:",
+    "alternativas": {
+      "A": "Possuir exclusivamente dois canos.",
+      "B": "Utilizar apenas munição de fogo central.",
+      "C": "Apresentar cano de menor comprimento.",
+      "D": "Não possuir alma raiada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #593 — Ref: Pág. 43"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a tabela de correspondência técnica entre calibres nominais e calibres reais para armas de alma lisa, é correto afirmar que:",
+    "alternativas": {
+      "A": "O calibre nominal 36 apresenta um calibre real de aproximadamente 14,3 mm.",
+      "B": "O calibre nominal 24 possui uma medida de calibre real de 10,2 mm.",
+      "C": "O calibre nominal 28 corresponde a um calibre real de 13,0 mm.",
+      "D": "O calibre nominal 32 é tecnicamente idêntico ao calibre nominal 36 em termos de diâmetro real."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A tabela na página 50 mostra explicitamente que o calibre nominal 28 corresponde a 13,0 mm",
+    "referencia": "SimuChacal, simulado 11, questão #595 — Ref: 50"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na descrição de cartuchos e estojos, devem ser indicados, EXCETO:",
+    "alternativas": {
+      "A": "Calibre",
+      "B": "Marca",
+      "C": "Procedência",
+      "D": "Propelente"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na descrição de cartuchos e estojos, devem ser indicados o calibre, a marca\na procedência, o calibre nominal, o tipo de matéria do qual são constituídos o\nestojo e a cápsula de espoletamento, sistema de percussão e outras características\npeculiares que o perito achar convenientes descrever",
+    "referencia": "SimuChacal, simulado 11, questão #596"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime onde foram efetuados disparos de espingarda e os projéteis (balins) estão dispersos, qual elemento de munição é considerado fundamental para a indicação do calibre nominal da arma empregada, segundo a fonte?",
+    "alternativas": {
+      "A": "O estojo plástico, pois sua cor indica obrigatoriamente o calibre nominal.",
+      "B": "A mistura iniciadora, que possui componentes químicos distintos para cada calibre.",
+      "C": "A bucha, pois em geral é uma peça única com diâmetro de seção reta similar ao calibre real do cano.",
+      "D": "O pólen ou resíduo de pólvora, que se deposita de forma específica conforme o diâmetro da alma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A bucha guarda relação com o calibre da arma por ter diâmetro similar ao calibre real do cano, sendo fundamental para a indicação do calibre nominal em locais de crime.",
+    "referencia": "SimuChacal, simulado 11, questão #597 — Ref: 49 e 50"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o cálculo e a definição do calibre nominal em armas de alma lisa (como o calibre 12), a literatura técnica da Academia Nacional de Polícia estabelece que:",
+    "alternativas": {
+      "A": "Dizer que uma arma é calibre 12 garante que ela utilize invariavelmente esferas de chumbo com exatos 18,5 mm de diâmetro.",
+      "B": "O calibre nominal é fixo por lei, impedindo que fábricas diferentes apresentem variações de calibre real para o mesmo calibre nominal.",
+      "C": "O cálculo do calibre 12 baseia-se no diâmetro de esferas de chumbo que totalizam uma libra de massa, onde cada esfera teria cerca de 18,5 mm.",
+      "D": "O calibre real de uma arma de alma lisa é aferido apenas pela boca do cano, desconsiderando o diâmetro da câmara de combustão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – A bucha guarda relação com o calibre da arma por ter diâmetro similar ao calibre real do cano, sendo fundamental para a indicação do calibre nominal em locais de crime",
+    "referencia": "SimuChacal, simulado 11, questão #598 — Ref: 49 e 50"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos:",
+    "alternativas": {
+      "A": "Autenticidade, adequabilidade, contemporaneidade e quantidade.",
+      "B": "Autoridade, adequabilidade, contemporaneidade e qualidade.",
+      "C": "Autenticidade, adaptabilidade, contemporaneidade e quantidade.",
+      "D": "Autenticidade, adequabilidade, mesmidade e quantidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos de autenticidade, adequabilidade, contemporaneidade\ne quantidade.",
+    "referencia": "SimuChacal, simulado 11, questão #600"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as técnicas e limitações da revelação de caracteres suprimidos em armas de fogo, analise as afirmações abaixo:\n\nI. A revelação de numerações removidas é possível porque o processo de cunhagem a frio altera a estrutura metálica por baixo dos caracteres, deixando sinais latentes que podem ser reagidos quimicamente.\n\nII. O procedimento experimental de revelação é plenamente eficaz e produz resultados positivos mesmo quando os caracteres originais foram gravados por meio de processos de impressão a laser.\n\nIII. Durante a preparação da arma, deve-se evitar o uso de graxa nas partes não relacionadas à área a ser revelada, permitindo que os ácidos voláteis da solução limpem toda a superfície do armamento.\n\nIV. Caso a pressão utilizada no momento da cunhagem original tenha sido desigual entre um caractere e outro, a revelação pericial desses caracteres também poderá ocorrer de modo desigual.\n\nAssinale a opção que indica as afirmações INCORRETAS:",
+    "alternativas": {
+      "A": "I e II",
+      "B": "II e III",
+      "C": "III e IV",
+      "D": "II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As afirmações II e III estão incorretas.\n\nJustificativa II: os procedimentos de revelação serão infrutíferos se a impressão não tiver sido por cunhagem a frio, citando a impressão a laser como exemplo de caso onde a revelação não funciona.\n\nJustificativa III: O procedimento exige proteger com uma generosa camada de graxa todas as partes da arma sem relação com a área de estudo, pois os ácidos das soluções podem corroer e danificar desnecessariamente o restante da arma.",
+    "referencia": "SimuChacal, simulado 11, questão #602 — Ref: p.53,54"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação ao mecanismo de disparo dos revólveres, selecione a afirmativa correta:",
+    "alternativas": {
+      "A": "Os revólveres de movimento duplo são assim denominados em função de\nque seu sistema de disparo funciona através de dois movimentos para realizar o disparo.",
+      "B": "Os revólveres de movimento simples são denominados de ação simples quando o cão não precisa ser manualmente engatilhado antes de se efetuar o disparo por meio de acionamento do gatilho.",
+      "C": "Os revólveres de movimento simples são denominados de ação dupla quando o cão não fica imobilizado na posição engatilhada, devendo o atirador, por meio de pressão no gatilho, deslocar o cão para a retaguarda, a cada disparo que desejar efetuar.",
+      "D": "Quanto ao mecanismo de disparo, a armação é um quadro inteiriço e rígido, ficando o tambor montado em um suporte que se articula com a armação, permitindo que ele seja projetado para fora desta em um arco."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A) Invenção\nB) \"Não\" do carioca\nC) Literalidade da apostila\nD) Afirmação sobre armação e tambor correta, porém sem relação com mecanismo de disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #603 — Ref: p. 38"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos de autenticidade, adequabilidade, contemporaneidade\ne quantidade:\nI - A autenticidade é o mais importante requisito de um padrão. Um padrão é autêntico quando tiver origem certa e inquestionável, ou seja, há a certeza de que o padrão foi colhido com a arma questionada.\nII - Adequabilidade: os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.\nIII - Por contemporaneidade se entende que um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos.\nIV - Quantidade: Não é possível precisar quantos padrões são necessários para efetuar, com\nsucesso, um exame de comparação balística, devendo ser colhidos tantos padrões quantos sejam necessários para formar a convicção dos peritos.\nEstão CORRETAS:",
+    "alternativas": {
+      "A": "Somente I e II",
+      "B": "Somente I, II e III",
+      "C": "Somente II, III e IV",
+      "D": "Todas alternativas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Literal da apostila, folha 71.",
+    "referencia": "SimuChacal, simulado 11, questão #605"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o procedimento experimental para a revelação de caracteres suprimidos, qual é a primeira medida que o perito deve tomar para evitar que os ácidos das soluções reveladoras danifiquem as partes da arma que não serão analisadas?",
+    "alternativas": {
+      "A": "Lavar a arma em água destilada para neutralizar resíduos de pólvora.",
+      "B": "Aplicar uma camada de verniz transparente sobre a superfície metálica da arma.",
+      "C": "Proteger as partes da arma sem relação com a área a ser revelada com uma generosa camada de graxa.",
+      "D": "Lixar profundamente a região lateral da arma para garantir que o ácido não escorra."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O material didático afirma que o procedimento consiste em, primeiramente, proteger com graxa as partes que não têm relação com a área de estudo, pois as soluções possuem ácidos voláteis que podem corroer e danificar o restante do armamento.",
+    "referencia": "SimuChacal, simulado 11, questão #606 — Ref: p. 54"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização do exame para revelação de numeração de série em uma arma de fogo, o que o perito deve fazer caso a primeira tentativa de aplicação do reagente químico não seja bem-sucedida?",
+    "alternativas": {
+      "A": "Encerrar o exame e declarar a numeração como permanentemente irrecuperável.",
+      "B": "Limpar e polir a superfície novamente, repetindo o processo até que os caracteres comecem a aparecer.",
+      "C": "Utilizar uma lixa de metal grossa para remover uma camada profunda de aço e tentar novamente.",
+      "D": "Aquecer a arma em uma estufa para acelerar a reação química do ácido remanescente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A material didático estabelece que, se a primeira tentativa de revelação falhar, a superfície deve passar por uma nova limpeza e polimento delicado, repetindo-se o procedimento até que os sinais latentes da cunhagem original comecem a ser revelados.",
+    "referencia": "SimuChacal, simulado 11, questão #608 — Ref: p.43"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta de amostras e análises\nI. A análise de resíduos de disparo, quando requisitada, deve ser a primeira tarefa a\nser efetuada em uma arma.\nII. O resultado do teste será positivo se houver uma coloração azul, de modo geral, tanto mais intenso quanto maior for a quantidade de nitritos, no(s) cone(s).\nIII. No caso dos tambores de revólveres, cada câmara pode ser analisada de modo\nindependente, colocando-se um cone de papel em cada uma e procedendo-se\ncomo nos exames dos canos de armas.\nIV. Qualquer disparo que o perito efetuar, previamente à análise de nitritos, irá formar uma camada de resíduos no interior do cano e câmaras, sendo que estes resíduos fornecerão um resultado positivo no teste de recentidade causando interferência nos resultados.",
+    "alternativas": {
+      "A": "I, II, IV",
+      "B": "II, III, IV",
+      "C": "I, III e IV",
+      "D": "Todas as alternativas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A coloração no teste positivo para nitrito é rosa.",
+    "referencia": "SimuChacal, simulado 11, questão #610 — Ref: 59"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação a classificação dos revólveres quanto à percussão, selecione a afirmativa INCORRETA.",
+    "alternativas": {
+      "A": "Os revólveres de percussão intrínseca radial, nos quais a munição não apresenta cápsula de espoletamento, sendo estas armas praticamente restritas ao calibre .22”.",
+      "B": "Os revólveres de percussão extrínseca central, nos quais a munição apresenta uma cápsula de espoletamento no centro da base do cartucho, constituindo a grande maioria dos revólveres da atualidade;",
+      "C": "Os revólveres de percussão intrínseca perpendicular, representada unicamente pelos obsoletos revólveres Lefaucheux.",
+      "D": "A percussão intrínseca pode ser direta, se o pino percussor está ligado diretamente ao cão, de modo fixo ou oscilante, ou indireta, se o cão transfere a energia de percussão por meio de um pino percussor flutuante alojado na armação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #614 — Ref: p. 38"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação à extração dos revólveres, selecione a afirmativa verdadeira.",
+    "alternativas": {
+      "A": "Quanto à extração, os revólveres podem ser classificados como de extração manual, podendo esta ser simples ou dupla.",
+      "B": "Quanto à extração, os revólveres podem ser classificados como de extração manual, sendo esta apenas simples.",
+      "C": "Quanto à extração, os revólveres podem ser classificados como de extração dupla, sendo esta apenas simultânea.",
+      "D": "Quanto à extração, os revólveres podem ser classificados como de extração automática, sendo esta apenas simultânea."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #616 — Ref: p. 38"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os exames de resíduos na mão do atirador, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "As técnicas de detecção de resíduos de nitritos (denominada prova de Iturrioz) e resíduos de chumbo ( reação com rodizonato de sódio) são as mais utilizadas hoje em dia, por oferecerem resultados sensíveis e específicos.",
+      "B": "Certas armas, tais como os pistolas e espingardas, possuem zonas de escape intenso na junção do tambor com o cano, enquanto outras como revólveres, quase não possuem zonas de escape intensas, já que as câmaras são herméticas.",
+      "C": "100% dos testes de resíduos de disparos de arma de fogo forneceram um resultado positivo quando os resíduos foram coletados cerca de duas horas após os disparos",
+      "D": "Se o atirador lavar a mão com água e sabão, os resíduos são completamente eliminados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A) essas técnicas não são mais realizadas hoje em dia. O indicado é a MEV.\nB) alternativa está invertida, os revolveres possuem zona de escape intenso, e não as espingardas e pistolas.\nC) 60 % dos testes de resíduos de disparos de arma de fogo forneceram um resultado positivo ...\nD) pg 61",
+    "referencia": "SimuChacal, simulado 11, questão #617 — Ref: 60 e 61"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA com relação aos exames realizados e utilização de reagentes.",
+    "alternativas": {
+      "A": "Para a detecção de nitritos no interior dos estojos é utilizado um fragmento de papel filtro, no qual são pingadas 3 gotas de cada reagente de Griess.",
+      "B": "Excetuando-se o cano e as câmaras do tambor do revolver , nas demais partes da arma os resíduos de nitrito podem ser coletados com um algodão limpo embebido em água destilada morna, sendo as soluções",
+      "C": "O reagente de Griess é formado por duas soluções separadas, que devem ser mantidas em frascos independentes e sob refrigeração, as quais devem ser gotejadas sobre o material investigado ou suporte de coleta.",
+      "D": "No caso de canos de armas de fogo, formar pequenos cones utilizando papel\nde filtro novo e limpo, os quais são introduzidos diretamente na boca do(s) cano(s)\na serem analisados"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A presença de nitritos também pode ser verificada no interior de estojos\npercutidos e deflagrados. Para isso, o interior do estojo é lavado três vezes com\numa solução de ácido acético 5%, utilizando cerca de um mililitro a cada vez, e\njuntando-se as águas de lavagem.",
+    "referencia": "SimuChacal, simulado 11, questão #618 — Ref: 58-60"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O Sistema Nacional de Análise Balística (SINAB) permite, EXCETO:",
+    "alternativas": {
+      "A": "aquisição padronizada de imagens de projéteis e estojos;",
+      "B": "armazenamento descentralizado de imagens e metadados;",
+      "C": "correlação automatizada de novas amostras contra todas as demais compatíveis no banco;",
+      "D": "geração de listas ordenadas de possíveis correspondências (HITs), a serem analisadas por Peritos Criminais;"
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"armazenamento CENTRALIZADO de imagens e metadados;\"\n\nO sistema permite:\n• aquisição padronizada de imagens de projéteis e estojos;\n• armazenamento CENTRALIZADO de imagens e metadados;\n• correlação automatizada de novas amostras contra todas as demais\ncompatíveis no banco;\n• geração de listas ordenadas de possíveis correspondências (HITs),\na serem analisadas por Peritos Criminais.",
+    "referencia": "SimuChacal, simulado 11, questão #630 — Ref: Página 78"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é a principal finalidade da indicação do calibre nominal gravada na arma de fogo?",
+    "alternativas": {
+      "A": "Informar o calibre real do projétil medido em milímetros.",
+      "B": "Indicar ao atirador qual cartucho deve ser utilizado na arma.",
+      "C": "Demonstrar a energia de disparo produzida pela munição.",
+      "D": "Identificar o fabricante da arma e do cartucho."
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"A indicação do calibre nominal de uma determinada arma serve como alerta para o atirador, o qual deve utilizar um cartucho de calibre correspondente\"",
+    "referencia": "SimuChacal, simulado 11, questão #631 — Ref: p 31"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa correta quanto as características de calibre nominal e real de armas de fogo e munições.",
+    "alternativas": {
+      "A": "Todo calibre real corresponde a apenas um calibre nominal.",
+      "B": "Cartuchos de calibres nominais diferentes jamais podem ser utilizados na mesma arma.",
+      "C": "Diferentes calibres nominais podem apresentar correspondência de medidas e, em determinadas situações, serem utilizados em uma mesma arma.",
+      "D": "A classificação legal das armas de fogo é determinada exclusivamente pelo calibre nominal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os calibres nominais são designados, conforme o tipo de medida utilizado,\npelas suas respectivas frações de polegada ou milímetros, podendo haver diversos\ncalibres nominais para um único calibre real. Além disso, há correspondência de\nmedidas entre diversos calibres nominais diferentes, os quais podem ser utilizados\nna mesma arma",
+    "referencia": "SimuChacal, simulado 11, questão #635 — Ref: P. 30"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a Legislação nacional a respeito de banco de dados\nbalísticos assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Em 2019, através da Lei nº 13.964/2019, foi acrescentado o art. 34A na Lei\nnº 10.826/2003, criando o Banco Nacional de Perfis Balísticos (BNPB;",
+      "B": "o Banco Nacional de Perfis Balísticos (BNPB)É destinado a armazenar perfis balísticos de projéteis e estojos relacionados a crimes, sob gestão da unidade oficial de perícia criminal;",
+      "C": "O Decreto nº 10.711/2021 instituiu formalmente o BNPB, criou o Sistema Nacional de Análise Balística (SINAB) e um Comitê Gestor no âmbito do Ministério da Justiça e Segurança Pública;",
+      "D": "No Brasil, o Estatuto do Desarmamento (Lei nº 10.826/2003) previu dentre\nas competências do SINARM, cadastrar as características das impressões digitais de suspeitos da prática crime com arma de fogo;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "No Brasil, o Estatuto do Desarmamento (Lei nº 10.826/2003) previu dentre\nas competências do SINARM, cadastrar as características das impressões de raiamento e de microestriamento de projétil disparado, conforme arcação e testes obrigatoriamente realizados pelo fabricante, dispositivo que implicaria a criação",
+    "referencia": "SimuChacal, simulado 11, questão #637 — Ref: 77"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a elaboração de um laudo pericial, o perito verifica que a arma analisada possui gravado um calibre nominal diferente daquele constante nas tabelas das Portarias Conjuntas C Ex/DG-PF nº 2/2023 e nº 3/2024. Entretanto, após análise técnica, conclui que ambas as designações correspondem ao mesmo calibre nominal. À luz do texto, a conduta mais adequada é:",
+    "alternativas": {
+      "A": "Classificar a arma como de calibre diverso do previsto nas portarias, em razão da diferença de nomenclatura.",
+      "B": "Desconsiderar a marcação existente na arma e utilizar exclusivamente o calibre real obtido por medição.",
+      "C": "Consignar expressamente no laudo que o calibre nominal gravado na arma corresponde ao calibre previsto nas tabelas das portarias, ainda que possua designação diferente.",
+      "D": "Reclassificar a arma com base exclusivamente na possibilidade de utilização de munições de outros calibres nominais compatíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Um ponto de atenção para o perito criminal é que a maioria dos calibres nominais possui mais de uma designação, devendo consignar em Laudo se o calibre nominal da arma ou munição em análise é o mesmo que determinado calibre constante nas tabelas das portarias conjuntas.\"",
+    "referencia": "SimuChacal, simulado 11, questão #638 — Ref: P. 32"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos Protocolos de operação do SINAB, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Os Protocolos de Operação do SINAB, estabelecidos pelo Comitê Gestor do Ministério da Justiça e Segurança Pública, definem critérios de legibilidade e priorização de casos, tendo em vista limitações operacionais;",
+      "B": "Com relação aos elementos de munição relacionados a crimes, são selecionadas as peças com as maiores marcas individualizadoras para inserção no sistema;",
+      "C": "São coletados e cadastrados padrões de armas de fogo apreendidas relacionadas a crimes.",
+      "D": "Elementos de munição relacionados a crimes passam, inicialmente, por triagem em microscópio comparador óptico;"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Elementos de munição relacionados a crimes passam, inicialmente, por triagem em microscópio comparador óptico, sendo selecionadas as peças com melhores marcas individualizadoras para inserção no sistema.",
+    "referencia": "SimuChacal, simulado 11, questão #639 — Ref: 78"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise pericial de uma camiseta de algodão de cor clara recuperada de uma vítima de disparo de arma de fogo, o perito criminal constata a presença de uma nítida zona de esfumaçamento e de grãos de pólvora incombusta incrustados ao redor do orifício de entrada (zona de tatuagem).\nContudo, após exame macroscópico minucioso, não é observado nenhum sinal de crestamento de pelos ou queimadura no tecido.\nConsiderando a dinâmica espacial dos resíduos do disparo, qual é a conclusão técnica correta sobre o ocorrido?",
+    "alternativas": {
+      "A": "O disparo foi efetuado a uma distância dita \"distante\", uma vez que a ausência de queimaduras ou de efeitos térmicos imediatos no suporte afasta completamente a possibilidade de caracterização de um tiro a curta distância",
+      "B": "Trata-se de um disparo encostado, pois a deposição homogênea de resíduos secundários sem chama ocorre especificamente quando os gases em alta temperatura são totalmente retidos pelo próprio cano da arma.",
+      "C": "O disparo ocorreu fora do limite espacial dos efeitos secundários do tiro, devendo os vestígios de fumaça e de grãos de pólvora ser atribuídos a uma contaminação ambiental posterior à ocorrência.",
+      "D": "Trata-se de um tiro a curta distância, cuja distância entre a boca do cano da arma e o anteparo no momento do disparo provavelmente excedeu dez centímetros, dada a preservação das fibras do tecido contra os gases em combustão"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Justificativa da Correta: A opção D está correta porque a presença de zona de esfumaçamento e zona de tatuagem caracteriza o tiro como sendo a curta distância, ou seja, aquele em que os efeitos secundários atingem o alvo\n. Como a zona de chama (efeito dos gases em combustão responsável por queimar tecido ou crestar pelos) dificilmente é detectável além de dez centímetros da boca do cano\n, a ausência desses efeitos térmicos, em conjunto com a presença das outras zonas secundárias, indica que o disparo foi efetuado a uma distância intermediária dentro do limite de curta distância, porém superior a 10 cm do anteparo.\nCitação Direta do Documento: \"A zona de chama é aquela produzida pelos gases em combustão e em alta temperatura que são expelidos pelo cano, gerando efeitos característicos, como tecido queimado ou pelos crestados. Seus efeitos dificilmente são detectáveis além de dez centímetros da boca do cano.\"",
+    "referencia": "SimuChacal, simulado 11, questão #640"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma equipe pericial é acionada para atender a um local de crime de homicídio por disparo de arma de fogo. Para viabilizar os exames posteriores de determinação de distância de tiro em laboratório, os peritos precisam coletar e preservar a camiseta da vítima, a qual está bastante manchada de sangue e não possui botões ou aberturas frontais\n. Qual procedimento de coleta e preservação atende rigorosamente aos padrões científicos para evitar contaminação e preservar os resíduos secundários?",
+    "alternativas": {
+      "A": "Realizar a descrição e a documentação fotográfica com escala dos resíduos ainda com a veste no corpo da vítima, retirá-la por meio de cortes para evitar contaminação cruzada, e preservá-la colocando uma folha de papel branco e limpo em suas faces interna e externa antes de dobrá-la ou enrolá-la",
+      "B": "Retirar a veste puxando-a cuidadosamente pela cabeça da vítima para preservar a integridade estrutural das fibras que circundam o orifício\ne, em seguida, acondicioná-la ainda úmida em um envelope plástico hermeticamente fechado.",
+      "C": "Proceder à lavagem biológica preliminar da veste em água morna para desobstruir os resíduos metálicos latentes e, somente após a secagem completa à sombra, realizar o registro fotográfico com escala milimétrica",
+      "D": "Realizar a raspagem imediata dos resíduos particulados presentes na superfície do tecido ainda no local de crime, transferindo o material recuperado para stubs metálicos com fita condutora de carbono em dupla face"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Justificativa da Correta: A opção A descreve perfeitamente o protocolo técnico estabelecido para a coleta e preservação de vestes como anteparos. A documentação fotográfica com escala deve ser feita com a veste ainda na vítima\n. Se a peça não tiver botões, deve ser cortada para não contaminar outras partes da veste\n. A preservação exige o uso de papel branco e limpo em ambas as faces (interna e externa) antes de dobrar ou enrolar para evitar a transferência ou contaminação dos resíduos secundários\n. As demais alternativas violam essas diretrizes ao propor métodos que causam contaminação cruzada, lavagens que removem nitritos solúveis em água ou técnicas inadequadas para a análise integral da veste\nCitação Direta do Documento: \"O primeiro passo consiste na descrição e documentação fotográfica dos resíduos do disparo enquanto as vestes ainda estão na vítima, observando que as fotos deverão apresentar escala. Em seguida, as vestes devem ser removidas, sendo que, caso não possuam botões, é preferível cortá-las, permitindo sua retirada sem a contaminação de outras partes da vestimenta. Para a preservação, deve-se colocar uma folha de papel branco e limpo, tanto na face interna quanto na externa da roupa, podendo esta, então, ser dobrada ou enrolada e armazenada para análise.\"",
+    "referencia": "SimuChacal, simulado 11, questão #643"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um laboratório de balística forense, um perito criminal analisa os resíduos secundários deixados ao redor do orifício de entrada em um anteparo de tecido questionado\n. Para determinar se o projétil que produziu o impacto era do tipo encamisado (jaquetado) ou de chumbo nu, o perito decide realizar testes químicos específicos para detecção de metais\n. Qual associação de reagente, reação observada e interpretação química está correta e permite identificar o uso de um projétil encamisado?",
+    "alternativas": {
+      "A": "A aplicação de rodizonato de sódio na área periférica do orifício, gerando uma coloração violeta ou púrpura, o que confirma a presença de cobre proveniente do encamisamento do projétil",
+      "B": "A aplicação de uma reação de azida de sódio com iodo sobre o tecido, resultando em uma coloração verde intensa que denuncia a presença de compostos sulfurados metálicos do encamisamento",
+      "C": "A aplicação de ditiooxamida ou ácido rubeânico na área questionada, resultando em uma coloração verde, o que comprova a deposição de cobre proveniente do encamisamento do projétil",
+      "D": "A aplicação do reagente de Griess diretamente sobre a zona de impacto, gerando uma coloração rosada que atesta a presença de fragmentos de chumbo metálico oriundos do núcleo do projétil"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Justificativa da Correta: A opção C está correta porque o cobre é o elemento metálico característico do encamisamento de projéteis e sua presença é revelada especificamente pelo reagente ditiooxamida ou ácido rubeânico, que tinge o local com uma coloração verde\n. A alternativa A erra ao associar o rodizonato de sódio (que revela chumbo e tinge de violeta/púrpura) ao cobre\n. A alternativa B erra porque a reação de azida de sódio com iodo identifica compostos sulfurados de pólvora negra (deixando o suporte incolor)\n, não cobre. A alternativa D erra pois o reagente de Griess revela nitritos da queima da pólvora (coloração rosada)\n, e não fragmentos de chumbo\nCitação Direta do Documento: \"cobre: proveniente do encamisamento de projéteis e revelados por meio do reagente ditiooxamida ou ácido rubeânico, o qual tinge as áreas contaminadas com coloração verde;\"",
+    "referencia": "SimuChacal, simulado 11, questão #645"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "E m relação aos conceitos de calibre nominal e calibre real nas armas de alma raiada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O calibre nominal identifica o tipo de munição e de arma para o qual esta foi concebida, enquanto o calibre real corresponde à medida física do diâmetro do projétil ou do cano, sendo possível que diferentes calibres nominais possuam calibre real semelhante",
+      "B": "O calibre real corresponde à designação comercial da munição, enquanto o calibre nominal representa a medida exata do diâmetro interno do cano.",
+      "C": "O calibre nominal e o calibre real são conceitos equivalentes, razão pela qual um único calibre real corresponde necessariamente a um único calibre nominal.",
+      "D": "O calibre real é gravado na base do culote dos cartuchos e no cano da arma, enquanto o calibre nominal é obtido apenas por medição pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "\"Tecnicamente, o calibre real corresponde à menor dimensão da alma do cano, devendo ser determinado pela medida entre dois cheios diametralmente opostos no sistema de raias (observar a nomenclatura na figura abaixo). \"P 29\n\"Os calibres nominais são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres nominais para um único calibre real\" P 30",
+    "referencia": "SimuChacal, simulado 11, questão #646"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos projéteis, qual a função do encamisamento?",
+    "alternativas": {
+      "A": "Não permitir que a pólvora entre em contato com o núcleo do projétil",
+      "B": "Impedir o derretimento do projétil no interior do cano das armas com maior poder de fogo",
+      "C": "Aumentar a penetrabilidade do projétil no alvo",
+      "D": "Expandir-se ao contato com o alvo, aumentando a lesividade do projétil"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A - Errada - Apesar de proteger o núcleo do contato com a pólvora, não é essa a função para a qual o encamisamento foi criado\nB - Certa - De acordo com o material: \"A função do encamisamento é impedir o derretimento do projétil no interior do cano de armas com maior poder de fogo, o que ocorreria se o projétil fosse confeccionado somente\ncom liga de chumbo.\"\nC - Errada - Aumentar a penetrabilidade do projétil no alvo não é a função principal do encamisamento\nD - Errada - Expandir-se ao contato com o alvo, aumentando a lesividade do projétil pode ser dito como função dos projéteis expansíveis, encamisados ou não.",
+    "referencia": "SimuChacal, simulado 11, questão #654 — Ref: pág. 18, item 2.2.4"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame pericial em uma arma de fogo apreendida, foi obtido resultado positivo para nitritos no interior do cano, mediante emprego do reagente de Griess. Com base nesse resultado, o perito poderá concluir que:",
+    "alternativas": {
+      "A": "a arma necessariamente efetuou disparo, pois os nitritos são resíduos exclusivos da combustão da pólvora.",
+      "B": "foram encontrados resíduos indicativos de, pelo menos, um disparo, sem que seja possível determinar a quantidade ou precisar exatamente o momento do disparo.",
+      "C": "a arma efetuou disparo recente, embora não seja possível determinar quantos disparos foram realizados.",
+      "D": "a presença de nitritos permite comprovar o disparo, mas sua instabilidade impede apenas a determinação da quantidade de tiros."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O resultado positivo permite indicar a presença de resíduos indicativos de, pelo menos, um disparo, mas não permite determinar se houve um ou mais disparos nem precisar exatamente quando ocorreram. A, C e D atribuem caráter conclusivo ao teste, ignorando que os nitritos podem ter origem externa e não permitem determinar a recenticidade.",
+    "referencia": "SimuChacal, simulado 11, questão #659 — Ref: págs. 57–58"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma arma de fogo é encaminhada para exame pericial, havendo suspeita de ter sido utilizada em crime ocorrido há alguns dias. O teste para nitritos apresenta resultado negativo.\n\nNessa situação, é correto afirmar que:",
+    "alternativas": {
+      "A": "o resultado exclui a ocorrência de disparo, desde que os suportes de coleta tenham sido devidamente controlados por amostras brancas.",
+      "B": "a ausência de nitritos comprova que a arma não efetuou disparo recente, embora não exclua disparos antigos.",
+      "C": "o resultado negativo é inconclusivo quanto à ocorrência de disparos, pois a arma pode ter sido limpa, lavada com água ou os nitritos podem ter desaparecido com o tempo.",
+      "D": "a negatividade somente poderá ser considerada inconclusiva quando demonstrada elevada umidade no local de armazenamento da arma."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O resultado negativo não comprova que não houve disparo. A arma pode ter sido limpa pelo atirador, caído ou sido lavada com água, ou o disparo pode ser antigo e os nitritos já terem desaparecido. A, B e D atribuem à negatividade uma capacidade de exclusão que a técnica não possui.",
+    "referencia": "SimuChacal, simulado 11, questão #660"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca da utilização dos nitritos como indicativos de disparo de arma de fogo, analise os itens:\n\nI. Os nitritos são razoavelmente instáveis na presença de ar.\n\nII. O tempo de degradação dos nitritos no interior da arma, em condições normais, apresenta comportamento previsível e reprodutível.\n\nIII. Os nitritos são muito solúveis em água.\n\nIV. Os nitritos podem ser encontrados em fontes externas à arma, como resíduos de urina, cinzas, fertilizantes e aditivos de alimentos.\n\nEstá correto o que se afirma em:",
+    "alternativas": {
+      "A": "I e II, apenas.",
+      "B": "II e III, apenas.",
+      "C": "I, III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Estão corretos I, III e IV. O item II está errado porque o tempo de degradação dos nitritos não segue comportamento previsível e reprodutível. Essa imprevisibilidade é justamente uma das limitações para determinar o tempo decorrido desde o disparo.",
+    "referencia": "SimuChacal, simulado 11, questão #661"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um projétil é composto de:",
+    "alternativas": {
+      "A": "Cápsula metálica, composto químico detonante e bigorna",
+      "B": "Cápsula de espoletamento, propelente e estojo",
+      "C": "Ogiva, corpo cilíndrico, ranhuras de lubrificação e base",
+      "D": "Estifinato de chumbo, nitrato de bário e trissulfeto de antimônio"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A- Errada - essa é a descrição dos componentes de uma espoleta\nB - Errada - essa é a descrição dos componentes de um cartucho de munição\nC - Certa\nD - Errada - essa alternativa enumera os principais componentes da mistura iniciadora, presente na espoleta",
+    "referencia": "SimuChacal, simulado 11, questão #663 — Ref: Página 17, Figura 7"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Caso um dispositivo possua propelente e projétil, mas careça do aparato arremessador propriamente dito, qual função técnica é imediatamente comprometida?",
+    "alternativas": {
+      "A": "Ignição por percussão mecânica",
+      "B": "Combustão da carga de projeção",
+      "C": "Vetorização da expansão gasosa",
+      "D": "Estabilidade da massa vulnerante"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O aparato arremessador tem a função essencial de permitir a expansão dos gases apenas em direção e sentido determinados, servindo como conduto guia.",
+    "referencia": "SimuChacal, simulado 11, questão #693"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual elemento de engenharia é projetado para suportar o estresse mecânico do raiamento em altas velocidades?",
+    "alternativas": {
+      "A": "Configuração do núcleo de chumbo",
+      "B": "Proteção periférica (encamisamento)",
+      "C": "Vedação do côncavo da base",
+      "D": "Sistema de anéis de lubrificação"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O encamisamento protege o núcleo do projétil contra o atrito e o calor gerado pelo raiamento do cano, comum em munições de pistola de maior energia.\nOs anéis de lubrificação, são típicos de projéteis de chumbo exposto para reduzir o chumbamento do cano, não no encamisado.",
+    "referencia": "SimuChacal, simulado 11, questão #694"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A classificação dos revólveres quanto à extração dos cartuchos e estojos distingue a extração manual da automática, podendo ainda ser simples ou simultânea. Acerca dessa classificação, assinale a opção correta.",
+    "alternativas": {
+      "A": "A extração automática pode ser simples ou simultânea, conforme a configuração do mecanismo da arma analisada",
+      "B": "A extração simultânea ocorre exclusivamente em revólveres de armação rígida com janela lateral, por meio de vareta única",
+      "C": "Nos revólveres de tambor reversível há extração automática simultânea, acionada pelo basculamento do conjunto tambor-cano",
+      "D": "A extração manual pode ser simples ou simultânea, ao passo que a extração automática é apenas simultânea"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os revólveres podem ser de extração manual (simples ou simultânea) ou de extração automática (apenas simultânea).",
+    "referencia": "SimuChacal, simulado 11, questão #695 — Ref: p. 38"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os revólveres podem ser classificados em diversas categorias.\nAssinale a alternativa que contém as classificações.",
+    "alternativas": {
+      "A": "Quanto à armação, quanto ao mecanismo de disparo, quanto à percussão, quanto à extração, quanto ao funcionamento.",
+      "B": "Quanto ao mecanismo de disparo, quanto à percussão, quanto ao calibre, quanto à extração.",
+      "C": "Quanto ao calibre, quanto ao recuo, quanto à forma de empunhadura, quanto à percussão.",
+      "D": "Quanto à forma de empunhadura, quanto à percussão, quanto à extração, quanto ao mecanismo de disparo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "pag 35.",
+    "referencia": "SimuChacal, simulado 11, questão #721"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais são as duas modalidades da armação possíveis para revólveres?",
+    "alternativas": {
+      "A": "Rígida e Flexível",
+      "B": "Sólida e Condutora",
+      "C": "Rígida e Articulada",
+      "D": "Articulada e Fixa"
+    },
+    "resposta_correta": "C",
+    "justificativa": "pag. 36",
+    "referencia": "SimuChacal, simulado 11, questão #722"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os tipos de revólveres",
+    "alternativas": {
+      "A": "Nos revólveres de armação articulada, a introdução de cartuchos é feita um de cada\nvez, por meio de uma janela lateral",
+      "B": "Revólveres de armação rígida permitem a inserção de apenas 1 estojo por vez e esse\ntipo de armação não é obsoleta, encontrando aplicação na atualidade.",
+      "C": "Revólveres de armação rígida contam com um extrator único para todas as\ncâmaras",
+      "D": "Os revólveres de armação articulada podem ser subdivididos em 3 grupos:\nrevólveres de armação de junta, revólveres com tambor reversível e revólveres com extração automática"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Pag. 36\n\na) Essa descrição é dos revólveres de armação rígida\nc) Essa descrição é dos revólveres de armação articulada\nd) Existem 2 subgrupos dentro de revólveres de armação articulada, somente os 2 primeiros mencionados, já o terceiro não existe.",
+    "referencia": "SimuChacal, simulado 11, questão #723"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando a estrutura e o funcionamento dos cartuchos de munição para espingardas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Assim como nos cartuchos destinados a armas de alma raiada, a deflagração da carga de propulsão atua diretamente sobre os projéteis, sendo a bucha destinada apenas ao fechamento frontal do estojo.",
+      "B": "b) A diferença básica entre um cartucho para espingarda e um cartucho para arma de alma raiada é o objeto que é propelido quando a carga de propulsão\né deflagrada: no primeiro é uma bucha, geralmente plástica ou de papelão, a qual impele os projéteis para fora do cano; no último o próprio projétil é impelido\npela força dos gases.",
+      "C": "c) A presença de múltiplos projéteis esféricos constitui requisito estrutural dos cartuchos para espingarda, razão pela qual o emprego de projétil único descaracteriza essa modalidade de munição.",
+      "D": "d) O corpo do estojo de munição para espingarda é integralmente metálico, diferenciando-se dos estojos para armas de alma raiada apenas pela presença da bucha entre a carga de propulsão e os projéteis"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa b está correta. A alternativa \"a\" está incorreta, pois nos cartuchos para espingarda a bucha impele os projéteis para fora do cano. A alternativa \"c\" está incorreta porque cartuchos para espingarda podem conter, inclusive, projéteis únicos denominados balotes. A alternativa \"d\" contraria a descrição do estojo, composto por base metálica resistente e corpo cilíndrico de papelão ou plástico.",
+    "referencia": "SimuChacal, simulado 11, questão #728 — Ref: p. 47 e 48"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à constituição dos cartuchos para espingarda e à variedade de projéteis ou materiais que podem ser neles empregados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) Os cartuchos para espingarda são necessariamente carregados com balins esféricos de chumbo, cuja classificação segue sistema internacional uniforme baseado em números e letras.",
+      "B": "b) O fechamento frontal do estojo é realizado necessariamente pelas próprias bordas do corpo cilíndrico, mediante fechamento estrela, não se admitindo o emprego de elemento autônomo para retenção do conteúdo interno.",
+      "C": "c) Embora sejam, em geral, carregados com chumbos ou balins esféricos de dimensões e massas variáveis, os cartuchos para espingarda podem, em razão das características de seus estojos, ser recarregados com materiais diversos, inclusive projéteis únicos denominados balotes.",
+      "D": "d) A utilização de materiais distintos dos balins esféricos restringe-se a projéteis especificamente fabricados para espingardas, uma vez que as dimensões do estojo impedem a acomodação de objetos não concebidos originalmente como componentes de munição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa c está correta. O texto afirma que os cartuchos para espingarda são, de modo geral, carregados com chumbos ou balins esféricos, mas podem ser recarregados virtualmente com qualquer coisa que caiba no estojo. O material menciona pedras, porcas, parafusos, projéteis de calibre .38\" para revólver, balotes e balas de borracha. A alternativa a também erra ao afirmar que a denominação dos projéteis segue padrão internacional uniforme: segundo o texto, essa denominação é bastante arbitrária e varia entre países. O estojo, por sua vez, pode ser fechado por disco de papelão ou pelo denominado fechamento estrela, tornando incorreta a alternativa b.",
+    "referencia": "SimuChacal, simulado 11, questão #729 — Ref: p. 47 e 48"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de uma espingarda, um perito pretende determinar o seu calibre real e avaliar a configuração do choke. Considerando os conceitos aplicáveis às armas de alma lisa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) O calibre real deve ser obtido na boca do cano, pois esse ponto representa o diâmetro final efetivamente percorrido pelos projéteis antes de deixarem a arma, ainda que exista choke.",
+      "B": "b) O calibre real corresponde ao diâmetro interno medido na porção mediana do cano, não devendo ser determinado na câmara de combustão nem na boca do cano; o choke, por sua vez, consiste em uma redução do diâmetro da boca destinada a favorecer o agrupamento dos balins por maior distância durante a trajetória.",
+      "C": "c) O choke corresponde a uma ampliação progressiva do diâmetro interno do cano em direção à boca, destinada a reduzir a dispersão dos balins mediante diminuição da resistência à sua saída.",
+      "D": "d) A classificação do choke expressa exclusivamente a presença ou a ausência de estrangulamento, não havendo gradações intermediárias entre o Full e o Cylinder."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa b está correta. O calibre real é medido na porção mediana do cano. A medição não deve ser realizada na câmara de combustão, que é ampliada para receber o cartucho, nem na boca do cano, porque esta pode apresentar choke. O choke consiste em uma redução do diâmetro da boca do cano, iniciada como uma rampa cônica interna até atingir o estrangulamento máximo. Sua finalidade é favorecer o agrupamento dos balins, mantendo-os unidos por maior distância e melhorando a precisão do tiro. O choque pode ser cambiável, por meio de uma peça rosqueada na boca\ndo cano, e é classificado em cinco tipos:\na) Full (F): ou pleno;\nb) Improved Modified (IM): com 3/4 de choke full;\nc) Modified (M): com 1/2 do choke full;\nd) Improved Cylinder (IC): com 1/4 de choke full; e\ne) Cylinder (C): ou cilíndrico, sem choke.",
+    "referencia": "SimuChacal, simulado 11, questão #730 — Ref: p. 47 e 48"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Armas de percussão intrínseca radial, anelar ou periférica (rimfire) são aquelas nas quais a",
+    "alternativas": {
+      "A": "Munição possui um canal estriado na base do cartucho no interior do qual se encontra a carga propulsora. A percussão, ao invés de se dar no centro da base do cartucho, se dá na sua borda. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão praticamente restritas ao calibre .22”.",
+      "B": "Munição possui um ressalto oco na base do cartucho no interior do qual se encontra a mistura iniciadora. A percussão, ao invés de se dar no centro da base do cartucho, se dá na sua borda. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão praticamente restritas ao calibre .22”.",
+      "C": "Munição possui um ressalto oco na base do cartucho no interior do qual se encontra a mistura iniciadora. A percussão, ao invés de se dar no fundo da base do cartucho, se dá no seu ombro. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão praticamente restritas ao calibre .22”.",
+      "D": "Munição possui um ressalto oco na base do cartucho no interior do qual se encontra a mistura iniciadora. A percussão, ao invés de se dar no centro da base do cartucho, se dá na sua borda. As armas de percussão radial, apesar de ainda serem produzidas em grande quantidade, estão integralmente restritas ao calibre .30”."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A O texto diz explicitamente que o que existe no interior do ressalto é a mistura iniciadora, e não carga propulsora (pólvora). Além disso, o elemento é um ressalto oco, não um canal estriado.\nB\nC O texto afirma que a percussão não se dá no centro, mas sim na borda. Trocar \"centro\" por \"fundo\" e \"borda\" por \"ombro\" altera completamente a localização descrita, tornando a afirmação incompatível com o texto.\nD O texto usa \"praticamente\" (que admite exceções) e afirma que o calibre é \".22”\" (vinte e dois centésimos de polegada). Trocar por \"integralmente\" (exclusão total) e \".30”\" (calibre diferente) torna a frase falsa tanto na abrangência quanto no dado numérico.",
+    "referencia": "SimuChacal, simulado 11, questão #747"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas armas de percussão intrínseca indireta",
+    "alternativas": {
+      "A": "a energia do cão ou martelo é transferida para a cápsula de espoletamento por meio de um pino, denominado pino percussor, geralmente flutuante e afixado à armação ou ao ferrolho da arma. Dessa forma, o cão bate no pino percussor que, por sua vez, percute a cápsula de espoletamento.",
+      "B": "a energia da mola ou gatilho é transferida para a estojo do cartucho por meio de um pino, denominado pino percussor, geralmente flutuante e afixado à armação ou ao ferrolho da arma. Dessa forma, a mola bate no pino percussor que, por sua vez, percute a estojo do cartucho.",
+      "C": "a energia do cão ou martelo é transferida para a cápsula de espoletamento por meio de um pino, denominado pino percussor, geralmente fixo e removível à armação ou ao ferrolho da arma. Dessa forma, o cão bate no pino percussor que, por sua vez, percute a cápsula de espoletamento.",
+      "D": "a energia do cão ou martelo é transferida para a cápsula de espoletamento por meio de um pino, denominado pino percussor, geralmente flutuante e afixado à armação ou ao ferrolho da arma. Dessa forma, o cão aciona a alavanca que, por sua vez, comprime o explosivo da cápsula de espoletamento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "B O texto afirma que a energia é do cão ou martelo e que ela é transferida para a cápsula de espoletamento (não para o estojo do cartucho como um todo). A mola é um componente que armazena energia, mas não é ela quem bate no pino — é o cão/martelo. Além disso, quem percute é o pino percussor, e o alvo é a cápsula de espoletamento.\nC O texto descreve o pino percussor como flutuante (que tem certa liberdade de movimento) e afixado (fixado/permanentemente ligado) à armação ou ferrolho. Trocar por \"fixo\" (que implica imobilidade total, contradizendo \"flutuante\") e \"removível\" (que implica possibilidade de retirada, contradizendo \"afixado\") torna a descrição tecnicamente falsa.\nD O texto descreve uma sequência mecânica clara: o cão bate no pino percussor, e o pino percussor percute a cápsula. Trocar \"bate no pino percussor\" por \"aciona a alavanca\" insere um componente (alavanca) que não existe no texto. Trocar \"percute a cápsula\" por \"comprime o explosivo\" altera a ação mecânica (percussão = impacto; compressão = pressão contínua), sendo ações distintas e não descritas no texto.",
+    "referencia": "SimuChacal, simulado 11, questão #749 — Ref: 24"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As armas de percussão intrínseca podem ainda ser classificadas",
+    "alternativas": {
+      "A": "como de percussão retrógrada ou progressiva conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca retrógrada, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, de modo que o próprio cão é responsável pela percussão da espoleta.",
+      "B": "como de percussão direta ou indireta conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca direta, o cão ou martelo possui um pino percussor indiretamente acoplado ou articulado a seu corpo, de modo que o próprio cão é responsável pela percussão da espoleta.",
+      "C": "como de percussão direta ou indireta conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca direta, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, de modo que o próprio cão é responsável pela percussão da espoleta.",
+      "D": "como de percussão direta ou indireta conforme o mecanismo de percussão utilizado. Nas armas de percussão intrínseca direta, o cão ou martelo possui um pino percussor diretamente usinado ou afixado a seu corpo, de modo que a mola principal é responsável pela percussão do cartucho."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A O texto classifica a percussão como direta ou indireta, e não como retrógrada ou progressiva. A troca dos termos classificatórios torna a afirmação incompatível com o texto.\n\nB O texto afirma que, na percussão direta, o pino é diretamente usinado ou afixado ao corpo do cão/martelo. Trocar por \"indiretamente acoplado ou articulado\" descreve justamente o oposto (que seria característico da percussão indireta), tornando a frase falsa.\n\nC GAB\n\nD O texto afirma que, na percussão direta, o próprio cão é o responsável pela percussão da espoleta. Trocar \"próprio cão\" por \"mola principal\" (que é um componente que armazena energia, mas não percute diretamente) e \"espoleta\" por \"cartucho\" (sendo que a espoleta é o componente específico que recebe a percussão) distorce completamente o mecanismo descrito.",
+    "referencia": "SimuChacal, simulado 11, questão #751"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização de testes de eficiência em munições no âmbito da Polícia Federal, alguns procedimentos específicos devem ser seguidos devido à natureza destrutiva do exame. De acordo com o texto, assinale a alternativa correta sobre esse processo:",
+    "alternativas": {
+      "A": "Os estojos resultantes dos testes de eficiência são obrigatoriamente devolvidos à unidade de origem junto com o laudo.",
+      "B": "O teste por amostragem é proibido, exigindo-se a deflagração de 100% dos cartuchos íntegros apreendidos.",
+      "C": "O registro fotográfico prévio é dispensável, já que o material residual do disparo serve como comprovação do teste.",
+      "D": "Os elementos de munição coletados como padrões para o Banco Nacional de Perfis Balísticos devem ser registrados como novos materiais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma expressamente que a munição utilizada nos testes eficazes é consumida e seus estojos são descartados, exceto os elementos de munição coletados como padrões de armas para exames de confronto balístico ou inserção e busca no Banco Nacional de Perfis Balísticos, os quais devem ser registrados como novos materiais. Além disso, o texto menciona que o teste por amostragem é permitido e o registro fotográfico prévio é de suma importância.",
+    "referencia": "SimuChacal, simulado 11, questão #769 — Ref: p. 68 e 69"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame de confronto balístico fundamenta-se nos princípios científicos da identificação mediata das armas de fogo, que envolvem a reprodutibilidade e a unicidade das marcas. Com base nos conceitos apresentados no texto, a unicidade refere-se ao fato de que:",
+    "alternativas": {
+      "A": "As deformações plásticas ocorrem de forma idêntica em qualquer calibre de munição utilizado na mesma arma.",
+      "B": "As marcas nas superfícies internas do cano e partes da arma são geradas aleatoriamente na fabricação e no uso, sendo exclusivas de cada arma.",
+      "C": "A elevada pressão interna do disparo padroniza os estriamentos, tornando todas as armas de um mesmo fabricante idênticas.",
+      "D": "Cada projétil disparado só pode ser submetido a um único confronto macroscópico antes de perder suas características."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Conforme o item \"b\" do subtópico 6.3, a unicidade estabelece que \"as marcas nas superfícies internas do cano e partes da arma são geradas aleatoriamente durante os processos de fabricação e subsequente uso da arma, e como tais são únicas para cada arma de fogo, permitindo a individualização da arma empregada\".",
+    "referencia": "SimuChacal, simulado 11, questão #770 — Ref: p. 68 e 69"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A preservação das marcas microscópicas em elementos de munição questionados é crítica para o sucesso do confronto balístico. Diante das recomendações técnicas descritas no texto, assinale a conduta correta que o operador deve adotar em um local de crime:",
+    "alternativas": {
+      "A": "Utilizar alicates ou pinças metálicas diretamente no projétil para extraí-lo com rapidez de superfícies duras.",
+      "B": "Gravar as iniciais do perito ou o número da ocorrência diretamente na lateral dos estojos e projéteis questionados para evitar misturas.",
+      "C": "Escavar uma porção do material no qual o projétil se encontra incrustado, remetendo todo o conjunto para análise, em vez de extraí-lo com ferramentas metálicas diretas.",
+      "D": "Limpar imediatamente com água corrente todos os projéteis coletados no local de crime, mesmo se houver pedido de exame de DNA ou papiloscópico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto condena o uso direto de ferramentas metálicas (como alicates ou pinças) no projétil e indica que o procedimento correto é escavar a porção do material ao redor. Também proíbe marcar diretamente os elementos (a identificação deve ser na embalagem) e ressalta que a limpeza com água deve aguardar a finalização de exames de DNA ou papiloscópicos, se houver tal solicitação.",
+    "referencia": "SimuChacal, simulado 11, questão #771 — Ref: p. 68 e 69"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Arma de fogo longa de repetição, com cano de alma raiada que, diferente de arma de tiro único, possui um carregador denominado depósito na coronha, e que tem como característica marcante a presença de um ferrolho com alavanca para extração do estojo. O texto exposto traz características de uma arma denominada de:",
+    "alternativas": {
+      "A": "espingarda",
+      "B": "fuzil",
+      "C": "rifle",
+      "D": "mosquetão"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #779 — Ref: pág 45"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a espingarda, está correto afirmar, exceto:",
+    "alternativas": {
+      "A": "a principal característica é a alma lisa de seus canos",
+      "B": "as espingardas de cano curto e grosso calibre costumam ser denominadas escopetas",
+      "C": "o sistema de alimentação pode ser manual ou semiautomático",
+      "D": "todas as espingardas possuem alma lisa"
+    },
+    "resposta_correta": "D",
+    "justificativa": "resp. Alternativa d) justificativa: Há a excessão das espingardas longas de alma mista, denominada slug gun (pág 46)",
+    "referencia": "SimuChacal, simulado 11, questão #780"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as armas de fogo, assinale a opção correta",
+    "alternativas": {
+      "A": "O texto legal (Lei 10.826/2003) não conceitua o que é arma de fogo, deixando essa delimitação a cargo de regulamentos",
+      "B": "O estilingue é exemplo de arma de arremesso simples, pois apesar de ter aparato lançador, o projétil não é lançado por expansão de gases",
+      "C": "A parte anterior do estojo, próxima ao projétil, é denominada culote",
+      "D": "O calibre real de armas de alma lisa é medido na porção anterior do cano"
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) correta. pág 12.\n\nb) errada. Armas de arremesso simples são aquelas lançadas direto pela mão do atirador, como dardos, lanças e granadas. As complexas são constituídas de aparato lançador, como é o caso do estilingue (pág 11).\n\nc) errado. Culote é a parte posterior do estojo, onde fica a espoleta e caracteres (pág 15).\n\nd) errado. É medido na porção mediana do cano (pág 48).",
+    "referencia": "SimuChacal, simulado 11, questão #781"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é o objetivo do exame de eficiência de uma arma de fogo?",
+    "alternativas": {
+      "A": "Determinar exclusivamente o calibre nominal e a origem da arma.",
+      "B": "Determinar se a arma está eficaz para produzir tiro e, em caso negativo, identificar as causas de sua ineficácia.",
+      "C": "Verificar apenas se a arma possui munição compatível em seu carregador.",
+      "D": "Determinar se a arma já foi utilizada anteriormente para efetuar disparos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O objetivo dos exames efetuados pelo perito será determinar se a arma se encontra eficaz para produzir tiro, e se não, quais as causas da sua ineficácia.”",
+    "referencia": "SimuChacal, simulado 11, questão #785"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos testes de eficiência realizados em armas de fogo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Devem ser testados apenas os procedimentos de percussão e ejeção, sendo os problemas com a munição considerados defeitos de funcionamento da arma.",
+      "B": "Devem ser testados os procedimentos de alimentação, percussão, extração e ejeção, sendo considerado defeito qualquer incidente que interrompa o tiro ou a cadência de tiros, exceto problemas com a munição.",
+      "C": "A interrupção do tiro por peças danificadas não é considerada defeito de funcionamento quando a falha ocorre de maneira esporádica.",
+      "D": "A ciclagem da arma somente precisa ser observada quando houver falha no carregador ou no retém do tambor."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #786"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas relacionadas ao exame de eficiência de armas de fogo:\n\nI. Antes dos disparos, deve ser realizada inspeção visual para verificar se o cano está desobstruído, se a arma aparentemente está em bom estado para o tiro e se o mecanismo está operante em seco.\n\nII. Caso existam dúvidas sobre a capacidade de a arma manter sua integridade durante o disparo, o teste de eficiência deve ser efetuado remotamente.\n\nIII. Quando a arma apresenta defeito, basta descrever suas causas prováveis, não sendo necessário determinar se ela ainda poderia ser utilizada para efetuar disparos.\n\nIV. Depois dos testes, o perito deve certificar-se, especialmente no caso de armas com defeitos, de que a arma está devidamente descarregada.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas II, III e IV estão corretas.",
+      "C": "Apenas I, II e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #787"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos procedimentos de coleta projéteis padrões, avalie as assertivas abaixo.\n\nI. Os disparos com revólver devem ser produzidos inicialmente em ação simples, por ser esta a forma usual de produzir disparos com tais armas, em casos raros, pode ser necessário coletar padrões de diferentes câmaras.\nII. Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja.\nIII. Os atiradores, em sua maioria, empunham a arma na posição vertical para atirar, devendo ser esta a posição preferencial para a coleta de padrões.",
+    "alternativas": {
+      "A": "Estão corretas apenas as alternativas I e II.",
+      "B": "Estão corretas apenas as alternativas II e III.",
+      "C": "Está correta apenas a alternativa I.",
+      "D": "Está correta apenas a alternativa III."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa C correta. Pois apenas o item II está adequado.\n\nI. Errado. Os disparos com revólver devem ser produzidos inicialmente em ação DUPLA, por ser esta a forma usual de produzir disparos com tais armas, em casos raros, pode\nser necessário coletar padrões de diferentes câmaras.p.72\nII. Correto. Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja, visto que ele pode estar “chumbado”, devendo os primeiros padrões serem coletados com o cano no estado em que se encontra. p.71\nIII. Errado. Os atiradores, em sua maioria, empunham a arma na posição HORIZONTAL\npara atirar, devendo ser esta a posição preferencial para a coleta de padrões. p.72",
+    "referencia": "SimuChacal, simulado 11, questão #796 — Ref: p. 71 e 72"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Não é possível precisar quantos padrões são necessários para efetuar, com sucesso, um exame de comparação balística, devendo ser colhidos tantos padrões quantos sejam necessários para formar a convicção dos peritos. O caso ideal é enviar a arma para os peritos que farão o confronto balístico.\n\nCaso isso seja impossível, qual o mínimo de padrões que deverá ser colhido de cada arma e enviado para análise juntamente com os materiais questionados?",
+    "alternativas": {
+      "A": "2 padrões.",
+      "B": "3 padrões.",
+      "C": "4 padrões.",
+      "D": "5 padrões."
+    },
+    "resposta_correta": "C",
+    "justificativa": "P. 71:\nCaso isso seja impossível, um mínimo de QUATRO padrões deverá ser colhido de cada arma e enviado para análise juntamente com os materiais questionados. .",
+    "referencia": "SimuChacal, simulado 11, questão #797 — Ref: P. 71."
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto de Padrões em Balística Forense, acerca do requisito de contemporaneidade dos padrões, é correto afirmar que:",
+    "alternativas": {
+      "A": "Um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos.",
+      "B": "A coleta deve ser feita preferencialmente por meio do uso de armamentos mais recentes.",
+      "C": "Os padrões colhidos serão contemporâneos quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.",
+      "D": "A contemporaneidade é o mais importante requisito de um padrão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A. Correto. Por contemporaneidade se entende que um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos. Isto é devido ao fato que, a cada novo disparo, ocorre um pequeno desgaste do cano e de outras partes da arma questionada.\n\nAlternativa B. Incorreto. Nesse contexto, não tem a ver com a modernidade do equipamento utilizado. A coleta deve ser feita a partir dos armamentos questionados.\n\nAlternativa C. Incorreto. A alternativa trata sobre ADEQUABILIDADE, em vez da CONTEMPORANEIDADE, objeto de estudo na questão. p. 70: Os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.\n\nAlternativa D. Incorreto. P. 70: A autenticidade é o mais importante requisito de um padrão.",
+    "referencia": "SimuChacal, simulado 11, questão #799 — Ref: p. 70 e 71"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a classificação das armas de fogo quanto à alma do cano, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Nas armas de alma lisa, a seção reta do cano pode apresentar formatos variados em razão da existência de raiamento.",
+      "B": "As armas de alma raiada possuem sulcos helicoidais, mas não apresentam cristas, uma vez que o raiamento é formado exclusivamente pelas raias.",
+      "C": "As armas de alma mista possuem simultaneamente canos de alma lisa e de alma raiada, reunindo ambas as características em um mesmo armamento.",
+      "D": "A classificação quanto à alma considera exclusivamente o calibre do cano e a presença de choke."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila classifica as armas em alma lisa, alma raiada e alma mista. As armas de alma mista possuem um cano de alma lisa e outro de alma raiada. Já o raiamento é formado por cristas (cheios) e sulcos (raias), e a classificação não depende do calibre",
+    "referencia": "SimuChacal, simulado 11, questão #817 — Ref: Pag. 19-20"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito do raiamento das armas de fogo, conforme a apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O principal objetivo do raiamento é reduzir o atrito entre o projétil e o cano, aumentando a velocidade inicial.",
+      "B": "Um raiamento classificado como 6-D indica seis sulcos apenas, orientados no sentido anti-horário.",
+      "C": "O objetivo das raias é imprimir movimento de rotação ao projétil em torno de seu eixo longitudinal, aumentando sua estabilidade após deixar a boca do cano.",
+      "D": "Os raiamentos existentes são exclusivamente compostos por cinco ou seis raias, por constituírem o padrão internacional de fabricação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo a apostila, a função do raiamento é imprimir rotação ao projétil ao longo de seu eixo longitudinal, conferindo maior estabilidade em voo devido ao momento angular. O raiamento 6-D corresponde a seis raias dextrógiras (sentido horário), e a apostila ressalta que existem raiamentos com diferentes números de raias, inclusive pares e ímpares.",
+    "referencia": "SimuChacal, simulado 11, questão #818 — Ref: P.19-20"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante um exame pericial, verificou-se que determinada arma possui raiamento do tipo 6-S. De acordo com a nomenclatura adotada pela apostila, essa informação significa que o cano apresenta:",
+    "alternativas": {
+      "A": "seis cristas e seis sulcos, com raias helicoidais orientadas no sentido anti-horário.",
+      "B": "seis sulcos apenas, orientados no sentido horário.",
+      "C": "três cristas e três sulcos, totalizando seis elementos de raiamento.",
+      "D": "seis cristas apenas, com orientação sinistrógira."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A apostila esclarece que, ao se afirmar que uma arma possui raiamento tipo 6, visualizam-se seis cristas intercaladas com seis sulcos. A letra S indica que o raiamento é sinistrógiro, ou seja, orientado no sentido anti-horário.",
+    "referencia": "SimuChacal, simulado 11, questão #819 — Ref: P. 19-20"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para realizar um confronto balístico, foram obtidos diversos estojos padrões. Posteriormente, constatou-se que:\n\nI. os estojos foram recolhidos em um estande onde também havia materiais provenientes de outras armas;\nII. foi utilizada munição de marca e composição diferentes das encontradas no estojo questionado;\nIII. os padrões foram produzidos muito tempo depois do fato investigado, após numerosos disparos com a arma.\n\nEmbora tenham sido coletados muitos estojos, os problemas descritos comprometem, respectivamente, os requisitos de:",
+    "alternativas": {
+      "A": "quantidade, contemporaneidade e autenticidade.",
+      "B": "adequabilidade, autenticidade e quantidade.",
+      "C": "autenticidade, adequabilidade e contemporaneidade.",
+      "D": "contemporaneidade, quantidade e adequabilidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "I — Autenticidade:\nUm padrão é autêntico quando sua origem é certa e inquestionável. A coleta em local com estojos de outras armas cria risco de mistura e impede a certeza de que todos os padrões vieram da arma examinada.\n\nII — Adequabilidade:\nO padrão deve apresentar características tão semelhantes quanto possível às do material questionado. Na coleta de estojos padrões, recomenda-se utilizar cartuchos da mesma marca, calibre e composição do estojo questionado.\n\nIII — Contemporaneidade:\nOs padrões devem ser produzidos no menor intervalo possível em relação ao material questionado, porque novos disparos provocam desgaste gradual no cano e em outras partes da arma.\n\nA está errada: o primeiro problema não diz respeito à quantidade, mas à incerteza sobre a origem dos padrões.\nB está errada: a utilização de munição diferente compromete a adequabilidade, e não a autenticidade.\nD está errada: o longo intervalo e os numerosos disparos comprometem a contemporaneidade.\n\nA obtenção de grande quantidade de padrões não corrige a ausência de autenticidade ou adequabilidade. Muitos padrões de origem incerta continuam sendo inadequados para uma conclusão segura.\n\nItens mais importantes para memorizar\nBalística Interna: fenômenos ocorridos na arma até a saída do projétil.\nBalística Externa: trajetória após a saída do cano.\nBalística Terminal: efeitos do projétil ao atingir o alvo.\nIdentificação imediata: determinação das características da própria arma.\nIdentificação mediata: comparação das marcas impressas pela arma nos elementos de munição.\nCaracterísticas de classe: calibre real, número de raias e orientação do raiamento.\nConcordância de classe: não individualiza; apenas admite a possibilidade.\nDiscordância de classe: pode excluir a arma.\nConfronto microcomparativo: pode permitir a identificação individual.\nRequisitos dos padrões: autenticidade, adequabilidade, contemporaneidade e quantidade.",
+    "referencia": "SimuChacal, simulado 11, questão #847"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame de uma pistola, o perito verificou a inscrição “9 mm Luger” no ferrolho. Em seguida, realizou uma medição instrumental na boca do cano, entre dois cheios diametralmente opostos, obtendo o diâmetro interno da alma.\n\nA inscrição e a medida obtida correspondem, respectivamente, ao:",
+    "alternativas": {
+      "A": "calibre real e calibre nominal.",
+      "B": "calibre nominal e calibre real.",
+      "C": "calibre legal e calibre comercial.",
+      "D": "calibre do projétil e calibre da munição, necessariamente idênticos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O calibre nominal é a designação atribuída ao tipo de munição e à arma para a qual ela foi concebida, como “9 mm Luger”, “.380 Auto” ou “.38 Special”. Normalmente, essa designação aparece gravada na arma e no culote do cartucho.\n\nO calibre real é uma medida física, exata e aferível do diâmetro interno da alma do cano. Em armas raiadas, corresponde à menor dimensão da alma, medida entre dois cheios diametralmente opostos.\n\nA está errada: inverte os conceitos.\nC está errada: a medição instrumental não corresponde à classificação jurídica da arma.\nD está errada: calibre nominal e calibre real não são necessariamente numericamente idênticos.",
+    "referencia": "SimuChacal, simulado 11, questão #848"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, foi recuperado um projétil identificado como compatível com munição de calibre nominal .380 Auto. Posteriormente, foi apreendida uma pistola calibre nominal 9 mm. Um investigador descartou imediatamente a arma, alegando que calibres nominais diferentes jamais poderiam apresentar compatibilidade balística.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "O investigador está correto, pois a divergência do calibre nominal exclui necessariamente a arma.",
+      "B": "O investigador está incorreto, pois calibres nominais diferentes podem apresentar calibres reais semelhantes, sendo necessária a análise das características do projétil e do cano.",
+      "C": "O investigador está correto, pois somente projéteis com a mesma inscrição nominal podem atravessar determinado cano.",
+      "D": "O investigador está incorreto, porque o calibre nominal não possui qualquer utilidade para a perícia."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Podem existir diversos calibres nominais relacionados a calibres reais próximos. A apostila apresenta, por exemplo, projéteis de calibres nominais .380 Auto, 9 × 19 mm, .38 Special e .357 Magnum com calibres reais semelhantes.\n\nAssim, a divergência nominal, isoladamente, não permite excluir a arma. O perito deve considerar o calibre real, o número e a orientação das raias e, sendo essas características compatíveis, realizar o confronto microscópico.\n\nA está errada: confunde designação comercial com medida física.\nC está errada: a inscrição nominal não determina, sozinha, a possibilidade física de passagem pelo cano.\nD está errada: o calibre nominal possui grande utilidade para identificar o tipo de munição apropriado, embora não seja suficiente para individualizar a arma.\n\nAtenção: a existência de calibre real semelhante não significa que seja seguro utilizar qualquer munição na arma. O emprego de cartucho inadequado pode causar danos ao armamento e ao atirador.",
+    "referencia": "SimuChacal, simulado 11, questão #849"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características e a função do estojo em um cartucho de munição, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "É a parte vulnerante do cartucho, sendo expelida pelo cano da arma em direção ao alvo.",
+      "B": "Participa ativamente do processo de combustão da pólvora, sendo consumido durante o disparo.",
+      "C": "Constitui o elemento inerte do cartucho, pois não participa da combustão nem é expelido pelo cano.",
+      "D": "É confeccionado exclusivamente em polímeros para garantir a leveza da munição em armas modernas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #855"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que se refere à cápsula de espoletamento e aos sistemas de fogo central, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A comunicação entre a espoleta e o interior do estojo ocorre por meio de orifícios denominados eventos",
+      "B": "Existem apenas dois tipos de espoletas utilizadas em cartuchos modernos: a tipo Boxer e a tipo Berdan.",
+      "C": "A bigorna é uma substância química líquida cuja finalidade é iniciar a queima da pólvora por contato.",
+      "D": "A mistura iniciadora, ou escorva, é composta unicamente por alumínio em pó para gerar a centelha inicial"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #856"
+  },
+  {
+    "disciplina": "PCEB - Balística Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à carga de projeção (pólvora) e sua aplicação em diferentes tipos de armamento, é correto afirmar que:",
+    "alternativas": {
+      "A": "Armas curtas utilizam pólvoras progressivas para garantir que o projétil saia do cano com baixa velocidade.",
+      "B": "As pólvoras vivas, utilizadas em armas curtas, queimam de forma mais intensa e rápida devido às dimensões reduzidas do cano.",
+      "C": "As armas longas exigem pólvoras de queima instantânea, pois o tempo de percurso do projétil no cano é muito curto.",
+      "D": "Não há diferença técnica entre a pólvora utilizada em revólveres e a utilizada em fuzis, sendo a carga idêntica para ambos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 11, questão #857"
+  }
+]

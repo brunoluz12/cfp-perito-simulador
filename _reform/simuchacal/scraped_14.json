@@ -1,0 +1,1007 @@
+[
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação à duplicação forense utilizando um computador comum, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É indicada apenas quando a mídia original não pode ser removida do equipamento.",
+      "B": "Oferece maior flexibilidade na escolha de interfaces e aplicativos, sendo útil, entre outras situações, para discos rígidos não reconhecidos por equipamentos especializados.",
+      "C": "Deve ser realizada exclusivamente em ambiente Windows, utilizando softwares forenses específicos.",
+      "D": "É considerada mais segura que a duplicação com equipamentos especializados por eliminar o risco de alteração dos dados originais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nO texto afirma que esse procedimento é normalmente utilizado quando a mídia pode ser removida, embora também possa ser empregado em situações em que sua remoção não seja possível ou conveniente.\n\nAlternativa B – Correta.\nO texto informa que a duplicação com computador comum apresenta \"maior flexibilidade na escolha de interfaces e aplicativos\", sendo especialmente útil para discos rígidos não reconhecidos por equipamentos especializados ou quando são necessários procedimentos especiais.\n\nAlternativa C – Incorreta.\nO texto recomenda o uso de distribuições forenses Linux (CAINE e Kali), embora admita o uso do Windows com FTK Imager em situações específicas.\n\nAlternativa D – Incorreta.\nO texto destaca justamente o contrário: o principal problema da duplicação em computador comum é o risco de alteração acidental dos dados da mídia original.",
+    "referencia": "SimuChacal, simulado 14, questão #686 — Ref: Págs. 37-38"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a utilização de uma distribuição forense do Linux, como o CAINE ou o Kali, é recomendada porque:",
+    "alternativas": {
+      "A": "permite recuperar automaticamente setores defeituosos da mídia original.",
+      "B": "é especialmente projetada para não efetuar modificações nas mídias conectadas ao computador.",
+      "C": "possibilita a duplicação apenas de mídias protegidas contra escrita.",
+      "D": "substitui a necessidade de utilização de softwares forenses em qualquer situação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A – Incorreta.\nO texto não atribui às distribuições forenses a recuperação automática de setores defeituosos.\n\nAlternativa B – Correta.\nSegundo o texto, essas distribuições são projetadas para não efetuar qualquer modificação nas mídias conectadas ao computador, reduzindo o risco de alteração dos dados.\n\nAlternativa C – Incorreta.\nO texto não restringe seu uso às mídias protegidas contra escrita.\n\nAlternativa D – Incorreta.\nEm determinadas situações, o próprio texto recomenda o uso do Windows em conjunto com o FTK Imager.",
+    "referencia": "SimuChacal, simulado 14, questão #688 — Ref: Págs. 37-38"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos métodos de bloqueio de escrita, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O bloqueio físico consiste na utilização de software especializado para impedir a gravação de dados em interfaces do computador.",
+      "B": "A trava mecânica é obtida mediante dispositivos de hardware instalados entre a mídia e o computador.",
+      "C": "O bloqueio lógico pode impedir a modificação de um pen drive conectado à porta USB por meio de software especializado.",
+      "D": "O bloqueio de escrita é aplicável apenas a mídias naturalmente protegidas contra gravação, como CDs e DVDs somente leitura."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto não relaciona a escolha à preferência do perito, mas às necessidades técnicas do procedimento.\n\nAlternativa B – Incorreta.\nA disponibilidade de equipamentos é um dos fatores considerados, mas não o único.\n\nAlternativa C – Correta.\nO texto afirma que \"em função das características da mídia recebida para duplicação e dos equipamentos disponíveis, o Perito Criminal deverá determinar qual conjunto de hardware e software será mais adequado para realizar o procedimento.\"\n\nAlternativa D – Incorreta.\nO texto não restringe a escolha ao software disponível, mas determina a avaliação conjunta das características da mídia e dos equipamentos disponíveis.",
+    "referencia": "SimuChacal, simulado 14, questão #689 — Ref: Págs. 37-38"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O acesso aos dados armazenados em dispositivos móveis modernos impõe desafios periciais atrelados ao gerenciamento volátil de credenciais pelo sistema operacional. Considerando os mecanismos de proteção abordados no material forense, assinale a correlação técnica exata sobre as condições de apreensão e extração de informações.",
+    "alternativas": {
+      "A": "O método de extração fundamentado no sistema de arquivos recupera nativamente todas as informações deletadas das áreas não alocadas, sobrepondo-se à exigência de extração física para a recomposição do histórico de navegação web e estruturação de logs",
+      "B": "O bloqueio da comunicação telefônica em campo deve ser efetuado mediante a substituição mecânica do microchip eSIM, visto que a simples ativação do modo avião apresenta falhas no isolamento contra o envio de comandos remotos de apagamento (wipe)",
+      "C": "A transição do dispositivo do estado After First Unlock (AFU) para Before First Unlock (BFU) provoca a remoção das chaves criptográficas da memória volátil, inviabilizando o acesso aos dados protegidos mesmo com ferramentas forenses",
+      "D": "A extração física da memória flash do aparelho móvel dispensa categoricamente a implementação de bootloaders customizados, uma vez que o sistema operacional em uso concede acesso contínuo às partições encriptadas por meio da remoção prévia do cartão SIM"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Se o aparelho for reiniciado ou desligado, ele sai do estado AFU e entra no estado BFU. Nesse momento, as chaves de criptografia são removidas da RAM, impedindo o acesso aos dados protegidos mesmo por softwares forenses sofisticados. A alternativa A está errada porque o que recupera dados não alocados profundamente é a extração física, não a lógica/sistema de arquivos. A alternativa B está errada pois o eSIM não pode ser removido mecanicamente (é soldado). A D está errada porque o fabricante bloqueia o acesso à memória flash, obrigando os equipamentos a desenvolverem bootloaders próprios.",
+    "referencia": "SimuChacal, simulado 14, questão #702"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O procedimento de processamento de anexos digitais exige a comprovação inquestionável de que o conteúdo analisado pelo perito permaneceu inalterado ao longo da persecução penal. Sobre a aplicação das funções unidirecionais de resumo nesse contexto documental, assinale a opção correta",
+    "alternativas": {
+      "A": "A validade probatória da mídia anexa consolida-se pela transcrição no corpo do laudo pericial do valor criptográfico correspondente ao arquivo de texto que elenca os identificadores dos vestígios",
+      "B": "O emprego da técnica de recuperação orientada por assinaturas resgata de maneira estrita os atributos estruturais e as nomenclaturas originais dos itens apagados, condicionando a validação probatória à leitura da tabela de indexação primária",
+      "C": "A função criptográfica MD5 confere ao examinador a capacidade de reverter o respectivo resumo matemático para resgatar credenciais de acesso bancário, aplicando o modelo probabilístico de dicionários customizados na etapa de filtragem eletrônica",
+      "D": "O cálculo do algoritmo de segurança lógica sobre o arquivo-contêiner global dispensa a listagem individualizada dos vestígios no formato de texto, simplificando substancialmente a cadeia de custódia e a posterior etapa de autenticação material"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para garantir a autenticidade e integridade da mídia anexa, o perito gera um arquivo de texto com a lista de hashes de todos os arquivos extraídos, calcula o hash desse próprio arquivo de texto e o transcreve no corpo do laudo que será assinado (garantia de inviolabilidade cruzada). A alternativa B erra ao dizer que a recuperação por assinatura (data carving) resgata nomes/atributos; isso não ocorre, pois ignora o sistema de arquivos. A C erra porque o hash MD5 é unidirecional e matematicamente irreversível. A D erra porque a listagem individual (o hashes.txt) é um procedimento explícito e obrigatório descrito no manual da PF.",
+    "referencia": "SimuChacal, simulado 14, questão #703"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A triagem pericial de materiais contendo exploração sexual infantojuvenil (ASI) submete o examinador a um rigoroso protocolo de identificação, classificação e limitação de exposição. Com base nas diretrizes organizacionais dessa modalidade de exame, assinale a assertiva técnica compatível com a norma",
+    "alternativas": {
+      "A": "O agrupamento cronológico de registros ilícitos infantojuvenis no interior do Banco Federal de Arquivos Conhecidos restringe a identificação da autoria subjacente às condutas de armazenamento e de difusão de conteúdo no relatório técnico de encerramento das investigações",
+      "B": "O atingimento da cota de quinhentos elementos visuais comprobatórios fundamenta a interrupção da triagem voltada à caracterização da posse do material ilícito",
+      "C": "A recuperação de itens residuais deletados e armazenados provisoriamente na mídia de destino demanda a indexação ininterrupta do mapa de bits para permitir a catalogação do material recém-extraído nas partições de produção primária e de distribuição sistêmica",
+      "D": "A constatação secundária de arquivos suspeitos processada por algoritmos heurísticos dispensa a validação laboratorial do perito criminal para configurar a materialidade técnica na categoria de disponibilização executada em arquiteturas descentralizadas de rede"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O normativo interno estipula que 500 arquivos configuram a chamada \"saturação qualitativa\". Ao atingir esse número, o exame de posse de imagens de ASI pode ser interrompido para proteger o perito, visto que o conjunto probatório já é legalmente suficiente. A alternativa A cria confusão com o propósito do BFAC. A C inventa trâmites não descritos sobre formatação do mapa de bits para triagem de ASI. A D erra pois arquivos classificados por Inteligência Artificial (IA) sem confirmação visual do perito precisam de marcador próprio com a ressalva de não terem tido confirmação humana direta.",
+    "referencia": "SimuChacal, simulado 14, questão #704"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise de um computador apreendido, um aluno afirmou que teclado, mouse, scanner, webcam e microfone pertencem todos à mesma categoria funcional de periféricos.\n\nÀ luz do material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Todos são periféricos exclusivamente de saída.",
+      "B": "Todos são periféricos exclusivamente de entrada.",
+      "C": "Teclado e mouse são periféricos de entrada, enquanto scanner, webcam e microfone são periféricos de saída.",
+      "D": "Apenas teclado e mouse podem ser considerados periféricos, pois os demais integram o gabinete do computador."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. Periféricos de saída são aqueles utilizados para apresentar ao usuário os dados resultantes do processamento, como monitor, impressora e caixas de som.\n\nB) Correta. O material classifica teclado, mouse, scanner, webcam e microfone como periféricos de entrada, pois fornecem dados ao computador para processamento.\n\nC) Incorreta. Scanner, webcam e microfone também são dispositivos de entrada, e não de saída.\n\nD) Incorreta. Todos os dispositivos mencionados são considerados periféricos, normalmente localizados fora do gabinete.",
+    "referencia": "SimuChacal, simulado 14, questão #712 — Ref: Página 19 / Item 2.2.5 – Periféricos."
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as assertivas a seguir.\n\nI. O sistema operacional gerencia o acesso aos recursos do computador.\n\nII. Entre suas funções estão a gerência de memória, o acesso a dispositivos de entrada e saída e o gerenciamento do sistema de arquivos.\n\nIII. O sistema operacional funciona como camada intermediária entre os programas e os dispositivos físicos do computador.\n\nIV. Discos rígidos, impressoras e portas USB podem ser acessados diretamente por qualquer programa, sem intermediação do sistema operacional.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e III estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "Todas as assertivas estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "I) Correta. O sistema operacional é o software responsável por gerenciar o acesso aos recursos do computador.\n\nII) Correta. O material menciona expressamente a gerência de memória, o acesso a dispositivos de entrada e saída, o carregamento de programas, a interface gráfica e o gerenciamento do sistema de arquivos.\n\nIII) Correta. A figura apresentada no material mostra os programas acima do sistema operacional, enquanto os dispositivos físicos ficam abaixo, evidenciando sua função intermediadora.\n\nIV) Incorreta. O acesso aos dispositivos é gerenciado pelo sistema operacional, que fornece aos programas os meios necessários para utilização dos recursos de hardware",
+    "referencia": "SimuChacal, simulado 14, questão #715"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante exame em uma mídia digital, verificou-se que o dispositivo estava organizado logicamente em unidades mínimas de armazenamento. Um pequeno arquivo, embora ocupasse poucos bytes, utilizava uma unidade inteira, enquanto arquivos maiores ocupavam tantas unidades quantas fossem necessárias.\n\nA estrutura descrita corresponde ao conceito de:",
+    "alternativas": {
+      "A": "Diretório-raiz.",
+      "B": "Bloco ou unidade de alocação.",
+      "C": "Memória RAM.",
+      "D": "Setor de inicialização do sistema operacional."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta. O diretório-raiz é uma estrutura de organização de arquivos e pastas, não a unidade mínima de espaço ocupada por um arquivo.\n\nB) Correta. O bloco, também chamado de unidade de alocação, é a unidade mínima de armazenamento que um arquivo pode ocupar. Mesmo um arquivo muito pequeno recebe um bloco inteiro.\n\nC) Incorreta. A memória RAM é uma memória volátil utilizada durante o processamento, não uma unidade lógica do sistema de arquivos.\n\nD) Incorreta. O enunciado descreve a forma de alocação de arquivos, e não uma área específica de inicialização.",
+    "referencia": "SimuChacal, simulado 14, questão #716"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um computador com sistema Windows possui uma mídia de armazenamento formatada para permitir a gravação, leitura e organização estruturada de arquivos e diretórios.\n\nCom base no material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O sistema de arquivos é responsável por fornecer mecanismos para gravação e leitura de arquivos e diretórios, sendo interpretado pelo sistema operacional.",
+      "B": "O sistema de arquivos substitui integralmente o sistema operacional.",
+      "C": "FAT32 e NTFS são sistemas operacionais utilizados em computadores Windows.",
+      "D": "A divisão da mídia em blocos impede que arquivos maiores utilizem mais de uma unidade de alocação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A) Correta. O sistema de arquivos organiza os dados na mídia e fornece meios para gravação e leitura de arquivos e diretórios. O sistema operacional compreende essa estrutura e disponibiliza o acesso aos demais programas.\n\nB) Incorreta. O sistema de arquivos é gerenciado pelo sistema operacional e não o substitui.\n\nC) Incorreta. FAT32 e NTFS são sistemas de arquivos associados ao Windows, e não sistemas operacionais.\n\nD) Incorreta. Arquivos grandes ocupam tantos blocos quantos forem necessários para armazenar seu conteúdo.",
+    "referencia": "SimuChacal, simulado 14, questão #717"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de um mandado de busca e apreensão, a equipe policial arrecadou um smartphone desbloqueado pertencente ao investigado. Ao justificar a relevância do exame pericial do aparelho, o Perito Criminal Federal fundamentou sua manifestação na apostila da ANP.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os smartphones possuem relevância pericial inferior à dos computadores pessoais, pois armazenam quantidade reduzida de vestígios digitais.",
+      "B": "Os aparelhos celulares modernos têm importância pericial principalmente por armazenarem agenda telefônica e registros de chamadas, funções que permanecem como sua principal utilidade investigativa.",
+      "C": "A relevância dos smartphones decorre do armazenamento de comunicações, localização, dados de aplicativos e outras informações relacionadas à rotina do usuário, além de permanecerem normalmente em constante proximidade dele.",
+      "D": "Sempre que houver notebook apreendido, o exame do smartphone torna-se dispensável, pois ambos normalmente contêm os mesmos vestígios."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila destaca que os smartphones se tornaram uma das principais fontes de evidências digitais por armazenarem comunicações, localização (GPS), redes sociais, aplicativos e diversos outros dados, permanecendo quase sempre junto ao usuário. As alternativas A, B e D diminuem ou distorcem essa importância.",
+    "referencia": "SimuChacal, simulado 14, questão #718 — Ref: Capítulo 7 – 7.1 Dispositivos móveis: conceitos fu"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas abaixo acerca das tecnologias de telefonia móvel.\n\nI. O IMEI identifica unicamente o aparelho celular.\n\nII. O IMSI identifica o assinante do serviço móvel e é armazenado no cartão SIM.\n\nIII. O ICCID corresponde ao identificador único do cartão SIM.\n\nIV. O ESN é um identificador utilizado pela tecnologia GSM.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e III estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As afirmativas I, II e III estão de acordo com a apostila. A afirmativa IV é a pegadinha: o ESN (ou MEID) é utilizado na tecnologia CDMA, e não na GSM.",
+    "referencia": "SimuChacal, simulado 14, questão #719 — Ref: Capítulo 7 – 7.1 Dispositivos móveis: conceitos fu"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a elaboração de um laudo, um servidor registra a seguinte afirmação:\n\n\"Na tecnologia GSM, o cartão SIM identifica fisicamente o aparelho celular, enquanto o IMEI identifica o assinante da linha.\"\n\nÀ luz da apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A afirmação está correta.",
+      "B": "A afirmação está incorreta porque o IMEI identifica o aparelho celular, enquanto o IMSI, armazenado no cartão SIM, identifica o assinante.",
+      "C": "A afirmação está incorreta porque o cartão SIM armazena apenas o ICCID, não contendo qualquer informação referente ao assinante.",
+      "D": "A afirmação está incorreta porque a tecnologia GSM não utiliza cartão SIM."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A questão explora uma inversão clássica de conceitos. O IMEI identifica o equipamento, enquanto o IMSI identifica o assinante e fica armazenado no cartão SIM. O ICCID, por sua vez, identifica o próprio cartão SIM. A alternativa D também está errada, pois o uso do cartão SIM é justamente uma característica da tecnologia GSM.",
+    "referencia": "SimuChacal, simulado 14, questão #720 — Ref: pág. 56."
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação à classificação dos crimes informáticos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os crimes informáticos puros ou próprios caracterizam-se por utilizarem o computador apenas como instrumento para atingir um bem jurídico localizado fora do ambiente digital, como ocorre no estelionato eletrônico.",
+      "B": "Nos crimes informáticos indiretos ou incidentais, o computador constitui o objeto material da infração penal, sendo indispensável que haja dano ao sistema informatizado.",
+      "C": "Os crimes informáticos impuros ou impróprios são aqueles em que a conduta é praticada por meio do computador, mas a lesão ao bem jurídico protegido ocorre fora do espaço cibernético.",
+      "D": "Nos crimes informáticos indiretos ou incidentais, o computador é utilizado como instrumento indispensável para a prática da infração penal, razão pela qual a consumação do delito depende de ataque direto ao sistema informatizado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A — Errada - descreve crimes em que o prejuízo ocorre fora do ambiente digital, o que corresponde aos impuros/impróprios, e não aos puros/próprios.\n\nAlternativa B — Errada - nos crimes indiretos o computador não é o meio para o crime, mas uma fonte de evidências.\n\nAlternativa D — Errada - \"Indireto ou Incidental: abrange condutas criminosas realizadas nos casos em que os computadores não são meio para o crime, mas são como 'testemunhas' que possuem planilhas, documentos, imagens e mensagens de correio eletrônico relacionados ao crime investigado.\"",
+    "referencia": "SimuChacal, simulado 14, questão #724"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto da Informática Forense aplicada a dispositivos móveis, os estados de criptografia AFU (After First Unlock) e BFU (Before First Unlock) são determinantes para o sucesso da extração de dados. Sobre esses estados e os procedimentos de preservação, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Se o aparelho está em AFU no momento da apreensão, a prioridade absoluta é evitar que ele volte ao estado BFU, sendo regra de preservação não desligar ou reiniciar o dispositivo sob nenhuma hipótese, uma vez que o retorno ao estado BFU remove as chaves de criptografia da memória RAM, tornando os dados inacessíveis em determinados aparelhos.",
+      "B": "O estado BFU (Before First Unlock) caracteriza-se pelo momento em que o aparelho foi ligado ou reiniciado e as chaves principais de criptografia já se encontram carregadas na memória volátil, embora o sistema ainda aguarde a primeira interação biométrica ou por PIN do usuário para liberar o acesso à interface.",
+      "C": "A manutenção do dispositivo no estado AFU permite que o sistema operacional acesse, de forma transparente, informações protegidas como mensagens e arquivos, porém esse estado não abrange o acesso a credenciais e histórico de navegação, que permanecem cifrados por chaves de grupo não carregadas na inicialização.",
+      "D": "Para garantir a integridade do estado AFU, o perito deve manter o aparelho ligado com alimentação contínua e, visando a celeridade, realizar a extração dos dados remotamente via conexão Wi-Fi ou rede celular o mais rápido possível, a fim de mitigar o risco de recebimento de comandos de wipe."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Alternativa A (CORRETA): Página: 69 e 70.\n\nAlternativa B (INCORRETA): \"BFU — Before First Unlock (Antes do Primeiro Desbloqueio) [...] as chaves principais de criptografia ainda não foram carregadas na memória RAM.\", Página: 68 e 69.\n\nAlternativa C (INCORRETA): \"Essas chaves permitem que o sistema operacional acesse, de forma transparente, informações protegidas como mensagens, arquivos, histórico de navegação, dados de aplicativos e credenciais.\", Página: 70.\n\nAlternativa D (INCORRETA): \"Preservação do Estado AFU [...] Ativar o modo avião; Desabilitar as conexões de rede celular, Wi-Fi e Bluetooth; Usar bolsas de Faraday, quando aplicável\"; \"O isolamento do dispositivo examinado de qualquer rede de comunicação [é de fundamental importância] para não ocorrer perda ou alteração dos dados armazenados. A maioria dos fabricantes oferece um meio para comandar um 'wipe' remoto\", Página: 59 e 69.",
+    "referencia": "SimuChacal, simulado 14, questão #725"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A preservação do estado AFU (After First Unlock) é um procedimento crítico na perícia de dispositivos móveis. Sobre as medidas práticas de preservação e os riscos associados à perda deste estado, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Caso o dispositivo retorne ao estado BFU (Before First Unlock) por falta de bateria, as chaves criptográficas permanecem armazenadas de forma persistente na memória, permitindo ao perito acessar informações protegidas após inicialização controlada em laboratório.",
+      "B": "Entre as medidas práticas para a preservação do estado do aparelho, o perito deve ativar o modo avião e as conexões de rede celular, Wi-Fi e Bluetooth.",
+      "C": "Quando as chaves de criptografia estão carregadas na memória RAM durante o estado AFU, o dispositivo somente retorna ao estado BFU por meio de manual desligamento, reinicialização, ou esgotamento da bateria.",
+      "D": "No cenário de aparelhos celulares ligados sem senha fornecida, o perito deve priorizar a apreensão imediata se o aparelho estiver em uso; além disso, pode-se tentar remover o bloqueio de acesso e buscar descobrir a senha junto a terceiros no local."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alternativa A (INCORRETA): \"Caso o dispositivo retorne ao estado BFU (Before First Unlock), seja por reinicialização, desligamento manual ou por falta de bateria, essas chaves são removidas da memória. Como consequência, os dados permanecem armazenados, porém criptografados e inacessíveis em determinados aparelhos\", Página: 70.\n\nAlternativa B (INCORRETA): \"Medidas práticas: [...] Ativar o modo avião; Desabilitar as conexões de rede celular, Wi-Fi e Bluetooth;\", Página: 69.\n\nAlternativa C (INCORRETA): \"Perda do estado AFU caso ocorra um longo período desde o último desbloqueio do usuário, que pode provocar a reinicialização automática do dispositivo.\", Página: 69.\n\nAlternativa D (CORRETA): \"Aparelhos celulares ligados sem senha fornecida: Nesse cenário, deve ser priorizada a apreensão imediata se o aparelho estiver em uso. Ativar o modo avião e tentar remover o bloqueio de acesso, se viável. Além disso, buscar descobrir a senha junto a terceiros no local.”, Página: 71.",
+    "referencia": "SimuChacal, simulado 14, questão #726"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As etapas típicas de uma perícia envolvendo crimes de informática seguem um fluxo procedimental estabelecido para garantir a validade jurídica e a eficácia técnica do exame. Sobre essas etapas e sua sequência cronológica, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O fluxo pericial inicia-se com a seleção, coleta e transporte do material, seguida da expedição do mandado judicial que ratifica a apreensão, permitindo a identificação no SISCRIM e a realização dos exames.",
+      "B": "O fluxo pericial inicia-se com a expedição do mandado judicial, seguida da seleção, coleta e transporte do material; depois ocorre a identificação no SISCRIM, os exames, a elaboração do laudo e a devolução do laudo e materiais, se não houver questionamentos.",
+      "C": "O fluxo pericial inicia-se com o mandado e a coleta do material; os exames são realizados antes da identificação e descrição detalhada no SISCRIM, que ficam para a elaboração do laudo.",
+      "D": "O fluxo pericial inicia-se com a seleção e coleta do material, identificação no SISCRIM e exames, com devolução do material após a realização dos exames."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As etapas típicas de perícias envolvendo crimes de informática começam com a expedição de um mandado judicial autorizando a apreensão e análise de material possivelmente utilizado para a prática de crime. O ideal é que os peritos participem do planejamento e da coordenação da operação de busca e apreensão, orientando quanto à seleção, coleta e transporte correto do material que deve ser arrecadado no local. Uma vez que o material de informática chega à unidade de Criminalística, o primeiro procedimento a ser adotado é a devida identificação e descrição do material no Sistema Criminalística. Materiais de informática apresentam características distintas, como marca, modelo, número de série e capacidade de armazenamento, que devem ser informadas. Além disso, é essencial observar o estado de conservação do material recebido e a presença ou não de lacres. Essas informações devem ser consignadas no sistema. Em seguida, são realizados os exames propriamente ditos. Ao término desses exames, é finalizado também o laudo que descreve o material examinado, os procedimentos realizados e os resultados obtidos. Não havendo mais questionamentos envolvendo o material examinado, ele é devolvido juntamente com o laudo. Geralmente, a produção do Laudo resulta na geração de uma ou mais mídias (DVD/Blu-Ray/Pendrive/HD Externo/, etc.) como anexo, o que exige a realização de procedimentos adicionais para garantir sua integridade e autenticidade.",
+    "referencia": "SimuChacal, simulado 14, questão #727 — Ref: Página 12"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a realização de exames periciais em vestígios digitais podem ser adotados procedimentos de inclusão de arquivos digitais no corpo do laudo ou gravação em mídia externa e encaminhada como anexo ao laudo.\nConsiderando o material didático quais etapas abaixo compõem o procedimento de geração de anexo ao laudo pericial.\n\nI - Criação de uma lista com os hashes de todos os arquivos que serão gravados em anexo;\nII - Informação de todos os hashes (de todos os arquivos) no laudo pericial;\nIII - Cálculo do hashe do arquivo com a lista de hashes de todos os arquivos que serão gravados na mídia em anexo;\nIV - Transcrição do calculo hashe do arquivo com a lista de hashes no laudo pericial\nV - Inclusão do laudo pericial entre os arquivos na mídia anexa;\nVI - Gravação dos arquivos em mídia externa com adoção de procedimentos que impeça qualquer alteração (mídia não regravável ou configuração como somente leitura);\n\nEstão CORRETAS as alternativas",
+    "alternativas": {
+      "A": "II;III;V;VI",
+      "B": "I; III, IV e VI",
+      "C": "I; II; III; IV e VI",
+      "D": "I; III;VI"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A lista de hashes dos aquivos não é informada no laudo pericial;\nO laudo pericial não é inserido entre os anexos da mídia externa, isso ocasionaria alteração no conjunto de arquivos e a consequente alteração no resultado do cálculo do hashe;",
+    "referencia": "SimuChacal, simulado 14, questão #734 — Ref: P.75"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após a etapa de extração e processamento de uma mídia digital, o Perito Criminal pretende localizar documentos que contenham determinado padrão textual. O disco analisado não passou pelo processo de indexação. Considerando exclusivamente o material didático, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A ausência de indexação impede a realização da pesquisa por palavras-chave, tornando indispensável o reprocessamento da mídia antes da continuidade do exame.",
+      "B": "Na ausência de indexação, a pesquisa por palavras-chave permanece possível por meio da denominada busca live, que exige a varredura exaustiva de todo o conteúdo da mídia analisada e pode ser extremamente lenta.",
+      "C": "A busca indexada e a busca live diferem apenas quanto à interface utilizada pela ferramenta pericial, produzindo tempos de execução equivalentes.",
+      "D": "A utilização de caracteres curingas somente é admitida quando a pesquisa é realizada por meio de índice previamente gerado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material esclarece que a indexação apenas agiliza a pesquisa. Quando ela não foi realizada, a busca continua possível por meio da busca live, que realiza varredura exaustiva da mídia e pode ser extremamente lenta. O uso de caracteres curingas é descrito independentemente da modalidade de busca.",
+    "referencia": "SimuChacal, simulado 14, questão #738 — Ref: p. 44 e 45"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito das etapas de análise e seleção no exame de Informática Forense, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A análise consiste exclusivamente na inspeção visual dos arquivos previamente filtrados, ao passo que a seleção corresponde à reconstrução de sistemas e bancos de dados.",
+      "B": "A seleção destina-se a identificar aplicativos de interesse, reconstruir cronologias dos eventos e examinar artefatos do sistema operacional, cabendo à análise apenas exportar os arquivos probatórios.",
+      "C": "A análise pode variar desde uma simples inspeção visual até a remontagem de sistemas ou bancos de dados, sendo orientada pelos objetivos do exame e pela quesitação; já a seleção visa agrupar e exportar, em formato inteligível, os arquivos de conteúdo probatório.",
+      "D": "A seleção é etapa obrigatoriamente posterior à elaboração do laudo pericial, pois sua finalidade é apenas anexar arquivos às conclusões já produzidas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O material diferencia claramente as duas etapas. A análise depende dos objetivos do exame e da quesitação, podendo envolver identificação de aplicativos relevantes, análise de logs, cache, histórico de navegação, programas maliciosos, compartilhamento de arquivos e organização cronológica das informações. A seleção tem por finalidade agrupar e exportar os arquivos com conteúdo probatório para formato inteligível, podendo inclusive constituir a resposta a determinado quesito.",
+    "referencia": "SimuChacal, simulado 14, questão #739 — Ref: p. 45 e 46"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto da decifragem de arquivos, um Perito Criminal necessita recuperar a senha de arquivos protegidos por criptografia. Considere as seguintes assertivas:\n\nI. O ataque de força bruta consiste em testar exaustivamente todas as combinações possíveis de determinado conjunto de caracteres, sendo teoricamente capaz de encontrar qualquer senha, embora apresente melhor desempenho para senhas curtas.\n\nII. O ataque por dicionário limita-se às palavras existentes em dicionários convencionais da língua, não admitindo modificações das entradas nem utilização de informações pessoais do usuário.\n\nIII. Métodos probabilísticos são bastante complexos e visam determinar sequências com maior probabilidade de terem sido utilizadas como senha, utilizando probabilidades condicionais e gramáticas especializadas, evitando testar senhas que dificilmente seriam memorizadas por um ser humano.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas a assertiva I está correta.",
+      "B": "Apenas as assertivas I e II estão corretas.",
+      "C": "Apenas as assertivas I e III estão corretas.",
+      "D": "As assertivas I, II e III estão corretas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A assertiva I reproduz corretamente o conceito de força bruta. A assertiva III também está correta ao descrever os métodos probabilísticos. A assertiva II está incorreta porque o material informa que o ataque por dicionário não se restringe a palavras de dicionários tradicionais: ele pode utilizar nomes de lugares, expressões de filmes, informações pessoais, dados encontrados no disco rígido e ainda aplicar transformações às entradas, como substituir letras por símbolos, converter letras em maiúsculas ou acrescentar números.",
+    "referencia": "SimuChacal, simulado 14, questão #740 — Ref: p. 46 e 47"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o laudo pericial e a autenticidade da mídia anexa, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "O laudo é assinado digitalmente, garantindo autenticidade do seu teor",
+      "B": "É realizado o calculo do hash dos arquivos de hashes e transcrito no corpo do laudo",
+      "C": "O cálculo do hashe das mídias utilizadas para o exame e anexas ao laudo garante autenticidade e integridade dos arquivos.",
+      "D": "A lista com hashes dos arquivos anexos é inserida no corpo do laudo"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Apenas o hash da lista de hashes é transcrito no corpo do laudo (assinado digitalmente); .",
+    "referencia": "SimuChacal, simulado 14, questão #741 — Ref: p.75"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais dos procedimentos abaixo são realizados para verificação da integridade e autenticidade das mídias digitais anexas ao laudo pericial?\nI- Verificação de autenticidade da assinatura digital do laudo pericial;\nII - Cálculo do hashe do arquivo com a lista de hashes dos arquivos anexos e comparação com o hashe informado no corpo do laudo;\nIII - Cálculo do hashe de todos os arquivos e comparação com os hashes informados na lista de hashes.\nIV - Cálculo do hashe de todos os arquivos e comparação com os hashes informados no corpo do laudo;\nV - Verificação de mecanismos que não permita alteração da mídia (mídia não regravável e configuração somente leitura para mídias externas por meio da função DiskPart)",
+    "alternativas": {
+      "A": "II e III",
+      "B": "I, IV e V",
+      "C": "I, III e IV",
+      "D": "II, III e V"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Etapas II e III estão corretas;\n\nAutenticidade da assinatura digital do laudo não está entre as etapas de verificação da integridade e autenticidade das mídias digitais; (I)\nO hashe de todos os arquivos não é informado no corpo do laudo (IV)\nNão é verificado o estado de alteração da mídia; (V)",
+    "referencia": "SimuChacal, simulado 14, questão #742 — Ref: P.75"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a apreensão de computadores:\nI - É importante apreender o computador inteiro para depois pedir uso.\nII - É importante apreender o computador inteiro devido a possibilidade de haver criptografia de disco ativada, vinculada a um módulo de segurança existente na placa-mãe (TPM).\nIII - Não deve apreender o computador inteiro, somente retirar o HD que é a parte principal que contém os dados.\nIV - Na hora de apreender tem que apreender mouse, teclado, gabinete, monitor e qualquer acessório sem distinção.\nV - Deve apreender o computador inteiro devido a possibilidade de existência de configurações lógicas de conexão entre múltiplos discos (ex: RAID) que possam complicar a leitura desses discos sem o restante do hardware do computador.",
+    "alternativas": {
+      "A": "I, II, III, IV e V",
+      "B": "Somente II e V",
+      "C": "Somente I, II e III",
+      "D": "Somente II"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As informações de interesse estão geralmente armazenadas na memória permanente desses equipamentos, ou seja, no disco rígido (HD ou SSD). Entretanto, eles não devem ser retirados do gabinete ou do notebook para serem apreendidos: a regra é apreender os computadores por inteiro.\nO principal motivo é a possibilidade de haver criptografia de disco ativada, vinculada a um módulo de segurança existente na placa-mãe (TPM), que faz com que os dados contidos nos discos avulsos se tornem inacessíveis. Devem ser consideradas também as dificuldades de acesso físico ao interior de notebooks, além da possibilidade de existência de configurações lógicas de conexão entre múltiplos discos (ex: RAID) que possam complicar a leitura desses discos sem o restante do hardware do computador.",
+    "referencia": "SimuChacal, simulado 14, questão #743 — Ref: p. 27"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Caso o equipamento esteja ligado, qual o procedimento a ser feito?",
+    "alternativas": {
+      "A": "Desliga-lo imediatamente.",
+      "B": "Ignorar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil.",
+      "C": "Colocar no estado de suspensão.",
+      "D": "Verificar a necessidade de registrar flagrante, de acordo com o que estiver claramente visível na tela do computador."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Erro da alternativa A e C- Não é para desligar/suspender e sim colocar no estado de hibernação.\nErro da B - Tem que verificar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil.\nCaso o computador esteja ligado, deve-se:\n• verificar a necessidade de registrar flagrante, de acordo com o que estiver claramente visível na tela do computador;\n• verificar a existência de criptografia de disco e/ou possíveis informações relevantes na memória volátil, avaliando a necessidade de realizar procedimentos para a preservação dos dados, como:\n• obtenção da chave de recuperação do Bitlocker;\n• configuração do Bitlocker em modo de suspensão;\n• obtenção das chaves criptográficas do WhatsApp Web;\n• ativação do modo de hibernação do Windows;\n• captura da memória RAM; e\n• colocar o computador em modo de hibernação.",
+    "referencia": "SimuChacal, simulado 14, questão #744 — Ref: p. 28"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "São sugeridas algumas dicas no momento da seleção do material a ser apreendido:\nI - Independente do mérito da investigação deve apreender os computadores mesmo que tenha documentos que já comprovem o que será buscado, pois o computador sempre terá mais dados;\nII - Nunca deve imprimir um relatório diretamente do banco de dados ou do sistema de informática da empresa, para não alterar o material que se deseja apreender;\nIII - Deve ser considerado a possibilidade de ser feita a cópia de dados no local;",
+    "alternativas": {
+      "A": "Somente I",
+      "B": "Somente II e III",
+      "C": "Somente III",
+      "D": "Nenhuma das alternativas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "São sugeridas algumas dicas no momento da seleção do material a ser apreendido:\n• saber o que se deseja provar – às vezes, uma prova documental encontrada no local já é suficiente;\n• imprimir um relatório diretamente do banco de dados ou do sistema de informática da empresa pode ser mais eficaz que apreender os respectivos computadores;\n• senhas, nomes de usuários ou detalhes do funcionamento de sistemas podem ser necessários em um exame futuro. Essas informações podem ser encontradas em anotações próximas aos computadores ou ser solicitadas às pessoas presentes no local, mesmo que sejam os próprios suspeitos da investigação (embora não haja por parte deles obrigação de fornecer esses dados).\nUma busca em local envolvendo crimes por computador normalmente apreende computadores e mídias avulsas. Pode ser necessária a realização de cópia de dados no local.",
+    "referencia": "SimuChacal, simulado 14, questão #745 — Ref: p. 27"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o conceito, a evolução histórica e os elementos distintivos da Informática Forense, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A Informática Forense é a área das Ciências Forenses que trata da coleta, preservação, análise e apresentação de evidências digitais que possam ser utilizadas e sustentadas em juízo.",
+      "B": "Podemos definir a Informática Forense como o conjunto de procedimentos realizados sobre mídias de armazenamento e outros equipamentos computacionais em busca de evidências digitais.",
+      "C": "Um dos fatores que faz com que a Informática Forense seja equivalente às demais áreas da informática é a preocupação jurídica inerente à sua destinação.",
+      "D": "Um dos fatores que torna a Informática Forense distinta das demais áreas da informática é a realização de procedimentos sólidos que não suscitem dúvidas ou questionamentos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A e B - corretas\nPodemos definir a Informática Forense como o conjunto de procedimentos realizados sobre mídias de armazenamento e outros equipamentos computacionais em busca de evidências digitais. Em outras palavras, a Informática Forense é a área das Ciências Forenses que trata da coleta, preservação, análise e apresentação de evidências digitais que possam ser utilizadas e sustentadas em juízo.\n\nC errada e D correta\nO que torna a Informática Forense distinta das demais áreas da informática é a preocupação jurídica inerente à sua destinação, a aplicação de conceitos da Criminalística (como a cadeia de custódia e a preservação do local do crime) e a realização de procedimentos sólidos que não suscitem dúvidas ou questionamentos.",
+    "referencia": "SimuChacal, simulado 14, questão #774"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em 2001, em Budapeste, na Hungria, o Conselho da Europa publicou a\nConvenção de Crimes Cibernéticos, conhecida como Convenção de Budapeste.\nO objetivo dessa convenção é aprimorar o enfrentamento aos crimes cibernéticos com melhorias de legislação e facilitação da cooperação internacional. Em 2026, mais de 80 países já haviam assinado a Convenção2, incluindo o Brasil, que aderiu em",
+    "alternativas": {
+      "A": "2021",
+      "B": "2022",
+      "C": "2023",
+      "D": "2024"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #775"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos \"EXAMES EM EQUIPAMENTOS ELETRÔNICOS PORTÁTEIS\", julgue as assertivas corretas:\n\nI. Os registros dos dados de registros de ligações e mensagens encontrados em um cartão SIM sempre correspondem aos registrados pela operadora\n\nII. Apenas a operadora pode informar com precisão as chamadas realmente realizadas ou recebidas, bem como as mensagens de texto e correio de voz\n\nIII. Não é recomendável inserir os cartões em um aparelho diverso do telefone examinado para visualizar e extrair suas informações",
+    "alternativas": {
+      "A": "Apenas II está correta",
+      "B": "Apenas III está correta",
+      "C": "Todas estão corretas",
+      "D": "Apenas II e III estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "I. Uma ressalva deve ser feita com relação aos dados de registros de ligações e mensagens, pois não se pode garantir que os registros encontrados na memória do aparelho ou em um cartão SIM correspondam aos registrados pela operadora\n\nII. Correta\n\nIII. Correta",
+    "referencia": "SimuChacal, simulado 14, questão #793 — Ref: p.59-60"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos \"EXAMES EM EQUIPAMENTOS ELETRÔNICOS PORTÁTEIS\", julgue as assertivas corretas:\n\nI. Pode haver uma troca de informações entre o cartão SIM e um aparelho diverso do telefone examinado, possivelmente sobrescrevendo informações previamente armazenadas, como o histórico de IMEIs atrelados àquele cartão SIM (caso essa informação seja salva)\n\nII. Os cartões SIM e de memória devem ser analisados conjuntamente, uma vez que se utilizam dos mesmos leitores.\n\nIII. Os dados disponíveis em aparelho de telefonia celular independem do sistema operacional do aparelho, sua versão, bem como dos aplicativos instalados.",
+    "alternativas": {
+      "A": "Apenas I está correta",
+      "B": "Apenas I e III estão corretas",
+      "C": "Apenas II e III estão corretas",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "I. Correta\n\nII. Os cartões SIM e de memória devem ser analisados separadamente, utilizando-se leitores específicos\n\nIII. Os dados disponíveis em aparelho de telefonia celular DEPENDEM do sistema\noperacional do aparelho, sua versão, bem como dos aplicativos instalados.",
+    "referencia": "SimuChacal, simulado 14, questão #794 — Ref: p. 60"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA no que diz respeito à organização e priorização do material examinado em casos de Abuso Sexual Infantojuvenil (ASI):",
+    "alternativas": {
+      "A": "O perito deve separar os arquivos examinados em três conjuntos distintos, caso não haja disposição diversa na quesitação: disponibilização (transmissão via P2P, redes sociais, etc.), produção (material possivelmente produzido pelo investigado) e posse (demais materiais não enquadrados nos grupos anteriores).",
+      "B": "Para a priorização do material, recomenda-se ordenar os arquivos primeiro por identificação positiva via BFAC (Banco Federal de Arquivos Conhecidos) e, posteriormente, por maior probabilidade de conter MASI (Material de ASI) utilizando modelos de Inteligência Artificial.",
+      "C": "O exame de Identificação de MASI para caracterizar a posse deve ser realizado de forma exaustiva em todo o dispositivo, não sendo permitida a interrupção do exame antes da análise de 100% das mídias, a fim de garantir a materialidade total do crime.",
+      "D": "Arquivos classificados como MASI unicamente por ferramentas de IA ou pelo BFAC, sem a confirmação visual do perito, devem ser identificados por marcador próprio que explicite tal circunstância, e o uso da IA deve sempre constar no laudo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C está incorreta porque o manual estabelece o conceito de saturação qualitativa. Por exemplo, quanto à posse de MASI, a quantidade de 500 arquivos é considerada suficiente para estabelecer o conjunto probatório quanto à posse. Portanto, constatada essa quantidade, o exame de identificação para fins de posse pode ser interrompido, pois novos arquivos deixariam de acrescentar informações contextuais relevantes.",
+    "referencia": "SimuChacal, simulado 14, questão #795 — Ref: p. 51-52"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que diz respeito aos procedimentos e critérios técnicos para a identificação visual de Material de Abuso Sexual Infantojuvenil (MASI), assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A identificação visual de MASI baseia-se principalmente na constatação de conotação sexual explícita.",
+      "B": "Para a caracterização da menoridade, o perito deve observar critérios físicos como a proporção corporal típica, traços faciais infantis e a ausência ou início precoce de desenvolvimento puberal.",
+      "C": "Ao constatar indícios de menoridade em uma cena, é dever do perito criminal realizar a estimativa da idade numérica aproximada (ex: 10 a 13 anos) dos indivíduos representados, a fim de garantir a precisão técnica necessária para o enquadramento legal.",
+      "D": "Elementos contextuais, tais como o uso de termos sugestivos em nomes de pastas (ex: \"pthc\", \"13yo\") ou a classificação prévia por ferramentas de Inteligência Artificial, possuem caráter informativo e não podem ser utilizados para corroborar a conclusão pericial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B reproduz fielmente as orientações do manual para a avaliação da menoridade, citando a proporção corporal (cabeça proporcionalmente maior que o corpo), traços faciais específicos (olhos proporcionalmente grandes) e o estágio de desenvolvimento puberal (testículos e genitália subdesenvolvidos).\n\nAnálise das alternativas incorretas:\nA: Incorreta porque a identificação de MASI exige a presença simultânea de indícios de menoridade e conotação sexual, sendo ambos de responsabilidade do perito.\n\nC: Incorreta porque o manual proíbe expressamente o perito de estimar a idade numérica dos representados.\n\nD: Incorreta porque o manual afirma que elementos contextuais e termos sugestivos podem, sim, ser levados em consideração para corroborar a conclusão do perito.",
+    "referencia": "SimuChacal, simulado 14, questão #798 — Ref: p.52-53"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as diretrizes para a realização de exames em casos de Abuso Sexual Infantojuvenil (ASI) estabelecidas no Manual de Informática Forense da Polícia Federal, analise as afirmativas abaixo:\n\nI. O Exame de Identificação de MASImaterial de ASI) consiste na análise visual do conteúdo e, segundo a Portaria 1710/2026, pode ser realizado por perito de qualquer área, desde que incida sobre dados previamente extraídos e processados por ferramenta forense.\n\nII. Na organização do material, o perito deve separar os arquivos em três conjuntos distintos: disponibilização, produção e posse, devendo os arquivos do grupo \"Produção\" serem encaminhados para inclusão no BFAC (Banco Federal de Arquivos Conhecidos).\n\nIII. Para otimizar o exame e garantir a saúde mental do perito, o manual estabelece a \"saturação qualitativa\", que permite a interrupção da análise de posse após a constatação de conjunto probatório suficiente.\n\nIV. O conceito de Abuso Sexual Infantojuvenil (ASI) para fins periciais é amplo, abrangendo situações em que a criança ou adolescente seja envolvido em atividades de natureza sexual de forma real ou simulada.\n\nAssinale a alternativa que indica quais afirmativas estão CORRETAS:",
+    "alternativas": {
+      "A": "Apenas I e IV",
+      "B": "Apenas II, III e IV",
+      "C": "Apenas I, II e III.",
+      "D": "Todas as afirmativas estão corretas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #803 — Ref: p. 49-53"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação aos \"EXAMES EM EQUIPAMENTOS ELETRÔNICOS PORTÁTEIS\", julgue as assertivas corretas:\n\nI. É de fundamental importância o isolamento do dispositivo examinado de qualquer rede de comunicação para não ocorrer perda ou alteração dos dados armazenados.\n\nII. A maioria dos fabricantes oferece um meio para comandar um “wipe” remoto dos equipamentos ), tornando a recuperação de qualquer dado uma tarefa quase impossível.\n\nIII. Para manter o aparelho isolado de redes sem fio (celular, Wi-Fi ou Bluetooth), podem ser usadas diversas estratégias a depender da disponibilidade de meios do momento, como a remoção do(s) cartão(ões) SIM, uso de bolsas ou caixas Faraday e ativação do modo avião do aparelho",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas",
+      "B": "Apenas II e III estão corretas",
+      "C": "Apenas I e III estão corretas",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #807 — Ref: p. 59"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A apreensão de dados por meio de cópias, em vez da apreensão dos equipamentos, pode ser realizada quando:",
+    "alternativas": {
+      "A": "O proprietário dos equipamentos não autorizar sua apreensão, independentemente de decisão judicial.",
+      "B": "O equipamento possuir capacidade de armazenamento superior a 1 TB.",
+      "C": "Houver inviabilidade legal ou técnica para apreender os equipamentos, ou para reduzir o volume de material arrecadado",
+      "D": "Os dados estiverem armazenados exclusivamente em mídias removíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Quando houver inviabilidade legal ou técnica à apreensão de equipamentos, poderão ser efetuadas cópias dos dados existentes no local, os quais serão posteriormente examinados. A apreensão de dados pode ser realizada ainda para reduzir o volume de material arrecadado\" P 29",
+    "referencia": "SimuChacal, simulado 14, questão #808"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o texto, a apreensão de mídias que claramente não possuem dados relevantes ao processo investigativo deve ser:",
+    "alternativas": {
+      "A": "Limitada apenas às mídias encontradas em empresas.",
+      "B": "Realizada somente mediante autorização do proprietário.",
+      "C": "Sempre realizada, pois qualquer mídia pode conter evidências ocultas.",
+      "D": "Evitada, como no caso de CDs e DVDs originais contendo músicas ou instaladores de programas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"Deve ser evitada a apreensão de mídias que claramente não possuem dados relevantes ao processo apuratório, como CDs e DVDs originais contendo músicas ou instalação de programas, por exemplo.\" P 29",
+    "referencia": "SimuChacal, simulado 14, questão #809"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a arrecadação de vestígios de informática, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Os discos rígidos devem ser acondicionados, preferencialmente, em embalagens próprias.",
+      "B": "Na ausência de embalagens próprias, pode-se utilizar papelão ou plástico-bolha para proteção.",
+      "C": "As etiquetas identificadoras devem, preferencialmente, ser afixadas na embalagem, evitando contato direto com o equipamento.",
+      "D": "Os cabos de dados, carregadores e demais acessórios devem ser embalados juntamente com o equipamento correspondente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"As etiquetas identificadoras devem, preferencialmente, ser afixadas sobre o equipamento em si, não sobre as embalagens.\"",
+    "referencia": "SimuChacal, simulado 14, questão #810 — Ref: 31"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a realização de cópias de dados para apreensão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O hash dos dados deve ser calculado apenas quando solicitado pela autoridade policial.",
+      "B": "A presença de testemunhas do local é obrigatória, sendo inválida a apreensão realizada sem elas.",
+      "C": "A realização das cópias depende, entre outros requisitos, da disponibilidade de mídias adequadas, equipamentos e softwares compatíveis, além de recursos humanos suficientes para executá-las em tempo hábil.",
+      "D": "A supervisão de Perito Criminal da área de informática é dispensável, desde que a cópia seja feita por um funcionário da empresa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"Além disso, a apreensão de dados só deve ser realizada quando houver:\n• disponibilidade de mídias de tipo e capacidade adequados para armazenar\nas cópias;\n• disponibilidade de equipamentos e software adequados; e\n• disponibilidade de recursos humanos para realização das cópias em\ntempo hábil.\" P 30",
+    "referencia": "SimuChacal, simulado 14, questão #811"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao acondicionamento de vestígios digitais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os discos rígidos retirados de um mesmo gabinete devem ser embalados separadamente para preservar a cadeia de custódia.",
+      "B": "Todas as mídias removíveis devem ser reunidas em um único volume lacrado, independentemente do tipo.",
+      "C": "Os cabos e carregadores devem ser acondicionados separadamente para evitar interferências eletromagnéticas.",
+      "D": "Os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume, enquanto as mídias removíveis devem ser agrupadas por tipo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"Os discos rígidos removidos de um mesmo gabinete devem ser embalados e lacrados em um único volume. Mídias removíveis devem ser agrupadas por tipo e cada conjunto deve ser embalado e lacrado separadamente.\"",
+    "referencia": "SimuChacal, simulado 14, questão #812 — Ref: 31"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o material, qual é a justificativa para a utilização, sempre que possível, de embalagens antiestáticas durante a arrecadação de vestígios de informática?",
+    "alternativas": {
+      "A": "Impedir a oxidação dos componentes metálicos.",
+      "B": "Evitar a exposição das mídias à luz solar.",
+      "C": "Reduzir a vibração mecânica durante o transporte.",
+      "D": "Evitar danos causados pela eletricidade estática aos componentes eletrônicos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "\"Os componentes eletrônicos são muito suscetíveis à eletricidade estática. A estática presente no corpo humano pode danificar componentes eletrônicos. Os plásticos para acondicionamento de vestígios também podem acumular eletricidade estática. Portanto, deve-se, sempre que possível, utilizar embalagens antiestáticas.\"",
+    "referencia": "SimuChacal, simulado 14, questão #813 — Ref: 31"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando não houver disposição diversa na quesitação, os arquivos examinados devem ser separados em quais conjuntos?",
+    "alternativas": {
+      "A": "Identificação, classificação e confirmação.",
+      "B": "Disponibilização, produção e posse.",
+      "C": "ASI, suspeita de ASI e pornografia adulta.",
+      "D": "Arquivos ativos, arquivos apagados e arquivos recuperados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "“O perito responsável pelo Exame de Análise de Conteúdo – ASI deve separar os arquivos examinados em três conjuntos:\nI. disponibilização;\nII. produção; e\nIII. posse.”",
+    "referencia": "SimuChacal, simulado 14, questão #814"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a priorização dos arquivos examinados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os arquivos devem ser ordenados inicialmente pela classificação realizada por ferramenta de IA e, depois, pela identificação positiva via BFAC.",
+      "B": "A ordem de prioridade deve ser: pornografia adulta, ASI, suspeita de ASI, pessoas sem conotação sexual e outros.",
+      "C": "Recomenda-se ordenar primeiro os arquivos com identificação positiva via BFAC e, em cada conjunto, pela maior probabilidade de conter MASI.",
+      "D": "Os arquivos classificados como “outros” devem ser analisados antes daqueles identificados como ASI."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #815"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas:\n\nI. A Portaria 1710/2026 considera 500 arquivos contendo cenas de ASI como quantidade suficiente para alcançar a saturação qualitativa no grupo referente à posse.\n\nII. Alcançada essa quantidade, o exame destinado a caracterizar a posse pode ser interrompido, pois se considera estabelecido conjunto probatório suficiente.\n\nIII. Arquivos classificados como MASI exclusivamente por IA ou BFAC, sem confirmação visual do perito, devem ser incluídos normalmente nos mesmos marcadores dos arquivos visualmente confirmados.\n\nIV. O uso de ferramenta de IA deve ser consignado no laudo, independentemente do grau de supervisão humana.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e IV estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #816"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base na descrição da apostila, assinale a alternativa correta acerca da placa-mãe.",
+    "alternativas": {
+      "A": "O BIOS é armazenado na memória RAM e sua execução ocorre apenas após o carregamento do sistema operacional.",
+      "B": "Placas de rede e de vídeo são obrigatoriamente conectadas à placa-mãe por cabos, enquanto discos rígidos utilizam slots dedicados.",
+      "C": "O BIOS tem como função identificar, configurar, testar e inicializar os dispositivos do sistema, estando gravado em um tipo de memória existente na placa-mãe.",
+      "D": "Dispositivos classificados como on-board são aqueles conectados externamente à placa-mãe por meio de interfaces USB."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo a apostila, a placa-mãe contém uma memória onde está gravado o BIOS (Basic Input Output System), responsável por identificar, configurar, testar e inicializar os dispositivos do sistema. Placas de vídeo e rede normalmente utilizam slots, podendo ser integradas (on-board), enquanto discos rígidos e leitores conectam-se por cabos.",
+    "referencia": "SimuChacal, simulado 14, questão #826"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da interação entre processador, memória RAM e memória secundária, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os programas são executados diretamente a partir da memória secundária, dispensando transferência para a memória principal.",
+      "B": "A memória RAM é permanente, enquanto a memória secundária perde seu conteúdo após o desligamento do computador.",
+      "C": "Dados e programas permanecem armazenados na memória secundária e, quando necessários, são transferidos para a memória principal, onde podem ser utilizados pelo processador.",
+      "D": "O processador executa apenas operações aritméticas, cabendo à memória RAM realizar operações lógicas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A apostila explica que dados e programas permanecem armazenados na memória secundária (não volátil) e, quando necessários, são transportados para a memória principal (RAM), utilizada pelo processador durante a execução. A RAM é volátil, enquanto o processador executa instruções que podem envolver busca de dados, cálculos e testes lógicos",
+    "referencia": "SimuChacal, simulado 14, questão #827"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com a classificação adotada pela apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O SSD utiliza discos magnéticos concêntricos divididos em trilhas e setores, diferindo do HD apenas pela velocidade de acesso.",
+      "B": "O monitor touch-screen é classificado exclusivamente como periférico de entrada.",
+      "C": "As memórias flash são utilizadas em dispositivos como cartões de memória, pen drives e SSDs, preservando os dados mesmo sem alimentação elétrica.",
+      "D": "As mídias ópticas (CD, DVD e Blu-ray) são classificadas como memória principal devido à elevada velocidade de leitura."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Segundo a apostila, as memórias flash utilizam chips capazes de manter os dados de forma persistente, sendo empregadas em cartões de memória, pen drives, memória interna de celulares e nos SSDs. Já o HD utiliza discos magnéticos; o monitor touch-screen é periférico de entrada e saída; e mídias ópticas constituem memória secundária (não volátil).",
+    "referencia": "SimuChacal, simulado 14, questão #828"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a finalidade e a concepção das ferramentas integradas na Informática Forense, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Elas são projetadas para substituir o Perito Criminal, automatizando completamente a tomada de decisão jurídica.",
+      "B": "Visam à praticidade e produtividade, agregando funcionalidades de diversas ferramentas específicas para cada etapa do exame pericial",
+      "C": "Devem ser utilizadas exclusivamente para a cópia lógica de dados, sendo ineficazes para a recuperação de arquivos apagados.",
+      "D": "São softwares de uso restrito a laboratórios centrais, não podendo ser levadas para exames em campo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – O texto afirma que as ferramentas integradas agregam funcionalidades específicas de cada etapa do exame para aumentar a produtividade",
+    "referencia": "SimuChacal, simulado 14, questão #829 — Ref: 47 e 48"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Utilizando uma única ferramenta integrada, o Perito Criminal é capaz de realizar uma série de procedimentos. De acordo com o texto, qual das opções abaixo NÃO representa uma dessas funcionalidades?",
+    "alternativas": {
+      "A": "Copiar o conteúdo de um disco questionado para um arquivo-imagem",
+      "B": "Realizar a indexação e a pesquisa por palavras-chave",
+      "C": "Gerar relatórios com links para os arquivos que foram selecionados pelo perito",
+      "D": "Alterar o código-fonte de sistemas operacionais proprietários para remover senhas de BIOS."
+    },
+    "resposta_correta": "D",
+    "justificativa": "D – As funcionalidades citadas incluem cópia de imagem, recuperação, indexação, pesquisa e geração de relatórios. A alteração de código-fonte de BIOS não é mencionada como função dessas ferramentas.",
+    "referencia": "SimuChacal, simulado 14, questão #830 — Ref: 47 e 48"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação ao IPED (Indexador e Processador de Evidências Digitais), é correto afirmar que:",
+    "alternativas": {
+      "A": "É uma solução de software proprietária, desenvolvida por empresas estrangeiras e licenciada para a Polícia Federal.",
+      "B": "Trata-se de um software de código aberto desenvolvido internamente pela Polícia Federal para cobrir as principais etapas da análise de vestígios",
+      "C": "Sua única função é a duplicação pericial, não permitindo a visualização ou categorização de arquivos.",
+      "D": "É uma ferramenta de hardware utilizada exclusivamente para extração de dados de aparelhos celulares antigos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – O IPED é explicitamente descrito como uma solução de código aberto da própria Polícia Federal",
+    "referencia": "SimuChacal, simulado 14, questão #831 — Ref: 47 e 48"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quais tipos de bloqueios estão definidos na apostila como tipos de bloqueios mais comuns, disponíveis em aparelhos celulares modernos:",
+    "alternativas": {
+      "A": "Numérica (ou PIN); Padrão Trigonométrico; Alfanumérica; Biométrica.",
+      "B": "Numérica (ou PIN); Padrão geométrico; Alfanumérica; Térmico.",
+      "C": "Numérica (ou PIN); Padrão geométrico; Alfanumérica; Desbloqueio por aplicativo.",
+      "D": "Numérica (ou PIN); Padrão geométrico; Alfanumérica; Biométrica."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Folha 67",
+    "referencia": "SimuChacal, simulado 14, questão #832"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A seguir estão descritos os tipos de bloqueios mais comuns, disponíveis em\naparelhos celulares modernos:\n\n• Numérica (ou PIN): Bloqueio feito através da inserção de 4 a 8 algarismos, dependendo da versão do modelo e do sistema operacional do dispositivo, escolhidos pelo usuário. Trata-se de um dos bloqueios mais comuns e sua segurança é considerada média;\n\n• Padrão geométrico: Bloqueio feito através da inserção de padrão geométrico ou um “desenho” definido pelo usuário. A segurança deste tipo de bloqueio é considerada baixa, devido ao número limitado de padrões possíveis e, geralmente, o padrão escolhido ser de fácil “desenho” para facilitar o uso no dia a dia do usuário;\n\n• Alfanumérica: Bloqueio feito através da inserção de caracteres alfanuméricos. A quantidade de caracteres é definida pelo usuário. Trata-se de um bloqueio com alta qualidade de proteção, devido ao fato de as senhas geradas serem complexas, com algarismos e letras, e com um número mínimo de caracteres para a senha;\n\n• Biométrica: Bloqueio feito por uso de características biométricas do usuário, como digital, íris ou formato da face (reconhecimento facial). Normalmente, este bloqueio deve ser utilizado combinado com um outro tipo, como bloqueio de PIN ou padrão geométrico, que são exigidos toda vez que o aparelho é reiniciado ou fica um longo período sem desbloqueio.\n\nQuantas afirmativas estão corretas?",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A seguir estão descritos os tipos de bloqueios mais comuns, disponíveis em\naparelhos celulares modernos:\n• Numérica (ou PIN): Bloqueio feito através da inserção de 4 a 8 alga￾rismos, dependendo da versão do modelo e do sistema operacional do\ndispositivo, escolhidos pelo usuário. Trata-se de um dos bloqueios mais\ncomuns e sua segurança é considerada média;\n• Padrão geométrico: Bloqueio feito através da inserção de padrão geo￾métrico ou um “desenho” definido pelo usuário. A segurança deste tipo\nde bloqueio é considerada baixa, devido ao número limitado de padrões\npossíveis e, geralmente, o padrão escolhido ser de fácil “desenho” para\nfacilitar o uso no dia a dia do usuário;\n• Alfanumérica: Bloqueio feito através da inserção de caracteres alfanu￾méricos. A quantidade de caracteres é definida pelo usuário. Trata-se de\num bloqueio com alta qualidade de proteção, devido ao fato de as senhas\ngeradas serem complexas, com algarismos e letras, e com um número\nmínimo de caracteres para a senha;\n• Biométrica: Bloqueio feito por uso de características biométricas do\nusuário, como digital, íris ou formato da face (reconhecimento facial).\nNormalmente, este bloqueio deve ser utilizado combinado com um outro\ntipo, como bloqueio de PIN ou padrão geométrico, que são exigidos toda\nvez que o aparelho é reiniciado ou fica um longo período sem desbloqueio.",
+    "referencia": "SimuChacal, simulado 14, questão #833"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A criptografia é um mecanismo de segurança utilizado para proteger informações armazenadas na memória de dispositivos eletrônicos, como smartphones.\nSobre o tema assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Seu objetivo principal é garantir que apenas pessoas autorizadas (proprietário do\naparelho) consigam acessar os dados.",
+      "B": "Seu objetivo principal é garantir que nenhuma pessoa consiga acessar os dados.",
+      "C": "De forma simplificada, a criptografia transforma informações legíveis (como fotos, mensagens e arquivos) em um formato organizado.",
+      "D": "Nenhuma das alternativas acima."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A criptografia é um mecanismo de segurança utilizado para proteger informa-\nções armazenadas na memória de dispositivos eletrônicos, como smartphones.\nSeu objetivo principal é garantir que apenas pessoas autorizadas (proprietário do\naparelho) consigam acessar os dados.\nDe forma simplificada, a criptografia transforma informações legíveis (como\nfotos, mensagens e arquivos) em um formato embaralhado, que só pode ser\ncompreendido mediante o uso de uma chave correta, geralmente associada a\numa senha, PIN ou biometria.",
+    "referencia": "SimuChacal, simulado 14, questão #834"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto de apreensão de dispositivos móveis, em um cenário de apreensão de aparelhos celulares ligados com senha fornecida, qual deveria ser a primeira medida?",
+    "alternativas": {
+      "A": "Remover e identificar os cartões SIM.",
+      "B": "Deve ser priorizada a apreensão imediata se o aparelho estiver em uso.",
+      "C": "Ativar o modo avião e confirmar o bloqueio de conexões (rede celular, Wi-Fi e Bluetooth).",
+      "D": "Ativar o modo avião e verificar se há senha configurada nas definições."
+    },
+    "resposta_correta": "C",
+    "justificativa": "7.4.1.1 Aparelhos celulares ligados com senha fornecida:\n\nNesse cenário, a primeira medida é ativar o modo avião e confirmar o bloqueio de conexões (rede celular, Wi-Fi e Bluetooth).",
+    "referencia": "SimuChacal, simulado 14, questão #835 — Ref: página 70"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um laudo típico da área de informática contém, além do preâmbulo, os\nseguintes itens, EXCETO:",
+    "alternativas": {
+      "A": "Histórico (opcional)",
+      "B": "Material",
+      "C": "Objetivo",
+      "D": "Hash"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Um laudo típico da área de informática contém, além do preâmbulo, os seguintes itens: Histórico (opcional); Material; Objetivo; Exame e Respostas aos quesitos ou Conclusão.",
+    "referencia": "SimuChacal, simulado 14, questão #836 — Ref: página 73"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme já mencionado, com o uso de funções unidirecionais de resumo,\né possível garantir que determinado arquivo não seja alterado sem que isso seja inequivocamente detectado, ou seja, é possível garantir sua:",
+    "alternativas": {
+      "A": "autenticidade",
+      "B": "confidencialidade",
+      "C": "disponibilidade",
+      "D": "integridade"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Conforme já mencionado, com o uso de funções unidirecionais de resumo,\né possível garantir que determinado arquivo não seja alterado sem que isso seja inequivocamente detectado, ou seja, é possível garantir sua integridade",
+    "referencia": "SimuChacal, simulado 14, questão #837 — Ref: 73"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante uma investigação de corrupção, foi apreendido o computador pessoal de um dos investigados. Os elementos disponíveis indicam que o equipamento não foi utilizado para executar a negociação ilícita nem constituiu o alvo da conduta criminosa. Entretanto, foram encontradas nele planilhas de pagamentos, documentos e mensagens relacionadas aos fatos investigados.\n\nConsiderando a classificação dos crimes informáticos, o computador desempenha, nessa situação, papel relacionado a um crime:",
+    "alternativas": {
+      "A": "informático puro ou próprio, porque os elementos probatórios estão armazenados em formato digital.",
+      "B": "informático impróprio, porque todo crime que produz consequências fora do ambiente cibernético pertence necessariamente a essa categoria.",
+      "C": "informático indireto ou incidental, porque o computador atua como uma espécie de testemunha, armazenando informações relacionadas ao crime, sem ter sido seu alvo ou instrumento.",
+      "D": "cibernético próprio, porque a presença de documentos digitais transforma automaticamente a infração investigada em crime cibernético."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No crime informático indireto ou incidental, o computador não constitui o alvo nem o meio utilizado para a execução do delito. Ele funciona como uma espécie de “testemunha”, pois armazena planilhas, documentos, imagens, mensagens ou outros registros relacionados ao fato investigado.\n\nA está errada: a natureza digital do vestígio não torna o crime automaticamente próprio. No crime próprio, o recurso informático é o alvo da ação, como ocorre na invasão de uma rede.\n\nB está errada: nos crimes impróprios, o computador é efetivamente utilizado como meio para a prática da conduta, embora o prejuízo ao bem jurídico ocorra fora do espaço cibernético.\n\nD está errada: a simples existência de provas digitais não modifica a natureza jurídica ou operacional do crime originalmente investigado.",
+    "referencia": "SimuChacal, simulado 14, questão #841"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma mídia apreendida foi submetida à duplicação forense. Antes do exame, calculou-se o hash da mídia original. Posteriormente, o mesmo algoritmo foi aplicado à cópia forense, sendo obtido valor idêntico.\n\nConsiderando as propriedades das funções unidirecionais de resumo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A igualdade dos hashes comprova, isoladamente, a autoria dos arquivos e a regularidade de toda a cadeia de custódia.",
+      "B": "A igualdade dos hashes indica, para fins periciais, que os conteúdos submetidos ao cálculo permaneceram íntegros e equivalentes, mas não comprova, isoladamente, autoria, propriedade ou regularidade de todos os procedimentos adotados.",
+      "C": "O hash permite reconstruir integralmente o conteúdo da mídia original, desde que seja conhecido o algoritmo utilizado.",
+      "D": "A igualdade somente poderia ocorrer se a mídia original e a cópia possuíssem exatamente a mesma capacidade física de armazenamento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O hash funciona como uma espécie de impressão digital do conjunto de dados. A mesma entrada, submetida ao mesmo algoritmo, produz a mesma saída. A alteração de um único bit tende a produzir um valor completamente diferente. Assim, a coincidência dos hashes fornece forte suporte técnico à integridade e à equivalência dos conteúdos comparados.\n\nEntretanto, o hash não demonstra, sozinho, quem criou o arquivo, quem utilizou o equipamento ou se todas as etapas da cadeia de custódia foram corretamente observadas.\n\nA está errada: o hash verifica a integridade dos dados, não a autoria nem toda a cadeia de custódia.\n\nC está errada: a função é unidirecional; não é possível obter o conteúdo original apenas a partir do valor do hash.\n\nD está errada: a saída possui tamanho fixo determinado pelo algoritmo, independentemente do tamanho da entrada. Arquivos de tamanhos diferentes produzem hashes com o mesmo comprimento quando submetidos ao mesmo algoritmo.",
+    "referencia": "SimuChacal, simulado 14, questão #842"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o cumprimento de um mandado de busca, foi encontrado um aparelho celular ligado e bloqueado. A equipe verificou que o usuário já havia desbloqueado o dispositivo pelo menos uma vez após sua última inicialização.\n\nConsiderando os estados de criptografia dos dispositivos móveis, qual é a conduta tecnicamente mais adequada?",
+    "alternativas": {
+      "A": "Desligar imediatamente o aparelho, porque a interrupção da energia preserva as chaves criptográficas armazenadas na memória RAM.",
+      "B": "Reiniciar o dispositivo para eliminar processos em execução, pois a reinicialização facilita o acesso aos dados criptografados.",
+      "C": "Manter o aparelho ligado e carregado, isolá-lo das redes de comunicação, evitar seu desligamento ou reinicialização e realizar a extração dos dados tão logo seja possível.",
+      "D": "Manter o aparelho conectado às redes celular e Wi-Fi, pois a comunicação com os servidores do fabricante é necessária para conservar o estado AFU."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O aparelho está no estado AFU — After First Unlock, pois já foi desbloqueado pelo usuário ao menos uma vez depois de ser ligado. Nesse estado, determinadas chaves criptográficas encontram-se carregadas na memória RAM, permitindo o acesso a uma quantidade maior de dados.\n\nA prioridade é impedir que o dispositivo retorne ao estado BFU — Before First Unlock. Por isso, deve-se mantê-lo ligado e carregado, evitar reinicializações, isolar as conexões de rede e realizar a extração o mais rapidamente possível.\n\nA está errada: o desligamento elimina da memória volátil as chaves disponíveis no estado AFU e pode tornar parte dos dados inacessível.\nB está errada: a reinicialização leva o aparelho ao estado BFU, no qual as principais chaves ainda não foram carregadas na memória RAM.\nD está errada: manter conexões ativas pode permitir bloqueio, alteração ou apagamento remoto dos dados. O isolamento de rede busca justamente reduzir esse risco.\n\nCaso o aparelho seja desligado, reiniciado ou fique sem bateria, as chaves podem ser removidas da memória, embora os dados continuem armazenados de forma criptografada.\n\nItens mais importantes para memorizar\nCrime próprio: o sistema ou recurso informático é o alvo da ação.\nCrime impróprio: o computador é o meio empregado, mas o prejuízo ocorre fora do ambiente cibernético.\nCrime incidental: o computador não é alvo nem instrumento; funciona como repositório de vestígios.\nHash: saída de tamanho fixo, determinística e unidirecional.\nHash igual: indica integridade ou equivalência prática do conteúdo, não autoria.\nBFU: aparelho ainda não foi desbloqueado depois de ligado ou reiniciado.\nAFU: aparelho já foi desbloqueado e possui mais chaves criptográficas carregadas na RAM.\nPreservação do AFU: manter ligado, carregado, isolado das redes e não reiniciar.",
+    "referencia": "SimuChacal, simulado 14, questão #843"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a duplicação de mídia para arquivo-imagem, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Essa técnica garante a recuperação de cada bit da mídia de origem.",
+      "B": "Nessa técnica, todo o conteúdo da mídia original é armazenado em arquivos.",
+      "C": "Devido à maior flexibilidade para se analisar diversos arquivos-imagem simultaneamente e à maior facilidade para se manter a integridade dos dados, a duplicação de mídia para arquivo-imagem é o método mais indicado para a realização de exames periciais.",
+      "D": "Nesta técnica, é necessário “zerar” a mídia de destino após cada duplicação, pois o conteúdo da mídia original estará restrito ao conteúdo dos arquivos gerados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Não é necessário zerar, acaba sendo uma das vantagens da técnica.",
+    "referencia": "SimuChacal, simulado 14, questão #850 — Ref: p. 35"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a realização da duplicação forense é correto afirmar:",
+    "alternativas": {
+      "A": "É recomendado a duplicação forense por meio de equipamentos especializados, como exemplo o Tableau.",
+      "B": "Os equipamentos especializados assumem que seja possível retirar a mídia de\narmazenamento do equipamento recebido para análise.",
+      "C": "Não é recomendado levar os equipamentos de extração para campo.",
+      "D": "Os equipamentos à disposição do Perito Criminal, como o Tableau TD3, Tableau TX1 e Atola, possuem interface para praticamente todos os tipos de discos rígidos e possuem a capacidade de realizar duplicações individualmente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #851 — Ref: p. 36"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "As principais dificuldades encontradas durante a análise pericial de equipa\nmentos eletrônicos são:\nI - bateria\nII - código de travamento e senhas\nIII - número da linha\nIV - aparelho danificado\nV - erros durante a extração",
+    "alternativas": {
+      "A": "I,II,IV e V estão corretas",
+      "B": "I, II e IV estão corretas",
+      "C": "II e V estão corretas",
+      "D": "Todas estão corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Todas são citadas na página 65 como dificuldades econtradas durante a análise pericial de equipamentos eletrônicos.",
+    "referencia": "SimuChacal, simulado 14, questão #852 — Ref: 65"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com a evolução dos mecanismos de segurança dos dispositivos móveis, tem-se tornado cada vez mais frequente a necessidade de utilização de técnicas mais avançadas para acesso a dados protegidos na memória do aparelho.\nQual das opções abaixo NÃO trata de uma dessas técnicas?",
+    "alternativas": {
+      "A": "Desbloqueio de bootloader",
+      "B": "Obtenção de privilégios de root",
+      "C": "Força bruta",
+      "D": "Realização de jailbreak"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Erros durante a extração: com a evolução dos mecanismos de segurança dos dispositivos móveis, tem-se tornado cada vez mais frequente a necessidade de utilização de técnicas mais avançadas para acesso a dados protegidos na memória do aparelho. Entre essas técnicas, destacam-se procedimentos como desbloqueio de bootloader, obtenção de privilégios de root6 ou realização de jailbreak7.\nEntretanto, tais abordagens envolvem riscos inerentes, podendo falhar ou, em situações adversas, comprometer o funcionamento do dispositivo, tornando-o parcial ou totalmente inoperante. Diante disso, recomenda-se que o perito criminal adote uma abordagem progressiva, iniciando sempre por métodos menos invasivos e mais\nseguros de extração. Somente após esgotadas essas possibilidades é que se deve avaliar o emprego de técnicas mais avançadas, considerando-se os riscos envolvidos, a relevância dos dados a serem obtidos e a devida documentação de todo o procedimento.",
+    "referencia": "SimuChacal, simulado 14, questão #853 — Ref: 65"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a utilização de ferramentas para a extração e recuperação de dados em equipamentos eletrônicos, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O Perito Criminal deve limitar sua atuação ao uso exclusivo dessas ferramentas forenses, sendo desnecessário buscar outras abordagens ou soluções para a extração dos dados solicitados.",
+      "B": "As ferramentas forenses possuem capacidades padronizadas, de forma que o uso de qualquer uma delas isoladamente garante a obtenção dos mesmos resultados de extração.",
+      "C": "Recomenda-se a utilização de ferramentas forenses em conjunto, pois, como possuem capacidades diferentes de extração, elas se complementam, aumentando a quantidade e a qualidade das informações recuperadas.",
+      "D": "Ferramentas sofisticadas, como o Cellebrite Inseyets e o Magnet GrayKey, realizam a extração lógica ou física dos aparelhos exclusivamente por meio de acessos e conexões sem fio (wireless)."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A - Incorreta: O texto afirma expressamente que o Perito Criminal não deve se ater apenas a essas ferramentas para a realização dos exames, devendo buscar outras soluções de extração sempre que for necessário para satisfazer o objetivo\n.\nB - Incorreta: As ferramentas são desenvolvidas por diferentes empresas ou desenvolvedores independentes e, por esse motivo, cada uma pode ter capacidades de extração distintas, de modo que uma ferramenta pode conseguir acessar dados que a outra não consegue\n.\nC - Correta: Como as capacidades de extração variam de acordo com o desenvolvedor, ao serem utilizadas em conjunto, elas se complementam e aumentam a quantidade e a qualidade das informações recuperadas\n.\nD - Incorreta: O manual detalha que essas ferramentas mais sofisticadas, a exemplo do Cellebrite Inseyets e do Magnet GrayKey, realizam a extração lógica ou física dos dados por meio de cabos conectados diretamente a um computador ou a um equipamento específico",
+    "referencia": "SimuChacal, simulado 14, questão #854 — Ref: 65"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "No âmbito da Informática Forense, os exames podem ser divididos pelo tipo de material encaminhado para análise. Qual categoria abrange dados armazenados em aparelhos celulares, smartphones e tablets?",
+    "alternativas": {
+      "A": "Mídias de armazenamento computacional.",
+      "B": "Dispositivos computacionais portáteis.",
+      "C": "Redes de computadores.",
+      "D": "Servidores remotos de arquivos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #858"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "O objetivo de um exame pericial estabelece o resultado esperado da análise. Qual tipo de exame visa colocar os dados de um equipamento em um formato facilmente legível para terceiros, realizando procedimentos como recuperação de arquivos apagados e aplicação de listas de palavras-chave?",
+    "alternativas": {
+      "A": "Análise de sistemas.",
+      "B": "Análise de registros (logs).",
+      "C": "Engenharia reversa.",
+      "D": "Extração de dados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Gabarito oficial: alternativa D. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #859"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "A \"Análise de Sistemas\" é um tipo de exame realizado pelo Perito Criminal para atingir objetivos específicos. Segundo as fontes, quais métodos são geralmente empregados e qual é um exemplo de sua aplicação?",
+    "alternativas": {
+      "A": "Inspeção visual; usado para determinar a hora em que o computador foi ligado.",
+      "B": "Engenharia reversa ou análise comportamental; usado para analisar aplicativos maliciosos de fraudes bancárias.",
+      "C": "Recuperação de metadados; usado para identificar se um arquivo foi impresso.",
+      "D": "Mapeamento de redes; usado para localizar arquivos armazenados na \"nuvem\"."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 14, questão #860"
+  },
+  {
+    "disciplina": "Informática Forense",
+    "conteudo": "SC",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é o método de duplicação forense que garante a extração de todos os seus dados, conseguindo recuperar bit a bit da mídia original para um ou mais arquivos gravados\nna mídia de destino?",
+    "alternativas": {
+      "A": "Duplicação de mídia para mídia.",
+      "B": "Duplicação de arquivo para arquivo.",
+      "C": "Duplicação de mídia para arquivo-imagem.",
+      "D": "Duplicação de arquivo para mídia."
+    },
+    "resposta_correta": "C",
+    "justificativa": "\"A duplicação forense do tipo mídia para arquivo-imagem consiste na cópia completa dos dados de uma mídia de origem para um ou mais arquivos gravados na mídia de destino. Dessa forma, o primeiro bit da mídia original será idêntico ao primeiro bit do arquivo gravado, e assim por diante.\"\n(você recupera todos os bits em ambos os métodos de duplicação)",
+    "referencia": "SimuChacal, simulado 14, questão #862 — Ref: p. 35"
+  }
+]
