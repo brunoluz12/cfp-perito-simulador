@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1470,
+    "alternativas": {
+      "A": "bens de quaisquer sociedades de economia mista que contem com participação acionária da União em seu capital social, ainda que o fato não atinja serviço público federal nem interesse direto da União na apuração.",
+      "B": "objetos, bens ou valores de órgãos da União (ministérios, autarquias, fundações e empresas públicas federais, como Caixa Econômica Federal e Correios), incluindo veículos oficiais e bens neles acondicionados.",
+      "C": "quaisquer bens situados em imóveis da União, mesmo pertencentes a particulares que ali exerçam atividade autorizada.",
+      "D": "bens de estados e municípios administrados sob convênio federal, cuja fiscalização compete a órgãos da União."
+    },
+    "resposta_correta": "B",
+    "justificativa": "São de competência da PF os crimes contra objetos, bens ou valores de órgãos da União (ministérios, secretarias, autarquias, fundações e empresas públicas federais — ex.: Receita Federal, DNIT, ANEEL, Caixa Econômica Federal, Correios, UnB), incluindo veículos oficiais/viaturas e bens neles acondicionados (p. 145). Isso valida B. A desloca o critério para a sociedade de economia mista sem interesse federal direto. C confunde a titularidade do bem com a do imóvel em que ele se encontra. D atrai bens estaduais e municipais pela via do convênio, quando a regra se assenta na titularidade dos bens pela União."
+  },
+  {
+    "id": 1471,
+    "alternativas": {
+      "A": "subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, exigindo dolo — não há furto culposo; a energia elétrica, com valor econômico, equipara-se à coisa móvel.",
+      "B": "subtrair coisa alheia móvel sem violência à pessoa, admitindo-se também a modalidade culposa quando o agente, por erro escusável sobre a titularidade do bem, leva consigo objeto pertencente a terceiro.",
+      "C": "subtrair coisa alheia móvel mediante emprego de violência contra a coisa, elemento que distingue o furto do roubo e integra o tipo básico do art. 155.",
+      "D": "subtrair coisa alheia móvel, corpórea por definição, não alcançando a energia elétrica, que é objeto de tipo penal autônomo previsto em legislação especial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O furto (art. 155) é subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, mas com dolo; não existe furto culposo, e a energia elétrica (ou outra com valor econômico) equipara-se à coisa móvel (§ 3º) (p. 146). Isso valida A. B admite furto culposo, inexistente. C insere a violência contra a coisa no tipo básico, quando o rompimento de obstáculo é qualificadora (§ 4º), não elemento essencial. D nega a equiparação da energia elétrica à coisa móvel, expressamente prevista no § 3º."
+  },
+  {
+    "id": 1475,
+    "alternativas": {
+      "A": "trata-se de cone de transfixação, típico de impactos de alta velocidade/energia (pedras arremessadas, disparos), com abertura maior na face oposta ao choque; os fragmentos, em geral, ficam do lado oposto ao ponto de impacto.",
+      "B": "trata-se de cone de transfixação, cuja base maior indica precisamente a face de onde partiu o impacto, sendo os fragmentos projetados de volta para o lado do agressor em razão da elasticidade residual do vidro.",
+      "C": "trata-se de fratura por flexão progressiva, característica de esforço lento e contínuo, como o de alavanca aplicada à esquadria da janela arrombada.",
+      "D": "trata-se de cone de transfixação, formado apenas em vidros temperados, cuja abertura cônica não permite inferir o sentido do impacto nem a energia envolvida."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O cone de transfixação é típico de impactos de alta velocidade/energia (pedras arremessadas, disparos de arma de fogo) e apresenta abertura maior na superfície oposta ao choque; os fragmentos, em geral, encontram-se do lado oposto ao ponto de impacto (p. 149). Isso valida A. B inverte o sentido do cone e a projeção dos fragmentos. C descreve um mecanismo lento, incompatível com a abertura cônica observada. D restringe o fenômeno ao vidro temperado e nega o valor informativo do cone, que é justamente indicar o sentido do impacto."
+  },
+  {
+    "id": 1476,
+    "alternativas": {
+      "A": "as rupturas radiais surgem no mesmo lado do impacto, e as concêntricas, na superfície oposta, ambas presentes em qualquer tipo de vidro.",
+      "B": "as rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão; as concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis, ficam no mesmo lado do impacto.",
+      "C": "as rupturas concêntricas formam-se primeiro e delimitam a área em que, num segundo momento, se desenvolvem as radiais, na mesma face atingida.",
+      "D": "as rupturas radiais indicam impacto de baixa energia e as concêntricas, impacto de alta energia, sendo justamente essa correspondência o critério empregado pela perícia para estimar a força utilizada no arrombamento da vidraça."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão; as concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis (automóveis), encontram-se no mesmo lado do impacto (p. 149). Isso valida B. A inverte os lados e afirma presença universal das concêntricas. C inverte a ordem de formação e coloca ambas na mesma face. D transforma o tipo de ruptura em critério de energia, que na verdade se afere pelo cone de transfixação."
+  },
+  {
+    "id": 1477,
+    "alternativas": {
+      "A": "o perito deve registrar no laudo a versão apresentada pela testemunha como dinâmica provável do fato, cabendo à autoridade policial confrontá-la posteriormente com os demais elementos reunidos no inquérito.",
+      "B": "o perito deve desconsiderar a versão apresentada, pois informações subjetivas colhidas na cena não podem orientar a busca de vestígios pela perícia.",
+      "C": "o perito deve atuar com imparcialidade e ponderação, confirmando a versão apenas se compatível com os vestígios materiais, considerando rotas alternativas de acesso e fuga e a possibilidade de simulação de arrombamento.",
+      "D": "o perito deve presumir a simulação sempre que a versão partir de pessoa com interesse no resultado do exame, invertendo-se o ônus de demonstrar o arrombamento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O perito deve usar imparcialidade e ponderação; uma versão de arrombamento só se confirma quando compatível com os respectivos vestígios materiais, devendo-se considerar rotas alternativas de acesso e fuga e a possibilidade de a cena ter sido forjada, pois alguns infratores simulam arrombamento para confundir a polícia (p. 150). Isso valida C. A acolhe a versão no laudo sem confronto material. B descarta a versão até como orientação da busca, quando as entrevistas servem para direcionar os trabalhos. D adota presunção de simulação, tão parcial quanto acolher a versão sem exame."
+  },
+  {
+    "id": 1478,
+    "alternativas": {
+      "A": "pela natureza do crime, é comum não se encontrarem muitos vestígios, ganhando especial importância as imagens de CFTV e de videomonitoramento urbano e de edificações vizinhas.",
+      "B": "por envolver contato direto entre autor e vítima, o roubo é rico em vestígios biológicos de transferência, que se tornam a principal linha de exame no local.",
+      "C": "o roubo deixa como vestígio característico as marcas de rompimento de obstáculo nos acessos da edificação, ponto de partida do exame do local.",
+      "D": "as imagens de CFTV, por serem produzidas por terceiros, não integram o conjunto de vestígios do local, servindo apenas como elemento de informação do inquérito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pela própria natureza do crime, é comum não se encontrarem muitos vestígios nos locais de roubo, ganhando importância as imagens de CFTV (circuito interno) e de câmeras de videomonitoramento urbano e de edificações vizinhas (p. 148). Isso valida A. B parte do contato entre autor e vítima para presumir fartura de vestígios biológicos, o que não corresponde à casuística dos locais de roubo. C atribui ao roubo a marca típica do furto qualificado por rompimento de obstáculo. D nega às imagens de CFTV a condição de vestígio, quando elas são justamente o material mais relevante nesses locais."
+  },
+  {
+    "id": 1479,
+    "alternativas": {
+      "A": "no exame de veículos, basta a conferência de placas e numerações identificadoras; e as imagens de CFTV dispensam verificação de horário, pois o DVR sincroniza o relógio automaticamente pela rede.",
+      "B": "deve-se buscar sinais de violação do sistema de ignição (exposição de fios, ligação direta) e preservar registros de rastreamento e telemetria; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR).",
+      "C": "os registros de rastreamento e telemetria devem ser requisitados apenas quando o veículo não for recuperado, pois, recuperado o bem, o exame físico esgota a informação disponível.",
+      "D": "a divergência do relógio do DVR invalida as imagens como vestígio, devendo o perito descartá-las e apoiar-se apenas nas câmeras de videomonitoramento urbano."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No exame de veículos deve-se buscar violação da ignição (exposição/supressão de fios, ligação direta) e preservar registros de rastreamento, telemetria e câmeras veiculares; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR), sendo o roubo a caminhões dos Correios uma das principais casuísticas da PF (p. 151-155). Isso valida B. A reduz o exame veicular à identificação e presume sincronismo automático do DVR. C condiciona a telemetria à não recuperação do veículo, perdendo dados de trajeto essenciais. D descarta imagens por divergência de relógio, quando o correto é aferir e corrigir a referência temporal."
+  }
+]

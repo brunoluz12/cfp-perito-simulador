@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1383,
+    "alternativas": {
+      "A": "a qualidade do sensor e das objetivas é o fator determinante do resultado, cabendo à metodologia de trabalho papel complementar.",
+      "B": "postura e equipamento têm pesos equivalentes, de modo que a deficiência de um não pode ser compensada pelo outro.",
+      "C": "a postura do perito ao realizar o levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza.",
+      "D": "a padronização dos equipamentos nas unidades periciais eliminou a variação de qualidade decorrente da técnica individual."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A disciplina afirma que 'a postura do perito ao realizar um levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza', pesando mais a técnica e o método que a máquina (p. 71). Isso valida C. A inverte a hierarquia, colocando o equipamento como determinante. B nivela os dois fatores, quando o texto dá primazia à postura — a técnica compensa limitações do equipamento. D parte de premissa falsa (padronização eliminando a técnica individual), contrariando a centralidade do método pessoal do perito."
+  },
+  {
+    "id": 1386,
+    "alternativas": {
+      "A": "os marcadores, por integrarem régua de escala, tornam dispensável a sequência de fotos de detalhe com e sem testemunho métrico.",
+      "B": "as fotos de conjunto devem ser feitas com os marcadores numerados e as de detalhe, sempre sem eles, de modo que o close não seja poluído por elementos estranhos ao vestígio.",
+      "C": "os marcadores devem ser posicionados antes da busca completa, para que a numeração acompanhe a ordem de descoberta dos vestígios.",
+      "D": "como regra geral, deve-se fotografar com e sem os marcadores, pois um marcador pode encobrir outro vestígio pequeno, como uma gota de sangue ou um estojo de munição."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os marcadores numerados são úteis (cor chamativa e régua integrada), mas um marcador pode encobrir outro vestígio pequeno (gota de sangue, estojo de munição); por isso, como regra geral, fotografa-se com e sem marcadores (p. 73). Isso valida D. A converte a régua do marcador em substituta da sequência com/sem escala, ignorando o risco de ocultação que motiva a regra. B inventa uma regra rígida por tipo de enquadramento que a disciplina não estabelece — a dupla com/sem vale como regra geral. C antecipa os marcadores para antes da busca, quando eles assinalam vestígios já localizados."
+  },
+  {
+    "id": 1387,
+    "alternativas": {
+      "A": "trata-se de ambiente não controlado e, geralmente, o registro não pode ser refeito em outro momento, exigindo acuidade e trabalho sem pressa.",
+      "B": "trata-se de ambiente de iluminação variável, cuja documentação exige o retorno da equipe em horários distintos para equalizar as condições de luz.",
+      "C": "o volume de vestígios impõe seleção rigorosa do que fotografar, pois o excesso de imagens compromete a objetividade do laudo.",
+      "D": "a cena permanece à disposição da perícia até a conclusão do inquérito, mas cada retorno exige nova autorização da autoridade competente."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Documentar locais de crime é desafiador porque são ambientes não controlados e, em regra, o registro não pode ser refeito em outro momento, exigindo trabalho com acuidade e sem pressa (p. 73). Isso valida A. B pressupõe retornos à cena para equalizar a luz, incompatível com a oportunidade única do registro. C inverte a orientação de não economizar fotos — o excesso não compromete o laudo; seleciona-se depois, na estação de trabalho. D contradiz a lógica da liberação do local: após entregue, a cena se altera e o registro não pode ser refeito."
+  },
+  {
+    "id": 1388,
+    "alternativas": {
+      "A": "fotografar os vestígios após a coleta, ainda no local, dispensando o registro prévio quando a posição já estiver anotada no croqui.",
+      "B": "restringir as fotos por posição a uma única imagem bem exposta, transferindo as repetições apenas para os vestígios principais.",
+      "C": "registrar os vestígios embalados e lacrados, o que contribui para a cadeia de custódia, e fazer no mínimo duas fotos de cada posição.",
+      "D": "usar as escalas somente nas fotos de ambiente, evitando-as nos closes, em que a régua pode desviar a atenção do vestígio."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Entre as dicas estão registrar os vestígios embalados e lacrados (o que garante a cadeia de custódia) e não economizar no número de fotos, fazendo no mínimo duas de cada posição (p. 72). Isso valida C. A suprime o registro do vestígio em sua posição original, que o croqui complementa, mas não substitui. B contraria a recomendação do mínimo de duas fotos por posição, válida para todos os vestígios. D inverte o uso das escalas, cujo lugar típico é justamente o close (com a dupla com/sem escala), não a foto de ambiente."
+  },
+  {
+    "id": 1389,
+    "alternativas": {
+      "A": "Tempestividade, prioridade à resolução do sensor, contextualização do específico para o amplo e registro complementar de memória.",
+      "B": "Adequação técnica, cobertura restrita aos vestígios essenciais, uso de marcadores em todas as fotos e edição posterior de cores.",
+      "C": "Cobertura ampla, aleatoriedade de enquadramentos para não induzir o leitor, escalas facultativas e independência da cadeia de custódia.",
+      "D": "Tempestividade, adequação técnica, contextualização em sequência lógica (do amplo para o específico) e respeito à cadeia de custódia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Entre as características técnicas desejáveis estão a tempestividade, a adequação técnica, a cobertura detalhada e ampla, a melhor técnica/iluminação/perspectiva (com escalas e marcadores), a contextualização em sequência lógica (do amplo para o específico) e o respeito à cadeia de custódia (p. 71-72). Isso valida D. A começa correta (tempestividade), mas inverte a sequência lógica e admite registro de memória. B restringe a cobertura e admite edição de cores, contrárias à fidedignidade. C torna as escalas facultativas e desvincula o registro da cadeia de custódia, negando duas exigências centrais."
+  },
+  {
+    "id": 1390,
+    "alternativas": {
+      "A": "escolher os melhores ângulos, não economizar fotos, registrar o ambiente de vários ângulos e fazer ao menos duas fotos por perspectiva, selecionando depois a mais adequada na estação de trabalho.",
+      "B": "definir uma perspectiva principal alinhada à provável dinâmica do fato e concentrar nela o registro fotográfico, evitando ângulos redundantes que dificultem a análise posterior e sobrecarreguem o dossiê do exame.",
+      "C": "registrar primeiro os vestígios em close, garantindo o detalhe antes de eventual degradação, e deixar as vistas gerais do ambiente para o fim do processamento.",
+      "D": "produzir o registro em vídeo contínuo da cena, que documenta a inter-relação dos vestígios e dispensa a sequência fotográfica formal."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A disciplina orienta o perito a ter sensibilidade para escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de todos os ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois a mais adequada, tudo para permitir concluir sobre materialidade, dinâmica e autoria (p. 73). Isso valida A. B faz o oposto: elege uma perspectiva e poda os demais ângulos, empobrecendo a documentação. C inverte a sequência de contextualização, que vai do amplo para o específico (ambiente → aproximação → close). D substitui a sequência fotográfica pelo vídeo, que é apoio complementar, não substituto."
+  }
+]

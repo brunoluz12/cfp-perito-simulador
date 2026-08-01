@@ -1,0 +1,239 @@
+=== cap02.json id1324 | correta D (238) | alongar A de 216 para >238 (+30)
+A: a necessidade legal liga-se ao preparo especializado exigido para vestígios biológicos e químicos, ao passo que a necessidade técnica traduz a exigência formal do exame de corpo de delito prevista no art. 158 do CPP.
+
+=== cap02.json id1329 | correta C (189) | alongar B de 161 para >189 (+36)
+B: O escrivão de polícia federal não comparece com muita frequência aos locais de crime, mas, quando presente, pode realizar as mesmas tarefas atribuídas ao agente.
+
+=== cap03.json id1340 | correta B (152) | alongar A de 131 para >152 (+29)
+A: Destinam-se a obter informações subjetivas sobre pessoas, coisas e fatos, buscando-se ouvir a maior quantidade possível de pessoas.
+
+=== cap03.json id1342 | correta A (181) | alongar C de 160 para >181 (+29)
+C: permitir o acesso do familiar para reconhecimento imediato da vítima, necessidade que se presume urgente, e negar o ingresso da autoridade sem formação técnica.
+
+=== cap04.json id1350 | correta A (168) | alongar B de 152 para >168 (+24)
+B: recortar o trecho com a mancha e fotografar a área restante do carpete, registro que substitui a amostra controle na eventual necessidade de comparação.
+
+=== cap04.json id1352 | correta C (183) | alongar A de 146 para >183 (+45)
+A: a liberação é ato privativo do delegado responsável pela apuração, cabendo ao chefe da equipe pericial apenas comunicar o encerramento dos exames.
+
+=== cap05.json id1358 | correta D (202) | alongar A de 145 para >202 (+65)
+A: empregar a triangulação, substituindo o segundo referencial fixo por um ponto móvel georreferenciado, registrado no início e no fim da varredura.
+
+=== cap06.json id1370 | correta D (188) | alongar B de 162 para >188 (+34)
+B: A distinção entre os ambientes reside no equipamento disponível, e não no domínio das condições: com mesa estativa em campo, o local de crime torna-se controlado.
+
+=== cap06.json id1371 | correta C (167) | alongar A de 146 para >167 (+29)
+A: o perito deve restringir o registro aos vestígios principais, compensando as limitações do ambiente com maior detalhamento da descrição narrativa.
+
+=== cap06.json id1372 | correta B (180) | alongar A de 157 para >180 (+31)
+A: a mesa estativa, caixa difusora que envolve o objeto em luz indireta; e o mini estúdio, plataforma com câmera suspensa e luminárias laterais para documentos.
+
+=== cap07.json id1373 | correta D (203) | alongar A de 163 para >203 (+48)
+A: as câmeras amadoras do tipo 'aponte e dispare' oferecem os mesmos controles manuais das profissionais, diferindo apenas pela impossibilidade de troca de objetivas.
+
+=== cap07.json id1382 | correta D (165) | alongar B de 146 para >165 (+27)
+B: no balanço de branco, a luz de baixa temperatura (≈ 2700–3000 K) é fria e azulada, e a de alta temperatura, quente e amarelada, medidas em Kelvin.
+
+=== cap08.json id1386 | correta D (165) | alongar B de 131 para >165 (+42)
+B: as fotos de conjunto devem ser feitas com os marcadores e as de detalhe, sempre sem eles, para não poluir o enquadramento do close.
+
+=== cap08.json id1390 | correta A (195) | alongar B de 165 para >195 (+38)
+B: definir uma perspectiva principal alinhada à provável dinâmica do fato e concentrar nela o registro, evitando ângulos redundantes que dificultem a análise posterior.
+
+=== cap09.json id1392 | correta C (147) | alongar D de 132 para >147 (+23)
+D: gerar hashes idênticos para cópias do arquivo em formatos diferentes, o que permite rastrear conversões JPEG-TIFF do mesmo original.
+
+=== cap09.json id1394 | correta B (163) | alongar C de 128 para >163 (+43)
+C: comprime a imagem por algoritmo sem perda (lossless), motivo pelo qual salvamentos sucessivos não afetam a qualidade do arquivo.
+
+=== cap09.json id1395 | correta D (225) | alongar A de 180 para >225 (+53)
+A: o TIFF preserva os dados brutos do sensor sem qualquer processamento, ao passo que o RAW é o formato de edição por excelência, aberto e padronizado entre as fabricantes de câmeras.
+
+=== cap09.json id1396 | correta A (176) | alongar B de 154 para >176 (+30)
+B: arquivar as imagens inseridas no laudo com os respectivos hashes e descartar as demais capturas, cuja guarda poderia fragilizar a versão oficial do exame.
+
+=== cap10.json id1398 | correta A (163) | alongar C de 131 para >163 (+40)
+C: cruzar imagens de câmeras fixas calibradas com varreduras a laser, técnica mista que gera a nuvem de pontos colorizada do ambiente.
+
+=== cap10.json id1400 | correta B (175) | alongar A de 144 para >175 (+39)
+A: emite pulsos de luz codificada e mede o tempo de retorno de cada pulso, combinando o alcance do laser com a resolução das técnicas fotográficas.
+
+=== cap10.json id1404 | correta C (202) | alongar A de 159 para >202 (+51)
+A: a etapa do processamento em que os vestígios coletados são digitalizados em laboratório, integrando o dossiê digital do exame junto com as fotografias da cena.
+
+=== cap11.json id1405 | correta B (174) | alongar A de 148 para >174 (+34)
+A: digitalizar ambientes por triangulação fotográfica assistida por laser, em que o feixe serve de referência métrica para o software de fotogrametria.
+
+=== cap11.json id1406 | correta A (172) | alongar C de 146 para >172 (+34)
+C: o estacionário destina-se a ambientes externos e o cinemático aos internos, critério que define a escolha independentemente da qualidade desejada.
+
+=== cap11.json id1407 | correta D (165) | alongar B de 129 para >165 (+44)
+B: documentar em ata os parâmetros de cada tomada (posição, altura e resolução do escâner), garantindo a reprodutibilidade do exame.
+
+=== cap11.json id1408 | correta C (200) | alongar B de 141 para >200 (+67)
+B: as áreas de sombra podem ser complementadas por interpolação de software, prática aceita por preservar a geometria geral da cena documentada.
+
+=== cap11.json id1409 | correta B (188) | alongar A de 141 para >188 (+55)
+A: a extração automática, por software, da dinâmica do evento, que passa a integrar as conclusões do laudo sem necessidade de análise do perito.
+
+=== cap11.json id1411 | correta C (176) | alongar A de 128 para >176 (+56)
+A: superfícies transparentes, como vidros, que devem ser removidas da cena antes da varredura por refletirem integralmente o feixe.
+
+=== cap11.json id1412 | correta A (205) | alongar B de 144 para >205 (+69)
+B: A fotografia permanece necessária apenas para colorir a nuvem de pontos, função que os escâneres com câmera integrada já suprem automaticamente.
+
+=== cap12.json id1413 | correta B (214) | alongar C de 166 para >214 (+56)
+C: os de asa fixa dominam o uso em segurança pública por decolarem na vertical em espaços urbanos restritos, enquanto os de asa rotativa exigem área ampla de lançamento.
+
+=== cap12.json id1417 | correta A (195) | alongar B de 161 para >195 (+42)
+B: na Classe 3 (abaixo de 25 kg), que dispensa o cadastro no SISANT, exigido apenas das Classes 1 e 2, mas impõe ao piloto habilitação específica emitida pela ANAC.
+
+=== cap12.json id1419 | correta D (190) | alongar A de 139 para >190 (+59)
+A: o voo depende de autorização prévia no SARPAS, que os órgãos de segurança pública obtêm por rito abreviado próprio das operações policiais.
+
+=== cap12.json id1422 | correta B (228) | alongar A de 152 para >228 (+84)
+A: a rota automatizada exige o upload prévio do plano de voo no sistema SARPAS, passando a ser executada sem possibilidade de intervenção do piloto remoto.
+
+=== cap13.json id1427 | correta D (239) | alongar A de 185 para >239 (+62)
+A: a transferência de materiais pressupõe contato direto entre autor e vítima, de modo que crimes cometidos a distância não geram vestígios aproveitáveis para vincular pessoas e ambientes.
+
+=== cap14.json id1429 | correta C (200) | alongar A de 166 para >200 (+42)
+A: substâncias de baixa toxicidade podem ser despejadas em pias e ralos com diluição abundante em água corrente, reservando-se a neutralização às substâncias corrosivas.
+
+=== cap14.json id1430 | correta B (188) | alongar C de 145 para >188 (+51)
+C: penetração do agente pelas mucosas dos olhos e do nariz, com efeitos sistêmicos imediatos, recomendando-se o uso de óculos e máscara de proteção.
+
+=== cap14.json id1431 | correta D (222) | alongar A de 151 para >222 (+79)
+A: aproximar-se dos recipientes abertos e abanar o ar em direção ao nariz, técnica que permitiria identificar odores característicos com exposição mínima.
+
+=== cap14.json id1432 | correta C (211) | alongar A de 142 para >211 (+77)
+A: os vapores remanescentes em recipientes vazios dissipam-se rapidamente, concentrando-se o risco de explosão nos recipientes cheios e lacrados.
+
+=== cap14.json id1437 | correta C (175) | alongar A de 150 para >175 (+33)
+A: gravar os dados no próprio recipiente com marcador resistente a solventes, evitando etiquetas, que podem descolar em contato com os produtos químicos.
+
+=== cap15.json id1439 | correta A (251) | alongar B de 207 para >251 (+52)
+B: a degradação decorre sobretudo da luz UV e dos agentes químicos; a umidade, por manter a hidratação celular, favorece a conservação, razão pela qual os vestígios úmidos são acondicionados sem secagem prévia.
+
+=== cap15.json id1442 | correta A (249) | alongar B de 201 para >249 (+56)
+B: no Kastle Meyer, a coloração que surge após alguns minutos confirma o positivo, pois a reação enzimática é progressiva; e o luminol deve preceder a coleta, para orientar quais manchas visíveis coletar.
+
+=== cap15.json id1443 | correta D (234) | alongar A de 165 para >234 (+77)
+A: a raspagem é a técnica de eleição para fluidos em qualquer suporte, por recolher também o substrato, ficando o suabe reservado a superfícies lisas e não absorventes.
+
+=== cap15.json id1444 | correta A (169) | alongar D de 148 para >169 (+29)
+D: dispensar a secagem e acondicionar o material úmido em embalagem plástica vedada, deixando que a evaporação ocorra durante o transporte refrigerado.
+
+=== cap15.json id1446 | correta B (240) | alongar D de 178 para >240 (+70)
+D: a coleta do material biológico deve ser feita por raspagem da superfície do projétil ainda no local, técnica que preserva integralmente as marcas deixadas pelo raiamento do cano.
+
+=== cap15.json id1447 | correta A (246) | alongar C de 155 para >246 (+99)
+C: coletar os dois suabes e acondicioná-los no mesmo porta-suabe, identificando as faces por anotação, de modo que ambos sigam sob a mesma cadeia de custódia.
+
+=== cap15.json id1448 | correta C (175) | alongar D de 158 para >175 (+25)
+D: o esfregaço da mucosa oral com suabe único, passado sucessivamente pelas duas bochechas e pela gengiva, maximizando a quantidade de células em uma só amostra.
+
+=== cap15.json id1449 | correta A (230) | alongar B de 189 para >230 (+49)
+B: dividem-se em ante-mortem e post-mortem, sendo o sangue total a matriz de preferência em ambos os casos, por permitir correlacionar a concentração da substância com os efeitos no organismo.
+
+=== cap16.json id1450 | correta A (175) | alongar B de 157 para >175 (+26)
+B: coletar e acondicionar primeiro os vestígios sujeitos a degradação e documentar todos ao final, com base nas posições assinaladas pelos marcadores numerados.
+
+=== cap16.json id1451 | correta B (185) | alongar D de 141 para >185 (+52)
+D: manusear com luvas e aplicar o pó revelador ainda no local antes do acondicionamento, para fixar as impressões e evitar perdas no transporte.
+
+=== cap16.json id1452 | correta C (236) | alongar B de 157 para >236 (+87)
+B: havendo mais de uma arma, todas podem ser acondicionadas em uma mesma caixa rígida, desde que a munição de cada uma siga em envelope apartado e identificado.
+
+=== cap16.json id1453 | correta A (225) | alongar B de 172 para >225 (+61)
+B: remover cuidadosamente as incrustações com escova de cerdas macias, preservando as microestriações, e acondicionar o projétil junto aos estojos em envelope de papel rígido.
+
+=== cap16.json id1455 | correta B (239) | alongar A de 152 para >239 (+95)
+A: o meio-dia oferece a melhor condição por eliminar sombras projetadas, devendo o perito apenas evitar que sua própria sombra alcance a marca fotografada.
+
+=== cap17.json id1460 | correta A (186) | alongar D de 157 para >186 (+37)
+D: a ausência de previsão legal expressa impõe que os microvestígios sejam tratados como elementos informativos, sem a cadeia de custódia exigida dos vestígios.
+
+=== cap17.json id1461 | correta B (183) | alongar C de 153 para >183 (+38)
+C: decorre da técnica necessária ao seu exame: é micro o vestígio que só pode ser analisado por microscopia, independentemente de como se apresenta na cena.
+
+=== cap17.json id1462 | correta C (164) | alongar A de 138 para >164 (+34)
+A: iluminação frontal difusa e intensa, que elimina sombras e uniformiza o campo, associada a fundos de mesma tonalidade do vestígio buscado.
+
+=== cap17.json id1463 | correta A (183) | alongar B de 165 para >183 (+26)
+B: a coleta na própria cena é preferível sempre que os microvestígios já estiverem visualmente identificados, evitando o transporte desnecessário de suportes volumosos.
+
+=== cap17.json id1464 | correta D (243) | alongar A de 152 para >243 (+99)
+A: a fita adesiva é especialmente indicada para tintas e polímeros, cuja adesão ao filme preserva a integridade da camada superficial durante o transporte.
+
+=== cap17.json id1466 | correta C (265) | alongar D de 158 para >265 (+115)
+D: o corpo deve ser acondicionado em saco novo e os invólucros descartados após a chegada ao instituto médico-legal, por já terem cumprido a função de contenção.
+
+=== cap17.json id1467 | correta A (208) | alongar B de 166 para >208 (+50)
+B: a embalagem primária é a que recebe a numeração individualizada, por estar em contato com o vestígio, cabendo à de segurança apenas a proteção mecânica no transporte.
+
+=== cap17.json id1468 | correta B (231) | alongar A de 182 para >231 (+57)
+A: os dois itens devem ser secos ao ar, sem calor nem sol, diferindo apenas no acondicionamento posterior: papel para o item comum e recipiente hermético para o de resíduos inflamáveis.
+
+=== cap17.json id1469 | correta C (241) | alongar A de 179 para >241 (+70)
+A: os eventos de separação produzem padrões reprodutíveis, razão pela qual o ajuste físico é classificado como exame de natureza indiciária, sempre dependente de confirmação química.
+
+=== cap18.json id1470 | correta B (208) | alongar A de 128 para >208 (+88)
+A: bens de sociedades de economia mista com participação da União, ainda que o fato não atinja serviço ou interesse federal direto.
+
+=== cap18.json id1471 | correta A (191) | alongar B de 163 para >191 (+36)
+B: subtrair coisa alheia móvel sem violência à pessoa, admitindo-se a modalidade culposa quando o agente, por erro sobre a titularidade, leva consigo bem de terceiro.
+
+=== cap18.json id1475 | correta A (224) | alongar B de 181 para >224 (+51)
+B: trata-se de cone de transfixação, cuja base maior indica a face de onde partiu o impacto, sendo os fragmentos projetados de volta para o lado do agressor pela elasticidade do vidro.
+
+=== cap18.json id1476 | correta B (225) | alongar D de 158 para >225 (+75)
+D: as rupturas radiais indicam impacto de baixa energia e as concêntricas, de alta energia, sendo esse o critério para estimar a força empregada no arrombamento.
+
+=== cap18.json id1477 | correta C (219) | alongar A de 166 para >219 (+61)
+A: o perito deve registrar a versão da testemunha como dinâmica provável do fato, cabendo à autoridade policial confrontá-la depois com os demais elementos do inquérito.
+
+=== cap19.json id1483 | correta B (160) | alongar D de 145 para >160 (+23)
+D: instrumento perfurante de secção poligonal, cuja penetração produz ferida com uma extremidade angular e outra romba, sem ação cortante associada.
+
+=== cap19.json id1485 | correta B (214) | alongar C de 164 para >214 (+58)
+C: o orifício de saída, por corresponder à passagem do projétil já deformado, apresenta orla de enxugo e zona de tatuagem mais evidentes que as do orifício de entrada.
+
+=== cap19.json id1486 | correta C (221) | alongar B de 172 para >221 (+57)
+B: a Câmara de Mina de Hofmann forma-se nos disparos a curta distância sobre regiões de tecido mole, em que os gases se difundem no subcutâneo sem encontrar resistência óssea.
+
+=== cap19.json id1487 | correta A (219) | alongar B de 192 para >219 (+35)
+B: instala-se entre 2 e 3 horas após o óbito e progride até se tornar definitiva, permanecendo até a completa esqueletização, o que a torna o parâmetro isolado mais confiável da cronotanatognose.
+
+=== cap19.json id1490 | correta A (263) | alongar D de 185 para >263 (+86)
+D: no enforcamento o sulco é oblíquo e ascendente; no estrangulamento não há marcas externas, por atuar o laço sobre plano profundo; e na esganadura o sulco é horizontal, de bordos iguais.
+
+=== cap20.json id1494 | correta C (247) | alongar D de 173 para >247 (+82)
+D: a papiloscopia é método primário apenas quando o corpo estiver íntegro; havendo alteração das polpas digitais, torna-se método secundário, apto somente a orientar a triagem.
+
+=== cap20.json id1495 | correta A (187) | alongar B de 149 para >187 (+46)
+B: estabelece cadeia de comando militar sobre as demais instituições presentes, cabendo à perícia atuar como órgão consultivo do comandante da operação.
+
+=== cap20.json id1496 | correta B (229) | alongar D de 158 para >229 (+79)
+D: os corpos íntegros podem ser acondicionados coletivamente por setor de recuperação, desde que cada um receba etiqueta com a numeração do respectivo quadrante.
+
+=== cap20.json id1497 | correta A (287) | alongar B de 226 para >287 (+69)
+B: recomenda-se o resfriamento entre 4 °C e 6 °C, admitido o uso de gelo comum quando indisponível a câmara fria; e os cadáveres devem ser tratados como fonte provável de epidemia, com desinfecção química prévia ao armazenamento.
+
+=== cap20.json id1498 | correta C (188) | alongar A de 158 para >188 (+38)
+A: Desenvolve-se por duas frentes: entrevistas com familiares e amigos e busca de registros documentais, como prontuários médicos e odontológicos e radiografias.
+
+=== cap20.json id1501 | correta C (213) | alongar B de 171 para >213 (+50)
+B: ambos ocorrem após a desmobilização da operação, distinguindo-se pelo alcance: o diário trata das equipes operacionais e o geral, das instâncias institucionais envolvidas.
+
+=== cap21.json id1502 | correta B (245) | alongar A de 169 para >245 (+84)
+A: a peça escrita que reúne o relato das diligências e as versões colhidas na cena, cabendo ao perito consolidá-las e submetê-las à autoridade policial para juízo de valor.
+
+=== cap21.json id1504 | correta A (189) | alongar B de 170 para >189 (+27)
+B: São obrigatórios o preâmbulo, o objeto, o histórico e a conclusão; são facultativos o objetivo, o exame e o sumário, este exigido apenas em laudos com mais de 50 páginas.
+
+=== cap21.json id1507 | correta A (206) | alongar D de 160 para >206 (+54)
+D: o art. 171 exige a indicação dos instrumentos e meios empregados, dispensando o perito de estimar a época do fato, cuja definição compete à autoridade policial.
+
+=== cap21.json id1510 | correta B (211) | alongar C de 181 para >211 (+38)
+C: a documentação das condições de isolamento deve ser feita por termo escrito assinado pelo responsável pela preservação, admitindo-se fotografias apenas como complemento facultativo.

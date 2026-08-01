@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1494,
+    "alternativas": {
+      "A": "o corpo com papiloscopia positiva depende de confirmação por ao menos um segundo método primário, pois a identificação em DVI exige dupla convergência técnica.",
+      "B": "o reconhecimento visual por familiar, por partir de quem conviveu com a vítima, equivale a método primário quando registrado em termo e acompanhado de fotografia.",
+      "C": "o resultado papiloscópico positivo basta para identificar o corpo, pois papiloscopia, exame odontológico e DNA são métodos primários sem hierarquia entre si; já o reconhecimento visual não é procedimento de identificação e é contraindicado em DVI.",
+      "D": "a papiloscopia é considerada método primário apenas quando o corpo estiver íntegro; havendo qualquer alteração das polpas digitais por trauma ou decomposição, ela é rebaixada a método secundário, apto somente a orientar a triagem inicial dos corpos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os métodos primários (papiloscopia, exame odontológico e DNA) não têm hierarquia entre si, bastando o resultado positivo de apenas um para que o corpo seja considerado identificado; o reconhecimento visual não é considerado procedimento de identificação e é contraindicado em cenário DVI (p. 184). Isso valida C. A exige dupla convergência que a disciplina não impõe. B eleva o reconhecimento visual a método primário, quando ele sequer é procedimento de identificação. D condiciona a natureza do método à integridade do corpo, criando uma degradação de categoria inexistente."
+  },
+  {
+    "id": 1495,
+    "alternativas": {
+      "A": "integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças.",
+      "B": "estabelece uma cadeia de comando militar sobre as demais instituições presentes no cenário do desastre, cabendo à perícia atuar apenas como órgão consultivo do comandante da operação.",
+      "C": "define o fluxo de processamento dos corpos no necrotério, organizando as estações de exame das etapas post mortem e ante mortem.",
+      "D": "constitui protocolo de comunicação social do desastre, padronizando as informações divulgadas à imprensa e às famílias das vítimas."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O SCI é um modelo padronizado de gestão que integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças (p. 180-181). Isso valida A. B transforma o modelo em subordinação militar, negando sua natureza interinstitucional e flexível. C o confunde com o fluxo de necrotério. D o reduz a protocolo de comunicação social, uma parte pequena diante da gestão integrada da resposta."
+  },
+  {
+    "id": 1496,
+    "alternativas": {
+      "A": "os fragmentos reconhecidamente pertencentes a um mesmo corpo devem ser reunidos ainda no local, o que reduz a duplicidade de registros na etapa post mortem.",
+      "B": "os fragmentos devem ser considerados corpos independentes e armazenados separadamente, sem tentativa de correlacionar fragmentos ou vestígios não vinculados ainda no local; preenche-se o Formulário de Recuperação de Corpos (FRC).",
+      "C": "os vestígios encontrados junto ao corpo devem ser destacados e encaminhados em embalagem própria, para que sua análise não dependa do exame do cadáver.",
+      "D": "os corpos que se apresentem íntegros podem ser acondicionados coletivamente por setor de recuperação da área do desastre, desde que cada um deles receba etiqueta própria com a numeração do respectivo quadrante de origem."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os fragmentos devem ser considerados corpos independentes e armazenados separadamente, não se devendo tentar correlacionar fragmentos ou vestígios não vinculados ainda no local; o FRC documenta cada corpo e suas circunstâncias (p. 181-182). Isso valida B. A antecipa ao local uma correlação que cabe às etapas seguintes, com risco de erro de vinculação. C desvincula vestígios do corpo, contrariando a regra de mantê-los vinculados (salvo risco de perda). D acondiciona corpos coletivamente, quando cada um deve ir em saco individual."
+  },
+  {
+    "id": 1497,
+    "alternativas": {
+      "A": "recomenda-se o resfriamento entre 4 °C e 6 °C (congelamento apenas em armazenamento prolongado), sendo o gelo comum contraindicado; e, em regra, cadáveres de desastres NÃO representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias.",
+      "B": "recomenda-se o resfriamento entre 4 °C e 6 °C, admitido o uso de gelo comum sempre que indisponível a câmara fria; e os cadáveres recuperados devem ser tratados como fonte provável de epidemia, exigindo desinfecção química prévia ao armazenamento e ao exame post mortem.",
+      "C": "recomenda-se o congelamento imediato de todos os corpos recuperados, medida que interrompe a decomposição e viabiliza a coleta de material genético a qualquer tempo.",
+      "D": "recomenda-se o resfriamento entre 4 °C e 6 °C e o fluxo de necrotério em que o corpo é retirado do armazenamento tantas vezes quantas forem as estações de exame previstas no protocolo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Recomenda-se o resfriamento entre 4 °C e 6 °C, com congelamento apenas em armazenamento prolongado, sendo o gelo comum contraindicado (danifica corpos e pertences); em regra, cadáveres de desastres não representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias (p. 183). Isso valida A. B admite gelo comum e presume risco epidêmico, duas inversões. C generaliza o congelamento imediato, reservado ao armazenamento prolongado. D contraria o fluxo sequencial de necrotério, em que o corpo é retirado do armazenamento uma única vez."
+  },
+  {
+    "id": 1498,
+    "enunciado": "Sobre a etapa ante mortem (AM) do processo DVI, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Desenvolve-se por duas frentes de trabalho: as entrevistas com familiares e amigos dos desaparecidos e a busca de registros documentais, como prontuários médicos e odontológicos e radiografias anteriores.",
+      "B": "Compreende a obtenção de impressões papiloscópicas e de materiais biológicos de referência ligados à pessoa desaparecida.",
+      "C": "Por depender de dados sob jurisdição estrangeira, as informações de vítimas de outros países são obtidas diretamente pelas equipes em campo, sem intermediação de organismos internacionais.",
+      "D": "A construção da lista de vítimas é atividade central da etapa, conduzida com abordagem humanizada no contato com os familiares."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C é a incorreta: a coleta e o intercâmbio de dados de vítimas estrangeiras se dão por cooperação internacional, com apoio da INTERPOL — e não diretamente pelas equipes em campo (p. 183-184). As demais são verdadeiras: a etapa AM opera por entrevistas e busca documental (A); reúne impressões papiloscópicas e material biológico de referência (B); e tem na lista de vítimas atividade central, com abordagem humanizada (D)."
+  },
+  {
+    "id": 1499,
+    "alternativas": {
+      "A": "não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI.",
+      "B": "é admitido como método complementar de identificação quando convergente com dados ante mortem, como vestuário e objetos pessoais reconhecidos pela família.",
+      "C": "é considerado método secundário de identificação, apto a confirmar resultado de método primário inconclusivo.",
+      "D": "é válido apenas nos desastres fechados, em que a lista nominal prévia reduz o universo de vítimas possíveis e torna o reconhecimento confiável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O reconhecimento visual por familiares ou testemunhas não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI (p. 184). Isso valida A. B o admite como complemento a partir de vestuário e objetos, exatamente o tipo de associação que produz erros de identificação em desastres. C o classifica como método secundário, quando ele sequer é procedimento de identificação. D condiciona sua validade ao desastre fechado, distinção que a disciplina não faz."
+  },
+  {
+    "id": 1501,
+    "alternativas": {
+      "A": "o debriefing diário é conduzido por profissional externo e imparcial, e o geral, pelo Comandante de DVI, que reúne as equipes ao término de cada jornada de trabalho.",
+      "B": "ambos ocorrem somente após a desmobilização da operação, distinguindo-se apenas pelo alcance: o diário trata do desempenho das equipes operacionais e o geral, das instâncias institucionais envolvidas na resposta.",
+      "C": "o debriefing diário analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; o geral ocorre após a desmobilização, abrangendo questões operacionais e institucionais mais amplas.",
+      "D": "o debriefing diário registra as ocorrências para o relatório final, e o geral se destina exclusivamente ao suporte psicológico das equipes expostas ao cenário do desastre."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recomendam-se dois debriefings: o diário, que analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; e o geral, após a desmobilização, abrangendo questões operacionais e institucionais mais amplas, recomendando-se neste a condução por profissional qualificado e imparcial (p. 185-186). Isso valida C. A troca os condutores de cada debriefing. B situa os dois após a desmobilização, quando o diário ocorre durante as operações. D reduz o debriefing geral a suporte psicológico, ignorando sua função de revisão operacional e institucional."
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1502,
+    "alternativas": {
+      "A": "a peça escrita que reúne o relato das diligências realizadas e as versões colhidas junto às pessoas presentes na cena, cabendo ao perito consolidá-las em documento único e submetê-las à autoridade policial para o devido juízo de valor.",
+      "B": "a peça escrita que representa o relatório dos exames, em que os peritos expõem o roteiro dos trabalhos, descrevem técnicas e métodos, consignam o que observam, concluem e, nos exames de local, propõem a dinâmica dos fatos com base nos vestígios.",
+      "C": "a peça escrita destinada a documentar a cadeia de custódia dos vestígios coletados, da cena ao laboratório, sem juízo conclusivo sobre a dinâmica do evento.",
+      "D": "a peça escrita que descreve objetivamente o que foi observado na cena, vedado ao perito propor hipóteses sobre a dinâmica, matéria reservada à autoridade judiciária."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O laudo pericial é a peça escrita que representa o relatório dos exames, na qual os peritos expõem o roteiro dos trabalhos, descrevem as técnicas e métodos científicos, consignam o que observam, emitem a conclusão e, nos exames de local, propõem a dinâmica dos fatos com base nos vestígios (p. 187). Isso valida B. A converte o laudo em consolidação de versões subjetivas, quando o perito conclui a partir dos vestígios. C o reduz a documento de cadeia de custódia, suprimindo a conclusão. D veda ao perito propor a dinâmica, que é justamente uma de suas atribuições no exame de local."
+  },
+  {
+    "id": 1504,
+    "alternativas": {
+      "A": "São obrigatórios o preâmbulo, o objeto, o objetivo, o exame e a conclusão; são facultativos o resumo, o sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e o histórico.",
+      "B": "São obrigatórios o preâmbulo, o objeto, o histórico e a conclusão; são facultativos o objetivo, o exame e o sumário, este último exigido apenas nos laudos com mais de 50 páginas.",
+      "C": "São obrigatórios todos os tópicos nos laudos de local de crime, dada sua complexidade, reservando-se a faculdade de supressão aos laudos de outras áreas periciais.",
+      "D": "São obrigatórios o preâmbulo, o objeto, o objetivo e o exame, sendo a conclusão facultativa quando os vestígios não permitirem juízo categórico sobre a dinâmica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelo art. 24 da Portaria DITEC/PF nº 1.192/2022, são obrigatórios o preâmbulo, o objeto, o objetivo, o exame e a conclusão; e facultativos o resumo, o sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e o histórico (p. 189). Isso valida A. B torna o histórico obrigatório e rebaixa objetivo e exame a facultativos, além de errar o limite de páginas do sumário. C nega a existência de tópicos facultativos nos laudos de local. D é a pegadinha mais fina: a conclusão é sempre obrigatória — quando faltam elementos, registra-se de forma fundamentada a impossibilidade de conclusão categórica, e não se suprime o tópico."
+  },
+  {
+    "id": 1507,
+    "alternativas": {
+      "A": "o art. 171 trata dos crimes com destruição/rompimento de obstáculo ou por escalada (indicar instrumentos, meios e época) e o art. 173, do incêndio (causa, local de início, perigo, extensão e valor do dano).",
+      "B": "o art. 171 trata do incêndio, exigindo a apuração da causa e do valor do dano, e o art. 173, dos crimes cometidos com rompimento de obstáculo ou escalada.",
+      "C": "ambos tratam do rompimento de obstáculo, diferenciando-se apenas quanto ao momento do exame: o art. 171 na cena e o art. 173 em complementação laboratorial.",
+      "D": "o art. 171 exige apenas a indicação dos instrumentos e dos meios empregados na prática do crime, dispensando o perito de estimar a época do fato, cuja definição compete à autoridade policial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 171 do CPP trata dos crimes cometidos com destruição/rompimento de obstáculo ou por escalada, exigindo que os peritos indiquem com que instrumentos, por que meios e em que época presumem ter sido o fato praticado; o art. 173 trata do incêndio (causa, local de início, perigo, extensão e valor do dano) (p. 194). Isso valida A. B inverte os dois dispositivos. C atribui o mesmo objeto aos dois artigos e inventa distinção por momento do exame. D suprime a indicação da época, expressamente exigida pelo art. 171."
+  },
+  {
+    "id": 1508,
+    "alternativas": {
+      "A": "a numeração dos laudos é sequencial, comum a todas as áreas e unidades de criminalística, e reinicia no primeiro dia de cada ano.",
+      "B": "a numeração dos laudos é sequencial dentro de cada área de perícia, o que permite identificar a especialidade pelo próprio número da peça, sem reinício anual.",
+      "C": "a numeração é atribuída pela unidade requisitante no momento da requisição do exame, acompanhando o número do inquérito policial correspondente.",
+      "D": "por integrar tópico facultativo, o preâmbulo pode ser suprimido nos laudos simples, hipótese em que a identificação do exame consta apenas da conclusão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A numeração dos laudos é sequencial, comum a todas as áreas de perícia e a todas as unidades de criminalística, e se reinicia no primeiro dia de cada ano (p. 189-190). Isso valida A. B fragmenta a numeração por área e elimina o reinício anual, dois erros. C vincula a numeração ao inquérito e à unidade requisitante, quando ela é própria do sistema de criminalística. D classifica o preâmbulo como facultativo, quando ele é tópico obrigatório do laudo."
+  },
+  {
+    "id": 1509,
+    "alternativas": {
+      "A": "deve ser clara e objetiva, admitindo-se conclusão parcial (excluindo hipóteses) e, quando faltarem elementos, o registro fundamentado da impossibilidade de conclusão categórica.",
+      "B": "deve ser categórica quanto à dinâmica dos fatos, ainda que os vestígios sejam escassos, cabendo ao perito eleger a hipótese mais provável entre as compatíveis com a cena.",
+      "C": "deve reproduzir de forma condensada toda a seção de exames, de modo que o leitor possa conferir cada achado sem consultar o corpo do laudo.",
+      "D": "deve remeter às fotografias e ao croqui, que já expressam o resultado dos exames, dispensando texto conclusivo quando a documentação for suficientemente ilustrativa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A conclusão deve ser clara e objetiva; quando os peritos não reúnem elementos suficientes, deve constar a impossibilidade de conclusão categórica e seus motivos, sendo também admissível a conclusão parcial, que exclui hipóteses e delimita o trabalho da investigação (p. 194-195). Isso valida A. B força juízo categórico sobre vestígios escassos, escolhendo a hipótese 'mais provável' — exatamente o que a conclusão fundamentada de impossibilidade evita. C converte a conclusão em resumo dos exames, perdendo sua função sintética. D dispensa o texto conclusivo, esvaziando um tópico obrigatório."
+  },
+  {
+    "id": 1510,
+    "alternativas": {
+      "A": "as alterações do estado das coisas devem ser relatadas, dispensada a discussão de suas consequências, matéria reservada à conclusão e ao juízo da autoridade.",
+      "B": "o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, documentando as condições de isolamento e preservação por fotografias e/ou filmagens.",
+      "C": "a documentação das condições de isolamento deve ser feita por termo escrito assinado pelo agente responsável pela preservação da área, admitindo-se as fotografias e filmagens apenas como complemento facultativo do registro.",
+      "D": "compete ao delegado registrar as condições de isolamento e preservação, cabendo ao perito reproduzir esse registro no histórico do laudo, sem análise própria."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 11 da Instrução Técnica DITEC/DPF nº 20/2013 dispõe que o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, e que as condições de isolamento e preservação devem ser documentadas por fotografias e/ou filmagens (p. 190). Isso valida B. A suprime justamente a discussão das consequências, que a norma exige (em linha com o art. 169 do CPP). C substitui o registro por imagem por termo escrito e rebaixa as fotografias a complemento. D transfere ao delegado uma tarefa que a norma atribui ao perito."
+  },
+  {
+    "id": 1511,
+    "alternativas": {
+      "A": "os instrumentos empregados para a prática da infração serão sujeitos a exame, a fim de se lhes verificar a natureza e a eficiência.",
+      "B": "os instrumentos empregados serão examinados quanto à natureza, dispensando-se a verificação de eficiência quando a materialidade do crime já estiver comprovada por outros vestígios.",
+      "C": "o exame dos instrumentos é obrigatório apenas quando houver dúvida sobre a autoria, hipótese em que se verifica também a existência de vestígios de uso recente.",
+      "D": "os instrumentos apreendidos devem ser periciados no prazo de 48 horas, sob pena de perda de eficácia probatória do exame realizado posteriormente."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 175 do CPP dispõe que serão sujeitos a exame os instrumentos empregados para a prática da infração, a fim de se lhes verificar a natureza E a eficiência; na seção de vestígios/exames, atenção especial é dada à caracterização do instrumento ou meio empregado (p. 192-193). Isso valida A. B dispensa a verificação de eficiência, que o dispositivo exige ao lado da natureza. C condiciona o exame à dúvida sobre a autoria, restrição que a norma não faz. D inventa prazo de 48 horas e sanção de perda de eficácia probatória, inexistentes."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1324,
+    "alternativas": {
+      "A": "a necessidade legal liga-se ao preparo especializado exigido para o trato de vestígios biológicos e químicos, ao passo que a necessidade técnica traduz a exigência formal do exame de corpo de delito prevista no art. 158 do CPP, cuja inobservância acarreta a nulidade da prova produzida na cena.",
+      "B": "a necessidade técnica é suprida quando o vestígio chega íntegro ao laboratório com documentação fotográfica do ponto de coleta, pois a contextualização pode ser reconstituída a partir das imagens pelo perito relator.",
+      "C": "a necessidade técnica manifesta-se somente na fase laboratorial, pois, na cena, a atuação do perito se justifica pela necessidade legal, sendo indiferente quem realize a coleta, desde que devidamente treinado.",
+      "D": "a necessidade técnica liga-se ao preparo para o trato de certos vestígios e à sua contextualização na cena — o vestígio coletado pelo próprio perito no local fornece mais informação do que o mesmo vestígio apenas encaminhado para análise."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A necessidade técnica está ligada ao preparo para o trato de certos vestígios (biológicos, químicos etc.) e ao estabelecimento da dinâmica dos fatos e contextualização dos vestígios: 'um vestígio encontrado e coletado no local fornece muito mais informação ao perito do que o mesmo vestígio coletado por outro policial e apenas encaminhado para análise' (p. 19), o que valida D. A inverte os conceitos: a exigência do art. 158 é a necessidade legal, e o preparo especializado, a técnica. B contraria o texto ao supor que a fotografia reconstitui a contextualização — o ganho informacional está na presença do perito na cena. C nega justamente a dimensão de cena da necessidade técnica, que se manifesta na coleta e na leitura do local, não apenas no laboratório."
+  },
+  {
+    "id": 1327,
+    "alternativas": {
+      "A": "Reavaliar o isolamento, buscar e coletar vestígios, realizar os levantamentos fotográfico e descritivo e os croquis e elaborar o laudo de exame do local.",
+      "B": "Reavaliar o isolamento, colher os depoimentos das testemunhas localizadas na cena, coletar os vestígios e lavrar o auto circunstanciado de exame do local.",
+      "C": "Receber o local ao término dos trabalhos, realizar os levantamentos fotográfico e descritivo e requisitar as diligências complementares de investigação.",
+      "D": "Realizar a busca de vestígios, os levantamentos fotográfico e descritivo e o confronto papiloscópico dos fragmentos levantados na cena do crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O processamento do local pelo perito consiste em reavaliar o isolamento, proceder à busca por vestígios e coletá-los adequadamente, fazer os levantamentos fotográfico e descritivo e os croquis, encaminhar vestígios para análises e elaborar o laudo de exame do local (p. 20), o que valida A. B inclui a colheita de depoimentos (tarefa do delegado e dos agentes) e troca o laudo por 'auto circunstanciado', documento estranho ao processamento pericial. C atribui ao perito o recebimento do local (que cabe ao delegado) e a requisição de diligências investigativas. D insere o confronto papiloscópico, atribuição do papiloscopista, e omite croquis e laudo."
+  },
+  {
+    "id": 1328,
+    "alternativas": {
+      "A": "está incorreta, pois a coleta de impressões digitais no local deveria ser feita pelo perito criminal, reservando-se ao papiloscopista o confronto das amostras em laboratório.",
+      "B": "está incorreta, porque a localização de testemunhas e as entrevistas competem ao escrivão de polícia, cabendo aos agentes somente a manutenção do cordão de isolamento.",
+      "C": "está parcialmente correta: a divisão vale para a fase inicial, mas os croquis e o registro fotográfico devem ser assumidos pelo delegado ao final do processamento.",
+      "D": "está correta e reflete o trabalho em equipe descrito na disciplina, com cada integrante em seu papel e o levantamento papiloscópico coordenado com o processamento pericial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A disciplina descreve exatamente essa divisão: agentes na preservação e na localização de testemunhas; perito no processamento (busca, fotografia, croqui, laudo); papiloscopista na coleta de impressões digitais coordenada com a perícia; e delegado na condução da investigação e entrevistas (p. 20-21). Isso valida D. A contraria a IN 188/2020, que atribui aos papiloscopistas a coleta e o levantamento de fragmentos papiloscópicos nos locais. B desloca para o escrivão tarefas que o texto atribui aos agentes e ao delegado. C inventa transferência de tarefas técnicas ao delegado, que não executa croquis nem registro fotográfico."
+  },
+  {
+    "id": 1329,
+    "enunciado": "Sobre a composição e a divisão de tarefas da equipe policial nos locais de crime, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "O delegado de polícia federal é o responsável legal pelo isolamento e pela preservação do local, cabendo-lhe ainda recebê-lo de volta ao final das análises.",
+      "B": "O escrivão de polícia federal não comparece com muita frequência aos locais de crime, mas, quando presente, pode realizar as mesmas tarefas atribuídas ao agente de polícia federal, entre elas a manutenção do isolamento e o apoio às entrevistas.",
+      "C": "Os levantamentos papiloscópicos, por exigirem conhecimento técnico próprio, são executados pelos papiloscopistas de forma autônoma, sem vinculação com o andamento do processamento pericial.",
+      "D": "Os agentes de polícia federal atuam na manutenção do isolamento do local e na localização de testemunhas para as entrevistas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C é a incorreta: a IN nº 188-DG/PF/2020 determina que a coleta e o levantamento de fragmentos papiloscópicos nos locais de crime sejam realizados 'de forma coordenada com a equipe pericial' (p. 20-21) — não de forma autônoma e desvinculada do processamento. As demais são verdadeiras: o delegado é o responsável legal pelo isolamento e preservação (art. 6º do CPP) e recebe o local ao final (A); o escrivão, apesar de pouco frequente, pode executar as tarefas do agente quando presente (B); e os agentes mantêm o isolamento e localizam testemunhas (D)."
+  },
+  {
+    "id": 1330,
+    "alternativas": {
+      "A": "iniciar de imediato o levantamento, pois as impressões papilares são vestígios frágeis e sua coleta precoce previne a degradação causada pela movimentação da equipe.",
+      "B": "coordenar o levantamento com o restante dos trabalhos, realizando-o na etapa de coleta de vestígios, sem atropelar as demais fases do processamento da cena.",
+      "C": "realizar primeiro o registro fotográfico da superfície por conta própria e, na sequência, proceder ao levantamento, comunicando o perito apenas ao final dos trabalhos.",
+      "D": "suspender o levantamento e transferi-lo ao perito criminal, uma vez que a atuação do papiloscopista na cena dependeria de delegação expressa da autoridade policial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A disciplina determina que o levantamento de impressões digitais seja feito na etapa de coleta de vestígios e de forma coordenada com o restante dos trabalhos, cabendo ao perito cuidar para que nenhuma etapa do processamento seja atropelada, buscando segurança na análise global da cena (p. 21). Isso valida B. A usa argumento plausível (fragilidade do vestígio) para justificar o atropelo das etapas, exatamente o que a coordenação evita. C fragmenta o processamento: o registro fotográfico integra o levantamento conduzido pelo perito, e a comunicação apenas ao final rompe a coordenação exigida. D nega a atribuição de coleta no local conferida ao papiloscopista pela IN 188/2020, que não depende de delegação do delegado."
+  },
+  {
+    "id": 1331,
+    "alternativas": {
+      "A": "é o relatório de exame de local, peça de natureza investigativa subscrita pelo delegado de polícia com base nas informações reunidas pela equipe.",
+      "B": "é o auto de constatação, lavrado pelo primeiro policial que adentra a cena e posteriormente ratificado pelo perito criminal responsável.",
+      "C": "é o laudo pericial, elaborado por peritos criminais federais lotados no Instituto Nacional de Criminalística (INC) ou em unidades descentralizadas.",
+      "D": "é a informação técnica, documento simplificado que dispensa a estrutura formal de laudo quando o exame não decorre de requisição judicial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto indica que o resultado dos exames é consignado em laudo pericial, elaborado por peritos criminais federais lotados no Instituto Nacional de Criminalística (INC) ou nas unidades descentralizadas (p. 19-20), o que valida C. A atribui o documento ao delegado e lhe dá natureza investigativa, quando se trata de peça técnica de autoria do perito. B descreve documento inexistente nesse contexto: não há 'auto de constatação' lavrado por policial e ratificado pelo perito. D inventa a figura da 'informação técnica' como substituta do laudo — o resultado do exame de local é sempre consignado em laudo pericial."
+  },
+  {
+    "id": 1332,
+    "alternativas": {
+      "A": "inadequada, porque há necessidade legal (exame de corpo de delito realizado por perito) e necessidade técnica (preparo e contextualização desses vestígios), devendo a coleta ser feita pelo perito.",
+      "B": "adequada, pois a integridade do material prevalece: quanto antes acondicionado, menor o risco de degradação, cabendo ao perito apenas ratificar a coleta no laudo de exame do local.",
+      "C": "adequada, desde que o agente fotografe o material na posição original e lavre termo de coleta, providências que suprem a exigência do exame pericial no local.",
+      "D": "inadequada somente sob o ângulo técnico, pois a necessidade legal se satisfaz com a posterior submissão do material a exame laboratorial firmado por perito oficial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A coleta por não peritos não é a mais adequada: há necessidade legal de que a coleta se dê por meio de exame de corpo de delito (exame pericial) e necessidade técnica decorrente do preparo para o trato de vestígios biológicos, químicos e outros, além da contextualização do vestígio no local (p. 17, 19). Isso valida A. B subordina a coleta à celeridade e rebaixa o perito a mero ratificador, suprimindo a contextualização. C supõe que fotografia e termo de coleta substituem o exame pericial da cena, o que as necessidades legal e técnica não admitem. D fraciona o problema: o exame laboratorial posterior não supre a necessidade legal do exame de corpo de delito no local, nem a técnica."
+  }
+]

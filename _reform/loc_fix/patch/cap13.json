@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1424,
+    "alternativas": {
+      "A": "todo objeto ou material bruto, visível ou latente, desde que recolhido e submetido à cadeia de custódia pela perícia oficial.",
+      "B": "todo objeto ou material, bruto ou processado, cuja relação com a infração penal tenha sido confirmada por exame pericial.",
+      "C": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.",
+      "D": "todo elemento material ou informacional, inclusive registros digitais e relatos, apto a demonstrar a ocorrência da infração penal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O art. 158-A, § 3º, do CPP define vestígio como 'todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal' (p. 91). Isso valida C. A restringe o conceito ao material já recolhido, quando a lei inclui o apenas CONSTATADO. B exige confirmação pericial da relação com o crime, requisito que a definição não contém — basta relacionar-se à infração. D amplia o conceito para relatos e elementos informacionais, quando vestígio é objeto ou material bruto, de natureza material."
+  },
+  {
+    "id": 1425,
+    "alternativas": {
+      "A": "o vestígio visível é o percebido pelo primeiro policial na cena, e o latente, o identificado apenas na etapa laboratorial do exame.",
+      "B": "o vestígio pode ser tanto material prontamente perceptível (visível) quanto material não prontamente perceptível (latente).",
+      "C": "a latência é atributo transitório: o vestígio latente que venha a ser revelado por reagente converte-se, para fins legais, em vestígio visível.",
+      "D": "o vestígio visível corresponde ao já constatado pela perícia, e o latente, àquele cuja existência é presumida pela dinâmica dos fatos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A definição evidencia que o vestígio pode se apresentar de diferentes formas, incluindo materiais visíveis e aqueles que não são prontamente perceptíveis (latentes) (p. 91). Isso valida B. A vincula a distinção a quem percebe e a onde se percebe, quando o critério é a perceptibilidade pronta do material em si. C inventa conversão jurídica de categoria por revelação com reagente, construção estranha à definição legal. D mistura visível/latente com constatado/recolhido — e o latente não é presunção: é material existente, apenas não prontamente perceptível."
+  },
+  {
+    "id": 1427,
+    "alternativas": {
+      "A": "a transferência de materiais pressupõe o contato físico direto entre autor e vítima, de modo que os crimes cometidos a distância não geram vestígios aproveitáveis para vincular pessoas, objetos e ambientes entre si no curso da apuração.",
+      "B": "as transferências imperceptíveis, por não serem passíveis de constatação na cena, ingressam na investigação como presunções, e não como vestígios em sentido legal.",
+      "C": "os vínculos entre pessoas, objetos e ambientes dependem da convergência entre vestígios e prova testemunhal, sem a qual a transferência de materiais nada demonstra.",
+      "D": "toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, e a adequada identificação, coleta e preservação desses vestígios ajuda a reconstruir a dinâmica e a vincular pessoas, objetos e ambientes."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pelo Princípio da Troca de Locard, toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, base para a formação dos vestígios; a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes (p. 91-92). Isso valida D. A restringe o princípio ao contato corpo a corpo, quando a troca se dá também com objetos e superfícies do ambiente. B confunde imperceptível com inexistente: o material transferido é vestígio latente, não presunção. C subordina o valor dos vestígios à prova testemunhal, invertendo a centralidade da fonte objetiva."
+  }
+]

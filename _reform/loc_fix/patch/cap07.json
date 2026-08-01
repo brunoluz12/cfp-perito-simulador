@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1373,
+    "alternativas": {
+      "A": "as câmeras amadoras do tipo 'aponte e dispare' oferecem os mesmos controles manuais de foco, abertura e velocidade das profissionais, diferindo delas apenas pela impossibilidade de troca das objetivas.",
+      "B": "as DSLR dispensam o espelho reflexivo, formando a imagem diretamente no visor eletrônico, ao passo que as mirrorless empregam o conjunto espelho-pentaprisma.",
+      "C": "os smartphones atuais, por regularem abertura e obturador por software, equiparam-se às câmeras profissionais para qualquer registro pericial de local.",
+      "D": "as câmeras profissionais têm objetivas intercambiáveis e permitem regular foco, abertura, velocidade do obturador e sensibilidade; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As câmeras profissionais têm objetivas intercambiáveis e permitem regular foco, abertura do diafragma, velocidade do obturador e sensibilidade do sensor; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho (p. 55-56). Isso valida D. A é falsa porque as amadoras 'aponte e dispare' não oferecem os controles manuais das profissionais — a diferença não se resume à objetiva. B troca DSLR e mirrorless entre si. C contraria o alerta da disciplina de que é erro supor que os smartphones substituem totalmente as câmeras profissionais."
+  },
+  {
+    "id": 1376,
+    "alternativas": {
+      "A": "o CMOS é o mais utilizado (em smartphones e câmeras profissionais), enquanto o CCD, mais sofisticado, oferece excelente controle de ruído, comum em aplicações científicas.",
+      "B": "o CCD é o mais utilizado em smartphones e câmeras profissionais, por sua velocidade e eficiência energética, ficando o CMOS restrito a aplicações científicas.",
+      "C": "o sCMOS combina a velocidade do CCD com o baixo custo do CMOS, sendo por isso o sensor padrão das câmeras periciais de entrada.",
+      "D": "entre dois sensores de mesma tecnologia, a qualidade final da imagem é definida pela resolução em megapixels, único parâmetro relevante na escolha."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O CMOS é o sensor mais utilizado (smartphones e profissionais), rápido e eficiente; o CCD, mais sofisticado, tem excelente controle de ruído e é comum em aplicações científicas/de alta precisão (p. 58-59). Isso valida A. B inverte os papéis dos dois sensores. C distorce o sCMOS — que combina alta velocidade com BAIXO RUÍDO, tecnologia sofisticada, e não sensor barato de entrada. D contraria a ressalva do texto de que não é só a resolução que define a qualidade: o tipo e as características do sensor também importam."
+  },
+  {
+    "id": 1377,
+    "alternativas": {
+      "A": "um número f menor, como f/1.4 ou f/2.8, pois a maior entrada de luz permite ao sensor registrar com nitidez os planos próximos e distantes.",
+      "B": "uma velocidade de obturador mais lenta, compensada por ISO baixo, já que o tempo de exposição é o parâmetro que define a extensão da zona nítida.",
+      "C": "um número f maior, como f/16 ou f/22, pois, sendo a relação inversa, número f maior significa abertura menor e maior profundidade de campo.",
+      "D": "o número f intermediário indicado pelo fotômetro, pois a profundidade de campo máxima coincide com a exposição corretamente medida."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Há relação inversa entre o número f e a abertura: quanto maior o número f (ex.: f/16, f/22), menor a abertura do diafragma e maior a profundidade de campo (região nítida antes e após o foco) (p. 62-63). Isso valida C. A usa raciocínio sedutor, mas invertido: números f menores são aberturas grandes, que REDUZEM a profundidade de campo. B atribui a profundidade de campo ao obturador, que controla tempo/movimento, não a zona nítida. D vincula profundidade de campo à exposição medida pelo fotômetro, parâmetros independentes."
+  },
+  {
+    "id": 1378,
+    "enunciado": "A respeito da sensibilidade do sensor (ISO), assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Valores baixos de sensibilidade, na faixa de ISO 100–200, são os ideais para fotografar em ambientes claros e bem iluminados.",
+      "B": "O aumento do ISO amplia a quantidade de luz que atinge o sensor, com efeito equivalente ao de uma abertura maior do diafragma.",
+      "C": "Valores elevados, na faixa de ISO 1600–3200, são os indicados para registrar cenas em situações de pouca luminosidade.",
+      "D": "Valores muito elevados tendem a gerar ruído, na forma de pequenos grãos ou pontos coloridos na imagem."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B é a incorreta: o ISO regula a SENSIBILIDADE do sensor à luz que já chega até ele — quem controla a quantidade de luz é o diafragma (intensidade) e o obturador (tempo); aumentar o ISO não amplia a luz captada, apenas amplifica o sinal, por isso gera ruído em valores altos. As demais são verdadeiras (p. 59-60): ISO baixo (100–200) para ambientes claros (A); ISO elevado (1600–3200) para pouca luz (C); e valores muito altos tendem a gerar ruído na imagem (D)."
+  },
+  {
+    "id": 1379,
+    "alternativas": {
+      "A": "P (multiprograma automático), em que a câmera propõe pares de abertura e velocidade, cabendo ao fotógrafo apenas confirmar a combinação sugerida.",
+      "B": "A (prioridade da abertura), em que o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente.",
+      "C": "S (prioridade do obturador), em que o fotógrafo define a velocidade e a câmera ajusta a abertura, controlando indiretamente a profundidade de campo.",
+      "D": "M (manual), em que o fotógrafo define a abertura desejada e transfere ao fotômetro interno o cálculo e o ajuste automático do tempo de exposição."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No modo A (prioridade da abertura), o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente, sendo indicado justamente para controlar a profundidade de campo (p. 67-68). Isso valida B. A (modo P) não dá controle direto sobre a abertura escolhida. C inverte a lógica: no modo S quem controla é a velocidade — o 'controle indireto' da abertura não atende quem quer definir a profundidade de campo. D descreve um modo M que se comporta como o modo A: no manual, o fotógrafo define os DOIS parâmetros, sem ajuste automático do tempo."
+  },
+  {
+    "id": 1380,
+    "alternativas": {
+      "A": "A objetiva normal (cerca de 50 mm), que reproduz a perspectiva do olho humano, mas exige maior distância do objeto para ampliar o campo registrado.",
+      "B": "A grande-angular (abaixo de 35 mm), que capta campo amplo mantendo fidelidade geométrica uniforme do centro às bordas da imagem.",
+      "C": "A teleobjetiva moderada (70–105 mm), que comprime a perspectiva e permite registrar o ambiente completo a partir de um canto do cômodo.",
+      "D": "A grande-angular (abaixo de 35 mm, ideal 24–28 mm), que capta campo amplo, mas pode distorcer as bordas da imagem."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A objetiva grande-angular (ângulo de visão maior que 65°, distância focal abaixo de 35 mm, ideal 24–28 mm) capta um campo amplo e é indicada para ambientes internos, mas pode distorcer as bordas da imagem (p. 60-61). Isso valida D. A (normal) aproxima-se da perspectiva do olho humano, sem o campo amplo desejado — e afastar-se nem sempre é possível em ambiente restrito. B acerta a lente, mas nega a limitação característica: a distorção nas bordas existe. C inverte o efeito da teleobjetiva, que estreita o campo de visão em vez de ampliá-lo."
+  },
+  {
+    "id": 1381,
+    "alternativas": {
+      "A": "usar velocidade elevada nas duas situações, compensando a baixa luminosidade noturna com a elevação máxima do ISO, o que dispensa o uso do tripé.",
+      "B": "usar velocidade lenta para o disparo, permitindo ao sensor captar toda a trajetória, e velocidade elevada com flash para a cena noturna.",
+      "C": "usar velocidade elevada (tempo curto, ex.: 1/1000 s) para congelar o disparo; e velocidade lenta (tempo longo), com apoio de tripé, para a cena noturna.",
+      "D": "priorizar a abertura do diafragma nos dois casos, pois o número f, e não o tempo de exposição, é o que determina o congelamento do movimento."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A velocidade de obturação elevada (tempo curto, ex.: 1/1000 s) congela o movimento, sendo adequada para o disparo de arma; a velocidade lenta (tempo longo) é necessária em cenas com pouca luz, exigindo tripé para não tremer (p. 64-65). Isso valida C. A força o ISO ao máximo para manter tempo curto à noite, gerando ruído excessivo — a solução correta é o tempo longo com tripé. B inverte as situações: tempo longo não congela o disparo, e a cena noturna ampla não se resolve com flash e tempo curto. D atribui o congelamento do movimento ao diafragma, quando essa é função do obturador."
+  },
+  {
+    "id": 1382,
+    "alternativas": {
+      "A": "o triângulo de exposição é formado por ISO, obturador e balanço de branco, cabendo ao diafragma somente o controle da profundidade de campo.",
+      "B": "no balanço de branco, medido em Kelvin, a luz de baixa temperatura (≈ 2700–3000 K) é fria e azulada, ao passo que a de alta temperatura se apresenta quente e amarelada.",
+      "C": "o triângulo de exposição equilibra abertura, tempo e distância focal, sendo o ISO um ajuste de pós-processamento sem efeito sobre a captura.",
+      "D": "o triângulo de exposição é formado por ISO, obturador e diafragma, regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O triângulo de exposição é formado por ISO, obturador e diafragma, que controlam a luminosidade e devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin (p. 65-66). Isso valida D. A substitui o diafragma pelo balanço de branco no triângulo — o diafragma é justamente um dos três pilares da exposição. B inverte as temperaturas: baixa temperatura é luz quente/amarelada, e alta temperatura, fria/azulada. C troca o ISO por distância focal e o rebaixa a ajuste de pós-processamento, quando ele atua na captura."
+  }
+]

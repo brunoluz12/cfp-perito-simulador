@@ -1,0 +1,55 @@
+CAP: Cap. 9 - Arquivos digitais (6 questões)
+
+### id 1391 | GAB: B
+Q: No contexto dos arquivos digitais produzidos na atividade pericial, a função hash tem por finalidade:
+A) [71] comprimir os arquivos de imagem para reduzir o espaço de armazenamento.
+B) [131] gerar, para cada arquivo, uma sequência individualizadora de caracteres, garantindo a integridade dos dados e a cadeia de custódia.
+C) [87] converter automaticamente os arquivos do formato RAW para JPEG, sem perda de qualidade.
+D) [87] criptografar o conteúdo do arquivo, impedindo seu acesso por terceiros não autorizados.
+JUST: A função hash é um algoritmo de autenticação digital que gera, para cada arquivo, uma sequência individualizadora de caracteres, com o objetivo de garantir a integridade dos dados e a cadeia de custódia (p. 75). Isso valida B. A confunde hash com compressão. C confunde com conversão de formato. D confunde hash com criptografia — o hash não cifra o conteúdo, apenas o identifica de forma única.
+REF: PDF LOC, p. 75
+
+### id 1392 | GAB: A
+Q: A função hash SHA-256, muito utilizada na Polícia Federal, caracteriza-se por:
+A) [175] transformar qualquer arquivo digital em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits), de modo que a alteração de um único bit muda completamente o hash.
+B) [80] gerar uma sequência de tamanho variável conforme o tamanho do arquivo de origem.
+C) [87] produzir o mesmo resultado para arquivos diferentes, desde que tenham a mesma extensão.
+D) [77] manter o hash inalterado ainda que se modifique parte do conteúdo do arquivo.
+JUST: O SHA-256 transforma qualquer arquivo em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits); se um único bit muda, o hash muda completamente, o que prova a integridade (p. 75). Isso valida A. B contraria o tamanho fixo. C nega a unicidade (arquivos diferentes geram hashes diferentes). D contraria a sensibilidade do hash a qualquer alteração.
+REF: PDF LOC, p. 75
+
+### id 1393 | GAB: B
+Q: Um perito precisa garantir a integridade de centenas de fotografias de um local, mas considera inviável inserir no laudo uma tabela com o hash de cada arquivo. A solução prática sugerida pela disciplina é:
+A) [100] calcular o hash apenas da primeira e da última imagem da pasta, presumindo a integridade das demais.
+B) [159] reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando-o no laudo.
+C) [83] renomear todos os arquivos com numeração sequencial, dispensando o cálculo de hash.
+D) [94] converter todas as imagens para JPEG, pois a compressão dispensa a verificação de integridade.
+JUST: A alternativa prática sugerida é reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando este no laudo (p. 75). Isso valida B. A presume indevidamente a integridade das demais imagens. C confunde renomeação com verificação de integridade. D contraria a necessidade de hash e ainda degrada a qualidade pela compressão JPEG.
+REF: PDF LOC, p. 75
+
+### id 1394 | GAB: B
+Q: Sobre o formato de imagem JPEG, é correto afirmar que:
+A) [102] preserva os dados originais de luz e cor sem qualquer compressão ou perda, sendo o 'negativo digital'.
+B) [163] é o mais comum para fotografia e gera arquivos leves por comprimir a imagem, mas, a cada novo salvamento, há nova compressão e a qualidade diminui cumulativamente.
+C) [98] é um formato proprietário das fabricantes de câmeras, que exige software específico para abertura.
+D) [103] gera arquivos pesados destinados a impressão e edição de alta qualidade, preservando todos os detalhes.
+JUST: O JPEG é o formato mais comum para fotografia, gera arquivos leves por comprimir a imagem (com pequena perda), mas a cada salvamento há nova compressão, diminuindo a qualidade cumulativamente (p. 75-76). Isso valida B. A descreve o RAW. C descreve característica do RAW proprietário. D descreve o TIFF.
+REF: PDF LOC, p. 75-76
+
+### id 1395 | GAB: B
+Q: Comparando os formatos TIFF e RAW de arquivos de imagem, assinale a alternativa correta:
+A) [86] ambos geram arquivos leves e são preferidos quando se busca economia de armazenamento.
+B) [235] o TIFF é usado para impressão e edição de alta qualidade, preservando todos os detalhes (arquivos pesados); o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, em formatos muitas vezes proprietários.
+C) [108] o RAW comprime a imagem com perda cumulativa de qualidade, enquanto o TIFF é o formato mais leve disponível.
+D) [126] o TIFF preserva os dados originais sem qualquer processamento, ao passo que o RAW é destinado à publicação rápida na internet.
+JUST: O TIFF é usado por profissionais para impressão e edição de alta qualidade, preservando todos os detalhes, com arquivos pesados; o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, sendo muitas vezes proprietário (p. 76). Isso valida B. A está errada porque ambos geram arquivos pesados. C atribui ao RAW a compressão com perda do JPEG. D inverte as características de TIFF e RAW.
+REF: PDF LOC, p. 76
+
+### id 1396 | GAB: B
+Q: Encerrado um exame fotográfico, o perito avalia o que fazer com os arquivos de imagem produzidos. À luz das orientações sobre o dossiê, a conduta correta é:
+A) [110] descartar os arquivos após a entrega do laudo, mantendo apenas as imagens efetivamente inseridas no documento.
+B) [206] criar, para cada exame, um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda diante de contestações.
+C) [87] encaminhar os arquivos originais ao juízo e apagar todas as cópias da unidade pericial.
+D) [90] manter apenas o arquivo .txt com os hashes, descartando as imagens para economizar espaço.
+JUST: Os arquivos do registro fotográfico não devem ser descartados; é desejável que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda em caso de contestação (p. 76). Isso valida B. A e D propõem descarte indevido das imagens. C apaga as cópias da unidade, contrariando a manutenção do dossiê.
+REF: PDF LOC, p. 76

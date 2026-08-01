@@ -1,0 +1,82 @@
+CAP: Cap. 6 - Fotografia forense - conceitos básicos (9 questões)
+
+### id 1363 | GAB: B
+Q: A fotografia surgiu como evolução da câmera escura. O princípio físico em que se baseia esse dispositivo é:
+A) [65] a difração da luz em meios densos, que amplia a imagem do objeto.
+B) [122] a propagação retilínea da luz, que, ao passar por um pequeno orifício, projeta no interior uma imagem invertida do objeto.
+C) [97] a refração total da luz em lentes divergentes, que mantém a imagem na mesma orientação do objeto.
+D) [81] a reflexão difusa da luz em superfícies espelhadas, que duplica a imagem captada.
+JUST: A câmera escura baseia-se na propagação retilínea da luz: ao passar por um pequeno orifício, a luz projeta no interior uma imagem invertida do objeto (p. 49). Isso valida B. A (difração), C (refração com mesma orientação) e D (reflexão difusa) descrevem fenômenos que não correspondem ao princípio da câmera escura, em que a imagem é invertida e formada pela passagem retilínea da luz pelo orifício.
+REF: PDF LOC, p. 49
+
+### id 1365 | GAB: B
+Q: A respeito da importância e da dupla função da Fotografia Forense, é correto afirmar que:
+A) [105] destina-se exclusivamente a ilustrar o laudo, não constituindo ferramenta para o próprio exame do objeto.
+B) [163] além de ilustrar o laudo, é uma ferramenta para o exame do objeto, podendo captar detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico.
+C) [102] tem função meramente estética, sem repercussão sobre a compreensão da cena pelo destinatário do laudo.
+D) [84] somente é admitida quando substitui integralmente a descrição narrativa do vestígio.
+JUST: A Fotografia Forense tem dupla função: além de ilustrar o laudo, é excelente ferramenta para o próprio exame do objeto, aproximando-o do destinatário e captando detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico (p. 49-50). Isso valida B. A nega a função de exame. C reduz a fotografia a função estética. D propõe substituição indevida da descrição narrativa, que é instrumento complementar, e não substituível.
+REF: PDF LOC, p. 49-50
+
+### id 1366 | GAB: A
+Q: O CPP utiliza expressões como 'os peritos poderão instruir seus laudos com fotografias'. Sobre a interpretação dessa faculdade na Fotografia Forense, a disciplina orienta que:
+A) [97] o verbo 'poder' deve ser lido como 'dever', de modo que a ausência de fotografias seja a exceção.
+B) [103] o verbo 'poder' confere ao perito ampla discricionariedade, sendo a regra a não juntada de fotografias.
+C) [95] a juntada de fotografias é vedada nos laudos de local, por comprometer a objetividade do exame.
+D) [81] a juntada de fotografias depende de autorização judicial específica em cada caso.
+JUST: A disciplina orienta que, embora o CPP use 'poder', deve-se entender o verbo como 'dever', sendo a ausência de fotografias a exceção (p. 50). Isso valida A. B inverte a orientação ao tratar a não juntada como regra. C veda indevidamente o uso de fotografias, que é fundamental. D cria exigência inexistente de autorização judicial.
+REF: PDF LOC, p. 50
+
+### id 1367 | GAB: A
+Q: A disciplina relaciona a crescente exigência quanto à qualidade do trabalho pericial ao surgimento de uma figura processual. Trata-se:
+A) [146] do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, em um contexto de presunção apenas relativa de veracidade do laudo.
+B) [109] do perito oficial de segunda categoria, criado para substituir o perito criminal em locais de difícil acesso.
+C) [95] do juiz de garantias, responsável por homologar previamente todos os laudos periciais de local.
+D) [103] do consultor técnico do Ministério Público, com presunção absoluta de veracidade de suas manifestações.
+JUST: A presunção de veracidade do laudo é relativa (pode ser contestada); com o surgimento do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, aumentou-se a exigência quanto à qualidade do trabalho do perito, sendo a Fotografia Forense fundamental nesse contexto (p. 50). Isso valida A. B, C e D citam figuras ou atributos (perito de segunda categoria, juiz de garantias homologando laudos, presunção absoluta) que não correspondem ao texto.
+REF: PDF LOC, p. 50
+
+### id 1368 | GAB: C
+Q: A Fotografia Forense pode funcionar como meio de prova ou como ilustração do laudo. Sobre essa distinção, é correto afirmar que:
+A) [128] como ilustração, a fotografia demonstra as conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico.
+B) [127] como meio de prova, a fotografia apenas registra dimensões e características físicas do objeto, com rigor meramente documental.
+C) [214] como meio de prova, a fotografia demonstra conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico possível, ao passo que, como ilustração, apenas registra as características do objeto.
+D) [107] ambas as funções exigem idêntico grau de rigor, pois toda fotografia pericial tem o mesmo valor probatório.
+JUST: Como meio de prova, a fotografia demonstra as conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico possível; como ilustração, apenas registra as características do objeto (dimensões, localização etc.), com rigor documental (p. 51). Isso valida C. A e B invertem as funções. D iguala indevidamente o rigor exigido, ignorando a maior exigência atribuída à fotografia como meio de prova.
+REF: PDF LOC, p. 51
+
+### id 1369 | GAB: B
+Q: Um perito recebe, para exame documentoscópico, uma carteira de identidade cuja autenticidade foi contestada e, em outra demanda, um arquivo digital de câmera de segurança a ser processado para tentar identificar a placa de uma motocicleta. Quanto à classificação da fotografia nesses casos, é correto afirmar que:
+A) [120] em ambos os casos a fotografia atua como instrumento, enquadrando-se no escopo da Fotografia Forense como meio de prova.
+B) [121] em ambos os casos a fotografia é o próprio objeto do exame, situação que NÃO se enquadra no escopo da Fotografia Forense.
+C) [102] a carteira de identidade é fotografia como instrumento, e o arquivo de câmera, fotografia como objeto.
+D) [89] ambos os casos correspondem à fotografia como ilustração do laudo, sem função probatória.
+JUST: Quando a foto (impressa, como na carteira de identidade contestada, ou o arquivo digital da câmera de segurança) é o próprio material a ser examinado, ela atua como objeto de exame — documentoscópico ou de audiovisual —, situação que não integra o escopo da Fotografia Forense (que é a foto como instrumento, meio de prova ou ilustração) (p. 51-52). Isso valida B. A e D classificam erroneamente como instrumento/ilustração. C diferencia indevidamente os dois casos, que são ambos fotografia como objeto.
+REF: PDF LOC, p. 51-52
+
+### id 1370 | GAB: C
+Q: Sobre os ambientes controlado e não controlado na atividade fotográfica pericial, assinale a alternativa correta:
+A) [136] O ambiente não controlado é aquele em que o fotógrafo domina a iluminação e demais aspectos, valendo-se de mesa estativa e mini estúdio.
+B) [102] O ambiente controlado é típico dos locais de crime, em que o fotógrafo não domina luz, clima e espaço.
+C) [216] O ambiente controlado, geralmente em local fechado, permite ao fotógrafo dominar a iluminação e demais aspectos, resultando em melhor qualidade do produto final; o local de crime é exemplo de ambiente não controlado.
+D) [110] Tanto o ambiente controlado quanto o não controlado garantem o mesmo domínio sobre as condições de iluminação.
+JUST: O ambiente controlado, geralmente em local fechado, permite ao fotógrafo dominar a iluminação e os demais aspectos (mesa estativa, mini estúdio, tripés), resultando em melhor qualidade do produto final; o ambiente não controlado é aquele em que não se dominam as condições, tendo o local de crime como exemplo (p. 52-53). Isso valida C. A e B invertem os conceitos. D nega a diferença de domínio entre os dois ambientes.
+REF: PDF LOC, p. 52-53
+
+### id 1371 | GAB: A
+Q: Considerando que o local de crime é um ambiente não controlado, qual a consequência prática para o trabalho do perito fotógrafo?
+A) [195] Por não dominar luz, clima e espaço, o perito precisa adaptar-se às condições existentes, ao contrário do que ocorre no ambiente controlado, em que pode escolher fundo, tipo de luz e equipamento.
+B) [126] Por se tratar de ambiente não controlado, fica o perito dispensado de fotografar os vestígios, bastando a descrição narrativa.
+C) [138] O perito deve transportar todos os vestígios para um laboratório antes de qualquer registro, transformando o local em ambiente controlado.
+D) [119] Por ser não controlado, o local de crime exige sempre o uso de mesa estativa e mini estúdio para a captura das imagens.
+JUST: No ambiente não controlado, como o local de crime, o fotógrafo não domina luz, clima e espaço, devendo adaptar-se às condições existentes; já no ambiente controlado pode escolher fundo (claro/escuro), tipo de luz (suave/dura) e o equipamento, obtendo melhor qualidade (p. 52-53). Isso valida A. B dispensa indevidamente a fotografia. C inverte a lógica do processamento (não se transportam os vestígios antes de registrá-los no local). D exige equipamentos de estúdio impraticáveis na cena.
+REF: PDF LOC, p. 52-53
+
+### id 1372 | GAB: A
+Q: Em um exame de laboratório, o perito precisa fotografar documentos e objetos pequenos com qualidade, eliminando sombras e reflexos. Considerando os equipamentos do ambiente controlado descritos na disciplina, a combinação correta é:
+A) [187] a mesa estativa, base com câmera fixa no topo e duas luminárias laterais, ideal para documentos e objetos pequenos; e o mini estúdio, caixa difusora de luz que elimina sombras e reflexos.
+B) [98] o tripé de campo e o flash automático, únicos recursos compatíveis com a fotografia de documentos.
+C) [99] a haste metálica enterrada e o detector de metais, empregados para posicionar o objeto fotografado.
+D) [107] a régua de escala e o marcador de vestígio, suficientes para eliminar sombras e reflexos sobre o documento.
+JUST: No ambiente controlado, a mesa estativa (base com câmera fixa no topo e duas luminárias laterais) é ideal para fotografar documentos e objetos pequenos, e o mini estúdio (caixa difusora de luz) elimina sombras e reflexos (p. 53). Isso valida A. B restringe os recursos a tripé e flash automático. C cita instrumentos de croqui (haste e detector), alheios à fotografia em estúdio. D confunde elementos de escala/marcação com recursos de iluminação que eliminem sombras e reflexos.
+REF: PDF LOC, p. 53

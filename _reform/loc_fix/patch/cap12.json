@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1413,
+    "alternativas": {
+      "A": "os de asa rotativa combinam a capacidade de pairar no ar com autonomia superior à dos de asa fixa, que dependem de velocidade mínima e de área própria para pouso.",
+      "B": "os de asa rotativa têm grande capacidade de manobra (param no ar, sobem na vertical), porém voo ineficiente e alcance limitado; os de asa fixa voam com eficiência a maiores distâncias, com autonomia muito superior.",
+      "C": "os de asa fixa dominam o emprego em segurança pública por decolarem na vertical em espaços urbanos restritos e pairarem sobre o alvo, enquanto os de asa rotativa exigem área ampla de lançamento e pouso.",
+      "D": "a distinção entre os tipos é apenas construtiva, pois os controladores de voo modernos igualam a manobrabilidade e a autonomia das duas plataformas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os drones de asa rotativa têm grande capacidade de manobra (param no ar, sobem/descem na vertical), mas voo ineficiente e alcance limitado; os de asa fixa, como pequenos aviões, voam com eficiência elevada a maiores velocidades e distâncias, com autonomia muito superior (p. 85-86). Isso valida B. A dá aos de asa rotativa a autonomia superior, que é dos de asa fixa. C inverte as plataformas: quem decola na vertical em espaço restrito é a asa rotativa. D nega o trade-off manobra × autonomia, que é justamente o critério de escolha entre os tipos."
+  },
+  {
+    "id": 1414,
+    "alternativas": {
+      "A": "os quadricópteros toleram a falha de um motor redistribuindo o empuxo entre os três restantes, recurso que os torna o padrão da aviação de segurança pública.",
+      "B": "a redundância é garantida pelo paraquedas balístico exigido na homologação da aeronave, e não pelo número de motores que ela possui.",
+      "C": "modelos de 6 ou 8 motores, por serem mais pesados, perdem a sustentação com a falha de qualquer motor, ao contrário dos quadricópteros, mais leves.",
+      "D": "os quadricópteros não têm redundância — a falha de um motor provoca a queda —, enquanto modelos de 6 ou 8 motores sustentam o voo mesmo com a falha de alguns."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os quadricópteros (4 motores) não têm redundância: se um motor falha, a aeronave cai; modelos de 6 ou 8 motores sustentam o voo mesmo com a falha de alguns (p. 85). Isso valida D. A descreve capacidade que o quadricóptero não tem — com três motores ele não se sustenta. B desloca a redundância para um paraquedas, alheio ao conceito tratado, que é a tolerância à falha de motores. C inverte a relação: são os modelos com MAIS motores que toleram falhas, e o peso não é o critério."
+  },
+  {
+    "id": 1415,
+    "alternativas": {
+      "A": "asa rotativa para a vasta área, pela capacidade de pairar sobre os plantios localizados, e asa fixa para a cena urbana, pela estabilidade de voo.",
+      "B": "asa fixa para as duas missões, compensando na cena urbana a impossibilidade de pairar com órbitas fechadas em baixa altitude.",
+      "C": "asa fixa para a vasta área (maior autonomia e distância) e asa rotativa para a cena urbana (manobra precisa, parar no ar).",
+      "D": "asa rotativa para as duas missões, empregando na mata o revezamento de baterias em pontos avançados para estender o alcance da aeronave."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O drone de asa fixa, com autonomia muito superior, é adequado a grandes extensões e distâncias (ex.: localizar roças); o de asa rotativa, com grande capacidade de manobra (parar no ar, subir na vertical), é adequado a cenas locais, apesar do alcance limitado (p. 85-86). Isso valida C. A inverte as aplicações: pairar sobre o plantio não compensa o alcance limitado da asa rotativa na vasta área. B força a asa fixa na cena urbana, onde a manobra precisa e o voo pairado são indispensáveis. D tenta contornar a autonomia com logística de baterias, solução que não substitui a eficiência de voo da asa fixa."
+  },
+  {
+    "id": 1417,
+    "alternativas": {
+      "A": "na Classe 3 (abaixo de 25 kg), que abrange praticamente todos os drones domésticos e de segurança pública e não exige habilitação do piloto nem aprovação de projeto, mas exige cadastro no SISANT.",
+      "B": "na Classe 3 (abaixo de 25 kg), que dispensa o cadastro no SISANT, exigido apenas das Classes 1 e 2, mas impõe ao piloto remoto habilitação específica emitida pela ANAC e a aprovação prévia do projeto da aeronave.",
+      "C": "na Classe 2 (2 a 25 kg), com homologação simplificada, cadastro obrigatório no SISANT e exigência de licença de estação rádio junto à ANATEL.",
+      "D": "na Classe 3 (abaixo de 25 kg), desde que o órgão de segurança pública obtenha a aprovação prévia do projeto da aeronave junto à ANAC."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A Classe 3 abrange os drones abaixo de 25 kg (praticamente todos os domésticos e de segurança pública); não exige habilitação do piloto nem aprovação do projeto, mas exige cadastro no SISANT (p. 87-88). Isso valida A. B inverte as dispensas: o cadastro no SISANT é justamente o que a Classe 3 exige, e a habilitação, o que ela dispensa. C erra a classe — a Classe 2 vai de 25 a 150 kg, não de 2 a 25 kg. D condiciona o enquadramento à aprovação de projeto, exigência que a Classe 3 não faz."
+  },
+  {
+    "id": 1419,
+    "alternativas": {
+      "A": "o voo depende de autorização prévia no SARPAS em qualquer hipótese, autorização que os órgãos de segurança pública obtêm por rito abreviado próprio das operações policiais, com resposta em caráter de urgência.",
+      "B": "a atividade operacional dispensa o SARPAS por completo, mantendo-se apenas o registro interno da corporação sobre o emprego da aeronave.",
+      "C": "a exceção informativa alcança tanto os voos operacionais quanto os de treinamento, desde que realizados em área previamente segregada.",
+      "D": "por se tratar de órgão de segurança pública em atividade operacional, o cadastro no SARPAS é apenas informativo, sem depender de autorização; a exceção, porém, não cobre voos de treinamento."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Para voos de órgãos de segurança pública em atividades operacionais, o cadastro no SARPAS é apenas informativo, não dependendo de autorização para serem executados; essa exceção não cobre voos de treinamento (p. 88). Isso valida D. A mantém a exigência de autorização (ainda que 'abreviada'), quando o cadastro operacional é meramente informativo. B vai além da norma: o cadastro informativo no SARPAS permanece, não há dispensa completa. C estende a exceção aos treinamentos, expressamente excluídos — para treinar, é preciso autorização."
+  },
+  {
+    "id": 1420,
+    "alternativas": {
+      "A": "combinar imagens térmicas e ópticas em um único sensor, permitindo localizar pessoas desaparecidas sob qualquer condição de luz.",
+      "B": "capturar comprimentos de onda invisíveis ao olho humano, sendo muito usadas, por exemplo, para determinar a saúde de uma cultura vegetal.",
+      "C": "penetrar a copa das árvores por meio de bandas de infravermelho profundo, revelando o relevo do solo sob a vegetação densa.",
+      "D": "registrar simultaneamente várias exposições da mesma cena, compondo imagens de alta faixa dinâmica para ambientes de forte contraluz."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As câmeras multiespectrais capturam comprimentos de onda invisíveis ao olho humano, sendo muito usadas na agricultura para determinar a saúde de uma cultura vegetal (p. 89). Isso valida B. A descreve uma fusão térmica/óptica que não define a câmera multiespectral. C atribui à câmera a capacidade de revelar o relevo sob a copa, que é do scanner Lidar — capturar bandas invisíveis não significa atravessar a vegetação. D descreve técnica de alta faixa dinâmica (múltiplas exposições), estranha ao conceito."
+  },
+  {
+    "id": 1421,
+    "alternativas": {
+      "A": "o scanner 3D do tipo Lidar, capaz de enxergar sob a copa das árvores, penetrando entre as folhas e revelando o relevo do solo.",
+      "B": "a câmera multiespectral, cujas bandas de infravermelho atravessam a vegetação e mapeiam a topografia do terreno encoberto.",
+      "C": "a câmera fotográfica de alta resolução em voo fotogramétrico cruzado, cujo processamento remove digitalmente a vegetação do modelo.",
+      "D": "o sensor térmico, que distingue o solo da vegetação pela diferença de temperatura e reconstitui o relevo a partir desse contraste."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os scanners 3D do tipo Lidar conseguem enxergar sob a copa das árvores, penetrando entre as folhas, e revelam o relevo do solo independentemente da vegetação (p. 89). Isso valida A. B atribui à multiespectral a penetração da copa — ela avalia a saúde da vegetação, não o relevo sob ela. C é sedutora, mas a fotogrametria só reconstrói o que as fotos enxergam: sob mata densa, o solo não aparece nas imagens, e a 'remoção digital' não cria dados inexistentes. D inventa reconstituição de relevo por contraste térmico, que não produz topografia."
+  },
+  {
+    "id": 1422,
+    "alternativas": {
+      "A": "a rota automatizada exige o upload prévio do plano de voo no sistema SARPAS e, uma vez iniciada a missão, passa a ser executada integralmente pela aeronave, sem qualquer possibilidade de intervenção do piloto remoto até o pouso.",
+      "B": "o perito informa o contorno da área e o software calcula rota otimizada; as fotos alimentam a fotogrametria, gerando ortofotos, modelos de elevação, produtos 3D com cálculo de volume e curvas de nível — úteis para delimitar APP.",
+      "C": "o software de voo gera diretamente os produtos cartográficos finais, dispensando o processamento posterior das imagens em software de fotogrametria.",
+      "D": "a automação restringe-se à decolagem e ao pouso, cabendo ao piloto conduzir manualmente as linhas de voo para garantir a sobreposição das fotos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Nos voos automatizados, o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam um software de fotogrametria (a PF usa muito o Agisoft Metashape Professional), gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculos de volume) e curvas de nível, úteis para determinar limites de APP e detectar edificação irregular em seu interior (p. 89-90). Isso valida B. A mistura a automação com o SARPAS e nega a possibilidade de intervenção do piloto. C suprime a etapa de fotogrametria, que é onde os produtos são gerados. D reduz a automação a decolagem e pouso, quando é justamente a rota de captura que o software calcula."
+  }
+]

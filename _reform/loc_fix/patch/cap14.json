@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1429,
+    "alternativas": {
+      "A": "as substâncias de baixa toxicidade podem ser despejadas em pias e ralos com diluição abundante em água corrente, reservando-se o tratamento de neutralização prévia apenas às substâncias reconhecidamente corrosivas.",
+      "B": "o descarte no próprio solo do local é admitido quando a substância for encontrada a céu aberto, pois o ambiente já se encontra exposto ao agente químico.",
+      "C": "não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos.",
+      "D": "substâncias expostas à chuva e a ventos fortes devem ser imediatamente removidas e reacondicionadas, ainda que sem equipamento de proteção disponível."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos que abastecem populações e espécies (p. 93). Isso valida C. A flexibiliza o despejo em pias e ralos, que a disciplina veda — a diluição não substitui a neutralização. B usa a exposição prévia do ambiente como licença para contaminar o solo, raciocínio que a proteção ambiental não admite. D contraria a orientação de evitar remover substâncias expostas a chuva e ventos fortes, além de dispensar a proteção do profissional."
+  },
+  {
+    "id": 1430,
+    "alternativas": {
+      "A": "introdução do agente por perfurações na pele causadas por aerossóis pressurizados, cuja absorção é retardada pela barreira cutânea íntegra.",
+      "B": "entrada do agente por furadas de agulhas ou cortes em vidros e metais contaminados, atingindo diretamente a corrente sanguínea, recomendando-se o uso de luvas (eventualmente duas ou mais).",
+      "C": "penetração do agente químico pelas mucosas dos olhos e do nariz, com efeitos sistêmicos imediatos sobre o organismo, recomendando-se o uso permanente de óculos de proteção e máscara facial.",
+      "D": "contaminação por via percutânea lenta, em que o agente absorvido pela pele acumula-se no tecido subcutâneo antes de alcançar a circulação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Na injeção, o agente entra por furadas de agulhas, cortes em vidros, metais ou objetos cortantes contaminados, atingindo diretamente a corrente sanguínea e espalhando-se rapidamente; recomenda-se trabalhar sempre com luvas e, se necessário, vestir as mãos com duas ou mais luvas (p. 95). Isso valida B. A inventa perfuração por aerossóis e descreve absorção retardada, o oposto da entrada direta na circulação. C descreve exposição por mucosas, mais próxima da inalação/contato, não da injeção. D descreve o contato com a pele (absorção percutânea), rota distinta da injeção."
+  },
+  {
+    "id": 1431,
+    "alternativas": {
+      "A": "aproximar-se dos recipientes abertos e abanar o ar em direção ao nariz, sem inspirar profundamente, técnica que permitiria identificar os odores característicos das substâncias mais comuns com exposição mínima do profissional.",
+      "B": "priorizar a informação dos rótulos e das notas fiscais localizadas no ambiente, que prevalecem sobre a aparência do conteúdo dos frascos.",
+      "C": "transferir imediatamente o conteúdo dos frascos sem rótulo para recipientes padronizados de vidro âmbar, identificando-os por numeração sequencial.",
+      "D": "adotar postura conservadora diante de dúvidas, observar os elementos do GHS (pictogramas, advertências) e consultar a FISPQ, priorizando a identificação por aspectos observáveis, sem contato direto nem inalação de vapores."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As diretrizes orientam adotar postura conservadora diante de dúvidas, observar elementos do GHS (pictogramas, palavras de advertência, frases de perigo) e consultar a FISPQ, priorizar a identificação preliminar por aspectos observáveis sem contato direto e não inalar vapores ou odores para identificar substâncias (p. 96-97). Isso valida D. A propõe identificação olfativa 'controlada', que a vedação de inalar vapores não comporta em campo. B contraria a orientação de não confiar exclusivamente no rótulo. C manda manipular e transvasar substâncias desconhecidas, exatamente o contato direto que se deve evitar."
+  },
+  {
+    "id": 1432,
+    "alternativas": {
+      "A": "os vapores remanescentes em recipientes vazios dissipam-se rapidamente após a abertura, de modo que o risco de explosão se concentra nos recipientes que permanecem cheios e hermeticamente lacrados no ambiente.",
+      "B": "o gás hidrogênio liberado pelo contato de ácidos com metais é inerte e asfixiante simples, oferecendo risco apenas em ambientes confinados.",
+      "C": "recipientes vazios podem conter vapores suficientes para provocar explosão, vedado o uso de chama próximo; e os ácidos sulfúrico e clorídrico, em contato com metais, produzem gás hidrogênio, altamente explosivo.",
+      "D": "o permanganato de potássio, por sua estabilidade química, é utilizado como neutralizante seguro de ácidos derramados no piso do laboratório."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recipientes vazios podem conter vapores suficientes para provocar explosão (não usar chama próximo); ácidos sulfúrico e clorídrico, em contato com grande parte dos metais, produzem gás hidrogênio, altamente explosivo (p. 98-99). Isso valida C. A inverte o risco: são justamente os recipientes 'vazios' que guardam vapores em mistura explosiva com o ar. B desqualifica o hidrogênio como inerte, quando ele é altamente explosivo. D trata o permanganato de potássio como neutralizante estável, quando é oxidante forte, capaz de reagir violentamente."
+  },
+  {
+    "id": 1433,
+    "alternativas": {
+      "A": "frasco de polietileno de boca estreita para a acetona, que degrada o vidro âmbar; e frasco de vidro neutro para o ácido fluorídrico, resistente a soluções corrosivas.",
+      "B": "frasco de vidro neutro âmbar de boca estreita para a acetona; frasco de plástico (polietileno) de boca estreita para o ácido fluorídrico, que não pode ser coletado em vidro.",
+      "C": "frasco de vidro âmbar de boca larga para as duas substâncias, formato que facilita a coleta e é quimicamente compatível com solventes e ácidos.",
+      "D": "frasco metálico hermético para a acetona, em razão de sua volatilidade; e frasco de vidro de boca estreita para o ácido fluorídrico, pela precisão de vazão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Solventes orgânicos como a acetona vão em frasco de vidro neutro âmbar de boca estreita; o ácido fluorídrico NÃO pode ser coletado em vidro (ataca o vidro), devendo ir em frasco de plástico (polietileno) de boca estreita (p. 99-100). Isso valida B. A inverte os invólucros — é o ácido fluorídrico que ataca o vidro, não a acetona. C coloca o ácido fluorídrico em vidro e usa boca larga, própria de sólidos. D inventa frasco metálico para a acetona e mantém o fluorídrico no vidro, que ele corrói."
+  },
+  {
+    "id": 1435,
+    "alternativas": {
+      "A": "para as 400 embalagens, amostram-se aleatoriamente 10 unidades; e o éter deve ser homogeneizado antes da coleta, para que a amostra represente todo o volume.",
+      "B": "para as 400 embalagens, amostram-se √400 = 20 unidades; e o éter deve ser vigorosamente homogeneizado, dispersando os peróxidos para neutralizar seu risco.",
+      "C": "para as 400 embalagens, amostram-se 40 unidades (10% do total); e o éter com peróxidos deve ser coletado sem agitação, diretamente da camada superficial.",
+      "D": "para as 400 embalagens, amostram-se aleatoriamente √400 = 20 unidades; e o éter com peróxidos não deve ser homogeneizado sem que antes os peróxidos sejam removidos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Para n > 100, escolhem-se aleatoriamente √n unidades (√400 = 20) e retira-se uma amostra de cada (p. 100). Quanto aos líquidos, em regra se misturam bem antes de coletar, mas há exceção: éter com resíduos de peróxidos não deve ser homogeneizado sem antes remover os peróxidos (p. 100-101). Isso valida D. A aplica a regra da faixa 10 < n ≤ 100 (10 unidades) e ignora a exceção do éter. B acerta a amostragem, mas manda agitar o éter — a homogeneização com peróxidos é justamente o que se veda, pelo risco de explosão. C inventa o critério de 10% e improvisa coleta superficial, quando a conduta correta é remover os peróxidos antes."
+  },
+  {
+    "id": 1437,
+    "alternativas": {
+      "A": "gravar os dados diretamente no próprio recipiente com marcador resistente a solventes, evitando o uso de etiquetas, que podem descolar-se em contato com os produtos químicos durante o transporte.",
+      "B": "registrar na etiqueta apenas o código do laboratório de destino, mantendo os dados do inquérito em planilha apartada, por sigilo da investigação.",
+      "C": "usar etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando a amostra ao inquérito, item/lote ou local de origem, para evitar extravios e confusões.",
+      "D": "lacrar as amostras com numeração provisória e transferir a identificação definitiva ao laboratório, onde os dados serão conferidos e catalogados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recomenda-se identificar as amostras com etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando-as a um inquérito policial, item/lote ou local de origem, evitando extravios e confusões; a etiqueta inclui unidade/seção, número da amostra, quantidade, número do IPL, local de origem, data e responsável (p. 101). Isso valida C. A substitui a solução recomendada (etiqueta protegida por fita) por gravação direta, que não é a orientação da disciplina. B esvazia a etiqueta dos dados que a vinculam ao inquérito e à origem. D posterga a identificação para o laboratório, comprometendo a rastreabilidade e a cadeia de custódia desde a coleta."
+  }
+]

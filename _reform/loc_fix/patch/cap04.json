@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1344,
+    "alternativas": {
+      "A": "permite antecipar a dinâmica provável do fato e, com isso, restringir a busca completa às áreas de maior interesse, abreviando o processamento da cena.",
+      "B": "orienta a definição da equipe mínima e autoriza, nos crimes de menor complexidade, a supressão da etapa de reunião final do processamento.",
+      "C": "destina-se sobretudo a estimar o tempo de retenção do local, permitindo comunicar previamente à autoridade o momento provável da liberação.",
+      "D": "define os possíveis vestígios, o material e o equipamento necessários e o tipo de apoio a solicitar, como o de especialistas em explosivos, quando for o caso."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O conhecimento do tipo de local/crime define os possíveis vestígios, o material e o equipamento e o tipo de ajuda necessária — por exemplo, apoio de especialistas em bombas no caso de explosivos —, valendo o lema de que 'não se deve tentar resolver tudo sozinho' (p. 29). Isso valida D. A usa a preparação para encurtar a busca completa, que não se restringe por hipótese prévia — a antecipação serve para equipar, não para abreviar. B inventa dispensa da reunião final, etapa que integra todo processamento. C reduz a preparação a uma estimativa de cronograma, finalidade que o texto não lhe atribui."
+  },
+  {
+    "id": 1346,
+    "alternativas": {
+      "A": "as entrevistas servem para direcionar e agilizar os trabalhos, mas as informações subjetivas não são avaliadas no laudo, em que o perito considera apenas os vestígios.",
+      "B": "as informações subjetivas ingressam no laudo como elementos de contexto, desde que o relato seja corroborado por ao menos um vestígio material identificado na cena.",
+      "C": "as entrevistas na chegada cabem ao delegado e aos agentes, sendo vedado aos peritos colhê-las, para não comprometer a imparcialidade das conclusões técnicas.",
+      "D": "as entrevistas devem ser adiadas para depois da busca completa, evitando que as versões das testemunhas induzam o perito na localização dos vestígios."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As entrevistas podem ser feitas por qualquer membro da equipe e servem para direcionar e agilizar os trabalhos; contudo, as informações subjetivas não serão objeto de avaliação no laudo, pois o perito só considera os vestígios para suas conclusões, ainda que existam vestígios que comprovem o relato (p. 33). Isso valida A. B cria regra de ingresso condicionado no laudo — mesmo corroborado, o relato não é avaliado nas conclusões periciais. C veda ao perito a entrevista, quando o texto expressamente admite que qualquer membro da equipe a realize. D inverte a lógica: as entrevistas ocorrem na chegada justamente para direcionar a busca, não depois dela."
+  },
+  {
+    "id": 1347,
+    "alternativas": {
+      "A": "fotografá-lo de imediato em plano de detalhe e coletá-lo na sequência, garantindo que a busca prossiga sem risco de perda do material localizado.",
+      "B": "marcá-lo, para que posteriormente seja descrito, fotografado e assinalado no croqui, conduzindo a busca do geral para o específico.",
+      "C": "interromper a busca e iniciar a coleta de todos os vestígios já localizados, retomando a varredura somente após o acondicionamento do material.",
+      "D": "descrevê-lo e assinalá-lo no croqui, dispensando o registro fotográfico quando a posição do vestígio já estiver documentada por medidas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A regra é que, ao encontrar um vestígio, ele seja marcado para depois ser descrito, fotografado e assinalado no croqui — nunca coletado de imediato —, conduzindo-se a busca do geral para o específico (p. 33-35). Isso valida B. A antecipa a coleta para logo após a fotografia, quando a coleta tem etapa própria, posterior à busca e à documentação completas. C fragmenta a busca e antecipa a coleta, invertendo a sequência das etapas. D suprime o registro fotográfico, que integra a documentação ao lado da descrição e do croqui — as medidas não o substituem."
+  },
+  {
+    "id": 1349,
+    "alternativas": {
+      "A": "O padrão em quadrante, que divide a cena em quatro setores examinados sucessivamente pela mesma dupla de profissionais.",
+      "B": "O padrão em espiral, que se inicia na periferia e contorna a cena até o ponto central, onde geralmente está a maioria dos vestígios.",
+      "C": "O padrão em linha, com os profissionais a dois braços de distância e uma pessoa-base comandando o alinhamento da varredura.",
+      "D": "O padrão em espiral invertida, que parte do ponto central da cena em direção à periferia, acompanhando a dispersão dos vestígios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O padrão em espiral é indicado para área pequena e poucas pessoas, iniciando na periferia e contornando a cena até o ponto central, onde geralmente se concentra a maioria dos vestígios (p. 34). Isso valida B. A (quadrante) é uma divisão setorial da cena, não o padrão indicado para cenas pequenas com poucos profissionais. C (linha) destina-se a áreas extensas com muitas pessoas. D descreve o percurso invertido: a espiral vai da periferia ao centro, e não do centro à periferia — exatamente porque no centro tende a estar a maior concentração de vestígios, examinada por último para não ser atravessada."
+  },
+  {
+    "id": 1350,
+    "alternativas": {
+      "A": "recortar o trecho com a mancha e, como regra geral, coletar também amostra do carpete isenta da mancha (amostra controle), que pode ser necessária à análise conclusiva.",
+      "B": "recortar o trecho com a mancha e fotografar em detalhe a área restante do carpete, registro que substitui a amostra controle caso o laboratório venha a necessitar de comparação com o suporte.",
+      "C": "coletar a amostra controle somente se o laboratório a requisitar previamente, evitando o transporte de material sem destinação analítica definida.",
+      "D": "recortar dois fragmentos da própria mancha, encaminhando um deles como amostra controle destinada à contraprova laboratorial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado, recorta-se o trecho com a mancha; para que a análise seja conclusiva, o laboratório pode precisar de uma amostra do suporte isenta da mancha (amostra controle/padrão). Como no local não se sabe se será necessária, a regra geral é coletá-la (p. 36-37). Isso valida A. B supõe que a fotografia substitui a amostra controle, que é material físico para análise química/biológica. C inverte a lógica da oportunidade única: no local não se sabe se o laboratório precisará, por isso coleta-se desde logo. D confunde amostra controle (porção do suporte SEM a mancha) com duplicata da própria mancha para contraprova."
+  },
+  {
+    "id": 1352,
+    "alternativas": {
+      "A": "a liberação do local é ato privativo do delegado responsável pela apuração, cabendo ao chefe da equipe pericial apenas comunicar formalmente o encerramento dos exames e aguardar a decisão da autoridade quanto à retirada do isolamento.",
+      "B": "a entrega do local exige termo escrito assinado pelo chefe da equipe e pelo recebedor, sendo a forma verbal admitida apenas em locais externos.",
+      "C": "o chefe da equipe entrega formalmente o local ao delegado ou policial encarregado, informando o que deve ser apreendido e os cuidados necessários, consignando-se a liberação em laudo.",
+      "D": "com a liberação, transfere-se ao recebedor a responsabilidade pela cadeia de custódia dos vestígios ainda não transportados pela equipe pericial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido/encaminhado e os cuidados; a liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, podendo ser por escrito se necessário (p. 37). Isso valida C. A desloca a liberação para o delegado, quando quem entrega o local é o chefe da equipe pericial. B inverte a regra da forma: a liberação é geralmente verbal (consignada em laudo), sendo o escrito a exceção. D transfere a custódia dos vestígios ao recebedor do local, quando os vestígios coletados permanecem sob responsabilidade da perícia."
+  }
+]

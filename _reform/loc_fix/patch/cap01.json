@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1313,
+    "alternativas": {
+      "A": "em que se verifica a consumação integral da infração penal, excluídos os pontos em que se deram somente atos executórios sem produção de resultado.",
+      "B": "da ocorrência da execução da infração penal, desde que nele também se produza, ao menos em parte, o resultado naturalístico da conduta.",
+      "C": "que concentra vestígios aptos a demonstrar autoria e materialidade, ainda que não guarde relação direta com a execução ou o resultado do delito.",
+      "D": "que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A IN DG/PF nº 297/2024 define local de crime como o 'local que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal' (p. 13), o que valida D. A exige consumação integral e exclui os pontos de mera execução, quando a norma admite o 'no todo ou em parte'. B soma indevidamente os dois critérios: basta a execução OU o resultado, não a presença cumulativa de ambos. C desvincula o conceito da execução e do resultado, quando é exatamente esse vínculo que define o local de crime na norma."
+  },
+  {
+    "id": 1314,
+    "alternativas": {
+      "A": "à porção do espaço, num raio com origem no ponto em que o fato é constatado, abrangendo os lugares em que hajam sido praticados atos materiais, preliminares ou posteriores, diretamente relacionados ao delito.",
+      "B": "à área contínua que liga o ponto de constatação do fato aos locais de preparação e de fuga, desde que entre eles exista contiguidade física ou visual, excluídos os pontos isolados sem essa ligação.",
+      "C": "ao conjunto de pontos em que se produziu o resultado naturalístico do delito, compreendidos os que suportaram seus efeitos patrimoniais, mas não os locais de atos meramente preparatórios.",
+      "D": "ao espaço em que se desenvolveram os atos de execução em sentido estrito, remetendo-se os atos preliminares e posteriores à categoria autônoma dos locais relacionados ao fato."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Rabelo define local de crime como 'a porção do espaço compreendida num raio que, tendo por origem o ponto no qual é constatado o fato, se estenda de modo a abranger todos os lugares em que, aparente, necessária ou presumivelmente, hajam sido praticados (...) os atos materiais, preliminares ou posteriores à consumação do delito e com este diretamente relacionados' (p. 13), o que confirma A. B cria requisito de contiguidade física ou visual que não existe na definição, cujo critério é a relação direta com o delito. C exclui os atos preparatórios, expressamente abrangidos pela definição ('preliminares'). D restringe o conceito aos atos de execução e desloca preliminares e posteriores para outra categoria, quando Rabelo os inclui no próprio local de crime."
+  },
+  {
+    "id": 1315,
+    "alternativas": {
+      "A": "as informações subjetivas ganham caráter objetivo quando prestadas por testemunha presencial compromissada, hipótese em que dispensam confirmação pelos vestígios materiais.",
+      "B": "as informações de vestígios constituem fonte objetiva, de base técnico-científica, ao passo que as subjetivas, interpretativas e por vezes incompletas, exigem cautela e confirmação.",
+      "C": "as duas fontes situam-se no mesmo patamar de confiabilidade, de modo que a colheita qualificada de depoimentos pode suprir o exame dos vestígios em locais degradados.",
+      "D": "as informações de vestígios também comportam leitura interpretativa, razão pela qual a doutrina as classifica, ao lado dos depoimentos, entre as fontes de natureza subjetiva."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto distingue as informações subjetivas — 'de ordem interpretativa e de cunho pessoal, podendo até não refletir a verdade' e frequentemente incompletas, exigindo cautela e confirmação — das informações de vestígios, que constituem 'fonte objetiva', com análise 'mais precisa e segura, baseada em princípios técnico-científicos' (p. 14), o que valida B. A inventa hipótese de conversão do depoimento em fonte objetiva: o compromisso da testemunha não altera a natureza interpretativa e pessoal do relato. C equipara as fontes e admite substituição do exame de vestígios por depoimentos, contrariando a maior segurança da fonte objetiva. D transfere a natureza subjetiva para os vestígios, invertendo a classificação do texto."
+  },
+  {
+    "id": 1316,
+    "alternativas": {
+      "A": "a transferência de vestígios opera do local para o autor, cabendo à perícia demonstrar o percurso inverso somente quando houver contato físico direto entre autor e vítima.",
+      "B": "os vestígios produzidos no local transferem sua carga probatória aos objetos apreendidos, de modo que a análise laboratorial destes torna dispensável o exame daquele.",
+      "C": "existe sempre uma troca de vestígios entre os agentes delituosos e o ambiente: o criminoso deixa algo seu no local ou leva algo do local consigo.",
+      "D": "a cada contato entre autor e vítima corresponde transferência de material biológico, ficando os vestígios não biológicos regidos pelo princípio da correspondência de características."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Princípio da Transferência (Locard) afirma que 'em locais de crime existe sempre a troca de vestígios entre os agentes delituosos e o ambiente', pois 'o criminoso deixa algo seu no local ou leva algo do local consigo' (p. 14), o que valida C. A restringe a transferência a um único sentido e cria condição inexistente, contrariando a ideia de troca recíproca. B converte o princípio em regra de dispensa do exame de local, o que ele não autoriza. D limita a transferência ao material biológico e invoca um 'princípio da correspondência' estranho à formulação de Locard, que abrange vestígios de qualquer natureza."
+  },
+  {
+    "id": 1317,
+    "alternativas": {
+      "A": "dirigir-se ao local, providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos e apreender os objetos relacionados ao fato após a liberação pericial.",
+      "B": "preservar o local e recolher desde logo a arma, por se tratar de vestígio essencial cuja guarda imediata compete à autoridade policial, lavrando termo próprio para documentar a coleta.",
+      "C": "isolar a área e representar pela autorização judicial para apreensão da arma, uma vez que objetos encontrados em local de crime somente ingressam nos autos por decisão fundamentada.",
+      "D": "determinar o registro fotográfico da cena e autorizar o recolhimento dos objetos de maior valor probatório, mantendo os demais intactos até a chegada da equipe pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 6º do CPP determina que a autoridade policial deve dirigir-se ao local, providenciando para que não se alterem o estado e a conservação das coisas até a chegada dos peritos (inciso I), e apreender os objetos que tiverem relação com o fato após liberados pelos peritos criminais (inciso II) (p. 14-15), o que valida A. B autoriza a coleta imediata da arma antes da liberação pericial, exatamente a conduta vedada — a lavratura de termo não supre o exame de local. C cria exigência de autorização judicial que o art. 6º não contém: a apreensão depende da liberação pelos peritos, não de decisão judicial. D admite recolhimento seletivo antes da liberação, alterando o estado das coisas em desacordo com os arts. 6º e 169 do CPP."
+  },
+  {
+    "id": 1318,
+    "alternativas": {
+      "A": "a confissão espontânea do acusado, corroborada por outros elementos informativos colhidos no inquérito, autoriza o juízo a dispensar a realização do exame na fase processual.",
+      "B": "o exame de corpo de delito direto é indispensável, admitindo-se que o indireto seja suprido pela confissão quando os vestígios houverem desaparecido antes da perícia.",
+      "C": "a indispensabilidade do exame restringe-se às infrações de que resulte violência contra a pessoa, sendo facultativo nos demais delitos que deixem vestígios materiais.",
+      "D": "quando a infração deixar vestígios, o exame de corpo de delito, direto ou indireto, é indispensável, não podendo a confissão do acusado supri-lo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O art. 158 do CPP estabelece que, 'quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado' (p. 14-15), o que valida D. A contraria frontalmente o dispositivo: a confissão não supre o exame, ainda que corroborada por outros elementos. B mistura os institutos — o desaparecimento dos vestígios pode abrir espaço à prova testemunhal (art. 167), mas nunca à confissão como substituto do exame. C restringe a exigência aos crimes violentos, quando a norma alcança toda infração que deixe vestígios."
+  },
+  {
+    "id": 1320,
+    "alternativas": {
+      "A": "o escritório é local que sofreu as consequências do crime, pois nele a fraude produziu seus efeitos jurídicos; a estrada e o hotel classificam-se como locais relacionados ao fato.",
+      "B": "o trecho da estrada é local que sofreu as consequências do crime; o escritório, local onde o crime foi planejado; e o hotel, local relacionado ao fato.",
+      "C": "a estrada é local onde aconteceu o fato, por concentrar a materialidade do desvio; o escritório e o hotel são, ambos, locais onde o crime foi planejado.",
+      "D": "o hotel é local onde aconteceu o fato, por nele se consumarem os acertos de propina; a estrada é local relacionado ao fato e o escritório, local onde o crime foi planejado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O trecho da estrada enquadra-se como local que sofreu as consequências do crime (é nele que a perícia constata a materialidade do desvio, comparando o executado com o projeto); o escritório da construtora, como local onde o crime foi planejado (autores e modus operandi); e o hotel, como local relacionado ao fato (informações adicionais, como CFTV e registros de hospedagem). A obtenção de vestígios nos dois últimos frequentemente depende de mandado de busca e apreensão (p. 15-16), o que valida B. A desloca as consequências do crime para o escritório, que é o local de planejamento. C confunde o local que sofreu as consequências com o local do fato e iguala escritório e hotel. D eleva o hotel a local do fato e rebaixa a estrada a local meramente relacionado, invertendo as classificações."
+  },
+  {
+    "id": 1321,
+    "alternativas": {
+      "A": "consiste no registro cronológico do deslocamento físico dos vestígios entre as unidades policiais e periciais, iniciado com o recebimento do material no laboratório.",
+      "B": "constitui encargo funcional do perito criminal que primeiro manuseia o vestígio, respondendo os demais agentes públicos apenas nas hipóteses de dolo comprovado.",
+      "C": "abrange os procedimentos de coleta e acondicionamento realizados na cena do crime, encerrando-se com o ingresso do vestígio na central de custódia da unidade pericial.",
+      "D": "consiste em sucessão de eventos seguros e confiáveis, iniciada na cena do crime, destinada a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A cadeia de custódia é definida como 'conjunto de procedimentos que consiste em uma sucessão de eventos seguros e confiáveis, iniciados na cena do crime, destinados a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça' (p. 17), o que valida D. A reduz o instituto a registro de deslocamento e situa seu início no laboratório, quando ele começa na cena do crime. B concentra a responsabilidade no primeiro perito, quando o cuidado se impõe a todos os policiais que manuseiem evidências. C encerra a cadeia na central de custódia, quando ela se estende até a utilização do vestígio pela Justiça."
+  },
+  {
+    "id": 1322,
+    "alternativas": {
+      "A": "a inexistência de exame de local de crime, que impediu vincular o cartucho ao fato investigado, apesar do resultado positivo do confronto balístico.",
+      "B": "a quebra da cadeia de custódia entre a apreensão da espingarda e sua entrega ao Serviço de Balística Forense, que contaminou o resultado do confronto.",
+      "C": "a nulidade da apreensão da espingarda, realizada na residência do suspeito sem mandado judicial, com a consequente exclusão das provas dela derivadas.",
+      "D": "a coleta das cápsulas por policiais não peritos, em afronta ao art. 169 do CPP, o que retirou a idoneidade do material submetido a confronto."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No caso relatado, o perito de balística, lotado em Brasília, apenas recebera o cartucho e não comparecera ao local, não podendo vinculá-lo ao fato; como não houve exame de local de crime, o cartucho foi excluído como prova (com tudo que dele derivava) e o réu posto em liberdade por falta de provas (p. 18). Isso valida A. B aponta vício na cadeia de custódia da arma, que não foi a causa apontada — o confronto foi positivo e não foi invalidado. C desloca o problema para a legalidade da apreensão, questão que o caso não registra. D transforma a coleta pelos policiais na causa da exclusão, quando o problema determinante foi a ausência do exame pericial do local, e não a autoria da coleta."
+  }
+]

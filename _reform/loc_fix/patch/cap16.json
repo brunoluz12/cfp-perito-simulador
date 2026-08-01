@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1450,
+    "alternativas": {
+      "A": "realizar, antes da coleta, o registro fotográfico, descritivo e topográfico de cada vestígio, mantendo a integridade individual e evitando contaminação por contato ou mistura.",
+      "B": "coletar e acondicionar primeiro os vestígios sujeitos a degradação rápida e documentar todos eles ao final dos trabalhos, com base nas posições previamente assinaladas pelos marcadores numerados.",
+      "C": "agrupar em uma mesma embalagem os vestígios de mesma natureza recolhidos em um mesmo cômodo, o que simplifica o controle e reduz o risco de extravio.",
+      "D": "dispensar o registro topográfico dos vestígios aderidos ao corpo da vítima, cuja posição será documentada no exame cadavérico realizado pelo médico legista."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Antes da coleta, deve-se realizar o registro fotográfico, descritivo e topográfico (localização) de cada vestígio, coletando com material adequado e mantendo a integridade individual, evitando contaminação por contato ou mistura (p. 129). Isso valida A. B inverte a ordem, e os marcadores não substituem o registro do vestígio em posição original. C agrupa vestígios distintos, favorecendo a contaminação cruzada, vedada pela regra da integridade individual. D transfere ao exame cadavérico o registro topográfico que compete ao processamento do local."
+  },
+  {
+    "id": 1451,
+    "alternativas": {
+      "A": "manusear os objetos apenas com pinças metálicas, inclusive os projéteis, evitando por completo o contato com as luvas do perito.",
+      "B": "manusear com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para projéteis, manuseados com luvas ou sacos plásticos.",
+      "C": "manusear com luvas pelas superfícies planas e amplas, onde o contato distribuído reduz a chance de apagar uma impressão latente localizada.",
+      "D": "manusear o objeto com luvas e aplicar o pó revelador ainda no local, antes do acondicionamento, de modo a fixar as impressões papilares e evitar sua perda durante o transporte até o laboratório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Objetos com impressões papilares devem ser manuseados com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para projéteis, que devem ser manuseados com luvas ou sacos plásticos (p. 130). Isso valida B. A generaliza a pinça também para projéteis, contrariando a exceção — a pinça metálica marca o projétil. C manda tocar justamente as superfícies amplas, onde as impressões costumam estar. D antecipa a revelação no local, procedimento que compete ao levantamento papiloscópico e não substitui os cuidados de manuseio."
+  },
+  {
+    "id": 1452,
+    "alternativas": {
+      "A": "a arma deve ser transportada municiada e travada, de modo a preservar a posição original dos cartuchos no tambor ou carregador para o exame balístico.",
+      "B": "havendo mais de uma arma apreendida na cena, todas podem ser acondicionadas em uma mesma caixa rígida, desde que a munição correspondente a cada uma delas siga em envelope apartado e devidamente identificado com o número da respectiva arma.",
+      "C": "cuidar das impressões papilares, evitar sulcos ou arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma, cada qual separadamente com seus cartuchos.",
+      "D": "a alma do cano deve ser protegida com haste de algodão introduzida na boca do cano, que evita o contato com a embalagem durante o transporte."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Deve-se cuidar das impressões papilares, evitar sulcos/arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma arma, cada uma vai separadamente com seus cartuchos (p. 130). Isso valida C. A contraria o transporte desmuniciado, que é regra de segurança. B junta armas distintas e separa a munição da respectiva arma, quebrando o vínculo entre elas. D propõe introduzir haste no cano, exatamente o tipo de contato que pode produzir sulcos e arranhões na alma."
+  },
+  {
+    "id": 1453,
+    "alternativas": {
+      "A": "acondicionar o projétil individualmente, envolto em material macio (como algodão), sem remover os resquícios impregnados, e não misturá-lo com outros objetos metálicos, que poderiam marcá-lo e prejudicar os exames balísticos.",
+      "B": "remover cuidadosamente as incrustações aderidas com escova de cerdas macias, procedimento que preserva as microestriações, e acondicionar o projétil já limpo junto aos estojos recolhidos em um mesmo envelope de papel rígido.",
+      "C": "acondicionar o projétil em frasco plástico rígido com os demais elementos de munição da mesma cena, mantendo o conjunto sob a mesma numeração de lote balístico.",
+      "D": "envolver o projétil em papel-alumínio, que protege as marcas de raiamento do atrito, e acondicioná-lo separadamente dos estojos, sem remover as incrustações."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Projéteis e estojos devem ser acondicionados individualmente, envoltos em material macio (algodão), sem remover os resquícios impregnados, evitando contatos e atritos com instrumentos metálicos; remover incrustações elimina provas e provoca ranhuras que inviabilizam o exame balístico, e misturar objetos metálicos pode marcar o projétil (p. 130-132). Isso valida A. B remove as incrustações — que são vestígio biológico a ser preservado — e ainda mistura com os estojos. C reúne objetos metálicos, que se marcam mutuamente. D acerta a separação, mas o papel-alumínio é material metálico, não macio como o algodão indicado."
+  },
+  {
+    "id": 1455,
+    "alternativas": {
+      "A": "o meio-dia oferece a melhor condição de registro, por eliminar as sombras projetadas sobre o solo e iluminar o vestígio de maneira uniforme, devendo o perito apenas evitar que sua própria sombra alcance a marca no momento da fotografia.",
+      "B": "o ideal é fotografar pela manhã ou no final da tarde, quando os raios incidem em ângulo; ao meio-dia é como usar flash, saturando o vestígio e achatando-o; não se usa flash automático, admitindo-se, em locais escuros, flash a cerca de 45°.",
+      "C": "a incidência da luz é indiferente ao registro de marcas em solo, bastando garantir exposição correta e foco preciso sobre o plano da pegada.",
+      "D": "sob sol forte, deve-se acionar o flash automático para preencher as sombras internas do relevo, técnica que revela detalhes ocultos pela luz direta."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O melhor horário é a manhã ou o final da tarde, quando os raios de sol incidem em ângulo; fotografar ao meio-dia equivale a usar flash, saturando o vestígio e achatando-o; não se deve usar flash automático, admitindo-se, em locais muito escuros, flash a cerca de 45° para acentuar os relevos (p. 132-133). Isso valida B. A trata a ausência de sombras como vantagem, quando é exatamente a sombra oblíqua que revela o relevo. C nega a influência da luz, central nesse registro. D recomenda o flash automático, expressamente desaconselhado — o flash útil é o oblíquo, a 45°, em locais escuros."
+  },
+  {
+    "id": 1456,
+    "alternativas": {
+      "A": "as marcas superficiais devem ser moldadas em gesso e as pressionadas apenas fotografadas com escala, pois o molde destruiria o relevo impresso no solo.",
+      "B": "ambas devem ser moldadas com material adequado, sendo a fotografia com escala exigida apenas quando o molde não puder ser executado no local.",
+      "C": "as marcas superficiais são fotografadas junto com régua/escala (preferencialmente do tipo 'L'); as pressionadas são fotografadas com escala e também moldadas com material adequado, como gesso.",
+      "D": "as marcas pressionadas devem ser preservadas com cobertura e encaminhadas para moldagem por equipe especializada, sendo vedado ao perito de local fotografá-las antes do molde."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Marcas superficiais são fotografadas junto com régua/escala (preferencialmente tipo 'L'); marcas pressionadas são fotografadas com escala e também moldadas com material adequado (ex.: gesso, material odontológico) (p. 131). Isso valida C. A inverte os procedimentos: quem se molda é a marca pressionada, que tem relevo. B generaliza a moldagem às superficiais, que não têm profundidade a moldar, e rebaixa a fotografia a alternativa. D veda a fotografia prévia, quando ela é justamente o primeiro registro, feito antes do molde."
+  },
+  {
+    "id": 1458,
+    "alternativas": {
+      "A": "pode-se usar o mesmo par de luvas na coleta sequencial dos projéteis, desde que a superfície seja higienizada com álcool entre uma coleta e outra.",
+      "B": "não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria os projéteis com diferentes vestígios biológicos; troca-se de luva a cada coleta.",
+      "C": "os projéteis devem ser recolhidos exclusivamente com pinça de pontas revestidas, ficando o uso de luvas restrito ao acondicionamento das embalagens.",
+      "D": "a troca de luvas é exigida apenas entre projéteis recolhidos de vítimas diferentes, sendo dispensável entre os que estejam livres no piso da cena."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os projéteis são coletados com a própria mão usando luvas, mas, onde houver feridos/mortos por projéteis, não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria com diferentes vestígios biológicos — deve-se trocar de luva a cada coleta (p. 133). Isso valida B. A admite reuso com higienização, insuficiente para afastar a transferência de material biológico. C impõe pinça para projéteis, contrariando a orientação de manuseá-los com luvas ou sacos plásticos. D cria distinção que a regra não faz: a troca é a cada coleta."
+  },
+  {
+    "id": 1459,
+    "alternativas": {
+      "A": "as inscrições devem ser feitas em ponto discreto do próprio vestígio, prática que assegura o vínculo mesmo se a embalagem for substituída.",
+      "B": "a etiquetagem individual pode ser substituída pelo registro fotográfico do vestígio ao lado do marcador numerado, que já o vincula ao croqui do local.",
+      "C": "deve-se evitar marcação ou inscrição no corpo do próprio vestígio, fixando, sempre que possível, as etiquetas nos envelopes ou recipientes de acondicionamento.",
+      "D": "basta numerar sequencialmente as embalagens, remetendo os demais dados ao formulário de local, que centraliza tipo, origem e responsável pela coleta."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Deve-se evitar marcação ou inscrição no corpo do próprio vestígio, para preservar sua integridade, fixando, sempre que possível, as etiquetas/inscrições nos envelopes ou recipientes de acondicionamento (p. 134). Isso valida C. A justifica a inscrição no vestígio pela segurança do vínculo, mas isso compromete sua integridade — é justamente o que se deve evitar. B substitui a etiqueta pelo registro fotográfico, que não acompanha a embalagem. D esvazia a etiqueta dos dados que devem constar dela (tipo de vestígio, local, coletor, unidade)."
+  }
+]

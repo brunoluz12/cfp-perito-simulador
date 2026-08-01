@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1354,
+    "enunciado": "Sobre a descrição narrativa do local de crime, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Deve ser realizada no próprio local de crime, enquanto se desenvolve o processamento da cena.",
+      "B": "Segue ordem lógica do geral para o específico, partindo do aspecto macroscópico do ambiente até os particulares de cada vestígio.",
+      "C": "Pode apoiar-se em registro de áudio ou de vídeo como auxílio à narrativa.",
+      "D": "Concluído o processamento, admite-se completá-la de memória na sede da unidade, desde que a redação ocorra no mesmo dia dos exames."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A alternativa D é a incorreta: a descrição narrativa nunca deve ser feita de memória, posteriormente — detalhes se perdem e a memória é falha (p. 39); não há exceção para o 'mesmo dia'. As demais são verdadeiras: a descrição é feita no próprio local, durante o processamento (A); segue ordem lógica do geral para o específico, do macroscópico ao particular (B); e pode usar áudio ou vídeo como apoio (C)."
+  },
+  {
+    "id": 1355,
+    "alternativas": {
+      "A": "evitar que a escala, mal posicionada, oculte outros vestígios menores que só venham a ser percebidos depois, ao se analisar a fotografia.",
+      "B": "documentar o vestígio em seu estado natural, pois a introdução de objeto estranho ao contexto pode ser questionada em juízo como alteração da cena.",
+      "C": "compensar eventuais distorções ópticas causadas pela proximidade da lente, que a presença da régua de escala tende a acentuar.",
+      "D": "permitir a estimativa do tamanho do vestígio por comparação com elementos do próprio ambiente, dispensando o uso da régua de referência."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O close sem escala é recomendado porque já houve casos de a escala ser colocada indevidamente sobre outros vestígios menores, que só foram percebidos depois ao se analisar a foto; assim, a foto sem escala protege contra essa ocultação, enquanto a com escala permite estimar o tamanho (p. 40-41). Isso valida A. B inventa um problema jurídico: a escala é instrumento técnico consagrado, não alteração da cena. C atribui à escala efeito óptico que ela não produz. D transfere ao close sem escala a função métrica, que é justamente a do close com escala."
+  },
+  {
+    "id": 1356,
+    "alternativas": {
+      "A": "o conjunto das fotografias contextualizadas e dos closes de cada vestígio, ordenado segundo a sequência da busca realizada na cena.",
+      "B": "a seção do laudo pericial em que as imagens são inseridas com as respectivas legendas descritivas e indicações de escala.",
+      "C": "uma tabela/formulário de controle que dá ao fotógrafo a certeza de que todos os vestígios foram fotografados de maneira adequada.",
+      "D": "o arquivo digital bruto preservado como matriz das imagens, garantia de autenticidade em caso de questionamento judicial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O registro fotográfico é uma tabela/formulário de controle que dá ao fotógrafo a certeza de que todos os vestígios foram fotografados adequadamente, ajudando a descrever, fotografar e controlar a coleta de cada vestígio, evitando confusão em locais com muitas fotos (p. 41). Isso valida C. A confunde o instrumento de CONTROLE com o próprio acervo de fotografias produzido. B o confunde com a parte ilustrativa do laudo. D o confunde com a preservação dos arquivos originais — tema de autenticidade, e não o formulário de controle tratado pela disciplina."
+  },
+  {
+    "id": 1357,
+    "alternativas": {
+      "A": "Triangulação, linha base, quadrante e coordenadas polares.",
+      "B": "Triangulação, coordenadas cartesianas, coordenadas polares e linha base.",
+      "C": "Coordenadas cartesianas, linha cruzada, coordenadas polares e espiral.",
+      "D": "Linha base, triangulação, coordenadas cartesianas e panorâmica."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os quatro métodos de medição para posicionar vestígios no croqui são triangulação, coordenadas cartesianas, coordenadas polares e linha base (p. 43-46), o que valida B. As demais alternativas contaminam a lista com termos de outras classificações: 'quadrante' (A), 'linha cruzada' (C) e 'espiral' (C) são padrões de BUSCA do Cap. 4, e 'panorâmica' (D) é um enquadramento fotográfico — nenhum deles é método de medição do croqui."
+  },
+  {
+    "id": 1358,
+    "alternativas": {
+      "A": "empregar a triangulação, substituindo o segundo referencial fixo por um ponto móvel georreferenciado, cuja posição é registrada por receptor de satélite no início e no fim da varredura, o que permite reproduzir as medidas em diligência posterior.",
+      "B": "empregar o método da linha base, estendendo uma trena entre o ponto de acesso e o centro da cena e medindo os vestígios ortogonalmente a ela.",
+      "C": "empregar coordenadas cartesianas, projetando eixos imaginários alinhados aos pontos cardeais com auxílio de bússola e trena.",
+      "D": "empregar coordenadas polares, posicionando cada vestígio por distância e ângulo a partir de um referencial, que pode ser artificial — como uma haste enterrada, localizável depois por detector de metais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As coordenadas polares são indicadas para áreas abertas em que é difícil estabelecer um segundo referencial, localizando o vestígio por distância e ângulo a partir de um único referencial; na falta de um natural, cria-se um artificial, como uma haste metálica enterrada, depois localizável por detector de metais, medindo-se o ângulo a partir do Norte ou de uma linha recriável (p. 45). Isso valida D. A desnatura a triangulação, que exige dois referenciais FIXOS — um ponto móvel não permite reproduzir as medidas. B emprega a linha base fora de sua indicação (vestígios concentrados em uma mesma direção) e ainda depende de dois pontos. C exige eixos a partir de paredes ou estruturas equivalentes, próprios de áreas fechadas, e não de projeções imaginárias."
+  },
+  {
+    "id": 1359,
+    "alternativas": {
+      "A": "posiciona o vestígio a partir de dois referenciais fixos: uma triangulação basta para objetos pequenos; duas, uma em cada extremidade, fornecem também o tamanho dos objetos maiores.",
+      "B": "posiciona o vestígio pela interseção de três medidas tomadas de um mesmo referencial com trena de longo alcance, o que o torna indicado para cenas com referencial único.",
+      "C": "aplica-se preferencialmente a áreas abertas e exige o registro do ângulo formado entre as linhas de medida, tomado com bússola a partir do Norte ou de linha recriável.",
+      "D": "por demandar um único executor e um único referencial fixo, é considerado o método mais simples, sendo indicado quando a equipe disponível é reduzida."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A triangulação posiciona o vestígio a partir de dois referenciais fixos; é muito usada pela simplicidade e exige no mínimo duas pessoas; para objetos pequenos basta uma triangulação, e para objetos de tamanho considerável fazem-se duas (uma em cada extremidade), fornecendo posição, localização e o tamanho do vestígio (p. 43-44). Isso valida A. B inventa uma 'interseção de três medidas' de um só referencial — a essência do método são DOIS referenciais. C mistura características das coordenadas polares (ângulo, Norte, bússola), estranhas à triangulação. D erra duas vezes: o método exige dois referenciais e no mínimo duas pessoas."
+  },
+  {
+    "id": 1361,
+    "alternativas": {
+      "A": "ser indicado para áreas extensas sem referenciais naturais, com uma única trena estendida entre dois pontos artificiais e medidas tomadas em qualquer ângulo registrado.",
+      "B": "ser indicado para vestígios concentrados em uma mesma direção, com duas trenas — uma como linha base e outra para medir, sempre ortogonalmente, a distância do vestígio até ela.",
+      "C": "exigir dois referenciais fixos permanentes e no mínimo duas pessoas, fornecendo, além da posição, o tamanho dos vestígios de maiores dimensões.",
+      "D": "ser aplicável a ambientes internos, adotando-se o rodapé de uma parede como linha de referência e a parede contígua como eixo ortogonal de medição."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O método da linha base é usado quando há concentração de vestígios em uma mesma direção, empregando-se duas trenas: uma como linha base e a outra para medir a distância do vestígio até ela, sempre ortogonalmente (em ângulo reto) (p. 46). Isso valida B. A erra a indicação (que não é a ausência de referenciais, mas a concentração direcional dos vestígios) e admite medidas em qualquer ângulo, quando a medição é sempre ortogonal. C descreve a triangulação. D descreve as coordenadas cartesianas, próprias de ambientes internos com paredes como eixos."
+  },
+  {
+    "id": 1362,
+    "alternativas": {
+      "A": "Cabe ao perito do croqui preencher o registro fotográfico, certificando-se de que todos os vestígios foram fotografados antes da coleta.",
+      "B": "Cabe ao perito incumbido de catalogar tomar as medidas de posicionamento dos vestígios, solicitando apoio de outro integrante para a triangulação.",
+      "C": "Cabe ao perito fotógrafo realizar a busca preliminar da cena, definindo a rota de entrada e saída a ser utilizada pela equipe.",
+      "D": "Cabe ao PCF chefe da equipe estabelecer a cadeia de comando, fazer a descrição narrativa, realizar a busca preliminar e decidir quanto à liberação do local."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Cabe ao PCF chefe da equipe estabelecer contatos e cadeia de comando, anotar dados do recebimento do local, preencher o formulário de local, fazer a descrição narrativa, realizar a busca preliminar, verificar condições de segurança, organizar reuniões periódicas e decidir quanto à liberação, entregando o local às autoridades (p. 46-47). Isso valida D. A atribui ao perito do croqui o controle das fotografias, tarefa do fotógrafo. B atribui ao catalogador as medidas de posicionamento, tarefa do perito do croqui. C atribui ao fotógrafo a busca preliminar, que é do chefe da equipe."
+  }
+]

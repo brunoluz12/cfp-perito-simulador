@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1319,
+    "alternativas": {
+      "A": "local que sofreu as consequências do crime.",
+      "B": "local onde o crime foi planejado e arquitetado.",
+      "C": "local relacionado ao fato investigado.",
+      "D": "local onde aconteceu o fato criminoso."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O 'local que sofreu as consequências do crime' é aquele em que o crime não ocorre necessariamente, mas cujos efeitos são percebidos e registrados, sendo importante na constatação da materialidade — como no desvio de verbas de uma obra, em que a perícia constata se a estrada foi executada conforme o projeto (p. 15). Isso valida A. B (local planejado) fornece dados sobre autores e modus operandi. C (local relacionado) reúne informações adicionais, como registros e imagens. D (local onde aconteceu o fato) é o local típico, com grande quantidade de vestígios da execução."
+  },
+  {
+    "id": 1325,
+    "alternativas": {
+      "A": "dos peritos criminais federais, que os executam no curso do processamento pericial do local de crime.",
+      "B": "dos papiloscopistas policiais federais, devendo ser realizados de forma coordenada com a equipe pericial.",
+      "C": "do delegado de polícia federal, a quem cabe distribuir a tarefa entre os servidores presentes na cena.",
+      "D": "dos agentes de polícia federal designados para a equipe de isolamento e preservação da área do crime."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A IN nº 188-DG/PF/2020 atribui aos papiloscopistas policiais federais a responsabilidade pelos exames papiloscópicos e pela coleta e levantamento de fragmentos papiloscópicos nos locais de crime, 'devendo ser realizadas de forma coordenada com a equipe pericial' (p. 20). Isso valida B. A transfere a atribuição ao perito criminal, responsável pelo processamento do local, mas não pelo levantamento papiloscópico. C converte a atribuição normativa em decisão discricionária do delegado. D atribui a tarefa aos agentes, cuja atuação se concentra no isolamento, na preservação e nas entrevistas."
+  },
+  {
+    "id": 1428,
+    "alternativas": {
+      "A": "Difusão, osmose, condução e convecção térmica.",
+      "B": "Combustão, oxidação, corrosão e detonação.",
+      "C": "Inalação, contato com a pele, ingestão e injeção.",
+      "D": "Absorção, adsorção, volatilização e sublimação."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As rotas de exposição aos agentes químicos são inalação (sistema respiratório), contato com a pele (absorção), ingestão (boca) e injeção (perfuração com acesso direto à corrente sanguínea) (p. 94-95). Isso valida C. A lista fenômenos físicos de transporte de matéria e energia. B lista tipos de reação e de risco associados às substâncias, não vias de entrada no organismo. D lista processos físico-químicos de mudança de fase e de fixação, também estranhos ao conceito de rota de exposição."
+  },
+  {
+    "id": 1457,
+    "alternativas": {
+      "A": "A escala é obrigatória na fotografia; a localização (ex.: coordenada de GPS) e o nome do fotógrafo são elementos facultativos.",
+      "B": "A coordenada de GPS é obrigatória por vincular a marca ao local; a escala pode ser suprida por medições anotadas em croqui.",
+      "C": "O nome do fotógrafo é obrigatório para fins de cadeia de custódia; a escala é dispensável quando se emprega câmera digital calibrada.",
+      "D": "Nenhum elemento é obrigatório, cabendo ao perito definir o que incluir conforme as condições encontradas no local do exame."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A escala tem que constar da fotografia, sendo elemento obrigatório; a localização do vestígio (por exemplo, a coordenada de GPS) e o nome do fotógrafo são facultativos (p. 133). Isso valida A. B inverte a obrigatoriedade e supõe que o croqui substitui a escala na própria imagem, o que não ocorre no confronto. C torna obrigatório um dado facultativo e dispensa a escala sob argumento inexistente — a câmera digital não fornece referência métrica. D nega a obrigatoriedade da escala, único elemento exigido."
+  },
+  {
+    "id": 1465,
+    "alternativas": {
+      "A": "coletar um único fragmento representativo, uma vez que todos os pedaços provenientes de uma mesma janela apresentam composição idêntica.",
+      "B": "coletar exemplares representativos de todas as variações da amostra conhecida e, no caso do vidro, marcar a orientação (face interna/externa).",
+      "C": "acondicionar os fragmentos-padrão no mesmo invólucro dos fragmentos questionados, de modo a facilitar o confronto direto em laboratório.",
+      "D": "dispensar a coleta de padrões quando os fragmentos questionados forem suficientes para a caracterização da composição do vidro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "As amostras-padrão devem ser representativas de todas as variações da amostra conhecida; no caso de vidro de janela, deve-se marcar a orientação, distinguindo a face interna da externa (p. 140-141). Isso valida B. A parte da premissa falsa de homogeneidade e coleta um só fragmento, ignorando as variações. C reúne padrão e questionado no mesmo invólucro, comprometendo o confronto por contaminação e confusão de origem. D dispensa o padrão, sem o qual não há termo de comparação."
+  },
+  {
+    "id": 1472,
+    "alternativas": {
+      "A": "furto qualificado (rompimento de obstáculo), roubo e dano.",
+      "B": "roubo majorado pelo emprego de arma, furto qualificado e dano.",
+      "C": "dano qualificado, roubo majorado e furto por escalada.",
+      "D": "furto simples, dano qualificado e roubo com grave ameaça."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A subtração mediante arrombamento, sem violência à pessoa, é furto qualificado pelo rompimento de obstáculo (art. 155, § 4º); a subtração sob grave ameaça com arma é roubo (art. 157); e a destruição de coisa alheia sem subtração é dano (art. 163) (p. 146-147). Isso valida A. B inverte as duas primeiras cenas. C classifica o arrombamento como dano, ignorando a subtração dos equipamentos. D trata o furto como simples, quando houve rompimento de obstáculo, e inverte as duas últimas cenas."
+  },
+  {
+    "id": 1473,
+    "alternativas": {
+      "A": "roubo majorado pelo emprego de arma de fogo, com pena de 6 a 12 anos.",
+      "B": "latrocínio (roubo qualificado pelo resultado morte), com pena de 24 a 30 anos.",
+      "C": "homicídio qualificado por motivo torpe, com pena de 12 a 30 anos.",
+      "D": "roubo simples em concurso material com o crime de homicídio doloso."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Quando da violência empregada no roubo resulta morte, configura-se o latrocínio, roubo qualificado pelo resultado (art. 157, § 3º), com pena de 24 a 30 anos (p. 147). Isso valida B. A corresponde à majorante pelo emprego de arma, sem o resultado morte. C desloca o fato para o homicídio qualificado, quando a morte decorre da violência do roubo e integra o próprio tipo qualificado. D fraciona a conduta em concurso material, quando a lei prevê figura única qualificada pelo resultado."
+  },
+  {
+    "id": 1474,
+    "alternativas": {
+      "A": "subtrair coisa alheia móvel mediante fraude ou destreza do agente.",
+      "B": "destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo.",
+      "C": "subtrair coisa alheia móvel mediante grave ameaça ou violência à pessoa.",
+      "D": "apoderar-se de coisa alheia achada, deixando de restituí-la ao dono ou de comunicar o achado à autoridade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O dano (art. 163) consiste em destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo — entendendo a doutrina majoritária que não há dano culposo (p. 147). Isso valida B. A descreve o furto qualificado pela fraude ou destreza. C descreve o roubo (art. 157). D descreve a apropriação de coisa achada, tipo penal diverso, que também não se confunde com o dano."
+  },
+  {
+    "id": 1481,
+    "alternativas": {
+      "A": "distingue a ferida contusa da ferida incisa (cortante), que apresenta bordas regulares e sem pontes de tecido.",
+      "B": "identifica a ferida incisa produzida por instrumento cortante de gume afiado sobre plano ósseo subjacente.",
+      "C": "é característica exclusiva das feridas perfuro-incisas com aspecto em 'casa de botão' e extremidade angular.",
+      "D": "indica a ferida punctória produzida por instrumento perfurante de pequeno calibre, como agulha ou estilete."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A ferida contusa apresenta bordas irregulares e pontes de tecido no fundo, sinal que a distingue da ferida incisa (cortante), de bordas regulares e nítidas, sem pontes de tecido (p. 158-160). Isso valida A. B atribui as pontes de tecido à ferida incisa, cuja característica é justamente a ausência delas. C e D transferem o sinal para as feridas perfuro-incisa e punctória, produzidas por penetração e igualmente desprovidas de pontes de tecido."
+  },
+  {
+    "id": 1492,
+    "alternativas": {
+      "A": "Preparação, chegada ao local, busca completa, coleta de vestígios e liberação da área.",
+      "B": "Local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação.",
+      "C": "Isolamento, documentação, coleta, elaboração do laudo e arquivamento do dossiê.",
+      "D": "Busca, recuperação, necropsia, reconhecimento visual e entrega dos corpos às famílias."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O processo DVI é composto por cinco etapas principais: local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação (p. 179). Isso valida B. A corresponde às etapas do processamento geral de um local de crime, tratadas no Cap. 4. C descreve um fluxo genérico de documentação pericial. D é a mais sedutora, mas insere o reconhecimento visual — que não é procedimento de identificação e é contraindicado em DVI — no lugar das etapas AM e de reconciliação."
+  },
+  {
+    "id": 1500,
+    "alternativas": {
+      "A": "(i) naturais; (ii) mistos; (iii) não naturais/antropogênicos.",
+      "B": "(i) mistos; (ii) naturais; (iii) não naturais/antropogênicos.",
+      "C": "(i) naturais; (ii) não naturais/antropogênicos; (iii) mistos.",
+      "D": "(i) não naturais/antropogênicos; (ii) mistos; (iii) naturais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quanto à natureza/causa, são naturais os desastres decorrentes de fenômenos da natureza sem interferência humana direta (terremoto, tsunami); não naturais ou antropogênicos os resultantes de ação ou omissão humana (atentado terrorista, rompimento de barragem); e mistos aqueles em que fatores naturais são agravados por intervenção humana (deslizamento agravado por ocupação irregular) (p. 180). Isso valida C. A acerta o primeiro item, mas troca os dois últimos. B e D deslocam os terremotos e tsunamis para as categorias mista e antropogênica, quando são o exemplo clássico de desastre natural."
+  },
+  {
+    "id": 1503,
+    "alternativas": {
+      "A": "o prazo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos.",
+      "B": "o prazo é de 30 dias, improrrogável, contado da data da requisição feita pela autoridade policial.",
+      "C": "o prazo é de 10 dias, improrrogável, sob pena de responsabilidade funcional do perito designado.",
+      "D": "não há prazo legal, sujeitando-se a entrega do laudo à conveniência da unidade pericial responsável."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O art. 160, parágrafo único, do CPP estabelece que o prazo para elaboração do laudo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos (p. 188). Isso valida A. B erra o prazo e o regime. C acerta o prazo, mas o declara improrrogável — a prorrogação excepcional é justamente o que o dispositivo autoriza. D nega a existência de prazo legal, quando ele está expresso no Código."
+  },
+  {
+    "id": 1505,
+    "alternativas": {
+      "A": "o exame será realizado preferencialmente em dia útil e no horário de expediente da unidade pericial responsável.",
+      "B": "o exame pode ser feito em qualquer dia e a qualquer hora, inclusive aos sábados, domingos, feriados e à noite.",
+      "C": "o exame realizado fora do horário forense depende de autorização judicial específica, salvo em caso de flagrante.",
+      "D": "o exame somente pode ser realizado depois de decorridas 24 horas da ocorrência do fato investigado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O art. 161 do CPP autoriza que o exame de corpo de delito seja feito em qualquer dia e a qualquer hora, inclusive sábados, domingos, feriados e à noite, o que é importante porque, quanto mais próxima da ocorrência, maior a chance de sucesso da diligência (p. 188-189). Isso valida B. A cria preferência por dia útil e expediente, incompatível com a urgência do exame. C condiciona o exame noturno à autorização judicial, exigência inexistente. D impõe carência de 24 horas, exatamente o oposto da lógica de atuar o quanto antes."
+  },
+  {
+    "id": 1506,
+    "alternativas": {
+      "A": "o Diretor-Geral da Polícia Federal, a quem se dirigem todas as requisições de exames periciais.",
+      "B": "o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias.",
+      "C": "o delegado de polícia federal titular da unidade em que tramita o inquérito policial correspondente.",
+      "D": "o perito criminal federal mais antigo lotado na unidade responsável pela realização do exame."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No âmbito da PF, o 'diretor da repartição' a que se refere o art. 178 do CPP é o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias — sendo os exames do Instituto Nacional de Criminalística requisitados ao seu diretor (p. 187). Isso valida B. A centraliza no Diretor-Geral requisições que se dirigem às chefias das unidades periciais. C confunde a autoridade requisitante com o dirigente da repartição destinatária. D elege critério de antiguidade, estranho à estrutura de chefia prevista."
+  }
+]

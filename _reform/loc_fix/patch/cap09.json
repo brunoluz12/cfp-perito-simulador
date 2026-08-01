@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1391,
+    "alternativas": {
+      "A": "assinar digitalmente o arquivo com certificado do perito, vinculando a imagem ao seu autor e à data da captura.",
+      "B": "cifrar o conteúdo do arquivo com chave pública, de modo que apenas a autoridade destinatária possa acessá-lo.",
+      "C": "registrar, nos metadados da imagem, o histórico de edições realizadas, permitindo reverter o arquivo ao estado original.",
+      "D": "gerar, para cada arquivo, uma sequência individualizadora de caracteres, garantindo a integridade dos dados e a cadeia de custódia."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A função hash é um algoritmo de autenticação digital que gera, para cada arquivo, uma sequência individualizadora de caracteres, com o objetivo de garantir a integridade dos dados e a cadeia de custódia (p. 75). Isso valida D. A confunde hash com assinatura digital — o hash não vincula autor nem exige certificado. B confunde hash com criptografia: o hash não cifra o conteúdo, apenas o identifica de forma única. C confunde hash com controle de versões em metadados; o hash não registra nem reverte edições, apenas denuncia que houve alteração."
+  },
+  {
+    "id": 1392,
+    "alternativas": {
+      "A": "gerar sequência hexadecimal cujo comprimento cresce com o tamanho do arquivo, o que permite estimar o volume dos dados originais.",
+      "B": "produzir 256 caracteres hexadecimais (64 bits), com variação proporcional à extensão da modificação sofrida pelo arquivo.",
+      "C": "transformar qualquer arquivo em sequência única e fixa de 64 caracteres hexadecimais (256 bits) — alterado um único bit, o hash muda completamente.",
+      "D": "gerar hashes idênticos para cópias de um mesmo arquivo salvas em formatos diferentes, o que permite rastrear as conversões de JPEG para TIFF a partir do original."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O SHA-256 transforma qualquer arquivo em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits); se um único bit muda, o hash muda completamente, o que prova a integridade (p. 75). Isso valida C. A contraria o tamanho fixo da saída, que independe do arquivo. B inverte os números (são 64 caracteres/256 bits) e supõe variação proporcional, quando qualquer alteração, mínima que seja, muda o hash por inteiro. D é falsa porque a conversão de formato altera os bits do arquivo — e arquivos diferentes geram hashes completamente diferentes."
+  },
+  {
+    "id": 1393,
+    "alternativas": {
+      "A": "reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando-o no laudo.",
+      "B": "compactar a pasta de imagens em arquivo único e consignar no laudo apenas o hash do compactado, preservando os originais fora do dossiê do exame.",
+      "C": "calcular o hash da pasta diretamente pelo sistema operacional, que gera identificador único a partir dos nomes e das datas dos arquivos.",
+      "D": "inserir no laudo o hash somente das imagens selecionadas para ilustração, arquivando as demais no dossiê sem verificação individual."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A alternativa prática sugerida é reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando este no laudo (p. 75). Isso valida A. B não é a solução da disciplina e deixa os originais fora do dossiê, enfraquecendo a salvaguarda. C descreve mecanismo inexistente: hash calcula-se sobre o conteúdo de arquivos, não sobre nomes e datas de pastas. D deixa a maior parte do acervo sem garantia de integridade, exatamente o que a solução do .txt evita."
+  },
+  {
+    "id": 1394,
+    "alternativas": {
+      "A": "preserva os dados originais de luz e cor capturados pelo sensor, característica que lhe rendeu o apelido de 'negativo digital'.",
+      "B": "é o mais comum para fotografia e gera arquivos leves por comprimir a imagem, mas, a cada novo salvamento, há nova compressão e a qualidade diminui cumulativamente.",
+      "C": "comprime a imagem por algoritmo sem perda de informação (lossless), motivo pelo qual salvamentos sucessivos do mesmo arquivo não afetam a qualidade final da fotografia.",
+      "D": "gera arquivos pesados voltados à impressão e à edição profissional, preservando todos os detalhes da captura original."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O JPEG é o formato mais comum para fotografia, gera arquivos leves por comprimir a imagem (com pequena perda), mas a cada salvamento há nova compressão, diminuindo a qualidade cumulativamente (p. 75-76). Isso valida B. A descreve o RAW, o 'negativo digital'. C erra a natureza da compressão do JPEG, que é COM perda — e é justamente por isso que salvamentos sucessivos degradam a imagem. D descreve o TIFF, formato pesado de impressão e edição."
+  },
+  {
+    "id": 1395,
+    "alternativas": {
+      "A": "o TIFF preserva os dados brutos do sensor sem qualquer processamento ou compressão, ao passo que o RAW é o formato de edição por excelência, aberto e padronizado entre as fabricantes de câmeras, o que dispensa software proprietário.",
+      "B": "ambos aplicam compressão sem perda de dados, distinguindo-se porque o RAW admite edição não destrutiva e o TIFF grava as alterações diretamente sobre os dados da captura.",
+      "C": "o RAW, por já sair processado pela própria câmera, dispensa software específico, enquanto o TIFF, formato proprietário, exige o aplicativo da fabricante para ser aberto.",
+      "D": "o TIFF destina-se a impressão e edição de alta qualidade, com arquivos pesados que preservam os detalhes; o RAW guarda os dados originais de luz e cor, sem processamento nem compressão, em formatos muitas vezes proprietários."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O TIFF é usado por profissionais para impressão e edição de alta qualidade, preservando todos os detalhes, com arquivos pesados; o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, sendo muitas vezes proprietário (p. 76). Isso valida D. A troca as características dos dois formatos entre si — e o RAW costuma ser proprietário, não padronizado. B atribui compressão a ambos e inventa distinção de edição destrutiva alheia ao texto. C inverte tudo: o RAW é que não é processado pela câmera e costuma exigir software específico por ser proprietário."
+  },
+  {
+    "id": 1396,
+    "alternativas": {
+      "A": "criar, para cada exame, um dossiê com todos os arquivos de imagens, no computador e/ou em pasta de rede, útil para laudo complementar e como salvaguarda diante de contestações.",
+      "B": "arquivar as imagens efetivamente inseridas no laudo com os respectivos hashes e descartar as demais capturas, cuja guarda poderia fragilizar a versão oficial do exame em eventual contestação.",
+      "C": "transferir os arquivos originais à central de custódia junto com os vestígios físicos, mantendo na unidade apenas cópias de trabalho em baixa resolução.",
+      "D": "gravar os arquivos em mídia óptica anexada aos autos, prática que transfere ao juízo a responsabilidade pela guarda e dispensa cópia na unidade pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os arquivos do registro fotográfico não devem ser descartados; é desejável que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda em caso de contestação (p. 76). Isso valida A. B descarta as capturas não utilizadas, justamente as que podem ser necessárias em laudo complementar ou contestação. C e D deslocam a guarda para a central de custódia ou para os autos, quando a orientação é manter o dossiê na própria unidade, à disposição do perito."
+  }
+]

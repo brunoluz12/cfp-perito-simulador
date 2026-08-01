@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1405,
+    "alternativas": {
+      "A": "digitalizar ambientes por triangulação fotográfica assistida por laser, em que o feixe emitido serve apenas de referência métrica para o software de fotogrametria que reconstrói a cena.",
+      "B": "digitalizar ambientes e objetos emitindo feixes de laser e medindo propriedades do retorno, com grande alcance, o que os torna adequados a grandes ambientes e cenas de crime.",
+      "C": "capturar simultaneamente geometria e cor com um único sensor laser policromático, dispensando o registro fotográfico complementar da cena.",
+      "D": "medir a cena por varredura contínua de curto alcance, sendo indicados para objetos pequenos e detalhes finos, como marcas de ferramentas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os escâneres a laser digitalizam ambientes e objetos emitindo feixes de laser e medindo diferentes propriedades do retorno (tempo de voo ou diferença de fase); têm grande alcance, sendo adequados à captura de grandes ambientes e cenas de crime, como edifícios e pontes inteiras (p. 81). Isso valida B. A subordina o laser à fotogrametria, misturando técnica ativa e passiva. C inventa sensor policromático — o laser é monocromático, e a cor vem de fotografias tiradas pelo equipamento. D inverte a característica central: o alcance é grande, e os detalhes finos são o ponto fraco da técnica."
+  },
+  {
+    "id": 1406,
+    "alternativas": {
+      "A": "o estacionário (fixado em tripé) gera nuvens de maior qualidade, porém é mais lento; o cinemático (na mão ou em robôs) é mais versátil e rápido, mas com qualidade inferior.",
+      "B": "o cinemático, por capturar em movimento, elimina as sombras de oclusão e produz nuvens mais completas e de maior qualidade que o estacionário.",
+      "C": "o estacionário destina-se aos ambientes externos e o cinemático aos internos, critério de natureza espacial que define a escolha do equipamento independentemente da qualidade pretendida.",
+      "D": "ambos geram nuvens de qualidade equivalente, diferindo apenas no alcance, que é maior no cinemático por acompanhar o deslocamento do operador."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O escâner estacionário, preso a tripé, gera nuvens de maior qualidade, porém é mais lento; o cinemático, transportado na mão ou em plataformas automatizadas (robôs), é mais versátil e rápido, mas com qualidade inferior (p. 81-82). Isso valida A. B usa argumento plausível (movimento reduz oclusões), mas conclui errado: a qualidade do cinemático é INFERIOR à do estacionário. C inventa critério de ambiente interno/externo que a disciplina não estabelece. D nega a diferença de qualidade, que é justamente o trade-off central entre os dois tipos."
+  },
+  {
+    "id": 1407,
+    "alternativas": {
+      "A": "georreferenciar a nuvem de pontos, vinculando cada ponto a coordenadas geográficas reais obtidas por GNSS no momento da captura.",
+      "B": "documentar em ata os parâmetros empregados em cada tomada — posição, altura e resolução do escâner —, de modo a garantir a reprodutibilidade do exame por outro perito.",
+      "C": "validar a nuvem de pontos por comparação com medidas tomadas por trena na cena, certificando a exatidão métrica do modelo.",
+      "D": "alinhar em uma única nuvem de pontos os diferentes pontos de vista capturados; equipamentos modernos o fazem automaticamente, e os antigos exigiam alvos no ambiente."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O 'registro' é o alinhamento, em uma única nuvem de pontos, dos diferentes pontos de vista capturados; equipamentos/softwares modernos fazem o registro automaticamente ao reposicionar o escâner, ao passo que os antigos exigiam a instalação de alvos no ambiente (p. 82). Isso valida D. A confunde registro com georreferenciamento por GNSS, que não é o conceito tratado. B o confunde com documentação administrativa dos parâmetros da tomada. C o confunde com validação métrica por conferência manual, alheia ao processo de alinhamento das capturas."
+  },
+  {
+    "id": 1408,
+    "alternativas": {
+      "A": "basta elevar o escâner acima da altura dos móveis, pois a tomada zenital única cobre os espaços que ficariam ocultos aos feixes horizontais.",
+      "B": "as áreas de sombra deixadas pelos móveis podem ser complementadas por interpolação do software de processamento, prática aceita na documentação pericial por preservar a geometria geral da cena registrada.",
+      "C": "como o laser não atravessa objetos, são necessárias várias capturas de pontos de vista diferentes, depois combinadas; o equipamento também tira fotos coloridas para colorir a nuvem com as cores reais.",
+      "D": "as capturas adicionais devem ser feitas com luz estruturada, único meio de registrar as regiões ocultas às tomadas do escâner a laser."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Como o laser não atravessa objetos, ambientes complexos exigem várias capturas de pontos de vista diferentes, depois combinadas (registro); apesar de o laser ser monocromático, o equipamento também tira fotos coloridas para colorir a nuvem de pontos com as cores reais (p. 81-82). Isso valida C. A supõe que uma tomada elevada elimina as oclusões, o que não ocorre em cena com móveis e divisórias — persistem áreas de sombra. B propõe 'preencher' as sombras por interpolação, criando dados que não foram capturados, inaceitável em documentação pericial. D inventa exigência de luz estruturada: a solução são novas tomadas do próprio escâner."
+  },
+  {
+    "id": 1409,
+    "alternativas": {
+      "A": "a extração automática, por software de processamento, da dinâmica do evento a partir da nuvem de pontos, que passa a integrar as conclusões do laudo sem necessidade de análise do perito.",
+      "B": "a sobreposição de imagens de CFTV ao modelo 3D, para calcular a altura de suspeitos e medir trajetórias, além da reconstrução de trajetórias de disparos para estimar a posição do atirador.",
+      "C": "a certificação métrica do croqui tradicional, que passa a ser peça obrigatória gerada diretamente da nuvem de pontos registrada.",
+      "D": "a detecção de vestígios latentes, como resíduos biológicos não visíveis, a partir da assinatura espectral do retorno do feixe."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Entre as vantagens estão a reconstrução da cena a partir de imagens de CFTV sobrepostas ao modelo 3D (cálculo de altura de suspeitos, medição de trajetórias) e a reconstrução de trajetórias de disparos para determinar a posição de origem do atirador (p. 82-83). Isso valida B. A elimina a análise do perito, que o 3D instrumenta, mas não substitui. C inventa obrigatoriedade de croqui gerado da nuvem. D atribui ao escâner capacidade de detectar vestígios latentes por espectro, função que ele não tem — o equipamento documenta geometria, não revela material biológico."
+  },
+  {
+    "id": 1410,
+    "alternativas": {
+      "A": "fornece medidas de comprimento e área diretamente do modelo, exigindo, para volumes, o fechamento manual da malha por especialista.",
+      "B": "fornece medidas com validade meramente orientativa, devendo as dimensões consignadas em laudo ser conferidas por trena no local.",
+      "C": "permite medições lineares precisas, mas a precisão decai em alvos irregulares, que exigem aproximação por sólidos geométricos regulares.",
+      "D": "permite obter, de forma trivial a partir do modelo 3D, medidas de comprimento, área e volume, inclusive de alvos irregulares como buracos e rochas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O modelo 3D permite obter, de forma trivial, medidas de comprimento, área e volume, inclusive cálculos complexos de alvos irregulares como buracos e rochas (p. 82). Isso valida D. A cria etapa manual para volumes que o texto não exige — a obtenção é trivial para as três grandezas. B rebaixa as medidas a orientativas e ressuscita a conferência por trena, contrariando a vantagem de medir depois, sobre o modelo. C nega justamente o ponto destacado pela disciplina: os alvos irregulares são exemplos do que o modelo mede bem, sem aproximações por sólidos regulares."
+  },
+  {
+    "id": 1411,
+    "alternativas": {
+      "A": "superfícies transparentes, como vidros e acrílicos, que devem ser removidas da cena antes da varredura, uma vez que refletem integralmente o feixe e inviabilizam a captura dos pontos.",
+      "B": "objetos claros e foscos, que dispersam o feixe e exigem a aplicação de sprays escurecedores para melhorar o retorno do laser.",
+      "C": "objetos pretos e/ou brilhantes, que dificultam a captura, exigindo sprays para tornar as superfícies opacas e, em situações difíceis, como áreas de mata, a introdução de alvos.",
+      "D": "a temperatura do ambiente, que altera o comprimento de onda do feixe e exige a climatização prévia dos ambientes internos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A preparação da cena decorre da dificuldade com objetos pretos e/ou brilhantes, que demandam o uso de sprays para tornar as superfícies opacas, além da introdução de alvos em situações difíceis, como áreas de mata (p. 83). Isso valida C. A propõe remover elementos da cena, alterando o local — e não é a dificuldade descrita. B inverte o problema: as superfícies difíceis são as pretas/brilhantes, e o spray serve para torná-las OPACAS, não escuras. D inventa interferência térmica no comprimento de onda, limitação que a disciplina não menciona."
+  },
+  {
+    "id": 1412,
+    "alternativas": {
+      "A": "Como a resolução do escâner é insuficiente para detalhes finos (ressalvada a luz estruturada), o 3D não substitui a fotografia, imprescindível para não perder informações e reposicionar vestígios na nuvem.",
+      "B": "A fotografia permanece necessária apenas para colorir a nuvem de pontos com as cores reais da cena, função que os escâneres dotados de câmera integrada já suprem automaticamente durante a captura.",
+      "C": "O modelo 3D substitui a fotografia como registro da cena, permanecendo o levantamento fotográfico apenas por exigência formal dos laudos.",
+      "D": "Fotografia e 3D são registros alternativos: cabe ao perito eleger um deles conforme a complexidade da cena, evitando duplicidade documental."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A resolução dos escâneres a laser ainda é insuficiente para os detalhes finos de uma cena (com exceção da luz estruturada), de modo que a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder localizar/reposicionar um vestígio na nuvem de pontos (p. 83). Isso valida A. B reduz a fotografia à colorização da nuvem, ignorando sua função de registrar os detalhes finos que o laser não capta. C e D tratam a fotografia como formalidade ou alternativa, quando ela é imprescindível e convive com o 3D."
+  }
+]

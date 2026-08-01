@@ -17710,13 +17710,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a definição constante da IN DG/PF nº 297/2024, que regulamenta a cadeia de custódia no âmbito da Polícia Federal, considera-se local de crime aquele:",
     "alternativas": {
-      "A": "que abranja exclusivamente o ponto exato em que a vítima ou o objeto material do delito foi encontrado pela equipe policial.",
-      "B": "que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal.",
-      "C": "previamente delimitado por mandado judicial, restrito à área em que houve apreensão de bens relacionados ao fato.",
-      "D": "em que se planejou o delito, por concentrar as informações mais relevantes sobre a autoria e o modus operandi."
+      "A": "em que se verifica a consumação integral da infração penal, excluídos os pontos em que se deram somente atos executórios sem produção de resultado.",
+      "B": "da ocorrência da execução da infração penal, desde que nele também se produza, ao menos em parte, o resultado naturalístico da conduta.",
+      "C": "que concentra vestígios aptos a demonstrar autoria e materialidade, ainda que não guarde relação direta com a execução ou o resultado do delito.",
+      "D": "que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal."
     },
-    "resposta_correta": "B",
-    "justificativa": "A IN DG/PF nº 297/2024 define local de crime como o 'local que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal' (p. 13), o que valida B. A está errada porque o conceito não se restringe a um ponto exato, abrangendo execução e resultado, no todo ou em parte. C confunde local de crime com a área de cumprimento de mandado. D corresponde a apenas um dos tipos de local de interesse (o local onde o crime foi planejado), e não à definição geral.",
+    "resposta_correta": "D",
+    "justificativa": "A IN DG/PF nº 297/2024 define local de crime como o 'local que se configura como da ocorrência da execução ou do resultado naturalístico, no todo ou em parte, de infração penal' (p. 13), o que valida D. A exige consumação integral e exclui os pontos de mera execução, quando a norma admite o 'no todo ou em parte'. B soma indevidamente os dois critérios: basta a execução OU o resultado, não a presença cumulativa de ambos. C desvincula o conceito da execução e do resultado, quando é exatamente esse vínculo que define o local de crime na norma.",
     "referencia": "PDF LOC, p. 13",
     "nivel": "facil"
   },
@@ -17727,13 +17727,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O conceito doutrinário de local de crime formulado por Eraldo Rabelo é mais amplo que a noção intuitiva de 'ponto onde o fato ocorreu'. De acordo com essa concepção, o local de crime corresponde:",
     "alternativas": {
-      "A": "ao espaço físico delimitado pelas paredes ou divisas do imóvel em que se deu a consumação do delito, excluídas as áreas externas.",
-      "B": "apenas ao trajeto percorrido pelo autor entre o planejamento e a execução do crime, desde que confirmado por prova testemunhal.",
-      "C": "à porção do espaço, num raio que tem por origem o ponto em que se constata o fato, abrangendo todos os lugares em que tenham sido praticados atos materiais, preliminares ou posteriores, diretamente relacionados ao delito.",
-      "D": "à soma dos locais que sofreram as consequências patrimoniais do crime, ainda que neles não se verifique qualquer ato de execução."
+      "A": "à porção do espaço, num raio com origem no ponto em que o fato é constatado, abrangendo os lugares em que hajam sido praticados atos materiais, preliminares ou posteriores, diretamente relacionados ao delito.",
+      "B": "à área contínua que liga o ponto de constatação do fato aos locais de preparação e de fuga, desde que entre eles exista contiguidade física ou visual, excluídos os pontos isolados sem essa ligação.",
+      "C": "ao conjunto de pontos em que se produziu o resultado naturalístico do delito, compreendidos os que suportaram seus efeitos patrimoniais, mas não os locais de atos meramente preparatórios.",
+      "D": "ao espaço em que se desenvolveram os atos de execução em sentido estrito, remetendo-se os atos preliminares e posteriores à categoria autônoma dos locais relacionados ao fato."
     },
-    "resposta_correta": "C",
-    "justificativa": "Rabelo define local de crime como 'a porção do espaço compreendida num raio que, tendo por origem o ponto no qual é constatado o fato, se estenda de modo a abranger todos os lugares em que, aparente, necessária ou presumivelmente, hajam sido praticados (...) os atos materiais, preliminares ou posteriores à consumação do delito e com este diretamente relacionados' (p. 13), o que confirma C. A restringe indevidamente o conceito ao interior de uma edificação. B reduz o conceito a um trajeto e condiciona à prova testemunhal. D confunde o conceito amplo com o tipo específico de local que sofreu as consequências do crime.",
+    "resposta_correta": "A",
+    "justificativa": "Rabelo define local de crime como 'a porção do espaço compreendida num raio que, tendo por origem o ponto no qual é constatado o fato, se estenda de modo a abranger todos os lugares em que, aparente, necessária ou presumivelmente, hajam sido praticados (...) os atos materiais, preliminares ou posteriores à consumação do delito e com este diretamente relacionados' (p. 13), o que confirma A. B cria requisito de contiguidade física ou visual que não existe na definição, cujo critério é a relação direta com o delito. C exclui os atos preparatórios, expressamente abrangidos pela definição ('preliminares'). D restringe o conceito aos atos de execução e desloca preliminares e posteriores para outra categoria, quando Rabelo os inclui no próprio local de crime.",
     "referencia": "PDF LOC, p. 13",
     "nivel": "medio"
   },
@@ -17744,13 +17744,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A respeito dos dois tipos de informação presentes em um local de crime — as subjetivas e as oriundas dos vestígios materiais —, é correto afirmar que:",
     "alternativas": {
-      "A": "as informações subjetivas, por derivarem do relato direto de quem presenciou o fato, possuem caráter objetivo e dispensam confirmação por elementos materiais.",
-      "B": "as informações oriundas de vestígios são de ordem interpretativa e pessoal, ao passo que os depoimentos constituem a fonte técnico-científica da investigação.",
-      "C": "ambas têm idêntico grau de confiabilidade, razão pela qual a perícia pode substituir o exame dos vestígios pela mera colheita de depoimentos.",
-      "D": "as informações de vestígios constituem fonte objetiva, baseada em princípios técnico-científicos, enquanto as subjetivas, de cunho interpretativo e por vezes incompletas, exigem cautela e confirmação."
+      "A": "as informações subjetivas ganham caráter objetivo quando prestadas por testemunha presencial compromissada, hipótese em que dispensam confirmação pelos vestígios materiais.",
+      "B": "as informações de vestígios constituem fonte objetiva, de base técnico-científica, ao passo que as subjetivas, interpretativas e por vezes incompletas, exigem cautela e confirmação.",
+      "C": "as duas fontes situam-se no mesmo patamar de confiabilidade, de modo que a colheita qualificada de depoimentos pode suprir o exame dos vestígios em locais degradados.",
+      "D": "as informações de vestígios também comportam leitura interpretativa, razão pela qual a doutrina as classifica, ao lado dos depoimentos, entre as fontes de natureza subjetiva."
     },
-    "resposta_correta": "D",
-    "justificativa": "O texto distingue as informações subjetivas — 'de ordem interpretativa e de cunho pessoal, podendo até não refletir a verdade' e frequentemente incompletas, exigindo cautela e confirmação — das informações de vestígios, que constituem 'fonte objetiva', com análise 'mais precisa e segura, baseada em princípios técnico-científicos' (p. 14), o que valida D. A inverte a natureza das subjetivas (que não são objetivas nem dispensam confirmação). B troca os conceitos. C equipara indevidamente os depoimentos aos vestígios e admite que a perícia substitua o exame por depoimentos, contrariando a maior segurança da fonte objetiva.",
+    "resposta_correta": "B",
+    "justificativa": "O texto distingue as informações subjetivas — 'de ordem interpretativa e de cunho pessoal, podendo até não refletir a verdade' e frequentemente incompletas, exigindo cautela e confirmação — das informações de vestígios, que constituem 'fonte objetiva', com análise 'mais precisa e segura, baseada em princípios técnico-científicos' (p. 14), o que valida B. A inventa hipótese de conversão do depoimento em fonte objetiva: o compromisso da testemunha não altera a natureza interpretativa e pessoal do relato. C equipara as fontes e admite substituição do exame de vestígios por depoimentos, contrariando a maior segurança da fonte objetiva. D transfere a natureza subjetiva para os vestígios, invertendo a classificação do texto.",
     "referencia": "PDF LOC, p. 13-14",
     "nivel": "medio"
   },
@@ -17761,13 +17761,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O chamado Princípio da Transferência, atribuído a Edmond Locard e aplicado aos locais de crime, estabelece que:",
     "alternativas": {
-      "A": "todo vestígio coletado deve ser transferido imediatamente ao laboratório, sob pena de perda de seu valor probatório.",
-      "B": "existe sempre uma troca de vestígios entre os agentes delituosos e o ambiente, de modo que o criminoso deixa algo seu no local ou leva algo do local consigo.",
-      "C": "a responsabilidade pela guarda do vestígio se transfere automaticamente do perito para a autoridade judiciária no momento da apreensão.",
-      "D": "os vestígios materiais transferem-se exclusivamente da vítima para o autor, nunca em sentido inverso."
+      "A": "a transferência de vestígios opera do local para o autor, cabendo à perícia demonstrar o percurso inverso somente quando houver contato físico direto entre autor e vítima.",
+      "B": "os vestígios produzidos no local transferem sua carga probatória aos objetos apreendidos, de modo que a análise laboratorial destes torna dispensável o exame daquele.",
+      "C": "existe sempre uma troca de vestígios entre os agentes delituosos e o ambiente: o criminoso deixa algo seu no local ou leva algo do local consigo.",
+      "D": "a cada contato entre autor e vítima corresponde transferência de material biológico, ficando os vestígios não biológicos regidos pelo princípio da correspondência de características."
     },
-    "resposta_correta": "B",
-    "justificativa": "O Princípio da Transferência (Locard) afirma que 'em locais de crime existe sempre a troca de vestígios entre os agentes delituosos e o ambiente', pois 'o criminoso deixa algo seu no local ou leva algo do local consigo' (p. 14), o que valida B. A trata de logística de coleta, não do princípio. C descreve cadeia de custódia, instituto diverso. D restringe indevidamente a transferência a um único sentido, contrariando a ideia de troca recíproca.",
+    "resposta_correta": "C",
+    "justificativa": "O Princípio da Transferência (Locard) afirma que 'em locais de crime existe sempre a troca de vestígios entre os agentes delituosos e o ambiente', pois 'o criminoso deixa algo seu no local ou leva algo do local consigo' (p. 14), o que valida C. A restringe a transferência a um único sentido e cria condição inexistente, contrariando a ideia de troca recíproca. B converte o princípio em regra de dispensa do exame de local, o que ele não autoriza. D limita a transferência ao material biológico e invoca um 'princípio da correspondência' estranho à formulação de Locard, que abrange vestígios de qualquer natureza.",
     "referencia": "PDF LOC, p. 14",
     "nivel": "facil"
   },
@@ -17778,13 +17778,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Uma equipe de investigação chega à cena de um homicídio antes dos peritos criminais. Um dos policiais pretende recolher de imediato a arma encontrada ao lado da vítima e levá-la à delegacia. À luz do art. 6º do Código de Processo Penal, a conduta correta da autoridade policial é:",
     "alternativas": {
-      "A": "apreender desde logo todos os objetos relacionados ao fato, pois a preservação do local é incumbência exclusiva da perícia, e não da autoridade policial.",
-      "B": "dirigir-se ao local e providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos, apreendendo os objetos relacionados ao fato apenas após liberados pelos peritos criminais.",
-      "C": "isolar o local e aguardar autorização judicial específica para que qualquer objeto possa ser apreendido, ainda que os peritos já o tenham liberado.",
-      "D": "recolher os objetos de maior valor probatório e deixar os demais no local, registrando fotograficamente a cena antes da chegada dos peritos."
+      "A": "dirigir-se ao local, providenciar para que não se alterem o estado e a conservação das coisas até a chegada dos peritos e apreender os objetos relacionados ao fato após a liberação pericial.",
+      "B": "preservar o local e recolher desde logo a arma, por se tratar de vestígio essencial cuja guarda imediata compete à autoridade policial, lavrando termo próprio para documentar a coleta.",
+      "C": "isolar a área e representar pela autorização judicial para apreensão da arma, uma vez que objetos encontrados em local de crime somente ingressam nos autos por decisão fundamentada.",
+      "D": "determinar o registro fotográfico da cena e autorizar o recolhimento dos objetos de maior valor probatório, mantendo os demais intactos até a chegada da equipe pericial."
     },
-    "resposta_correta": "B",
-    "justificativa": "O art. 6º do CPP determina que a autoridade policial deve dirigir-se ao local, providenciando para que não se alterem o estado e a conservação das coisas até a chegada dos peritos (inciso I), e apreender os objetos que tiverem relação com o fato após liberados pelos peritos criminais (inciso II) (p. 14-15), o que valida B. A contraria o inciso II ao autorizar apreensão imediata. C cria exigência inexistente de autorização judicial após a liberação pericial. D admite recolhimento seletivo antes da liberação, alterando o estado das coisas em desacordo com o art. 6º e o art. 169 do CPP.",
+    "resposta_correta": "A",
+    "justificativa": "O art. 6º do CPP determina que a autoridade policial deve dirigir-se ao local, providenciando para que não se alterem o estado e a conservação das coisas até a chegada dos peritos (inciso I), e apreender os objetos que tiverem relação com o fato após liberados pelos peritos criminais (inciso II) (p. 14-15), o que valida A. B autoriza a coleta imediata da arma antes da liberação pericial, exatamente a conduta vedada — a lavratura de termo não supre o exame de local. C cria exigência de autorização judicial que o art. 6º não contém: a apreensão depende da liberação pelos peritos, não de decisão judicial. D admite recolhimento seletivo antes da liberação, alterando o estado das coisas em desacordo com os arts. 6º e 169 do CPP.",
     "referencia": "PDF LOC, p. 14-15",
     "nivel": "dificil"
   },
@@ -17795,13 +17795,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a exigência do exame de corpo de delito prevista no art. 158 do CPP em relação aos locais de crime, assinale a alternativa correta:",
     "alternativas": {
-      "A": "Quando a infração deixar vestígios, o exame de corpo de delito é indispensável, não podendo a confissão do acusado supri-lo.",
-      "B": "A confissão espontânea do acusado supre o exame de corpo de delito, dispensando o processamento pericial do local.",
-      "C": "O exame de corpo de delito somente é exigível nos crimes contra a vida, sendo facultativo nas demais infrações que deixem vestígios.",
-      "D": "O exame de corpo de delito pode ser substituído integralmente por prova testemunhal sempre que houver duas ou mais testemunhas presenciais."
+      "A": "a confissão espontânea do acusado, corroborada por outros elementos informativos colhidos no inquérito, autoriza o juízo a dispensar a realização do exame na fase processual.",
+      "B": "o exame de corpo de delito direto é indispensável, admitindo-se que o indireto seja suprido pela confissão quando os vestígios houverem desaparecido antes da perícia.",
+      "C": "a indispensabilidade do exame restringe-se às infrações de que resulte violência contra a pessoa, sendo facultativo nos demais delitos que deixem vestígios materiais.",
+      "D": "quando a infração deixar vestígios, o exame de corpo de delito, direto ou indireto, é indispensável, não podendo a confissão do acusado supri-lo."
     },
-    "resposta_correta": "A",
-    "justificativa": "O art. 158 do CPP estabelece que, 'quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado' (p. 14-15), o que valida A. B contraria expressamente o dispositivo, que veda a substituição pela confissão. C restringe indevidamente a exigência aos crimes contra a vida. D admite substituição por prova testemunhal, não autorizada pela norma quando a infração deixa vestígios.",
+    "resposta_correta": "D",
+    "justificativa": "O art. 158 do CPP estabelece que, 'quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado' (p. 14-15), o que valida D. A contraria frontalmente o dispositivo: a confissão não supre o exame, ainda que corroborada por outros elementos. B mistura os institutos — o desaparecimento dos vestígios pode abrir espaço à prova testemunhal (art. 167), mas nunca à confissão como substituto do exame. C restringe a exigência aos crimes violentos, quando a norma alcança toda infração que deixe vestígios.",
     "referencia": "PDF LOC, p. 14-15",
     "nivel": "medio"
   },
@@ -17812,13 +17812,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A disciplina classifica os locais de interesse da polícia em quatro tipos. O local em que o crime não ocorre necessariamente, mas no qual seus efeitos são percebidos e registrados, sendo especialmente importante para a constatação da materialidade, é denominado:",
     "alternativas": {
-      "A": "local onde o crime foi planejado.",
-      "B": "local relacionado ao fato.",
-      "C": "local que sofreu as consequências do crime.",
-      "D": "local onde aconteceu o fato."
+      "A": "local que sofreu as consequências do crime.",
+      "B": "local onde o crime foi planejado e arquitetado.",
+      "C": "local relacionado ao fato investigado.",
+      "D": "local onde aconteceu o fato criminoso."
     },
-    "resposta_correta": "C",
-    "justificativa": "O 'local que sofreu as consequências do crime' é aquele em que o crime não ocorre necessariamente, mas cujos efeitos são percebidos e registrados, sendo importante na constatação da materialidade — como no desvio de verbas de uma obra, em que a perícia constata se a estrada foi executada conforme o projeto (p. 15). Isso valida C. A (local planejado) fornece dados sobre autores e modus operandi. B (local relacionado) reúne informações adicionais. D (local onde aconteceu o fato) é o local típico, com grande quantidade de vestígios.",
+    "resposta_correta": "A",
+    "justificativa": "O 'local que sofreu as consequências do crime' é aquele em que o crime não ocorre necessariamente, mas cujos efeitos são percebidos e registrados, sendo importante na constatação da materialidade — como no desvio de verbas de uma obra, em que a perícia constata se a estrada foi executada conforme o projeto (p. 15). Isso valida A. B (local planejado) fornece dados sobre autores e modus operandi. C (local relacionado) reúne informações adicionais, como registros e imagens. D (local onde aconteceu o fato) é o local típico, com grande quantidade de vestígios da execução.",
     "referencia": "PDF LOC, p. 15",
     "nivel": "medio"
   },
@@ -17829,13 +17829,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em investigação sobre desvio de recursos em obra pública, a equipe identifica: (i) o trecho da estrada cuja execução não corresponde ao projeto; (ii) o escritório da construtora onde teriam sido arquitetadas as fraudes; e (iii) o hotel em que ocorreram os acertos de propina, com registros de hospedagem e imagens de CFTV. Considerando a classificação dos locais de interesse, é correto afirmar que:",
     "alternativas": {
-      "A": "todos os três correspondem a locais onde aconteceu o fato, por concentrarem vestígios materiais diretos da execução do crime.",
-      "B": "o trecho da estrada é local que sofreu as consequências do crime; o escritório, local onde o crime foi planejado; e o hotel, local relacionado ao fato, sendo recomendável o mandado de busca para os dois últimos.",
-      "C": "o escritório e o hotel são locais que sofreram as consequências do crime, ao passo que o trecho da estrada é o local onde o crime foi planejado.",
-      "D": "apenas o hotel possui relevância pericial, pois os demais dependem exclusivamente de perícia contábil e não integram os locais de interesse da polícia."
+      "A": "o escritório é local que sofreu as consequências do crime, pois nele a fraude produziu seus efeitos jurídicos; a estrada e o hotel classificam-se como locais relacionados ao fato.",
+      "B": "o trecho da estrada é local que sofreu as consequências do crime; o escritório, local onde o crime foi planejado; e o hotel, local relacionado ao fato.",
+      "C": "a estrada é local onde aconteceu o fato, por concentrar a materialidade do desvio; o escritório e o hotel são, ambos, locais onde o crime foi planejado.",
+      "D": "o hotel é local onde aconteceu o fato, por nele se consumarem os acertos de propina; a estrada é local relacionado ao fato e o escritório, local onde o crime foi planejado."
     },
     "resposta_correta": "B",
-    "justificativa": "O trecho da estrada enquadra-se como local que sofreu as consequências do crime (materialidade do desvio); o escritório da construtora, como local onde o crime foi planejado (autores e modus operandi); e o hotel, como local relacionado ao fato (informações adicionais, como CFTV e registros de hospedagem). A obtenção de vestígios nos locais planejado e relacionado depende, muitas vezes, de mandado de busca e apreensão (p. 15-16), o que valida B. A iguala todos ao local típico. C troca as classificações. D nega indevidamente a relevância dos demais locais de interesse.",
+    "justificativa": "O trecho da estrada enquadra-se como local que sofreu as consequências do crime (é nele que a perícia constata a materialidade do desvio, comparando o executado com o projeto); o escritório da construtora, como local onde o crime foi planejado (autores e modus operandi); e o hotel, como local relacionado ao fato (informações adicionais, como CFTV e registros de hospedagem). A obtenção de vestígios nos dois últimos frequentemente depende de mandado de busca e apreensão (p. 15-16), o que valida B. A desloca as consequências do crime para o escritório, que é o local de planejamento. C confunde o local que sofreu as consequências com o local do fato e iguala escritório e hotel. D eleva o hotel a local do fato e rebaixa a estrada a local meramente relacionado, invertendo as classificações.",
     "referencia": "PDF LOC, p. 15-16",
     "nivel": "dificil"
   },
@@ -17846,13 +17846,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Entre os propósitos da investigação em locais de crime está assegurar a cadeia de custódia. Sobre esse instituto, é correto afirmar que:",
     "alternativas": {
-      "A": "consiste em sucessão de eventos seguros e confiáveis, iniciada na cena do crime, destinada a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça.",
-      "B": "tem início apenas no laboratório de criminalística, momento em que o vestígio passa a ter relevância jurídica.",
-      "C": "é responsabilidade exclusiva do perito criminal, não alcançando os demais policiais que manuseiam as evidências.",
-      "D": "destina-se unicamente a registrar o deslocamento físico dos vestígios, sem relação com a sua integridade ou idoneidade."
+      "A": "consiste no registro cronológico do deslocamento físico dos vestígios entre as unidades policiais e periciais, iniciado com o recebimento do material no laboratório.",
+      "B": "constitui encargo funcional do perito criminal que primeiro manuseia o vestígio, respondendo os demais agentes públicos apenas nas hipóteses de dolo comprovado.",
+      "C": "abrange os procedimentos de coleta e acondicionamento realizados na cena do crime, encerrando-se com o ingresso do vestígio na central de custódia da unidade pericial.",
+      "D": "consiste em sucessão de eventos seguros e confiáveis, iniciada na cena do crime, destinada a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça."
     },
-    "resposta_correta": "A",
-    "justificativa": "A cadeia de custódia é definida como 'conjunto de procedimentos que consiste em uma sucessão de eventos seguros e confiáveis, iniciados na cena do crime, destinados a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça' (p. 17), o que valida A. B contraria o texto, que situa o início na cena do crime, e não no laboratório. C está errada porque o cuidado deve ser adotado por todos os policiais que manuseiem evidências. D reduz indevidamente o instituto ao mero registro de deslocamento, ignorando a finalidade de integridade e idoneidade.",
+    "resposta_correta": "D",
+    "justificativa": "A cadeia de custódia é definida como 'conjunto de procedimentos que consiste em uma sucessão de eventos seguros e confiáveis, iniciados na cena do crime, destinados a garantir a integridade e a idoneidade do vestígio até sua utilização pela Justiça' (p. 17), o que valida D. A reduz o instituto a registro de deslocamento e situa seu início no laboratório, quando ele começa na cena do crime. B concentra a responsabilidade no primeiro perito, quando o cuidado se impõe a todos os policiais que manuseiem evidências. C encerra a cadeia na central de custódia, quando ela se estende até a utilização do vestígio pela Justiça.",
     "referencia": "PDF LOC, p. 17",
     "nivel": "medio"
   },
@@ -17863,13 +17863,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um caso real citado na disciplina, um jornalista foi morto a tiros de espingarda calibre 12 dentro de um veículo. Cápsulas calibre 12 foram coletadas no local por policiais, e uma espingarda apreendida na casa de suspeito foi encaminhada ao Serviço de Balística Forense, cujo confronto resultou positivo. Ainda assim, no julgamento, o cartucho foi excluído como prova e o réu posto em liberdade. A razão técnico-jurídica determinante para esse desfecho foi:",
     "alternativas": {
-      "A": "a inexistência de exame de local de crime, o que impediu vincular o cartucho ao fato investigado, ainda que o confronto balístico tenha sido positivo.",
-      "B": "a constatação de erro no confronto balístico realizado pelo Serviço de Balística Forense, que invalidou a vinculação entre a arma e o cartucho.",
-      "C": "a ausência de mandado de busca e apreensão para a coleta da espingarda na residência do suspeito.",
-      "D": "a coleta das cápsulas por peritos criminais, e não pela autoridade policial, em violação ao art. 6º do CPP."
+      "A": "a inexistência de exame de local de crime, que impediu vincular o cartucho ao fato investigado, apesar do resultado positivo do confronto balístico.",
+      "B": "a quebra da cadeia de custódia entre a apreensão da espingarda e sua entrega ao Serviço de Balística Forense, que contaminou o resultado do confronto.",
+      "C": "a nulidade da apreensão da espingarda, realizada na residência do suspeito sem mandado judicial, com a consequente exclusão das provas dela derivadas.",
+      "D": "a coleta das cápsulas por policiais não peritos, em afronta ao art. 169 do CPP, o que retirou a idoneidade do material submetido a confronto."
     },
     "resposta_correta": "A",
-    "justificativa": "No caso relatado, o perito de balística, lotado em Brasília, apenas recebera o cartucho e não comparecera ao local, não podendo vinculá-lo ao fato; como não houve exame de local de crime, o cartucho foi excluído como prova (com tudo que dele derivava) e o réu posto em liberdade por falta de provas (p. 18). Isso valida A. B é falsa, pois o confronto foi positivo e não foi invalidado. C trata de questão diversa (legalidade da apreensão), não apontada como causa. D inverte o caso, em que a coleta foi feita por policiais, sendo justamente a falta do exame pericial de local o problema.",
+    "justificativa": "No caso relatado, o perito de balística, lotado em Brasília, apenas recebera o cartucho e não comparecera ao local, não podendo vinculá-lo ao fato; como não houve exame de local de crime, o cartucho foi excluído como prova (com tudo que dele derivava) e o réu posto em liberdade por falta de provas (p. 18). Isso valida A. B aponta vício na cadeia de custódia da arma, que não foi a causa apontada — o confronto foi positivo e não foi invalidado. C desloca o problema para a legalidade da apreensão, questão que o caso não registra. D transforma a coleta pelos policiais na causa da exclusão, quando o problema determinante foi a ausência do exame pericial do local, e não a autoria da coleta.",
     "referencia": "PDF LOC, p. 18",
     "nivel": "dificil"
   },
@@ -17897,13 +17897,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Além da necessidade legal de participação do perito no local, a disciplina destaca a chamada necessidade técnica. Sobre essa distinção, é correto afirmar que:",
     "alternativas": {
-      "A": "a necessidade técnica refere-se à exigência legal do exame de corpo de delito, ao passo que a necessidade legal diz respeito ao preparo para o trato de vestígios.",
-      "B": "a necessidade técnica decorre do preparo para o trato de certos vestígios e da capacidade de contextualizá-los no local, de modo que um vestígio coletado pelo próprio perito na cena fornece mais informação do que o mesmo vestígio apenas encaminhado por outro policial.",
-      "C": "tanto a necessidade legal quanto a técnica são supridas pela simples coleta do vestígio por qualquer policial, desde que o material chegue íntegro ao laboratório.",
-      "D": "a necessidade técnica é dispensável em locais com vestígios biológicos ou químicos, cuja coleta independe de conhecimento especializado."
+      "A": "a necessidade legal liga-se ao preparo especializado exigido para o trato de vestígios biológicos e químicos, ao passo que a necessidade técnica traduz a exigência formal do exame de corpo de delito prevista no art. 158 do CPP, cuja inobservância acarreta a nulidade da prova produzida na cena.",
+      "B": "a necessidade técnica é suprida quando o vestígio chega íntegro ao laboratório com documentação fotográfica do ponto de coleta, pois a contextualização pode ser reconstituída a partir das imagens pelo perito relator.",
+      "C": "a necessidade técnica manifesta-se somente na fase laboratorial, pois, na cena, a atuação do perito se justifica pela necessidade legal, sendo indiferente quem realize a coleta, desde que devidamente treinado.",
+      "D": "a necessidade técnica liga-se ao preparo para o trato de certos vestígios e à sua contextualização na cena — o vestígio coletado pelo próprio perito no local fornece mais informação do que o mesmo vestígio apenas encaminhado para análise."
     },
-    "resposta_correta": "B",
-    "justificativa": "A necessidade técnica está ligada ao preparo para o trato de certos vestígios (biológicos, químicos etc.) e ao estabelecimento da dinâmica dos fatos e contextualização dos vestígios: 'um vestígio encontrado e coletado no local fornece muito mais informação ao perito do que o mesmo vestígio coletado por outro policial e apenas encaminhado para análise' (p. 19), o que valida B. A inverte os conceitos de necessidade legal e técnica. C ignora o ganho informacional da coleta contextualizada. D contraria o texto, pois é justamente nesses vestígios que a necessidade técnica se evidencia.",
+    "resposta_correta": "D",
+    "justificativa": "A necessidade técnica está ligada ao preparo para o trato de certos vestígios (biológicos, químicos etc.) e ao estabelecimento da dinâmica dos fatos e contextualização dos vestígios: 'um vestígio encontrado e coletado no local fornece muito mais informação ao perito do que o mesmo vestígio coletado por outro policial e apenas encaminhado para análise' (p. 19), o que valida D. A inverte os conceitos: a exigência do art. 158 é a necessidade legal, e o preparo especializado, a técnica. B contraria o texto ao supor que a fotografia reconstitui a contextualização — o ganho informacional está na presença do perito na cena. C nega justamente a dimensão de cena da necessidade técnica, que se manifesta na coleta e na leitura do local, não apenas no laboratório.",
     "referencia": "PDF LOC, p. 19",
     "nivel": "medio"
   },
@@ -17914,13 +17914,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Nos termos da IN nº 188-DG/PF, de 10/12/2020, a coleta e o levantamento de fragmentos papiloscópicos nos locais de crime no âmbito da Polícia Federal são de responsabilidade:",
     "alternativas": {
-      "A": "do perito criminal federal, que os executa de forma autônoma e independente da equipe pericial.",
-      "B": "do delegado de polícia federal, por ser o responsável legal pela preservação do local.",
-      "C": "dos papiloscopistas policiais federais, devendo ser realizados de forma coordenada com a equipe pericial.",
-      "D": "do agente de polícia federal integrante da equipe de isolamento e preservação da área."
+      "A": "dos peritos criminais federais, que os executam no curso do processamento pericial do local de crime.",
+      "B": "dos papiloscopistas policiais federais, devendo ser realizados de forma coordenada com a equipe pericial.",
+      "C": "do delegado de polícia federal, a quem cabe distribuir a tarefa entre os servidores presentes na cena.",
+      "D": "dos agentes de polícia federal designados para a equipe de isolamento e preservação da área do crime."
     },
-    "resposta_correta": "C",
-    "justificativa": "A IN nº 188-DG/PF/2020 atribui aos papiloscopistas policiais federais a responsabilidade pelos exames papiloscópicos e pela coleta e levantamento de fragmentos papiloscópicos nos locais de crime, 'devendo ser realizadas de forma coordenada com a equipe pericial' (p. 20), o que valida C. A está errada porque a atribuição não é do perito nem se dá de forma autônoma. B e D atribuem a responsabilidade a integrantes que não detêm essa função específica.",
+    "resposta_correta": "B",
+    "justificativa": "A IN nº 188-DG/PF/2020 atribui aos papiloscopistas policiais federais a responsabilidade pelos exames papiloscópicos e pela coleta e levantamento de fragmentos papiloscópicos nos locais de crime, 'devendo ser realizadas de forma coordenada com a equipe pericial' (p. 20). Isso valida B. A transfere a atribuição ao perito criminal, responsável pelo processamento do local, mas não pelo levantamento papiloscópico. C converte a atribuição normativa em decisão discricionária do delegado. D atribui a tarefa aos agentes, cuja atuação se concentra no isolamento, na preservação e nas entrevistas.",
     "referencia": "PDF LOC, p. 20",
     "nivel": "medio"
   },
@@ -17948,13 +17948,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O processamento do local de crime é atribuição do perito criminal federal. Assinale a alternativa que reúne corretamente atividades que compõem esse processamento:",
     "alternativas": {
-      "A": "Decretar o isolamento legal do local, indiciar o suspeito e conduzir o interrogatório das testemunhas presentes.",
-      "B": "Reavaliar o isolamento, buscar e coletar vestígios, realizar os levantamentos fotográfico e descritivo e os croquis e elaborar o laudo de exame do local.",
-      "C": "Receber o local ao final dos trabalhos, requisitar mandados de busca e apreensão e arbitrar a fiança cabível.",
-      "D": "Realizar exclusivamente a coleta de impressões digitais e o confronto papiloscópico das amostras levantadas na cena."
+      "A": "Reavaliar o isolamento, buscar e coletar vestígios, realizar os levantamentos fotográfico e descritivo e os croquis e elaborar o laudo de exame do local.",
+      "B": "Reavaliar o isolamento, colher os depoimentos das testemunhas localizadas na cena, coletar os vestígios e lavrar o auto circunstanciado de exame do local.",
+      "C": "Receber o local ao término dos trabalhos, realizar os levantamentos fotográfico e descritivo e requisitar as diligências complementares de investigação.",
+      "D": "Realizar a busca de vestígios, os levantamentos fotográfico e descritivo e o confronto papiloscópico dos fragmentos levantados na cena do crime."
     },
-    "resposta_correta": "B",
-    "justificativa": "O processamento do local pelo perito consiste em reavaliar o isolamento, proceder à busca por vestígios e coletá-los adequadamente, fazer os levantamentos fotográfico e descritivo e os croquis, encaminhar vestígios para análises e elaborar o laudo de exame do local (p. 20), o que valida B. A mistura atos privativos do delegado (indiciamento) e juízos sobre testemunhas. C lista atribuições do delegado/autoridade. D corresponde à função do papiloscopista, não ao processamento pericial do local.",
+    "resposta_correta": "A",
+    "justificativa": "O processamento do local pelo perito consiste em reavaliar o isolamento, proceder à busca por vestígios e coletá-los adequadamente, fazer os levantamentos fotográfico e descritivo e os croquis, encaminhar vestígios para análises e elaborar o laudo de exame do local (p. 20), o que valida A. B inclui a colheita de depoimentos (tarefa do delegado e dos agentes) e troca o laudo por 'auto circunstanciado', documento estranho ao processamento pericial. C atribui ao perito o recebimento do local (que cabe ao delegado) e a requisição de diligências investigativas. D insere o confronto papiloscópico, atribuição do papiloscopista, e omite croquis e laudo.",
     "referencia": "PDF LOC, p. 20",
     "nivel": "medio"
   },
@@ -17965,13 +17965,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma cena de homicídio, a equipe é composta por delegado, perito criminal, agentes e um papiloscopista. Durante os trabalhos, observa-se a seguinte divisão: os agentes mantêm o cordão de isolamento e localizam testemunhas; o perito realiza a busca de vestígios, fotografa e elabora os croquis; o papiloscopista levanta as impressões digitais; e o delegado conduz as entrevistas e a estratégia investigativa. Sobre essa divisão de tarefas, é correto afirmar que:",
     "alternativas": {
-      "A": "está incorreta, pois a coleta de impressões digitais deveria ser realizada pelo próprio perito, e não pelo papiloscopista, cuja atuação se limita ao laboratório.",
-      "B": "está incorreta, porque o isolamento e a preservação são atribuições exclusivas do perito criminal, não dos agentes.",
-      "C": "está correta e reflete o trabalho em equipe descrito na disciplina, em que cada integrante exerce seu papel e o levantamento papiloscópico se coordena com o processamento pericial.",
-      "D": "está correta apenas se o delegado, e não o perito, assumir a elaboração dos croquis e do registro fotográfico do local."
+      "A": "está incorreta, pois a coleta de impressões digitais no local deveria ser feita pelo perito criminal, reservando-se ao papiloscopista o confronto das amostras em laboratório.",
+      "B": "está incorreta, porque a localização de testemunhas e as entrevistas competem ao escrivão de polícia, cabendo aos agentes somente a manutenção do cordão de isolamento.",
+      "C": "está parcialmente correta: a divisão vale para a fase inicial, mas os croquis e o registro fotográfico devem ser assumidos pelo delegado ao final do processamento.",
+      "D": "está correta e reflete o trabalho em equipe descrito na disciplina, com cada integrante em seu papel e o levantamento papiloscópico coordenado com o processamento pericial."
     },
-    "resposta_correta": "C",
-    "justificativa": "A disciplina descreve exatamente essa divisão: agentes na preservação e em entrevistas/busca de testemunhas; perito no processamento (busca, fotografia, croqui, laudo); papiloscopista na coleta de impressões digitais coordenada com a perícia; e delegado na condução da investigação e entrevistas (p. 20-21). Isso valida C. A está errada porque a coleta papiloscópica no local cabe ao papiloscopista (IN 188/2020). B inverte a atribuição do isolamento, que envolve agentes e é de responsabilidade legal do delegado. D atribui ao delegado tarefas técnicas que são do perito.",
+    "resposta_correta": "D",
+    "justificativa": "A disciplina descreve exatamente essa divisão: agentes na preservação e na localização de testemunhas; perito no processamento (busca, fotografia, croqui, laudo); papiloscopista na coleta de impressões digitais coordenada com a perícia; e delegado na condução da investigação e entrevistas (p. 20-21). Isso valida D. A contraria a IN 188/2020, que atribui aos papiloscopistas a coleta e o levantamento de fragmentos papiloscópicos nos locais. B desloca para o escrivão tarefas que o texto atribui aos agentes e ao delegado. C inventa transferência de tarefas técnicas ao delegado, que não executa croquis nem registro fotográfico.",
     "referencia": "PDF LOC, p. 20-21",
     "nivel": "dificil"
   },
@@ -17980,15 +17980,15 @@ const questoesDB = [
     "disciplina": "LOC - Locais de Crime e suas Interfaces",
     "conteudo": "Cap. 2 - Metodologia do exame de local",
     "tipo": "multipla_escolha",
-    "enunciado": "A respeito do papel do escrivão de polícia federal nos locais de crime, conforme exposto na disciplina, é correto afirmar que:",
+    "enunciado": "Sobre a composição e a divisão de tarefas da equipe policial nos locais de crime, assinale a alternativa INCORRETA:",
     "alternativas": {
-      "A": "é o responsável técnico pela elaboração do laudo de exame de local, em substituição ao perito criminal.",
-      "B": "comparece com frequência aos locais e assume a coordenação do isolamento e da preservação da área.",
-      "C": "apesar de não comparecer com muita frequência aos locais, caso esteja presente, pode realizar as mesmas tarefas atribuídas ao agente de polícia federal.",
-      "D": "tem a atribuição exclusiva de coletar vestígios biológicos e químicos que demandem conhecimento especializado."
+      "A": "O delegado de polícia federal é o responsável legal pelo isolamento e pela preservação do local, cabendo-lhe ainda recebê-lo de volta ao final das análises.",
+      "B": "O escrivão de polícia federal não comparece com muita frequência aos locais de crime, mas, quando presente, pode realizar as mesmas tarefas atribuídas ao agente de polícia federal, entre elas a manutenção do isolamento e o apoio às entrevistas.",
+      "C": "Os levantamentos papiloscópicos, por exigirem conhecimento técnico próprio, são executados pelos papiloscopistas de forma autônoma, sem vinculação com o andamento do processamento pericial.",
+      "D": "Os agentes de polícia federal atuam na manutenção do isolamento do local e na localização de testemunhas para as entrevistas."
     },
     "resposta_correta": "C",
-    "justificativa": "O texto afirma que o escrivão, 'apesar de não comparecer com muita frequência aos locais de crime, caso esteja presente, pode realizar as mesmas tarefas atribuídas ao agente de polícia federal' (p. 21), o que valida C. A confunde com o perito (laudo). B contraria o texto quanto à frequência e à coordenação do isolamento. D atribui ao escrivão função técnica de coleta que é própria do perito.",
+    "justificativa": "A alternativa C é a incorreta: a IN nº 188-DG/PF/2020 determina que a coleta e o levantamento de fragmentos papiloscópicos nos locais de crime sejam realizados 'de forma coordenada com a equipe pericial' (p. 20-21) — não de forma autônoma e desvinculada do processamento. As demais são verdadeiras: o delegado é o responsável legal pelo isolamento e preservação (art. 6º do CPP) e recebe o local ao final (A); o escrivão, apesar de pouco frequente, pode executar as tarefas do agente quando presente (B); e os agentes mantêm o isolamento e localizam testemunhas (D).",
     "referencia": "PDF LOC, p. 21",
     "nivel": "medio"
   },
@@ -17999,13 +17999,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante o processamento de um local, o papiloscopista pretende iniciar de imediato o levantamento de impressões digitais em uma superfície que ainda não foi fotografada nem teve seu entorno examinado pelo perito. Considerando a coordenação dos trabalhos descrita na disciplina, a conduta adequada é:",
     "alternativas": {
-      "A": "realizar o levantamento papiloscópico antes de qualquer outra etapa, pois as impressões digitais têm prioridade absoluta sobre os demais vestígios.",
-      "B": "aguardar a liberação judicial específica para o levantamento de impressões digitais, ainda que isso interrompa o processamento.",
-      "C": "transferir a coleta das impressões para o perito criminal, já que ao papiloscopista compete apenas o confronto em laboratório.",
-      "D": "coordenar o levantamento com o restante dos trabalhos, na etapa de coleta de vestígios, de modo que nenhuma etapa do processamento seja atropelada e se preserve a análise global da cena."
+      "A": "iniciar de imediato o levantamento, pois as impressões papilares são vestígios frágeis e sua coleta precoce previne a degradação causada pela movimentação da equipe.",
+      "B": "coordenar o levantamento com o restante dos trabalhos, realizando-o na etapa de coleta de vestígios, sem atropelar as demais fases do processamento da cena.",
+      "C": "realizar primeiro o registro fotográfico da superfície por conta própria e, na sequência, proceder ao levantamento, comunicando o perito apenas ao final dos trabalhos.",
+      "D": "suspender o levantamento e transferi-lo ao perito criminal, uma vez que a atuação do papiloscopista na cena dependeria de delegação expressa da autoridade policial."
     },
-    "resposta_correta": "D",
-    "justificativa": "A disciplina determina que o levantamento de impressões digitais seja feito na etapa de coleta de vestígios e de forma coordenada com o restante dos trabalhos, cabendo ao perito cuidar para que nenhuma etapa do processamento seja atropelada, buscando segurança na análise global da cena (p. 21). Isso valida D. A contraria essa coordenação ao conferir prioridade absoluta. B cria exigência inexistente de autorização judicial. C nega a atribuição de coleta no local conferida ao papiloscopista pela IN 188/2020.",
+    "resposta_correta": "B",
+    "justificativa": "A disciplina determina que o levantamento de impressões digitais seja feito na etapa de coleta de vestígios e de forma coordenada com o restante dos trabalhos, cabendo ao perito cuidar para que nenhuma etapa do processamento seja atropelada, buscando segurança na análise global da cena (p. 21). Isso valida B. A usa argumento plausível (fragilidade do vestígio) para justificar o atropelo das etapas, exatamente o que a coordenação evita. C fragmenta o processamento: o registro fotográfico integra o levantamento conduzido pelo perito, e a comunicação apenas ao final rompe a coordenação exigida. D nega a atribuição de coleta no local conferida ao papiloscopista pela IN 188/2020, que não depende de delegação do delegado.",
     "referencia": "PDF LOC, p. 21",
     "nivel": "dificil"
   },
@@ -18016,13 +18016,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O resultado dos exames de local realizados pelo perito é consignado em documento específico. Sobre esse documento e sua autoria, é correto afirmar que:",
     "alternativas": {
-      "A": "é o laudo pericial, elaborado por peritos criminais federais lotados no Instituto Nacional de Criminalística (INC) ou em unidades descentralizadas.",
-      "B": "é o auto de prisão em flagrante, lavrado pelo delegado de polícia federal com base nos vestígios coletados.",
-      "C": "é o relatório de inteligência, produzido pelos agentes responsáveis pelas entrevistas no local.",
-      "D": "é a portaria de instauração do inquérito, assinada pela autoridade policial após o recebimento do local."
+      "A": "é o relatório de exame de local, peça de natureza investigativa subscrita pelo delegado de polícia com base nas informações reunidas pela equipe.",
+      "B": "é o auto de constatação, lavrado pelo primeiro policial que adentra a cena e posteriormente ratificado pelo perito criminal responsável.",
+      "C": "é o laudo pericial, elaborado por peritos criminais federais lotados no Instituto Nacional de Criminalística (INC) ou em unidades descentralizadas.",
+      "D": "é a informação técnica, documento simplificado que dispensa a estrutura formal de laudo quando o exame não decorre de requisição judicial."
     },
-    "resposta_correta": "A",
-    "justificativa": "O texto indica que o resultado dos exames é consignado em laudo pericial, elaborado por peritos criminais federais lotados no Instituto Nacional de Criminalística (INC) ou nas unidades descentralizadas (p. 19-20), o que valida A. B (auto de prisão), C (relatório de inteligência) e D (portaria de inquérito) são documentos de natureza diversa, não correspondentes ao registro técnico dos exames de local.",
+    "resposta_correta": "C",
+    "justificativa": "O texto indica que o resultado dos exames é consignado em laudo pericial, elaborado por peritos criminais federais lotados no Instituto Nacional de Criminalística (INC) ou nas unidades descentralizadas (p. 19-20), o que valida C. A atribui o documento ao delegado e lhe dá natureza investigativa, quando se trata de peça técnica de autoria do perito. B descreve documento inexistente nesse contexto: não há 'auto de constatação' lavrado por policial e ratificado pelo perito. D inventa a figura da 'informação técnica' como substituta do laudo — o resultado do exame de local é sempre consignado em laudo pericial.",
     "referencia": "PDF LOC, p. 19-20",
     "nivel": "medio"
   },
@@ -18033,13 +18033,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um local apresenta vestígios biológicos e químicos cuja coleta exige conhecimento especializado. Um agente, bem-intencionado, sugere recolher rapidamente esses materiais para agilizar o envio ao laboratório, antes da chegada do perito. À luz das necessidades legal e técnica estudadas, a melhor avaliação dessa sugestão é:",
     "alternativas": {
-      "A": "adequada, pois a celeridade na coleta prevalece sobre a contextualização do vestígio, desde que o material chegue íntegro ao laboratório.",
-      "B": "inadequada, porque há necessidade legal (exame de corpo de delito por perito) e necessidade técnica (preparo para o trato e contextualização desses vestígios), de modo que a coleta deve ser feita pelo perito.",
-      "C": "adequada, desde que o agente registre fotograficamente o material, hipótese em que a coleta por não perito supre tanto a necessidade legal quanto a técnica.",
-      "D": "inadequada apenas quanto à necessidade legal, já que a necessidade técnica é irrelevante para vestígios biológicos e químicos."
+      "A": "inadequada, porque há necessidade legal (exame de corpo de delito realizado por perito) e necessidade técnica (preparo e contextualização desses vestígios), devendo a coleta ser feita pelo perito.",
+      "B": "adequada, pois a integridade do material prevalece: quanto antes acondicionado, menor o risco de degradação, cabendo ao perito apenas ratificar a coleta no laudo de exame do local.",
+      "C": "adequada, desde que o agente fotografe o material na posição original e lavre termo de coleta, providências que suprem a exigência do exame pericial no local.",
+      "D": "inadequada somente sob o ângulo técnico, pois a necessidade legal se satisfaz com a posterior submissão do material a exame laboratorial firmado por perito oficial."
     },
-    "resposta_correta": "B",
-    "justificativa": "A coleta por não peritos não é a mais adequada: há necessidade legal de que a coleta se dê por meio de exame de corpo de delito (exame pericial) e necessidade técnica decorrente do preparo para o trato de vestígios biológicos, químicos e outros, além da contextualização do vestígio no local (p. 17, 19). Isso valida B. A e C subordinam indevidamente a coleta à celeridade ou ao mero registro fotográfico, sem suprir as necessidades legal e técnica. D nega a necessidade técnica justamente onde ela é mais evidente.",
+    "resposta_correta": "A",
+    "justificativa": "A coleta por não peritos não é a mais adequada: há necessidade legal de que a coleta se dê por meio de exame de corpo de delito (exame pericial) e necessidade técnica decorrente do preparo para o trato de vestígios biológicos, químicos e outros, além da contextualização do vestígio no local (p. 17, 19). Isso valida A. B subordina a coleta à celeridade e rebaixa o perito a mero ratificador, suprimindo a contextualização. C supõe que fotografia e termo de coleta substituem o exame pericial da cena, o que as necessidades legal e técnica não admitem. D fraciona o problema: o exame laboratorial posterior não supre a necessidade legal do exame de corpo de delito no local, nem a técnica.",
     "referencia": "PDF LOC, p. 19-20",
     "nivel": "dificil"
   },
@@ -18067,13 +18067,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a delimitação do perímetro de isolamento de um local de crime, a disciplina estabelece como regra prática que se deve:",
     "alternativas": {
-      "A": "isolar a menor área possível, a fim de reduzir o transtorno a populares e o consumo de recursos da equipe.",
-      "B": "isolar exatamente a área em que a vítima ou o corpo de delito foi inicialmente localizado, evitando ampliações.",
-      "C": "isolar a maior área possível dentro do contexto e da situação, pois áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios.",
-      "D": "aguardar a chegada da perícia para só então delimitar fisicamente o perímetro, mantendo a área livre até esse momento."
+      "A": "isolar a área estritamente necessária ao exame do ambiente imediato, transferindo ao ambiente mediato o controle de acesso mediante revista e identificação.",
+      "B": "delimitar o perímetro a partir do ponto em que se encontra o corpo de delito, em raio fixo definido pelo protocolo da unidade, ampliando-o apenas por ordem do perito.",
+      "C": "ajustar a área isolada à capacidade de vigilância da equipe presente, pois perímetro sem controle efetivo equivale, na prática, a ausência de isolamento.",
+      "D": "isolar a maior área possível dentro do contexto e da situação, pois áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios."
     },
-    "resposta_correta": "C",
-    "justificativa": "A regra prática é isolar a maior área possível dentro do contexto e da situação, porque áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios importantes (p. 24), o que valida C. A e B reduzem indevidamente a área, contrariando a regra. D contraria o dever do primeiro policial de providenciar a delimitação física antes da chegada da perícia.",
+    "resposta_correta": "D",
+    "justificativa": "A regra prática é isolar a maior área possível dentro do contexto e da situação, porque áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios importantes (p. 24), o que valida D. A restringe o isolamento ao ambiente imediato, quando a regra manda ampliar. B inventa raio fixo de protocolo e condiciona a ampliação ao perito — a delimitação inicial ampla cabe desde logo ao primeiro policial. C usa um argumento operacional plausível para justificar a redução da área, invertendo a diretriz: dimensiona-se o esforço para vigiar a maior área possível, e não a área para o efetivo disponível.",
     "referencia": "PDF LOC, p. 24",
     "nivel": "medio"
   },
@@ -18084,13 +18084,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à preservação, os locais de crime classificam-se em idôneos e inidôneos. Assinale a alternativa correta:",
     "alternativas": {
-      "A": "Idôneo é o local perturbado ou devassado após a prática da infração e antes da chegada dos peritos.",
-      "B": "Inidôneo é o local preservado exatamente na forma em que foi deixado pelo agente após a prática da infração.",
-      "C": "Idôneo é o local preservado na forma em que foi deixado pelo agente após a infração; inidôneo é o que foi perturbado ou devassado antes da chegada dos peritos.",
-      "D": "A classificação depende exclusivamente da gravidade do crime, sendo idôneos os locais de crimes contra a vida e inidôneos os demais."
+      "A": "Idôneo é o local preservado na forma em que foi deixado pelo agente após a infração; inidôneo é o que foi perturbado ou devassado antes da chegada dos peritos.",
+      "B": "Inidôneo é o local em que a perturbação ocorreu durante a própria prática da infração, ainda que a cena permaneça intacta até a chegada dos peritos.",
+      "C": "A idoneidade é aferida após o processamento: se os vestígios coletados permitirem reconstituir a dinâmica, o local se considera idôneo, mesmo que devassado.",
+      "D": "Idôneo é o local submetido a isolamento formal pela equipe policial; sem a delimitação física da área, o local presume-se inidôneo para fins periciais."
     },
-    "resposta_correta": "C",
-    "justificativa": "Locais idôneos (não violados) são os preservados na forma em que foram deixados pelo agente após a prática da infração; inidôneos (violados) são os perturbados ou devassados após a infração e antes da chegada dos peritos (p. 27). Isso valida C. A e B invertem as definições. D cria critério inexistente baseado na gravidade do crime.",
+    "resposta_correta": "A",
+    "justificativa": "Locais idôneos (não violados) são os preservados na forma em que foram deixados pelo agente após a prática da infração; inidôneos (violados) são os perturbados ou devassados após a infração e antes da chegada dos peritos (p. 27). Isso valida A. B desloca a perturbação para o momento da infração — o critério é a alteração POSTERIOR ao fato e ANTERIOR à perícia. C converte a classificação em juízo retrospectivo sobre o resultado do exame, quando ela descreve o estado de preservação da cena. D condiciona a idoneidade à formalidade do isolamento, que não é o critério: um local pode estar intacto sem delimitação física.",
     "referencia": "PDF LOC, p. 27",
     "nivel": "facil"
   },
@@ -18101,13 +18101,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um policial federal é o primeiro a chegar a um local de crime em que ainda não há delimitação física e há uma vítima ferida no chão. Considerando os procedimentos-padrão estudados, a conduta correta é:",
     "alternativas": {
-      "A": "iniciar imediatamente a busca e a coleta de vestígios, antecipando-se ao trabalho da perícia para evitar a perda de material.",
-      "B": "providenciar o socorro e o tratamento médico da vítima, sem descuidar de verificar as condições de isolamento, delimitar a área, contatar os primeiros agentes e identificar pessoas com conhecimento do fato.",
-      "C": "aguardar a chegada dos peritos sem qualquer providência, pois a delimitação do local é atribuição exclusiva da Criminalística.",
-      "D": "remover a vítima e os objetos próximos para fora da área, a fim de preservar a cena exatamente como encontrada."
+      "A": "priorizar a delimitação física da área e o registro da cena, acionando o socorro médico na sequência, pois a alteração do local pela equipe de resgate é irreversível.",
+      "B": "restringir-se a acionar a perícia e a autoridade policial, evitando qualquer intervenção na cena, inclusive o deslocamento até a vítima, para não produzir contaminação.",
+      "C": "providenciar o socorro e o tratamento médico da vítima, sem descuidar de verificar o isolamento, delimitar a área, contatar os primeiros agentes e identificar quem conheça o fato.",
+      "D": "prestar socorro à vítima e, em seguida, recolher os objetos situados na rota da equipe médica, guardando-os para entrega ao perito quando de sua chegada."
     },
-    "resposta_correta": "B",
-    "justificativa": "Havendo vítima, a principal preocupação é providenciar socorro e tratamento médico (p. 24); ainda assim, os procedimentos-padrão do primeiro policial incluem verificar as condições do isolamento, providenciar a delimitação física, estabelecer contato com os primeiros agentes e identificar pessoas que conheçam o fato (p. 23). Isso valida B. A invade a atribuição pericial de busca e coleta. C nega as providências que cabem ao primeiro policial. D agrava a alteração da cena ao remover objetos, em desacordo com a preservação.",
+    "resposta_correta": "C",
+    "justificativa": "Havendo vítima, a principal preocupação é providenciar socorro e tratamento médico (p. 24); ainda assim, os procedimentos-padrão do primeiro policial incluem verificar as condições do isolamento, providenciar a delimitação física, estabelecer contato com os primeiros agentes e identificar pessoas que conheçam o fato (p. 23). Isso valida C. A inverte a prioridade: a vida da vítima precede a preservação da cena. B omite o socorro, que é a preocupação principal, e ignora as providências do primeiro policial. D acrescenta a coleta de objetos, ato de processamento que invade a atribuição pericial e altera o estado das coisas.",
     "referencia": "PDF LOC, p. 23-24",
     "nivel": "medio"
   },
@@ -18118,13 +18118,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um local de crime de grande repercussão, diversos jornalistas se aproximam em busca de informações. Sobre o tratamento adequado à imprensa, conforme a disciplina, é correto afirmar que:",
     "alternativas": {
-      "A": "deve-se impedir totalmente o acesso da imprensa à informação, pois qualquer divulgação compromete a investigação.",
-      "B": "cada policial presente pode prestar declarações conforme seu entendimento, garantindo pluralidade de versões à sociedade.",
-      "C": "a imprensa deve ser tratada com ética e profissionalismo, designando-se um único policial como porta-voz e evitando-se comentar hipóteses sobre o crime.",
-      "D": "as hipóteses iniciais sobre a autoria devem ser compartilhadas com a imprensa para acelerar a colaboração de testemunhas."
+      "A": "a imprensa deve ser tratada com ética e profissionalismo, designando-se um único policial como porta-voz e evitando-se comentar hipóteses sobre o crime.",
+      "B": "o porta-voz designado deve apresentar à imprensa as linhas de investigação em curso, pois a transparência das hipóteses estimula o surgimento de novas testemunhas.",
+      "C": "as informações devem ser centralizadas no delegado, que pode autorizar os demais policiais a conceder entrevistas individuais sobre suas respectivas frentes de trabalho.",
+      "D": "o acesso da imprensa deve ser negociado caso a caso, admitindo-se a entrada controlada de equipes de filmagem no ambiente mediato após o registro fotográfico da cena."
     },
-    "resposta_correta": "C",
-    "justificativa": "A imprensa deve ser tratada com ética e profissionalismo; em local de grande repercussão, apenas um policial deve ser o porta-voz, e todos devem evitar falar sobre hipóteses do crime, pois a palavra de um policial é tida como o ponto de vista da polícia (p. 25-26). Isso valida C. A é exagerada, pois o papel da imprensa é informar a sociedade. B contraria a regra do porta-voz único. D é justamente o erro ilustrado pelo caso da escola, em que a divulgação de hipóteses depois desmentidas causou grave prejuízo.",
+    "resposta_correta": "A",
+    "justificativa": "A imprensa deve ser tratada com ética e profissionalismo; em local de grande repercussão, apenas um policial deve ser o porta-voz, e todos devem evitar falar sobre hipóteses do crime, pois a palavra de um policial é tida como o ponto de vista da polícia (p. 25-26). Isso valida A. B mantém o porta-voz único, mas manda divulgar hipóteses — justamente o erro ilustrado pelo caso da escola, em que hipóteses depois desmentidas causaram grave prejuízo. C pulveriza a comunicação em entrevistas individuais, contrariando a regra do porta-voz único. D admite ingresso de equipes de filmagem na área isolada, incompatível com a preservação do local.",
     "referencia": "PDF LOC, p. 25-26",
     "nivel": "medio"
   },
@@ -18152,13 +18152,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o isolamento do local quando estão presentes outras forças policiais e autoridades, a disciplina orienta que:",
     "alternativas": {
-      "A": "a presença de autoridades, por si só, autoriza o ingresso na área delimitada, dispensada qualquer orientação por parte dos policiais.",
-      "B": "independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, cabendo informar autoridades e mantê-las fora da área delimitada.",
-      "C": "havendo outra força policial responsável pela apuração, fica dispensado o isolamento até a chegada da respectiva perícia.",
-      "D": "as autoridades devem permanecer dentro do perímetro para acompanhar de perto o processamento e validar os atos da perícia."
+      "A": "identificada outra força policial como responsável pela apuração, o local deve ser entregue ao seu comando, cessando a responsabilidade do policial federal pelo isolamento.",
+      "B": "as autoridades com prerrogativa de função podem ingressar na área delimitada, desde que acompanhadas pelo policial responsável e com registro da entrada em relatório.",
+      "C": "o isolamento deve ser mantido apenas quanto ao ambiente imediato, franqueando-se o ambiente mediato às autoridades e às forças policiais presentes.",
+      "D": "independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, informando-se as autoridades e mantendo-as fora da área."
     },
-    "resposta_correta": "B",
-    "justificativa": "O texto afirma que, independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, e que cabe ao policial informar as autoridades sobre os procedimentos e mantê-las fora da área delimitada, pois muitas vezes não têm formação sobre processamento de local (p. 26). Isso valida B. A e D autorizam indevidamente o ingresso de autoridades. C dispensa o isolamento por haver outra força responsável, contrariando o texto.",
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que, independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, e que cabe ao policial informar as autoridades sobre os procedimentos e mantê-las fora da área delimitada, pois muitas vezes não têm formação sobre processamento de local (p. 26). Isso valida D. A condiciona a preservação à definição de competência, quando o dever de isolar independe de quem apura. B cria exceção por prerrogativa de função que o texto não admite — o acompanhamento e o registro não neutralizam a contaminação. C fraciona o isolamento e franqueia o ambiente mediato, que também integra a área preservada.",
     "referencia": "PDF LOC, p. 26",
     "nivel": "medio"
   },
@@ -18167,15 +18167,15 @@ const questoesDB = [
     "disciplina": "LOC - Locais de Crime e suas Interfaces",
     "conteudo": "Cap. 3 - Isolamento e preservação do local",
     "tipo": "multipla_escolha",
-    "enunciado": "A respeito das entrevistas realizadas no contexto do isolamento e da preservação do local, é correto afirmar que:",
+    "enunciado": "Sobre as entrevistas realizadas no contexto do isolamento e da preservação do local, assinale a alternativa INCORRETA:",
     "alternativas": {
-      "A": "destinam-se a obter informações subjetivas, com a maior quantidade possível de pessoas, devendo a iniciativa partir do policial e começar com o primeiro a chegar ao local.",
-      "B": "devem ser conduzidas exclusivamente pelos peritos, sendo vedado a militares e bombeiros prestar qualquer informação.",
-      "C": "limitam-se à coleta de informações objetivas extraídas diretamente dos vestígios materiais, sem participação de testemunhas.",
-      "D": "somente podem ter início após o encerramento do processamento pericial e a liberação do local pela autoridade."
+      "A": "Destinam-se a obter informações subjetivas sobre pessoas, coisas e fatos, buscando-se ouvir a maior quantidade possível de pessoas presentes ou que tenham comparecido ao local desde a ocorrência.",
+      "B": "A iniciativa deve partir do entrevistado, cabendo ao policial aguardar a manifestação espontânea de quem tenha algo a relatar, para não induzir versões.",
+      "C": "Militares e bombeiros que atuaram no local constituem grandes fontes de informação, podendo também os peritos realizar entrevistas.",
+      "D": "Devem começar com o primeiro a chegar ao local, seguindo-se as demais pessoas presentes que tenham conhecimento do fato."
     },
-    "resposta_correta": "A",
-    "justificativa": "As entrevistas buscam as informações subjetivas sobre pessoas, coisas e fatos, com a maior quantidade possível de pessoas; a iniciativa parte do policial e deve começar com o primeiro a chegar ao local, sendo militares e bombeiros grandes fontes de informação e podendo os peritos também entrevistar (p. 28). Isso valida A. B exclui indevidamente militares e bombeiros. C confunde entrevistas (informação subjetiva) com a análise dos vestígios (objetiva). D inverte a ordem, pois as entrevistas começam com o primeiro a chegar, não ao final.",
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B é a incorreta: o texto determina que a iniciativa da entrevista parta do POLICIAL, e não do entrevistado — não se aguarda manifestação espontânea (p. 28). As demais são verdadeiras: as entrevistas buscam as informações subjetivas sobre pessoas, coisas e fatos, com a maior quantidade possível de pessoas (A); militares e bombeiros são grandes fontes de informação e os peritos também podem entrevistar (C); e devem começar com o primeiro a chegar ao local (D).",
     "referencia": "PDF LOC, p. 28",
     "nivel": "medio"
   },
@@ -18186,13 +18186,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um crime ocorre na principal avenida de uma cidade, em horário de pico, e o isolamento amplo entra em conflito com o funcionamento do trânsito e do transporte coletivo. Simultaneamente, prevê-se chuva forte que pode comprometer vestígios a céu aberto. Sobre o enfrentamento dessas variáveis (dificuldades estruturais e intempéries), é correto afirmar que:",
     "alternativas": {
-      "A": "existe regra rígida que determina a paralisação total dos serviços públicos até o término do processamento, independentemente do contexto.",
-      "B": "não havendo regra clara, prevalecem o bom senso, o diálogo e a capacidade de ouvir as corporações envolvidas; quanto aos vestígios ameaçados, cobre-se quando possível ou registra-se por foto, medida e croqui.",
-      "C": "a manutenção dos serviços públicos sempre prevalece, devendo a perícia abrir mão integralmente do isolamento em vias de grande movimento.",
-      "D": "a preservação dos vestígios deve ser abandonada diante de intempéries, pois materiais expostos perdem automaticamente o valor probatório."
+      "A": "o interesse da persecução penal confere à perícia a prerrogativa de requisitar a interdição integral da via, cabendo aos órgãos de trânsito apenas executar a medida.",
+      "B": "deve-se reduzir o perímetro ao ambiente imediato e liberar o restante da via ao tráfego, transferindo os vestígios a céu aberto para local coberto antes do registro.",
+      "C": "não havendo regra clara, prevalecem o bom senso e o diálogo com as corporações envolvidas; vestígios ameaçados cobrem-se quando possível ou registram-se por foto, medida e croqui.",
+      "D": "a chuva iminente autoriza a coleta imediata dos vestígios expostos pelo primeiro policial presente, com posterior entrega do material à perícia mediante termo."
     },
-    "resposta_correta": "B",
-    "justificativa": "Quanto às dificuldades estruturais, não há regra clara, prevalecendo o bom senso, o diálogo e a capacidade de ouvir as corporações envolvidas (p. 27); quanto às intempéries, o bom senso pode determinar cobrir os vestígios e, não sendo possível, fotografar, medir e desenhar o croqui (p. 27). Isso valida B. A e C adotam soluções absolutas (paralisação total ou prevalência sempre dos serviços) incompatíveis com o bom senso preconizado. D abandona indevidamente a preservação, ignorando as alternativas de registro.",
+    "resposta_correta": "C",
+    "justificativa": "Quanto às dificuldades estruturais, não há regra clara, prevalecendo o bom senso, o diálogo e a capacidade de ouvir as corporações envolvidas; quanto às intempéries, o bom senso pode determinar cobrir os vestígios e, não sendo possível, fotografar, medir e desenhar o croqui (p. 27). Isso valida C. A converte a questão em relação de hierarquia entre perícia e órgãos de trânsito, quando a disciplina prega diálogo, não requisição. B manda deslocar vestígios antes do registro, alterando o estado das coisas em desacordo com o art. 169 do CPP. D transfere a coleta ao primeiro policial, invadindo o exame pericial — a solução é cobrir ou registrar, não coletar.",
     "referencia": "PDF LOC, p. 27",
     "nivel": "dificil"
   },
@@ -18203,13 +18203,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "No isolamento de um local de crime já delimitado por fita, um familiar da vítima exige ingressar na área para acompanhar os trabalhos, enquanto uma autoridade pública, sem formação em processamento de local, também solicita acesso. Considerando o tratamento das diferentes variáveis do isolamento, a conduta correta do policial é:",
     "alternativas": {
-      "A": "permitir o ingresso de ambos, desde que acompanhados por um agente, pois o vínculo familiar e a função pública afastam o risco de contaminação.",
-      "B": "franquear o acesso apenas à autoridade, em razão de seu cargo, mantendo o familiar fora do perímetro delimitado.",
-      "C": "manter ambos fora da área delimitada — o familiar, salvo necessidade urgente e comprovada, e a autoridade, a quem cabe informar os procedimentos —, preservando a idoneidade da cena.",
-      "D": "liberar a área para o familiar, por seu interesse legítimo, e impedir somente a autoridade, cuja presença não tem amparo legal."
+      "A": "manter ambos fora da área delimitada — o familiar, salvo necessidade urgente e comprovada, e a autoridade, a quem cabe informar os procedimentos —, preservando a idoneidade da cena.",
+      "B": "autorizar o ingresso da autoridade acompanhada por um agente, em deferência à função pública, mantendo o familiar fora do perímetro até a liberação do local.",
+      "C": "permitir o acesso do familiar para o reconhecimento imediato da vítima, necessidade que se presume urgente em razão do vínculo, e negar o ingresso da autoridade que não detenha formação técnica em processamento de local.",
+      "D": "registrar a presença de ambos e franquear-lhes o ambiente mediato, reservando a restrição de acesso somente ao ambiente imediato da cena."
     },
-    "resposta_correta": "C",
-    "justificativa": "Parentes devem ser tratados com respeito, mas não podem penetrar na área delimitada, salvo necessidade urgente e comprovada (p. 26); autoridades, muitas vezes sem formação sobre processamento de local, devem ser informadas dos procedimentos e mantidas fora da área delimitada (p. 26). Logo, a conduta correta é manter ambos fora do perímetro, o que valida C. A e D autorizam indevidamente o ingresso por vínculo familiar. B admite o acesso da autoridade apenas pelo cargo, em desacordo com a orientação de mantê-la fora da área.",
+    "resposta_correta": "A",
+    "justificativa": "Parentes devem ser tratados com respeito, mas não podem penetrar na área delimitada, salvo necessidade urgente e comprovada; autoridades, muitas vezes sem formação sobre processamento de local, devem ser informadas dos procedimentos e mantidas fora da área delimitada (p. 26). Logo, a conduta correta é manter ambos fora do perímetro, o que valida A. B cria exceção por deferência ao cargo, que o texto não admite. C presume urgência no reconhecimento da vítima — a exceção exige necessidade urgente E comprovada, não presumida. D confunde a estrutura do isolamento: o ambiente mediato também é área delimitada e de acesso restrito.",
     "referencia": "PDF LOC, p. 26",
     "nivel": "dificil"
   },
@@ -18237,13 +18237,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na fase de preparação, o conhecimento prévio do tipo de local e de crime é relevante porque:",
     "alternativas": {
-      "A": "permite ao perito dispensar o exame pericial sempre que o crime for de menor potencial ofensivo.",
-      "B": "define os possíveis vestígios, o material e o equipamento necessários e o tipo de apoio a ser solicitado, como o de especialistas em explosivos quando for o caso.",
-      "C": "autoriza a coleta imediata dos vestígios pela guarnição que primeiro chegar ao local.",
-      "D": "substitui a necessidade de planejamento de transporte e de meios de comunicação da equipe."
+      "A": "permite antecipar a dinâmica provável do fato e, com isso, restringir a busca completa às áreas de maior interesse, abreviando o processamento da cena.",
+      "B": "orienta a definição da equipe mínima e autoriza, nos crimes de menor complexidade, a supressão da etapa de reunião final do processamento.",
+      "C": "destina-se sobretudo a estimar o tempo de retenção do local, permitindo comunicar previamente à autoridade o momento provável da liberação.",
+      "D": "define os possíveis vestígios, o material e o equipamento necessários e o tipo de apoio a solicitar, como o de especialistas em explosivos, quando for o caso."
     },
-    "resposta_correta": "B",
-    "justificativa": "O conhecimento do tipo de local/crime define os possíveis vestígios, o material e o equipamento e o tipo de ajuda necessária — por exemplo, apoio de especialistas em bombas no caso de explosivos —, valendo o lema de que 'não se deve tentar resolver tudo sozinho' (p. 29). Isso valida B. A é falsa, pois não dispensa o exame pericial. C contraria a regra de que a coleta cabe ao perito após o devido processamento. D nega a importância do planejamento de transporte e comunicação, também tratados na preparação.",
+    "resposta_correta": "D",
+    "justificativa": "O conhecimento do tipo de local/crime define os possíveis vestígios, o material e o equipamento e o tipo de ajuda necessária — por exemplo, apoio de especialistas em bombas no caso de explosivos —, valendo o lema de que 'não se deve tentar resolver tudo sozinho' (p. 29). Isso valida D. A usa a preparação para encurtar a busca completa, que não se restringe por hipótese prévia — a antecipação serve para equipar, não para abreviar. B inventa dispensa da reunião final, etapa que integra todo processamento. C reduz a preparação a uma estimativa de cronograma, finalidade que o texto não lhe atribui.",
     "referencia": "PDF LOC, p. 29",
     "nivel": "medio"
   },
@@ -18271,13 +18271,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante a chegada ao local, são realizadas entrevistas com testemunhas e pessoas presentes antes da perícia. Sobre o aproveitamento dessas informações, é correto afirmar que:",
     "alternativas": {
-      "A": "as informações subjetivas obtidas nas entrevistas integram diretamente as conclusões do laudo, com o mesmo peso dos vestígios materiais.",
-      "B": "as entrevistas servem para direcionar e agilizar os trabalhos, mas as informações subjetivas não são objeto de avaliação no laudo, no qual o perito considera apenas os vestígios.",
-      "C": "as entrevistas substituem a busca por vestígios sempre que houver testemunhas presenciais concordantes.",
-      "D": "as informações subjetivas só podem ser colhidas pelo perito-chefe, sendo vedada sua obtenção pelos demais membros da equipe."
+      "A": "as entrevistas servem para direcionar e agilizar os trabalhos, mas as informações subjetivas não são avaliadas no laudo, em que o perito considera apenas os vestígios.",
+      "B": "as informações subjetivas ingressam no laudo como elementos de contexto, desde que o relato seja corroborado por ao menos um vestígio material identificado na cena.",
+      "C": "as entrevistas na chegada cabem ao delegado e aos agentes, sendo vedado aos peritos colhê-las, para não comprometer a imparcialidade das conclusões técnicas.",
+      "D": "as entrevistas devem ser adiadas para depois da busca completa, evitando que as versões das testemunhas induzam o perito na localização dos vestígios."
     },
-    "resposta_correta": "B",
-    "justificativa": "As entrevistas podem ser feitas por qualquer membro da equipe e servem para direcionar e agilizar os trabalhos; contudo, as informações subjetivas não serão objeto de avaliação no laudo, pois o perito só considera os vestígios para suas conclusões, ainda que existam vestígios que comprovem o relato (p. 33). Isso valida B. A equipara indevidamente relato e vestígio nas conclusões. C dispensa a busca por vestígios. D restringe sem fundamento a entrevista ao perito-chefe.",
+    "resposta_correta": "A",
+    "justificativa": "As entrevistas podem ser feitas por qualquer membro da equipe e servem para direcionar e agilizar os trabalhos; contudo, as informações subjetivas não serão objeto de avaliação no laudo, pois o perito só considera os vestígios para suas conclusões, ainda que existam vestígios que comprovem o relato (p. 33). Isso valida A. B cria regra de ingresso condicionado no laudo — mesmo corroborado, o relato não é avaliado nas conclusões periciais. C veda ao perito a entrevista, quando o texto expressamente admite que qualquer membro da equipe a realize. D inverte a lógica: as entrevistas ocorrem na chegada justamente para direcionar a busca, não depois dela.",
     "referencia": "PDF LOC, p. 33",
     "nivel": "medio"
   },
@@ -18288,13 +18288,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante a busca completa, ao localizar um vestígio relevante, o procedimento correto do perito é:",
     "alternativas": {
-      "A": "coletá-lo e embalá-lo de imediato, para evitar sua perda ou contaminação antes do registro.",
+      "A": "fotografá-lo de imediato em plano de detalhe e coletá-lo na sequência, garantindo que a busca prossiga sem risco de perda do material localizado.",
       "B": "marcá-lo, para que posteriormente seja descrito, fotografado e assinalado no croqui, conduzindo a busca do geral para o específico.",
-      "C": "removê-lo para a rota de entrada e saída, a fim de facilitar sua posterior fotografia em condições controladas.",
-      "D": "registrar apenas verbalmente a sua existência, dispensando fotografia e croqui quando se tratar de área visível."
+      "C": "interromper a busca e iniciar a coleta de todos os vestígios já localizados, retomando a varredura somente após o acondicionamento do material.",
+      "D": "descrevê-lo e assinalá-lo no croqui, dispensando o registro fotográfico quando a posição do vestígio já estiver documentada por medidas."
     },
     "resposta_correta": "B",
-    "justificativa": "A regra é que, ao encontrar um vestígio, ele seja marcado para depois ser descrito, fotografado e assinalado no croqui — nunca coletado de imediato —, conduzindo-se a busca do geral para o específico (p. 33-35). Isso valida B. A contraria a regra ao coletar antes do registro. C agrava a alteração da cena ao remover o vestígio. D dispensa indevidamente o registro fotográfico e o croqui.",
+    "justificativa": "A regra é que, ao encontrar um vestígio, ele seja marcado para depois ser descrito, fotografado e assinalado no croqui — nunca coletado de imediato —, conduzindo-se a busca do geral para o específico (p. 33-35). Isso valida B. A antecipa a coleta para logo após a fotografia, quando a coleta tem etapa própria, posterior à busca e à documentação completas. C fragmenta a busca e antecipa a coleta, invertendo a sequência das etapas. D suprime o registro fotográfico, que integra a documentação ao lado da descrição e do croqui — as medidas não o substituem.",
     "referencia": "PDF LOC, p. 33-35",
     "nivel": "medio"
   },
@@ -18322,13 +18322,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma cena pequena e com poucos profissionais disponíveis, qual padrão de busca é o mais indicado e como ele se desenvolve?",
     "alternativas": {
-      "A": "O padrão em linha, com os profissionais a dois braços de distância e uma pessoa-base comandando a varredura.",
-      "B": "O padrão em quadrante, dividindo-se a cena em quatro setores e aplicando-se outra metodologia em cada um.",
-      "C": "O padrão em espiral, iniciando-se na periferia e contornando a cena até o ponto central, onde geralmente está a maioria dos vestígios.",
-      "D": "O padrão em linha cruzada, com duas varreduras perpendiculares para maior completude."
+      "A": "O padrão em quadrante, que divide a cena em quatro setores examinados sucessivamente pela mesma dupla de profissionais.",
+      "B": "O padrão em espiral, que se inicia na periferia e contorna a cena até o ponto central, onde geralmente está a maioria dos vestígios.",
+      "C": "O padrão em linha, com os profissionais a dois braços de distância e uma pessoa-base comandando o alinhamento da varredura.",
+      "D": "O padrão em espiral invertida, que parte do ponto central da cena em direção à periferia, acompanhando a dispersão dos vestígios."
     },
-    "resposta_correta": "C",
-    "justificativa": "O padrão em espiral é indicado para área pequena e poucas pessoas, iniciando na periferia e contornando a cena até o ponto central, onde geralmente se concentra a maioria dos vestígios (p. 34). Isso valida C. A e D (linha e linha cruzada) destinam-se a áreas extensas com muitas pessoas. B (quadrante) é uma divisão setorial, não a indicada preferencialmente para cenas pequenas com poucos profissionais.",
+    "resposta_correta": "B",
+    "justificativa": "O padrão em espiral é indicado para área pequena e poucas pessoas, iniciando na periferia e contornando a cena até o ponto central, onde geralmente se concentra a maioria dos vestígios (p. 34). Isso valida B. A (quadrante) é uma divisão setorial da cena, não o padrão indicado para cenas pequenas com poucos profissionais. C (linha) destina-se a áreas extensas com muitas pessoas. D descreve o percurso invertido: a espiral vai da periferia ao centro, e não do centro à periferia — exatamente porque no centro tende a estar a maior concentração de vestígios, examinada por último para não ser atravessada.",
     "referencia": "PDF LOC, p. 34",
     "nivel": "medio"
   },
@@ -18339,13 +18339,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao processar um homicídio em uma residência, o perito localiza uma mancha suspeita de sangue impregnada no carpete da sala. Considerando a coleta de vestígios e a noção de amostra controle (ou amostra padrão), a conduta tecnicamente adequada é:",
     "alternativas": {
-      "A": "encaminhar o carpete inteiro ao laboratório, pois somente a remoção total do suporte garante a confiabilidade da análise.",
-      "B": "recortar e encaminhar apenas o trecho com a mancha, descartando-se qualquer coleta adicional do mesmo suporte.",
-      "C": "recortar o trecho com a mancha e, como regra geral, coletar também uma amostra do carpete isenta da mancha (amostra controle), pois ela pode ser necessária para uma análise conclusiva.",
-      "D": "aguardar manifestação do laboratório antes de qualquer coleta, mantendo o carpete no local até nova diligência."
+      "A": "recortar o trecho com a mancha e, como regra geral, coletar também amostra do carpete isenta da mancha (amostra controle), que pode ser necessária à análise conclusiva.",
+      "B": "recortar o trecho com a mancha e fotografar em detalhe a área restante do carpete, registro que substitui a amostra controle caso o laboratório venha a necessitar de comparação com o suporte.",
+      "C": "coletar a amostra controle somente se o laboratório a requisitar previamente, evitando o transporte de material sem destinação analítica definida.",
+      "D": "recortar dois fragmentos da própria mancha, encaminhando um deles como amostra controle destinada à contraprova laboratorial."
     },
-    "resposta_correta": "C",
-    "justificativa": "Quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado, recorta-se o trecho com a mancha; para que a análise seja conclusiva, o laboratório pode precisar de uma amostra do suporte isenta da mancha (amostra controle/padrão). Como no local não se sabe se será necessária, a regra geral é coletá-la (p. 36-37). Isso valida C. A é inviável e desnecessária. B omite a amostra controle. D adia indevidamente a coleta, perdendo a oportunidade única do processamento.",
+    "resposta_correta": "A",
+    "justificativa": "Quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado, recorta-se o trecho com a mancha; para que a análise seja conclusiva, o laboratório pode precisar de uma amostra do suporte isenta da mancha (amostra controle/padrão). Como no local não se sabe se será necessária, a regra geral é coletá-la (p. 36-37). Isso valida A. B supõe que a fotografia substitui a amostra controle, que é material físico para análise química/biológica. C inverte a lógica da oportunidade única: no local não se sabe se o laboratório precisará, por isso coleta-se desde logo. D confunde amostra controle (porção do suporte SEM a mancha) com duplicata da própria mancha para contraprova.",
     "referencia": "PDF LOC, p. 36-37",
     "nivel": "dificil"
   },
@@ -18373,13 +18373,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Concluído o processamento, procede-se à liberação do local. Sobre essa etapa, é correto afirmar que:",
     "alternativas": {
-      "A": "a entrega do local deve ser feita por qualquer integrante da equipe, independentemente de chefia, e não precisa ser registrada.",
-      "B": "o chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido e os cuidados necessários, com a liberação consignada em laudo.",
-      "C": "a liberação somente é válida se realizada por escrito e homologada judicialmente antes da retirada da fita de isolamento.",
-      "D": "após a liberação, a responsabilidade pelo local permanece com a perícia até o encerramento do inquérito policial."
+      "A": "a liberação do local é ato privativo do delegado responsável pela apuração, cabendo ao chefe da equipe pericial apenas comunicar formalmente o encerramento dos exames e aguardar a decisão da autoridade quanto à retirada do isolamento.",
+      "B": "a entrega do local exige termo escrito assinado pelo chefe da equipe e pelo recebedor, sendo a forma verbal admitida apenas em locais externos.",
+      "C": "o chefe da equipe entrega formalmente o local ao delegado ou policial encarregado, informando o que deve ser apreendido e os cuidados necessários, consignando-se a liberação em laudo.",
+      "D": "com a liberação, transfere-se ao recebedor a responsabilidade pela cadeia de custódia dos vestígios ainda não transportados pela equipe pericial."
     },
-    "resposta_correta": "B",
-    "justificativa": "O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido/encaminhado e os cuidados; a liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, podendo ser por escrito se necessário (p. 37). Isso valida B. A dispensa indevidamente a chefia e o registro. C exige forma escrita e homologação judicial não previstas. D prolonga indevidamente a responsabilidade da perícia após a entrega formal.",
+    "resposta_correta": "C",
+    "justificativa": "O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido/encaminhado e os cuidados; a liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, podendo ser por escrito se necessário (p. 37). Isso valida C. A desloca a liberação para o delegado, quando quem entrega o local é o chefe da equipe pericial. B inverte a regra da forma: a liberação é geralmente verbal (consignada em laudo), sendo o escrito a exceção. D transfere a custódia dos vestígios ao recebedor do local, quando os vestígios coletados permanecem sob responsabilidade da perícia.",
     "referencia": "PDF LOC, p. 37",
     "nivel": "medio"
   },
@@ -18405,15 +18405,15 @@ const questoesDB = [
     "disciplina": "LOC - Locais de Crime e suas Interfaces",
     "conteudo": "Cap. 5 - Documentação do local",
     "tipo": "multipla_escolha",
-    "enunciado": "Sobre a descrição narrativa do local de crime, é correto afirmar que:",
+    "enunciado": "Sobre a descrição narrativa do local de crime, assinale a alternativa INCORRETA:",
     "alternativas": {
-      "A": "deve ser redigida posteriormente, na sede da unidade, com base na memória do perito e nas fotografias capturadas.",
-      "B": "deve ser feita no próprio local, durante o processamento, seguindo ordem lógica do geral para o específico, e nunca de memória.",
-      "C": "limita-se ao registro escrito, sendo vedado o uso de áudio ou vídeo como apoio à narrativa.",
-      "D": "deve partir do detalhe de cada vestígio para só então alcançar a visão geral do ambiente."
+      "A": "Deve ser realizada no próprio local de crime, enquanto se desenvolve o processamento da cena.",
+      "B": "Segue ordem lógica do geral para o específico, partindo do aspecto macroscópico do ambiente até os particulares de cada vestígio.",
+      "C": "Pode apoiar-se em registro de áudio ou de vídeo como auxílio à narrativa.",
+      "D": "Concluído o processamento, admite-se completá-la de memória na sede da unidade, desde que a redação ocorra no mesmo dia dos exames."
     },
-    "resposta_correta": "B",
-    "justificativa": "A descrição narrativa deve ser feita no próprio local, durante o processamento, seguindo ordem lógica do geral para o específico (do macroscópico ao particular), e nunca de memória posteriormente, pois detalhes se perdem e a memória é falha (p. 39). Isso valida B. A contraria a regra de ouro de não redigir de memória. C nega a possibilidade de registro em áudio ou vídeo, expressamente admitida. D inverte a ordem lógica (do geral para o específico).",
+    "resposta_correta": "D",
+    "justificativa": "A alternativa D é a incorreta: a descrição narrativa nunca deve ser feita de memória, posteriormente — detalhes se perdem e a memória é falha (p. 39); não há exceção para o 'mesmo dia'. As demais são verdadeiras: a descrição é feita no próprio local, durante o processamento (A); segue ordem lógica do geral para o específico, do macroscópico ao particular (B); e pode usar áudio ou vídeo como apoio (C).",
     "referencia": "PDF LOC, p. 39",
     "nivel": "medio"
   },
@@ -18424,13 +18424,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Como regra geral, recomenda-se, no mínimo, três fotografias de cada vestígio: uma contextualizada, um close sem escala e um close com escala. A razão técnica para se registrar o close SEM escala, além daquele com escala, é:",
     "alternativas": {
-      "A": "permitir a estimativa do tamanho do vestígio diretamente na fotografia, função que a escala dificultaria.",
-      "B": "atender exigência legal de que toda fotografia pericial seja capturada sem qualquer elemento métrico.",
-      "C": "evitar que a escala, colocada indevidamente, oculte outros vestígios menores que só venham a ser percebidos depois, ao se analisar a foto.",
-      "D": "substituir a fotografia contextualizada, dispensando o registro do vestígio associado aos demais aspectos do local."
+      "A": "evitar que a escala, mal posicionada, oculte outros vestígios menores que só venham a ser percebidos depois, ao se analisar a fotografia.",
+      "B": "documentar o vestígio em seu estado natural, pois a introdução de objeto estranho ao contexto pode ser questionada em juízo como alteração da cena.",
+      "C": "compensar eventuais distorções ópticas causadas pela proximidade da lente, que a presença da régua de escala tende a acentuar.",
+      "D": "permitir a estimativa do tamanho do vestígio por comparação com elementos do próprio ambiente, dispensando o uso da régua de referência."
     },
-    "resposta_correta": "C",
-    "justificativa": "O close sem escala é recomendado porque já houve casos de a escala ser colocada indevidamente sobre outros vestígios menores, que só foram percebidos depois ao se analisar a foto; assim, a foto sem escala protege contra essa ocultação, enquanto a com escala permite estimar o tamanho (p. 40-41). Isso valida C. A descreve a função do close com escala, não do sem escala. B inventa exigência legal inexistente. D confunde os papéis das fotos, pois a contextualizada tem finalidade própria (localizar o vestígio no conjunto).",
+    "resposta_correta": "A",
+    "justificativa": "O close sem escala é recomendado porque já houve casos de a escala ser colocada indevidamente sobre outros vestígios menores, que só foram percebidos depois ao se analisar a foto; assim, a foto sem escala protege contra essa ocultação, enquanto a com escala permite estimar o tamanho (p. 40-41). Isso valida A. B inventa um problema jurídico: a escala é instrumento técnico consagrado, não alteração da cena. C atribui à escala efeito óptico que ela não produz. D transfere ao close sem escala a função métrica, que é justamente a do close com escala.",
     "referencia": "PDF LOC, p. 40-41",
     "nivel": "dificil"
   },
@@ -18441,13 +18441,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O chamado registro fotográfico, no contexto da documentação do local, corresponde a:",
     "alternativas": {
-      "A": "uma tabela/formulário de controle que confere ao fotógrafo a certeza de que todos os vestígios foram fotografados de maneira adequada.",
-      "B": "ao conjunto de negativos e cópias em papel arquivados exclusivamente em câmeras de filme, vedado o uso de meio digital.",
-      "C": "ao laudo fotográfico autônomo, que substitui a descrição narrativa e o croqui do local.",
-      "D": "à autorização judicial necessária para a captação de imagens em ambientes internos da cena."
+      "A": "o conjunto das fotografias contextualizadas e dos closes de cada vestígio, ordenado segundo a sequência da busca realizada na cena.",
+      "B": "a seção do laudo pericial em que as imagens são inseridas com as respectivas legendas descritivas e indicações de escala.",
+      "C": "uma tabela/formulário de controle que dá ao fotógrafo a certeza de que todos os vestígios foram fotografados de maneira adequada.",
+      "D": "o arquivo digital bruto preservado como matriz das imagens, garantia de autenticidade em caso de questionamento judicial."
     },
-    "resposta_correta": "A",
-    "justificativa": "O registro fotográfico é uma tabela/formulário de controle que dá ao fotógrafo a certeza de que todos os vestígios foram fotografados adequadamente, ajudando a descrever, fotografar e controlar a coleta de cada vestígio, evitando confusão em locais com muitas fotos (p. 41). Isso valida A. B restringe indevidamente ao filme, contrariando o uso do digital. C confunde o instrumento de controle com um laudo substitutivo. D inventa exigência de autorização judicial.",
+    "resposta_correta": "C",
+    "justificativa": "O registro fotográfico é uma tabela/formulário de controle que dá ao fotógrafo a certeza de que todos os vestígios foram fotografados adequadamente, ajudando a descrever, fotografar e controlar a coleta de cada vestígio, evitando confusão em locais com muitas fotos (p. 41). Isso valida C. A confunde o instrumento de CONTROLE com o próprio acervo de fotografias produzido. B o confunde com a parte ilustrativa do laudo. D o confunde com a preservação dos arquivos originais — tema de autenticidade, e não o formulário de controle tratado pela disciplina.",
     "referencia": "PDF LOC, p. 41",
     "nivel": "medio"
   },
@@ -18458,13 +18458,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O croqui tem por propósito registrar a posição dos vestígios no local. Assinale a alternativa que reúne corretamente os métodos de medição utilizados para posicioná-los:",
     "alternativas": {
-      "A": "Triangulação, coordenadas cartesianas, coordenadas polares e linha base.",
-      "B": "Espiral, linha, linha cruzada e quadrante.",
-      "C": "Panorâmica, média distância, aproximada e close.",
-      "D": "Contextualizada, sem escala, com escala e aérea."
+      "A": "Triangulação, linha base, quadrante e coordenadas polares.",
+      "B": "Triangulação, coordenadas cartesianas, coordenadas polares e linha base.",
+      "C": "Coordenadas cartesianas, linha cruzada, coordenadas polares e espiral.",
+      "D": "Linha base, triangulação, coordenadas cartesianas e panorâmica."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os quatro métodos de medição para posicionar vestígios no croqui são triangulação, coordenadas cartesianas, coordenadas polares e linha base (p. 43-46), o que valida A. B corresponde aos padrões de busca (Cap. 4). C corresponde à sequência de enquadramentos fotográficos. D corresponde aos tipos de fotografias de vestígio, não a métodos de croqui.",
+    "resposta_correta": "B",
+    "justificativa": "Os quatro métodos de medição para posicionar vestígios no croqui são triangulação, coordenadas cartesianas, coordenadas polares e linha base (p. 43-46), o que valida B. As demais alternativas contaminam a lista com termos de outras classificações: 'quadrante' (A), 'linha cruzada' (C) e 'espiral' (C) são padrões de BUSCA do Cap. 4, e 'panorâmica' (D) é um enquadramento fotográfico — nenhum deles é método de medição do croqui.",
     "referencia": "PDF LOC, p. 43-46",
     "nivel": "facil"
   },
@@ -18475,13 +18475,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um local de crime a céu aberto, em campo amplo, o perito tem dificuldade de estabelecer um segundo ponto de referência fixo para posicionar os vestígios. Considerando os métodos de croqui, a solução mais adequada é:",
     "alternativas": {
-      "A": "empregar coordenadas cartesianas, adotando duas paredes perpendiculares como eixos X e Y.",
-      "B": "empregar coordenadas polares, posicionando cada vestígio por distância e ângulo a partir de um referencial — que, na falta de um natural, pode ser artificial, como uma haste metálica enterrada, depois localizável por detector de metais.",
-      "C": "empregar o método da linha base, indispensável sempre que houver um único referencial disponível.",
-      "D": "abandonar o croqui e basear o posicionamento exclusivamente nas fotografias panorâmicas do local."
+      "A": "empregar a triangulação, substituindo o segundo referencial fixo por um ponto móvel georreferenciado, cuja posição é registrada por receptor de satélite no início e no fim da varredura, o que permite reproduzir as medidas em diligência posterior.",
+      "B": "empregar o método da linha base, estendendo uma trena entre o ponto de acesso e o centro da cena e medindo os vestígios ortogonalmente a ela.",
+      "C": "empregar coordenadas cartesianas, projetando eixos imaginários alinhados aos pontos cardeais com auxílio de bússola e trena.",
+      "D": "empregar coordenadas polares, posicionando cada vestígio por distância e ângulo a partir de um referencial, que pode ser artificial — como uma haste enterrada, localizável depois por detector de metais."
     },
-    "resposta_correta": "B",
-    "justificativa": "As coordenadas polares são indicadas para áreas abertas em que é difícil estabelecer um segundo referencial, localizando o vestígio por distância e ângulo a partir de um referencial; na falta de um referencial natural, pode-se criar um artificial, como uma haste metálica enterrada, depois localizável por detector de metais, medindo-se o ângulo a partir do Norte ou de uma linha recriável (p. 45). Isso valida B. A exige paredes (áreas fechadas), inexistentes no campo. C aplica-se a vestígios concentrados em uma mesma direção, não à ausência de segundo referencial. D abandona indevidamente o croqui.",
+    "resposta_correta": "D",
+    "justificativa": "As coordenadas polares são indicadas para áreas abertas em que é difícil estabelecer um segundo referencial, localizando o vestígio por distância e ângulo a partir de um único referencial; na falta de um natural, cria-se um artificial, como uma haste metálica enterrada, depois localizável por detector de metais, medindo-se o ângulo a partir do Norte ou de uma linha recriável (p. 45). Isso valida D. A desnatura a triangulação, que exige dois referenciais FIXOS — um ponto móvel não permite reproduzir as medidas. B emprega a linha base fora de sua indicação (vestígios concentrados em uma mesma direção) e ainda depende de dois pontos. C exige eixos a partir de paredes ou estruturas equivalentes, próprios de áreas fechadas, e não de projeções imaginárias.",
     "referencia": "PDF LOC, p. 45",
     "nivel": "dificil"
   },
@@ -18492,13 +18492,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o método da triangulação aplicado ao croqui, é correto afirmar que:",
     "alternativas": {
-      "A": "posiciona o vestígio medindo sua distância a um único referencial, sendo dispensável a participação de mais de uma pessoa.",
-      "B": "posiciona o vestígio a partir de dois referenciais fixos; para objetos pequenos basta uma triangulação, e para objetos de tamanho considerável fazem-se duas (uma em cada extremidade), o que fornece também o tamanho do vestígio.",
-      "C": "é indicado exclusivamente para áreas abertas, substituindo as coordenadas polares quando há bússola disponível.",
-      "D": "exige a medição de distância e ângulo a partir do Norte, com auxílio de bússola ou de cálculos matemáticos."
+      "A": "posiciona o vestígio a partir de dois referenciais fixos: uma triangulação basta para objetos pequenos; duas, uma em cada extremidade, fornecem também o tamanho dos objetos maiores.",
+      "B": "posiciona o vestígio pela interseção de três medidas tomadas de um mesmo referencial com trena de longo alcance, o que o torna indicado para cenas com referencial único.",
+      "C": "aplica-se preferencialmente a áreas abertas e exige o registro do ângulo formado entre as linhas de medida, tomado com bússola a partir do Norte ou de linha recriável.",
+      "D": "por demandar um único executor e um único referencial fixo, é considerado o método mais simples, sendo indicado quando a equipe disponível é reduzida."
     },
-    "resposta_correta": "B",
-    "justificativa": "A triangulação posiciona o vestígio a partir de dois referenciais fixos; é muito usada pela simplicidade e exige no mínimo duas pessoas; para objetos pequenos basta uma triangulação, e para objetos de tamanho considerável fazem-se duas (uma em cada extremidade), fornecendo posição, localização e o tamanho do vestígio (p. 43-44). Isso valida B. A descreve, equivocadamente, um único referencial e dispensa o auxílio. C e D atribuem à triangulação características das coordenadas polares (ângulo, Norte, bússola).",
+    "resposta_correta": "A",
+    "justificativa": "A triangulação posiciona o vestígio a partir de dois referenciais fixos; é muito usada pela simplicidade e exige no mínimo duas pessoas; para objetos pequenos basta uma triangulação, e para objetos de tamanho considerável fazem-se duas (uma em cada extremidade), fornecendo posição, localização e o tamanho do vestígio (p. 43-44). Isso valida A. B inventa uma 'interseção de três medidas' de um só referencial — a essência do método são DOIS referenciais. C mistura características das coordenadas polares (ângulo, Norte, bússola), estranhas à triangulação. D erra duas vezes: o método exige dois referenciais e no mínimo duas pessoas.",
     "referencia": "PDF LOC, p. 43-44",
     "nivel": "medio"
   },
@@ -18526,13 +18526,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O método da linha base, utilizado na elaboração do croqui, caracteriza-se por:",
     "alternativas": {
-      "A": "ser indicado para vestígios concentrados em uma mesma direção, empregando-se duas trenas — uma como linha base e outra para medir a distância do vestígio até ela, sempre ortogonalmente.",
-      "B": "medir a posição de cada vestígio por distância e ângulo a partir de um referencial único, com auxílio de bússola.",
-      "C": "exigir dois referenciais fixos permanentes e, no mínimo, duas pessoas para a tomada das medidas.",
-      "D": "ser aplicável apenas a ambientes internos, adotando-se duas paredes perpendiculares como eixos."
+      "A": "ser indicado para áreas extensas sem referenciais naturais, com uma única trena estendida entre dois pontos artificiais e medidas tomadas em qualquer ângulo registrado.",
+      "B": "ser indicado para vestígios concentrados em uma mesma direção, com duas trenas — uma como linha base e outra para medir, sempre ortogonalmente, a distância do vestígio até ela.",
+      "C": "exigir dois referenciais fixos permanentes e no mínimo duas pessoas, fornecendo, além da posição, o tamanho dos vestígios de maiores dimensões.",
+      "D": "ser aplicável a ambientes internos, adotando-se o rodapé de uma parede como linha de referência e a parede contígua como eixo ortogonal de medição."
     },
-    "resposta_correta": "A",
-    "justificativa": "O método da linha base é usado quando há concentração de vestígios em uma mesma direção, empregando-se duas trenas: uma como linha base e a outra para medir a distância do vestígio até ela, sempre ortogonalmente (em ângulo reto) (p. 46). Isso valida A. B descreve as coordenadas polares. C descreve a triangulação. D descreve as coordenadas cartesianas.",
+    "resposta_correta": "B",
+    "justificativa": "O método da linha base é usado quando há concentração de vestígios em uma mesma direção, empregando-se duas trenas: uma como linha base e a outra para medir a distância do vestígio até ela, sempre ortogonalmente (em ângulo reto) (p. 46). Isso valida B. A erra a indicação (que não é a ausência de referenciais, mas a concentração direcional dos vestígios) e admite medidas em qualquer ângulo, quando a medição é sempre ortogonal. C descreve a triangulação. D descreve as coordenadas cartesianas, próprias de ambientes internos com paredes como eixos.",
     "referencia": "PDF LOC, p. 46",
     "nivel": "medio"
   },
@@ -18543,13 +18543,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma equipe de quatro peritos, distribuem-se as tarefas de documentação do local. Considerando as atribuições descritas na disciplina, assinale a alternativa correta:",
     "alternativas": {
-      "A": "Cabe ao perito do croqui garantir que todos os vestígios foram fotografados e preencher o controle das fotografias.",
-      "B": "Cabe ao PCF chefe da equipe estabelecer a cadeia de comando, fazer a descrição narrativa, realizar a busca preliminar e decidir quanto à liberação do local.",
-      "C": "Cabe ao perito incumbido de catalogar tomar as medidas de posicionamento dos vestígios e solicitar ajuda para a triangulação.",
-      "D": "Cabe ao perito fotógrafo entregar o local às autoridades competentes ao final do processamento."
+      "A": "Cabe ao perito do croqui preencher o registro fotográfico, certificando-se de que todos os vestígios foram fotografados antes da coleta.",
+      "B": "Cabe ao perito incumbido de catalogar tomar as medidas de posicionamento dos vestígios, solicitando apoio de outro integrante para a triangulação.",
+      "C": "Cabe ao perito fotógrafo realizar a busca preliminar da cena, definindo a rota de entrada e saída a ser utilizada pela equipe.",
+      "D": "Cabe ao PCF chefe da equipe estabelecer a cadeia de comando, fazer a descrição narrativa, realizar a busca preliminar e decidir quanto à liberação do local."
     },
-    "resposta_correta": "B",
-    "justificativa": "Cabe ao PCF chefe da equipe estabelecer contatos e cadeia de comando, anotar dados do recebimento do local, preencher o formulário de local, fazer a descrição narrativa, realizar a busca preliminar, verificar condições de segurança, organizar reuniões periódicas e decidir quanto à liberação, entregando o local às autoridades (p. 46-47). Isso valida B. A descreve tarefa do fotógrafo (garantir/controlar fotos), não do croqui. C descreve tarefa do perito do croqui (medidas/triangulação), não do catalogador. D atribui ao fotógrafo a entrega do local, que é do chefe.",
+    "resposta_correta": "D",
+    "justificativa": "Cabe ao PCF chefe da equipe estabelecer contatos e cadeia de comando, anotar dados do recebimento do local, preencher o formulário de local, fazer a descrição narrativa, realizar a busca preliminar, verificar condições de segurança, organizar reuniões periódicas e decidir quanto à liberação, entregando o local às autoridades (p. 46-47). Isso valida D. A atribui ao perito do croqui o controle das fotografias, tarefa do fotógrafo. B atribui ao catalogador as medidas de posicionamento, tarefa do perito do croqui. C atribui ao fotógrafo a busca preliminar, que é do chefe da equipe.",
     "referencia": "PDF LOC, p. 46-47",
     "nivel": "dificil"
   },
@@ -18560,13 +18560,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A fotografia surgiu como evolução da câmera escura. O princípio físico em que se baseia esse dispositivo é:",
     "alternativas": {
-      "A": "a difração da luz em meios densos, que amplia a imagem do objeto.",
-      "B": "a propagação retilínea da luz, que, ao passar por um pequeno orifício, projeta no interior uma imagem invertida do objeto.",
-      "C": "a refração total da luz em lentes divergentes, que mantém a imagem na mesma orientação do objeto.",
-      "D": "a reflexão difusa da luz em superfícies espelhadas, que duplica a imagem captada."
+      "A": "a refração da luz ao atravessar o pequeno orifício, que atua como lente convergente e projeta imagem ampliada e direta do objeto.",
+      "B": "a difração da luz nas bordas do orifício, que decompõe os raios e forma no anteparo interno uma imagem espelhada do objeto.",
+      "C": "a reflexão especular da luz nas paredes internas da caixa, que concentra os raios e projeta imagem na mesma orientação do objeto.",
+      "D": "a propagação retilínea da luz, que, ao passar por um pequeno orifício, projeta no interior uma imagem invertida do objeto."
     },
-    "resposta_correta": "B",
-    "justificativa": "A câmera escura baseia-se na propagação retilínea da luz: ao passar por um pequeno orifício, a luz projeta no interior uma imagem invertida do objeto (p. 49). Isso valida B. A (difração), C (refração com mesma orientação) e D (reflexão difusa) descrevem fenômenos que não correspondem ao princípio da câmera escura, em que a imagem é invertida e formada pela passagem retilínea da luz pelo orifício.",
+    "resposta_correta": "D",
+    "justificativa": "A câmera escura baseia-se na propagação retilínea da luz: ao passar por um pequeno orifício, a luz projeta no interior uma imagem invertida do objeto (p. 49). Isso valida D. A atribui o fenômeno à refração e supõe imagem direta e ampliada — o orifício não é lente. B invoca a difração, que não é o princípio formador da imagem na câmera escura. C recorre à reflexão nas paredes internas, que não participa da formação da imagem, e erra a orientação, que é invertida.",
     "referencia": "PDF LOC, p. 49",
     "nivel": "facil"
   },
@@ -18577,13 +18577,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A respeito da importância e da dupla função da Fotografia Forense, é correto afirmar que:",
     "alternativas": {
-      "A": "destina-se exclusivamente a ilustrar o laudo, não constituindo ferramenta para o próprio exame do objeto.",
-      "B": "além de ilustrar o laudo, é uma ferramenta para o exame do objeto, podendo captar detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico.",
-      "C": "tem função meramente estética, sem repercussão sobre a compreensão da cena pelo destinatário do laudo.",
-      "D": "somente é admitida quando substitui integralmente a descrição narrativa do vestígio."
+      "A": "destina-se a ilustrar o laudo e a aproximar o objeto do destinatário, cabendo o exame dos detalhes invisíveis a olho nu aos instrumentos ópticos de laboratório.",
+      "B": "atua como ferramenta de exame apenas quando produzida em ambiente controlado, restando à fotografia de local a função ilustrativa do laudo.",
+      "C": "além de ilustrar o laudo, é ferramenta para o exame do objeto, podendo captar detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico.",
+      "D": "tem valor probatório autônomo, de modo que a juntada das fotografias dispensa a descrição narrativa dos vestígios fotografados."
     },
-    "resposta_correta": "B",
-    "justificativa": "A Fotografia Forense tem dupla função: além de ilustrar o laudo, é excelente ferramenta para o próprio exame do objeto, aproximando-o do destinatário e captando detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico (p. 49-50). Isso valida B. A nega a função de exame. C reduz a fotografia a função estética. D propõe substituição indevida da descrição narrativa, que é instrumento complementar, e não substituível.",
+    "resposta_correta": "C",
+    "justificativa": "A Fotografia Forense tem dupla função: além de ilustrar o laudo, é excelente ferramenta para o próprio exame do objeto, aproximando-o do destinatário e captando detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico (p. 49-50). Isso valida C. A retira da fotografia justamente a função de exame que o texto lhe atribui. B condiciona essa função ao ambiente controlado, restrição inexistente. D transforma a fotografia em substituta da descrição narrativa, quando os instrumentos de documentação se complementam e não se substituem.",
     "referencia": "PDF LOC, p. 49-50",
     "nivel": "medio"
   },
@@ -18611,13 +18611,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A disciplina relaciona a crescente exigência quanto à qualidade do trabalho pericial ao surgimento de uma figura processual. Trata-se:",
     "alternativas": {
-      "A": "do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, em um contexto de presunção apenas relativa de veracidade do laudo.",
-      "B": "do perito oficial de segunda categoria, criado para substituir o perito criminal em locais de difícil acesso.",
-      "C": "do juiz de garantias, responsável por homologar previamente todos os laudos periciais de local.",
-      "D": "do consultor técnico do Ministério Público, com presunção absoluta de veracidade de suas manifestações."
+      "A": "do assistente de acusação, legitimado pela reforma processual de 2008 a formular quesitos, diante da presunção absoluta de veracidade do laudo oficial.",
+      "B": "do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, em contexto de presunção apenas relativa de veracidade do laudo.",
+      "C": "do perito do juízo, nomeado por força da Lei nº 11.690/2008 para reexaminar os laudos da perícia oficial nas hipóteses de contestação pela defesa.",
+      "D": "do consultor técnico das partes, admitido pelo CPP desde a redação original, cuja atuação passou a vincular as conclusões do laudo oficial."
     },
-    "resposta_correta": "A",
-    "justificativa": "A presunção de veracidade do laudo é relativa (pode ser contestada); com o surgimento do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, aumentou-se a exigência quanto à qualidade do trabalho do perito, sendo a Fotografia Forense fundamental nesse contexto (p. 50). Isso valida A. B, C e D citam figuras ou atributos (perito de segunda categoria, juiz de garantias homologando laudos, presunção absoluta) que não correspondem ao texto.",
+    "resposta_correta": "B",
+    "justificativa": "A presunção de veracidade do laudo é relativa (pode ser contestada); com o surgimento do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, aumentou-se a exigência quanto à qualidade do trabalho do perito, sendo a Fotografia Forense fundamental nesse contexto (p. 50). Isso valida B. A troca a figura (assistente de acusação) e erra a presunção, que é relativa, não absoluta. C inventa um 'perito do juízo' revisor dos laudos oficiais, inexistente na reforma. D erra a origem (a figura veio com a reforma de 2008) e o efeito (a manifestação do assistente não vincula as conclusões do laudo).",
     "referencia": "PDF LOC, p. 50",
     "nivel": "medio"
   },
@@ -18628,13 +18628,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A Fotografia Forense pode funcionar como meio de prova ou como ilustração do laudo. Sobre essa distinção, é correto afirmar que:",
     "alternativas": {
-      "A": "como ilustração, a fotografia demonstra as conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico.",
-      "B": "como meio de prova, a fotografia apenas registra dimensões e características físicas do objeto, com rigor meramente documental.",
-      "C": "como meio de prova, a fotografia demonstra conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico possível, ao passo que, como ilustração, apenas registra as características do objeto.",
-      "D": "ambas as funções exigem idêntico grau de rigor, pois toda fotografia pericial tem o mesmo valor probatório."
+      "A": "como meio de prova, a fotografia demonstra conclusões sobre materialidade, dinâmica ou autoria, com o máximo rigor técnico; como ilustração, apenas registra as características do objeto.",
+      "B": "como ilustração, a fotografia demonstra as conclusões sobre a dinâmica do fato, reservando-se à fotografia-meio de prova o registro documental das características do objeto.",
+      "C": "as duas funções distinguem-se pelo destinatário: a fotografia-meio de prova dirige-se ao juízo, e a ilustrativa, às partes e aos assistentes técnicos.",
+      "D": "a distinção foi superada pela reforma processual de 2008, que atribuiu idêntico valor probatório a toda fotografia inserida no laudo pericial."
     },
-    "resposta_correta": "C",
-    "justificativa": "Como meio de prova, a fotografia demonstra as conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico possível; como ilustração, apenas registra as características do objeto (dimensões, localização etc.), com rigor documental (p. 51). Isso valida C. A e B invertem as funções. D iguala indevidamente o rigor exigido, ignorando a maior exigência atribuída à fotografia como meio de prova.",
+    "resposta_correta": "A",
+    "justificativa": "Como meio de prova, a fotografia demonstra as conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico possível; como ilustração, apenas registra as características do objeto (dimensões, localização etc.), com rigor documental (p. 51). Isso valida A. B inverte as funções. C cria critério de destinatário que a disciplina não adota — a distinção está na função da imagem, não em quem a recebe. D inventa efeito da reforma de 2008, que introduziu o assistente técnico, mas não igualou as funções da fotografia no laudo.",
     "referencia": "PDF LOC, p. 51",
     "nivel": "medio"
   },
@@ -18662,13 +18662,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os ambientes controlado e não controlado na atividade fotográfica pericial, assinale a alternativa correta:",
     "alternativas": {
-      "A": "O ambiente não controlado é aquele em que o fotógrafo domina a iluminação e demais aspectos, valendo-se de mesa estativa e mini estúdio.",
-      "B": "O ambiente controlado é típico dos locais de crime, em que o fotógrafo não domina luz, clima e espaço.",
-      "C": "O ambiente controlado, geralmente em local fechado, permite ao fotógrafo dominar a iluminação e demais aspectos, resultando em melhor qualidade do produto final; o local de crime é exemplo de ambiente não controlado.",
-      "D": "Tanto o ambiente controlado quanto o não controlado garantem o mesmo domínio sobre as condições de iluminação."
+      "A": "O ambiente não controlado é aquele em que o fotógrafo domina a iluminação com equipamentos portáteis, como flash e rebatedores, sem dispor de estúdio fixo.",
+      "B": "A distinção entre os ambientes reside no equipamento disponível, e não no domínio das condições de trabalho: levada a mesa estativa a campo, com tripés e iluminação própria, o local de crime passa a ser ambiente controlado.",
+      "C": "O ambiente controlado é típico dos exames externos diurnos, em que a luz natural abundante dispensa o controle artificial da iluminação.",
+      "D": "O ambiente controlado, geralmente em local fechado, permite dominar a iluminação e os demais aspectos, com melhor qualidade do produto final; o local de crime exemplifica o não controlado."
     },
-    "resposta_correta": "C",
-    "justificativa": "O ambiente controlado, geralmente em local fechado, permite ao fotógrafo dominar a iluminação e os demais aspectos (mesa estativa, mini estúdio, tripés), resultando em melhor qualidade do produto final; o ambiente não controlado é aquele em que não se dominam as condições, tendo o local de crime como exemplo (p. 52-53). Isso valida C. A e B invertem os conceitos. D nega a diferença de domínio entre os dois ambientes.",
+    "resposta_correta": "D",
+    "justificativa": "O ambiente controlado, geralmente em local fechado, permite ao fotógrafo dominar a iluminação e os demais aspectos (mesa estativa, mini estúdio, tripés), resultando em melhor qualidade do produto final; o ambiente não controlado é aquele em que não se dominam as condições, tendo o local de crime como exemplo (p. 52-53). Isso valida D. A redefine o não controlado como domínio parcial por equipamentos portáteis, desfigurando o conceito, que é a ausência de domínio sobre luz, clima e espaço. B reduz a distinção ao equipamento — levar a mesa estativa a campo não confere domínio sobre clima e espaço. C associa o controlado ao exame externo diurno, exatamente o cenário em que as condições não são dominadas.",
     "referencia": "PDF LOC, p. 52-53",
     "nivel": "facil"
   },
@@ -18679,13 +18679,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considerando que o local de crime é um ambiente não controlado, qual a consequência prática para o trabalho do perito fotógrafo?",
     "alternativas": {
-      "A": "Por não dominar luz, clima e espaço, o perito precisa adaptar-se às condições existentes, ao contrário do que ocorre no ambiente controlado, em que pode escolher fundo, tipo de luz e equipamento.",
-      "B": "Por se tratar de ambiente não controlado, fica o perito dispensado de fotografar os vestígios, bastando a descrição narrativa.",
-      "C": "O perito deve transportar todos os vestígios para um laboratório antes de qualquer registro, transformando o local em ambiente controlado.",
-      "D": "Por ser não controlado, o local de crime exige sempre o uso de mesa estativa e mini estúdio para a captura das imagens."
+      "A": "o perito deve restringir o registro fotográfico aos vestígios principais da cena, compensando as limitações impostas pelo ambiente com maior detalhamento da descrição narrativa e do croqui.",
+      "B": "o perito deve reproduzir na cena as condições do estúdio, com fundo padronizado e iluminação fixa, antes de iniciar o registro dos vestígios.",
+      "C": "por não dominar luz, clima e espaço, o perito precisa adaptar-se às condições existentes, ao contrário do ambiente controlado, em que escolhe fundo, luz e equipamento.",
+      "D": "a qualidade reduzida das imagens de local retira-lhes a função de meio de prova, restando-lhes o papel de ilustração do laudo pericial."
     },
-    "resposta_correta": "A",
-    "justificativa": "No ambiente não controlado, como o local de crime, o fotógrafo não domina luz, clima e espaço, devendo adaptar-se às condições existentes; já no ambiente controlado pode escolher fundo (claro/escuro), tipo de luz (suave/dura) e o equipamento, obtendo melhor qualidade (p. 52-53). Isso valida A. B dispensa indevidamente a fotografia. C inverte a lógica do processamento (não se transportam os vestígios antes de registrá-los no local). D exige equipamentos de estúdio impraticáveis na cena.",
+    "resposta_correta": "C",
+    "justificativa": "No ambiente não controlado, como o local de crime, o fotógrafo não domina luz, clima e espaço, devendo adaptar-se às condições existentes; já no ambiente controlado pode escolher fundo (claro/escuro), tipo de luz (suave/dura) e o equipamento, obtendo melhor qualidade (p. 52-53). Isso valida C. A reduz a cobertura fotográfica, quando todos os vestígios devem ser fotografados — a adaptação se dá na técnica, não na quantidade. B propõe transformar a cena em estúdio, o que é impraticável e atrasa o processamento. D nega a função probatória da fotografia de local, que permanece meio de prova ainda que produzida em condições adversas.",
     "referencia": "PDF LOC, p. 52-53",
     "nivel": "medio"
   },
@@ -18696,13 +18696,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um exame de laboratório, o perito precisa fotografar documentos e objetos pequenos com qualidade, eliminando sombras e reflexos. Considerando os equipamentos do ambiente controlado descritos na disciplina, a combinação correta é:",
     "alternativas": {
-      "A": "a mesa estativa, base com câmera fixa no topo e duas luminárias laterais, ideal para documentos e objetos pequenos; e o mini estúdio, caixa difusora de luz que elimina sombras e reflexos.",
-      "B": "o tripé de campo e o flash automático, únicos recursos compatíveis com a fotografia de documentos.",
-      "C": "a haste metálica enterrada e o detector de metais, empregados para posicionar o objeto fotografado.",
-      "D": "a régua de escala e o marcador de vestígio, suficientes para eliminar sombras e reflexos sobre o documento."
+      "A": "a mesa estativa, caixa difusora que envolve o objeto em luz indireta e uniforme; e o mini estúdio, plataforma com câmera suspensa no topo e duas luminárias laterais, próprio para documentos.",
+      "B": "a mesa estativa, base com câmera fixa no topo e duas luminárias laterais, ideal para documentos e objetos pequenos; e o mini estúdio, caixa difusora que elimina sombras e reflexos.",
+      "C": "o tripé com coluna invertida, que aproxima a câmera do documento; e o flash circular (ring flash), que projeta luz frontal uniforme sem sombras.",
+      "D": "a mesa de luz retroiluminada, que atravessa o documento com luz difusa; e o polarizador cruzado, que suprime os reflexos em superfícies plásticas."
     },
-    "resposta_correta": "A",
-    "justificativa": "No ambiente controlado, a mesa estativa (base com câmera fixa no topo e duas luminárias laterais) é ideal para fotografar documentos e objetos pequenos, e o mini estúdio (caixa difusora de luz) elimina sombras e reflexos (p. 53). Isso valida A. B restringe os recursos a tripé e flash automático. C cita instrumentos de croqui (haste e detector), alheios à fotografia em estúdio. D confunde elementos de escala/marcação com recursos de iluminação que eliminem sombras e reflexos.",
+    "resposta_correta": "B",
+    "justificativa": "No ambiente controlado, a mesa estativa (base com câmera fixa no topo e duas luminárias laterais) é ideal para fotografar documentos e objetos pequenos, e o mini estúdio (caixa difusora de luz) elimina sombras e reflexos (p. 53). Isso valida B. A troca as definições dos dois equipamentos entre si. C e D citam recursos fotográficos reais, mas que não são a dupla descrita pela disciplina para essa finalidade — o texto atribui a função à mesa estativa e ao mini estúdio.",
     "referencia": "PDF LOC, p. 53",
     "nivel": "dificil"
   },
@@ -18713,13 +18713,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os tipos de máquinas fotográficas e seu uso pericial, é correto afirmar que:",
     "alternativas": {
-      "A": "as câmeras amadoras do tipo 'aponte e dispare' permitem a troca de objetivas, equiparando-se às profissionais.",
-      "B": "as câmeras profissionais possuem objetivas intercambiáveis e permitem regular foco, abertura, velocidade do obturador e sensibilidade do sensor; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho.",
-      "C": "os smartphones substituem totalmente as câmeras profissionais, sendo desnecessário ao perito dominar as regulagens de uma câmera profissional.",
-      "D": "os drones (RPAs) servem apenas ao registro estático de detalhes, não permitindo a geração de ortomosaicos ou modelos 3D."
+      "A": "as câmeras amadoras do tipo 'aponte e dispare' oferecem os mesmos controles manuais de foco, abertura e velocidade das profissionais, diferindo delas apenas pela impossibilidade de troca das objetivas.",
+      "B": "as DSLR dispensam o espelho reflexivo, formando a imagem diretamente no visor eletrônico, ao passo que as mirrorless empregam o conjunto espelho-pentaprisma.",
+      "C": "os smartphones atuais, por regularem abertura e obturador por software, equiparam-se às câmeras profissionais para qualquer registro pericial de local.",
+      "D": "as câmeras profissionais têm objetivas intercambiáveis e permitem regular foco, abertura, velocidade do obturador e sensibilidade; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho."
     },
-    "resposta_correta": "B",
-    "justificativa": "As câmeras profissionais têm objetivas intercambiáveis e permitem regular foco, abertura do diafragma, velocidade do obturador e sensibilidade do sensor; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho (p. 55-56). Isso valida B. A é falsa: as amadoras não trocam objetivas. C contraria o alerta de que é erro supor que os smartphones substituem totalmente as profissionais. D nega a geração de ortomosaicos, modelos 3D e nuvens de pontos a partir das fotos de drones.",
+    "resposta_correta": "D",
+    "justificativa": "As câmeras profissionais têm objetivas intercambiáveis e permitem regular foco, abertura do diafragma, velocidade do obturador e sensibilidade do sensor; as DSLR usam espelho e pentaprisma, e as mirrorless dispensam o espelho (p. 55-56). Isso valida D. A é falsa porque as amadoras 'aponte e dispare' não oferecem os controles manuais das profissionais — a diferença não se resume à objetiva. B troca DSLR e mirrorless entre si. C contraria o alerta da disciplina de que é erro supor que os smartphones substituem totalmente as câmeras profissionais.",
     "referencia": "PDF LOC, p. 55-57",
     "nivel": "medio"
   },
@@ -18764,13 +18764,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os tipos de sensores de imagem, é correto afirmar que:",
     "alternativas": {
-      "A": "o CCD é o sensor mais utilizado em smartphones e câmeras profissionais, por ser rápido e energeticamente eficiente.",
-      "B": "o CMOS é o mais utilizado (em smartphones e profissionais), enquanto o CCD, mais sofisticado, oferece excelente controle de ruído, comum em aplicações científicas.",
-      "C": "o sCMOS é o sensor que apresenta pior desempenho em baixa luminosidade, gerando sempre imagens monocromáticas.",
-      "D": "a qualidade da imagem depende exclusivamente da resolução em megapixels, sendo irrelevante o tipo de sensor."
+      "A": "o CMOS é o mais utilizado (em smartphones e câmeras profissionais), enquanto o CCD, mais sofisticado, oferece excelente controle de ruído, comum em aplicações científicas.",
+      "B": "o CCD é o mais utilizado em smartphones e câmeras profissionais, por sua velocidade e eficiência energética, ficando o CMOS restrito a aplicações científicas.",
+      "C": "o sCMOS combina a velocidade do CCD com o baixo custo do CMOS, sendo por isso o sensor padrão das câmeras periciais de entrada.",
+      "D": "entre dois sensores de mesma tecnologia, a qualidade final da imagem é definida pela resolução em megapixels, único parâmetro relevante na escolha."
     },
-    "resposta_correta": "B",
-    "justificativa": "O CMOS é o sensor mais utilizado (smartphones e profissionais), rápido e eficiente; o CCD, mais sofisticado, tem excelente controle de ruído e é comum em aplicações científicas/de alta precisão (p. 58-59). Isso valida B. A atribui ao CCD a característica do CMOS. C distorce o sCMOS, que combina alta velocidade com baixo ruído. D contraria a ressalva de que não é só a resolução que define a qualidade — o tipo de sensor também importa.",
+    "resposta_correta": "A",
+    "justificativa": "O CMOS é o sensor mais utilizado (smartphones e profissionais), rápido e eficiente; o CCD, mais sofisticado, tem excelente controle de ruído e é comum em aplicações científicas/de alta precisão (p. 58-59). Isso valida A. B inverte os papéis dos dois sensores. C distorce o sCMOS — que combina alta velocidade com BAIXO RUÍDO, tecnologia sofisticada, e não sensor barato de entrada. D contraria a ressalva do texto de que não é só a resolução que define a qualidade: o tipo e as características do sensor também importam.",
     "referencia": "PDF LOC, p. 58-59",
     "nivel": "medio"
   },
@@ -18781,13 +18781,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Para fotografar uma cena de crime garantindo que tanto os elementos próximos quanto os distantes fiquem nítidos (maior profundidade de campo), o perito deve ajustar a abertura do diafragma para:",
     "alternativas": {
-      "A": "um número f menor, como f/1.4 ou f/2.8, pois aberturas maiores aumentam a profundidade de campo.",
-      "B": "um número f maior, como f/16 ou f/22, pois, sendo a relação inversa, número f maior significa abertura menor e maior profundidade de campo.",
-      "C": "o valor f/5.6, único capaz de proporcionar profundidade de campo, independentemente da iluminação.",
-      "D": "o modo de obturador eletrônico, que define a profundidade de campo sem relação com o diafragma."
+      "A": "um número f menor, como f/1.4 ou f/2.8, pois a maior entrada de luz permite ao sensor registrar com nitidez os planos próximos e distantes.",
+      "B": "uma velocidade de obturador mais lenta, compensada por ISO baixo, já que o tempo de exposição é o parâmetro que define a extensão da zona nítida.",
+      "C": "um número f maior, como f/16 ou f/22, pois, sendo a relação inversa, número f maior significa abertura menor e maior profundidade de campo.",
+      "D": "o número f intermediário indicado pelo fotômetro, pois a profundidade de campo máxima coincide com a exposição corretamente medida."
     },
-    "resposta_correta": "B",
-    "justificativa": "Há relação inversa entre o número f e a abertura: quanto maior o número f (ex.: f/16, f/22), menor a abertura do diafragma e maior a profundidade de campo (região nítida antes e após o foco) (p. 62-63). Isso valida B. A inverte a relação (números f menores são grandes aberturas, com menor profundidade de campo). C fixa arbitrariamente um valor único. D atribui ao obturador a função do diafragma.",
+    "resposta_correta": "C",
+    "justificativa": "Há relação inversa entre o número f e a abertura: quanto maior o número f (ex.: f/16, f/22), menor a abertura do diafragma e maior a profundidade de campo (região nítida antes e após o foco) (p. 62-63). Isso valida C. A usa raciocínio sedutor, mas invertido: números f menores são aberturas grandes, que REDUZEM a profundidade de campo. B atribui a profundidade de campo ao obturador, que controla tempo/movimento, não a zona nítida. D vincula profundidade de campo à exposição medida pelo fotômetro, parâmetros independentes.",
     "referencia": "PDF LOC, p. 62-63",
     "nivel": "dificil"
   },
@@ -18796,15 +18796,15 @@ const questoesDB = [
     "disciplina": "LOC - Locais de Crime e suas Interfaces",
     "conteudo": "Cap. 7 - Máquinas fotográficas",
     "tipo": "multipla_escolha",
-    "enunciado": "A respeito da sensibilidade do sensor (ISO), assinale a alternativa correta:",
+    "enunciado": "A respeito da sensibilidade do sensor (ISO), assinale a alternativa INCORRETA:",
     "alternativas": {
-      "A": "ISO baixo (100–200) é ideal para ambientes claros; ISO elevado (1600–3200) é melhor para pouca luz, mas valores muito elevados tendem a gerar ruído na imagem.",
-      "B": "ISO elevado é ideal para ambientes muito iluminados, pois reduz a entrada de luz no sensor.",
-      "C": "o aumento do ISO não tem qualquer efeito sobre a qualidade da imagem, servindo apenas para nomear o arquivo.",
-      "D": "ISO baixo deve ser usado em ambientes escuros, pois amplifica o sinal captado pelo sensor."
+      "A": "Valores baixos de sensibilidade, na faixa de ISO 100–200, são os ideais para fotografar em ambientes claros e bem iluminados.",
+      "B": "O aumento do ISO amplia a quantidade de luz que atinge o sensor, com efeito equivalente ao de uma abertura maior do diafragma.",
+      "C": "Valores elevados, na faixa de ISO 1600–3200, são os indicados para registrar cenas em situações de pouca luminosidade.",
+      "D": "Valores muito elevados tendem a gerar ruído, na forma de pequenos grãos ou pontos coloridos na imagem."
     },
-    "resposta_correta": "A",
-    "justificativa": "ISO baixo (100–200) é ideal para ambientes claros; ISO elevado (1600–3200) é melhor para pouca luz; valores muito elevados tendem a gerar ruído (pequenos grãos/pontos coloridos) (p. 59-60). Isso valida A. B inverte o uso do ISO elevado. C nega o efeito do ISO sobre a qualidade. D inverte a aplicação do ISO baixo.",
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B é a incorreta: o ISO regula a SENSIBILIDADE do sensor à luz que já chega até ele — quem controla a quantidade de luz é o diafragma (intensidade) e o obturador (tempo); aumentar o ISO não amplia a luz captada, apenas amplifica o sinal, por isso gera ruído em valores altos. As demais são verdadeiras (p. 59-60): ISO baixo (100–200) para ambientes claros (A); ISO elevado (1600–3200) para pouca luz (C); e valores muito altos tendem a gerar ruído na imagem (D).",
     "referencia": "PDF LOC, p. 59-60",
     "nivel": "medio"
   },
@@ -18815,13 +18815,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O perito deseja ter controle direto sobre a profundidade de campo de suas fotografias, deixando que a câmera calcule automaticamente o tempo de exposição correspondente. Entre os modos de operação P, S, A e M, o mais adequado é o modo:",
     "alternativas": {
-      "A": "P (multiprograma automático), pois a câmera define tanto a abertura quanto a velocidade.",
-      "B": "S (prioridade do obturador), pois o fotógrafo escolhe a velocidade e a câmera calcula a abertura.",
-      "C": "A (prioridade da abertura), pois o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente.",
-      "D": "M (manual), única opção em que é possível qualquer controle sobre a profundidade de campo."
+      "A": "P (multiprograma automático), em que a câmera propõe pares de abertura e velocidade, cabendo ao fotógrafo apenas confirmar a combinação sugerida.",
+      "B": "A (prioridade da abertura), em que o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente.",
+      "C": "S (prioridade do obturador), em que o fotógrafo define a velocidade e a câmera ajusta a abertura, controlando indiretamente a profundidade de campo.",
+      "D": "M (manual), em que o fotógrafo define a abertura desejada e transfere ao fotômetro interno o cálculo e o ajuste automático do tempo de exposição."
     },
-    "resposta_correta": "C",
-    "justificativa": "No modo A (prioridade da abertura), o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente, sendo indicado justamente para controlar a profundidade de campo (p. 67-68). Isso valida C. A (P) não permite escolher a abertura. B (S) prioriza a velocidade, indicada para controlar movimento. D (M) também permitiria, mas exige definir ambos os parâmetros, não sendo a opção que deixa a câmera calcular automaticamente o tempo.",
+    "resposta_correta": "B",
+    "justificativa": "No modo A (prioridade da abertura), o fotógrafo escolhe a abertura do diafragma e a câmera calcula o tempo de exposição correspondente, sendo indicado justamente para controlar a profundidade de campo (p. 67-68). Isso valida B. A (modo P) não dá controle direto sobre a abertura escolhida. C inverte a lógica: no modo S quem controla é a velocidade — o 'controle indireto' da abertura não atende quem quer definir a profundidade de campo. D descreve um modo M que se comporta como o modo A: no manual, o fotógrafo define os DOIS parâmetros, sem ajuste automático do tempo.",
     "referencia": "PDF LOC, p. 67-68",
     "nivel": "dificil"
   },
@@ -18832,13 +18832,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Para fotografar um ambiente interno restrito, registrando o maior campo possível da cena, qual tipo de objetiva é o mais indicado e qual sua principal limitação?",
     "alternativas": {
-      "A": "A teleobjetiva (acima de 70 mm), que amplia o campo de visão sem distorções.",
-      "B": "A objetiva normal (cerca de 50 mm), que reproduz exatamente o campo de um ambiente fechado.",
-      "C": "A grande-angular (abaixo de 35 mm, ideal 24–28 mm), que capta campo amplo, mas pode distorcer as bordas da imagem.",
-      "D": "A teleobjetiva de 500 mm, ideal para ambientes internos por aproximar os objetos."
+      "A": "A objetiva normal (cerca de 50 mm), que reproduz a perspectiva do olho humano, mas exige maior distância do objeto para ampliar o campo registrado.",
+      "B": "A grande-angular (abaixo de 35 mm), que capta campo amplo mantendo fidelidade geométrica uniforme do centro às bordas da imagem.",
+      "C": "A teleobjetiva moderada (70–105 mm), que comprime a perspectiva e permite registrar o ambiente completo a partir de um canto do cômodo.",
+      "D": "A grande-angular (abaixo de 35 mm, ideal 24–28 mm), que capta campo amplo, mas pode distorcer as bordas da imagem."
     },
-    "resposta_correta": "C",
-    "justificativa": "A objetiva grande-angular (ângulo de visão maior que 65°, distância focal abaixo de 35 mm, ideal 24–28 mm) capta um campo amplo e é indicada para ambientes internos, mas pode distorcer as bordas da imagem (p. 60-61). Isso valida C. A e D referem-se a teleobjetivas, que estreitam o campo e aproximam objetos (a de 500 mm tem pouca utilidade pericial). B (normal) aproxima-se da perspectiva do olho humano, sem o campo amplo desejado.",
+    "resposta_correta": "D",
+    "justificativa": "A objetiva grande-angular (ângulo de visão maior que 65°, distância focal abaixo de 35 mm, ideal 24–28 mm) capta um campo amplo e é indicada para ambientes internos, mas pode distorcer as bordas da imagem (p. 60-61). Isso valida D. A (normal) aproxima-se da perspectiva do olho humano, sem o campo amplo desejado — e afastar-se nem sempre é possível em ambiente restrito. B acerta a lente, mas nega a limitação característica: a distorção nas bordas existe. C inverte o efeito da teleobjetiva, que estreita o campo de visão em vez de ampliá-lo.",
     "referencia": "PDF LOC, p. 60-61",
     "nivel": "medio"
   },
@@ -18849,13 +18849,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma diligência, o perito precisa, em um momento, congelar a imagem de um disparo de arma de fogo e, em outro, registrar uma cena externa à noite com baixíssima luminosidade. Quanto ao ajuste do obturador, a orientação correta é:",
     "alternativas": {
-      "A": "usar velocidade de obturação elevada (tempo curto, ex.: 1/1000 s) para congelar o disparo; e velocidade lenta (tempo longo) com apoio de tripé para a cena noturna.",
-      "B": "usar velocidade lenta para congelar o disparo e velocidade elevada, sem tripé, para a cena noturna.",
-      "C": "manter a mesma velocidade intermediária nas duas situações, pois o obturador não influencia o congelamento do movimento.",
-      "D": "desligar o obturador em ambos os casos, deixando o ISO controlar isoladamente o tempo de exposição."
+      "A": "usar velocidade elevada nas duas situações, compensando a baixa luminosidade noturna com a elevação máxima do ISO, o que dispensa o uso do tripé.",
+      "B": "usar velocidade lenta para o disparo, permitindo ao sensor captar toda a trajetória, e velocidade elevada com flash para a cena noturna.",
+      "C": "usar velocidade elevada (tempo curto, ex.: 1/1000 s) para congelar o disparo; e velocidade lenta (tempo longo), com apoio de tripé, para a cena noturna.",
+      "D": "priorizar a abertura do diafragma nos dois casos, pois o número f, e não o tempo de exposição, é o que determina o congelamento do movimento."
     },
-    "resposta_correta": "A",
-    "justificativa": "A velocidade de obturação elevada (tempo curto, ex.: 1/1000 s) congela o movimento, sendo adequada para o disparo de arma; a velocidade lenta (tempo longo) é necessária em cenas com pouca luz, exigindo tripé para não tremer (p. 64-65). Isso valida A. B inverte as situações. C nega a influência do obturador sobre o congelamento. D propõe desligar o obturador, o que é incompatível com a captura controlada da imagem.",
+    "resposta_correta": "C",
+    "justificativa": "A velocidade de obturação elevada (tempo curto, ex.: 1/1000 s) congela o movimento, sendo adequada para o disparo de arma; a velocidade lenta (tempo longo) é necessária em cenas com pouca luz, exigindo tripé para não tremer (p. 64-65). Isso valida C. A força o ISO ao máximo para manter tempo curto à noite, gerando ruído excessivo — a solução correta é o tempo longo com tripé. B inverte as situações: tempo longo não congela o disparo, e a cena noturna ampla não se resolve com flash e tempo curto. D atribui o congelamento do movimento ao diafragma, quando essa é função do obturador.",
     "referencia": "PDF LOC, p. 64-65",
     "nivel": "dificil"
   },
@@ -18866,13 +18866,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o triângulo de exposição e o balanço de branco, assinale a alternativa correta:",
     "alternativas": {
-      "A": "o triângulo de exposição é formado por ISO, obturador e diafragma, que devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin.",
-      "B": "o triângulo de exposição é composto por foco, zoom e resolução, sem relação com a luminosidade da foto.",
-      "C": "no balanço de branco, luz de baixa temperatura (≈ 2700–3000 K) é fria e azulada, enquanto a de alta temperatura é quente e amarelada.",
-      "D": "o ISO não integra o triângulo de exposição, que se restringe ao obturador e ao diafragma."
+      "A": "o triângulo de exposição é formado por ISO, obturador e balanço de branco, cabendo ao diafragma somente o controle da profundidade de campo.",
+      "B": "no balanço de branco, medido em Kelvin, a luz de baixa temperatura (≈ 2700–3000 K) é fria e azulada, ao passo que a de alta temperatura se apresenta quente e amarelada.",
+      "C": "o triângulo de exposição equilibra abertura, tempo e distância focal, sendo o ISO um ajuste de pós-processamento sem efeito sobre a captura.",
+      "D": "o triângulo de exposição é formado por ISO, obturador e diafragma, regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin."
     },
-    "resposta_correta": "A",
-    "justificativa": "O triângulo de exposição é formado por ISO, obturador e diafragma, que controlam a luminosidade e devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin (p. 65-66). Isso valida A. B troca os elementos do triângulo. C inverte as temperaturas (baixa = quente/amarelada; alta = fria/azulada). D exclui indevidamente o ISO do triângulo de exposição.",
+    "resposta_correta": "D",
+    "justificativa": "O triângulo de exposição é formado por ISO, obturador e diafragma, que controlam a luminosidade e devem ser regulados de forma equilibrada; o balanço de branco ajusta a temperatura de cor, medida em Kelvin (p. 65-66). Isso valida D. A substitui o diafragma pelo balanço de branco no triângulo — o diafragma é justamente um dos três pilares da exposição. B inverte as temperaturas: baixa temperatura é luz quente/amarelada, e alta temperatura, fria/azulada. C troca o ISO por distância focal e o rebaixa a ajuste de pós-processamento, quando ele atua na captura.",
     "referencia": "PDF LOC, p. 65-66",
     "nivel": "medio"
   },
@@ -18883,13 +18883,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a fotografia na prática pericial, a disciplina sustenta que:",
     "alternativas": {
-      "A": "a qualidade do equipamento é o fator determinante, sobrepondo-se à postura e à metodologia do perito.",
-      "B": "a postura do perito ao realizar o levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza.",
-      "C": "a técnica e o método são irrelevantes quando se dispõe de câmera profissional de última geração.",
-      "D": "o uso de smartphone inviabiliza qualquer registro com validade jurídica."
+      "A": "a qualidade do sensor e das objetivas é o fator determinante do resultado, cabendo à metodologia de trabalho papel complementar.",
+      "B": "postura e equipamento têm pesos equivalentes, de modo que a deficiência de um não pode ser compensada pelo outro.",
+      "C": "a postura do perito ao realizar o levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza.",
+      "D": "a padronização dos equipamentos nas unidades periciais eliminou a variação de qualidade decorrente da técnica individual."
     },
-    "resposta_correta": "B",
-    "justificativa": "A disciplina afirma que 'a postura do perito ao realizar um levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza', pesando mais a técnica e o método que a máquina (p. 71). Isso valida B. A e C invertem essa lógica ao priorizar o equipamento. D nega valor ao smartphone, contrariando o capítulo anterior, que reconhece sua utilidade.",
+    "resposta_correta": "C",
+    "justificativa": "A disciplina afirma que 'a postura do perito ao realizar um levantamento fotográfico é tão ou mais importante do que os equipamentos que utiliza', pesando mais a técnica e o método que a máquina (p. 71). Isso valida C. A inverte a hierarquia, colocando o equipamento como determinante. B nivela os dois fatores, quando o texto dá primazia à postura — a técnica compensa limitações do equipamento. D parte de premissa falsa (padronização eliminando a técnica individual), contrariando a centralidade do método pessoal do perito.",
     "referencia": "PDF LOC, p. 71",
     "nivel": "facil"
   },
@@ -18934,13 +18934,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante a documentação de uma cena com vários vestígios, o perito utiliza marcadores numerados (de cor chamativa e com régua integrada). Considerando a recomendação da disciplina quanto ao uso desses marcadores, é correto afirmar que:",
     "alternativas": {
-      "A": "como regra geral, deve-se fotografar com e sem os marcadores, pois um marcador pode encobrir outro vestígio pequeno, como uma gota de sangue ou um estojo de munição.",
-      "B": "os marcadores devem permanecer em todas as fotografias, sendo desnecessário qualquer registro sem eles.",
-      "C": "os marcadores substituem a escala, dispensando o registro de fotos com testemunho métrico.",
-      "D": "o uso de marcadores é vedado em locais de crime, por comprometer a fidedignidade das imagens."
+      "A": "os marcadores, por integrarem régua de escala, tornam dispensável a sequência de fotos de detalhe com e sem testemunho métrico.",
+      "B": "as fotos de conjunto devem ser feitas com os marcadores numerados e as de detalhe, sempre sem eles, de modo que o close não seja poluído por elementos estranhos ao vestígio.",
+      "C": "os marcadores devem ser posicionados antes da busca completa, para que a numeração acompanhe a ordem de descoberta dos vestígios.",
+      "D": "como regra geral, deve-se fotografar com e sem os marcadores, pois um marcador pode encobrir outro vestígio pequeno, como uma gota de sangue ou um estojo de munição."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os marcadores numerados são úteis (cor chamativa e régua integrada), mas um marcador pode encobrir outro vestígio pequeno (gota de sangue, estojo de munição); por isso, como regra geral, fotografa-se com e sem marcadores (p. 73). Isso valida A. B ignora o risco de ocultação. C confunde marcador com escala. D veda indevidamente um acessório expressamente recomendado.",
+    "resposta_correta": "D",
+    "justificativa": "Os marcadores numerados são úteis (cor chamativa e régua integrada), mas um marcador pode encobrir outro vestígio pequeno (gota de sangue, estojo de munição); por isso, como regra geral, fotografa-se com e sem marcadores (p. 73). Isso valida D. A converte a régua do marcador em substituta da sequência com/sem escala, ignorando o risco de ocultação que motiva a regra. B inventa uma regra rígida por tipo de enquadramento que a disciplina não estabelece — a dupla com/sem vale como regra geral. C antecipa os marcadores para antes da busca, quando eles assinalam vestígios já localizados.",
     "referencia": "PDF LOC, p. 73",
     "nivel": "dificil"
   },
@@ -18951,13 +18951,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A documentação fotográfica de locais de crime é considerada desafiadora principalmente porque:",
     "alternativas": {
-      "A": "trata-se de ambiente controlado, em que o excesso de iluminação prejudica o registro.",
-      "B": "trata-se de ambiente não controlado e, geralmente, o registro não pode ser refeito em outro momento, exigindo acuidade e trabalho sem pressa.",
-      "C": "a legislação proíbe o uso de vídeo, restringindo o registro a poucas fotografias.",
-      "D": "o perito dispõe de tempo ilimitado para retornar à cena e complementar os registros quando necessário."
+      "A": "trata-se de ambiente não controlado e, geralmente, o registro não pode ser refeito em outro momento, exigindo acuidade e trabalho sem pressa.",
+      "B": "trata-se de ambiente de iluminação variável, cuja documentação exige o retorno da equipe em horários distintos para equalizar as condições de luz.",
+      "C": "o volume de vestígios impõe seleção rigorosa do que fotografar, pois o excesso de imagens compromete a objetividade do laudo.",
+      "D": "a cena permanece à disposição da perícia até a conclusão do inquérito, mas cada retorno exige nova autorização da autoridade competente."
     },
-    "resposta_correta": "B",
-    "justificativa": "Documentar locais de crime é desafiador porque são ambientes não controlados e, em regra, o registro não pode ser refeito em outro momento, exigindo trabalho com acuidade e sem pressa (p. 73). Isso valida B. A inverte a natureza do ambiente (não controlado). C inventa proibição de vídeo, que é recomendado. D contraria a noção de oportunidade única do registro.",
+    "resposta_correta": "A",
+    "justificativa": "Documentar locais de crime é desafiador porque são ambientes não controlados e, em regra, o registro não pode ser refeito em outro momento, exigindo trabalho com acuidade e sem pressa (p. 73). Isso valida A. B pressupõe retornos à cena para equalizar a luz, incompatível com a oportunidade única do registro. C inverte a orientação de não economizar fotos — o excesso não compromete o laudo; seleciona-se depois, na estação de trabalho. D contradiz a lógica da liberação do local: após entregue, a cena se altera e o registro não pode ser refeito.",
     "referencia": "PDF LOC, p. 73",
     "nivel": "facil"
   },
@@ -18968,13 +18968,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Entre as dicas práticas para o registro fotográfico do local, inclui-se:",
     "alternativas": {
-      "A": "registrar os vestígios embalados e lacrados, o que contribui para a cadeia de custódia, e fazer no mínimo duas fotos de cada posição.",
-      "B": "limitar-se a uma única fotografia por vestígio, para evitar excesso de arquivos na estação de trabalho.",
-      "C": "fotografar apenas após a coleta e o transporte dos vestígios ao laboratório, garantindo melhor iluminação.",
-      "D": "dispensar o uso de escalas, que poluem a imagem e dificultam a análise posterior."
+      "A": "fotografar os vestígios após a coleta, ainda no local, dispensando o registro prévio quando a posição já estiver anotada no croqui.",
+      "B": "restringir as fotos por posição a uma única imagem bem exposta, transferindo as repetições apenas para os vestígios principais.",
+      "C": "registrar os vestígios embalados e lacrados, o que contribui para a cadeia de custódia, e fazer no mínimo duas fotos de cada posição.",
+      "D": "usar as escalas somente nas fotos de ambiente, evitando-as nos closes, em que a régua pode desviar a atenção do vestígio."
     },
-    "resposta_correta": "A",
-    "justificativa": "Entre as dicas estão registrar os vestígios embalados e lacrados (o que garante a cadeia de custódia) e não economizar no número de fotos, fazendo no mínimo duas de cada posição (p. 72). Isso valida A. B contraria a recomendação de múltiplas fotos. C inverte a regra de fotografar no local antes da coleta. D dispensa indevidamente as escalas, expressamente recomendadas.",
+    "resposta_correta": "C",
+    "justificativa": "Entre as dicas estão registrar os vestígios embalados e lacrados (o que garante a cadeia de custódia) e não economizar no número de fotos, fazendo no mínimo duas de cada posição (p. 72). Isso valida C. A suprime o registro do vestígio em sua posição original, que o croqui complementa, mas não substitui. B contraria a recomendação do mínimo de duas fotos por posição, válida para todos os vestígios. D inverte o uso das escalas, cujo lugar típico é justamente o close (com a dupla com/sem escala), não a foto de ambiente.",
     "referencia": "PDF LOC, p. 72",
     "nivel": "medio"
   },
@@ -18985,13 +18985,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A disciplina elenca características técnicas desejáveis para garantir a fidedignidade, integridade e validade jurídica do registro fotográfico. Assinale a alternativa que reúne corretamente algumas dessas características:",
     "alternativas": {
-      "A": "Tempestividade, adequação técnica, contextualização em sequência lógica (do amplo para o específico) e respeito à cadeia de custódia.",
-      "B": "Aleatoriedade do enquadramento, registro tardio de memória e dispensa de escalas e marcadores.",
-      "C": "Cobertura restrita ao vestígio principal, uso exclusivo de teleobjetiva e edição posterior das cores.",
-      "D": "Prioridade ao número de pixels, independentemente da iluminação, da perspectiva e da cadeia de custódia."
+      "A": "Tempestividade, prioridade à resolução do sensor, contextualização do específico para o amplo e registro complementar de memória.",
+      "B": "Adequação técnica, cobertura restrita aos vestígios essenciais, uso de marcadores em todas as fotos e edição posterior de cores.",
+      "C": "Cobertura ampla, aleatoriedade de enquadramentos para não induzir o leitor, escalas facultativas e independência da cadeia de custódia.",
+      "D": "Tempestividade, adequação técnica, contextualização em sequência lógica (do amplo para o específico) e respeito à cadeia de custódia."
     },
-    "resposta_correta": "A",
-    "justificativa": "Entre as características técnicas desejáveis estão a tempestividade, a adequação técnica, a cobertura detalhada e ampla, a melhor técnica/iluminação/perspectiva (com escalas e marcadores), a contextualização em sequência lógica (do amplo para o específico) e o respeito à cadeia de custódia (p. 71-72). Isso valida A. B, C e D descrevem práticas contrárias (aleatoriedade, registro de memória, cobertura restrita, foco apenas em pixels) que negam tais características.",
+    "resposta_correta": "D",
+    "justificativa": "Entre as características técnicas desejáveis estão a tempestividade, a adequação técnica, a cobertura detalhada e ampla, a melhor técnica/iluminação/perspectiva (com escalas e marcadores), a contextualização em sequência lógica (do amplo para o específico) e o respeito à cadeia de custódia (p. 71-72). Isso valida D. A começa correta (tempestividade), mas inverte a sequência lógica e admite registro de memória. B restringe a cobertura e admite edição de cores, contrárias à fidedignidade. C torna as escalas facultativas e desvincula o registro da cadeia de custódia, negando duas exigências centrais.",
     "referencia": "PDF LOC, p. 71-72",
     "nivel": "medio"
   },
@@ -19002,13 +19002,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao documentar fotograficamente um homicídio em ambiente interno, o perito procura registrar a cena de modo que o leitor do laudo compreenda o posicionamento dos vestígios e a dinâmica do fato. Considerando as orientações da disciplina, a conduta mais adequada é:",
     "alternativas": {
-      "A": "registrar uma única perspectiva da cena, priorizando a economia de arquivos, e concluir sobre a autoria a partir dos relatos das testemunhas.",
-      "B": "escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de vários ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois, na estação de trabalho, a mais adequada — tudo voltado a concluir sobre materialidade, dinâmica e autoria.",
-      "C": "fotografar somente os vestígios já coletados e embalados, dispensando o registro do ambiente e dos pontos de acesso.",
-      "D": "delegar integralmente o registro a terceiros não peritos, desde que utilizem câmera profissional."
+      "A": "escolher os melhores ângulos, não economizar fotos, registrar o ambiente de vários ângulos e fazer ao menos duas fotos por perspectiva, selecionando depois a mais adequada na estação de trabalho.",
+      "B": "definir uma perspectiva principal alinhada à provável dinâmica do fato e concentrar nela o registro fotográfico, evitando ângulos redundantes que dificultem a análise posterior e sobrecarreguem o dossiê do exame.",
+      "C": "registrar primeiro os vestígios em close, garantindo o detalhe antes de eventual degradação, e deixar as vistas gerais do ambiente para o fim do processamento.",
+      "D": "produzir o registro em vídeo contínuo da cena, que documenta a inter-relação dos vestígios e dispensa a sequência fotográfica formal."
     },
-    "resposta_correta": "B",
-    "justificativa": "A disciplina orienta o perito a ter sensibilidade para escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de todos os ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois a mais adequada, tudo para permitir concluir sobre materialidade, dinâmica e autoria (p. 73). Isso valida B. A reduz o registro a uma perspectiva e baseia a autoria em relatos, contrariando o uso dos vestígios. C dispensa o registro do ambiente e dos acessos, essenciais à contextualização. D transfere indevidamente a função pericial a não peritos.",
+    "resposta_correta": "A",
+    "justificativa": "A disciplina orienta o perito a ter sensibilidade para escolher os melhores ângulos, não economizar na quantidade de fotos, registrar o ambiente de todos os ângulos e fazer ao menos duas fotos por perspectiva, escolhendo depois a mais adequada, tudo para permitir concluir sobre materialidade, dinâmica e autoria (p. 73). Isso valida A. B faz o oposto: elege uma perspectiva e poda os demais ângulos, empobrecendo a documentação. C inverte a sequência de contextualização, que vai do amplo para o específico (ambiente → aproximação → close). D substitui a sequência fotográfica pelo vídeo, que é apoio complementar, não substituto.",
     "referencia": "PDF LOC, p. 73",
     "nivel": "dificil"
   },
@@ -19019,13 +19019,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "No contexto dos arquivos digitais produzidos na atividade pericial, a função hash tem por finalidade:",
     "alternativas": {
-      "A": "comprimir os arquivos de imagem para reduzir o espaço de armazenamento.",
-      "B": "gerar, para cada arquivo, uma sequência individualizadora de caracteres, garantindo a integridade dos dados e a cadeia de custódia.",
-      "C": "converter automaticamente os arquivos do formato RAW para JPEG, sem perda de qualidade.",
-      "D": "criptografar o conteúdo do arquivo, impedindo seu acesso por terceiros não autorizados."
+      "A": "assinar digitalmente o arquivo com certificado do perito, vinculando a imagem ao seu autor e à data da captura.",
+      "B": "cifrar o conteúdo do arquivo com chave pública, de modo que apenas a autoridade destinatária possa acessá-lo.",
+      "C": "registrar, nos metadados da imagem, o histórico de edições realizadas, permitindo reverter o arquivo ao estado original.",
+      "D": "gerar, para cada arquivo, uma sequência individualizadora de caracteres, garantindo a integridade dos dados e a cadeia de custódia."
     },
-    "resposta_correta": "B",
-    "justificativa": "A função hash é um algoritmo de autenticação digital que gera, para cada arquivo, uma sequência individualizadora de caracteres, com o objetivo de garantir a integridade dos dados e a cadeia de custódia (p. 75). Isso valida B. A confunde hash com compressão. C confunde com conversão de formato. D confunde hash com criptografia — o hash não cifra o conteúdo, apenas o identifica de forma única.",
+    "resposta_correta": "D",
+    "justificativa": "A função hash é um algoritmo de autenticação digital que gera, para cada arquivo, uma sequência individualizadora de caracteres, com o objetivo de garantir a integridade dos dados e a cadeia de custódia (p. 75). Isso valida D. A confunde hash com assinatura digital — o hash não vincula autor nem exige certificado. B confunde hash com criptografia: o hash não cifra o conteúdo, apenas o identifica de forma única. C confunde hash com controle de versões em metadados; o hash não registra nem reverte edições, apenas denuncia que houve alteração.",
     "referencia": "PDF LOC, p. 75",
     "nivel": "facil"
   },
@@ -19036,13 +19036,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A função hash SHA-256, muito utilizada na Polícia Federal, caracteriza-se por:",
     "alternativas": {
-      "A": "transformar qualquer arquivo digital em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits), de modo que a alteração de um único bit muda completamente o hash.",
-      "B": "gerar uma sequência de tamanho variável conforme o tamanho do arquivo de origem.",
-      "C": "produzir o mesmo resultado para arquivos diferentes, desde que tenham a mesma extensão.",
-      "D": "manter o hash inalterado ainda que se modifique parte do conteúdo do arquivo."
+      "A": "gerar sequência hexadecimal cujo comprimento cresce com o tamanho do arquivo, o que permite estimar o volume dos dados originais.",
+      "B": "produzir 256 caracteres hexadecimais (64 bits), com variação proporcional à extensão da modificação sofrida pelo arquivo.",
+      "C": "transformar qualquer arquivo em sequência única e fixa de 64 caracteres hexadecimais (256 bits) — alterado um único bit, o hash muda completamente.",
+      "D": "gerar hashes idênticos para cópias de um mesmo arquivo salvas em formatos diferentes, o que permite rastrear as conversões de JPEG para TIFF a partir do original."
     },
-    "resposta_correta": "A",
-    "justificativa": "O SHA-256 transforma qualquer arquivo em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits); se um único bit muda, o hash muda completamente, o que prova a integridade (p. 75). Isso valida A. B contraria o tamanho fixo. C nega a unicidade (arquivos diferentes geram hashes diferentes). D contraria a sensibilidade do hash a qualquer alteração.",
+    "resposta_correta": "C",
+    "justificativa": "O SHA-256 transforma qualquer arquivo em uma sequência única e fixa de 64 caracteres hexadecimais (256 bits); se um único bit muda, o hash muda completamente, o que prova a integridade (p. 75). Isso valida C. A contraria o tamanho fixo da saída, que independe do arquivo. B inverte os números (são 64 caracteres/256 bits) e supõe variação proporcional, quando qualquer alteração, mínima que seja, muda o hash por inteiro. D é falsa porque a conversão de formato altera os bits do arquivo — e arquivos diferentes geram hashes completamente diferentes.",
     "referencia": "PDF LOC, p. 75",
     "nivel": "medio"
   },
@@ -19053,13 +19053,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um perito precisa garantir a integridade de centenas de fotografias de um local, mas considera inviável inserir no laudo uma tabela com o hash de cada arquivo. A solução prática sugerida pela disciplina é:",
     "alternativas": {
-      "A": "calcular o hash apenas da primeira e da última imagem da pasta, presumindo a integridade das demais.",
-      "B": "reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando-o no laudo.",
-      "C": "renomear todos os arquivos com numeração sequencial, dispensando o cálculo de hash.",
-      "D": "converter todas as imagens para JPEG, pois a compressão dispensa a verificação de integridade."
+      "A": "reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando-o no laudo.",
+      "B": "compactar a pasta de imagens em arquivo único e consignar no laudo apenas o hash do compactado, preservando os originais fora do dossiê do exame.",
+      "C": "calcular o hash da pasta diretamente pelo sistema operacional, que gera identificador único a partir dos nomes e das datas dos arquivos.",
+      "D": "inserir no laudo o hash somente das imagens selecionadas para ilustração, arquivando as demais no dossiê sem verificação individual."
     },
-    "resposta_correta": "B",
-    "justificativa": "A alternativa prática sugerida é reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando este no laudo (p. 75). Isso valida B. A presume indevidamente a integridade das demais imagens. C confunde renomeação com verificação de integridade. D contraria a necessidade de hash e ainda degrada a qualidade pela compressão JPEG.",
+    "resposta_correta": "A",
+    "justificativa": "A alternativa prática sugerida é reunir os arquivos em uma pasta, gerar um arquivo .txt com a relação dos hashes de cada um e calcular o hash apenas desse arquivo .txt, consignando este no laudo (p. 75). Isso valida A. B não é a solução da disciplina e deixa os originais fora do dossiê, enfraquecendo a salvaguarda. C descreve mecanismo inexistente: hash calcula-se sobre o conteúdo de arquivos, não sobre nomes e datas de pastas. D deixa a maior parte do acervo sem garantia de integridade, exatamente o que a solução do .txt evita.",
     "referencia": "PDF LOC, p. 75",
     "nivel": "dificil"
   },
@@ -19070,13 +19070,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o formato de imagem JPEG, é correto afirmar que:",
     "alternativas": {
-      "A": "preserva os dados originais de luz e cor sem qualquer compressão ou perda, sendo o 'negativo digital'.",
+      "A": "preserva os dados originais de luz e cor capturados pelo sensor, característica que lhe rendeu o apelido de 'negativo digital'.",
       "B": "é o mais comum para fotografia e gera arquivos leves por comprimir a imagem, mas, a cada novo salvamento, há nova compressão e a qualidade diminui cumulativamente.",
-      "C": "é um formato proprietário das fabricantes de câmeras, que exige software específico para abertura.",
-      "D": "gera arquivos pesados destinados a impressão e edição de alta qualidade, preservando todos os detalhes."
+      "C": "comprime a imagem por algoritmo sem perda de informação (lossless), motivo pelo qual salvamentos sucessivos do mesmo arquivo não afetam a qualidade final da fotografia.",
+      "D": "gera arquivos pesados voltados à impressão e à edição profissional, preservando todos os detalhes da captura original."
     },
     "resposta_correta": "B",
-    "justificativa": "O JPEG é o formato mais comum para fotografia, gera arquivos leves por comprimir a imagem (com pequena perda), mas a cada salvamento há nova compressão, diminuindo a qualidade cumulativamente (p. 75-76). Isso valida B. A descreve o RAW. C descreve característica do RAW proprietário. D descreve o TIFF.",
+    "justificativa": "O JPEG é o formato mais comum para fotografia, gera arquivos leves por comprimir a imagem (com pequena perda), mas a cada salvamento há nova compressão, diminuindo a qualidade cumulativamente (p. 75-76). Isso valida B. A descreve o RAW, o 'negativo digital'. C erra a natureza da compressão do JPEG, que é COM perda — e é justamente por isso que salvamentos sucessivos degradam a imagem. D descreve o TIFF, formato pesado de impressão e edição.",
     "referencia": "PDF LOC, p. 75-76",
     "nivel": "medio"
   },
@@ -19087,13 +19087,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Comparando os formatos TIFF e RAW de arquivos de imagem, assinale a alternativa correta:",
     "alternativas": {
-      "A": "ambos geram arquivos leves e são preferidos quando se busca economia de armazenamento.",
-      "B": "o TIFF é usado para impressão e edição de alta qualidade, preservando todos os detalhes (arquivos pesados); o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, em formatos muitas vezes proprietários.",
-      "C": "o RAW comprime a imagem com perda cumulativa de qualidade, enquanto o TIFF é o formato mais leve disponível.",
-      "D": "o TIFF preserva os dados originais sem qualquer processamento, ao passo que o RAW é destinado à publicação rápida na internet."
+      "A": "o TIFF preserva os dados brutos do sensor sem qualquer processamento ou compressão, ao passo que o RAW é o formato de edição por excelência, aberto e padronizado entre as fabricantes de câmeras, o que dispensa software proprietário.",
+      "B": "ambos aplicam compressão sem perda de dados, distinguindo-se porque o RAW admite edição não destrutiva e o TIFF grava as alterações diretamente sobre os dados da captura.",
+      "C": "o RAW, por já sair processado pela própria câmera, dispensa software específico, enquanto o TIFF, formato proprietário, exige o aplicativo da fabricante para ser aberto.",
+      "D": "o TIFF destina-se a impressão e edição de alta qualidade, com arquivos pesados que preservam os detalhes; o RAW guarda os dados originais de luz e cor, sem processamento nem compressão, em formatos muitas vezes proprietários."
     },
-    "resposta_correta": "B",
-    "justificativa": "O TIFF é usado por profissionais para impressão e edição de alta qualidade, preservando todos os detalhes, com arquivos pesados; o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, sendo muitas vezes proprietário (p. 76). Isso valida B. A está errada porque ambos geram arquivos pesados. C atribui ao RAW a compressão com perda do JPEG. D inverte as características de TIFF e RAW.",
+    "resposta_correta": "D",
+    "justificativa": "O TIFF é usado por profissionais para impressão e edição de alta qualidade, preservando todos os detalhes, com arquivos pesados; o RAW preserva os dados originais de luz e cor, sem processamento, compressão ou perda, sendo muitas vezes proprietário (p. 76). Isso valida D. A troca as características dos dois formatos entre si — e o RAW costuma ser proprietário, não padronizado. B atribui compressão a ambos e inventa distinção de edição destrutiva alheia ao texto. C inverte tudo: o RAW é que não é processado pela câmera e costuma exigir software específico por ser proprietário.",
     "referencia": "PDF LOC, p. 76",
     "nivel": "medio"
   },
@@ -19104,13 +19104,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Encerrado um exame fotográfico, o perito avalia o que fazer com os arquivos de imagem produzidos. À luz das orientações sobre o dossiê, a conduta correta é:",
     "alternativas": {
-      "A": "descartar os arquivos após a entrega do laudo, mantendo apenas as imagens efetivamente inseridas no documento.",
-      "B": "criar, para cada exame, um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda diante de contestações.",
-      "C": "encaminhar os arquivos originais ao juízo e apagar todas as cópias da unidade pericial.",
-      "D": "manter apenas o arquivo .txt com os hashes, descartando as imagens para economizar espaço."
+      "A": "criar, para cada exame, um dossiê com todos os arquivos de imagens, no computador e/ou em pasta de rede, útil para laudo complementar e como salvaguarda diante de contestações.",
+      "B": "arquivar as imagens efetivamente inseridas no laudo com os respectivos hashes e descartar as demais capturas, cuja guarda poderia fragilizar a versão oficial do exame em eventual contestação.",
+      "C": "transferir os arquivos originais à central de custódia junto com os vestígios físicos, mantendo na unidade apenas cópias de trabalho em baixa resolução.",
+      "D": "gravar os arquivos em mídia óptica anexada aos autos, prática que transfere ao juízo a responsabilidade pela guarda e dispensa cópia na unidade pericial."
     },
-    "resposta_correta": "B",
-    "justificativa": "Os arquivos do registro fotográfico não devem ser descartados; é desejável que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda em caso de contestação (p. 76). Isso valida B. A e D propõem descarte indevido das imagens. C apaga as cópias da unidade, contrariando a manutenção do dossiê.",
+    "resposta_correta": "A",
+    "justificativa": "Os arquivos do registro fotográfico não devem ser descartados; é desejável que, para cada exame, o perito crie um dossiê com todos os arquivos de imagens, arquivando-o no computador e/ou em pasta de rede, pois é útil em caso de laudo complementar e serve de salvaguarda em caso de contestação (p. 76). Isso valida A. B descarta as capturas não utilizadas, justamente as que podem ser necessárias em laudo complementar ou contestação. C e D deslocam a guarda para a central de custódia ou para os autos, quando a orientação é manter o dossiê na própria unidade, à disposição do perito.",
     "referencia": "PDF LOC, p. 76",
     "nivel": "dificil"
   },
@@ -19121,13 +19121,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "As técnicas de captura da realidade classificam-se em passivas e ativas. O critério dessa classificação é:",
     "alternativas": {
-      "A": "as passivas utilizam fotografias e dependem de luz (natural ou artificial), enquanto as ativas usam laser ou luz própria emitida pelo equipamento e não dependem de luz externa.",
-      "B": "as passivas empregam laser próprio, enquanto as ativas dependem exclusivamente da luz natural do ambiente.",
-      "C": "as passivas geram apenas produtos 3D, enquanto as ativas se limitam a imagens bidimensionais.",
-      "D": "as passivas exigem contato físico com o objeto, ao passo que as ativas operam à distância sem qualquer emissão."
+      "A": "as passivas registram o ambiente sem intervenção do operador, enquanto as ativas exigem o posicionamento manual de alvos e escalas na cena documentada.",
+      "B": "as passivas captam a radiação térmica naturalmente emitida pelos objetos, ao passo que as ativas trabalham com a luz visível refletida pela cena.",
+      "C": "as passivas utilizam fotografias e dependem de luz (natural ou artificial); as ativas usam laser ou luz própria emitida pelo equipamento, sem depender de luz externa.",
+      "D": "as passivas geram cópias digitais apenas bidimensionais, reservando-se às ativas a produção de nuvens de pontos e modelos tridimensionais."
     },
-    "resposta_correta": "A",
-    "justificativa": "As técnicas passivas usam fotografias e, por isso, dependem de luz (natural ou artificial); as ativas usam laser ou padrões de luz emitidos pelo próprio equipamento, não dependendo de luz externa (p. 77-79). Isso valida A. B inverte os conceitos. C cria distinção falsa quanto a 2D/3D. D atribui às passivas o contato físico, que é característica de equipamentos mecânicos (ativos).",
+    "resposta_correta": "C",
+    "justificativa": "As técnicas passivas usam fotografias e, por isso, dependem de luz (natural ou artificial); as ativas usam laser ou padrões de luz emitidos pelo próprio equipamento, não dependendo de luz externa (p. 77-79). Isso valida C. A troca o critério (emissão de luz própria) por suposta intervenção do operador. B inventa distinção por radiação térmica, alheia à classificação. D é falsa porque as passivas também geram produtos 3D — a fotogrametria produz modelos tridimensionais a partir de fotos.",
     "referencia": "PDF LOC, p. 77-79",
     "nivel": "facil"
   },
@@ -19138,13 +19138,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A fotogrametria, técnica passiva de captura da realidade, caracteriza-se por:",
     "alternativas": {
-      "A": "emitir feixes de laser para calcular o tempo de voo e gerar uma nuvem de pontos.",
-      "B": "projetar padrões de luz sobre o objeto e capturar sua deformação, com altíssima resolução.",
-      "C": "combinar, por meio de softwares específicos, centenas ou milhares de fotos de um mesmo local ou objeto, gerando produtos como ortofotos (2D), modelos de elevação de terreno e produtos 3D.",
-      "D": "capturar o formato do objeto por contato físico, por meio de um braço articulado mecânico."
+      "A": "combinar, por software específico, centenas ou milhares de fotos de um mesmo local ou objeto, gerando ortofotos (2D), modelos de elevação de terreno e produtos 3D.",
+      "B": "projetar padrões de luz sobre o objeto e medir sua deformação nas imagens capturadas, alcançando altíssima resolução de detalhe.",
+      "C": "cruzar imagens de câmeras fixas previamente calibradas com varreduras a laser do ambiente, técnica mista da qual resulta a nuvem de pontos colorizada da cena documentada.",
+      "D": "extrair medidas reais de uma única fotografia ortogonal, a partir da escala introduzida na cena no momento do registro."
     },
-    "resposta_correta": "C",
-    "justificativa": "A fotogrametria combina, com softwares específicos, centenas ou milhares de fotos de um mesmo local/objeto, gerando ortofotos (2D), modelos de elevação de terreno e produtos 3D (p. 78). Isso valida C. A descreve a técnica ativa a laser. B descreve a luz estruturada. D descreve o equipamento mecânico de contato.",
+    "resposta_correta": "A",
+    "justificativa": "A fotogrametria combina, com softwares específicos, centenas ou milhares de fotos de um mesmo local/objeto, gerando ortofotos (2D), modelos de elevação de terreno e produtos 3D (p. 78). Isso valida A. B descreve a luz estruturada, técnica ativa. C inventa uma técnica mista foto+laser que não corresponde à fotogrametria, que é puramente passiva (fotografias). D reduz a técnica à medição sobre foto única com escala, quando sua essência é a combinação de grande quantidade de imagens.",
     "referencia": "PDF LOC, p. 78",
     "nivel": "medio"
   },
@@ -19155,13 +19155,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Os passeios virtuais com fotos 360°, modalidade de técnica passiva, geram produtos:",
     "alternativas": {
-      "A": "semelhantes ao Google Street View, com hotspots a partir dos quais se enxerga ao redor em todos os ângulos e se navega para outros hotspots próximos.",
-      "B": "exclusivamente em formato de nuvem de pontos, obtidos por varredura a laser.",
-      "C": "consistentes em modelos 3D de objetos pequenos, como crânios, com alta resolução.",
-      "D": "de elevação de terreno, voltados ao mapeamento topográfico por contato mecânico."
+      "A": "compostos por vistas panorâmicas costuradas em plano único, nas quais a navegação se dá por rolagem contínua da imagem, sem pontos de observação fixos.",
+      "B": "consistentes em modelos tridimensionais navegáveis da cena, gerados pela fusão das fotos esféricas com dados de elevação do terreno.",
+      "C": "de medição métrica precisa, que permitem extrair distâncias e ângulos reais entre os vestígios diretamente das imagens esféricas.",
+      "D": "semelhantes ao Google Street View, com hotspots a partir dos quais se enxerga ao redor em todos os ângulos e se navega para outros hotspots próximos."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os passeios virtuais com fotos 360° geram produtos semelhantes ao Google Street View: há hotspots em que se enxerga ao redor em todos os ângulos e a partir dos quais se navega para outros hotspots próximos (p. 77-78). Isso valida A. B descreve produto de técnica ativa a laser. C descreve resultado típico da luz estruturada. D confunde com produtos de fotogrametria/levantamento topográfico.",
+    "resposta_correta": "D",
+    "justificativa": "Os passeios virtuais com fotos 360° geram produtos semelhantes ao Google Street View: há hotspots em que se enxerga ao redor em todos os ângulos e a partir dos quais se navega para outros hotspots próximos (p. 77-78). Isso valida D. A descarta justamente os hotspots, que são os pontos fixos de observação característicos do produto. B transforma o passeio em modelo 3D com dados de elevação, produtos de outras técnicas (fotogrametria). C atribui ao produto função métrica de precisão que ele não tem — o passeio serve à visualização e revisitação da cena, não à extração de medidas.",
     "referencia": "PDF LOC, p. 77-78",
     "nivel": "medio"
   },
@@ -19172,13 +19172,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a técnica ativa de luz estruturada, é correto afirmar que:",
     "alternativas": {
-      "A": "projeta padrões de luz no objeto e captura sua deformação, sendo excelente para capturar detalhes (alta resolução), porém lenta, de pequeno alcance e inadequada para locais ou objetos muito grandes.",
-      "B": "emite feixes de laser e calcula o tempo de voo, sendo ideal para grandes ambientes.",
-      "C": "depende exclusivamente da luz natural do ambiente, não podendo operar em locais escuros.",
-      "D": "captura o objeto por contato físico, dispensando qualquer projeção de luz."
+      "A": "emite pulsos de luz codificada sobre o objeto e mede o tempo de retorno de cada pulso, combinando o grande alcance característico do laser com a resolução das técnicas fotográficas passivas.",
+      "B": "projeta padrões de luz no objeto e captura sua deformação; é excelente para detalhes (alta resolução), porém lenta, de pequeno alcance e inadequada para objetos muito grandes.",
+      "C": "projeta uma malha de referência sobre a cena para orientar a fotogrametria, técnica passiva da qual é considerada uma variante auxiliar.",
+      "D": "varre o objeto com feixe contínuo de luz coerente, sendo indicada para grandes ambientes pela velocidade de captura e amplo campo de visão."
     },
-    "resposta_correta": "A",
-    "justificativa": "A luz estruturada projeta padrões de luz no objeto e captura sua deformação; é excelente em capturar detalhes (alta resolução), porém demorada, de pequeno alcance e campo de visão reduzido, inadequada para locais maiores ou objetos grandes (p. 79). Isso valida A. B descreve o laser. C contraria a natureza ativa (luz própria, independente de luz externa). D descreve equipamento mecânico de contato.",
+    "resposta_correta": "B",
+    "justificativa": "A luz estruturada projeta padrões de luz no objeto e captura sua deformação; é excelente em capturar detalhes (alta resolução), porém demorada, de pequeno alcance e campo de visão reduzido, inadequada para locais maiores ou objetos grandes (p. 79). Isso valida B. A mistura o princípio do laser (tempo de voo) com a resolução da luz estruturada, híbrido que não descreve a técnica. C a rebaixa a auxiliar da fotogrametria e a classifica como passiva, quando é técnica ativa autônoma. D inverte suas limitações: a técnica é lenta e de pequeno alcance, inadequada para grandes ambientes — domínio do laser.",
     "referencia": "PDF LOC, p. 79",
     "nivel": "medio"
   },
@@ -19223,13 +19223,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Além das técnicas ópticas, a disciplina menciona, entre as técnicas ativas, equipamentos que capturam o formato do objeto sem uso de ótica. Esses equipamentos:",
     "alternativas": {
-      "A": "são de natureza mecânica e capturam o formato do objeto por contato físico, como um braço articulado.",
-      "B": "são de natureza passiva e dependem de iluminação artificial intensa para operar.",
-      "C": "utilizam exclusivamente fotografias 360° processadas por software de fotogrametria.",
-      "D": "empregam lidar para medir a diferença de fase da onda portadora à distância."
+      "A": "operam por ultrassom, medindo o retorno de ondas sonoras emitidas contra a superfície do objeto examinado.",
+      "B": "empregam campos eletromagnéticos de indução, que reproduzem o volume de objetos metálicos sem necessidade de toque.",
+      "C": "utilizam sensores de profundidade infravermelhos, que dispensam tanto a ótica convencional quanto o contato físico.",
+      "D": "são de natureza mecânica e capturam o formato do objeto por contato físico, como um braço articulado."
     },
-    "resposta_correta": "A",
-    "justificativa": "Entre as técnicas ativas, há equipamentos puramente mecânicos (não usam ótica) que capturam o formato do objeto por contato físico, como um braço articulado (p. 79). Isso valida A. B classifica-os erroneamente como passivos. C confunde com técnica passiva (fotogrametria/360°). D descreve a técnica óptica a laser (lidar), não a mecânica de contato.",
+    "resposta_correta": "D",
+    "justificativa": "Entre as técnicas ativas, há equipamentos puramente mecânicos (não usam ótica) que capturam o formato do objeto por contato físico, como um braço articulado (p. 79). Isso valida D. A (ultrassom), B (indução eletromagnética) e C (sensores infravermelhos) descrevem princípios que não correspondem aos equipamentos citados pela disciplina, cuja característica é justamente a captura MECÂNICA, por contato físico, sem ótica nem emissões.",
     "referencia": "PDF LOC, p. 79",
     "nivel": "dificil"
   },
@@ -19240,13 +19240,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O conceito de 'captura da realidade' adotado na disciplina refere-se a:",
     "alternativas": {
-      "A": "um único método digital padronizado, de uso obrigatório em todo local de crime, baseado em varredura a laser.",
-      "B": "um conjunto de técnicas que documentam um cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais que podem ser analisadas, revistas e revisitadas em computador, das quais se extraem diversos produtos periciais.",
-      "C": "a substituição definitiva da fotografia forense pela modelagem tridimensional, vedando-se o uso de imagens 2D.",
-      "D": "a coleta física de vestígios para posterior digitalização exclusiva em laboratório."
+      "A": "a etapa do processamento em que os vestígios coletados na cena são digitalizados em laboratório, passando a integrar o dossiê digital do exame ao lado das fotografias produzidas durante o levantamento do local.",
+      "B": "o emprego padronizado da varredura a laser nos locais de crime, tecnologia apontada pela disciplina como substituta da documentação fotográfica tradicional.",
+      "C": "um conjunto de técnicas que documentam um cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis e revisitáveis em computador, das quais se extraem produtos periciais.",
+      "D": "a reconstituição simulada do fato em ambiente virtual, elaborada a partir do croqui e dos depoimentos, para ilustrar a dinâmica do evento no laudo pericial."
     },
-    "resposta_correta": "B",
-    "justificativa": "A captura da realidade é um conjunto de técnicas que documentam cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis, revistas e revisitáveis em computador, das quais se extraem diversos produtos com finalidades periciais (p. 77). Isso valida B. A reduz a um único método obrigatório. C nega indevidamente o uso de imagens 2D (as ortofotos são 2D). D confunde captura da realidade com coleta física de vestígios.",
+    "resposta_correta": "C",
+    "justificativa": "A captura da realidade é um conjunto de técnicas que documentam cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis, revistas e revisitáveis em computador, das quais se extraem diversos produtos com finalidades periciais (p. 77). Isso valida C. A a confunde com digitalização de vestígios em laboratório — a captura documenta a própria cena. B a reduz a uma única tecnologia (laser) e supõe substituição da fotografia, quando as técnicas convivem. D a confunde com reconstituição simulada a partir de croqui e depoimentos, quando a captura parte do próprio local real.",
     "referencia": "PDF LOC, p. 77",
     "nivel": "facil"
   },
@@ -19257,13 +19257,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Os escâneres a laser empregados na documentação de locais caracterizam-se por:",
     "alternativas": {
-      "A": "digitalizar ambientes e objetos emitindo feixes de laser e medindo propriedades do seu retorno, tendo grande alcance, o que os torna adequados à captura de grandes ambientes e cenas de crime.",
-      "B": "capturar imagens fotográficas convencionais que dependem integralmente da luz ambiente.",
-      "C": "registrar exclusivamente objetos pequenos, com alcance limitado a poucos centímetros.",
-      "D": "operar apenas por contato físico com as superfícies, como os equipamentos mecânicos."
+      "A": "digitalizar ambientes por triangulação fotográfica assistida por laser, em que o feixe emitido serve apenas de referência métrica para o software de fotogrametria que reconstrói a cena.",
+      "B": "digitalizar ambientes e objetos emitindo feixes de laser e medindo propriedades do retorno, com grande alcance, o que os torna adequados a grandes ambientes e cenas de crime.",
+      "C": "capturar simultaneamente geometria e cor com um único sensor laser policromático, dispensando o registro fotográfico complementar da cena.",
+      "D": "medir a cena por varredura contínua de curto alcance, sendo indicados para objetos pequenos e detalhes finos, como marcas de ferramentas."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os escâneres a laser digitalizam ambientes e objetos emitindo feixes de laser e medindo diferentes propriedades do retorno; têm grande alcance, sendo adequados à captura de grandes ambientes e cenas de crime, como edifícios e pontes inteiras (p. 81). Isso valida A. B confunde com técnica passiva (fotografia). C nega o grande alcance. D atribui ao laser a operação por contato dos equipamentos mecânicos.",
+    "resposta_correta": "B",
+    "justificativa": "Os escâneres a laser digitalizam ambientes e objetos emitindo feixes de laser e medindo diferentes propriedades do retorno (tempo de voo ou diferença de fase); têm grande alcance, sendo adequados à captura de grandes ambientes e cenas de crime, como edifícios e pontes inteiras (p. 81). Isso valida B. A subordina o laser à fotogrametria, misturando técnica ativa e passiva. C inventa sensor policromático — o laser é monocromático, e a cor vem de fotografias tiradas pelo equipamento. D inverte a característica central: o alcance é grande, e os detalhes finos são o ponto fraco da técnica.",
     "referencia": "PDF LOC, p. 81",
     "nivel": "facil"
   },
@@ -19274,13 +19274,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos tipos de escâner a laser, é correto afirmar que:",
     "alternativas": {
-      "A": "o escâner cinemático é fixado em tripé e produz nuvens de maior qualidade que o estacionário.",
-      "B": "o escâner estacionário opera em movimento constante na mão do operador, sendo o mais rápido.",
-      "C": "o escâner estacionário (fixado em tripé) gera nuvens de maior qualidade, porém é mais lento, enquanto o cinemático (transportado na mão ou em robôs) é mais versátil e rápido, mas com qualidade inferior.",
-      "D": "ambos os tipos exigem que o laser atravesse os objetos para capturar todo o ambiente em uma única tomada."
+      "A": "o estacionário (fixado em tripé) gera nuvens de maior qualidade, porém é mais lento; o cinemático (na mão ou em robôs) é mais versátil e rápido, mas com qualidade inferior.",
+      "B": "o cinemático, por capturar em movimento, elimina as sombras de oclusão e produz nuvens mais completas e de maior qualidade que o estacionário.",
+      "C": "o estacionário destina-se aos ambientes externos e o cinemático aos internos, critério de natureza espacial que define a escolha do equipamento independentemente da qualidade pretendida.",
+      "D": "ambos geram nuvens de qualidade equivalente, diferindo apenas no alcance, que é maior no cinemático por acompanhar o deslocamento do operador."
     },
-    "resposta_correta": "C",
-    "justificativa": "O escâner estacionário, preso a tripé, gera nuvens de maior qualidade, porém é mais lento; o cinemático, transportado na mão ou em plataformas automatizadas (robôs), é mais versátil e rápido, mas com qualidade inferior (p. 81-82). Isso valida C. A e B invertem as características. D é falsa, pois o laser não atravessa objetos, exigindo várias capturas de pontos de vista diferentes.",
+    "resposta_correta": "A",
+    "justificativa": "O escâner estacionário, preso a tripé, gera nuvens de maior qualidade, porém é mais lento; o cinemático, transportado na mão ou em plataformas automatizadas (robôs), é mais versátil e rápido, mas com qualidade inferior (p. 81-82). Isso valida A. B usa argumento plausível (movimento reduz oclusões), mas conclui errado: a qualidade do cinemático é INFERIOR à do estacionário. C inventa critério de ambiente interno/externo que a disciplina não estabelece. D nega a diferença de qualidade, que é justamente o trade-off central entre os dois tipos.",
     "referencia": "PDF LOC, p. 81-82",
     "nivel": "medio"
   },
@@ -19291,13 +19291,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O processo de 'registro', no uso dos escâneres a laser, consiste em:",
     "alternativas": {
-      "A": "anotar manualmente, em formulário, a posição de cada vestígio capturado pelo equipamento.",
-      "B": "alinhar em uma única nuvem de pontos os diferentes pontos de vista capturados; equipamentos modernos o fazem automaticamente, enquanto os antigos exigiam a instalação de alvos no ambiente.",
-      "C": "calcular o hash da nuvem de pontos para garantir a cadeia de custódia do arquivo digital.",
-      "D": "converter a nuvem de pontos em ortofotos 2D por meio de software de fotogrametria."
+      "A": "georreferenciar a nuvem de pontos, vinculando cada ponto a coordenadas geográficas reais obtidas por GNSS no momento da captura.",
+      "B": "documentar em ata os parâmetros empregados em cada tomada — posição, altura e resolução do escâner —, de modo a garantir a reprodutibilidade do exame por outro perito.",
+      "C": "validar a nuvem de pontos por comparação com medidas tomadas por trena na cena, certificando a exatidão métrica do modelo.",
+      "D": "alinhar em uma única nuvem de pontos os diferentes pontos de vista capturados; equipamentos modernos o fazem automaticamente, e os antigos exigiam alvos no ambiente."
     },
-    "resposta_correta": "B",
-    "justificativa": "O 'registro' é o alinhamento, em uma única nuvem de pontos, dos diferentes pontos de vista capturados; equipamentos/softwares modernos fazem o registro automaticamente ao reposicionar o escâner, ao passo que os antigos exigiam a instalação de alvos no ambiente (p. 82). Isso valida B. A confunde com o preenchimento de formulário. C confunde com a função hash. D confunde com a fotogrametria.",
+    "resposta_correta": "D",
+    "justificativa": "O 'registro' é o alinhamento, em uma única nuvem de pontos, dos diferentes pontos de vista capturados; equipamentos/softwares modernos fazem o registro automaticamente ao reposicionar o escâner, ao passo que os antigos exigiam a instalação de alvos no ambiente (p. 82). Isso valida D. A confunde registro com georreferenciamento por GNSS, que não é o conceito tratado. B o confunde com documentação administrativa dos parâmetros da tomada. C o confunde com validação métrica por conferência manual, alheia ao processo de alinhamento das capturas.",
     "referencia": "PDF LOC, p. 82",
     "nivel": "medio"
   },
@@ -19308,13 +19308,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao escanear com laser estacionário um ambiente interno complexo, com móveis e divisórias, o perito percebe que uma única tomada não cobre toda a cena. Considerando o funcionamento do equipamento, é correto afirmar que:",
     "alternativas": {
-      "A": "como o laser não atravessa objetos, são necessárias várias capturas de pontos de vista diferentes, posteriormente combinadas; embora o laser seja monocromático, o equipamento tira fotos coloridas para colorir a nuvem de pontos com as cores reais.",
-      "B": "uma única tomada é sempre suficiente, pois o laser atravessa móveis e paredes, dispensando capturas adicionais.",
-      "C": "o equipamento não registra cores, de modo que a nuvem de pontos resultante é sempre exibida apenas em tons de cinza.",
-      "D": "a presença de móveis impede o uso do escâner, devendo a documentação ser feita exclusivamente por fotografia."
+      "A": "basta elevar o escâner acima da altura dos móveis, pois a tomada zenital única cobre os espaços que ficariam ocultos aos feixes horizontais.",
+      "B": "as áreas de sombra deixadas pelos móveis podem ser complementadas por interpolação do software de processamento, prática aceita na documentação pericial por preservar a geometria geral da cena registrada.",
+      "C": "como o laser não atravessa objetos, são necessárias várias capturas de pontos de vista diferentes, depois combinadas; o equipamento também tira fotos coloridas para colorir a nuvem com as cores reais.",
+      "D": "as capturas adicionais devem ser feitas com luz estruturada, único meio de registrar as regiões ocultas às tomadas do escâner a laser."
     },
-    "resposta_correta": "A",
-    "justificativa": "Como o laser não atravessa objetos, ambientes complexos exigem várias capturas de pontos de vista diferentes, depois combinadas; apesar de o laser ser monocromático, o equipamento também tira fotos coloridas para colorir a nuvem de pontos com as cores reais (p. 81-82). Isso valida A. B afirma incorretamente que o laser atravessa objetos. C nega a coloração da nuvem com fotos reais. D exclui indevidamente o uso do escâner.",
+    "resposta_correta": "C",
+    "justificativa": "Como o laser não atravessa objetos, ambientes complexos exigem várias capturas de pontos de vista diferentes, depois combinadas (registro); apesar de o laser ser monocromático, o equipamento também tira fotos coloridas para colorir a nuvem de pontos com as cores reais (p. 81-82). Isso valida C. A supõe que uma tomada elevada elimina as oclusões, o que não ocorre em cena com móveis e divisórias — persistem áreas de sombra. B propõe 'preencher' as sombras por interpolação, criando dados que não foram capturados, inaceitável em documentação pericial. D inventa exigência de luz estruturada: a solução são novas tomadas do próprio escâner.",
     "referencia": "PDF LOC, p. 81-82",
     "nivel": "dificil"
   },
@@ -19325,13 +19325,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Entre as vantagens do uso de produtos 3D obtidos por escâner a laser na atividade pericial, inclui-se:",
     "alternativas": {
-      "A": "a sobreposição de imagens de CFTV ao modelo 3D, permitindo calcular a altura de suspeitos e medir trajetórias, bem como a reconstrução de trajetórias de disparos para estimar a posição do atirador.",
-      "B": "a dispensa total do registro fotográfico do local, uma vez que a resolução do escâner capta todos os detalhes finos da cena.",
-      "C": "a coleta automática e o acondicionamento dos vestígios físicos, sem intervenção do perito.",
-      "D": "a substituição do exame de corpo de delito por simulação computacional."
+      "A": "a extração automática, por software de processamento, da dinâmica do evento a partir da nuvem de pontos, que passa a integrar as conclusões do laudo sem necessidade de análise do perito.",
+      "B": "a sobreposição de imagens de CFTV ao modelo 3D, para calcular a altura de suspeitos e medir trajetórias, além da reconstrução de trajetórias de disparos para estimar a posição do atirador.",
+      "C": "a certificação métrica do croqui tradicional, que passa a ser peça obrigatória gerada diretamente da nuvem de pontos registrada.",
+      "D": "a detecção de vestígios latentes, como resíduos biológicos não visíveis, a partir da assinatura espectral do retorno do feixe."
     },
-    "resposta_correta": "A",
-    "justificativa": "Entre as vantagens estão a reconstrução da cena a partir de imagens de CFTV sobrepostas ao modelo 3D (cálculo de altura de suspeitos, medição de trajetórias) e a reconstrução de trajetórias de disparos para determinar a posição de origem do atirador (p. 82-83). Isso valida A. B contraria a limitação de resolução, que torna imprescindível a fotografia. C e D atribuem ao 3D funções alheias (coleta física e exame de corpo de delito).",
+    "resposta_correta": "B",
+    "justificativa": "Entre as vantagens estão a reconstrução da cena a partir de imagens de CFTV sobrepostas ao modelo 3D (cálculo de altura de suspeitos, medição de trajetórias) e a reconstrução de trajetórias de disparos para determinar a posição de origem do atirador (p. 82-83). Isso valida B. A elimina a análise do perito, que o 3D instrumenta, mas não substitui. C inventa obrigatoriedade de croqui gerado da nuvem. D atribui ao escâner capacidade de detectar vestígios latentes por espectro, função que ele não tem — o equipamento documenta geometria, não revela material biológico.",
     "referencia": "PDF LOC, p. 82-83",
     "nivel": "medio"
   },
@@ -19342,13 +19342,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Uma das vantagens dos modelos 3D obtidos por escâner a laser é a obtenção de medidas. A respeito dessa vantagem, é correto afirmar que:",
     "alternativas": {
-      "A": "permite obter, de forma trivial a partir do modelo 3D, medidas de comprimento, área e volume, inclusive de alvos irregulares como buracos e rochas.",
-      "B": "fornece apenas medidas lineares, sendo impossível calcular áreas ou volumes.",
-      "C": "exige que todas as mensurações sejam refeitas manualmente no local, sem aproveitamento do modelo.",
-      "D": "restringe-se à medição de objetos perfeitamente regulares, não se aplicando a formas irregulares."
+      "A": "fornece medidas de comprimento e área diretamente do modelo, exigindo, para volumes, o fechamento manual da malha por especialista.",
+      "B": "fornece medidas com validade meramente orientativa, devendo as dimensões consignadas em laudo ser conferidas por trena no local.",
+      "C": "permite medições lineares precisas, mas a precisão decai em alvos irregulares, que exigem aproximação por sólidos geométricos regulares.",
+      "D": "permite obter, de forma trivial a partir do modelo 3D, medidas de comprimento, área e volume, inclusive de alvos irregulares como buracos e rochas."
     },
-    "resposta_correta": "A",
-    "justificativa": "O modelo 3D permite obter, de forma trivial, medidas de comprimento, área e volume, inclusive cálculos complexos de alvos irregulares como buracos e rochas (p. 82). Isso valida A. B e D restringem indevidamente as medidas. C contraria a vantagem de dispensar mensurações manuais no local, que podem ser feitas depois sobre o modelo.",
+    "resposta_correta": "D",
+    "justificativa": "O modelo 3D permite obter, de forma trivial, medidas de comprimento, área e volume, inclusive cálculos complexos de alvos irregulares como buracos e rochas (p. 82). Isso valida D. A cria etapa manual para volumes que o texto não exige — a obtenção é trivial para as três grandezas. B rebaixa as medidas a orientativas e ressuscita a conferência por trena, contrariando a vantagem de medir depois, sobre o modelo. C nega justamente o ponto destacado pela disciplina: os alvos irregulares são exemplos do que o modelo mede bem, sem aproximações por sólidos regulares.",
     "referencia": "PDF LOC, p. 82",
     "nivel": "facil"
   },
@@ -19359,13 +19359,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Entre as limitações e dificuldades do uso de escâneres a laser, a disciplina aponta a necessidade de preparar a cena. Essa dificuldade está relacionada a:",
     "alternativas": {
-      "A": "objetos pretos e/ou brilhantes, que dificultam a captura, exigindo o uso de sprays para tornar as superfícies opacas e, em situações difíceis (como áreas de mata), a introdução de alvos.",
-      "B": "objetos coloridos, que devem ser pintados de preto antes do escaneamento para refletir melhor o laser.",
-      "C": "a iluminação do ambiente, que precisa ser intensa, pois o escâner a laser depende de luz externa para operar.",
-      "D": "a presença de qualquer fotografia no local, que interfere no funcionamento do feixe de laser."
+      "A": "superfícies transparentes, como vidros e acrílicos, que devem ser removidas da cena antes da varredura, uma vez que refletem integralmente o feixe e inviabilizam a captura dos pontos.",
+      "B": "objetos claros e foscos, que dispersam o feixe e exigem a aplicação de sprays escurecedores para melhorar o retorno do laser.",
+      "C": "objetos pretos e/ou brilhantes, que dificultam a captura, exigindo sprays para tornar as superfícies opacas e, em situações difíceis, como áreas de mata, a introdução de alvos.",
+      "D": "a temperatura do ambiente, que altera o comprimento de onda do feixe e exige a climatização prévia dos ambientes internos."
     },
-    "resposta_correta": "A",
-    "justificativa": "A preparação da cena decorre da dificuldade com objetos pretos e/ou brilhantes, que demandam o uso de sprays para tornar as superfícies opacas, além da introdução de alvos em situações difíceis, como áreas de mata (p. 83). Isso valida A. B inverte a recomendação (não se pinta de preto). C é falsa, pois o escâner a laser é técnica ativa e não depende de luz externa. D não corresponde a qualquer limitação descrita.",
+    "resposta_correta": "C",
+    "justificativa": "A preparação da cena decorre da dificuldade com objetos pretos e/ou brilhantes, que demandam o uso de sprays para tornar as superfícies opacas, além da introdução de alvos em situações difíceis, como áreas de mata (p. 83). Isso valida C. A propõe remover elementos da cena, alterando o local — e não é a dificuldade descrita. B inverte o problema: as superfícies difíceis são as pretas/brilhantes, e o spray serve para torná-las OPACAS, não escuras. D inventa interferência térmica no comprimento de onda, limitação que a disciplina não menciona.",
     "referencia": "PDF LOC, p. 83",
     "nivel": "medio"
   },
@@ -19376,13 +19376,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considerando as limitações de resolução dos escâneres a laser, qual a conclusão da disciplina sobre a relação entre a documentação 3D e a fotografia do local?",
     "alternativas": {
-      "A": "A tecnologia 3D substitui plenamente a fotografia, que se torna dispensável quando se dispõe de escâner a laser.",
-      "B": "Como a resolução do escâner é insuficiente para detalhes finos (ressalvada a luz estruturada), a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder reposicionar vestígios na nuvem de pontos.",
-      "C": "A fotografia só é necessária quando não se utiliza escâner cinemático, sendo dispensável no uso do estacionário.",
-      "D": "A resolução do laser é sempre superior à da luz estruturada, o que torna a fotografia redundante."
+      "A": "Como a resolução do escâner é insuficiente para detalhes finos (ressalvada a luz estruturada), o 3D não substitui a fotografia, imprescindível para não perder informações e reposicionar vestígios na nuvem.",
+      "B": "A fotografia permanece necessária apenas para colorir a nuvem de pontos com as cores reais da cena, função que os escâneres dotados de câmera integrada já suprem automaticamente durante a captura.",
+      "C": "O modelo 3D substitui a fotografia como registro da cena, permanecendo o levantamento fotográfico apenas por exigência formal dos laudos.",
+      "D": "Fotografia e 3D são registros alternativos: cabe ao perito eleger um deles conforme a complexidade da cena, evitando duplicidade documental."
     },
-    "resposta_correta": "B",
-    "justificativa": "A resolução dos escâneres a laser ainda é insuficiente para os detalhes finos de uma cena (com exceção da luz estruturada), de modo que a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder localizar/reposicionar um vestígio na nuvem de pontos (p. 83). Isso valida B. A e C tratam a fotografia como dispensável, contrariando o texto. D inverte a relação de resolução (a luz estruturada tem resolução superior à do laser).",
+    "resposta_correta": "A",
+    "justificativa": "A resolução dos escâneres a laser ainda é insuficiente para os detalhes finos de uma cena (com exceção da luz estruturada), de modo que a tecnologia 3D não substitui a fotografia, sendo imprescindível o registro fotográfico do local para não perder informações e poder localizar/reposicionar um vestígio na nuvem de pontos (p. 83). Isso valida A. B reduz a fotografia à colorização da nuvem, ignorando sua função de registrar os detalhes finos que o laser não capta. C e D tratam a fotografia como formalidade ou alternativa, quando ela é imprescindível e convive com o 3D.",
     "referencia": "PDF LOC, p. 83",
     "nivel": "dificil"
   },
@@ -19393,13 +19393,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos tipos de drones (RPAs), é correto afirmar que:",
     "alternativas": {
-      "A": "os de asa rotativa têm grande capacidade de manobra (param no ar, sobem na vertical), porém voo ineficiente e alcance limitado; os de asa fixa, como pequenos aviões, voam com eficiência elevada a maiores distâncias, com autonomia muito superior.",
-      "B": "os de asa fixa param no ar e sobem na vertical, sendo indicados para pequenas áreas, enquanto os de asa rotativa têm autonomia muito superior.",
-      "C": "ambos os tipos têm a mesma autonomia de voo, variando apenas na cor e no tamanho.",
-      "D": "os de asa rotativa são pequenos aviões de grande autonomia, e os de asa fixa só operam pairando sobre um ponto fixo."
+      "A": "os de asa rotativa combinam a capacidade de pairar no ar com autonomia superior à dos de asa fixa, que dependem de velocidade mínima e de área própria para pouso.",
+      "B": "os de asa rotativa têm grande capacidade de manobra (param no ar, sobem na vertical), porém voo ineficiente e alcance limitado; os de asa fixa voam com eficiência a maiores distâncias, com autonomia muito superior.",
+      "C": "os de asa fixa dominam o emprego em segurança pública por decolarem na vertical em espaços urbanos restritos e pairarem sobre o alvo, enquanto os de asa rotativa exigem área ampla de lançamento e pouso.",
+      "D": "a distinção entre os tipos é apenas construtiva, pois os controladores de voo modernos igualam a manobrabilidade e a autonomia das duas plataformas."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os drones de asa rotativa têm grande capacidade de manobra (param no ar, sobem/descem na vertical), mas voo ineficiente e alcance limitado; os de asa fixa, como pequenos aviões, voam com eficiência elevada a maiores velocidades e distâncias, com autonomia muito superior (p. 85-86). Isso valida A. B e D invertem as características. C nega a diferença de autonomia entre os tipos.",
+    "resposta_correta": "B",
+    "justificativa": "Os drones de asa rotativa têm grande capacidade de manobra (param no ar, sobem/descem na vertical), mas voo ineficiente e alcance limitado; os de asa fixa, como pequenos aviões, voam com eficiência elevada a maiores velocidades e distâncias, com autonomia muito superior (p. 85-86). Isso valida B. A dá aos de asa rotativa a autonomia superior, que é dos de asa fixa. C inverte as plataformas: quem decola na vertical em espaço restrito é a asa rotativa. D nega o trade-off manobra × autonomia, que é justamente o critério de escolha entre os tipos.",
     "referencia": "PDF LOC, p. 85-86",
     "nivel": "facil"
   },
@@ -19410,13 +19410,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a redundância de motores nos drones de asa rotativa, é correto afirmar que:",
     "alternativas": {
-      "A": "os quadricópteros (4 motores) possuem redundância total, sustentando o voo ainda que três motores falhem.",
-      "B": "os quadricópteros não têm redundância, de modo que a falha de um motor provoca a queda; já modelos de 6 ou 8 motores conseguem sustentar o voo mesmo com a falha de alguns.",
-      "C": "quanto menor o número de motores, maior a redundância, sendo o quadricóptero o mais seguro.",
-      "D": "a redundância depende apenas do peso do drone, e não do número de motores."
+      "A": "os quadricópteros toleram a falha de um motor redistribuindo o empuxo entre os três restantes, recurso que os torna o padrão da aviação de segurança pública.",
+      "B": "a redundância é garantida pelo paraquedas balístico exigido na homologação da aeronave, e não pelo número de motores que ela possui.",
+      "C": "modelos de 6 ou 8 motores, por serem mais pesados, perdem a sustentação com a falha de qualquer motor, ao contrário dos quadricópteros, mais leves.",
+      "D": "os quadricópteros não têm redundância — a falha de um motor provoca a queda —, enquanto modelos de 6 ou 8 motores sustentam o voo mesmo com a falha de alguns."
     },
-    "resposta_correta": "B",
-    "justificativa": "Os quadricópteros (4 motores) não têm redundância: se um motor falha, a aeronave cai; modelos de 6 ou 8 motores sustentam o voo mesmo com a falha de alguns (p. 85). Isso valida B. A atribui redundância total ao quadricóptero. C inverte a relação (mais motores, mais redundância). D ignora o papel do número de motores na redundância.",
+    "resposta_correta": "D",
+    "justificativa": "Os quadricópteros (4 motores) não têm redundância: se um motor falha, a aeronave cai; modelos de 6 ou 8 motores sustentam o voo mesmo com a falha de alguns (p. 85). Isso valida D. A descreve capacidade que o quadricóptero não tem — com três motores ele não se sustenta. B desloca a redundância para um paraquedas, alheio ao conceito tratado, que é a tolerância à falha de motores. C inverte a relação: são os modelos com MAIS motores que toleram falhas, e o peso não é o critério.",
     "referencia": "PDF LOC, p. 85",
     "nivel": "medio"
   },
@@ -19427,13 +19427,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Uma equipe precisa sobrevoar uma vasta área de mata para localizar plantios ilícitos a grandes distâncias da base; em outra ocasião, precisa documentar de perto, com manobras precisas, uma pequena cena de crime urbana. A escolha de drones mais adequada é:",
     "alternativas": {
-      "A": "asa fixa para a vasta área (maior autonomia e distância) e asa rotativa para a cena urbana (manobra precisa, parar no ar).",
-      "B": "asa rotativa para a vasta área (maior autonomia) e asa fixa para a cena urbana (pairar sobre um ponto).",
-      "C": "asa fixa para ambas as situações, por ser sempre superior à asa rotativa.",
-      "D": "asa rotativa para ambas, pois a autonomia é idêntica e a manobrabilidade é sempre preferível."
+      "A": "asa rotativa para a vasta área, pela capacidade de pairar sobre os plantios localizados, e asa fixa para a cena urbana, pela estabilidade de voo.",
+      "B": "asa fixa para as duas missões, compensando na cena urbana a impossibilidade de pairar com órbitas fechadas em baixa altitude.",
+      "C": "asa fixa para a vasta área (maior autonomia e distância) e asa rotativa para a cena urbana (manobra precisa, parar no ar).",
+      "D": "asa rotativa para as duas missões, empregando na mata o revezamento de baterias em pontos avançados para estender o alcance da aeronave."
     },
-    "resposta_correta": "A",
-    "justificativa": "O drone de asa fixa, com autonomia muito superior, é adequado a grandes extensões e distâncias (ex.: localizar roças); o de asa rotativa, com grande capacidade de manobra (parar no ar, subir na vertical), é adequado a cenas locais, apesar do alcance limitado (p. 85-86). Isso valida A. B inverte as aplicações. C e D generalizam indevidamente um único tipo para ambas as situações.",
+    "resposta_correta": "C",
+    "justificativa": "O drone de asa fixa, com autonomia muito superior, é adequado a grandes extensões e distâncias (ex.: localizar roças); o de asa rotativa, com grande capacidade de manobra (parar no ar, subir na vertical), é adequado a cenas locais, apesar do alcance limitado (p. 85-86). Isso valida C. A inverte as aplicações: pairar sobre o plantio não compensa o alcance limitado da asa rotativa na vasta área. B força a asa fixa na cena urbana, onde a manobra precisa e o voo pairado são indispensáveis. D tenta contornar a autonomia com logística de baterias, solução que não substitui a eficiência de voo da asa fixa.",
     "referencia": "PDF LOC, p. 85-86",
     "nivel": "dificil"
   },
@@ -19461,13 +19461,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Pela RBAC-E 94/2017 da ANAC, os drones são divididos em três classes por peso. Um drone de segurança pública com peso inferior a 25 kg enquadra-se na:",
     "alternativas": {
-      "A": "Classe 1 (acima de 150 kg), com o mesmo nível de exigência das demais aeronaves civis.",
-      "B": "Classe 2 (25 a 150 kg), com homologação e registro ligeiramente simplificados.",
-      "C": "Classe 3 (abaixo de 25 kg), que abrange praticamente todos os drones domésticos e de segurança pública e não exige habilitação do piloto nem aprovação do projeto, mas exige cadastro no SISANT.",
-      "D": "Classe 3 (abaixo de 25 kg), exigindo habilitação do piloto e aprovação prévia do projeto pela ANAC."
+      "A": "na Classe 3 (abaixo de 25 kg), que abrange praticamente todos os drones domésticos e de segurança pública e não exige habilitação do piloto nem aprovação de projeto, mas exige cadastro no SISANT.",
+      "B": "na Classe 3 (abaixo de 25 kg), que dispensa o cadastro no SISANT, exigido apenas das Classes 1 e 2, mas impõe ao piloto remoto habilitação específica emitida pela ANAC e a aprovação prévia do projeto da aeronave.",
+      "C": "na Classe 2 (2 a 25 kg), com homologação simplificada, cadastro obrigatório no SISANT e exigência de licença de estação rádio junto à ANATEL.",
+      "D": "na Classe 3 (abaixo de 25 kg), desde que o órgão de segurança pública obtenha a aprovação prévia do projeto da aeronave junto à ANAC."
     },
-    "resposta_correta": "C",
-    "justificativa": "A Classe 3 abrange os drones abaixo de 25 kg (praticamente todos os domésticos e de segurança pública); não exige habilitação do piloto nem aprovação do projeto, mas exige cadastro no SISANT (p. 87-88). Isso valida C. A (Classe 1) e B (Classe 2) correspondem a pesos maiores. D erra ao exigir habilitação e aprovação de projeto, justamente o que a Classe 3 dispensa.",
+    "resposta_correta": "A",
+    "justificativa": "A Classe 3 abrange os drones abaixo de 25 kg (praticamente todos os domésticos e de segurança pública); não exige habilitação do piloto nem aprovação do projeto, mas exige cadastro no SISANT (p. 87-88). Isso valida A. B inverte as dispensas: o cadastro no SISANT é justamente o que a Classe 3 exige, e a habilitação, o que ela dispensa. C erra a classe — a Classe 2 vai de 25 a 150 kg, não de 2 a 25 kg. D condiciona o enquadramento à aprovação de projeto, exigência que a Classe 3 não faz.",
     "referencia": "PDF LOC, p. 87-88",
     "nivel": "dificil"
   },
@@ -19495,13 +19495,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Uma equipe de perícia da Polícia Federal precisa realizar, em caráter operacional, um voo de drone sobre um local de crime. Quanto à exigência do SARPAS (DECEA), é correto afirmar que:",
     "alternativas": {
-      "A": "o voo depende de prévia autorização do SARPAS em todos os casos, inclusive nas atividades operacionais de segurança pública.",
-      "B": "por se tratar de órgão de segurança pública em atividade operacional, o cadastro no SARPAS é apenas informativo, não dependendo de autorização para a execução; essa exceção, porém, não cobre voos de treinamento.",
-      "C": "os voos de órgãos de segurança pública estão totalmente dispensados de qualquer cadastro, inclusive em treinamentos.",
-      "D": "a exceção aplica-se exclusivamente aos voos de treinamento, exigindo-se autorização para as atividades operacionais."
+      "A": "o voo depende de autorização prévia no SARPAS em qualquer hipótese, autorização que os órgãos de segurança pública obtêm por rito abreviado próprio das operações policiais, com resposta em caráter de urgência.",
+      "B": "a atividade operacional dispensa o SARPAS por completo, mantendo-se apenas o registro interno da corporação sobre o emprego da aeronave.",
+      "C": "a exceção informativa alcança tanto os voos operacionais quanto os de treinamento, desde que realizados em área previamente segregada.",
+      "D": "por se tratar de órgão de segurança pública em atividade operacional, o cadastro no SARPAS é apenas informativo, sem depender de autorização; a exceção, porém, não cobre voos de treinamento."
     },
-    "resposta_correta": "B",
-    "justificativa": "Para voos de órgãos de segurança pública em atividades operacionais, o cadastro no SARPAS é apenas informativo, não dependendo de autorização para serem executados; essa exceção não cobre voos de treinamento (p. 88). Isso valida B. A ignora a exceção. C amplia indevidamente a exceção também ao treinamento. D inverte a exceção (que é para atividade operacional, não treinamento).",
+    "resposta_correta": "D",
+    "justificativa": "Para voos de órgãos de segurança pública em atividades operacionais, o cadastro no SARPAS é apenas informativo, não dependendo de autorização para serem executados; essa exceção não cobre voos de treinamento (p. 88). Isso valida D. A mantém a exigência de autorização (ainda que 'abreviada'), quando o cadastro operacional é meramente informativo. B vai além da norma: o cadastro informativo no SARPAS permanece, não há dispensa completa. C estende a exceção aos treinamentos, expressamente excluídos — para treinar, é preciso autorização.",
     "referencia": "PDF LOC, p. 88",
     "nivel": "dificil"
   },
@@ -19512,13 +19512,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Entre os equipamentos que os drones podem carregar, as câmeras multiespectrais caracterizam-se por:",
     "alternativas": {
-      "A": "capturar comprimentos de onda invisíveis ao olho humano, sendo muito usadas, por exemplo, para determinar a saúde de uma cultura vegetal.",
-      "B": "enxergar sob a copa das árvores, revelando o relevo do solo independentemente da vegetação.",
-      "C": "registrar apenas imagens em preto e branco, com resolução superior à das câmeras comuns.",
-      "D": "medir o tempo de voo de feixes de laser para gerar nuvens de pontos."
+      "A": "combinar imagens térmicas e ópticas em um único sensor, permitindo localizar pessoas desaparecidas sob qualquer condição de luz.",
+      "B": "capturar comprimentos de onda invisíveis ao olho humano, sendo muito usadas, por exemplo, para determinar a saúde de uma cultura vegetal.",
+      "C": "penetrar a copa das árvores por meio de bandas de infravermelho profundo, revelando o relevo do solo sob a vegetação densa.",
+      "D": "registrar simultaneamente várias exposições da mesma cena, compondo imagens de alta faixa dinâmica para ambientes de forte contraluz."
     },
-    "resposta_correta": "A",
-    "justificativa": "As câmeras multiespectrais capturam comprimentos de onda invisíveis ao olho humano, sendo muito usadas na agricultura para determinar a saúde de uma cultura vegetal (p. 89). Isso valida A. B descreve o scanner Lidar. C inventa característica de preto e branco. D descreve o escâner a laser, não a câmera multiespectral.",
+    "resposta_correta": "B",
+    "justificativa": "As câmeras multiespectrais capturam comprimentos de onda invisíveis ao olho humano, sendo muito usadas na agricultura para determinar a saúde de uma cultura vegetal (p. 89). Isso valida B. A descreve uma fusão térmica/óptica que não define a câmera multiespectral. C atribui à câmera a capacidade de revelar o relevo sob a copa, que é do scanner Lidar — capturar bandas invisíveis não significa atravessar a vegetação. D descreve técnica de alta faixa dinâmica (múltiplas exposições), estranha ao conceito.",
     "referencia": "PDF LOC, p. 89",
     "nivel": "medio"
   },
@@ -19529,13 +19529,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma perícia ambiental, é necessário determinar o relevo do solo de uma área densamente coberta por vegetação. O equipamento embarcado em drone mais adequado a essa finalidade é:",
     "alternativas": {
-      "A": "a câmera multiespectral, por capturar a saúde da cultura vegetal sobre o dossel.",
-      "B": "a câmera fotográfica comum de alta resolução, em voo automatizado de fotogrametria.",
-      "C": "o scanner 3D do tipo Lidar, capaz de enxergar sob a copa das árvores, penetrando entre as folhas e revelando o relevo do solo independentemente da vegetação.",
-      "D": "o passeio virtual 360°, que documenta o interior da mata por hotspots navegáveis."
+      "A": "o scanner 3D do tipo Lidar, capaz de enxergar sob a copa das árvores, penetrando entre as folhas e revelando o relevo do solo.",
+      "B": "a câmera multiespectral, cujas bandas de infravermelho atravessam a vegetação e mapeiam a topografia do terreno encoberto.",
+      "C": "a câmera fotográfica de alta resolução em voo fotogramétrico cruzado, cujo processamento remove digitalmente a vegetação do modelo.",
+      "D": "o sensor térmico, que distingue o solo da vegetação pela diferença de temperatura e reconstitui o relevo a partir desse contraste."
     },
-    "resposta_correta": "C",
-    "justificativa": "Os scanners 3D do tipo Lidar conseguem enxergar sob a copa das árvores, penetrando entre as folhas, e revelam o relevo do solo independentemente da vegetação (p. 89). Isso valida C. A (multiespectral) determina a saúde da cultura, não o relevo sob a vegetação. B (fotogrametria por fotos comuns) não penetra a copa. D (passeio 360°) não revela o relevo do solo sob a mata.",
+    "resposta_correta": "A",
+    "justificativa": "Os scanners 3D do tipo Lidar conseguem enxergar sob a copa das árvores, penetrando entre as folhas, e revelam o relevo do solo independentemente da vegetação (p. 89). Isso valida A. B atribui à multiespectral a penetração da copa — ela avalia a saúde da vegetação, não o relevo sob ela. C é sedutora, mas a fotogrametria só reconstrói o que as fotos enxergam: sob mata densa, o solo não aparece nas imagens, e a 'remoção digital' não cria dados inexistentes. D inventa reconstituição de relevo por contraste térmico, que não produz topografia.",
     "referencia": "PDF LOC, p. 89",
     "nivel": "dificil"
   },
@@ -19546,13 +19546,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os voos automatizados e os produtos gerados a partir das imagens de drones, é correto afirmar que:",
     "alternativas": {
-      "A": "o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam softwares de fotogrametria, gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculo de volume) e curvas de nível, úteis, por exemplo, para delimitar Área de Preservação Permanente (APP).",
-      "B": "o perito deve pilotar manualmente cada trecho do voo, pois não há possibilidade de rota automatizada.",
-      "C": "os produtos gerados limitam-se a fotografias isoladas, não sendo possível obter modelos de elevação ou curvas de nível.",
-      "D": "as imagens não podem ser processadas por softwares de fotogrametria, sendo úteis apenas para visualização imediata em campo."
+      "A": "a rota automatizada exige o upload prévio do plano de voo no sistema SARPAS e, uma vez iniciada a missão, passa a ser executada integralmente pela aeronave, sem qualquer possibilidade de intervenção do piloto remoto até o pouso.",
+      "B": "o perito informa o contorno da área e o software calcula rota otimizada; as fotos alimentam a fotogrametria, gerando ortofotos, modelos de elevação, produtos 3D com cálculo de volume e curvas de nível — úteis para delimitar APP.",
+      "C": "o software de voo gera diretamente os produtos cartográficos finais, dispensando o processamento posterior das imagens em software de fotogrametria.",
+      "D": "a automação restringe-se à decolagem e ao pouso, cabendo ao piloto conduzir manualmente as linhas de voo para garantir a sobreposição das fotos."
     },
-    "resposta_correta": "A",
-    "justificativa": "Nos voos automatizados, o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam um software de fotogrametria (a PF usa muito o Agisoft Metashape Professional), gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculos de volume) e curvas de nível, úteis para determinar limites de APP e detectar edificação irregular em seu interior (p. 89-90). Isso valida A. B nega a automação da rota. C e D negam, respectivamente, os produtos gerados e o processamento por fotogrametria.",
+    "resposta_correta": "B",
+    "justificativa": "Nos voos automatizados, o perito informa o contorno da área e o software calcula uma rota otimizada; as fotos alimentam um software de fotogrametria (a PF usa muito o Agisoft Metashape Professional), gerando produtos 2D (ortofotos e modelos de elevação), 3D (que permitem cálculos de volume) e curvas de nível, úteis para determinar limites de APP e detectar edificação irregular em seu interior (p. 89-90). Isso valida B. A mistura a automação com o SARPAS e nega a possibilidade de intervenção do piloto. C suprime a etapa de fotogrametria, que é onde os produtos são gerados. D reduz a automação a decolagem e pouso, quando é justamente a rota de captura que o software calcula.",
     "referencia": "PDF LOC, p. 89-90",
     "nivel": "medio"
   },
@@ -19580,13 +19580,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o conceito legal previsto no art. 158-A, § 3º, do CPP (incluído pela Lei nº 13.964/2019), vestígio é:",
     "alternativas": {
-      "A": "apenas o objeto visível e já recolhido pela perícia, excluídos os materiais latentes.",
-      "B": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.",
-      "C": "exclusivamente o material biológico apto a exame de DNA encontrado na cena.",
-      "D": "qualquer relato testemunhal que descreva a dinâmica da infração penal."
+      "A": "todo objeto ou material bruto, visível ou latente, desde que recolhido e submetido à cadeia de custódia pela perícia oficial.",
+      "B": "todo objeto ou material, bruto ou processado, cuja relação com a infração penal tenha sido confirmada por exame pericial.",
+      "C": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.",
+      "D": "todo elemento material ou informacional, inclusive registros digitais e relatos, apto a demonstrar a ocorrência da infração penal."
     },
-    "resposta_correta": "B",
-    "justificativa": "O art. 158-A, § 3º, do CPP define vestígio como 'todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal' (p. 91). Isso valida B. A exclui indevidamente os materiais latentes e os apenas constatados. C restringe o conceito ao material biológico. D confunde vestígio (material) com prova testemunhal (subjetiva).",
+    "resposta_correta": "C",
+    "justificativa": "O art. 158-A, § 3º, do CPP define vestígio como 'todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal' (p. 91). Isso valida C. A restringe o conceito ao material já recolhido, quando a lei inclui o apenas CONSTATADO. B exige confirmação pericial da relação com o crime, requisito que a definição não contém — basta relacionar-se à infração. D amplia o conceito para relatos e elementos informacionais, quando vestígio é objeto ou material bruto, de natureza material.",
     "referencia": "PDF LOC, p. 91",
     "nivel": "medio"
   },
@@ -19597,13 +19597,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A definição legal de vestígio admite que ele se apresente de diferentes formas. A distinção entre vestígio 'visível' e 'latente' indica que:",
     "alternativas": {
-      "A": "o vestígio latente é sempre irrelevante, pois não pode ser submetido a exame pericial.",
-      "B": "somente vestígios visíveis integram o conceito legal, sendo os latentes meras suposições.",
-      "C": "o vestígio pode ser tanto material prontamente perceptível (visível) quanto material não prontamente perceptível (latente).",
-      "D": "vestígio latente é aquele já recolhido, e vestígio visível é aquele apenas constatado."
+      "A": "o vestígio visível é o percebido pelo primeiro policial na cena, e o latente, o identificado apenas na etapa laboratorial do exame.",
+      "B": "o vestígio pode ser tanto material prontamente perceptível (visível) quanto material não prontamente perceptível (latente).",
+      "C": "a latência é atributo transitório: o vestígio latente que venha a ser revelado por reagente converte-se, para fins legais, em vestígio visível.",
+      "D": "o vestígio visível corresponde ao já constatado pela perícia, e o latente, àquele cuja existência é presumida pela dinâmica dos fatos."
     },
-    "resposta_correta": "C",
-    "justificativa": "A definição evidencia que o vestígio pode se apresentar de diferentes formas, incluindo materiais visíveis e aqueles que não são prontamente perceptíveis (latentes) (p. 91). Isso valida C. A e B negam relevância/existência aos latentes, contrariando o conceito legal. D confunde as categorias visível/latente com constatado/recolhido, que são critérios distintos da definição.",
+    "resposta_correta": "B",
+    "justificativa": "A definição evidencia que o vestígio pode se apresentar de diferentes formas, incluindo materiais visíveis e aqueles que não são prontamente perceptíveis (latentes) (p. 91). Isso valida B. A vincula a distinção a quem percebe e a onde se percebe, quando o critério é a perceptibilidade pronta do material em si. C inventa conversão jurídica de categoria por revelação com reagente, construção estranha à definição legal. D mistura visível/latente com constatado/recolhido — e o latente não é presunção: é material existente, apenas não prontamente perceptível.",
     "referencia": "PDF LOC, p. 91",
     "nivel": "medio"
   },
@@ -19631,13 +19631,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considerando o Princípio da Troca de Locard e a finalidade do estudo dos vestígios, é correto afirmar que:",
     "alternativas": {
-      "A": "como muitas transferências de material são imperceptíveis, conclui-se que os vestígios latentes não têm valor para a reconstrução dos fatos.",
-      "B": "a produção de vestígios independe da interação entre vítima, perpetrador e ambiente, decorrendo apenas do tipo penal praticado.",
-      "C": "toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, e a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes.",
-      "D": "a reconstrução da dinâmica dos fatos baseia-se exclusivamente nas declarações das testemunhas, sendo os vestígios meramente ilustrativos."
+      "A": "a transferência de materiais pressupõe o contato físico direto entre autor e vítima, de modo que os crimes cometidos a distância não geram vestígios aproveitáveis para vincular pessoas, objetos e ambientes entre si no curso da apuração.",
+      "B": "as transferências imperceptíveis, por não serem passíveis de constatação na cena, ingressam na investigação como presunções, e não como vestígios em sentido legal.",
+      "C": "os vínculos entre pessoas, objetos e ambientes dependem da convergência entre vestígios e prova testemunhal, sem a qual a transferência de materiais nada demonstra.",
+      "D": "toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, e a adequada identificação, coleta e preservação desses vestígios ajuda a reconstruir a dinâmica e a vincular pessoas, objetos e ambientes."
     },
-    "resposta_correta": "C",
-    "justificativa": "Pelo Princípio da Troca de Locard, toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, base para a formação dos vestígios; a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes (p. 91-92). Isso valida C. A nega indevidamente o valor dos latentes. B contraria a dependência da interação. D subordina a reconstrução à prova testemunhal, contrariando o papel central dos vestígios.",
+    "resposta_correta": "D",
+    "justificativa": "Pelo Princípio da Troca de Locard, toda interação entre pessoas, objetos ou superfícies transfere materiais, ainda que imperceptíveis, base para a formação dos vestígios; a adequada identificação, coleta e preservação desses vestígios contribui para reconstruir a dinâmica dos fatos e estabelecer vínculos entre pessoas, objetos e ambientes (p. 91-92). Isso valida D. A restringe o princípio ao contato corpo a corpo, quando a troca se dá também com objetos e superfícies do ambiente. B confunde imperceptível com inexistente: o material transferido é vestígio latente, não presunção. C subordina o valor dos vestígios à prova testemunhal, invertendo a centralidade da fonte objetiva.",
     "referencia": "PDF LOC, p. 91-92",
     "nivel": "dificil"
   },
@@ -19648,13 +19648,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na coleta de vestígios químicos, o profissional deve conhecer as rotas de exposição aos agentes. Assinale a alternativa que apresenta corretamente essas rotas:",
     "alternativas": {
-      "A": "Inalação, contato com a pele, ingestão e injeção.",
-      "B": "Difusão, osmose, condução e convecção.",
-      "C": "Visão, olfato, tato e paladar.",
-      "D": "Combustão, oxidação, corrosão e detonação."
+      "A": "Difusão, osmose, condução e convecção térmica.",
+      "B": "Combustão, oxidação, corrosão e detonação.",
+      "C": "Inalação, contato com a pele, ingestão e injeção.",
+      "D": "Absorção, adsorção, volatilização e sublimação."
     },
-    "resposta_correta": "A",
-    "justificativa": "As rotas de exposição aos agentes químicos são inalação (sistema respiratório), contato com a pele (absorção), ingestão (boca) e injeção (perfuração → corrente sanguínea) (p. 94-95). Isso valida A. B lista fenômenos físicos de transporte. C lista sentidos. D lista tipos de reação/risco, não rotas de exposição.",
+    "resposta_correta": "C",
+    "justificativa": "As rotas de exposição aos agentes químicos são inalação (sistema respiratório), contato com a pele (absorção), ingestão (boca) e injeção (perfuração com acesso direto à corrente sanguínea) (p. 94-95). Isso valida C. A lista fenômenos físicos de transporte de matéria e energia. B lista tipos de reação e de risco associados às substâncias, não vias de entrada no organismo. D lista processos físico-químicos de mudança de fase e de fixação, também estranhos ao conceito de rota de exposição.",
     "referencia": "PDF LOC, p. 94-95",
     "nivel": "facil"
   },
@@ -19665,13 +19665,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à proteção ao meio ambiente na coleta de vestígios químicos, é correto afirmar que:",
     "alternativas": {
-      "A": "substâncias químicas podem ser despejadas em pias e banheiros, desde que diluídas em água.",
-      "B": "não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos.",
-      "C": "a mistura de substâncias químicas é livre, podendo ser feita pelo perito independentemente de orientação técnica.",
-      "D": "substâncias expostas à chuva e a ventos fortes devem ser removidas com prioridade máxima, mesmo sem cuidados adicionais."
+      "A": "as substâncias de baixa toxicidade podem ser despejadas em pias e ralos com diluição abundante em água corrente, reservando-se o tratamento de neutralização prévia apenas às substâncias reconhecidamente corrosivas.",
+      "B": "o descarte no próprio solo do local é admitido quando a substância for encontrada a céu aberto, pois o ambiente já se encontra exposto ao agente químico.",
+      "C": "não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos.",
+      "D": "substâncias expostas à chuva e a ventos fortes devem ser imediatamente removidas e reacondicionadas, ainda que sem equipamento de proteção disponível."
     },
-    "resposta_correta": "B",
-    "justificativa": "Não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos que abastecem populações e espécies (p. 93). Isso valida B. A contraria a vedação de despejo em pias e banheiros. C nega a regra de só misturar quando instruído por profissional qualificado. D contraria a orientação de evitar remover substâncias expostas a chuva e ventos fortes.",
+    "resposta_correta": "C",
+    "justificativa": "Não se deve despejar substâncias diretamente no solo sem tratamento de neutralização, pois os lençóis freáticos podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos que abastecem populações e espécies (p. 93). Isso valida C. A flexibiliza o despejo em pias e ralos, que a disciplina veda — a diluição não substitui a neutralização. B usa a exposição prévia do ambiente como licença para contaminar o solo, raciocínio que a proteção ambiental não admite. D contraria a orientação de evitar remover substâncias expostas a chuva e ventos fortes, além de dispensar a proteção do profissional.",
     "referencia": "PDF LOC, p. 93",
     "nivel": "medio"
   },
@@ -19682,13 +19682,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A rota de exposição por injeção, no manuseio de vestígios químicos, caracteriza-se por:",
     "alternativas": {
-      "A": "introdução do agente pelo sistema respiratório, na forma de vapores e aerossóis.",
-      "B": "absorção do agente pela pele íntegra, com efeitos sistêmicos como náuseas e tremores.",
-      "C": "entrada do agente por furadas de agulhas, cortes em vidros ou metais contaminados, atingindo diretamente a corrente sanguínea, recomendando-se o uso de luvas (eventualmente duas ou mais).",
-      "D": "ingestão acidental do agente, com danos à boca, garganta e aparelho digestivo."
+      "A": "introdução do agente por perfurações na pele causadas por aerossóis pressurizados, cuja absorção é retardada pela barreira cutânea íntegra.",
+      "B": "entrada do agente por furadas de agulhas ou cortes em vidros e metais contaminados, atingindo diretamente a corrente sanguínea, recomendando-se o uso de luvas (eventualmente duas ou mais).",
+      "C": "penetração do agente químico pelas mucosas dos olhos e do nariz, com efeitos sistêmicos imediatos sobre o organismo, recomendando-se o uso permanente de óculos de proteção e máscara facial.",
+      "D": "contaminação por via percutânea lenta, em que o agente absorvido pela pele acumula-se no tecido subcutâneo antes de alcançar a circulação."
     },
-    "resposta_correta": "C",
-    "justificativa": "Na injeção, o agente entra por furadas de agulhas, cortes em vidros, metais ou objetos cortantes contaminados, atingindo diretamente a corrente sanguínea e espalhando-se rapidamente; recomenda-se trabalhar sempre com luvas e, se necessário, vestir as mãos com duas ou mais luvas (p. 95). Isso valida C. A descreve a inalação, B o contato com a pele e D a ingestão.",
+    "resposta_correta": "B",
+    "justificativa": "Na injeção, o agente entra por furadas de agulhas, cortes em vidros, metais ou objetos cortantes contaminados, atingindo diretamente a corrente sanguínea e espalhando-se rapidamente; recomenda-se trabalhar sempre com luvas e, se necessário, vestir as mãos com duas ou mais luvas (p. 95). Isso valida B. A inventa perfuração por aerossóis e descreve absorção retardada, o oposto da entrada direta na circulação. C descreve exposição por mucosas, mais próxima da inalação/contato, não da injeção. D descreve o contato com a pele (absorção percutânea), rota distinta da injeção.",
     "referencia": "PDF LOC, p. 95",
     "nivel": "medio"
   },
@@ -19699,13 +19699,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao adentrar um laboratório clandestino de refino de cocaína com recipientes não identificados, o perito deve avaliar os perigos químicos em campo. Considerando as diretrizes da disciplina, a conduta correta inclui:",
     "alternativas": {
-      "A": "cheirar cuidadosamente os recipientes para identificar as substâncias pelo odor, agilizando a triagem.",
-      "B": "confiar exclusivamente nos rótulos dos frascos, dispensando outras fontes de informação.",
-      "C": "adotar postura conservadora diante de dúvidas, observar os elementos do GHS (pictogramas, advertências) e consultar a FISPQ, priorizando a identificação preliminar por aspectos observáveis, sem contato direto, e não inalar vapores para identificar substâncias.",
-      "D": "abrir rapidamente todos os recipientes com ferramentas metálicas, ainda que produzam faíscas, para acelerar a coleta."
+      "A": "aproximar-se dos recipientes abertos e abanar o ar em direção ao nariz, sem inspirar profundamente, técnica que permitiria identificar os odores característicos das substâncias mais comuns com exposição mínima do profissional.",
+      "B": "priorizar a informação dos rótulos e das notas fiscais localizadas no ambiente, que prevalecem sobre a aparência do conteúdo dos frascos.",
+      "C": "transferir imediatamente o conteúdo dos frascos sem rótulo para recipientes padronizados de vidro âmbar, identificando-os por numeração sequencial.",
+      "D": "adotar postura conservadora diante de dúvidas, observar os elementos do GHS (pictogramas, advertências) e consultar a FISPQ, priorizando a identificação por aspectos observáveis, sem contato direto nem inalação de vapores."
     },
-    "resposta_correta": "C",
-    "justificativa": "As diretrizes orientam adotar postura conservadora diante de dúvidas, observar elementos do GHS (pictogramas, palavras de advertência, frases de perigo) e consultar a FISPQ, priorizar a identificação preliminar por aspectos observáveis sem contato direto e não inalar vapores ou odores para identificar substâncias (p. 96-97). Isso valida C. A viola a vedação de inalar para identificar. B contraria a orientação de não confiar exclusivamente no rótulo. D ignora a recomendação de usar instrumentos que não produzam faíscas e proceder de forma lenta e cautelosa.",
+    "resposta_correta": "D",
+    "justificativa": "As diretrizes orientam adotar postura conservadora diante de dúvidas, observar elementos do GHS (pictogramas, palavras de advertência, frases de perigo) e consultar a FISPQ, priorizar a identificação preliminar por aspectos observáveis sem contato direto e não inalar vapores ou odores para identificar substâncias (p. 96-97). Isso valida D. A propõe identificação olfativa 'controlada', que a vedação de inalar vapores não comporta em campo. B contraria a orientação de não confiar exclusivamente no rótulo. C manda manipular e transvasar substâncias desconhecidas, exatamente o contato direto que se deve evitar.",
     "referencia": "PDF LOC, p. 96-97",
     "nivel": "dificil"
   },
@@ -19716,13 +19716,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os riscos de substâncias comumente encontradas em laboratórios clandestinos, é correto afirmar que:",
     "alternativas": {
-      "A": "recipientes vazios são sempre seguros, pois a ausência de conteúdo elimina qualquer risco de explosão.",
-      "B": "recipientes vazios podem conter vapores suficientes para provocar explosão, não se devendo usar chama próximo a eles; além disso, ácidos sulfúrico e clorídrico, em contato com metais, produzem gás hidrogênio, altamente explosivo.",
-      "C": "o permanganato de potássio é uma substância inerte, sem qualquer risco de reação.",
-      "D": "o hidróxido de amônio, por sua baixa inflamabilidade, jamais forma misturas perigosas com o ar."
+      "A": "os vapores remanescentes em recipientes vazios dissipam-se rapidamente após a abertura, de modo que o risco de explosão se concentra nos recipientes que permanecem cheios e hermeticamente lacrados no ambiente.",
+      "B": "o gás hidrogênio liberado pelo contato de ácidos com metais é inerte e asfixiante simples, oferecendo risco apenas em ambientes confinados.",
+      "C": "recipientes vazios podem conter vapores suficientes para provocar explosão, vedado o uso de chama próximo; e os ácidos sulfúrico e clorídrico, em contato com metais, produzem gás hidrogênio, altamente explosivo.",
+      "D": "o permanganato de potássio, por sua estabilidade química, é utilizado como neutralizante seguro de ácidos derramados no piso do laboratório."
     },
-    "resposta_correta": "B",
-    "justificativa": "Recipientes vazios podem conter vapores suficientes para provocar explosão (não usar chama próximo); ácidos sulfúrico e clorídrico, em contato com grande parte dos metais, produzem gás hidrogênio, altamente explosivo (p. 98-99). Isso valida B. A subestima o risco dos recipientes vazios. C é falsa: o permanganato é oxidante forte, podendo reagir explosivamente. D contraria a nota de que o hidróxido de amônio pode formar misturas explosivas com o ar em condições específicas.",
+    "resposta_correta": "C",
+    "justificativa": "Recipientes vazios podem conter vapores suficientes para provocar explosão (não usar chama próximo); ácidos sulfúrico e clorídrico, em contato com grande parte dos metais, produzem gás hidrogênio, altamente explosivo (p. 98-99). Isso valida C. A inverte o risco: são justamente os recipientes 'vazios' que guardam vapores em mistura explosiva com o ar. B desqualifica o hidrogênio como inerte, quando ele é altamente explosivo. D trata o permanganato de potássio como neutralizante estável, quando é oxidante forte, capaz de reagir violentamente.",
     "referencia": "PDF LOC, p. 98-99",
     "nivel": "medio"
   },
@@ -19733,13 +19733,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um perito precisa acondicionar duas amostras: uma de solvente orgânico (acetona) e outra de solução de ácido fluorídrico. Considerando as recomendações de acondicionamento, a escolha correta dos invólucros é:",
     "alternativas": {
-      "A": "frasco de vidro neutro âmbar de boca estreita para a acetona; frasco de plástico (polietileno) de boca estreita para o ácido fluorídrico, que não pode ser coletado em vidro.",
-      "B": "frasco de plástico de boca larga para a acetona; frasco de vidro âmbar para o ácido fluorídrico.",
-      "C": "frasco de vidro âmbar para ambas as substâncias, por ser o invólucro universal.",
-      "D": "saco plástico vedado com fita adesiva para a acetona; frasco de vidro de boca estreita para o ácido fluorídrico."
+      "A": "frasco de polietileno de boca estreita para a acetona, que degrada o vidro âmbar; e frasco de vidro neutro para o ácido fluorídrico, resistente a soluções corrosivas.",
+      "B": "frasco de vidro neutro âmbar de boca estreita para a acetona; frasco de plástico (polietileno) de boca estreita para o ácido fluorídrico, que não pode ser coletado em vidro.",
+      "C": "frasco de vidro âmbar de boca larga para as duas substâncias, formato que facilita a coleta e é quimicamente compatível com solventes e ácidos.",
+      "D": "frasco metálico hermético para a acetona, em razão de sua volatilidade; e frasco de vidro de boca estreita para o ácido fluorídrico, pela precisão de vazão."
     },
-    "resposta_correta": "A",
-    "justificativa": "Solventes orgânicos como a acetona vão em frasco de vidro neutro âmbar de boca estreita; o ácido fluorídrico NÃO pode ser coletado em vidro (ataca o vidro), devendo ir em frasco de plástico (polietileno) de boca estreita, próprio para soluções aquosas de pH básico e para o ácido fluorídrico (p. 99-100). Isso valida A. B, C e D colocam o ácido fluorídrico em vidro ou destinam a acetona a invólucros inadequados (boca larga para sólidos ou saco plástico).",
+    "resposta_correta": "B",
+    "justificativa": "Solventes orgânicos como a acetona vão em frasco de vidro neutro âmbar de boca estreita; o ácido fluorídrico NÃO pode ser coletado em vidro (ataca o vidro), devendo ir em frasco de plástico (polietileno) de boca estreita (p. 99-100). Isso valida B. A inverte os invólucros — é o ácido fluorídrico que ataca o vidro, não a acetona. C coloca o ácido fluorídrico em vidro e usa boca larga, própria de sólidos. D inventa frasco metálico para a acetona e mantém o fluorídrico no vidro, que ele corrói.",
     "referencia": "PDF LOC, p. 99-100",
     "nivel": "dificil"
   },
@@ -19767,13 +19767,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma apreensão são localizadas 400 embalagens homogêneas de uma substância sólida e, em separado, um galão de éter com possível presença de peróxidos. Quanto à amostragem, é correto afirmar que:",
     "alternativas": {
-      "A": "para as 400 embalagens, amostram-se aleatoriamente √400 = 20 unidades; e o éter com peróxidos não deve ser homogeneizado sem que antes os peróxidos sejam removidos.",
-      "B": "para as 400 embalagens, basta uma amostra de 10 unidades; e o éter deve sempre ser misturado vigorosamente antes da coleta.",
-      "C": "para as 400 embalagens, amostra-se cada unidade; e o éter pode ser homogeneizado normalmente, pois peróxidos são inertes.",
-      "D": "para as 400 embalagens, coleta-se uma única amostra; e o éter dispensa qualquer cuidado especial."
+      "A": "para as 400 embalagens, amostram-se aleatoriamente 10 unidades; e o éter deve ser homogeneizado antes da coleta, para que a amostra represente todo o volume.",
+      "B": "para as 400 embalagens, amostram-se √400 = 20 unidades; e o éter deve ser vigorosamente homogeneizado, dispersando os peróxidos para neutralizar seu risco.",
+      "C": "para as 400 embalagens, amostram-se 40 unidades (10% do total); e o éter com peróxidos deve ser coletado sem agitação, diretamente da camada superficial.",
+      "D": "para as 400 embalagens, amostram-se aleatoriamente √400 = 20 unidades; e o éter com peróxidos não deve ser homogeneizado sem que antes os peróxidos sejam removidos."
     },
-    "resposta_correta": "A",
-    "justificativa": "Para n > 100, escolhem-se aleatoriamente √n unidades (√400 = 20) e retira-se uma amostra de cada (p. 100). Quanto aos líquidos, em regra se misturam bem antes de coletar, mas há exceção: éter com resíduos de peróxidos não deve ser homogeneizado sem antes remover os peróxidos (p. 100-101). Isso valida A. B e C aplicam regras de faixas erradas e ignoram/contrariam a exceção do éter. D adota amostra única, incompatível com a metodologia.",
+    "resposta_correta": "D",
+    "justificativa": "Para n > 100, escolhem-se aleatoriamente √n unidades (√400 = 20) e retira-se uma amostra de cada (p. 100). Quanto aos líquidos, em regra se misturam bem antes de coletar, mas há exceção: éter com resíduos de peróxidos não deve ser homogeneizado sem antes remover os peróxidos (p. 100-101). Isso valida D. A aplica a regra da faixa 10 < n ≤ 100 (10 unidades) e ignora a exceção do éter. B acerta a amostragem, mas manda agitar o éter — a homogeneização com peróxidos é justamente o que se veda, pelo risco de explosão. C inventa o critério de 10% e improvisa coleta superficial, quando a conduta correta é remover os peróxidos antes.",
     "referencia": "PDF LOC, p. 100-101",
     "nivel": "dificil"
   },
@@ -19801,13 +19801,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à identificação das amostras de vestígios químicos coletadas, a disciplina recomenda:",
     "alternativas": {
-      "A": "o uso de etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando a amostra ao inquérito, item/lote ou local de origem, para evitar extravios e confusões.",
-      "B": "inscrever os dados diretamente sobre o corpo do recipiente com caneta comum, dispensando etiquetas.",
-      "C": "identificar apenas o número do inquérito, sendo desnecessários quantidade, data e local de origem.",
-      "D": "manter as amostras sem identificação até a chegada ao laboratório, onde serão catalogadas."
+      "A": "gravar os dados diretamente no próprio recipiente com marcador resistente a solventes, evitando o uso de etiquetas, que podem descolar-se em contato com os produtos químicos durante o transporte.",
+      "B": "registrar na etiqueta apenas o código do laboratório de destino, mantendo os dados do inquérito em planilha apartada, por sigilo da investigação.",
+      "C": "usar etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando a amostra ao inquérito, item/lote ou local de origem, para evitar extravios e confusões.",
+      "D": "lacrar as amostras com numeração provisória e transferir a identificação definitiva ao laboratório, onde os dados serão conferidos e catalogados."
     },
-    "resposta_correta": "A",
-    "justificativa": "Recomenda-se identificar as amostras com etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando-as a um inquérito policial, item/lote ou local de origem, evitando extravios e confusões; a etiqueta inclui unidade/seção, número da amostra, quantidade, número do IPL, local de origem, data e responsável (p. 101). Isso valida A. B contraria o uso de etiquetas protegidas. C omite campos essenciais previstos. D deixa as amostras sem identificação, comprometendo a rastreabilidade e a cadeia de custódia.",
+    "resposta_correta": "C",
+    "justificativa": "Recomenda-se identificar as amostras com etiquetas recobertas com fita adesiva transparente de boa qualidade, relacionando-as a um inquérito policial, item/lote ou local de origem, evitando extravios e confusões; a etiqueta inclui unidade/seção, número da amostra, quantidade, número do IPL, local de origem, data e responsável (p. 101). Isso valida C. A substitui a solução recomendada (etiqueta protegida por fita) por gravação direta, que não é a orientação da disciplina. B esvazia a etiqueta dos dados que a vinculam ao inquérito e à origem. D posterga a identificação para o laboratório, comprometendo a rastreabilidade e a cadeia de custódia desde a coleta.",
     "referencia": "PDF LOC, p. 101",
     "nivel": "facil"
   },
@@ -19816,15 +19816,15 @@ const questoesDB = [
     "disciplina": "LOC - Locais de Crime e suas Interfaces",
     "conteudo": "Cap. 15 - Vestígios biológicos",
     "tipo": "multipla_escolha",
-    "enunciado": "Sobre os vestígios biológicos em locais de crime e o exame de DNA, é correto afirmar que:",
+    "enunciado": "Sobre os vestígios biológicos em locais de crime e o exame de DNA, assinale a alternativa INCORRETA:",
     "alternativas": {
-      "A": "entre os vestígios biológicos mais observados estão sangue, sêmen, saliva, urina, cabelos, pelos, células descamativas e tecidos moles, e o exame de DNA é uma das ferramentas mais poderosas para identificar quem os produziu.",
-      "B": "vestígios biológicos só têm valor quando visíveis a olho nu e em grande quantidade.",
-      "C": "o exame de DNA exige sempre grandes quantidades de material íntegro, não sendo viável em material degradado.",
-      "D": "vestígios biológicos de origem animal não podem ser encontrados nem examinados em locais de crime."
+      "A": "Entre os vestígios biológicos mais observados estão sangue, sêmen, saliva, urina, cabelos, pelos, células descamativas e tecidos moles.",
+      "B": "O exame de DNA é uma das ferramentas mais poderosas da perícia para identificar quem produziu o vestígio biológico encontrado.",
+      "C": "Os avanços das técnicas permitem obter perfis genéticos a partir de quantidades cada vez menores de material biológico.",
+      "D": "Por exigirem material íntegro e em quantidade, os vestígios latentes e o material degradado são descartados na triagem realizada no local."
     },
-    "resposta_correta": "A",
-    "justificativa": "Entre os vestígios biológicos mais observados estão sangue, sêmen, saliva, urina, cabelos, pelos, células descamativas e tecidos moles; o exame de DNA é uma das ferramentas mais poderosas da perícia para identificar quem produziu o vestígio (p. 103). Isso valida A. B nega valor a vestígios latentes/pequenos. C contraria os avanços que permitem exames a partir de quantidades cada vez menores e material degradado. D nega a possibilidade de vestígios biológicos de origem animal, expressamente admitida.",
+    "resposta_correta": "D",
+    "justificativa": "A alternativa D é a incorreta: os avanços técnicos permitem exames a partir de quantidades cada vez menores e mesmo de material degradado, não havendo descarte de vestígios latentes na triagem — ao contrário, sua busca é parte do processamento (p. 103). As demais são verdadeiras: a lista de vestígios biológicos mais observados (A); o DNA como uma das ferramentas mais poderosas para identificar quem produziu o vestígio (B); e a sensibilidade crescente das técnicas (C).",
     "referencia": "PDF LOC, p. 103",
     "nivel": "facil"
   },
@@ -19835,13 +19835,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos fatores que degradam o DNA e à regra de ouro de acondicionamento, é correto afirmar que:",
     "alternativas": {
-      "A": "umidade, calor, luz ultravioleta e agentes químicos (como o hipoclorito de sódio) degradam o DNA; vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão), e os que não podem ser secos vão em recipientes plásticos passíveis de refrigeração ou congelamento.",
-      "B": "o DNA é preservado pela umidade e pelo calor, devendo os vestígios ser mantidos em ambiente abafado.",
-      "C": "todos os vestígios biológicos devem ser embalados em sacos plásticos hermeticamente fechados, inclusive os úmidos passíveis de secagem.",
-      "D": "o hipoclorito de sódio é o agente recomendado para conservar o DNA dos vestígios coletados."
+      "A": "umidade, calor, luz UV e agentes químicos (como o hipoclorito) degradam o DNA; vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão), e os que não podem ser secos, em recipientes plásticos passíveis de refrigeração.",
+      "B": "a degradação do material genético decorre sobretudo da luz ultravioleta e dos agentes químicos; a umidade, por manter a hidratação celular, favorece a conservação do DNA, razão pela qual os vestígios úmidos devem ser acondicionados sem qualquer secagem prévia.",
+      "C": "todos os vestígios devem ser embalados em recipientes plásticos hermeticamente vedados, que isolam o material da luz e da umidade externa, com refrigeração imediata a 4 °C.",
+      "D": "as embalagens permeáveis ao ar destinam-se aos vestígios que não podem ser secos, permitindo a evaporação residual, enquanto o material já seco vai em plástico vedado, para evitar reidratação."
     },
     "resposta_correta": "A",
-    "justificativa": "Degradam o DNA: proliferação de microrganismos (umidade), calor, luz ultravioleta e agentes químicos, especialmente o hipoclorito de sódio (água sanitária). Vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão); os que não podem ser secos, em recipientes plásticos que permitam refrigeração ou congelamento (p. 104). Isso valida A. B inverte os fatores (umidade e calor degradam). C embala em plástico vestígios que deveriam ser secos em papel, favorecendo a proliferação microbiana. D trata um agente degradante como conservante.",
+    "justificativa": "Degradam o DNA: proliferação de microrganismos (umidade), calor, luz ultravioleta e agentes químicos, especialmente o hipoclorito de sódio. Vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão); os que não podem ser secos, em recipientes plásticos que permitam refrigeração ou congelamento (p. 104). Isso valida A. B trata a umidade como conservante, quando ela é fator de degradação por proliferação microbiana. C generaliza o plástico vedado, que retém umidade e favorece a degradação do que deveria secar. D inverte a destinação das embalagens: o papel permeável é para o material que pode secar.",
     "referencia": "PDF LOC, p. 104",
     "nivel": "dificil"
   },
@@ -19869,13 +19869,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os testes preliminares (de cor) para pesquisa de sangue, como benzidina, TMB e fenolftaleína (Kastle Meyer), é correto afirmar que:",
     "alternativas": {
-      "A": "são confirmatórios e provam, por si sós, a presença de sangue humano.",
-      "B": "têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e são incapazes de diferenciar sangue humano de animal.",
-      "C": "diferenciam com precisão sangue humano de sangue animal já no local de crime.",
-      "D": "devem ser realizados consumindo toda a amostra disponível para garantir a confiabilidade."
+      "A": "têm alta especificidade e baixa sensibilidade, de modo que o resultado negativo exclui com segurança a presença de sangue no substrato testado.",
+      "B": "têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e não diferenciam sangue humano de animal.",
+      "C": "confirmam a natureza hemática da mancha, restando ao laboratório apenas determinar a espécie e o perfil genético do material.",
+      "D": "devem ser aplicados sobre toda a extensão da mancha, garantindo que eventuais áreas de menor concentração não passem despercebidas."
     },
     "resposta_correta": "B",
-    "justificativa": "Os testes preliminares de cor têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e são incapazes de diferenciar sangue humano de animal; devem ser feitos em pequena porção, preservando a maior quantidade possível para exames subsequentes (p. 107-108). Isso valida B. A e C atribuem caráter confirmatório/discriminatório inexistente. D contraria a orientação de usar pequena porção (e de não realizar o teste se a quantidade for mínima).",
+    "justificativa": "Os testes preliminares de cor têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e são incapazes de diferenciar sangue humano de animal; devem ser feitos em pequena porção, preservando a maior quantidade possível para exames subsequentes (p. 107-108). Isso valida B. A inverte os atributos. C atribui caráter confirmatório ao teste preliminar, que apenas indica possibilidade. D manda consumir a mancha inteira, contrariando a orientação de usar pequena porção e preservar material para os exames seguintes.",
     "referencia": "PDF LOC, p. 107-108",
     "nivel": "medio"
   },
@@ -19886,13 +19886,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao aplicar o reagente de Kastle Meyer sobre o macerado de um fragmento (com peróxido de hidrogênio), bem como ao planejar o uso de luminol para varrer uma grande área, o perito deve considerar que:",
     "alternativas": {
-      "A": "no Kastle Meyer, o resultado positivo é a coloração rósea intensa nos primeiros segundos; reações tardias ou ausência de cor indicam negativo; e, para o luminol/fluoresceína em grandes áreas, as amostras visíveis devem ser coletadas antes da aplicação.",
-      "B": "no Kastle Meyer, reações de cor tardias confirmam o resultado positivo; e o luminol deve ser aplicado antes de qualquer coleta de amostras visíveis.",
-      "C": "no Kastle Meyer, qualquer alteração de cor, mesmo após vários minutos, é positiva; e o luminol diferencia sangue humano de animal.",
-      "D": "no Kastle Meyer, a ausência de cor é positiva; e o luminol substitui integralmente a coleta de amostras."
+      "A": "no Kastle Meyer, o positivo é a coloração rósea intensa nos primeiros segundos, sendo negativas as reações tardias ou a ausência de cor; e, no uso de luminol/fluoresceína em grandes áreas, as amostras visíveis devem ser coletadas antes da aplicação.",
+      "B": "no Kastle Meyer, a coloração que surge após alguns minutos confirma o resultado positivo, pois a reação enzimática é progressiva e cumulativa; e o luminol deve preceder a coleta, de modo a orientar quais das manchas visíveis serão efetivamente recolhidas.",
+      "C": "no Kastle Meyer, o positivo é a coloração rósea imediata; e o luminol, por reagir apenas com hemoglobina humana, permite distinguir no local o sangue humano do de origem animal.",
+      "D": "no Kastle Meyer, a ausência de cor após a adição do peróxido indica positivo por consumo do reagente; e a aplicação do luminol dispensa a coleta das manchas visíveis, já registradas por fotografia."
     },
     "resposta_correta": "A",
-    "justificativa": "No reagente de Kastle Meyer, o positivo é a coloração rósea intensa nos primeiros segundos; reações tardias ou ausência de cor indicam negativo (p. 108). Para screening de grandes áreas com luminol/fluoresceína, deve-se coletar todas as amostras visíveis antes de aplicá-los (p. 108). Isso valida A. B e D invertem o critério de positividade e a ordem de coleta. C trata reações tardias como positivas e atribui ao luminol uma discriminação humano/animal inexistente.",
+    "justificativa": "No reagente de Kastle Meyer, o positivo é a coloração rósea intensa nos primeiros segundos; reações tardias ou ausência de cor indicam negativo (p. 108). Para screening de grandes áreas com luminol/fluoresceína, deve-se coletar todas as amostras visíveis antes de aplicá-los (p. 108). Isso valida A. B trata reação tardia como positiva e inverte a ordem: o luminol vem depois da coleta do visível, pois o reagente pode prejudicar o material. C acerta a cor imediata, mas atribui ao luminol uma discriminação humano/animal inexistente. D inverte o critério de positividade e dispensa a coleta prévia.",
     "referencia": "PDF LOC, p. 108",
     "nivel": "dificil"
   },
@@ -19903,13 +19903,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "A respeito das técnicas de coleta de vestígios biológicos, assinale a alternativa correta:",
     "alternativas": {
-      "A": "a raspagem é a técnica preferencial para fluidos em qualquer superfície, sendo o suabe reservado a casos excepcionais.",
-      "B": "o suabe é a principal técnica para fluidos (sangue, sêmen, saliva) em manchas secas ou úmidas; a raspagem é usada em superfícies absorventes e irregulares somente quando não for possível o suabe; a seringa serve a amostras líquidas; e a pinça, a pelos, cabelos e fragmentos.",
-      "C": "a seringa é indicada para coletar pelos e cabelos, e a pinça, para poças de sangue líquido.",
-      "D": "todos os suportes móveis devem ser raspados no local, sendo vedado coletá-los inteiros."
+      "A": "a raspagem é a técnica de eleição para fluidos em qualquer tipo de suporte, por recolher também parte do substrato em que a mancha se encontra, ficando o suabe reservado às superfícies lisas e não absorventes, como vidros e metais polidos.",
+      "B": "a seringa destina-se a pelos e cabelos aderidos a superfícies úmidas, e a pinça, às poças de sangue líquido e à urina acumulada.",
+      "C": "os suportes móveis devem ser sempre raspados ou suabeados no próprio local, sendo vedado o encaminhamento do objeto inteiro ao laboratório.",
+      "D": "o suabe é a principal técnica para fluidos em manchas secas ou úmidas; a raspagem serve a superfícies absorventes e irregulares quando não for possível o suabe; a seringa, a amostras líquidas; e a pinça, a pelos, cabelos e fragmentos."
     },
-    "resposta_correta": "B",
-    "justificativa": "O suabe é a principal técnica para fluidos em manchas secas ou úmidas; a raspagem aplica-se a superfícies absorventes e irregulares somente quando não for possível o suabe; a seringa serve a amostras líquidas (poças, urina); e a pinça, a pelos, cabelos, gomas, cigarros e fragmentos (p. 110-111). Isso valida B. A inverte a prioridade entre suabe e raspagem. C troca os usos de seringa e pinça. D contraria a regra de coletar inteiros os suportes móveis.",
+    "resposta_correta": "D",
+    "justificativa": "O suabe é a principal técnica para fluidos em manchas secas ou úmidas; a raspagem aplica-se a superfícies absorventes e irregulares somente quando não for possível o suabe; a seringa serve a amostras líquidas (poças, urina); e a pinça, a pelos, cabelos, gomas, cigarros e fragmentos (p. 110-111). Isso valida D. A inverte a hierarquia entre suabe e raspagem. B troca os usos de seringa e pinça. C veda o encaminhamento de suportes móveis inteiros, quando a regra é justamente coletá-los por inteiro sempre que possível.",
     "referencia": "PDF LOC, p. 110-111",
     "nivel": "medio"
   },
@@ -19920,13 +19920,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à secagem de amostras biológicas antes do acondicionamento, a orientação correta é:",
     "alternativas": {
-      "A": "secar ao natural, ao abrigo da luz e do calor excessivo e protegida de contaminação, NÃO se utilizando secadores de cabelo, fornos ou exposição ao sol para acelerar o processo.",
-      "B": "acelerar a secagem com secador de cabelo ou forno, a fim de evitar a proliferação de microrganismos.",
-      "C": "expor a amostra diretamente ao sol, pois a radiação ultravioleta conserva o DNA.",
-      "D": "embalar a amostra ainda úmida em saco plástico vedado, deixando-a secar dentro da embalagem."
+      "A": "secar ao natural, ao abrigo da luz e do calor excessivo e protegida de contaminação, sem uso de secadores de cabelo, fornos ou exposição ao sol para acelerar o processo.",
+      "B": "secar em estufa a baixa temperatura, na faixa de 30 a 40 °C, o que acelera consideravelmente o processo sem atingir o limiar em que se inicia a degradação térmica do material genético.",
+      "C": "secar sob fluxo de ar quente direcionado, cuidando apenas para que a amostra não seja exposta à luz solar direta durante o procedimento.",
+      "D": "dispensar a secagem e acondicionar o material úmido em embalagem plástica vedada, deixando que a evaporação ocorra durante o transporte refrigerado."
     },
     "resposta_correta": "A",
-    "justificativa": "A secagem deve ser ao natural, ao abrigo da luz e do calor excessivo, protegida de contaminação, sem uso de secadores de cabelo, fornos ou exposição ao sol para acelerar (p. 111). Isso valida A. B e C empregam calor e luz UV, que degradam o DNA. D embala material úmido em plástico vedado, favorecendo a proliferação microbiana.",
+    "justificativa": "A secagem deve ser ao natural, ao abrigo da luz e do calor excessivo, protegida de contaminação, sem uso de secadores de cabelo, fornos ou exposição ao sol para acelerar (p. 111). Isso valida A. B e C introduzem calor artificial (estufa, ar quente) sob aparência de controle técnico, quando a orientação veda expressamente acelerar a secagem por calor. D embala material úmido em plástico vedado, favorecendo a proliferação de microrganismos que degradam o DNA.",
     "referencia": "PDF LOC, p. 111",
     "nivel": "medio"
   },
@@ -19937,13 +19937,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um perito coletou três materiais: (i) um suabe seco de mancha de sangue; (ii) sangue de pessoa viva em tubo com anticoagulante EDTA; e (iii) um fragmento de tecido mole. Quanto à preservação, a conduta correta é:",
     "alternativas": {
-      "A": "manter os três sob congelamento a -20 °C, indistintamente.",
-      "B": "manter o suabe seco em temperatura ambiente; o sangue com EDTA refrigerado a cerca de 4 °C (sem congelar); e o tecido mole congelado a -20 °C, evitando descongelar e recongelar.",
-      "C": "manter o suabe seco refrigerado a 4 °C; o sangue com EDTA congelado a -20 °C; e o tecido mole em temperatura ambiente.",
-      "D": "manter os três em temperatura ambiente, desde que protegidos da luz."
+      "A": "suabe seco em temperatura ambiente; sangue com EDTA refrigerado a cerca de 4 °C, sem congelar; e tecido mole congelado a -20 °C, evitando descongelar e recongelar.",
+      "B": "suabe seco refrigerado a 4 °C para evitar reidratação; sangue com EDTA congelado a -20 °C, pois o anticoagulante impede a hemólise; e tecido mole em temperatura ambiente.",
+      "C": "os três congelados a -20 °C, temperatura que interrompe a atividade enzimática e uniformiza o protocolo de transporte das amostras.",
+      "D": "suabe seco em temperatura ambiente; sangue com EDTA congelado a -20 °C; e tecido mole refrigerado a 4 °C, evitando o congelamento que rompe as membranas celulares."
     },
-    "resposta_correta": "B",
-    "justificativa": "Vestígios secos (como o suabe) são preservados em temperatura ambiente, evitando luz, calor e umidade; sangue de pessoa viva em tubo com EDTA vai ao refrigerador a cerca de 4 °C (não congelar); tecidos moles, fluidos líquidos, cabelos e pelos são congelados a -20 °C, evitando descongelar e recongelar (p. 112). Isso valida B. A congela inclusive o sangue com EDTA, que não deve ser congelado. C e D atribuem temperaturas incorretas às categorias.",
+    "resposta_correta": "A",
+    "justificativa": "Vestígios secos (como o suabe) são preservados em temperatura ambiente, evitando luz, calor e umidade; sangue de pessoa viva em tubo com EDTA vai ao refrigerador a cerca de 4 °C (não congelar); tecidos moles, fluidos líquidos, cabelos e pelos são congelados a -20 °C, evitando descongelar e recongelar (p. 112). Isso valida A. B usa o EDTA como justificativa para congelar o sangue, que não deve ser congelado, e deixa o tecido mole em ambiente. C uniformiza tudo em congelamento, atingindo o sangue com EDTA. D congela o sangue e apenas refrigera o tecido mole, invertendo as duas destinações.",
     "referencia": "PDF LOC, p. 112",
     "nivel": "dificil"
   },
@@ -19954,13 +19954,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao recolher, em um local de homicídio, um projétil de arma de fogo que apresenta aparente material biológico aderido, o perito deve observar que:",
     "alternativas": {
-      "A": "o projétil deve ser encaminhado primeiro à balística, pois o exame de DNA não se aplica a projéteis.",
-      "B": "a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza do exame balístico; acondiciona-se em embalagem de papel rígido, envolto em gaze/algodão para não prejudicar as marcas características.",
-      "C": "o projétil deve ser lavado para remover o sangue antes de qualquer exame, a fim de revelar as marcas de raiamento.",
-      "D": "o material biológico em projéteis é irrelevante, devendo o exame limitar-se sempre ao confronto balístico."
+      "A": "a prioridade é o encaminhamento ao confronto balístico, devendo o material biológico aderido ao projétil ser preservado em suabe colhido logo após a limpeza da peça no laboratório de balística, ainda antes da realização do exame comparativo.",
+      "B": "a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza; acondiciona-se em embalagem de papel rígido, envolto em gaze/algodão para não prejudicar as marcas características.",
+      "C": "o projétil deve ser acondicionado em frasco plástico com solução conservante, que estabiliza o material biológico sem interferir nas microestriações da superfície metálica.",
+      "D": "a coleta do material biológico deve ser feita por raspagem da superfície do projétil ainda no local, técnica que preserva integralmente as marcas deixadas pelo raiamento do cano."
     },
     "resposta_correta": "B",
-    "justificativa": "Projéteis podem conter sangue/tecidos; a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza do exame balístico; acondiciona-se em embalagem de papel rígido, envolvido em gaze/algodão, para não prejudicar as marcas características (p. 119). Isso valida B. A e D negam a aplicabilidade/relevância do DNA. C propõe lavar o projétil, o que destruiria o vestígio biológico.",
+    "justificativa": "Projéteis podem conter sangue/tecidos; a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza do exame balístico; acondiciona-se em embalagem de papel rígido, envolvido em gaze/algodão, para não prejudicar as marcas características (p. 119). Isso valida B. A inverte a ordem: depois da limpeza balística o material biológico já se perdeu. C imerge o projétil em solução, o que compromete o vestígio e o metal. D propõe raspar a superfície do projétil, justamente onde estão as marcas de raiamento que devem ser preservadas.",
     "referencia": "PDF LOC, p. 119",
     "nivel": "dificil"
   },
@@ -19971,13 +19971,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma ocorrência de agressão sexual, foi localizado um preservativo usado contendo sêmen. Quanto à coleta, a disciplina orienta:",
     "alternativas": {
-      "A": "coletar um único suabe da parte externa, suficiente para identificar tanto a vítima quanto o agressor.",
-      "B": "coletar dois suabes — um da parte externa (células da vítima) e um da parte interna (células do agressor) —, acondicionados separadamente; o preservativo pode então ser fechado por nó e acondicionado em embalagem plástica, com refrigeração e congelamento a -20 °C.",
-      "C": "descartar o preservativo após o teste preliminar, pois não fornece material genético útil.",
-      "D": "coletar os dois suabes e acondicioná-los juntos no mesmo porta-suabe para facilitar o transporte."
+      "A": "coletar dois suabes — um externo (células da vítima) e um interno (células do agressor) —, acondicionados separadamente; o preservativo pode então ser fechado por nó e acondicionado em embalagem plástica, com refrigeração e congelamento a -20 °C.",
+      "B": "coletar um único suabe da face interna do preservativo, região em que se concentra o sêmen do agressor, descartando-se todo o material aderido à face externa em razão do risco de mistura de perfis genéticos durante a análise laboratorial.",
+      "C": "coletar os dois suabes e acondicioná-los no mesmo porta-suabe, identificando as faces por anotação, de modo que ambos sigam sob a mesma cadeia de custódia.",
+      "D": "encaminhar o preservativo íntegro, sem coleta de suabes, em embalagem de papel permeável ao ar, deixando ao laboratório a separação das frações celulares."
     },
-    "resposta_correta": "B",
-    "justificativa": "No preservativo com sêmen, coletam-se dois suabes — um da parte externa (células da vítima) e um da interna (células do agressor) —, acondicionados separadamente em porta-suabes; em seguida, o preservativo pode ser fechado por nó e acondicionado em embalagem plástica, refrigerado e congelado a -20 °C (p. 113). Isso valida B. A coleta apenas um suabe externo, perdendo a distinção das fontes. C descarta material genético valioso. D acondiciona juntos os dois suabes, arriscando contaminação cruzada.",
+    "resposta_correta": "A",
+    "justificativa": "No preservativo com sêmen, coletam-se dois suabes — um da parte externa (células da vítima) e um da interna (células do agressor) —, acondicionados separadamente em porta-suabes; em seguida, o preservativo pode ser fechado por nó e acondicionado em embalagem plástica, refrigerado e congelado a -20 °C (p. 113). Isso valida A. B descarta a face externa, que traz células da vítima e ajuda a vincular o material ao fato. C junta os dois suabes, criando risco de contaminação cruzada — a separação é justamente o cuidado exigido. D dispensa a coleta dos suabes e usa embalagem de papel para material úmido, contrariando as duas orientações.",
     "referencia": "PDF LOC, p. 113",
     "nivel": "medio"
   },
@@ -19988,13 +19988,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Para a coleta de amostra de referência de origem conhecida em pessoa viva, o método preferencial indicado pela disciplina é:",
     "alternativas": {
-      "A": "o esfregaço da mucosa oral com suabe, friccionando a parte interna da bochecha por cerca de 15 segundos e coletando um suabe de cada bochecha, secos e acondicionados individualmente.",
-      "B": "a coleta de fios de cabelo e de células descamativas, por conterem grande quantidade de DNA.",
-      "C": "a punção cardíaca, por fornecer a maior quantidade de sangue possível.",
-      "D": "a raspagem de pele do antebraço, por ser indolor e de fácil execução."
+      "A": "a punção venosa periférica com tubo contendo EDTA, por fornecer material de maior integridade genética que as células da mucosa oral.",
+      "B": "a coleta de fios de cabelo com bulbo e de células descamativas da pele, materiais de obtenção não invasiva e ricos em DNA nuclear.",
+      "C": "o esfregaço da mucosa oral com suabe, friccionando a parte interna da bochecha por cerca de 15 segundos, com um suabe de cada bochecha, secos e acondicionados individualmente.",
+      "D": "o esfregaço da mucosa oral com suabe único, passado sucessivamente pelas duas bochechas e pela gengiva do doador, o que maximiza a quantidade de células reunidas em uma só amostra."
     },
-    "resposta_correta": "A",
-    "justificativa": "O método preferencial de amostra de referência em pessoa viva é o esfregaço da mucosa oral com suabe: friccionar a parte interna da bochecha por cerca de 15 segundos, coletando um suabe de cada bochecha, secos e acondicionados individualmente; evitam-se referências como cabelos e células descamativas (pouco DNA) (p. 121). Isso valida A. B é justamente desaconselhada. C (punção cardíaca) aplica-se a cadáveres recentes, não a pessoa viva como método de referência. D não é o método indicado.",
+    "resposta_correta": "C",
+    "justificativa": "O método preferencial de amostra de referência em pessoa viva é o esfregaço da mucosa oral com suabe: friccionar a parte interna da bochecha por cerca de 15 segundos, coletando um suabe de cada bochecha, secos e acondicionados individualmente; evitam-se referências como cabelos e células descamativas, que fornecem pouco DNA (p. 121). Isso valida C. A propõe método invasivo, não indicado como preferencial. B é justamente desaconselhada pela pequena quantidade de DNA. D concentra tudo em um só suabe, quando a orientação é coletar um de cada bochecha e acondicioná-los individualmente.",
     "referencia": "PDF LOC, p. 121",
     "nivel": "facil"
   },
@@ -20005,13 +20005,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto às amostras biológicas para análises toxicológicas, é correto afirmar que:",
     "alternativas": {
-      "A": "dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral/subclávia/cardíaco, fígado, conteúdo estomacal e urina, quando presente), sendo a urina a matriz biológica de preferência nos casos ante-mortem.",
-      "B": "só podem ser realizadas a partir de amostras post-mortem, não havendo coleta em pessoas vivas.",
-      "C": "exigem que o sangue total seja congelado imediatamente após a coleta, para evitar a degradação das drogas.",
-      "D": "devem utilizar tubos com gel separador, que melhoram a recuperação das substâncias analisadas."
+      "A": "dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral/subclávia/cardíaco, fígado, conteúdo estomacal e urina, quando presente), sendo a urina a matriz de preferência nos casos ante-mortem.",
+      "B": "dividem-se igualmente em ante-mortem e post-mortem, sendo o sangue total a matriz biológica de preferência em ambos os casos, por permitir correlacionar a concentração da substância encontrada com os efeitos por ela produzidos no organismo.",
+      "C": "restringem-se a amostras post-mortem colhidas na necropsia, pois a coleta em pessoa viva depende de autorização judicial específica para exame toxicológico.",
+      "D": "admitem coleta ante e post-mortem, devendo o sangue ser congelado logo após a colheita e acondicionado em tubo com gel separador, que isola o soro das substâncias interferentes."
     },
     "resposta_correta": "A",
-    "justificativa": "As amostras toxicológicas dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral, da subclávia e/ou cardíaco, fígado, conteúdo estomacal e urina quando presente), sendo a urina a matriz de preferência nos casos ante-mortem (p. 124-126). Isso valida A. B ignora a coleta ante-mortem. C contraria a orientação de não congelar o sangue (evitar hemólise), mantendo-o entre 4 e 8 °C. D contraria a vedação de tubos com gel separador, que adsorve drogas.",
+    "justificativa": "As amostras toxicológicas dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral, da subclávia e/ou cardíaco, fígado, conteúdo estomacal e urina quando presente), sendo a urina a matriz de preferência nos casos ante-mortem (p. 124-126). Isso valida A. B elege o sangue como matriz preferencial ante-mortem, quando a preferência é da urina. C nega a coleta em pessoa viva. D reúne dois erros: o sangue não deve ser congelado (mantém-se entre 4 e 8 °C, para evitar hemólise) e os tubos com gel separador são vedados, pois o gel adsorve as drogas.",
     "referencia": "PDF LOC, p. 124-126",
     "nivel": "medio"
   },
@@ -20022,13 +20022,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos cuidados gerais que antecedem a coleta de vestígios físicos, a regra de ouro é:",
     "alternativas": {
-      "A": "coletar imediatamente o vestígio e só então, no laboratório, realizar a documentação.",
-      "B": "realizar, antes da coleta, o registro fotográfico, descritivo e topográfico de cada vestígio, mantendo a integridade individual e evitando contaminação por contato ou mistura.",
-      "C": "agrupar todos os vestígios em uma única embalagem para evitar extravios durante o transporte.",
-      "D": "dispensar o registro quando o vestígio estiver aderido à vítima, por já constar do exame cadavérico."
+      "A": "realizar, antes da coleta, o registro fotográfico, descritivo e topográfico de cada vestígio, mantendo a integridade individual e evitando contaminação por contato ou mistura.",
+      "B": "coletar e acondicionar primeiro os vestígios sujeitos a degradação rápida e documentar todos eles ao final dos trabalhos, com base nas posições previamente assinaladas pelos marcadores numerados.",
+      "C": "agrupar em uma mesma embalagem os vestígios de mesma natureza recolhidos em um mesmo cômodo, o que simplifica o controle e reduz o risco de extravio.",
+      "D": "dispensar o registro topográfico dos vestígios aderidos ao corpo da vítima, cuja posição será documentada no exame cadavérico realizado pelo médico legista."
     },
-    "resposta_correta": "B",
-    "justificativa": "Antes da coleta, deve-se realizar o registro fotográfico, descritivo e topográfico (localização) de cada vestígio, coletando com material adequado e mantendo a integridade individual, evitando contaminação por contato ou mistura (p. 129). Isso valida B. A inverte a ordem (registro antes da coleta). C agrupa vestígios, favorecendo a contaminação cruzada. D dispensa indevidamente o registro.",
+    "resposta_correta": "A",
+    "justificativa": "Antes da coleta, deve-se realizar o registro fotográfico, descritivo e topográfico (localização) de cada vestígio, coletando com material adequado e mantendo a integridade individual, evitando contaminação por contato ou mistura (p. 129). Isso valida A. B inverte a ordem, e os marcadores não substituem o registro do vestígio em posição original. C agrupa vestígios distintos, favorecendo a contaminação cruzada, vedada pela regra da integridade individual. D transfere ao exame cadavérico o registro topográfico que compete ao processamento do local.",
     "referencia": "PDF LOC, p. 129",
     "nivel": "facil"
   },
@@ -20039,13 +20039,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na coleta de objetos que possam conter impressões papilares, a orientação correta é:",
     "alternativas": {
-      "A": "manusear o objeto livremente pelas superfícies centrais, onde as impressões são menos relevantes.",
-      "B": "manusear com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para coletar projéteis, que devem ser manuseados com luvas ou sacos plásticos.",
-      "C": "utilizar sempre pinças, inclusive para projéteis, a fim de jamais tocar qualquer vestígio.",
-      "D": "manusear sem luvas, desde que o objeto seja imediatamente lavado após a coleta."
+      "A": "manusear os objetos apenas com pinças metálicas, inclusive os projéteis, evitando por completo o contato com as luvas do perito.",
+      "B": "manusear com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para projéteis, manuseados com luvas ou sacos plásticos.",
+      "C": "manusear com luvas pelas superfícies planas e amplas, onde o contato distribuído reduz a chance de apagar uma impressão latente localizada.",
+      "D": "manusear o objeto com luvas e aplicar o pó revelador ainda no local, antes do acondicionamento, de modo a fixar as impressões papilares e evitar sua perda durante o transporte até o laboratório."
     },
     "resposta_correta": "B",
-    "justificativa": "Objetos com impressões papilares devem ser manuseados com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para projéteis, que devem ser manuseados com luvas ou sacos plásticos (p. 130). Isso valida B. A manuseia justamente as superfícies que podem conter impressões. C aplica pinça também a projéteis, contrariando a exceção. D dispensa luvas e propõe lavar o objeto, destruindo vestígios.",
+    "justificativa": "Objetos com impressões papilares devem ser manuseados com luvas, pelas bordas ou regiões onde provavelmente não existam vestígios, usando pinças sempre que possível — exceto para projéteis, que devem ser manuseados com luvas ou sacos plásticos (p. 130). Isso valida B. A generaliza a pinça também para projéteis, contrariando a exceção — a pinça metálica marca o projétil. C manda tocar justamente as superfícies amplas, onde as impressões costumam estar. D antecipa a revelação no local, procedimento que compete ao levantamento papiloscópico e não substitui os cuidados de manuseio.",
     "referencia": "PDF LOC, p. 130",
     "nivel": "medio"
   },
@@ -20056,13 +20056,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na coleta e acondicionamento de armas de fogo em local de crime, é correto afirmar que:",
     "alternativas": {
-      "A": "a arma deve ser transportada municiada, para preservar a posição original dos cartuchos.",
-      "B": "havendo mais de uma arma, todas devem ser acondicionadas juntas, com a munição em embalagem à parte.",
-      "C": "deve-se ter cuidado com impressões papilares, evitar sulcos ou arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma arma, cada uma é acondicionada separadamente com seus cartuchos.",
-      "D": "a alma do cano pode ser limpa com escova metálica antes do envio, para facilitar o exame balístico."
+      "A": "a arma deve ser transportada municiada e travada, de modo a preservar a posição original dos cartuchos no tambor ou carregador para o exame balístico.",
+      "B": "havendo mais de uma arma apreendida na cena, todas podem ser acondicionadas em uma mesma caixa rígida, desde que a munição correspondente a cada uma delas siga em envelope apartado e devidamente identificado com o número da respectiva arma.",
+      "C": "cuidar das impressões papilares, evitar sulcos ou arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma, cada qual separadamente com seus cartuchos.",
+      "D": "a alma do cano deve ser protegida com haste de algodão introduzida na boca do cano, que evita o contato com a embalagem durante o transporte."
     },
     "resposta_correta": "C",
-    "justificativa": "Deve-se cuidar das impressões papilares, evitar sulcos/arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma arma, cada uma vai separadamente com seus cartuchos (p. 130). Isso valida C. A contraria o transporte desmuniciado. B junta armas distintas e separa indevidamente a munição. D propõe limpar a alma do cano, o que comprometeria o exame balístico.",
+    "justificativa": "Deve-se cuidar das impressões papilares, evitar sulcos/arranhões na alma do cano, transportar a arma sempre desmuniciada e acondicioná-la com seus cartuchos na mesma embalagem; havendo mais de uma arma, cada uma vai separadamente com seus cartuchos (p. 130). Isso valida C. A contraria o transporte desmuniciado, que é regra de segurança. B junta armas distintas e separa a munição da respectiva arma, quebrando o vínculo entre elas. D propõe introduzir haste no cano, exatamente o tipo de contato que pode produzir sulcos e arranhões na alma.",
     "referencia": "PDF LOC, p. 130",
     "nivel": "medio"
   },
@@ -20073,13 +20073,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao coletar um projétil deformado com material aparentemente biológico incrustado, além de outros estojos metálicos presentes na cena, o perito deve:",
     "alternativas": {
-      "A": "remover as incrustações do projétil para limpá-lo e acondicioná-lo junto com os estojos metálicos, economizando embalagens.",
-      "B": "acondicionar o projétil individualmente, envolto em material macio (como algodão), sem remover os resquícios impregnados, e não o misturar com outros objetos metálicos, que poderiam marcá-lo e prejudicar os exames balísticos.",
-      "C": "lavar o projétil e os estojos em conjunto, para remover contaminantes antes do envio.",
-      "D": "raspar a superfície do projétil para revelar as marcas de raiamento antes do acondicionamento."
+      "A": "acondicionar o projétil individualmente, envolto em material macio (como algodão), sem remover os resquícios impregnados, e não misturá-lo com outros objetos metálicos, que poderiam marcá-lo e prejudicar os exames balísticos.",
+      "B": "remover cuidadosamente as incrustações aderidas com escova de cerdas macias, procedimento que preserva as microestriações, e acondicionar o projétil já limpo junto aos estojos recolhidos em um mesmo envelope de papel rígido.",
+      "C": "acondicionar o projétil em frasco plástico rígido com os demais elementos de munição da mesma cena, mantendo o conjunto sob a mesma numeração de lote balístico.",
+      "D": "envolver o projétil em papel-alumínio, que protege as marcas de raiamento do atrito, e acondicioná-lo separadamente dos estojos, sem remover as incrustações."
     },
-    "resposta_correta": "B",
-    "justificativa": "Projéteis e estojos devem ser acondicionados individualmente, envoltos em material macio (algodão), sem remover os resquícios impregnados, evitando contatos/atritos com instrumentos metálicos; remover incrustações elimina provas e provoca ranhuras que inviabilizam o exame balístico, e misturar objetos metálicos pode marcar o projétil (p. 130-132). Isso valida B. A, C e D propõem remover incrustações, lavar ou raspar e misturar metálicos, condutas expressamente erradas.",
+    "resposta_correta": "A",
+    "justificativa": "Projéteis e estojos devem ser acondicionados individualmente, envoltos em material macio (algodão), sem remover os resquícios impregnados, evitando contatos e atritos com instrumentos metálicos; remover incrustações elimina provas e provoca ranhuras que inviabilizam o exame balístico, e misturar objetos metálicos pode marcar o projétil (p. 130-132). Isso valida A. B remove as incrustações — que são vestígio biológico a ser preservado — e ainda mistura com os estojos. C reúne objetos metálicos, que se marcam mutuamente. D acerta a separação, mas o papel-alumínio é material metálico, não macio como o algodão indicado.",
     "referencia": "PDF LOC, p. 130-132",
     "nivel": "dificil"
   },
@@ -20107,13 +20107,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao fotografar uma marca de pegada em solo, sob sol forte de meio-dia, o perito avalia as condições de iluminação. Considerando as orientações da disciplina, é correto afirmar que:",
     "alternativas": {
-      "A": "o meio-dia é o melhor horário, pois a luz vertical e intensa realça os relevos da marca.",
-      "B": "o ideal é fotografar pela manhã ou no final da tarde, quando os raios incidem em ângulo; fotografar ao meio-dia equivale a usar flash, saturando o vestígio de luz e achatando-o, e não se deve usar flash automático (em locais escuros, admite-se flash a cerca de 45° para acentuar relevos).",
-      "C": "deve-se usar sempre o flash automático para compensar a sombra do fotógrafo.",
-      "D": "a luminosidade fraca e difusa, como em ambiente de floresta, inviabiliza qualquer registro útil."
+      "A": "o meio-dia oferece a melhor condição de registro, por eliminar as sombras projetadas sobre o solo e iluminar o vestígio de maneira uniforme, devendo o perito apenas evitar que sua própria sombra alcance a marca no momento da fotografia.",
+      "B": "o ideal é fotografar pela manhã ou no final da tarde, quando os raios incidem em ângulo; ao meio-dia é como usar flash, saturando o vestígio e achatando-o; não se usa flash automático, admitindo-se, em locais escuros, flash a cerca de 45°.",
+      "C": "a incidência da luz é indiferente ao registro de marcas em solo, bastando garantir exposição correta e foco preciso sobre o plano da pegada.",
+      "D": "sob sol forte, deve-se acionar o flash automático para preencher as sombras internas do relevo, técnica que revela detalhes ocultos pela luz direta."
     },
     "resposta_correta": "B",
-    "justificativa": "O melhor horário é a manhã ou o final da tarde, quando os raios de sol incidem em ângulo; fotografar ao meio-dia equivale a usar flash, saturando o vestígio e achatando-o; não se deve usar flash automático, admitindo-se, em locais muito escuros, flash a cerca de 45° para acentuar os relevos (p. 132-133). Isso valida B. A elogia o meio-dia, contrariando o texto. C recomenda flash automático, expressamente desaconselhado. D nega a utilidade da luz fraca e difusa, que funciona bem.",
+    "justificativa": "O melhor horário é a manhã ou o final da tarde, quando os raios de sol incidem em ângulo; fotografar ao meio-dia equivale a usar flash, saturando o vestígio e achatando-o; não se deve usar flash automático, admitindo-se, em locais muito escuros, flash a cerca de 45° para acentuar os relevos (p. 132-133). Isso valida B. A trata a ausência de sombras como vantagem, quando é exatamente a sombra oblíqua que revela o relevo. C nega a influência da luz, central nesse registro. D recomenda o flash automático, expressamente desaconselhado — o flash útil é o oblíquo, a 45°, em locais escuros.",
     "referencia": "PDF LOC, p. 132-133",
     "nivel": "dificil"
   },
@@ -20124,13 +20124,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à coleta de marcas de pegadas e de pneus, é correto afirmar que:",
     "alternativas": {
-      "A": "as marcas superficiais devem ser moldadas em gesso, enquanto as pressionadas são apenas fotografadas.",
-      "B": "as marcas superficiais são fotografadas junto com régua/escala (preferencialmente do tipo 'L'); as pressionadas são fotografadas com escala e também moldadas com material adequado, como gesso.",
-      "C": "tanto as superficiais quanto as pressionadas dispensam o uso de escala na fotografia.",
-      "D": "as marcas pressionadas devem ser apenas descritas, sem fotografia ou molde, para não danificá-las."
+      "A": "as marcas superficiais devem ser moldadas em gesso e as pressionadas apenas fotografadas com escala, pois o molde destruiria o relevo impresso no solo.",
+      "B": "ambas devem ser moldadas com material adequado, sendo a fotografia com escala exigida apenas quando o molde não puder ser executado no local.",
+      "C": "as marcas superficiais são fotografadas junto com régua/escala (preferencialmente do tipo 'L'); as pressionadas são fotografadas com escala e também moldadas com material adequado, como gesso.",
+      "D": "as marcas pressionadas devem ser preservadas com cobertura e encaminhadas para moldagem por equipe especializada, sendo vedado ao perito de local fotografá-las antes do molde."
     },
-    "resposta_correta": "B",
-    "justificativa": "Marcas superficiais são fotografadas junto com régua/escala (preferencialmente tipo 'L'); marcas pressionadas são fotografadas com escala e também moldadas com material adequado (ex.: gesso, material odontológico) (p. 131). Isso valida B. A inverte os procedimentos. C dispensa a escala, que é obrigatória. D elimina fotografia e molde das pressionadas.",
+    "resposta_correta": "C",
+    "justificativa": "Marcas superficiais são fotografadas junto com régua/escala (preferencialmente tipo 'L'); marcas pressionadas são fotografadas com escala e também moldadas com material adequado (ex.: gesso, material odontológico) (p. 131). Isso valida C. A inverte os procedimentos: quem se molda é a marca pressionada, que tem relevo. B generaliza a moldagem às superficiais, que não têm profundidade a moldar, e rebaixa a fotografia a alternativa. D veda a fotografia prévia, quando ela é justamente o primeiro registro, feito antes do molde.",
     "referencia": "PDF LOC, p. 131",
     "nivel": "medio"
   },
@@ -20141,13 +20141,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao fotografar uma marca de pneu para fins de confronto, quais elementos são obrigatórios e quais são facultativos na imagem?",
     "alternativas": {
-      "A": "A escala é obrigatória na fotografia; a localização (ex.: coordenada de GPS) e o nome do fotógrafo são facultativos.",
-      "B": "A coordenada de GPS é obrigatória; a escala é facultativa.",
-      "C": "O nome do fotógrafo é obrigatório; a escala é dispensável quando se usa câmera digital.",
-      "D": "Nenhum elemento é obrigatório, ficando todos a critério do perito."
+      "A": "A escala é obrigatória na fotografia; a localização (ex.: coordenada de GPS) e o nome do fotógrafo são elementos facultativos.",
+      "B": "A coordenada de GPS é obrigatória por vincular a marca ao local; a escala pode ser suprida por medições anotadas em croqui.",
+      "C": "O nome do fotógrafo é obrigatório para fins de cadeia de custódia; a escala é dispensável quando se emprega câmera digital calibrada.",
+      "D": "Nenhum elemento é obrigatório, cabendo ao perito definir o que incluir conforme as condições encontradas no local do exame."
     },
     "resposta_correta": "A",
-    "justificativa": "A escala tem que constar da fotografia (obrigatória); a localização do vestígio (ex.: coordenada de GPS) e o nome do fotógrafo são facultativos (p. 133). Isso valida A. B e C tornam obrigatórios elementos facultativos e dispensam a escala, que é obrigatória. D nega a obrigatoriedade da escala.",
+    "justificativa": "A escala tem que constar da fotografia, sendo elemento obrigatório; a localização do vestígio (por exemplo, a coordenada de GPS) e o nome do fotógrafo são facultativos (p. 133). Isso valida A. B inverte a obrigatoriedade e supõe que o croqui substitui a escala na própria imagem, o que não ocorre no confronto. C torna obrigatório um dado facultativo e dispensa a escala sob argumento inexistente — a câmera digital não fornece referência métrica. D nega a obrigatoriedade da escala, único elemento exigido.",
     "referencia": "PDF LOC, p. 133",
     "nivel": "facil"
   },
@@ -20158,13 +20158,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em uma cena com vários projéteis e vítimas atingidas, o perito coleta os projéteis com a mão enluvada. Sobre o procedimento correto, é correto afirmar que:",
     "alternativas": {
-      "A": "pode-se usar a mesma luva para coletar todos os projéteis, desde que enxaguada entre uma coleta e outra.",
-      "B": "não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria os projéteis com diferentes vestígios biológicos; deve-se trocar de luva a cada coleta.",
-      "C": "os projéteis devem ser coletados com pinça metálica, jamais com a mão enluvada.",
-      "D": "a contaminação por troca de luvas é irrelevante, pois o projétil já passou pelo corpo da vítima."
+      "A": "pode-se usar o mesmo par de luvas na coleta sequencial dos projéteis, desde que a superfície seja higienizada com álcool entre uma coleta e outra.",
+      "B": "não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria os projéteis com diferentes vestígios biológicos; troca-se de luva a cada coleta.",
+      "C": "os projéteis devem ser recolhidos exclusivamente com pinça de pontas revestidas, ficando o uso de luvas restrito ao acondicionamento das embalagens.",
+      "D": "a troca de luvas é exigida apenas entre projéteis recolhidos de vítimas diferentes, sendo dispensável entre os que estejam livres no piso da cena."
     },
     "resposta_correta": "B",
-    "justificativa": "Os projéteis são coletados com a própria mão usando luvas, mas, onde houver feridos/mortos por projéteis, não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria com diferentes vestígios biológicos — deve-se trocar de luva a cada coleta (p. 133). Isso valida B. A admite reuso da luva. C contraria a regra de não usar pinça em projéteis. D ignora o risco de contaminação cruzada de DNA.",
+    "justificativa": "Os projéteis são coletados com a própria mão usando luvas, mas, onde houver feridos/mortos por projéteis, não se deve usar a mesma luva em mais de uma coleta, pois isso contaminaria com diferentes vestígios biológicos — deve-se trocar de luva a cada coleta (p. 133). Isso valida B. A admite reuso com higienização, insuficiente para afastar a transferência de material biológico. C impõe pinça para projéteis, contrariando a orientação de manuseá-los com luvas ou sacos plásticos. D cria distinção que a regra não faz: a troca é a cada coleta.",
     "referencia": "PDF LOC, p. 133",
     "nivel": "dificil"
   },
@@ -20175,13 +20175,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a identificação e a etiquetagem dos vestígios físicos coletados, a disciplina orienta que:",
     "alternativas": {
-      "A": "as inscrições devem ser feitas diretamente no corpo do próprio vestígio, para garantir o vínculo permanente.",
-      "B": "deve-se evitar marcação ou inscrição no corpo do próprio vestígio, fixando, sempre que possível, as etiquetas nos envelopes ou recipientes em que o vestígio é acondicionado.",
-      "C": "a etiquetagem é dispensável quando o vestígio é fotografado no local.",
-      "D": "basta numerar a embalagem, sendo desnecessário indicar tipo de vestígio, local e coletor."
+      "A": "as inscrições devem ser feitas em ponto discreto do próprio vestígio, prática que assegura o vínculo mesmo se a embalagem for substituída.",
+      "B": "a etiquetagem individual pode ser substituída pelo registro fotográfico do vestígio ao lado do marcador numerado, que já o vincula ao croqui do local.",
+      "C": "deve-se evitar marcação ou inscrição no corpo do próprio vestígio, fixando, sempre que possível, as etiquetas nos envelopes ou recipientes de acondicionamento.",
+      "D": "basta numerar sequencialmente as embalagens, remetendo os demais dados ao formulário de local, que centraliza tipo, origem e responsável pela coleta."
     },
-    "resposta_correta": "B",
-    "justificativa": "Deve-se evitar marcação ou inscrição no corpo do próprio vestígio, para preservar sua integridade, fixando, sempre que possível, as etiquetas/inscrições nos envelopes ou recipientes de acondicionamento (p. 134). Isso valida B. A contraria essa orientação ao inscrever no corpo do vestígio. C dispensa indevidamente a etiquetagem. D omite campos sugeridos (tipo, local, coletor, unidade).",
+    "resposta_correta": "C",
+    "justificativa": "Deve-se evitar marcação ou inscrição no corpo do próprio vestígio, para preservar sua integridade, fixando, sempre que possível, as etiquetas/inscrições nos envelopes ou recipientes de acondicionamento (p. 134). Isso valida C. A justifica a inscrição no vestígio pela segurança do vínculo, mas isso compromete sua integridade — é justamente o que se deve evitar. B substitui a etiqueta pelo registro fotográfico, que não acompanha a embalagem. D esvazia a etiqueta dos dados que devem constar dela (tipo de vestígio, local, coletor, unidade).",
     "referencia": "PDF LOC, p. 134",
     "nivel": "medio"
   },
@@ -20192,13 +20192,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto ao conceito de microvestígio e seu enquadramento jurídico, é correto afirmar que:",
     "alternativas": {
-      "A": "a legislação brasileira não traz definição específica para 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, sobretudo quanto a materiais latentes e não visíveis.",
-      "B": "há definição legal expressa de microvestígio no CPP, com tamanho máximo previamente fixado.",
-      "C": "microvestígios não se enquadram no conceito legal de vestígio, por não serem visíveis a olho nu.",
-      "D": "o conceito de vestígio do art. 158-A exclui expressamente os materiais latentes."
+      "A": "a legislação não define 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, sobretudo quanto a materiais latentes e não visíveis.",
+      "B": "o art. 158-A do CPP define o microvestígio como espécie de vestígio latente, atribuindo-lhe procedimento próprio de coleta e cadeia de custódia.",
+      "C": "por não serem prontamente perceptíveis, os microvestígios só ingressam no conceito legal de vestígio depois de revelados e constatados em laboratório.",
+      "D": "a ausência de previsão legal expressa impõe que os microvestígios sejam tratados como meros elementos informativos, dispensada em relação a eles a cadeia de custódia exigida dos demais vestígios."
     },
     "resposta_correta": "A",
-    "justificativa": "Não há definição legal específica de 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, especialmente ao considerar materiais latentes e não visíveis (p. 135). Isso valida A. B afirma definição legal e tamanho fixos inexistentes. C exclui indevidamente os microvestígios. D contraria o conceito, que abrange o latente.",
+    "justificativa": "Não há definição legal específica de 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, especialmente ao considerar materiais latentes e não visíveis (p. 135). Isso valida A. B afirma uma definição legal e um procedimento próprio que não existem. C condiciona o enquadramento à revelação laboratorial, quando a definição legal já abrange o material latente. D nega a incidência da cadeia de custódia, que se aplica aos microvestígios como a qualquer vestígio.",
     "referencia": "PDF LOC, p. 135",
     "nivel": "facil"
   },
@@ -20209,13 +20209,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um fragmento de vidro é facilmente visto sobre um piso claro e homogêneo, mas torna-se imperceptível nos escombros de uma explosão. Esse exemplo ilustra que a classificação de um vestígio como 'micro':",
     "alternativas": {
-      "A": "depende exclusivamente de sua dimensão física absoluta, independentemente do ambiente.",
+      "A": "resulta da dimensão física absoluta do material, medida em relação a um limiar convencionado pela literatura forense.",
       "B": "não depende apenas da dimensão absoluta, mas também do contexto e da perceptibilidade, sendo central a noção de 'invisibilidade aparente', que exige elevado grau de atenção do perito.",
-      "C": "decorre unicamente da composição química do material, e não de sua visualização.",
-      "D": "é definida pela quantidade de vestígios presentes na cena, e não por sua visibilidade."
+      "C": "decorre da técnica necessária ao seu exame em laboratório: é micro o vestígio que só pode ser analisado por microscopia, independentemente do modo como ele se apresenta na cena.",
+      "D": "depende da natureza do suporte em que se encontra, sendo micro todo vestígio aderido a superfícies heterogêneas ou irregulares."
     },
     "resposta_correta": "B",
-    "justificativa": "O termo não depende exclusivamente de uma dimensão física absoluta, mas também do contexto e da perceptibilidade; o mesmo fragmento de vidro pode ser visível em piso claro homogêneo e imperceptível em escombros heterogêneos. A característica central é a 'invisibilidade aparente', que exige elevado grau de atenção (p. 135). Isso valida B. A fixa-se só na dimensão absoluta. C e D trocam o critério por composição química ou quantidade.",
+    "justificativa": "O termo não depende exclusivamente de uma dimensão física absoluta, mas também do contexto e da perceptibilidade; o mesmo fragmento de vidro pode ser visível em piso claro homogêneo e imperceptível em escombros heterogêneos. A característica central é a 'invisibilidade aparente', que exige elevado grau de atenção (p. 135). Isso valida B. A fixa-se na dimensão absoluta, exatamente o que o exemplo do vidro refuta. C troca o critério pela técnica de exame. D isola o suporte como critério, quando o determinante é a perceptibilidade no contexto — o mesmo suporte pode tornar um vestígio visível ou não.",
     "referencia": "PDF LOC, p. 135",
     "nivel": "dificil"
   },
@@ -20226,13 +20226,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na etapa de detecção e identificação de microvestígios, as buscas visuais são assistidas por técnicas de iluminação e ampliação. Entre os recursos utilizados, inclui-se:",
     "alternativas": {
-      "A": "a iluminação oblíqua (para partículas superficiais e materiais reflexivos), luzes de diferentes comprimentos de onda, lupas/estereomicroscópio e fundos contrastantes.",
-      "B": "a aplicação de luminol em toda a cena, único método capaz de revelar microvestígios.",
-      "C": "a exposição direta ao sol do meio-dia, que satura a cena de luz e facilita a visualização.",
-      "D": "o uso exclusivo de raios X portáteis, dispensando qualquer iluminação visível."
+      "A": "iluminação frontal difusa e intensa, que elimina as sombras e uniformiza todo o campo de busca, associada ao emprego de fundos de mesma tonalidade do vestígio procurado.",
+      "B": "reagentes de contraste aplicados por pulverização na área de busca, que aderem seletivamente às partículas e as tornam visíveis a olho nu.",
+      "C": "iluminação oblíqua (para partículas superficiais e materiais reflexivos), luzes de diferentes comprimentos de onda, lupas/estereomicroscópio e fundos contrastantes.",
+      "D": "varredura sistemática com detector portátil de metais e sensores de fluorescência, dispensando a inspeção visual direta da superfície."
     },
-    "resposta_correta": "A",
-    "justificativa": "A detecção utiliza iluminação oblíqua (partículas superficiais aderidas e materiais reflexivos, como vidro e glitter), luzes de diferentes comprimentos de onda (tintas, fibras, cabelos, vidro), lupas iluminadas/estereomicroscópio e fundos contrastantes (p. 137). Isso valida A. B confunde com pesquisa de sangue (luminol). C contraria a recomendação de luz em ângulo (a luz vertical do meio-dia satura). D inventa um método exclusivo de raios X.",
+    "resposta_correta": "C",
+    "justificativa": "A detecção utiliza iluminação oblíqua (partículas superficiais aderidas e materiais reflexivos, como vidro e glitter), luzes de diferentes comprimentos de onda (tintas, fibras, cabelos, vidro), lupas iluminadas/estereomicroscópio e fundos contrastantes (p. 137). Isso valida C. A inverte duas orientações: a luz é oblíqua (não frontal difusa, que achata o relevo) e o fundo é contrastante (não da mesma tonalidade). B inventa reagentes de contraste genéricos para microvestígios. D substitui a busca visual assistida por detectores, quando o capítulo trata justamente da inspeção visual apoiada por luz e ampliação.",
     "referencia": "PDF LOC, p. 137",
     "nivel": "medio"
   },
@@ -20243,13 +20243,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à estratégia de coleta de microvestígios, a disciplina estabelece que, quando viável:",
     "alternativas": {
-      "A": "deve-se sempre coletar os microvestígios diretamente na cena, pois o ambiente do local oferece melhores condições que o laboratório.",
-      "B": "coletar o item inteiro é preferível — mesmo quando os vestígios já são visíveis —, pois reduz o risco de perda/contaminação e a coleta de microvestígios é mais eficiente e controlada em laboratório.",
-      "C": "deve-se descartar o item de suporte e coletar apenas os microvestígios isolados na cena.",
-      "D": "a coleta deve ser sempre feita por varredura a vácuo, por ser o método mais seletivo disponível."
+      "A": "coletar o item inteiro é preferível — mesmo quando os vestígios já são visíveis —, pois reduz o risco de perda ou contaminação e a coleta é mais eficiente e controlada em laboratório.",
+      "B": "a coleta na própria cena é preferível sempre que os microvestígios já estiverem visualmente identificados pelo perito, o que evita o transporte desnecessário de suportes volumosos até o laboratório.",
+      "C": "o item de suporte deve ser fotografado e descartado após a retirada dos microvestígios, que carregam sozinhos o valor probatório do achado.",
+      "D": "a varredura a vácuo deve preceder as demais técnicas, pois recolhe o conjunto do material presente antes que a movimentação da equipe o disperse."
     },
-    "resposta_correta": "B",
-    "justificativa": "Quando viável, coletar o item inteiro é preferível, mesmo com vestígios já visíveis, pois reduz risco de perda/contaminação; como regra geral, a coleta de microvestígios é mais eficiente e controlada em laboratório (melhor iluminação, controle ambiental, equipamentos) e preserva o contexto (p. 138-139). Isso valida B. A inverte a vantagem do laboratório. C descarta o suporte, perdendo contexto. D trata a varredura a vácuo como seletiva, quando ela é o método menos seletivo.",
+    "resposta_correta": "A",
+    "justificativa": "Quando viável, coletar o item inteiro é preferível, mesmo com vestígios já visíveis, pois reduz risco de perda/contaminação; como regra geral, a coleta de microvestígios é mais eficiente e controlada em laboratório (melhor iluminação, controle ambiental, equipamentos) e preserva o contexto (p. 138-139). Isso valida A. B usa a visibilidade como razão para coletar na cena, quando a preferência pelo item inteiro persiste mesmo assim. C descarta o suporte, perdendo o contexto do vestígio. D antecipa a varredura a vácuo, método MENOS seletivo, que deve vir depois das técnicas direcionadas.",
     "referencia": "PDF LOC, p. 138-139",
     "nivel": "medio"
   },
@@ -20260,13 +20260,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os métodos de coleta de microvestígios em itens ou áreas, é correto afirmar que:",
     "alternativas": {
-      "A": "o levantamento com fita adesiva é o método indicado para coletar tintas e polímeros, por preservar sua composição química.",
-      "B": "o levantamento com fita adesiva serve a microvestígios superficiais (fibras, partículas leves), mas NÃO é recomendado para tintas e polímeros (o adesivo pode interagir e alterá-los quimicamente); já a varredura a vácuo, por ser menos seletiva, deve ser usada após as técnicas mais direcionadas.",
-      "C": "a varredura a vácuo é o método mais seletivo, devendo ser sempre a primeira técnica empregada.",
-      "D": "as pinças devem ser usadas com pressão máxima para garantir a apreensão das partículas."
+      "A": "a fita adesiva é especialmente indicada para a coleta de tintas e polímeros, uma vez que a adesão desses materiais ao filme preserva a integridade da camada superficial durante o acondicionamento e o transporte ao laboratório.",
+      "B": "a varredura a vácuo, por recolher material em profundidade, deve anteceder as técnicas direcionadas, que atuam apenas nas partículas superficiais.",
+      "C": "as pinças exigem pressão firme e constante para assegurar a apreensão, sendo o risco de dano à morfologia compensado pela segurança da coleta.",
+      "D": "a fita adesiva serve a microvestígios superficiais (fibras, partículas leves), mas não é recomendada para tintas e polímeros, que o adesivo pode alterar quimicamente; a varredura a vácuo, menos seletiva, vem após as técnicas mais direcionadas."
     },
-    "resposta_correta": "B",
-    "justificativa": "O levantamento com fita adesiva é adequado a microvestígios superficiais, mas não é recomendado para tintas/polímeros, pois o adesivo pode interagir e alterá-los quimicamente; a varredura a vácuo é menos seletiva (coleta muito material estranho), devendo ser usada após técnicas mais direcionadas (p. 139-140). Isso valida B. A recomenda a fita para tintas/polímeros, justamente desaconselhada. C trata a varredura como seletiva e primeira opção. D recomenda pressão excessiva nas pinças, que danifica a morfologia.",
+    "resposta_correta": "D",
+    "justificativa": "O levantamento com fita adesiva é adequado a microvestígios superficiais, mas não é recomendado para tintas/polímeros, pois o adesivo pode interagir e alterá-los quimicamente; a varredura a vácuo é menos seletiva (coleta muito material estranho), devendo ser usada após técnicas mais direcionadas (p. 139-140). Isso valida D. A recomenda a fita justamente para os materiais em que ela é desaconselhada. B inverte a ordem das técnicas, antepondo o método menos seletivo. C legitima pressão excessiva na pinça, que danifica a morfologia das partículas.",
     "referencia": "PDF LOC, p. 139-140",
     "nivel": "dificil"
   },
@@ -20277,13 +20277,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na coleta de amostras-padrão (conhecidas) de microvestígios, como fragmentos de vidro de uma janela quebrada, recomenda-se:",
     "alternativas": {
-      "A": "coletar um único fragmento, pois todos os pedaços de uma mesma janela são idênticos.",
+      "A": "coletar um único fragmento representativo, uma vez que todos os pedaços provenientes de uma mesma janela apresentam composição idêntica.",
       "B": "coletar exemplares representativos de todas as variações da amostra conhecida e, no caso do vidro, marcar a orientação (face interna/externa).",
-      "C": "misturar os fragmentos-padrão com os fragmentos questionados, para facilitar o confronto.",
-      "D": "descartar a coleta de padrões, pois a comparação é feita apenas com os vestígios questionados."
+      "C": "acondicionar os fragmentos-padrão no mesmo invólucro dos fragmentos questionados, de modo a facilitar o confronto direto em laboratório.",
+      "D": "dispensar a coleta de padrões quando os fragmentos questionados forem suficientes para a caracterização da composição do vidro."
     },
     "resposta_correta": "B",
-    "justificativa": "As amostras-padrão devem ser representativas de todas as variações da amostra conhecida; no caso de vidro de janela, deve-se marcar a orientação (face interna/externa) (p. 140-141). Isso valida B. A coleta um único fragmento, ignorando variações. C mistura padrão e questionado, comprometendo o confronto. D dispensa os padrões, essenciais à comparação.",
+    "justificativa": "As amostras-padrão devem ser representativas de todas as variações da amostra conhecida; no caso de vidro de janela, deve-se marcar a orientação, distinguindo a face interna da externa (p. 140-141). Isso valida B. A parte da premissa falsa de homogeneidade e coleta um só fragmento, ignorando as variações. C reúne padrão e questionado no mesmo invólucro, comprometendo o confronto por contaminação e confusão de origem. D dispensa o padrão, sem o qual não há termo de comparação.",
     "referencia": "PDF LOC, p. 140-141",
     "nivel": "medio"
   },
@@ -20294,13 +20294,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à busca de microvestígios no corpo da vítima, a disciplina orienta que:",
     "alternativas": {
-      "A": "a remoção de todos os vestígios do corpo deve ser feita obrigatoriamente na cena, sob pena de perda.",
-      "B": "a remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação, devendo-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado, preservando os sacos/materiais, que podem conter vestígios desprendidos no transporte.",
-      "C": "as mãos e os pés do cadáver não devem ser ensacados, para não comprometer o exame externo.",
-      "D": "os sacos utilizados no transporte do corpo devem ser descartados imediatamente, por não terem valor pericial."
+      "A": "a remoção dos vestígios do corpo deve ser integralmente realizada na cena, pois o transporte provoca desprendimento e perda irreversível do material aderido.",
+      "B": "mãos e pés não devem ser ensacados, pois o material do invólucro pode transferir fibras ao corpo e comprometer o exame externo no instituto médico-legal.",
+      "C": "a remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação, devendo-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco limpo e adequado, preservando os sacos, que podem conter vestígios desprendidos no transporte.",
+      "D": "o corpo deve ser acondicionado em saco novo e limpo, sendo os invólucros utilizados nas mãos e nos pés descartados logo após a chegada ao instituto médico-legal, uma vez que já terão cumprido integralmente a sua função de contenção durante o transporte do corpo."
     },
-    "resposta_correta": "B",
-    "justificativa": "A remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação; recomenda-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado, preservando os sacos/materiais, que podem conter vestígios desprendidos no transporte (p. 141). Isso valida B. A torna obrigatória a remoção na cena. C contraria o ensacamento de mãos e pés. D descarta sacos que podem conter vestígios.",
+    "resposta_correta": "C",
+    "justificativa": "A remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação; recomenda-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado, preservando os sacos/materiais, que podem conter vestígios desprendidos no transporte (p. 141). Isso valida C. A torna obrigatória a remoção na cena, quando a boa preservação a dispensa. B veda o ensacamento de mãos e pés, medida expressamente recomendada. D manda descartar os invólucros, que devem ser preservados justamente por reterem vestígios desprendidos.",
     "referencia": "PDF LOC, p. 141",
     "nivel": "medio"
   },
@@ -20311,13 +20311,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "No acondicionamento de microvestígios, distinguem-se a embalagem primária e a embalagem de segurança. A respeito delas, é correto afirmar que:",
     "alternativas": {
-      "A": "a embalagem primária fica em contato direto com o vestígio (ex.: envelopes de papel, potes, microtubos tipo Eppendorf), enquanto a embalagem de segurança protege o recipiente primário e é a que possui numeração individualizada.",
-      "B": "a embalagem de segurança fica em contato direto com o vestígio, e a primária apenas a envolve externamente.",
-      "C": "a numeração individualizada deve constar da embalagem primária, e não da de segurança.",
-      "D": "ambas as embalagens podem ser reutilizadas de outros exames, desde que higienizadas."
+      "A": "a embalagem primária fica em contato direto com o vestígio (envelopes de papel, potes, microtubos tipo Eppendorf), e a de segurança protege o recipiente primário, sendo a que possui numeração individualizada.",
+      "B": "a embalagem primária é a que recebe a numeração individualizada, justamente por estar em contato direto com o vestígio, cabendo à embalagem de segurança apenas a proteção mecânica do conjunto durante o transporte.",
+      "C": "a embalagem de segurança é a que toca o vestígio, por ser estéril e à prova de vazamentos, ficando a primária como invólucro externo identificado.",
+      "D": "ambas devem ser novas, admitindo-se a reutilização da embalagem de segurança entre exames do mesmo inquérito, desde que higienizada e reetiquetada."
     },
     "resposta_correta": "A",
-    "justificativa": "A embalagem primária é a que fica em contato direto com o vestígio (à prova de vazamentos, limpa, não utilizada — ex.: envelopes de papel, potes, microtubos tipo Eppendorf); a embalagem de segurança protege o recipiente primário e é a que possui numeração individualizada, resguardando a identidade do vestígio e o vínculo com o caso (p. 141-142). Isso valida A. B inverte as embalagens. C atribui a numeração à primária. D admite reutilização, contrária à exigência de material não utilizado.",
+    "justificativa": "A embalagem primária é a que fica em contato direto com o vestígio (à prova de vazamentos, limpa, não utilizada — ex.: envelopes de papel, potes, microtubos tipo Eppendorf); a embalagem de segurança protege o recipiente primário e é a que possui numeração individualizada, resguardando a identidade do vestígio e o vínculo com o caso (p. 141-142). Isso valida A. B desloca a numeração para a primária. C inverte as duas embalagens. D admite reutilização, contrária à exigência de material limpo e não utilizado.",
     "referencia": "PDF LOC, p. 141-142",
     "nivel": "facil"
   },
@@ -20328,13 +20328,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao acondicionar um item molhado que será examinado e outro item que será analisado quanto a resíduos de líquidos inflamáveis, o perito deve observar que:",
     "alternativas": {
-      "A": "ambos devem ser secos com auxílio de calor para acelerar o processo e evitar mofo.",
-      "B": "o item molhado comum deve ser seco ao ar o mais rápido possível, sem calor nem luz solar; porém, itens a serem examinados para resíduos líquidos inflamáveis (ou químicos, como alvejante) NÃO devem ser secos, pois a secagem causaria perda de evidências.",
-      "C": "ambos devem ser embalados ainda molhados em sacos plásticos vedados, sem qualquer secagem.",
-      "D": "o item para resíduos inflamáveis deve ser seco ao sol, e o item molhado comum, mantido úmido."
+      "A": "os dois itens devem ser secos ao ar livre, sem calor nem exposição ao sol, diferindo apenas quanto ao acondicionamento posterior: embalagem de papel para o item comum e recipiente hermético para aquele destinado ao exame de resíduos inflamáveis.",
+      "B": "o item molhado comum deve ser seco ao ar o mais rápido possível, sem calor nem luz solar; já os itens a examinar para resíduos líquidos inflamáveis (ou químicos, como alvejante) NÃO devem ser secos, sob pena de perda de evidências.",
+      "C": "o item para resíduos inflamáveis deve ser seco com ventilação forçada, para eliminar apenas a água e concentrar os compostos orgânicos remanescentes no substrato.",
+      "D": "ambos devem ser acondicionados úmidos em embalagem hermética e refrigerados, evitando-se a secagem, que altera o substrato de qualquer material a examinar."
     },
     "resposta_correta": "B",
-    "justificativa": "Itens molhados comuns devem ser secos ao ar o mais rápido possível, sem calor nem luz solar; contudo, itens a serem examinados para resíduos líquidos inflamáveis ou químicos (ex.: alvejante) NÃO devem ser secos, pois a secagem causaria perda de evidências (p. 142). Isso valida B. A usa calor, degradante. C não seca o item comum, favorecendo degradação. D inverte os procedimentos.",
+    "justificativa": "Itens molhados comuns devem ser secos ao ar o mais rápido possível, sem calor nem luz solar; contudo, itens a serem examinados para resíduos líquidos inflamáveis ou químicos (ex.: alvejante) NÃO devem ser secos, pois a secagem causaria perda de evidências (p. 142). Isso valida B. A uniformiza a secagem para os dois, quando o item de resíduos inflamáveis não deve ser seco. C supõe secagem seletiva por ventilação, que na prática evapora justamente os voláteis de interesse. D estende ao item comum a vedação de secar, favorecendo sua degradação.",
     "referencia": "PDF LOC, p. 142",
     "nivel": "dificil"
   },
@@ -20345,13 +20345,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "No exame de ajuste físico, que avalia se dois ou mais itens já estiveram unidos, é correto afirmar que:",
     "alternativas": {
-      "A": "a ausência de ajuste físico implica, necessariamente, que os itens se originaram de fontes diferentes.",
-      "B": "os eventos de separação (quebras, cortes, rasgos) são reprodutíveis, o que torna o exame meramente indiciário.",
-      "C": "os eventos de separação não são reprodutíveis (geram características individuais); o ajuste positivo ocorre quando as características se realinham de maneira única e não esperada de ser replicada, mas a ausência de ajuste físico NÃO implica, necessariamente, que os itens venham de fontes diferentes.",
-      "D": "a perda de material nas bordas descarta automaticamente a possibilidade de ajuste físico."
+      "A": "os eventos de separação produzem padrões reprodutíveis em itens de mesma origem, razão pela qual o ajuste físico é classificado como exame de natureza meramente indiciária, sempre dependente de confirmação por análise química comparativa.",
+      "B": "o ajuste positivo depende da preservação integral das bordas: havendo perda de material na região de separação, fica descartada a possibilidade de conclusão pelo ajuste.",
+      "C": "os eventos de separação não são reprodutíveis (geram características individuais) e o ajuste positivo ocorre quando as características se realinham de maneira única; a ausência de ajuste, porém, NÃO implica necessariamente fontes diferentes.",
+      "D": "por gerarem características individuais, os eventos de separação tornam o exame conclusivo nos dois sentidos: o ajuste demonstra origem comum e sua ausência exclui a origem comum."
     },
     "resposta_correta": "C",
-    "justificativa": "Os eventos de separação não são reprodutíveis, gerando características individuais; o ajuste físico positivo ocorre quando as características se realinham de maneira única, não esperada de ser replicada; e, atenção, a ausência de ajuste físico NÃO implica, necessariamente, que os itens tenham se originado de fontes diferentes (p. 142-143). Isso valida C. A e D contrariam o texto (ausência não implica fontes diferentes; perda de material não descarta o ajuste). B afirma reprodutibilidade da separação, oposto do exposto.",
+    "justificativa": "Os eventos de separação não são reprodutíveis, gerando características individuais; o ajuste físico positivo ocorre quando as características se realinham de maneira única, não esperada de ser replicada; e a ausência de ajuste físico NÃO implica, necessariamente, que os itens tenham se originado de fontes diferentes (p. 142-143). Isso valida C. A afirma reprodutibilidade, o oposto do exposto. B trata a perda de material como impeditivo absoluto do ajuste. D é a pegadinha mais próxima: acerta a premissa das características individuais, mas conclui simetria que o texto nega — a ausência de ajuste não exclui a origem comum.",
     "referencia": "PDF LOC, p. 142-143",
     "nivel": "medio"
   },
@@ -20362,13 +20362,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Os crimes contra o patrimônio de competência da Polícia Federal são, em regra, aqueles cometidos contra:",
     "alternativas": {
-      "A": "objetos, bens ou valores de órgãos da União (ministérios, autarquias, fundações e empresas públicas federais, como Caixa Econômica Federal e Correios), incluindo veículos oficiais e bens neles acondicionados.",
-      "B": "qualquer patrimônio particular, desde que o prejuízo ultrapasse determinado valor.",
-      "C": "bens de empresas privadas, independentemente de vínculo com a União.",
-      "D": "patrimônio de estados e municípios, ainda que sem qualquer interesse da União."
+      "A": "bens de quaisquer sociedades de economia mista que contem com participação acionária da União em seu capital social, ainda que o fato não atinja serviço público federal nem interesse direto da União na apuração.",
+      "B": "objetos, bens ou valores de órgãos da União (ministérios, autarquias, fundações e empresas públicas federais, como Caixa Econômica Federal e Correios), incluindo veículos oficiais e bens neles acondicionados.",
+      "C": "quaisquer bens situados em imóveis da União, mesmo pertencentes a particulares que ali exerçam atividade autorizada.",
+      "D": "bens de estados e municípios administrados sob convênio federal, cuja fiscalização compete a órgãos da União."
     },
-    "resposta_correta": "A",
-    "justificativa": "São de competência da PF os crimes contra objetos, bens ou valores de órgãos da União (ministérios, secretarias, autarquias, fundações e empresas públicas federais — ex.: Receita Federal, DNIT, ANEEL, Caixa Econômica Federal, Correios, UnB), incluindo veículos oficiais/viaturas e bens neles acondicionados (p. 145). Isso valida A. B, C e D estendem a competência a patrimônio particular, privado ou de estados/municípios sem interesse da União.",
+    "resposta_correta": "B",
+    "justificativa": "São de competência da PF os crimes contra objetos, bens ou valores de órgãos da União (ministérios, secretarias, autarquias, fundações e empresas públicas federais — ex.: Receita Federal, DNIT, ANEEL, Caixa Econômica Federal, Correios, UnB), incluindo veículos oficiais/viaturas e bens neles acondicionados (p. 145). Isso valida B. A desloca o critério para a sociedade de economia mista sem interesse federal direto. C confunde a titularidade do bem com a do imóvel em que ele se encontra. D atrai bens estaduais e municipais pela via do convênio, quando a regra se assenta na titularidade dos bens pela União.",
     "referencia": "PDF LOC, p. 145",
     "nivel": "medio"
   },
@@ -20379,13 +20379,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o crime de furto (art. 155 do CP) e seu tratamento pericial, é correto afirmar que:",
     "alternativas": {
-      "A": "consiste em subtrair coisa alheia móvel mediante grave ameaça ou violência à pessoa.",
-      "B": "consiste em subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, exigindo dolo — não existindo furto culposo; a energia elétrica, com valor econômico, equipara-se à coisa móvel.",
-      "C": "admite modalidade culposa quando o agente, por descuido, leva consigo bem de terceiro.",
-      "D": "exige sempre o rompimento de obstáculo, sem o qual a conduta é atípica."
+      "A": "subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, exigindo dolo — não há furto culposo; a energia elétrica, com valor econômico, equipara-se à coisa móvel.",
+      "B": "subtrair coisa alheia móvel sem violência à pessoa, admitindo-se também a modalidade culposa quando o agente, por erro escusável sobre a titularidade do bem, leva consigo objeto pertencente a terceiro.",
+      "C": "subtrair coisa alheia móvel mediante emprego de violência contra a coisa, elemento que distingue o furto do roubo e integra o tipo básico do art. 155.",
+      "D": "subtrair coisa alheia móvel, corpórea por definição, não alcançando a energia elétrica, que é objeto de tipo penal autônomo previsto em legislação especial."
     },
-    "resposta_correta": "B",
-    "justificativa": "O furto (art. 155) é subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, mas com dolo; não existe furto culposo, e a energia elétrica (ou outra com valor econômico) equipara-se à coisa móvel (§3º) (p. 146). Isso valida B. A descreve o roubo (art. 157). C admite furto culposo, inexistente. D confunde o furto simples com a qualificadora de rompimento de obstáculo (§4º), que não é elemento essencial do tipo básico.",
+    "resposta_correta": "A",
+    "justificativa": "O furto (art. 155) é subtrair, para si ou para outrem, coisa alheia móvel, sem violência nem grave ameaça, mas com dolo; não existe furto culposo, e a energia elétrica (ou outra com valor econômico) equipara-se à coisa móvel (§ 3º) (p. 146). Isso valida A. B admite furto culposo, inexistente. C insere a violência contra a coisa no tipo básico, quando o rompimento de obstáculo é qualificadora (§ 4º), não elemento essencial. D nega a equiparação da energia elétrica à coisa móvel, expressamente prevista no § 3º.",
     "referencia": "PDF LOC, p. 146",
     "nivel": "medio"
   },
@@ -20396,13 +20396,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Um perito é acionado para três cenas distintas: (i) subtração de equipamentos de um órgão federal mediante arrombamento da porta, sem ninguém presente; (ii) subtração de valores de um funcionário sob grave ameaça com arma; e (iii) pichação e quebra de vidraças de um prédio público, sem subtração de bens. A tipificação penal mais adequada é, respectivamente:",
     "alternativas": {
-      "A": "roubo, furto e dano.",
-      "B": "dano, roubo e furto.",
-      "C": "furto qualificado (rompimento de obstáculo), roubo e dano.",
-      "D": "furto, dano e roubo."
+      "A": "furto qualificado (rompimento de obstáculo), roubo e dano.",
+      "B": "roubo majorado pelo emprego de arma, furto qualificado e dano.",
+      "C": "dano qualificado, roubo majorado e furto por escalada.",
+      "D": "furto simples, dano qualificado e roubo com grave ameaça."
     },
-    "resposta_correta": "C",
-    "justificativa": "A subtração mediante arrombamento, sem violência à pessoa, é furto qualificado pelo rompimento de obstáculo (art. 155, §4º); a subtração sob grave ameaça com arma é roubo (art. 157); a destruição/deterioração de coisa alheia sem subtração é dano (art. 163) (p. 146-147). Isso valida C. A, B e D embaralham as tipificações, confundindo a presença ou ausência de violência/grave ameaça e de subtração de bens.",
+    "resposta_correta": "A",
+    "justificativa": "A subtração mediante arrombamento, sem violência à pessoa, é furto qualificado pelo rompimento de obstáculo (art. 155, § 4º); a subtração sob grave ameaça com arma é roubo (art. 157); e a destruição de coisa alheia sem subtração é dano (art. 163) (p. 146-147). Isso valida A. B inverte as duas primeiras cenas. C classifica o arrombamento como dano, ignorando a subtração dos equipamentos. D trata o furto como simples, quando houve rompimento de obstáculo, e inverte as duas últimas cenas.",
     "referencia": "PDF LOC, p. 146-147",
     "nivel": "dificil"
   },
@@ -20413,13 +20413,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quando, da violência empregada no roubo, resulta a morte da vítima, configura-se:",
     "alternativas": {
-      "A": "furto qualificado, com pena de 2 a 8 anos.",
+      "A": "roubo majorado pelo emprego de arma de fogo, com pena de 6 a 12 anos.",
       "B": "latrocínio (roubo qualificado pelo resultado morte), com pena de 24 a 30 anos.",
-      "C": "dano qualificado, com pena de 6 meses a 3 anos.",
-      "D": "roubo simples, com pena de 4 a 10 anos."
+      "C": "homicídio qualificado por motivo torpe, com pena de 12 a 30 anos.",
+      "D": "roubo simples em concurso material com o crime de homicídio doloso."
     },
     "resposta_correta": "B",
-    "justificativa": "Quando da violência do roubo resulta morte, configura-se o latrocínio (roubo qualificado, art. 157, §3º), com pena de 24 a 30 anos (p. 147). Isso valida B. A trata de furto qualificado (sem morte/violência à pessoa). C refere-se ao dano qualificado. D é o roubo simples, sem o resultado morte.",
+    "justificativa": "Quando da violência empregada no roubo resulta morte, configura-se o latrocínio, roubo qualificado pelo resultado (art. 157, § 3º), com pena de 24 a 30 anos (p. 147). Isso valida B. A corresponde à majorante pelo emprego de arma, sem o resultado morte. C desloca o fato para o homicídio qualificado, quando a morte decorre da violência do roubo e integra o próprio tipo qualificado. D fraciona a conduta em concurso material, quando a lei prevê figura única qualificada pelo resultado.",
     "referencia": "PDF LOC, p. 147",
     "nivel": "medio"
   },
@@ -20430,13 +20430,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O crime de dano (art. 163 do CP) consiste em:",
     "alternativas": {
-      "A": "subtrair coisa alheia móvel mediante fraude.",
+      "A": "subtrair coisa alheia móvel mediante fraude ou destreza do agente.",
       "B": "destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo.",
-      "C": "subtrair coisa alheia mediante grave ameaça.",
-      "D": "apoderar-se de coisa achada sem comunicar a autoridade."
+      "C": "subtrair coisa alheia móvel mediante grave ameaça ou violência à pessoa.",
+      "D": "apoderar-se de coisa alheia achada, deixando de restituí-la ao dono ou de comunicar o achado à autoridade."
     },
     "resposta_correta": "B",
-    "justificativa": "O dano (art. 163) consiste em destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo (a doutrina majoritária entende não haver dano culposo) (p. 147). Isso valida B. A e C descrevem furto e roubo. D descreve apropriação de coisa achada, tipo diverso.",
+    "justificativa": "O dano (art. 163) consiste em destruir, inutilizar ou deteriorar coisa alheia, conduta que, por si só, não envolve furto nem roubo — entendendo a doutrina majoritária que não há dano culposo (p. 147). Isso valida B. A descreve o furto qualificado pela fraude ou destreza. C descreve o roubo (art. 157). D descreve a apropriação de coisa achada, tipo penal diverso, que também não se confunde com o dano.",
     "referencia": "PDF LOC, p. 147",
     "nivel": "facil"
   },
@@ -20447,13 +20447,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao periciar uma vidraça quebrada em um arrombamento, o perito observa uma abertura cônica cujo diâmetro é maior na superfície oposta ao choque. Esse achado, somado à posição dos fragmentos, indica que:",
     "alternativas": {
-      "A": "trata-se de um cone de transfixação, típico de impactos de alta velocidade/energia (pedras arremessadas, disparos), com abertura maior na superfície oposta ao choque; os fragmentos, em geral, encontram-se do lado oposto ao ponto de impacto.",
-      "B": "o cone de transfixação indica impacto de baixa energia, com abertura maior no mesmo lado do choque.",
-      "C": "os fragmentos sempre se concentram no mesmo lado do impacto, independentemente da energia envolvida.",
-      "D": "a abertura cônica é incompatível com disparos de arma de fogo, indicando apenas dilatação térmica."
+      "A": "trata-se de cone de transfixação, típico de impactos de alta velocidade/energia (pedras arremessadas, disparos), com abertura maior na face oposta ao choque; os fragmentos, em geral, ficam do lado oposto ao ponto de impacto.",
+      "B": "trata-se de cone de transfixação, cuja base maior indica precisamente a face de onde partiu o impacto, sendo os fragmentos projetados de volta para o lado do agressor em razão da elasticidade residual do vidro.",
+      "C": "trata-se de fratura por flexão progressiva, característica de esforço lento e contínuo, como o de alavanca aplicada à esquadria da janela arrombada.",
+      "D": "trata-se de cone de transfixação, formado apenas em vidros temperados, cuja abertura cônica não permite inferir o sentido do impacto nem a energia envolvida."
     },
     "resposta_correta": "A",
-    "justificativa": "O cone de transfixação é típico de impactos de alta velocidade/energia (pedras arremessadas, disparos de arma de fogo) e apresenta abertura maior na superfície oposta ao choque; os fragmentos, em geral, encontram-se do lado oposto ao ponto de impacto (p. 149). Isso valida A. B inverte energia e lado da abertura. C contraria a regra dos fragmentos no lado oposto. D nega a relação do cone com disparos, justamente um exemplo clássico.",
+    "justificativa": "O cone de transfixação é típico de impactos de alta velocidade/energia (pedras arremessadas, disparos de arma de fogo) e apresenta abertura maior na superfície oposta ao choque; os fragmentos, em geral, encontram-se do lado oposto ao ponto de impacto (p. 149). Isso valida A. B inverte o sentido do cone e a projeção dos fragmentos. C descreve um mecanismo lento, incompatível com a abertura cônica observada. D restringe o fenômeno ao vidro temperado e nega o valor informativo do cone, que é justamente indicar o sentido do impacto.",
     "referencia": "PDF LOC, p. 149",
     "nivel": "dificil"
   },
@@ -20464,13 +20464,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto às fraturas em vidros decorrentes de impacto, é correto afirmar que:",
     "alternativas": {
-      "A": "as rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão, enquanto as rupturas concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis, encontram-se no mesmo lado do impacto.",
-      "B": "as rupturas radiais surgem no mesmo lado do impacto, e as concêntricas, na superfície oposta.",
-      "C": "as rupturas concêntricas estão sempre presentes em qualquer tipo de vidro, independentemente da flexibilidade.",
-      "D": "ambas as rupturas se originam sempre na superfície oposta ao impacto, sem distinção de lado."
+      "A": "as rupturas radiais surgem no mesmo lado do impacto, e as concêntricas, na superfície oposta, ambas presentes em qualquer tipo de vidro.",
+      "B": "as rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão; as concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis, ficam no mesmo lado do impacto.",
+      "C": "as rupturas concêntricas formam-se primeiro e delimitam a área em que, num segundo momento, se desenvolvem as radiais, na mesma face atingida.",
+      "D": "as rupturas radiais indicam impacto de baixa energia e as concêntricas, impacto de alta energia, sendo justamente essa correspondência o critério empregado pela perícia para estimar a força utilizada no arrombamento da vidraça."
     },
-    "resposta_correta": "A",
-    "justificativa": "As rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão; as concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis (automóveis), encontram-se no mesmo lado do impacto (p. 149). Isso valida A. B inverte os lados. C afirma presença sempre das concêntricas, contrariando o texto. D iguala indevidamente a origem das duas rupturas.",
+    "resposta_correta": "B",
+    "justificativa": "As rupturas radiais originam-se no ponto de impacto e se prolongam radialmente na superfície oposta à colisão; as concêntricas, nem sempre presentes e mais comuns em vidros laminados flexíveis (automóveis), encontram-se no mesmo lado do impacto (p. 149). Isso valida B. A inverte os lados e afirma presença universal das concêntricas. C inverte a ordem de formação e coloca ambas na mesma face. D transforma o tipo de ruptura em critério de energia, que na verdade se afere pelo cone de transfixação.",
     "referencia": "PDF LOC, p. 149",
     "nivel": "medio"
   },
@@ -20481,13 +20481,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao chegar a um suposto local de arrombamento, uma testemunha apresenta ao perito a versão de que houve invasão por uma janela. Considerando a postura pericial esperada, é correto afirmar que:",
     "alternativas": {
-      "A": "o perito deve acolher a versão da testemunha como verdadeira, registrando-a diretamente no laudo como dinâmica do fato.",
-      "B": "o perito deve atuar com imparcialidade e ponderação, confirmando a versão apenas se ela for compatível com os respectivos vestígios materiais, considerando rotas alternativas de acesso/fuga e a possibilidade de a cena ter sido forjada (simulação de arrombamento).",
-      "C": "como não se sabe quem é vítima ou suspeito, o perito deve descartar todas as versões e basear-se apenas em depoimentos posteriores.",
-      "D": "o perito deve presumir a simulação em qualquer caso, concluindo sempre pela inexistência de arrombamento."
+      "A": "o perito deve registrar no laudo a versão apresentada pela testemunha como dinâmica provável do fato, cabendo à autoridade policial confrontá-la posteriormente com os demais elementos reunidos no inquérito.",
+      "B": "o perito deve desconsiderar a versão apresentada, pois informações subjetivas colhidas na cena não podem orientar a busca de vestígios pela perícia.",
+      "C": "o perito deve atuar com imparcialidade e ponderação, confirmando a versão apenas se compatível com os vestígios materiais, considerando rotas alternativas de acesso e fuga e a possibilidade de simulação de arrombamento.",
+      "D": "o perito deve presumir a simulação sempre que a versão partir de pessoa com interesse no resultado do exame, invertendo-se o ônus de demonstrar o arrombamento."
     },
-    "resposta_correta": "B",
-    "justificativa": "O perito deve usar imparcialidade e ponderação; uma versão de arrombamento só se confirma quando compatível com os respectivos vestígios materiais, devendo-se considerar rotas alternativas de acesso e fuga e a possibilidade de a cena ter sido forjada (alguns infratores simulam arrombamento para confundir a polícia) (p. 150). Isso valida B. A acolhe a versão sem confronto material. C descarta indevidamente as versões. D presume simulação de forma absoluta, sem base nos vestígios.",
+    "resposta_correta": "C",
+    "justificativa": "O perito deve usar imparcialidade e ponderação; uma versão de arrombamento só se confirma quando compatível com os respectivos vestígios materiais, devendo-se considerar rotas alternativas de acesso e fuga e a possibilidade de a cena ter sido forjada, pois alguns infratores simulam arrombamento para confundir a polícia (p. 150). Isso valida C. A acolhe a versão no laudo sem confronto material. B descarta a versão até como orientação da busca, quando as entrevistas servem para direcionar os trabalhos. D adota presunção de simulação, tão parcial quanto acolher a versão sem exame.",
     "referencia": "PDF LOC, p. 150",
     "nivel": "dificil"
   },
@@ -20499,12 +20499,12 @@ const questoesDB = [
     "enunciado": "Quanto aos vestígios normalmente encontrados em locais de roubo (assalto), é correto afirmar que:",
     "alternativas": {
       "A": "pela natureza do crime, é comum não se encontrarem muitos vestígios, ganhando especial importância as imagens de CFTV e de videomonitoramento urbano e de edificações vizinhas.",
-      "B": "os locais de roubo são, em regra, os mais ricos em vestígios materiais, dispensando o recurso a câmeras.",
-      "C": "o roubo deixa sempre marcas de arrombamento, que são seu principal vestígio.",
-      "D": "as imagens de CFTV não podem ser utilizadas como vestígio em locais de roubo."
+      "B": "por envolver contato direto entre autor e vítima, o roubo é rico em vestígios biológicos de transferência, que se tornam a principal linha de exame no local.",
+      "C": "o roubo deixa como vestígio característico as marcas de rompimento de obstáculo nos acessos da edificação, ponto de partida do exame do local.",
+      "D": "as imagens de CFTV, por serem produzidas por terceiros, não integram o conjunto de vestígios do local, servindo apenas como elemento de informação do inquérito."
     },
     "resposta_correta": "A",
-    "justificativa": "Pela própria natureza do crime, é comum não se encontrarem muitos vestígios nos locais de roubo, ganhando importância as imagens de CFTV (circuito interno) e de câmeras de videomonitoramento urbano e de edificações vizinhas (p. 148). Isso valida A. B contraria a escassez de vestígios. C confunde roubo com furto por arrombamento. D nega o valor das imagens de CFTV.",
+    "justificativa": "Pela própria natureza do crime, é comum não se encontrarem muitos vestígios nos locais de roubo, ganhando importância as imagens de CFTV (circuito interno) e de câmeras de videomonitoramento urbano e de edificações vizinhas (p. 148). Isso valida A. B parte do contato entre autor e vítima para presumir fartura de vestígios biológicos, o que não corresponde à casuística dos locais de roubo. C atribui ao roubo a marca típica do furto qualificado por rompimento de obstáculo. D nega às imagens de CFTV a condição de vestígio, quando elas são justamente o material mais relevante nesses locais.",
     "referencia": "PDF LOC, p. 148",
     "nivel": "facil"
   },
@@ -20515,13 +20515,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "No procedimento pericial em veículos e na análise de sistemas de CFTV em edificações, é correto afirmar que:",
     "alternativas": {
-      "A": "deve-se buscar sinais de violação do sistema de ignição (exposição de fios, tentativa de ligação direta) e preservar registros de rastreamento e telemetria; quanto ao CFTV, é necessário verificar a confiabilidade temporal (relógio do DVR/NVR), pois o roubo a caminhões dos Correios é uma das principais casuísticas da PF.",
-      "B": "o exame de veículos limita-se à conferência das placas, sendo dispensável a análise de ignição, rastreamento ou telemetria.",
-      "C": "as imagens de CFTV podem ser usadas sem qualquer verificação do horário registrado, pois o relógio do equipamento é sempre exato.",
-      "D": "o roubo a caminhões dos Correios é casuística rara e irrelevante para a Polícia Federal."
+      "A": "no exame de veículos, basta a conferência de placas e numerações identificadoras; e as imagens de CFTV dispensam verificação de horário, pois o DVR sincroniza o relógio automaticamente pela rede.",
+      "B": "deve-se buscar sinais de violação do sistema de ignição (exposição de fios, ligação direta) e preservar registros de rastreamento e telemetria; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR).",
+      "C": "os registros de rastreamento e telemetria devem ser requisitados apenas quando o veículo não for recuperado, pois, recuperado o bem, o exame físico esgota a informação disponível.",
+      "D": "a divergência do relógio do DVR invalida as imagens como vestígio, devendo o perito descartá-las e apoiar-se apenas nas câmeras de videomonitoramento urbano."
     },
-    "resposta_correta": "A",
-    "justificativa": "No exame de veículos deve-se buscar violação da ignição (exposição/supressão de fios, ligação direta) e preservar registros de rastreamento, telemetria e câmeras veiculares; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR); o roubo a caminhões dos Correios é uma das principais casuísticas da PF (p. 151-155). Isso valida A. B reduz indevidamente o exame veicular. C dispensa a verificação temporal do CFTV. D minimiza a casuística dos Correios, contrariando o texto.",
+    "resposta_correta": "B",
+    "justificativa": "No exame de veículos deve-se buscar violação da ignição (exposição/supressão de fios, ligação direta) e preservar registros de rastreamento, telemetria e câmeras veiculares; no CFTV, verifica-se a confiabilidade temporal (relógio do DVR/NVR), sendo o roubo a caminhões dos Correios uma das principais casuísticas da PF (p. 151-155). Isso valida B. A reduz o exame veicular à identificação e presume sincronismo automático do DVR. C condiciona a telemetria à não recuperação do veículo, perdendo dados de trajeto essenciais. D descarta imagens por divergência de relógio, quando o correto é aferir e corrigir a referência temporal.",
     "referencia": "PDF LOC, p. 151-155",
     "nivel": "medio"
   },
@@ -20532,13 +20532,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O exame perinecroscópico, realizado no local de morte violenta, caracteriza-se por ser:",
     "alternativas": {
-      "A": "o exame interno (necropsia) do cadáver, realizado pelo perito de local no próprio sítio do crime.",
-      "B": "o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa, sangue e material sob as unhas, sendo o cadáver o maior depositário de vestígios.",
-      "C": "a coleta de amostras para exame toxicológico realizada exclusivamente no IML.",
-      "D": "o levantamento fotográfico das vias de acesso, sem qualquer análise do corpo."
+      "A": "o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa, sangue e material sob as unhas.",
+      "B": "o exame preliminar do cadáver realizado após seu decúbito ser modificado, de modo a permitir a visualização integral da superfície corporal ainda na cena.",
+      "C": "o exame do corpo conduzido pelo médico-legista no próprio local, do qual resulta a primeira estimativa oficial da causa jurídica da morte.",
+      "D": "o conjunto de exames complementares (toxicológico, histopatológico e genético) solicitados pelo perito de local a partir do material colhido no cadáver."
     },
-    "resposta_correta": "B",
-    "justificativa": "O exame perinecroscópico é o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa (lesões em antebraços/mãos), sangue e material sob as unhas; o cadáver é o maior depositário de vestígios da cena (p. 157). Isso valida B. A confunde com a necropsia (exame interno, do médico-legista no IML). C e D restringem indevidamente o exame.",
+    "resposta_correta": "A",
+    "justificativa": "O exame perinecroscópico é o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa (lesões em antebraços/mãos), sangue e material sob as unhas; o cadáver é o maior depositário de vestígios da cena (p. 157). Isso valida A. B inverte a regra de não movimentar o corpo no primeiro momento. C atribui o exame ao médico-legista e antecipa juízo sobre a causa jurídica da morte. D confunde o exame de cena com os exames laboratoriais complementares.",
     "referencia": "PDF LOC, p. 157",
     "nivel": "facil"
   },
@@ -20550,12 +20550,12 @@ const questoesDB = [
     "enunciado": "Entre as lesões produzidas por instrumentos contundentes, a presença de 'pontes de tecido' no fundo da ferida é característica que:",
     "alternativas": {
       "A": "distingue a ferida contusa da ferida incisa (cortante), que apresenta bordas regulares e sem pontes de tecido.",
-      "B": "identifica a ferida incisa produzida por instrumento cortante de gume afiado.",
-      "C": "é exclusiva das feridas perfuro-incisas em 'casa de botão'.",
-      "D": "indica ferida punctória produzida por instrumento perfurante."
+      "B": "identifica a ferida incisa produzida por instrumento cortante de gume afiado sobre plano ósseo subjacente.",
+      "C": "é característica exclusiva das feridas perfuro-incisas com aspecto em 'casa de botão' e extremidade angular.",
+      "D": "indica a ferida punctória produzida por instrumento perfurante de pequeno calibre, como agulha ou estilete."
     },
     "resposta_correta": "A",
-    "justificativa": "A ferida contusa apresenta bordas irregulares e pontes de tecido no fundo, sinal que a distingue da ferida incisa (cortante), de bordas regulares e nítidas, sem pontes de tecido (p. 158-160). Isso valida A. B descreve a ferida incisa, que não tem pontes. C e D referem-se a feridas perfuro-incisas e punctórias, com outras características.",
+    "justificativa": "A ferida contusa apresenta bordas irregulares e pontes de tecido no fundo, sinal que a distingue da ferida incisa (cortante), de bordas regulares e nítidas, sem pontes de tecido (p. 158-160). Isso valida A. B atribui as pontes de tecido à ferida incisa, cuja característica é justamente a ausência delas. C e D transferem o sinal para as feridas perfuro-incisa e punctória, produzidas por penetração e igualmente desprovidas de pontes de tecido.",
     "referencia": "PDF LOC, p. 158-160",
     "nivel": "medio"
   },
@@ -20583,13 +20583,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um cadáver, observa-se ferida com aspecto em 'casa de botão', com uma extremidade angular e outra arredondada. Considerando as lesões por instrumentos perfurocortantes, esse achado sugere:",
     "alternativas": {
-      "A": "instrumento de dois gumes, pois ambas as extremidades seriam angulares.",
-      "B": "instrumento perfurante, cuja lesão é circular e desprovida de ângulos.",
-      "C": "instrumento perfurocortante de um gume — uma extremidade angular e outra arredondada —, lembrando que a forma sofre influência das linhas de clivagem de Langer.",
-      "D": "instrumento contundente, produzindo ferida com pontes de tecido."
+      "A": "instrumento perfurocortante de dois gumes, cujas extremidades assumem formas distintas conforme o ângulo de penetração da lâmina.",
+      "B": "instrumento perfurocortante de um gume — uma extremidade angular e outra arredondada —, lembrando que a forma sofre influência das linhas de clivagem de Langer.",
+      "C": "instrumento cortante de gume afiado aplicado obliquamente, cuja ação produz ferida de bordas regulares e extremidades assimétricas.",
+      "D": "instrumento perfurante de secção poligonal, cuja penetração nos tecidos produz ferida com uma extremidade angular e outra romba, sem qualquer ação cortante associada."
     },
-    "resposta_correta": "C",
-    "justificativa": "A ferida perfuro-incisa em 'casa de botão' com uma extremidade angular e outra arredondada indica instrumento de um gume; com dois gumes, ambas as extremidades seriam angulares. A forma sofre influência das linhas de clivagem de Langer (p. 160-161). Isso valida C. A descreve o padrão de dois gumes. B e D descrevem feridas punctória e contusa, de morfologia distinta.",
+    "resposta_correta": "B",
+    "justificativa": "A ferida perfuro-incisa em 'casa de botão' com uma extremidade angular e outra arredondada indica instrumento de um gume; com dois gumes, ambas as extremidades seriam angulares. A forma sofre influência das linhas de clivagem de Langer (p. 160-161). Isso valida B. A atribui a assimetria ao ângulo de penetração de uma lâmina de dois gumes, quando dois gumes produzem duas extremidades angulares. C descreve ferida incisa, produzida por deslizamento, não por penetração. D descreve ferida punctória, cujas extremidades são desprovidas de ângulos.",
     "referencia": "PDF LOC, p. 160-161",
     "nivel": "dificil"
   },
@@ -20601,12 +20601,12 @@ const questoesDB = [
     "enunciado": "As feridas punctórias, produzidas por instrumentos perfurantes (prego, estilete, agulha), caracterizam-se por:",
     "alternativas": {
       "A": "forma circular ou ovalar, maior profundidade do que extensão, hemorragia externa escassa e extremidades desprovidas de ângulos.",
-      "B": "bordas regulares e nítidas, maior extensão do que profundidade, típicas do gume afiado.",
-      "C": "bordas irregulares com pontes de tecido e fraturas associadas.",
-      "D": "aspecto em 'casa de botão', com extremidades angulares."
+      "B": "forma circular, maior extensão do que profundidade e hemorragia externa abundante, em razão do afastamento das bordas provocado pela penetração.",
+      "C": "forma alongada com uma extremidade angular, profundidade superior à extensão e bordas regulares, sem pontes de tecido no fundo da lesão.",
+      "D": "forma irregular com bordas escoriadas e pontes de tecido no fundo, resultantes do esmagamento dos planos atravessados pelo instrumento."
     },
     "resposta_correta": "A",
-    "justificativa": "As feridas punctórias têm forma circular ou ovalar (podendo ser puntiforme), maior profundidade do que extensão, hemorragia externa escassa ou ausente e extremidades desprovidas de ângulos (p. 161-162). Isso valida A. B descreve a ferida incisa. C descreve a ferida contusa. D descreve a ferida perfuro-incisa.",
+    "justificativa": "As feridas punctórias têm forma circular ou ovalar (podendo ser puntiforme), maior profundidade do que extensão, hemorragia externa escassa ou ausente e extremidades desprovidas de ângulos (p. 161-162). Isso valida A. B inverte a relação profundidade/extensão e a intensidade da hemorragia, que é escassa. C descreve a ferida perfuro-incisa, com extremidade angular. D descreve a ferida contusa, com pontes de tecido.",
     "referencia": "PDF LOC, p. 161-162",
     "nivel": "medio"
   },
@@ -20617,13 +20617,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Ao examinar lesões por projétil de arma de fogo, o perito busca distinguir o orifício de entrada (OE) do orifício de saída (OS). É correto afirmar que:",
     "alternativas": {
-      "A": "o OE é geralmente maior que o OS, com bordas evertidas e sem orla de contusão.",
-      "B": "a orla de contusão está invariavelmente presente no OE (independentemente da distância do disparo); o OE costuma ser menor, com bordas invaginadas, enquanto o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem.",
-      "C": "as zonas de chamuscamento, esfumaçamento e tatuagem são típicas do OS, e não do OE.",
-      "D": "tanto o OE quanto o OS apresentam sempre orla de enxugo e tatuagem."
+      "A": "a orla de contusão está presente no orifício de entrada apenas nos disparos a curta distância, formando-se pela ação dos gases sobre a pele.",
+      "B": "a orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, de bordas invaginadas, e o OS, maior, de bordas evertidas e sem queimadura, esfumaçamento ou tatuagem.",
+      "C": "o orifício de saída, por corresponder à passagem do projétil já deformado pelos planos atravessados, apresenta orla de enxugo e zona de tatuagem sempre mais evidentes do que as observadas no orifício de entrada.",
+      "D": "o orifício de entrada é geralmente maior que o de saída, com bordas evertidas, sendo o tamanho relativo o critério mais seguro para distinguir os dois orifícios."
     },
     "resposta_correta": "B",
-    "justificativa": "A orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, com bordas invaginadas, e o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem (p. 165-167). Isso valida B. A inverte tamanho/bordas e nega a orla de contusão. C atribui as zonas ao OS. D generaliza orla de enxugo e tatuagem para ambos os orifícios.",
+    "justificativa": "A orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, com bordas invaginadas, e o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem (p. 165-167). Isso valida B. A condiciona a orla de contusão à curta distância, quando ela é invariável no OE, e a atribui aos gases, quando decorre do atrito do projétil. C transfere ao OS sinais próprios do OE. D inverte tamanho e bordas dos orifícios.",
     "referencia": "PDF LOC, p. 165-167",
     "nivel": "dificil"
   },
@@ -20634,13 +20634,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as zonas adjacentes ao orifício de entrada e os sinais de tiro encostado em arma de fogo, é correto afirmar que:",
     "alternativas": {
-      "A": "a zona de esfumaçamento (fuligem) pode ser removida com tecido umedecido, enquanto a tatuagem (grânulos de pólvora incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é lesão típica de tiro encostado sobre região óssea.",
-      "B": "a tatuagem é facilmente removida com tecido umedecido, e o esfumaçamento permanece incrustado na pele.",
-      "C": "a Câmara de Mina de Hofmann ocorre apenas em disparos a longa distância, sem contato com a pele.",
-      "D": "as zonas de chamuscamento, esfumaçamento e tatuagem independem da distância do disparo."
+      "A": "a tatuagem, por ser deposição superficial de resíduos, é removida com tecido umedecido, ao contrário do esfumaçamento, que se incrusta na derme.",
+      "B": "a Câmara de Mina de Hofmann forma-se nos disparos efetuados a curta distância sobre regiões de tecido mole, em que os gases da deflagração se difundem livremente no subcutâneo, sem encontrar a resistência de um plano ósseo.",
+      "C": "a zona de esfumaçamento (fuligem) pode ser removida com tecido umedecido, enquanto a tatuagem (grânulos de pólvora incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é típica de tiro encostado sobre região óssea.",
+      "D": "as zonas de chamuscamento, esfumaçamento e tatuagem formam-se independentemente da distância do disparo, refletindo apenas o tipo de pólvora empregada na munição."
     },
-    "resposta_correta": "A",
-    "justificativa": "A zona de esfumaçamento (deposição de fuligem) pode ser removida com tecido umedecido; a tatuagem (grânulos de pólvora incombusta incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é lesão típica de tiro encostado sobre região óssea, com ruptura estrelada e evertida (p. 166-167). Isso valida A. B inverte a remoção. C nega o caráter de tiro encostado da Câmara de Hofmann. D contraria a dependência das zonas em relação à distância do disparo.",
+    "resposta_correta": "C",
+    "justificativa": "A zona de esfumaçamento (deposição de fuligem) pode ser removida com tecido umedecido; a tatuagem (grânulos de pólvora incombusta incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é lesão típica de tiro encostado sobre região óssea, com ruptura estrelada e evertida (p. 166-167). Isso valida C. A inverte a remoção das duas zonas. B desloca a Câmara de Hofmann para tecidos moles a curta distância, quando ela decorre do tiro ENCOSTADO sobre plano ósseo, que reflete os gases. D nega a dependência das zonas em relação à distância do disparo, que é justamente o que permite estimá-la.",
     "referencia": "PDF LOC, p. 166-167",
     "nivel": "medio"
   },
@@ -20651,13 +20651,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na cronotanatognose aplicada aos locais de crime, a respeito da rigidez cadavérica (rigor mortis), é correto afirmar que:",
     "alternativas": {
-      "A": "instala-se imediatamente após a morte e permanece indefinidamente, sendo o sinal mais confiável isoladamente.",
-      "B": "instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas; ainda assim, a estimativa do tempo de morte nunca deve basear-se em um único sinal cadavérico.",
-      "C": "surge apenas após 36 horas e é o primeiro fenômeno cadavérico a se manifestar.",
-      "D": "desaparece em até 6 horas, sendo irrelevante para a estimativa do intervalo pós-morte."
+      "A": "instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas; ainda assim, a estimativa do tempo de morte nunca deve basear-se em um único sinal cadavérico.",
+      "B": "instala-se entre 2 e 3 horas após o óbito e progride até tornar-se definitiva, permanecendo assim até a completa esqueletização do cadáver, o que a torna o parâmetro isolado mais confiável de toda a cronotanatognose.",
+      "C": "instala-se imediatamente após a parada circulatória, atinge o máximo em cerca de 6 horas e desaparece em 12 horas, quando têm início os fenômenos transformativos.",
+      "D": "instala-se após o surgimento dos livores, entre 12 e 24 horas do óbito, e se desfaz na mesma sequência em que se instalou, permitindo datar a morte com precisão horária."
     },
-    "resposta_correta": "B",
-    "justificativa": "A rigidez cadavérica instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas (início da decomposição); a determinação do tempo de morte nunca deve se basear em um único sinal cadavérico, exigindo avaliação conjunta (p. 168-170). Isso valida B. A, C e D apresentam tempos e premissas incorretos sobre a instalação e o desaparecimento do rigor mortis.",
+    "resposta_correta": "A",
+    "justificativa": "A rigidez cadavérica instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas, com o início da decomposição; a determinação do tempo de morte nunca deve se basear em um único sinal cadavérico, exigindo avaliação conjunta (p. 168-170). Isso valida A. B acerta o início, mas torna a rigidez permanente e a eleva a parâmetro isolado confiável, contrariando a regra da avaliação conjunta. C e D erram os tempos de instalação, máximo e desaparecimento, e D ainda promete precisão horária que a cronotanatognose não oferece.",
     "referencia": "PDF LOC, p. 168-170",
     "nivel": "dificil"
   },
@@ -20668,13 +20668,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Os livores cadavéricos (livor mortis) fornecem informações relevantes ao exame do local. A respeito deles, é correto afirmar que:",
     "alternativas": {
-      "A": "são manchas violáceas pelo acúmulo de sangue nas regiões mais declives, surgindo em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição em que o corpo foi encontrado podem indicar remoção ou manipulação posterior.",
-      "B": "são manchas que surgem nas regiões mais elevadas do corpo, por ação da gravidade invertida.",
-      "C": "aparecem somente após 24 horas e não guardam relação com a posição do cadáver.",
-      "D": "quando incompatíveis com a posição do corpo, confirmam que a morte foi natural."
+      "A": "são manchas violáceas que surgem nas primeiras 24 horas de forma difusa por todo o corpo, sem relação com a posição em que o cadáver permaneceu.",
+      "B": "são manchas violáceas pelo acúmulo de sangue nas regiões mais declives, em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição do corpo podem indicar remoção ou manipulação posterior.",
+      "C": "são manchas violáceas que se formam nas regiões de apoio do corpo, por compressão dos tecidos contra a superfície, sendo tanto mais intensas quanto maior o peso corporal.",
+      "D": "são manchas violáceas de instalação imediata ao óbito, cuja fixação ocorre em poucos minutos, de modo que qualquer incompatibilidade com a posição do corpo exclui a hipótese de manipulação."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os livores são manchas violáceas pelo acúmulo de sangue nas regiões mais declives (gravidade), surgindo em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição em que o corpo foi encontrado podem indicar remoção ou manipulação posterior (p. 170). Isso valida A. B inverte a localização (regiões declives, não elevadas). C nega a relação temporal e posicional. D extrai conclusão indevida sobre morte natural.",
+    "resposta_correta": "B",
+    "justificativa": "Os livores são manchas violáceas pelo acúmulo de sangue nas regiões mais declives (por ação da gravidade), surgindo em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição em que o corpo foi encontrado podem indicar remoção ou manipulação posterior (p. 170). Isso valida B. A nega a relação com a posição, que é o dado mais útil dos livores. C confunde livor com a palidez das zonas de compressão — o livor se forma justamente onde o sangue se acumula, não pelo peso. D antecipa a fixação e inverte a conclusão: a incompatibilidade sugere manipulação, não a exclui.",
     "referencia": "PDF LOC, p. 170",
     "nivel": "medio"
   },
@@ -20685,13 +20685,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na asfixia por instrumento constritor, o sulco característico do enforcamento apresenta-se, em geral:",
     "alternativas": {
-      "A": "horizontal, contínuo (não interrompido), com bordos iguais.",
+      "A": "horizontal, contínuo em toda a circunferência do pescoço, de bordos iguais e situado abaixo da cartilagem tireoide.",
       "B": "único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente (bordos desiguais).",
-      "C": "múltiplo, horizontal e simétrico, sem qualquer interrupção.",
-      "D": "ausente, pois o enforcamento não deixa sulco no pescoço."
+      "C": "múltiplo e descendente, com bordos apergaminhados e escoriações semilunares associadas, produzidas pelas unhas da própria vítima.",
+      "D": "oblíquo e descendente, contínuo em toda a extensão, com maior profundidade justamente na região oposta ao ponto de suspensão do corpo."
     },
     "resposta_correta": "B",
-    "justificativa": "No enforcamento, o sulco é em geral único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente (bordos desiguais) (p. 175). Isso valida B. A descreve o estrangulamento (horizontal, não interrompido, bordos iguais). C generaliza características do estrangulamento. D nega a existência do sulco, que é característico do enforcamento.",
+    "justificativa": "No enforcamento, o sulco é em geral único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente, isto é, de bordos desiguais (p. 175). Isso valida B. A descreve o sulco do estrangulamento (horizontal, contínuo, bordos iguais). C atribui multiplicidade e direção descendente, além de escoriações típicas da esganadura. D inverte a direção (o sulco é ascendente) e a interrupção, que ocorre ao nível do nó.",
     "referencia": "PDF LOC, p. 175",
     "nivel": "medio"
   },
@@ -20702,13 +20702,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um local de morte por asfixia, o perito precisa diferenciar enforcamento, estrangulamento e esganadura. Assinale a alternativa correta:",
     "alternativas": {
-      "A": "no enforcamento o sulco é horizontal e não interrompido; no estrangulamento, oblíquo ascendente e interrompido; e na esganadura há sulco profundo e único.",
-      "B": "no enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento, em geral horizontal, não interrompido e de bordos iguais; e na esganadura não há sulco, observando-se escoriações e equimoses produzidas pela pressão de dedos e unhas no pescoço.",
-      "C": "nas três modalidades o sulco é idêntico, sendo impossível diferenciá-las pelo exame do pescoço.",
-      "D": "a esganadura produz sulco horizontal de bordos iguais, e o estrangulamento não deixa marcas externas."
+      "A": "no enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento, em geral horizontal, não interrompido e de bordos iguais; e na esganadura não há sulco, mas escoriações e equimoses produzidas por dedos e unhas.",
+      "B": "no enforcamento o sulco é horizontal e contínuo; no estrangulamento, oblíquo e interrompido; e na esganadura observa-se sulco profundo e único na região anterior do pescoço.",
+      "C": "no enforcamento e no estrangulamento os sulcos são indistinguíveis entre si, diferenciando-se apenas pela presença de fratura do osso hioide, exclusiva da esganadura.",
+      "D": "no enforcamento o sulco é oblíquo, ascendente e interrompido; no estrangulamento não se observam marcas externas no pescoço, por atuar o laço sobre plano profundo; e na esganadura o sulco apresenta-se horizontal, contínuo e de bordos iguais em toda a extensão."
     },
-    "resposta_correta": "B",
-    "justificativa": "No enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento é em geral horizontal, não interrompido e de bordos iguais; na esganadura (compressão por mãos/dedos) não há sulco, observando-se escoriações e equimoses pela pressão de dedos e unhas no pescoço (p. 175-176). Isso valida B. A inverte enforcamento e estrangulamento e atribui sulco à esganadura. C nega a possibilidade de diferenciação. D atribui sulco à esganadura e ignora as marcas do estrangulamento.",
+    "resposta_correta": "A",
+    "justificativa": "No enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento é em geral horizontal, não interrompido e de bordos iguais; na esganadura (compressão por mãos e dedos) não há sulco, observando-se escoriações e equimoses pela pressão de dedos e unhas no pescoço (p. 175-176). Isso valida A. B inverte enforcamento e estrangulamento e cria sulco na esganadura. C nega a diferenciação pelo exame do pescoço. D suprime as marcas do estrangulamento e atribui sulco à esganadura.",
     "referencia": "PDF LOC, p. 175-176",
     "nivel": "dificil"
   },
@@ -20736,13 +20736,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O processo de Identificação de Vítimas de Desastres (DVI), alinhado às diretrizes da INTERPOL, é composto por cinco etapas principais. Assinale a alternativa que as apresenta:",
     "alternativas": {
-      "A": "Local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação.",
-      "B": "Isolamento, fotografia, coleta, laudo e arquivamento.",
-      "C": "Preparação, chegada, busca, coleta e liberação.",
-      "D": "Inalação, contato, ingestão, injeção e descarte."
+      "A": "Preparação, chegada ao local, busca completa, coleta de vestígios e liberação da área.",
+      "B": "Local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação.",
+      "C": "Isolamento, documentação, coleta, elaboração do laudo e arquivamento do dossiê.",
+      "D": "Busca, recuperação, necropsia, reconhecimento visual e entrega dos corpos às famílias."
     },
-    "resposta_correta": "A",
-    "justificativa": "O processo DVI é composto por cinco etapas principais: local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação (p. 179). Isso valida A. B, C e D correspondem a etapas de outras matérias (processamento geral de local, rotas de exposição química), não ao processo DVI.",
+    "resposta_correta": "B",
+    "justificativa": "O processo DVI é composto por cinco etapas principais: local, post mortem (PM), ante mortem (AM), reconciliação e revisão de ações/preparação (p. 179). Isso valida B. A corresponde às etapas do processamento geral de um local de crime, tratadas no Cap. 4. C descreve um fluxo genérico de documentação pericial. D é a mais sedutora, mas insere o reconhecimento visual — que não é procedimento de identificação e é contraindicado em DVI — no lugar das etapas AM e de reconciliação.",
     "referencia": "PDF LOC, p. 179",
     "nivel": "facil"
   },
@@ -20770,13 +20770,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na etapa de reconciliação do processo DVI, uma equipe obtém resultado positivo de impressão digital (papiloscopia) para um corpo, enquanto outro corpo só conta com reconhecimento visual feito por um familiar. Considerando os métodos de identificação, é correto afirmar que:",
     "alternativas": {
-      "A": "o resultado papiloscópico positivo é suficiente para considerar o corpo identificado, pois papiloscopia, exame odontológico e DNA são métodos primários sem hierarquia entre si; já o reconhecimento visual não é considerado procedimento de identificação e é contraindicado em cenário DVI.",
-      "B": "o reconhecimento visual por familiar prevalece sobre a papiloscopia, por ser mais célere.",
-      "C": "é necessário o resultado positivo dos três métodos primários (papiloscopia, odontologia e DNA) simultaneamente para considerar um corpo identificado.",
-      "D": "a papiloscopia é método secundário, de modo que o resultado positivo apenas auxilia a triagem, sem identificar o corpo."
+      "A": "o corpo com papiloscopia positiva depende de confirmação por ao menos um segundo método primário, pois a identificação em DVI exige dupla convergência técnica.",
+      "B": "o reconhecimento visual por familiar, por partir de quem conviveu com a vítima, equivale a método primário quando registrado em termo e acompanhado de fotografia.",
+      "C": "o resultado papiloscópico positivo basta para identificar o corpo, pois papiloscopia, exame odontológico e DNA são métodos primários sem hierarquia entre si; já o reconhecimento visual não é procedimento de identificação e é contraindicado em DVI.",
+      "D": "a papiloscopia é considerada método primário apenas quando o corpo estiver íntegro; havendo qualquer alteração das polpas digitais por trauma ou decomposição, ela é rebaixada a método secundário, apto somente a orientar a triagem inicial dos corpos."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os métodos primários (papiloscopia, exame odontológico e DNA) não têm hierarquia entre si, bastando o resultado positivo de apenas um para que o corpo seja considerado identificado; o reconhecimento visual não é considerado procedimento de identificação e é contraindicado em DVI (p. 184). Isso valida A. B prioriza indevidamente o reconhecimento visual. C exige os três simultaneamente, contrariando a ausência de hierarquia. D rebaixa a papiloscopia a método secundário.",
+    "resposta_correta": "C",
+    "justificativa": "Os métodos primários (papiloscopia, exame odontológico e DNA) não têm hierarquia entre si, bastando o resultado positivo de apenas um para que o corpo seja considerado identificado; o reconhecimento visual não é considerado procedimento de identificação e é contraindicado em cenário DVI (p. 184). Isso valida C. A exige dupla convergência que a disciplina não impõe. B eleva o reconhecimento visual a método primário, quando ele sequer é procedimento de identificação. D condiciona a natureza do método à integridade do corpo, criando uma degradação de categoria inexistente.",
     "referencia": "PDF LOC, p. 184",
     "nivel": "dificil"
   },
@@ -20788,12 +20788,12 @@ const questoesDB = [
     "enunciado": "O Sistema de Comando de Incidentes (SCI), utilizado na etapa de local do processo DVI, é um modelo padronizado de gestão que:",
     "alternativas": {
       "A": "integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças.",
-      "B": "substitui a perícia de local por equipes militares exclusivas, sem coordenação interinstitucional.",
-      "C": "restringe-se à identificação genética das vítimas, sem relação com a gestão da resposta.",
-      "D": "é aplicável apenas a desastres naturais, não se prestando a eventos de origem humana."
+      "B": "estabelece uma cadeia de comando militar sobre as demais instituições presentes no cenário do desastre, cabendo à perícia atuar apenas como órgão consultivo do comandante da operação.",
+      "C": "define o fluxo de processamento dos corpos no necrotério, organizando as estações de exame das etapas post mortem e ante mortem.",
+      "D": "constitui protocolo de comunicação social do desastre, padronizando as informações divulgadas à imprensa e às famílias das vítimas."
     },
     "resposta_correta": "A",
-    "justificativa": "O SCI é um modelo padronizado de gestão que integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças (p. 180-181). Isso valida A. B nega a coordenação interinstitucional. C confunde o SCI com a identificação genética. D restringe indevidamente sua aplicação aos desastres naturais.",
+    "justificativa": "O SCI é um modelo padronizado de gestão que integra pessoas, recursos, procedimentos e comunicações sob estrutura organizacional única e flexível, com funções de comando, planejamento, operações, logística e administração/finanças (p. 180-181). Isso valida A. B transforma o modelo em subordinação militar, negando sua natureza interinstitucional e flexível. C o confunde com o fluxo de necrotério. D o reduz a protocolo de comunicação social, uma parte pequena diante da gestão integrada da resposta.",
     "referencia": "PDF LOC, p. 180-181",
     "nivel": "medio"
   },
@@ -20804,13 +20804,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na atividade de busca e recuperação de corpos em local de desastre, é correto afirmar que:",
     "alternativas": {
-      "A": "os fragmentos de corpos devem ser considerados corpos independentes e armazenados separadamente, não se devendo tentar correlacionar fragmentos ou vestígios não vinculados ainda no local; preenche-se o Formulário de Recuperação de Corpos (FRC).",
-      "B": "fragmentos de um mesmo corpo devem ser reunidos e correlacionados ainda no local, antes do envio.",
-      "C": "todos os corpos devem ser acondicionados em um único saco coletivo para agilizar o transporte.",
-      "D": "os vestígios vinculados ao corpo devem ser sempre desvinculados e enviados em embalagem separada."
+      "A": "os fragmentos reconhecidamente pertencentes a um mesmo corpo devem ser reunidos ainda no local, o que reduz a duplicidade de registros na etapa post mortem.",
+      "B": "os fragmentos devem ser considerados corpos independentes e armazenados separadamente, sem tentativa de correlacionar fragmentos ou vestígios não vinculados ainda no local; preenche-se o Formulário de Recuperação de Corpos (FRC).",
+      "C": "os vestígios encontrados junto ao corpo devem ser destacados e encaminhados em embalagem própria, para que sua análise não dependa do exame do cadáver.",
+      "D": "os corpos que se apresentem íntegros podem ser acondicionados coletivamente por setor de recuperação da área do desastre, desde que cada um deles receba etiqueta própria com a numeração do respectivo quadrante de origem."
     },
-    "resposta_correta": "A",
-    "justificativa": "Os fragmentos devem ser considerados corpos independentes e armazenados separadamente, não se devendo tentar correlacionar fragmentos ou vestígios não vinculados ainda no local; o FRC documenta cada corpo e suas circunstâncias (p. 181-182). Isso valida A. B contraria a vedação de correlacionar fragmentos no local. C contraria o uso de sacos individuais. D contraria a regra de não desvincular vestígios vinculados (salvo risco de perda).",
+    "resposta_correta": "B",
+    "justificativa": "Os fragmentos devem ser considerados corpos independentes e armazenados separadamente, não se devendo tentar correlacionar fragmentos ou vestígios não vinculados ainda no local; o FRC documenta cada corpo e suas circunstâncias (p. 181-182). Isso valida B. A antecipa ao local uma correlação que cabe às etapas seguintes, com risco de erro de vinculação. C desvincula vestígios do corpo, contrariando a regra de mantê-los vinculados (salvo risco de perda). D acondiciona corpos coletivamente, quando cada um deve ir em saco individual.",
     "referencia": "PDF LOC, p. 181-182",
     "nivel": "medio"
   },
@@ -20821,13 +20821,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Durante a etapa post mortem (PM) de um desastre em massa, a equipe discute a preservação dos corpos e os riscos sanitários. À luz das orientações da disciplina, é correto afirmar que:",
     "alternativas": {
-      "A": "recomenda-se manter os corpos entre 4 °C e 6 °C, sendo o gelo comum a melhor opção de resfriamento; além disso, cadáveres de desastres representam alto risco de epidemias.",
-      "B": "recomenda-se o resfriamento entre 4 °C e 6 °C (congelamento apenas em armazenamento prolongado), sendo o gelo comum contraindicado; e, em regra, cadáveres de desastres NÃO representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias.",
-      "C": "os corpos devem ser sempre congelados de imediato, independentemente do tempo de armazenamento.",
-      "D": "o fluxo de necrotério permite retirar o corpo do armazenamento diversas vezes, conforme a necessidade de cada exame."
+      "A": "recomenda-se o resfriamento entre 4 °C e 6 °C (congelamento apenas em armazenamento prolongado), sendo o gelo comum contraindicado; e, em regra, cadáveres de desastres NÃO representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias.",
+      "B": "recomenda-se o resfriamento entre 4 °C e 6 °C, admitido o uso de gelo comum sempre que indisponível a câmara fria; e os cadáveres recuperados devem ser tratados como fonte provável de epidemia, exigindo desinfecção química prévia ao armazenamento e ao exame post mortem.",
+      "C": "recomenda-se o congelamento imediato de todos os corpos recuperados, medida que interrompe a decomposição e viabiliza a coleta de material genético a qualquer tempo.",
+      "D": "recomenda-se o resfriamento entre 4 °C e 6 °C e o fluxo de necrotério em que o corpo é retirado do armazenamento tantas vezes quantas forem as estações de exame previstas no protocolo."
     },
-    "resposta_correta": "B",
-    "justificativa": "Recomenda-se o resfriamento entre 4 °C e 6 °C, com congelamento apenas em armazenamento prolongado, sendo o gelo comum contraindicado (danifica corpos/pertences); em regra, cadáveres de desastres não representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias (p. 183). Isso valida B. A recomenda gelo comum e afirma alto risco epidêmico. C generaliza o congelamento imediato. D contraria o fluxo sequencial, em que o corpo é retirado do armazenamento apenas uma vez.",
+    "resposta_correta": "A",
+    "justificativa": "Recomenda-se o resfriamento entre 4 °C e 6 °C, com congelamento apenas em armazenamento prolongado, sendo o gelo comum contraindicado (danifica corpos e pertences); em regra, cadáveres de desastres não representam risco significativo de epidemias, pois os óbitos decorrem de traumas, incêndios, explosões ou asfixias (p. 183). Isso valida A. B admite gelo comum e presume risco epidêmico, duas inversões. C generaliza o congelamento imediato, reservado ao armazenamento prolongado. D contraria o fluxo sequencial de necrotério, em que o corpo é retirado do armazenamento uma única vez.",
     "referencia": "PDF LOC, p. 183",
     "nivel": "dificil"
   },
@@ -20836,15 +20836,15 @@ const questoesDB = [
     "disciplina": "LOC - Locais de Crime e suas Interfaces",
     "conteudo": "Cap. 20 - Desastres de massa (DVI)",
     "tipo": "multipla_escolha",
-    "enunciado": "A etapa ante mortem (AM) do processo DVI consiste na coleta de informações sobre pessoas desaparecidas. Sobre essa etapa, é correto afirmar que:",
+    "enunciado": "Sobre a etapa ante mortem (AM) do processo DVI, assinale a alternativa INCORRETA:",
     "alternativas": {
-      "A": "baseia-se exclusivamente no exame dos corpos recuperados, sem participação de familiares.",
-      "B": "ocorre por duas frentes — entrevistas com familiares/amigos e busca de registros documentais (prontuários médicos e odontológicos, radiografias, impressões papiloscópicas e materiais biológicos de referência) —, sendo a coleta e o intercâmbio de dados de vítimas estrangeiras feitos por cooperação internacional, com apoio da INTERPOL.",
-      "C": "dispensa a construção de lista de vítimas, por ser tarefa da etapa de local.",
-      "D": "é conduzida sem qualquer cuidado com o acolhimento dos familiares, priorizando a celeridade."
+      "A": "Desenvolve-se por duas frentes de trabalho: as entrevistas com familiares e amigos dos desaparecidos e a busca de registros documentais, como prontuários médicos e odontológicos e radiografias anteriores.",
+      "B": "Compreende a obtenção de impressões papiloscópicas e de materiais biológicos de referência ligados à pessoa desaparecida.",
+      "C": "Por depender de dados sob jurisdição estrangeira, as informações de vítimas de outros países são obtidas diretamente pelas equipes em campo, sem intermediação de organismos internacionais.",
+      "D": "A construção da lista de vítimas é atividade central da etapa, conduzida com abordagem humanizada no contato com os familiares."
     },
-    "resposta_correta": "B",
-    "justificativa": "A etapa AM coleta dados de desaparecidos por duas frentes — entrevistas com familiares/amigos e busca de registros documentais (prontuários médicos e odontológicos, radiografias, impressões papiloscópicas e materiais biológicos de referência) —, e a coleta/intercâmbio de dados de vítimas estrangeiras se dá por cooperação internacional, com apoio da INTERPOL; é atividade central a construção da lista de vítimas, com abordagem humanizada (p. 183-184). Isso valida B. A confunde AM com PM. C nega a lista de vítimas. D ignora o acolhimento humanizado.",
+    "resposta_correta": "C",
+    "justificativa": "A alternativa C é a incorreta: a coleta e o intercâmbio de dados de vítimas estrangeiras se dão por cooperação internacional, com apoio da INTERPOL — e não diretamente pelas equipes em campo (p. 183-184). As demais são verdadeiras: a etapa AM opera por entrevistas e busca documental (A); reúne impressões papiloscópicas e material biológico de referência (B); e tem na lista de vítimas atividade central, com abordagem humanizada (D).",
     "referencia": "PDF LOC, p. 183-184",
     "nivel": "medio"
   },
@@ -20855,13 +20855,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Em um cenário DVI, o reconhecimento visual de um corpo por familiar ou testemunha:",
     "alternativas": {
-      "A": "é considerado método primário de identificação, equiparado ao DNA.",
-      "B": "não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI.",
-      "C": "é suficiente para a identificação, desde que confirmado por dois familiares.",
-      "D": "substitui o exame odontológico quando este não estiver disponível."
+      "A": "não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI.",
+      "B": "é admitido como método complementar de identificação quando convergente com dados ante mortem, como vestuário e objetos pessoais reconhecidos pela família.",
+      "C": "é considerado método secundário de identificação, apto a confirmar resultado de método primário inconclusivo.",
+      "D": "é válido apenas nos desastres fechados, em que a lista nominal prévia reduz o universo de vítimas possíveis e torna o reconhecimento confiável."
     },
-    "resposta_correta": "B",
-    "justificativa": "O reconhecimento visual por familiares ou testemunhas não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI (p. 184). Isso valida B. A e C tratam o reconhecimento visual como método válido/suficiente. D propõe substituição indevida do exame odontológico, que é método primário.",
+    "resposta_correta": "A",
+    "justificativa": "O reconhecimento visual por familiares ou testemunhas não é considerado procedimento de identificação, por não possuir base técnico-científica, sendo contraindicado em cenário DVI (p. 184). Isso valida A. B o admite como complemento a partir de vestuário e objetos, exatamente o tipo de associação que produz erros de identificação em desastres. C o classifica como método secundário, quando ele sequer é procedimento de identificação. D condiciona sua validade ao desastre fechado, distinção que a disciplina não faz.",
     "referencia": "PDF LOC, p. 184",
     "nivel": "facil"
   },
@@ -20872,13 +20872,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Considerando a classificação dos desastres quanto à natureza/causa, associe corretamente os exemplos: (i) terremoto e tsunami; (ii) atentado terrorista e rompimento de barragem; (iii) deslizamento de terra agravado por ocupação irregular.",
     "alternativas": {
-      "A": "(i) naturais; (ii) não naturais/antropogênicos; (iii) mistos.",
-      "B": "(i) mistos; (ii) naturais; (iii) antropogênicos.",
-      "C": "(i) antropogênicos; (ii) mistos; (iii) naturais.",
-      "D": "(i) naturais; (ii) mistos; (iii) antropogênicos."
+      "A": "(i) naturais; (ii) mistos; (iii) não naturais/antropogênicos.",
+      "B": "(i) mistos; (ii) naturais; (iii) não naturais/antropogênicos.",
+      "C": "(i) naturais; (ii) não naturais/antropogênicos; (iii) mistos.",
+      "D": "(i) não naturais/antropogênicos; (ii) mistos; (iii) naturais."
     },
-    "resposta_correta": "A",
-    "justificativa": "Quanto à natureza/causa, são naturais os decorrentes de fenômenos da natureza sem interferência humana direta (terremoto, tsunami); não naturais/antropogênicos os resultantes de ação ou omissão humana (atentado terrorista, rompimento de barragem); e mistos quando fatores naturais são agravados por intervenção humana (deslizamento agravado por ocupação irregular) (p. 180). Isso valida A. B, C e D associam incorretamente os exemplos às categorias.",
+    "resposta_correta": "C",
+    "justificativa": "Quanto à natureza/causa, são naturais os desastres decorrentes de fenômenos da natureza sem interferência humana direta (terremoto, tsunami); não naturais ou antropogênicos os resultantes de ação ou omissão humana (atentado terrorista, rompimento de barragem); e mistos aqueles em que fatores naturais são agravados por intervenção humana (deslizamento agravado por ocupação irregular) (p. 180). Isso valida C. A acerta o primeiro item, mas troca os dois últimos. B e D deslocam os terremotos e tsunamis para as categorias mista e antropogênica, quando são o exemplo clássico de desastre natural.",
     "referencia": "PDF LOC, p. 180",
     "nivel": "dificil"
   },
@@ -20889,13 +20889,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na etapa de revisão de ações e preparação do processo DVI, recomendam-se dois tipos de debriefing. Sobre eles, é correto afirmar que:",
     "alternativas": {
-      "A": "o debriefing diário analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI, enquanto o debriefing geral ocorre após a desmobilização da operação, abrangendo questões operacionais e institucionais mais amplas.",
-      "B": "o debriefing diário ocorre apenas após a desmobilização, e o geral, durante as operações.",
-      "C": "ambos os debriefings devem ser conduzidos por pessoa diretamente envolvida e sem qualquer preocupação com imparcialidade.",
-      "D": "a revisão de ações é dispensável, pois cada desastre é único e não gera lições aplicáveis a operações futuras."
+      "A": "o debriefing diário é conduzido por profissional externo e imparcial, e o geral, pelo Comandante de DVI, que reúne as equipes ao término de cada jornada de trabalho.",
+      "B": "ambos ocorrem somente após a desmobilização da operação, distinguindo-se apenas pelo alcance: o diário trata do desempenho das equipes operacionais e o geral, das instâncias institucionais envolvidas na resposta.",
+      "C": "o debriefing diário analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; o geral ocorre após a desmobilização, abrangendo questões operacionais e institucionais mais amplas.",
+      "D": "o debriefing diário registra as ocorrências para o relatório final, e o geral se destina exclusivamente ao suporte psicológico das equipes expostas ao cenário do desastre."
     },
-    "resposta_correta": "A",
-    "justificativa": "Recomendam-se dois debriefings: o diário, que analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; e o geral, após a desmobilização, abrangendo questões operacionais e institucionais mais amplas (recomendando-se, neste, condução por profissional qualificado e imparcial) (p. 185-186). Isso valida A. B inverte os momentos. C nega a busca de imparcialidade no debriefing geral. D nega o propósito da revisão (aprender e aprimorar para operações futuras).",
+    "resposta_correta": "C",
+    "justificativa": "Recomendam-se dois debriefings: o diário, que analisa o desempenho durante as operações em andamento e é conduzido pelo Comandante de DVI; e o geral, após a desmobilização, abrangendo questões operacionais e institucionais mais amplas, recomendando-se neste a condução por profissional qualificado e imparcial (p. 185-186). Isso valida C. A troca os condutores de cada debriefing. B situa os dois após a desmobilização, quando o diário ocorre durante as operações. D reduz o debriefing geral a suporte psicológico, ignorando sua função de revisão operacional e institucional.",
     "referencia": "PDF LOC, p. 185-186",
     "nivel": "medio"
   },
@@ -20906,13 +20906,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "O laudo pericial de local de crime pode ser definido como:",
     "alternativas": {
-      "A": "a peça escrita que representa o relatório dos exames, na qual os peritos expõem o roteiro dos trabalhos, descrevem as técnicas e métodos, consignam o que observam, emitem a conclusão e, no caso dos exames de local, propõem a dinâmica dos fatos com base nos vestígios.",
-      "B": "o auto de prisão em flagrante lavrado pela autoridade policial no local do crime.",
-      "C": "o relatório de inteligência que reúne os depoimentos das testemunhas presentes.",
-      "D": "a portaria de instauração do inquérito policial assinada pelo delegado."
+      "A": "a peça escrita que reúne o relato das diligências realizadas e as versões colhidas junto às pessoas presentes na cena, cabendo ao perito consolidá-las em documento único e submetê-las à autoridade policial para o devido juízo de valor.",
+      "B": "a peça escrita que representa o relatório dos exames, em que os peritos expõem o roteiro dos trabalhos, descrevem técnicas e métodos, consignam o que observam, concluem e, nos exames de local, propõem a dinâmica dos fatos com base nos vestígios.",
+      "C": "a peça escrita destinada a documentar a cadeia de custódia dos vestígios coletados, da cena ao laboratório, sem juízo conclusivo sobre a dinâmica do evento.",
+      "D": "a peça escrita que descreve objetivamente o que foi observado na cena, vedado ao perito propor hipóteses sobre a dinâmica, matéria reservada à autoridade judiciária."
     },
-    "resposta_correta": "A",
-    "justificativa": "O laudo pericial é a peça escrita que representa o relatório dos exames, na qual os peritos expõem o roteiro dos trabalhos, descrevem as técnicas e métodos científicos, consignam o que observam, emitem a conclusão e, nos exames de local, propõem a dinâmica dos fatos com base nos vestígios (p. 187). Isso valida A. B, C e D referem-se a documentos de natureza diversa (auto de prisão, relatório de inteligência, portaria de inquérito).",
+    "resposta_correta": "B",
+    "justificativa": "O laudo pericial é a peça escrita que representa o relatório dos exames, na qual os peritos expõem o roteiro dos trabalhos, descrevem as técnicas e métodos científicos, consignam o que observam, emitem a conclusão e, nos exames de local, propõem a dinâmica dos fatos com base nos vestígios (p. 187). Isso valida B. A converte o laudo em consolidação de versões subjetivas, quando o perito conclui a partir dos vestígios. C o reduz a documento de cadeia de custódia, suprimindo a conclusão. D veda ao perito propor a dinâmica, que é justamente uma de suas atribuições no exame de local.",
     "referencia": "PDF LOC, p. 187",
     "nivel": "facil"
   },
@@ -20923,13 +20923,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto ao prazo para elaboração do laudo pericial, o art. 160, parágrafo único, do CPP estabelece que:",
     "alternativas": {
-      "A": "o prazo é de 30 dias, improrrogável.",
-      "B": "o prazo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos.",
-      "C": "o prazo é de 48 horas, contadas da requisição da autoridade.",
-      "D": "não há prazo legal para a elaboração do laudo pericial."
+      "A": "o prazo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos.",
+      "B": "o prazo é de 30 dias, improrrogável, contado da data da requisição feita pela autoridade policial.",
+      "C": "o prazo é de 10 dias, improrrogável, sob pena de responsabilidade funcional do perito designado.",
+      "D": "não há prazo legal, sujeitando-se a entrega do laudo à conveniência da unidade pericial responsável."
     },
-    "resposta_correta": "B",
-    "justificativa": "O art. 160, parágrafo único, do CPP estabelece que o prazo para elaboração do laudo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos (p. 188). Isso valida B. A, C e D apresentam prazos ou regimes incorretos.",
+    "resposta_correta": "A",
+    "justificativa": "O art. 160, parágrafo único, do CPP estabelece que o prazo para elaboração do laudo é de 10 dias, podendo ser prorrogado, em casos excepcionais, a requerimento dos peritos (p. 188). Isso valida A. B erra o prazo e o regime. C acerta o prazo, mas o declara improrrogável — a prorrogação excepcional é justamente o que o dispositivo autoriza. D nega a existência de prazo legal, quando ele está expresso no Código.",
     "referencia": "PDF LOC, p. 188",
     "nivel": "medio"
   },
@@ -20941,12 +20941,12 @@ const questoesDB = [
     "enunciado": "Conforme o art. 24 da Portaria DITEC/PF nº 1.192/2022, os tópicos do laudo dividem-se em obrigatórios e facultativos. Assinale a alternativa correta:",
     "alternativas": {
       "A": "São obrigatórios o preâmbulo, o objeto, o objetivo, o exame e a conclusão; são facultativos o resumo, o sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e o histórico.",
-      "B": "São obrigatórios o resumo, o sumário e o histórico; são facultativos o preâmbulo, o objeto e a conclusão.",
-      "C": "Todos os tópicos são obrigatórios, inclusive o resumo e o sumário, em qualquer laudo.",
-      "D": "O exame e a conclusão são facultativos, ficando a critério do perito incluí-los."
+      "B": "São obrigatórios o preâmbulo, o objeto, o histórico e a conclusão; são facultativos o objetivo, o exame e o sumário, este último exigido apenas nos laudos com mais de 50 páginas.",
+      "C": "São obrigatórios todos os tópicos nos laudos de local de crime, dada sua complexidade, reservando-se a faculdade de supressão aos laudos de outras áreas periciais.",
+      "D": "São obrigatórios o preâmbulo, o objeto, o objetivo e o exame, sendo a conclusão facultativa quando os vestígios não permitirem juízo categórico sobre a dinâmica."
     },
     "resposta_correta": "A",
-    "justificativa": "Pelo art. 24 da Portaria DITEC/PF nº 1.192/2022, são obrigatórios: preâmbulo, objeto, objetivo, exame e conclusão; e facultativos: resumo, sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e histórico (p. 189). Isso valida A. B inverte obrigatórios e facultativos. C torna tudo obrigatório. D classifica como facultativos o exame e a conclusão, que são obrigatórios.",
+    "justificativa": "Pelo art. 24 da Portaria DITEC/PF nº 1.192/2022, são obrigatórios o preâmbulo, o objeto, o objetivo, o exame e a conclusão; e facultativos o resumo, o sumário (laudo com mais de 30 páginas ou quando a complexidade exigir) e o histórico (p. 189). Isso valida A. B torna o histórico obrigatório e rebaixa objetivo e exame a facultativos, além de errar o limite de páginas do sumário. C nega a existência de tópicos facultativos nos laudos de local. D é a pegadinha mais fina: a conclusão é sempre obrigatória — quando faltam elementos, registra-se de forma fundamentada a impossibilidade de conclusão categórica, e não se suprime o tópico.",
     "referencia": "PDF LOC, p. 189",
     "nivel": "dificil"
   },
@@ -20957,13 +20957,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a realização do exame de corpo de delito, o art. 161 do CPP dispõe que:",
     "alternativas": {
-      "A": "o exame só pode ser realizado em dias úteis e no horário comercial.",
+      "A": "o exame será realizado preferencialmente em dia útil e no horário de expediente da unidade pericial responsável.",
       "B": "o exame pode ser feito em qualquer dia e a qualquer hora, inclusive aos sábados, domingos, feriados e à noite.",
-      "C": "o exame depende de autorização judicial específica para ser realizado fora do horário forense.",
-      "D": "o exame só pode ser realizado após o decurso de 24 horas da ocorrência do fato."
+      "C": "o exame realizado fora do horário forense depende de autorização judicial específica, salvo em caso de flagrante.",
+      "D": "o exame somente pode ser realizado depois de decorridas 24 horas da ocorrência do fato investigado."
     },
     "resposta_correta": "B",
-    "justificativa": "O art. 161 do CPP autoriza que o exame de corpo de delito seja feito em qualquer dia e a qualquer hora (inclusive sábados, domingos, feriados e à noite), o que é importante porque, quanto mais próxima da ocorrência, maior a chance de sucesso da diligência (p. 188-189). Isso valida B. A, C e D criam restrições de dia, horário ou autorização inexistentes.",
+    "justificativa": "O art. 161 do CPP autoriza que o exame de corpo de delito seja feito em qualquer dia e a qualquer hora, inclusive sábados, domingos, feriados e à noite, o que é importante porque, quanto mais próxima da ocorrência, maior a chance de sucesso da diligência (p. 188-189). Isso valida B. A cria preferência por dia útil e expediente, incompatível com a urgência do exame. C condiciona o exame noturno à autorização judicial, exigência inexistente. D impõe carência de 24 horas, exatamente o oposto da lógica de atuar o quanto antes.",
     "referencia": "PDF LOC, p. 188-189",
     "nivel": "medio"
   },
@@ -20974,13 +20974,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "No âmbito da Polícia Federal, ao se aplicar o art. 178 do CPP (requisição do exame ao 'diretor da repartição'), entende-se por diretor da repartição:",
     "alternativas": {
-      "A": "o juiz competente para o processo.",
+      "A": "o Diretor-Geral da Polícia Federal, a quem se dirigem todas as requisições de exames periciais.",
       "B": "o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias.",
-      "C": "o Diretor-Geral da Polícia Federal, em qualquer caso.",
-      "D": "o promotor de justiça responsável pela denúncia."
+      "C": "o delegado de polícia federal titular da unidade em que tramita o inquérito policial correspondente.",
+      "D": "o perito criminal federal mais antigo lotado na unidade responsável pela realização do exame."
     },
     "resposta_correta": "B",
-    "justificativa": "No âmbito da PF, o 'diretor da repartição' a que se refere o art. 178 do CPP é o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias (os exames do Instituto Nacional de Criminalística são requisitados ao seu diretor) (p. 187). Isso valida B. A e D referem-se a autoridades judiciária e ministerial, não ao diretor da repartição pericial. C generaliza indevidamente para o Diretor-Geral.",
+    "justificativa": "No âmbito da PF, o 'diretor da repartição' a que se refere o art. 178 do CPP é o chefe do SETEC, nas Superintendências Regionais, ou o chefe do NUTEC, nas Delegacias — sendo os exames do Instituto Nacional de Criminalística requisitados ao seu diretor (p. 187). Isso valida B. A centraliza no Diretor-Geral requisições que se dirigem às chefias das unidades periciais. C confunde a autoridade requisitante com o dirigente da repartição destinatária. D elege critério de antiguidade, estranho à estrutura de chefia prevista.",
     "referencia": "PDF LOC, p. 187",
     "nivel": "medio"
   },
@@ -20991,13 +20991,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na seção de dinâmica do evento do laudo, o CPP destaca a importância do estabelecimento da dinâmica em situações específicas. A respeito dos arts. 171 e 173 do CPP, é correto afirmar que:",
     "alternativas": {
-      "A": "o art. 171 trata dos crimes cometidos com destruição/rompimento de obstáculo ou por escalada (indicar instrumentos, meios e época), e o art. 173 trata do incêndio (verificar causa, local de início, perigo, extensão e valor do dano).",
-      "B": "o art. 171 trata do incêndio, e o art. 173, do rompimento de obstáculo.",
-      "C": "ambos os artigos tratam exclusivamente da coleta de impressões digitais no local.",
-      "D": "os arts. 171 e 173 dispensam o perito de indicar os instrumentos e os meios empregados no crime."
+      "A": "o art. 171 trata dos crimes com destruição/rompimento de obstáculo ou por escalada (indicar instrumentos, meios e época) e o art. 173, do incêndio (causa, local de início, perigo, extensão e valor do dano).",
+      "B": "o art. 171 trata do incêndio, exigindo a apuração da causa e do valor do dano, e o art. 173, dos crimes cometidos com rompimento de obstáculo ou escalada.",
+      "C": "ambos tratam do rompimento de obstáculo, diferenciando-se apenas quanto ao momento do exame: o art. 171 na cena e o art. 173 em complementação laboratorial.",
+      "D": "o art. 171 exige apenas a indicação dos instrumentos e dos meios empregados na prática do crime, dispensando o perito de estimar a época do fato, cuja definição compete à autoridade policial."
     },
     "resposta_correta": "A",
-    "justificativa": "O art. 171 do CPP trata dos crimes cometidos com destruição/rompimento de obstáculo ou por escalada, exigindo que os peritos indiquem com que instrumentos, por que meios e em que época presumem ter sido o fato praticado; o art. 173 trata do incêndio (causa, local de início, perigo, extensão e valor do dano) (p. 194). Isso valida A. B inverte os artigos. C e D negam o conteúdo dos dispositivos.",
+    "justificativa": "O art. 171 do CPP trata dos crimes cometidos com destruição/rompimento de obstáculo ou por escalada, exigindo que os peritos indiquem com que instrumentos, por que meios e em que época presumem ter sido o fato praticado; o art. 173 trata do incêndio (causa, local de início, perigo, extensão e valor do dano) (p. 194). Isso valida A. B inverte os dois dispositivos. C atribui o mesmo objeto aos dois artigos e inventa distinção por momento do exame. D suprime a indicação da época, expressamente exigida pelo art. 171.",
     "referencia": "PDF LOC, p. 194",
     "nivel": "dificil"
   },
@@ -21009,12 +21009,12 @@ const questoesDB = [
     "enunciado": "Sobre o preâmbulo do laudo pericial, é correto afirmar que:",
     "alternativas": {
       "A": "a numeração dos laudos é sequencial, comum a todas as áreas e unidades de criminalística, e reinicia no primeiro dia de cada ano.",
-      "B": "cada perito adota uma numeração própria e independente, que nunca se reinicia.",
-      "C": "a numeração é definida pelo juízo competente no momento da juntada do laudo aos autos.",
-      "D": "o preâmbulo é tópico facultativo, podendo ser suprimido em laudos simples."
+      "B": "a numeração dos laudos é sequencial dentro de cada área de perícia, o que permite identificar a especialidade pelo próprio número da peça, sem reinício anual.",
+      "C": "a numeração é atribuída pela unidade requisitante no momento da requisição do exame, acompanhando o número do inquérito policial correspondente.",
+      "D": "por integrar tópico facultativo, o preâmbulo pode ser suprimido nos laudos simples, hipótese em que a identificação do exame consta apenas da conclusão."
     },
     "resposta_correta": "A",
-    "justificativa": "A numeração dos laudos é sequencial, comum a todas as áreas de perícia e a todas as unidades de criminalística, e se reinicia no primeiro dia de cada ano (p. 189-190). Isso valida A. B nega o caráter comum e sequencial e o reinício anual. C atribui a numeração ao juízo. D classifica o preâmbulo como facultativo, quando é tópico obrigatório.",
+    "justificativa": "A numeração dos laudos é sequencial, comum a todas as áreas de perícia e a todas as unidades de criminalística, e se reinicia no primeiro dia de cada ano (p. 189-190). Isso valida A. B fragmenta a numeração por área e elimina o reinício anual, dois erros. C vincula a numeração ao inquérito e à unidade requisitante, quando ela é própria do sistema de criminalística. D classifica o preâmbulo como facultativo, quando ele é tópico obrigatório do laudo.",
     "referencia": "PDF LOC, p. 189-190",
     "nivel": "medio"
   },
@@ -21025,13 +21025,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à conclusão do laudo pericial, é correto afirmar que:",
     "alternativas": {
-      "A": "deve ser sempre categórica, sendo vedado ao perito apresentar conclusão parcial ou registrar a impossibilidade de concluir.",
-      "B": "deve ser clara e objetiva, admitindo-se conclusão parcial (excluindo hipóteses) e, quando faltarem elementos, o registro fundamentado da impossibilidade de conclusão categórica.",
-      "C": "pode limitar-se a remeter o leitor às fotografias, sem texto conclusivo.",
-      "D": "deve repetir integralmente a seção de exames, sem síntese."
+      "A": "deve ser clara e objetiva, admitindo-se conclusão parcial (excluindo hipóteses) e, quando faltarem elementos, o registro fundamentado da impossibilidade de conclusão categórica.",
+      "B": "deve ser categórica quanto à dinâmica dos fatos, ainda que os vestígios sejam escassos, cabendo ao perito eleger a hipótese mais provável entre as compatíveis com a cena.",
+      "C": "deve reproduzir de forma condensada toda a seção de exames, de modo que o leitor possa conferir cada achado sem consultar o corpo do laudo.",
+      "D": "deve remeter às fotografias e ao croqui, que já expressam o resultado dos exames, dispensando texto conclusivo quando a documentação for suficientemente ilustrativa."
     },
-    "resposta_correta": "B",
-    "justificativa": "A conclusão deve ser clara e objetiva; quando os peritos não reúnem elementos suficientes, deve constar a impossibilidade de conclusão categórica e seus motivos, sendo também admissível a conclusão parcial, que exclui hipóteses e delimita o trabalho da investigação (p. 194-195). Isso valida B. A veda indevidamente a conclusão parcial/inconclusiva. C e D esvaziam a função sintética e objetiva da conclusão.",
+    "resposta_correta": "A",
+    "justificativa": "A conclusão deve ser clara e objetiva; quando os peritos não reúnem elementos suficientes, deve constar a impossibilidade de conclusão categórica e seus motivos, sendo também admissível a conclusão parcial, que exclui hipóteses e delimita o trabalho da investigação (p. 194-195). Isso valida A. B força juízo categórico sobre vestígios escassos, escolhendo a hipótese 'mais provável' — exatamente o que a conclusão fundamentada de impossibilidade evita. C converte a conclusão em resumo dos exames, perdendo sua função sintética. D dispensa o texto conclusivo, esvaziando um tópico obrigatório.",
     "referencia": "PDF LOC, p. 194-195",
     "nivel": "facil"
   },
@@ -21042,13 +21042,13 @@ const questoesDB = [
     "tipo": "multipla_escolha",
     "enunciado": "Na seção de histórico do laudo, quanto ao isolamento e à preservação do local, o art. 11 da Instrução Técnica DITEC/DPF nº 20/2013 estabelece que:",
     "alternativas": {
-      "A": "o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, devendo as condições de isolamento e preservação ser documentadas por fotografias e/ou filmagens.",
-      "B": "as alterações do estado das coisas não precisam constar do laudo, por serem irrelevantes à dinâmica.",
-      "C": "o registro do isolamento deve ser feito exclusivamente por escrito, sendo vedado o uso de fotografias ou filmagens.",
-      "D": "a documentação do isolamento é responsabilidade do delegado, não cabendo ao perito relatá-la no laudo."
+      "A": "as alterações do estado das coisas devem ser relatadas, dispensada a discussão de suas consequências, matéria reservada à conclusão e ao juízo da autoridade.",
+      "B": "o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, documentando as condições de isolamento e preservação por fotografias e/ou filmagens.",
+      "C": "a documentação das condições de isolamento deve ser feita por termo escrito assinado pelo agente responsável pela preservação da área, admitindo-se as fotografias e filmagens apenas como complemento facultativo do registro.",
+      "D": "compete ao delegado registrar as condições de isolamento e preservação, cabendo ao perito reproduzir esse registro no histórico do laudo, sem análise própria."
     },
-    "resposta_correta": "A",
-    "justificativa": "O art. 11 da IT DITEC/DPF nº 20/2013 dispõe que o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, e que as condições de isolamento e preservação devem ser documentadas por fotografias e/ou filmagens (p. 190). Isso valida A. B dispensa indevidamente o relato das alterações. C veda fotografias/filmagens, contrariando a norma. D transfere ao delegado uma responsabilidade que é do perito no laudo.",
+    "resposta_correta": "B",
+    "justificativa": "O art. 11 da Instrução Técnica DITEC/DPF nº 20/2013 dispõe que o perito deve relatar as alterações do estado das coisas e discutir suas consequências para a apuração da dinâmica dos fatos, e que as condições de isolamento e preservação devem ser documentadas por fotografias e/ou filmagens (p. 190). Isso valida B. A suprime justamente a discussão das consequências, que a norma exige (em linha com o art. 169 do CPP). C substitui o registro por imagem por termo escrito e rebaixa as fotografias a complemento. D transfere ao delegado uma tarefa que a norma atribui ao perito.",
     "referencia": "PDF LOC, p. 190",
     "nivel": "medio"
   },
@@ -21060,12 +21060,12 @@ const questoesDB = [
     "enunciado": "Na seção de exames do laudo, ao caracterizar o instrumento ou meio empregado na prática do crime (arma de fogo, chave falsa, veneno), o perito observa o disposto no art. 175 do CPP, segundo o qual:",
     "alternativas": {
       "A": "os instrumentos empregados para a prática da infração serão sujeitos a exame, a fim de se lhes verificar a natureza e a eficiência.",
-      "B": "os instrumentos do crime devem ser destruídos imediatamente após a apreensão, dispensado o exame.",
-      "C": "o exame dos instrumentos é facultativo e independe de qualquer verificação de eficiência.",
-      "D": "apenas armas de fogo podem ser submetidas a exame, excluídos os demais instrumentos."
+      "B": "os instrumentos empregados serão examinados quanto à natureza, dispensando-se a verificação de eficiência quando a materialidade do crime já estiver comprovada por outros vestígios.",
+      "C": "o exame dos instrumentos é obrigatório apenas quando houver dúvida sobre a autoria, hipótese em que se verifica também a existência de vestígios de uso recente.",
+      "D": "os instrumentos apreendidos devem ser periciados no prazo de 48 horas, sob pena de perda de eficácia probatória do exame realizado posteriormente."
     },
     "resposta_correta": "A",
-    "justificativa": "O art. 175 do CPP dispõe que serão sujeitos a exame os instrumentos empregados para a prática da infração, a fim de se lhes verificar a natureza e a eficiência; na seção de vestígios/exames, atenção especial é dada à caracterização do instrumento ou meio empregado (p. 192-193). Isso valida A. B propõe destruição e dispensa do exame, contrariando a norma. C trata o exame como facultativo, sem verificação de eficiência. D restringe indevidamente o exame às armas de fogo.",
+    "justificativa": "O art. 175 do CPP dispõe que serão sujeitos a exame os instrumentos empregados para a prática da infração, a fim de se lhes verificar a natureza E a eficiência; na seção de vestígios/exames, atenção especial é dada à caracterização do instrumento ou meio empregado (p. 192-193). Isso valida A. B dispensa a verificação de eficiência, que o dispositivo exige ao lado da natureza. C condiciona o exame à dúvida sobre a autoria, restrição que a norma não faz. D inventa prazo de 48 horas e sanção de perda de eficácia probatória, inexistentes.",
     "referencia": "PDF LOC, p. 192-193",
     "nivel": "dificil"
   },

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1397,
+    "alternativas": {
+      "A": "as passivas registram o ambiente sem intervenção do operador, enquanto as ativas exigem o posicionamento manual de alvos e escalas na cena documentada.",
+      "B": "as passivas captam a radiação térmica naturalmente emitida pelos objetos, ao passo que as ativas trabalham com a luz visível refletida pela cena.",
+      "C": "as passivas utilizam fotografias e dependem de luz (natural ou artificial); as ativas usam laser ou luz própria emitida pelo equipamento, sem depender de luz externa.",
+      "D": "as passivas geram cópias digitais apenas bidimensionais, reservando-se às ativas a produção de nuvens de pontos e modelos tridimensionais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As técnicas passivas usam fotografias e, por isso, dependem de luz (natural ou artificial); as ativas usam laser ou padrões de luz emitidos pelo próprio equipamento, não dependendo de luz externa (p. 77-79). Isso valida C. A troca o critério (emissão de luz própria) por suposta intervenção do operador. B inventa distinção por radiação térmica, alheia à classificação. D é falsa porque as passivas também geram produtos 3D — a fotogrametria produz modelos tridimensionais a partir de fotos."
+  },
+  {
+    "id": 1398,
+    "alternativas": {
+      "A": "combinar, por software específico, centenas ou milhares de fotos de um mesmo local ou objeto, gerando ortofotos (2D), modelos de elevação de terreno e produtos 3D.",
+      "B": "projetar padrões de luz sobre o objeto e medir sua deformação nas imagens capturadas, alcançando altíssima resolução de detalhe.",
+      "C": "cruzar imagens de câmeras fixas previamente calibradas com varreduras a laser do ambiente, técnica mista da qual resulta a nuvem de pontos colorizada da cena documentada.",
+      "D": "extrair medidas reais de uma única fotografia ortogonal, a partir da escala introduzida na cena no momento do registro."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A fotogrametria combina, com softwares específicos, centenas ou milhares de fotos de um mesmo local/objeto, gerando ortofotos (2D), modelos de elevação de terreno e produtos 3D (p. 78). Isso valida A. B descreve a luz estruturada, técnica ativa. C inventa uma técnica mista foto+laser que não corresponde à fotogrametria, que é puramente passiva (fotografias). D reduz a técnica à medição sobre foto única com escala, quando sua essência é a combinação de grande quantidade de imagens."
+  },
+  {
+    "id": 1399,
+    "alternativas": {
+      "A": "compostos por vistas panorâmicas costuradas em plano único, nas quais a navegação se dá por rolagem contínua da imagem, sem pontos de observação fixos.",
+      "B": "consistentes em modelos tridimensionais navegáveis da cena, gerados pela fusão das fotos esféricas com dados de elevação do terreno.",
+      "C": "de medição métrica precisa, que permitem extrair distâncias e ângulos reais entre os vestígios diretamente das imagens esféricas.",
+      "D": "semelhantes ao Google Street View, com hotspots a partir dos quais se enxerga ao redor em todos os ângulos e se navega para outros hotspots próximos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os passeios virtuais com fotos 360° geram produtos semelhantes ao Google Street View: há hotspots em que se enxerga ao redor em todos os ângulos e a partir dos quais se navega para outros hotspots próximos (p. 77-78). Isso valida D. A descarta justamente os hotspots, que são os pontos fixos de observação característicos do produto. B transforma o passeio em modelo 3D com dados de elevação, produtos de outras técnicas (fotogrametria). C atribui ao produto função métrica de precisão que ele não tem — o passeio serve à visualização e revisitação da cena, não à extração de medidas."
+  },
+  {
+    "id": 1400,
+    "alternativas": {
+      "A": "emite pulsos de luz codificada sobre o objeto e mede o tempo de retorno de cada pulso, combinando o grande alcance característico do laser com a resolução das técnicas fotográficas passivas.",
+      "B": "projeta padrões de luz no objeto e captura sua deformação; é excelente para detalhes (alta resolução), porém lenta, de pequeno alcance e inadequada para objetos muito grandes.",
+      "C": "projeta uma malha de referência sobre a cena para orientar a fotogrametria, técnica passiva da qual é considerada uma variante auxiliar.",
+      "D": "varre o objeto com feixe contínuo de luz coerente, sendo indicada para grandes ambientes pela velocidade de captura e amplo campo de visão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A luz estruturada projeta padrões de luz no objeto e captura sua deformação; é excelente em capturar detalhes (alta resolução), porém demorada, de pequeno alcance e campo de visão reduzido, inadequada para locais maiores ou objetos grandes (p. 79). Isso valida B. A mistura o princípio do laser (tempo de voo) com a resolução da luz estruturada, híbrido que não descreve a técnica. C a rebaixa a auxiliar da fotogrametria e a classifica como passiva, quando é técnica ativa autônoma. D inverte suas limitações: a técnica é lenta e de pequeno alcance, inadequada para grandes ambientes — domínio do laser."
+  },
+  {
+    "id": 1403,
+    "alternativas": {
+      "A": "operam por ultrassom, medindo o retorno de ondas sonoras emitidas contra a superfície do objeto examinado.",
+      "B": "empregam campos eletromagnéticos de indução, que reproduzem o volume de objetos metálicos sem necessidade de toque.",
+      "C": "utilizam sensores de profundidade infravermelhos, que dispensam tanto a ótica convencional quanto o contato físico.",
+      "D": "são de natureza mecânica e capturam o formato do objeto por contato físico, como um braço articulado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Entre as técnicas ativas, há equipamentos puramente mecânicos (não usam ótica) que capturam o formato do objeto por contato físico, como um braço articulado (p. 79). Isso valida D. A (ultrassom), B (indução eletromagnética) e C (sensores infravermelhos) descrevem princípios que não correspondem aos equipamentos citados pela disciplina, cuja característica é justamente a captura MECÂNICA, por contato físico, sem ótica nem emissões."
+  },
+  {
+    "id": 1404,
+    "alternativas": {
+      "A": "a etapa do processamento em que os vestígios coletados na cena são digitalizados em laboratório, passando a integrar o dossiê digital do exame ao lado das fotografias produzidas durante o levantamento do local.",
+      "B": "o emprego padronizado da varredura a laser nos locais de crime, tecnologia apontada pela disciplina como substituta da documentação fotográfica tradicional.",
+      "C": "um conjunto de técnicas que documentam um cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis e revisitáveis em computador, das quais se extraem produtos periciais.",
+      "D": "a reconstituição simulada do fato em ambiente virtual, elaborada a partir do croqui e dos depoimentos, para ilustrar a dinâmica do evento no laudo pericial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A captura da realidade é um conjunto de técnicas que documentam cenário, local ou objeto por meios digitais diversos, obtendo cópias digitais analisáveis, revistas e revisitáveis em computador, das quais se extraem diversos produtos com finalidades periciais (p. 77). Isso valida C. A a confunde com digitalização de vestígios em laboratório — a captura documenta a própria cena. B a reduz a uma única tecnologia (laser) e supõe substituição da fotografia, quando as técnicas convivem. D a confunde com reconstituição simulada a partir de croqui e depoimentos, quando a captura parte do próprio local real."
+  }
+]

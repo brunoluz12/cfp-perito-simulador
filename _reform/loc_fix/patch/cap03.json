@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1334,
+    "alternativas": {
+      "A": "isolar a área estritamente necessária ao exame do ambiente imediato, transferindo ao ambiente mediato o controle de acesso mediante revista e identificação.",
+      "B": "delimitar o perímetro a partir do ponto em que se encontra o corpo de delito, em raio fixo definido pelo protocolo da unidade, ampliando-o apenas por ordem do perito.",
+      "C": "ajustar a área isolada à capacidade de vigilância da equipe presente, pois perímetro sem controle efetivo equivale, na prática, a ausência de isolamento.",
+      "D": "isolar a maior área possível dentro do contexto e da situação, pois áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A regra prática é isolar a maior área possível dentro do contexto e da situação, porque áreas demasiado pequenas trazem risco de contaminação ou perda de vestígios importantes (p. 24), o que valida D. A restringe o isolamento ao ambiente imediato, quando a regra manda ampliar. B inventa raio fixo de protocolo e condiciona a ampliação ao perito — a delimitação inicial ampla cabe desde logo ao primeiro policial. C usa um argumento operacional plausível para justificar a redução da área, invertendo a diretriz: dimensiona-se o esforço para vigiar a maior área possível, e não a área para o efetivo disponível."
+  },
+  {
+    "id": 1335,
+    "alternativas": {
+      "A": "Idôneo é o local preservado na forma em que foi deixado pelo agente após a infração; inidôneo é o que foi perturbado ou devassado antes da chegada dos peritos.",
+      "B": "Inidôneo é o local em que a perturbação ocorreu durante a própria prática da infração, ainda que a cena permaneça intacta até a chegada dos peritos.",
+      "C": "A idoneidade é aferida após o processamento: se os vestígios coletados permitirem reconstituir a dinâmica, o local se considera idôneo, mesmo que devassado.",
+      "D": "Idôneo é o local submetido a isolamento formal pela equipe policial; sem a delimitação física da área, o local presume-se inidôneo para fins periciais."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Locais idôneos (não violados) são os preservados na forma em que foram deixados pelo agente após a prática da infração; inidôneos (violados) são os perturbados ou devassados após a infração e antes da chegada dos peritos (p. 27). Isso valida A. B desloca a perturbação para o momento da infração — o critério é a alteração POSTERIOR ao fato e ANTERIOR à perícia. C converte a classificação em juízo retrospectivo sobre o resultado do exame, quando ela descreve o estado de preservação da cena. D condiciona a idoneidade à formalidade do isolamento, que não é o critério: um local pode estar intacto sem delimitação física."
+  },
+  {
+    "id": 1336,
+    "alternativas": {
+      "A": "priorizar a delimitação física da área e o registro da cena, acionando o socorro médico na sequência, pois a alteração do local pela equipe de resgate é irreversível.",
+      "B": "restringir-se a acionar a perícia e a autoridade policial, evitando qualquer intervenção na cena, inclusive o deslocamento até a vítima, para não produzir contaminação.",
+      "C": "providenciar o socorro e o tratamento médico da vítima, sem descuidar de verificar o isolamento, delimitar a área, contatar os primeiros agentes e identificar quem conheça o fato.",
+      "D": "prestar socorro à vítima e, em seguida, recolher os objetos situados na rota da equipe médica, guardando-os para entrega ao perito quando de sua chegada."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Havendo vítima, a principal preocupação é providenciar socorro e tratamento médico (p. 24); ainda assim, os procedimentos-padrão do primeiro policial incluem verificar as condições do isolamento, providenciar a delimitação física, estabelecer contato com os primeiros agentes e identificar pessoas que conheçam o fato (p. 23). Isso valida C. A inverte a prioridade: a vida da vítima precede a preservação da cena. B omite o socorro, que é a preocupação principal, e ignora as providências do primeiro policial. D acrescenta a coleta de objetos, ato de processamento que invade a atribuição pericial e altera o estado das coisas."
+  },
+  {
+    "id": 1337,
+    "alternativas": {
+      "A": "a imprensa deve ser tratada com ética e profissionalismo, designando-se um único policial como porta-voz e evitando-se comentar hipóteses sobre o crime.",
+      "B": "o porta-voz designado deve apresentar à imprensa as linhas de investigação em curso, pois a transparência das hipóteses estimula o surgimento de novas testemunhas.",
+      "C": "as informações devem ser centralizadas no delegado, que pode autorizar os demais policiais a conceder entrevistas individuais sobre suas respectivas frentes de trabalho.",
+      "D": "o acesso da imprensa deve ser negociado caso a caso, admitindo-se a entrada controlada de equipes de filmagem no ambiente mediato após o registro fotográfico da cena."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A imprensa deve ser tratada com ética e profissionalismo; em local de grande repercussão, apenas um policial deve ser o porta-voz, e todos devem evitar falar sobre hipóteses do crime, pois a palavra de um policial é tida como o ponto de vista da polícia (p. 25-26). Isso valida A. B mantém o porta-voz único, mas manda divulgar hipóteses — justamente o erro ilustrado pelo caso da escola, em que hipóteses depois desmentidas causaram grave prejuízo. C pulveriza a comunicação em entrevistas individuais, contrariando a regra do porta-voz único. D admite ingresso de equipes de filmagem na área isolada, incompatível com a preservação do local."
+  },
+  {
+    "id": 1339,
+    "alternativas": {
+      "A": "identificada outra força policial como responsável pela apuração, o local deve ser entregue ao seu comando, cessando a responsabilidade do policial federal pelo isolamento.",
+      "B": "as autoridades com prerrogativa de função podem ingressar na área delimitada, desde que acompanhadas pelo policial responsável e com registro da entrada em relatório.",
+      "C": "o isolamento deve ser mantido apenas quanto ao ambiente imediato, franqueando-se o ambiente mediato às autoridades e às forças policiais presentes.",
+      "D": "independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, informando-se as autoridades e mantendo-as fora da área."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O texto afirma que, independentemente de quem seja o responsável pela apuração, o local deve ser isolado e preservado até a chegada da perícia, e que cabe ao policial informar as autoridades sobre os procedimentos e mantê-las fora da área delimitada, pois muitas vezes não têm formação sobre processamento de local (p. 26). Isso valida D. A condiciona a preservação à definição de competência, quando o dever de isolar independe de quem apura. B cria exceção por prerrogativa de função que o texto não admite — o acompanhamento e o registro não neutralizam a contaminação. C fraciona o isolamento e franqueia o ambiente mediato, que também integra a área preservada."
+  },
+  {
+    "id": 1340,
+    "enunciado": "Sobre as entrevistas realizadas no contexto do isolamento e da preservação do local, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Destinam-se a obter informações subjetivas sobre pessoas, coisas e fatos, buscando-se ouvir a maior quantidade possível de pessoas presentes ou que tenham comparecido ao local desde a ocorrência.",
+      "B": "A iniciativa deve partir do entrevistado, cabendo ao policial aguardar a manifestação espontânea de quem tenha algo a relatar, para não induzir versões.",
+      "C": "Militares e bombeiros que atuaram no local constituem grandes fontes de informação, podendo também os peritos realizar entrevistas.",
+      "D": "Devem começar com o primeiro a chegar ao local, seguindo-se as demais pessoas presentes que tenham conhecimento do fato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa B é a incorreta: o texto determina que a iniciativa da entrevista parta do POLICIAL, e não do entrevistado — não se aguarda manifestação espontânea (p. 28). As demais são verdadeiras: as entrevistas buscam as informações subjetivas sobre pessoas, coisas e fatos, com a maior quantidade possível de pessoas (A); militares e bombeiros são grandes fontes de informação e os peritos também podem entrevistar (C); e devem começar com o primeiro a chegar ao local (D)."
+  },
+  {
+    "id": 1341,
+    "alternativas": {
+      "A": "o interesse da persecução penal confere à perícia a prerrogativa de requisitar a interdição integral da via, cabendo aos órgãos de trânsito apenas executar a medida.",
+      "B": "deve-se reduzir o perímetro ao ambiente imediato e liberar o restante da via ao tráfego, transferindo os vestígios a céu aberto para local coberto antes do registro.",
+      "C": "não havendo regra clara, prevalecem o bom senso e o diálogo com as corporações envolvidas; vestígios ameaçados cobrem-se quando possível ou registram-se por foto, medida e croqui.",
+      "D": "a chuva iminente autoriza a coleta imediata dos vestígios expostos pelo primeiro policial presente, com posterior entrega do material à perícia mediante termo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quanto às dificuldades estruturais, não há regra clara, prevalecendo o bom senso, o diálogo e a capacidade de ouvir as corporações envolvidas; quanto às intempéries, o bom senso pode determinar cobrir os vestígios e, não sendo possível, fotografar, medir e desenhar o croqui (p. 27). Isso valida C. A converte a questão em relação de hierarquia entre perícia e órgãos de trânsito, quando a disciplina prega diálogo, não requisição. B manda deslocar vestígios antes do registro, alterando o estado das coisas em desacordo com o art. 169 do CPP. D transfere a coleta ao primeiro policial, invadindo o exame pericial — a solução é cobrir ou registrar, não coletar."
+  },
+  {
+    "id": 1342,
+    "alternativas": {
+      "A": "manter ambos fora da área delimitada — o familiar, salvo necessidade urgente e comprovada, e a autoridade, a quem cabe informar os procedimentos —, preservando a idoneidade da cena.",
+      "B": "autorizar o ingresso da autoridade acompanhada por um agente, em deferência à função pública, mantendo o familiar fora do perímetro até a liberação do local.",
+      "C": "permitir o acesso do familiar para o reconhecimento imediato da vítima, necessidade que se presume urgente em razão do vínculo, e negar o ingresso da autoridade que não detenha formação técnica em processamento de local.",
+      "D": "registrar a presença de ambos e franquear-lhes o ambiente mediato, reservando a restrição de acesso somente ao ambiente imediato da cena."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Parentes devem ser tratados com respeito, mas não podem penetrar na área delimitada, salvo necessidade urgente e comprovada; autoridades, muitas vezes sem formação sobre processamento de local, devem ser informadas dos procedimentos e mantidas fora da área delimitada (p. 26). Logo, a conduta correta é manter ambos fora do perímetro, o que valida A. B cria exceção por deferência ao cargo, que o texto não admite. C presume urgência no reconhecimento da vítima — a exceção exige necessidade urgente E comprovada, não presumida. D confunde a estrutura do isolamento: o ambiente mediato também é área delimitada e de acesso restrito."
+  }
+]

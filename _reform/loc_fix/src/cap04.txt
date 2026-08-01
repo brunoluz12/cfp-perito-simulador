@@ -1,0 +1,91 @@
+CAP: Cap. 4 - Etapas de processamento do local (10 questões)
+
+### id 1343 | GAB: A
+Q: O processamento de um local de crime obedece a uma sequência de etapas. Assinale a alternativa que apresenta essas etapas na ordem correta:
+A) [102] Preparação, chegada ao local, busca completa, coleta de vestígios, reunião final e liberação do local.
+B) [93] Chegada ao local, preparação, coleta de vestígios, busca completa, liberação e reunião final.
+C) [93] Coleta de vestígios, busca completa, preparação, chegada ao local, liberação e reunião final.
+D) [93] Preparação, busca completa, chegada ao local, reunião final, coleta de vestígios e liberação.
+JUST: As etapas, na ordem, são: preparação, chegada ao local, busca completa, coleta de vestígios, reunião final e liberação do local (p. 29-37), o que valida A. B, C e D embaralham a sequência, invertendo, por exemplo, a coleta antes da busca completa ou a chegada antes da preparação, em desacordo com o roteiro apresentado.
+REF: PDF LOC, p. 29-37
+
+### id 1344 | GAB: B
+Q: Na fase de preparação, o conhecimento prévio do tipo de local e de crime é relevante porque:
+A) [96] permite ao perito dispensar o exame pericial sempre que o crime for de menor potencial ofensivo.
+B) [162] define os possíveis vestígios, o material e o equipamento necessários e o tipo de apoio a ser solicitado, como o de especialistas em explosivos quando for o caso.
+C) [85] autoriza a coleta imediata dos vestígios pela guarnição que primeiro chegar ao local.
+D) [90] substitui a necessidade de planejamento de transporte e de meios de comunicação da equipe.
+JUST: O conhecimento do tipo de local/crime define os possíveis vestígios, o material e o equipamento e o tipo de ajuda necessária — por exemplo, apoio de especialistas em bombas no caso de explosivos —, valendo o lema de que 'não se deve tentar resolver tudo sozinho' (p. 29). Isso valida B. A é falsa, pois não dispensa o exame pericial. C contraria a regra de que a coleta cabe ao perito após o devido processamento. D nega a importância do planejamento de transporte e comunicação, também tratados na preparação.
+REF: PDF LOC, p. 29
+
+### id 1345 | GAB: C
+Q: A disciplina afirma que existe uma 'oportunidade única' no processamento de um local de crime. A principal fonte de erro associada a essa característica é:
+A) [69] a ausência de cadeia única de comando entre os integrantes da equipe.
+B) [70] a falta de meios de comunicação por rádio em cenas de grande extensão.
+C) [66] a pressa, sentida sobretudo nas etapas de busca e de documentação.
+D) [72] a realização de entrevistas com testemunhas antes da chegada da perícia.
+JUST: O texto afirma que 'a pressa é a principal fonte de erro no processamento de um local', sentida sobretudo na busca e na documentação, devendo-se esclarecer que o trabalho não será rápido porque só existe uma oportunidade de processar o local adequadamente (p. 31-32). Isso valida C. A e B são fatores relevantes, mas não apontados como a principal fonte de erro. D descreve etapa útil para direcionar os trabalhos, não a fonte de erro.
+REF: PDF LOC, p. 31-32
+
+### id 1346 | GAB: B
+Q: Durante a chegada ao local, são realizadas entrevistas com testemunhas e pessoas presentes antes da perícia. Sobre o aproveitamento dessas informações, é correto afirmar que:
+A) [136] as informações subjetivas obtidas nas entrevistas integram diretamente as conclusões do laudo, com o mesmo peso dos vestígios materiais.
+B) [178] as entrevistas servem para direcionar e agilizar os trabalhos, mas as informações subjetivas não são objeto de avaliação no laudo, no qual o perito considera apenas os vestígios.
+C) [103] as entrevistas substituem a busca por vestígios sempre que houver testemunhas presenciais concordantes.
+D) [124] as informações subjetivas só podem ser colhidas pelo perito-chefe, sendo vedada sua obtenção pelos demais membros da equipe.
+JUST: As entrevistas podem ser feitas por qualquer membro da equipe e servem para direcionar e agilizar os trabalhos; contudo, as informações subjetivas não serão objeto de avaliação no laudo, pois o perito só considera os vestígios para suas conclusões, ainda que existam vestígios que comprovem o relato (p. 33). Isso valida B. A equipara indevidamente relato e vestígio nas conclusões. C dispensa a busca por vestígios. D restringe sem fundamento a entrevista ao perito-chefe.
+REF: PDF LOC, p. 33
+
+### id 1347 | GAB: B
+Q: Durante a busca completa, ao localizar um vestígio relevante, o procedimento correto do perito é:
+A) [91] coletá-lo e embalá-lo de imediato, para evitar sua perda ou contaminação antes do registro.
+B) [131] marcá-lo, para que posteriormente seja descrito, fotografado e assinalado no croqui, conduzindo a busca do geral para o específico.
+C) [111] removê-lo para a rota de entrada e saída, a fim de facilitar sua posterior fotografia em condições controladas.
+D) [112] registrar apenas verbalmente a sua existência, dispensando fotografia e croqui quando se tratar de área visível.
+JUST: A regra é que, ao encontrar um vestígio, ele seja marcado para depois ser descrito, fotografado e assinalado no croqui — nunca coletado de imediato —, conduzindo-se a busca do geral para o específico (p. 33-35). Isso valida B. A contraria a regra ao coletar antes do registro. C agrava a alteração da cena ao remover o vestígio. D dispensa indevidamente o registro fotográfico e o croqui.
+REF: PDF LOC, p. 33-35
+
+### id 1348 | GAB: C
+Q: Uma equipe precisa buscar vestígios em uma área extensa e a céu aberto, contando com muitas pessoas. Para tornar a varredura mais completa, decide repeti-la em direção perpendicular à primeira. O padrão de busca empregado é o:
+A) [18] padrão em espiral.
+B) [20] padrão em quadrante.
+C) [24] padrão em linha cruzada.
+D) [24] padrão em linha simples.
+JUST: O padrão em linha cruzada equivale à busca em linha repetida em uma segunda varredura perpendicular à primeira, sendo mais completa, porém mais trabalhosa (p. 34-35). Isso valida C. A (espiral) é indicada para áreas pequenas com poucas pessoas, da periferia ao centro. B (quadrante) divide a cena em A, B, C e D. D (linha simples) não inclui a segunda passagem perpendicular que caracteriza o caso descrito.
+REF: PDF LOC, p. 34-35
+
+### id 1349 | GAB: C
+Q: Em uma cena pequena e com poucos profissionais disponíveis, qual padrão de busca é o mais indicado e como ele se desenvolve?
+A) [108] O padrão em linha, com os profissionais a dois braços de distância e uma pessoa-base comandando a varredura.
+B) [105] O padrão em quadrante, dividindo-se a cena em quatro setores e aplicando-se outra metodologia em cada um.
+C) [134] O padrão em espiral, iniciando-se na periferia e contornando a cena até o ponto central, onde geralmente está a maioria dos vestígios.
+D) [85] O padrão em linha cruzada, com duas varreduras perpendiculares para maior completude.
+JUST: O padrão em espiral é indicado para área pequena e poucas pessoas, iniciando na periferia e contornando a cena até o ponto central, onde geralmente se concentra a maioria dos vestígios (p. 34). Isso valida C. A e D (linha e linha cruzada) destinam-se a áreas extensas com muitas pessoas. B (quadrante) é uma divisão setorial, não a indicada preferencialmente para cenas pequenas com poucos profissionais.
+REF: PDF LOC, p. 34
+
+### id 1350 | GAB: C
+Q: Ao processar um homicídio em uma residência, o perito localiza uma mancha suspeita de sangue impregnada no carpete da sala. Considerando a coleta de vestígios e a noção de amostra controle (ou amostra padrão), a conduta tecnicamente adequada é:
+A) [121] encaminhar o carpete inteiro ao laboratório, pois somente a remoção total do suporte garante a confiabilidade da análise.
+B) [110] recortar e encaminhar apenas o trecho com a mancha, descartando-se qualquer coleta adicional do mesmo suporte.
+C) [184] recortar o trecho com a mancha e, como regra geral, coletar também uma amostra do carpete isenta da mancha (amostra controle), pois ela pode ser necessária para uma análise conclusiva.
+D) [111] aguardar manifestação do laboratório antes de qualquer coleta, mantendo o carpete no local até nova diligência.
+JUST: Quando o vestígio está impregnado em um suporte que não pode ser totalmente encaminhado, recorta-se o trecho com a mancha; para que a análise seja conclusiva, o laboratório pode precisar de uma amostra do suporte isenta da mancha (amostra controle/padrão). Como no local não se sabe se será necessária, a regra geral é coletá-la (p. 36-37). Isso valida C. A é inviável e desnecessária. B omite a amostra controle. D adia indevidamente a coleta, perdendo a oportunidade única do processamento.
+REF: PDF LOC, p. 36-37
+
+### id 1351 | GAB: D
+Q: A reunião final, que antecede a finalização do trabalho, tem como pauta central a pergunta 'Fizemos tudo o que era necessário para um processamento efetivo deste local?'. Entre os pontos a verificar nessa etapa, NÃO se inclui:
+A) [114] se a documentação está devidamente preenchida e se todos os vestígios foram fotografados e posicionados no croqui.
+B) [100] se os vestígios foram coletados adequadamente e se as amostras controle necessárias foram coletadas.
+C) [96] se os vestígios estão embalados e identificados adequadamente e se há meios para transportá-los.
+D) [96] se o indiciamento do suspeito foi formalizado e se a denúncia foi oferecida ao juízo competente.
+JUST: A reunião final verifica se a documentação está preenchida, se os vestígios foram fotografados e posicionados no croqui, se foram coletados adequadamente, se as amostras controle necessárias foram coletadas, se estão embalados e identificados e se há meios para transportá-los (p. 37). Logo, A, B e C correspondem a pontos da etapa. D não integra essa verificação, pois o indiciamento e a denúncia são atos da fase de persecução penal alheios ao processamento do local, o que torna D a alternativa correta (item que não se inclui).
+REF: PDF LOC, p. 37
+
+### id 1352 | GAB: B
+Q: Concluído o processamento, procede-se à liberação do local. Sobre essa etapa, é correto afirmar que:
+A) [127] a entrega do local deve ser feita por qualquer integrante da equipe, independentemente de chefia, e não precisa ser registrada.
+B) [200] o chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido e os cuidados necessários, com a liberação consignada em laudo.
+C) [121] a liberação somente é válida se realizada por escrito e homologada judicialmente antes da retirada da fita de isolamento.
+D) [113] após a liberação, a responsabilidade pelo local permanece com a perícia até o encerramento do inquérito policial.
+JUST: O chefe da equipe é o responsável pela entrega formal do local ao delegado ou policial encarregado, informando o que deve ser apreendido/encaminhado e os cuidados; a liberação ocorre geralmente de forma verbal e deve ser consignada em laudo, podendo ser por escrito se necessário (p. 37). Isso valida B. A dispensa indevidamente a chefia e o registro. C exige forma escrita e homologação judicial não previstas. D prolonga indevidamente a responsabilidade da perícia após a entrega formal.
+REF: PDF LOC, p. 37

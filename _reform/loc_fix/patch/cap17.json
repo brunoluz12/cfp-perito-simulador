@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1460,
+    "alternativas": {
+      "A": "a legislação não define 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, sobretudo quanto a materiais latentes e não visíveis.",
+      "B": "o art. 158-A do CPP define o microvestígio como espécie de vestígio latente, atribuindo-lhe procedimento próprio de coleta e cadeia de custódia.",
+      "C": "por não serem prontamente perceptíveis, os microvestígios só ingressam no conceito legal de vestígio depois de revelados e constatados em laboratório.",
+      "D": "a ausência de previsão legal expressa impõe que os microvestígios sejam tratados como meros elementos informativos, dispensada em relação a eles a cadeia de custódia exigida dos demais vestígios."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Não há definição legal específica de 'microvestígio', mas o conceito jurídico de vestígio (art. 158-A) é abrangente o suficiente para incluí-los, especialmente ao considerar materiais latentes e não visíveis (p. 135). Isso valida A. B afirma uma definição legal e um procedimento próprio que não existem. C condiciona o enquadramento à revelação laboratorial, quando a definição legal já abrange o material latente. D nega a incidência da cadeia de custódia, que se aplica aos microvestígios como a qualquer vestígio."
+  },
+  {
+    "id": 1461,
+    "alternativas": {
+      "A": "resulta da dimensão física absoluta do material, medida em relação a um limiar convencionado pela literatura forense.",
+      "B": "não depende apenas da dimensão absoluta, mas também do contexto e da perceptibilidade, sendo central a noção de 'invisibilidade aparente', que exige elevado grau de atenção do perito.",
+      "C": "decorre da técnica necessária ao seu exame em laboratório: é micro o vestígio que só pode ser analisado por microscopia, independentemente do modo como ele se apresenta na cena.",
+      "D": "depende da natureza do suporte em que se encontra, sendo micro todo vestígio aderido a superfícies heterogêneas ou irregulares."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O termo não depende exclusivamente de uma dimensão física absoluta, mas também do contexto e da perceptibilidade; o mesmo fragmento de vidro pode ser visível em piso claro homogêneo e imperceptível em escombros heterogêneos. A característica central é a 'invisibilidade aparente', que exige elevado grau de atenção (p. 135). Isso valida B. A fixa-se na dimensão absoluta, exatamente o que o exemplo do vidro refuta. C troca o critério pela técnica de exame. D isola o suporte como critério, quando o determinante é a perceptibilidade no contexto — o mesmo suporte pode tornar um vestígio visível ou não."
+  },
+  {
+    "id": 1462,
+    "alternativas": {
+      "A": "iluminação frontal difusa e intensa, que elimina as sombras e uniformiza todo o campo de busca, associada ao emprego de fundos de mesma tonalidade do vestígio procurado.",
+      "B": "reagentes de contraste aplicados por pulverização na área de busca, que aderem seletivamente às partículas e as tornam visíveis a olho nu.",
+      "C": "iluminação oblíqua (para partículas superficiais e materiais reflexivos), luzes de diferentes comprimentos de onda, lupas/estereomicroscópio e fundos contrastantes.",
+      "D": "varredura sistemática com detector portátil de metais e sensores de fluorescência, dispensando a inspeção visual direta da superfície."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A detecção utiliza iluminação oblíqua (partículas superficiais aderidas e materiais reflexivos, como vidro e glitter), luzes de diferentes comprimentos de onda (tintas, fibras, cabelos, vidro), lupas iluminadas/estereomicroscópio e fundos contrastantes (p. 137). Isso valida C. A inverte duas orientações: a luz é oblíqua (não frontal difusa, que achata o relevo) e o fundo é contrastante (não da mesma tonalidade). B inventa reagentes de contraste genéricos para microvestígios. D substitui a busca visual assistida por detectores, quando o capítulo trata justamente da inspeção visual apoiada por luz e ampliação."
+  },
+  {
+    "id": 1463,
+    "alternativas": {
+      "A": "coletar o item inteiro é preferível — mesmo quando os vestígios já são visíveis —, pois reduz o risco de perda ou contaminação e a coleta é mais eficiente e controlada em laboratório.",
+      "B": "a coleta na própria cena é preferível sempre que os microvestígios já estiverem visualmente identificados pelo perito, o que evita o transporte desnecessário de suportes volumosos até o laboratório.",
+      "C": "o item de suporte deve ser fotografado e descartado após a retirada dos microvestígios, que carregam sozinhos o valor probatório do achado.",
+      "D": "a varredura a vácuo deve preceder as demais técnicas, pois recolhe o conjunto do material presente antes que a movimentação da equipe o disperse."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Quando viável, coletar o item inteiro é preferível, mesmo com vestígios já visíveis, pois reduz risco de perda/contaminação; como regra geral, a coleta de microvestígios é mais eficiente e controlada em laboratório (melhor iluminação, controle ambiental, equipamentos) e preserva o contexto (p. 138-139). Isso valida A. B usa a visibilidade como razão para coletar na cena, quando a preferência pelo item inteiro persiste mesmo assim. C descarta o suporte, perdendo o contexto do vestígio. D antecipa a varredura a vácuo, método MENOS seletivo, que deve vir depois das técnicas direcionadas."
+  },
+  {
+    "id": 1464,
+    "alternativas": {
+      "A": "a fita adesiva é especialmente indicada para a coleta de tintas e polímeros, uma vez que a adesão desses materiais ao filme preserva a integridade da camada superficial durante o acondicionamento e o transporte ao laboratório.",
+      "B": "a varredura a vácuo, por recolher material em profundidade, deve anteceder as técnicas direcionadas, que atuam apenas nas partículas superficiais.",
+      "C": "as pinças exigem pressão firme e constante para assegurar a apreensão, sendo o risco de dano à morfologia compensado pela segurança da coleta.",
+      "D": "a fita adesiva serve a microvestígios superficiais (fibras, partículas leves), mas não é recomendada para tintas e polímeros, que o adesivo pode alterar quimicamente; a varredura a vácuo, menos seletiva, vem após as técnicas mais direcionadas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O levantamento com fita adesiva é adequado a microvestígios superficiais, mas não é recomendado para tintas/polímeros, pois o adesivo pode interagir e alterá-los quimicamente; a varredura a vácuo é menos seletiva (coleta muito material estranho), devendo ser usada após técnicas mais direcionadas (p. 139-140). Isso valida D. A recomenda a fita justamente para os materiais em que ela é desaconselhada. B inverte a ordem das técnicas, antepondo o método menos seletivo. C legitima pressão excessiva na pinça, que danifica a morfologia das partículas."
+  },
+  {
+    "id": 1466,
+    "alternativas": {
+      "A": "a remoção dos vestígios do corpo deve ser integralmente realizada na cena, pois o transporte provoca desprendimento e perda irreversível do material aderido.",
+      "B": "mãos e pés não devem ser ensacados, pois o material do invólucro pode transferir fibras ao corpo e comprometer o exame externo no instituto médico-legal.",
+      "C": "a remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação, devendo-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco limpo e adequado, preservando os sacos, que podem conter vestígios desprendidos no transporte.",
+      "D": "o corpo deve ser acondicionado em saco novo e limpo, sendo os invólucros utilizados nas mãos e nos pés descartados logo após a chegada ao instituto médico-legal, uma vez que já terão cumprido integralmente a sua função de contenção durante o transporte do corpo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A remoção de vestígios do corpo na cena nem sempre é necessária quando há boa preservação; recomenda-se ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado, preservando os sacos/materiais, que podem conter vestígios desprendidos no transporte (p. 141). Isso valida C. A torna obrigatória a remoção na cena, quando a boa preservação a dispensa. B veda o ensacamento de mãos e pés, medida expressamente recomendada. D manda descartar os invólucros, que devem ser preservados justamente por reterem vestígios desprendidos."
+  },
+  {
+    "id": 1467,
+    "alternativas": {
+      "A": "a embalagem primária fica em contato direto com o vestígio (envelopes de papel, potes, microtubos tipo Eppendorf), e a de segurança protege o recipiente primário, sendo a que possui numeração individualizada.",
+      "B": "a embalagem primária é a que recebe a numeração individualizada, justamente por estar em contato direto com o vestígio, cabendo à embalagem de segurança apenas a proteção mecânica do conjunto durante o transporte.",
+      "C": "a embalagem de segurança é a que toca o vestígio, por ser estéril e à prova de vazamentos, ficando a primária como invólucro externo identificado.",
+      "D": "ambas devem ser novas, admitindo-se a reutilização da embalagem de segurança entre exames do mesmo inquérito, desde que higienizada e reetiquetada."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A embalagem primária é a que fica em contato direto com o vestígio (à prova de vazamentos, limpa, não utilizada — ex.: envelopes de papel, potes, microtubos tipo Eppendorf); a embalagem de segurança protege o recipiente primário e é a que possui numeração individualizada, resguardando a identidade do vestígio e o vínculo com o caso (p. 141-142). Isso valida A. B desloca a numeração para a primária. C inverte as duas embalagens. D admite reutilização, contrária à exigência de material limpo e não utilizado."
+  },
+  {
+    "id": 1468,
+    "alternativas": {
+      "A": "os dois itens devem ser secos ao ar livre, sem calor nem exposição ao sol, diferindo apenas quanto ao acondicionamento posterior: embalagem de papel para o item comum e recipiente hermético para aquele destinado ao exame de resíduos inflamáveis.",
+      "B": "o item molhado comum deve ser seco ao ar o mais rápido possível, sem calor nem luz solar; já os itens a examinar para resíduos líquidos inflamáveis (ou químicos, como alvejante) NÃO devem ser secos, sob pena de perda de evidências.",
+      "C": "o item para resíduos inflamáveis deve ser seco com ventilação forçada, para eliminar apenas a água e concentrar os compostos orgânicos remanescentes no substrato.",
+      "D": "ambos devem ser acondicionados úmidos em embalagem hermética e refrigerados, evitando-se a secagem, que altera o substrato de qualquer material a examinar."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Itens molhados comuns devem ser secos ao ar o mais rápido possível, sem calor nem luz solar; contudo, itens a serem examinados para resíduos líquidos inflamáveis ou químicos (ex.: alvejante) NÃO devem ser secos, pois a secagem causaria perda de evidências (p. 142). Isso valida B. A uniformiza a secagem para os dois, quando o item de resíduos inflamáveis não deve ser seco. C supõe secagem seletiva por ventilação, que na prática evapora justamente os voláteis de interesse. D estende ao item comum a vedação de secar, favorecendo sua degradação."
+  },
+  {
+    "id": 1469,
+    "alternativas": {
+      "A": "os eventos de separação produzem padrões reprodutíveis em itens de mesma origem, razão pela qual o ajuste físico é classificado como exame de natureza meramente indiciária, sempre dependente de confirmação por análise química comparativa.",
+      "B": "o ajuste positivo depende da preservação integral das bordas: havendo perda de material na região de separação, fica descartada a possibilidade de conclusão pelo ajuste.",
+      "C": "os eventos de separação não são reprodutíveis (geram características individuais) e o ajuste positivo ocorre quando as características se realinham de maneira única; a ausência de ajuste, porém, NÃO implica necessariamente fontes diferentes.",
+      "D": "por gerarem características individuais, os eventos de separação tornam o exame conclusivo nos dois sentidos: o ajuste demonstra origem comum e sua ausência exclui a origem comum."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os eventos de separação não são reprodutíveis, gerando características individuais; o ajuste físico positivo ocorre quando as características se realinham de maneira única, não esperada de ser replicada; e a ausência de ajuste físico NÃO implica, necessariamente, que os itens tenham se originado de fontes diferentes (p. 142-143). Isso valida C. A afirma reprodutibilidade, o oposto do exposto. B trata a perda de material como impeditivo absoluto do ajuste. D é a pegadinha mais próxima: acerta a premissa das características individuais, mas conclui simetria que o texto nega — a ausência de ajuste não exclui a origem comum."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1438,
+    "enunciado": "Sobre os vestígios biológicos em locais de crime e o exame de DNA, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Entre os vestígios biológicos mais observados estão sangue, sêmen, saliva, urina, cabelos, pelos, células descamativas e tecidos moles.",
+      "B": "O exame de DNA é uma das ferramentas mais poderosas da perícia para identificar quem produziu o vestígio biológico encontrado.",
+      "C": "Os avanços das técnicas permitem obter perfis genéticos a partir de quantidades cada vez menores de material biológico.",
+      "D": "Por exigirem material íntegro e em quantidade, os vestígios latentes e o material degradado são descartados na triagem realizada no local."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A alternativa D é a incorreta: os avanços técnicos permitem exames a partir de quantidades cada vez menores e mesmo de material degradado, não havendo descarte de vestígios latentes na triagem — ao contrário, sua busca é parte do processamento (p. 103). As demais são verdadeiras: a lista de vestígios biológicos mais observados (A); o DNA como uma das ferramentas mais poderosas para identificar quem produziu o vestígio (B); e a sensibilidade crescente das técnicas (C)."
+  },
+  {
+    "id": 1439,
+    "alternativas": {
+      "A": "umidade, calor, luz UV e agentes químicos (como o hipoclorito) degradam o DNA; vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão), e os que não podem ser secos, em recipientes plásticos passíveis de refrigeração.",
+      "B": "a degradação do material genético decorre sobretudo da luz ultravioleta e dos agentes químicos; a umidade, por manter a hidratação celular, favorece a conservação do DNA, razão pela qual os vestígios úmidos devem ser acondicionados sem qualquer secagem prévia.",
+      "C": "todos os vestígios devem ser embalados em recipientes plásticos hermeticamente vedados, que isolam o material da luz e da umidade externa, com refrigeração imediata a 4 °C.",
+      "D": "as embalagens permeáveis ao ar destinam-se aos vestígios que não podem ser secos, permitindo a evaporação residual, enquanto o material já seco vai em plástico vedado, para evitar reidratação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Degradam o DNA: proliferação de microrganismos (umidade), calor, luz ultravioleta e agentes químicos, especialmente o hipoclorito de sódio. Vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar (papel/papelão); os que não podem ser secos, em recipientes plásticos que permitam refrigeração ou congelamento (p. 104). Isso valida A. B trata a umidade como conservante, quando ela é fator de degradação por proliferação microbiana. C generaliza o plástico vedado, que retém umidade e favorece a degradação do que deveria secar. D inverte a destinação das embalagens: o papel permeável é para o material que pode secar."
+  },
+  {
+    "id": 1441,
+    "alternativas": {
+      "A": "têm alta especificidade e baixa sensibilidade, de modo que o resultado negativo exclui com segurança a presença de sangue no substrato testado.",
+      "B": "têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e não diferenciam sangue humano de animal.",
+      "C": "confirmam a natureza hemática da mancha, restando ao laboratório apenas determinar a espécie e o perfil genético do material.",
+      "D": "devem ser aplicados sobre toda a extensão da mancha, garantindo que eventuais áreas de menor concentração não passem despercebidas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os testes preliminares de cor têm alta sensibilidade e baixa especificidade: quando positivos, indicam apenas a possibilidade de haver sangue e são incapazes de diferenciar sangue humano de animal; devem ser feitos em pequena porção, preservando a maior quantidade possível para exames subsequentes (p. 107-108). Isso valida B. A inverte os atributos. C atribui caráter confirmatório ao teste preliminar, que apenas indica possibilidade. D manda consumir a mancha inteira, contrariando a orientação de usar pequena porção e preservar material para os exames seguintes."
+  },
+  {
+    "id": 1442,
+    "alternativas": {
+      "A": "no Kastle Meyer, o positivo é a coloração rósea intensa nos primeiros segundos, sendo negativas as reações tardias ou a ausência de cor; e, no uso de luminol/fluoresceína em grandes áreas, as amostras visíveis devem ser coletadas antes da aplicação.",
+      "B": "no Kastle Meyer, a coloração que surge após alguns minutos confirma o resultado positivo, pois a reação enzimática é progressiva e cumulativa; e o luminol deve preceder a coleta, de modo a orientar quais das manchas visíveis serão efetivamente recolhidas.",
+      "C": "no Kastle Meyer, o positivo é a coloração rósea imediata; e o luminol, por reagir apenas com hemoglobina humana, permite distinguir no local o sangue humano do de origem animal.",
+      "D": "no Kastle Meyer, a ausência de cor após a adição do peróxido indica positivo por consumo do reagente; e a aplicação do luminol dispensa a coleta das manchas visíveis, já registradas por fotografia."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No reagente de Kastle Meyer, o positivo é a coloração rósea intensa nos primeiros segundos; reações tardias ou ausência de cor indicam negativo (p. 108). Para screening de grandes áreas com luminol/fluoresceína, deve-se coletar todas as amostras visíveis antes de aplicá-los (p. 108). Isso valida A. B trata reação tardia como positiva e inverte a ordem: o luminol vem depois da coleta do visível, pois o reagente pode prejudicar o material. C acerta a cor imediata, mas atribui ao luminol uma discriminação humano/animal inexistente. D inverte o critério de positividade e dispensa a coleta prévia."
+  },
+  {
+    "id": 1443,
+    "alternativas": {
+      "A": "a raspagem é a técnica de eleição para fluidos em qualquer tipo de suporte, por recolher também parte do substrato em que a mancha se encontra, ficando o suabe reservado às superfícies lisas e não absorventes, como vidros e metais polidos.",
+      "B": "a seringa destina-se a pelos e cabelos aderidos a superfícies úmidas, e a pinça, às poças de sangue líquido e à urina acumulada.",
+      "C": "os suportes móveis devem ser sempre raspados ou suabeados no próprio local, sendo vedado o encaminhamento do objeto inteiro ao laboratório.",
+      "D": "o suabe é a principal técnica para fluidos em manchas secas ou úmidas; a raspagem serve a superfícies absorventes e irregulares quando não for possível o suabe; a seringa, a amostras líquidas; e a pinça, a pelos, cabelos e fragmentos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O suabe é a principal técnica para fluidos em manchas secas ou úmidas; a raspagem aplica-se a superfícies absorventes e irregulares somente quando não for possível o suabe; a seringa serve a amostras líquidas (poças, urina); e a pinça, a pelos, cabelos, gomas, cigarros e fragmentos (p. 110-111). Isso valida D. A inverte a hierarquia entre suabe e raspagem. B troca os usos de seringa e pinça. C veda o encaminhamento de suportes móveis inteiros, quando a regra é justamente coletá-los por inteiro sempre que possível."
+  },
+  {
+    "id": 1444,
+    "alternativas": {
+      "A": "secar ao natural, ao abrigo da luz e do calor excessivo e protegida de contaminação, sem uso de secadores de cabelo, fornos ou exposição ao sol para acelerar o processo.",
+      "B": "secar em estufa a baixa temperatura, na faixa de 30 a 40 °C, o que acelera consideravelmente o processo sem atingir o limiar em que se inicia a degradação térmica do material genético.",
+      "C": "secar sob fluxo de ar quente direcionado, cuidando apenas para que a amostra não seja exposta à luz solar direta durante o procedimento.",
+      "D": "dispensar a secagem e acondicionar o material úmido em embalagem plástica vedada, deixando que a evaporação ocorra durante o transporte refrigerado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A secagem deve ser ao natural, ao abrigo da luz e do calor excessivo, protegida de contaminação, sem uso de secadores de cabelo, fornos ou exposição ao sol para acelerar (p. 111). Isso valida A. B e C introduzem calor artificial (estufa, ar quente) sob aparência de controle técnico, quando a orientação veda expressamente acelerar a secagem por calor. D embala material úmido em plástico vedado, favorecendo a proliferação de microrganismos que degradam o DNA."
+  },
+  {
+    "id": 1445,
+    "alternativas": {
+      "A": "suabe seco em temperatura ambiente; sangue com EDTA refrigerado a cerca de 4 °C, sem congelar; e tecido mole congelado a -20 °C, evitando descongelar e recongelar.",
+      "B": "suabe seco refrigerado a 4 °C para evitar reidratação; sangue com EDTA congelado a -20 °C, pois o anticoagulante impede a hemólise; e tecido mole em temperatura ambiente.",
+      "C": "os três congelados a -20 °C, temperatura que interrompe a atividade enzimática e uniformiza o protocolo de transporte das amostras.",
+      "D": "suabe seco em temperatura ambiente; sangue com EDTA congelado a -20 °C; e tecido mole refrigerado a 4 °C, evitando o congelamento que rompe as membranas celulares."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Vestígios secos (como o suabe) são preservados em temperatura ambiente, evitando luz, calor e umidade; sangue de pessoa viva em tubo com EDTA vai ao refrigerador a cerca de 4 °C (não congelar); tecidos moles, fluidos líquidos, cabelos e pelos são congelados a -20 °C, evitando descongelar e recongelar (p. 112). Isso valida A. B usa o EDTA como justificativa para congelar o sangue, que não deve ser congelado, e deixa o tecido mole em ambiente. C uniformiza tudo em congelamento, atingindo o sangue com EDTA. D congela o sangue e apenas refrigera o tecido mole, invertendo as duas destinações."
+  },
+  {
+    "id": 1446,
+    "alternativas": {
+      "A": "a prioridade é o encaminhamento ao confronto balístico, devendo o material biológico aderido ao projétil ser preservado em suabe colhido logo após a limpeza da peça no laboratório de balística, ainda antes da realização do exame comparativo.",
+      "B": "a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza; acondiciona-se em embalagem de papel rígido, envolto em gaze/algodão para não prejudicar as marcas características.",
+      "C": "o projétil deve ser acondicionado em frasco plástico com solução conservante, que estabiliza o material biológico sem interferir nas microestriações da superfície metálica.",
+      "D": "a coleta do material biológico deve ser feita por raspagem da superfície do projétil ainda no local, técnica que preserva integralmente as marcas deixadas pelo raiamento do cano."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Projéteis podem conter sangue/tecidos; a necessidade de exame de DNA deve ser avaliada ANTES do encaminhamento à balística, pois o DNA pode ser perdido na limpeza do exame balístico; acondiciona-se em embalagem de papel rígido, envolvido em gaze/algodão, para não prejudicar as marcas características (p. 119). Isso valida B. A inverte a ordem: depois da limpeza balística o material biológico já se perdeu. C imerge o projétil em solução, o que compromete o vestígio e o metal. D propõe raspar a superfície do projétil, justamente onde estão as marcas de raiamento que devem ser preservadas."
+  },
+  {
+    "id": 1447,
+    "alternativas": {
+      "A": "coletar dois suabes — um externo (células da vítima) e um interno (células do agressor) —, acondicionados separadamente; o preservativo pode então ser fechado por nó e acondicionado em embalagem plástica, com refrigeração e congelamento a -20 °C.",
+      "B": "coletar um único suabe da face interna do preservativo, região em que se concentra o sêmen do agressor, descartando-se todo o material aderido à face externa em razão do risco de mistura de perfis genéticos durante a análise laboratorial.",
+      "C": "coletar os dois suabes e acondicioná-los no mesmo porta-suabe, identificando as faces por anotação, de modo que ambos sigam sob a mesma cadeia de custódia.",
+      "D": "encaminhar o preservativo íntegro, sem coleta de suabes, em embalagem de papel permeável ao ar, deixando ao laboratório a separação das frações celulares."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No preservativo com sêmen, coletam-se dois suabes — um da parte externa (células da vítima) e um da interna (células do agressor) —, acondicionados separadamente em porta-suabes; em seguida, o preservativo pode ser fechado por nó e acondicionado em embalagem plástica, refrigerado e congelado a -20 °C (p. 113). Isso valida A. B descarta a face externa, que traz células da vítima e ajuda a vincular o material ao fato. C junta os dois suabes, criando risco de contaminação cruzada — a separação é justamente o cuidado exigido. D dispensa a coleta dos suabes e usa embalagem de papel para material úmido, contrariando as duas orientações."
+  },
+  {
+    "id": 1448,
+    "alternativas": {
+      "A": "a punção venosa periférica com tubo contendo EDTA, por fornecer material de maior integridade genética que as células da mucosa oral.",
+      "B": "a coleta de fios de cabelo com bulbo e de células descamativas da pele, materiais de obtenção não invasiva e ricos em DNA nuclear.",
+      "C": "o esfregaço da mucosa oral com suabe, friccionando a parte interna da bochecha por cerca de 15 segundos, com um suabe de cada bochecha, secos e acondicionados individualmente.",
+      "D": "o esfregaço da mucosa oral com suabe único, passado sucessivamente pelas duas bochechas e pela gengiva do doador, o que maximiza a quantidade de células reunidas em uma só amostra."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O método preferencial de amostra de referência em pessoa viva é o esfregaço da mucosa oral com suabe: friccionar a parte interna da bochecha por cerca de 15 segundos, coletando um suabe de cada bochecha, secos e acondicionados individualmente; evitam-se referências como cabelos e células descamativas, que fornecem pouco DNA (p. 121). Isso valida C. A propõe método invasivo, não indicado como preferencial. B é justamente desaconselhada pela pequena quantidade de DNA. D concentra tudo em um só suabe, quando a orientação é coletar um de cada bochecha e acondicioná-los individualmente."
+  },
+  {
+    "id": 1449,
+    "alternativas": {
+      "A": "dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral/subclávia/cardíaco, fígado, conteúdo estomacal e urina, quando presente), sendo a urina a matriz de preferência nos casos ante-mortem.",
+      "B": "dividem-se igualmente em ante-mortem e post-mortem, sendo o sangue total a matriz biológica de preferência em ambos os casos, por permitir correlacionar a concentração da substância encontrada com os efeitos por ela produzidos no organismo.",
+      "C": "restringem-se a amostras post-mortem colhidas na necropsia, pois a coleta em pessoa viva depende de autorização judicial específica para exame toxicológico.",
+      "D": "admitem coleta ante e post-mortem, devendo o sangue ser congelado logo após a colheita e acondicionado em tubo com gel separador, que isola o soro das substâncias interferentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As amostras toxicológicas dividem-se em ante-mortem (urina, sangue e/ou conteúdo estomacal) e post-mortem (sangue femoral, da subclávia e/ou cardíaco, fígado, conteúdo estomacal e urina quando presente), sendo a urina a matriz de preferência nos casos ante-mortem (p. 124-126). Isso valida A. B elege o sangue como matriz preferencial ante-mortem, quando a preferência é da urina. C nega a coleta em pessoa viva. D reúne dois erros: o sangue não deve ser congelado (mantém-se entre 4 e 8 °C, para evitar hemólise) e os tubos com gel separador são vedados, pois o gel adsorve as drogas."
+  }
+]

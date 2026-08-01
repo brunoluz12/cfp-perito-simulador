@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1363,
+    "alternativas": {
+      "A": "a refração da luz ao atravessar o pequeno orifício, que atua como lente convergente e projeta imagem ampliada e direta do objeto.",
+      "B": "a difração da luz nas bordas do orifício, que decompõe os raios e forma no anteparo interno uma imagem espelhada do objeto.",
+      "C": "a reflexão especular da luz nas paredes internas da caixa, que concentra os raios e projeta imagem na mesma orientação do objeto.",
+      "D": "a propagação retilínea da luz, que, ao passar por um pequeno orifício, projeta no interior uma imagem invertida do objeto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A câmera escura baseia-se na propagação retilínea da luz: ao passar por um pequeno orifício, a luz projeta no interior uma imagem invertida do objeto (p. 49). Isso valida D. A atribui o fenômeno à refração e supõe imagem direta e ampliada — o orifício não é lente. B invoca a difração, que não é o princípio formador da imagem na câmera escura. C recorre à reflexão nas paredes internas, que não participa da formação da imagem, e erra a orientação, que é invertida."
+  },
+  {
+    "id": 1365,
+    "alternativas": {
+      "A": "destina-se a ilustrar o laudo e a aproximar o objeto do destinatário, cabendo o exame dos detalhes invisíveis a olho nu aos instrumentos ópticos de laboratório.",
+      "B": "atua como ferramenta de exame apenas quando produzida em ambiente controlado, restando à fotografia de local a função ilustrativa do laudo.",
+      "C": "além de ilustrar o laudo, é ferramenta para o exame do objeto, podendo captar detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico.",
+      "D": "tem valor probatório autônomo, de modo que a juntada das fotografias dispensa a descrição narrativa dos vestígios fotografados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A Fotografia Forense tem dupla função: além de ilustrar o laudo, é excelente ferramenta para o próprio exame do objeto, aproximando-o do destinatário e captando detalhes invisíveis a olho nu, como rasuras ou emendas em exame documentoscópico (p. 49-50). Isso valida C. A retira da fotografia justamente a função de exame que o texto lhe atribui. B condiciona essa função ao ambiente controlado, restrição inexistente. D transforma a fotografia em substituta da descrição narrativa, quando os instrumentos de documentação se complementam e não se substituem."
+  },
+  {
+    "id": 1367,
+    "alternativas": {
+      "A": "do assistente de acusação, legitimado pela reforma processual de 2008 a formular quesitos, diante da presunção absoluta de veracidade do laudo oficial.",
+      "B": "do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, em contexto de presunção apenas relativa de veracidade do laudo.",
+      "C": "do perito do juízo, nomeado por força da Lei nº 11.690/2008 para reexaminar os laudos da perícia oficial nas hipóteses de contestação pela defesa.",
+      "D": "do consultor técnico das partes, admitido pelo CPP desde a redação original, cuja atuação passou a vincular as conclusões do laudo oficial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A presunção de veracidade do laudo é relativa (pode ser contestada); com o surgimento do assistente técnico, introduzido pela Lei nº 11.690/2008, que alterou o CPP, aumentou-se a exigência quanto à qualidade do trabalho do perito, sendo a Fotografia Forense fundamental nesse contexto (p. 50). Isso valida B. A troca a figura (assistente de acusação) e erra a presunção, que é relativa, não absoluta. C inventa um 'perito do juízo' revisor dos laudos oficiais, inexistente na reforma. D erra a origem (a figura veio com a reforma de 2008) e o efeito (a manifestação do assistente não vincula as conclusões do laudo)."
+  },
+  {
+    "id": 1368,
+    "alternativas": {
+      "A": "como meio de prova, a fotografia demonstra conclusões sobre materialidade, dinâmica ou autoria, com o máximo rigor técnico; como ilustração, apenas registra as características do objeto.",
+      "B": "como ilustração, a fotografia demonstra as conclusões sobre a dinâmica do fato, reservando-se à fotografia-meio de prova o registro documental das características do objeto.",
+      "C": "as duas funções distinguem-se pelo destinatário: a fotografia-meio de prova dirige-se ao juízo, e a ilustrativa, às partes e aos assistentes técnicos.",
+      "D": "a distinção foi superada pela reforma processual de 2008, que atribuiu idêntico valor probatório a toda fotografia inserida no laudo pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Como meio de prova, a fotografia demonstra as conclusões sobre materialidade, dinâmica ou autoria, exigindo o máximo rigor técnico possível; como ilustração, apenas registra as características do objeto (dimensões, localização etc.), com rigor documental (p. 51). Isso valida A. B inverte as funções. C cria critério de destinatário que a disciplina não adota — a distinção está na função da imagem, não em quem a recebe. D inventa efeito da reforma de 2008, que introduziu o assistente técnico, mas não igualou as funções da fotografia no laudo."
+  },
+  {
+    "id": 1370,
+    "alternativas": {
+      "A": "O ambiente não controlado é aquele em que o fotógrafo domina a iluminação com equipamentos portáteis, como flash e rebatedores, sem dispor de estúdio fixo.",
+      "B": "A distinção entre os ambientes reside no equipamento disponível, e não no domínio das condições de trabalho: levada a mesa estativa a campo, com tripés e iluminação própria, o local de crime passa a ser ambiente controlado.",
+      "C": "O ambiente controlado é típico dos exames externos diurnos, em que a luz natural abundante dispensa o controle artificial da iluminação.",
+      "D": "O ambiente controlado, geralmente em local fechado, permite dominar a iluminação e os demais aspectos, com melhor qualidade do produto final; o local de crime exemplifica o não controlado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O ambiente controlado, geralmente em local fechado, permite ao fotógrafo dominar a iluminação e os demais aspectos (mesa estativa, mini estúdio, tripés), resultando em melhor qualidade do produto final; o ambiente não controlado é aquele em que não se dominam as condições, tendo o local de crime como exemplo (p. 52-53). Isso valida D. A redefine o não controlado como domínio parcial por equipamentos portáteis, desfigurando o conceito, que é a ausência de domínio sobre luz, clima e espaço. B reduz a distinção ao equipamento — levar a mesa estativa a campo não confere domínio sobre clima e espaço. C associa o controlado ao exame externo diurno, exatamente o cenário em que as condições não são dominadas."
+  },
+  {
+    "id": 1371,
+    "alternativas": {
+      "A": "o perito deve restringir o registro fotográfico aos vestígios principais da cena, compensando as limitações impostas pelo ambiente com maior detalhamento da descrição narrativa e do croqui.",
+      "B": "o perito deve reproduzir na cena as condições do estúdio, com fundo padronizado e iluminação fixa, antes de iniciar o registro dos vestígios.",
+      "C": "por não dominar luz, clima e espaço, o perito precisa adaptar-se às condições existentes, ao contrário do ambiente controlado, em que escolhe fundo, luz e equipamento.",
+      "D": "a qualidade reduzida das imagens de local retira-lhes a função de meio de prova, restando-lhes o papel de ilustração do laudo pericial."
+    },
+    "resposta_correta": "C",
+    "justificativa": "No ambiente não controlado, como o local de crime, o fotógrafo não domina luz, clima e espaço, devendo adaptar-se às condições existentes; já no ambiente controlado pode escolher fundo (claro/escuro), tipo de luz (suave/dura) e o equipamento, obtendo melhor qualidade (p. 52-53). Isso valida C. A reduz a cobertura fotográfica, quando todos os vestígios devem ser fotografados — a adaptação se dá na técnica, não na quantidade. B propõe transformar a cena em estúdio, o que é impraticável e atrasa o processamento. D nega a função probatória da fotografia de local, que permanece meio de prova ainda que produzida em condições adversas."
+  },
+  {
+    "id": 1372,
+    "alternativas": {
+      "A": "a mesa estativa, caixa difusora que envolve o objeto em luz indireta e uniforme; e o mini estúdio, plataforma com câmera suspensa no topo e duas luminárias laterais, próprio para documentos.",
+      "B": "a mesa estativa, base com câmera fixa no topo e duas luminárias laterais, ideal para documentos e objetos pequenos; e o mini estúdio, caixa difusora que elimina sombras e reflexos.",
+      "C": "o tripé com coluna invertida, que aproxima a câmera do documento; e o flash circular (ring flash), que projeta luz frontal uniforme sem sombras.",
+      "D": "a mesa de luz retroiluminada, que atravessa o documento com luz difusa; e o polarizador cruzado, que suprime os reflexos em superfícies plásticas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No ambiente controlado, a mesa estativa (base com câmera fixa no topo e duas luminárias laterais) é ideal para fotografar documentos e objetos pequenos, e o mini estúdio (caixa difusora de luz) elimina sombras e reflexos (p. 53). Isso valida B. A troca as definições dos dois equipamentos entre si. C e D citam recursos fotográficos reais, mas que não são a dupla descrita pela disciplina para essa finalidade — o texto atribui a função à mesa estativa e ao mini estúdio."
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1480,
+    "alternativas": {
+      "A": "o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa, sangue e material sob as unhas.",
+      "B": "o exame preliminar do cadáver realizado após seu decúbito ser modificado, de modo a permitir a visualização integral da superfície corporal ainda na cena.",
+      "C": "o exame do corpo conduzido pelo médico-legista no próprio local, do qual resulta a primeira estimativa oficial da causa jurídica da morte.",
+      "D": "o conjunto de exames complementares (toxicológico, histopatológico e genético) solicitados pelo perito de local a partir do material colhido no cadáver."
+    },
+    "resposta_correta": "A",
+    "justificativa": "O exame perinecroscópico é o exame externo do cadáver no local, sem movimentá-lo inicialmente, buscando ferimentos, sinais de violência e de luta, reação de defesa (lesões em antebraços/mãos), sangue e material sob as unhas; o cadáver é o maior depositário de vestígios da cena (p. 157). Isso valida A. B inverte a regra de não movimentar o corpo no primeiro momento. C atribui o exame ao médico-legista e antecipa juízo sobre a causa jurídica da morte. D confunde o exame de cena com os exames laboratoriais complementares."
+  },
+  {
+    "id": 1483,
+    "alternativas": {
+      "A": "instrumento perfurocortante de dois gumes, cujas extremidades assumem formas distintas conforme o ângulo de penetração da lâmina.",
+      "B": "instrumento perfurocortante de um gume — uma extremidade angular e outra arredondada —, lembrando que a forma sofre influência das linhas de clivagem de Langer.",
+      "C": "instrumento cortante de gume afiado aplicado obliquamente, cuja ação produz ferida de bordas regulares e extremidades assimétricas.",
+      "D": "instrumento perfurante de secção poligonal, cuja penetração nos tecidos produz ferida com uma extremidade angular e outra romba, sem qualquer ação cortante associada."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A ferida perfuro-incisa em 'casa de botão' com uma extremidade angular e outra arredondada indica instrumento de um gume; com dois gumes, ambas as extremidades seriam angulares. A forma sofre influência das linhas de clivagem de Langer (p. 160-161). Isso valida B. A atribui a assimetria ao ângulo de penetração de uma lâmina de dois gumes, quando dois gumes produzem duas extremidades angulares. C descreve ferida incisa, produzida por deslizamento, não por penetração. D descreve ferida punctória, cujas extremidades são desprovidas de ângulos."
+  },
+  {
+    "id": 1484,
+    "alternativas": {
+      "A": "forma circular ou ovalar, maior profundidade do que extensão, hemorragia externa escassa e extremidades desprovidas de ângulos.",
+      "B": "forma circular, maior extensão do que profundidade e hemorragia externa abundante, em razão do afastamento das bordas provocado pela penetração.",
+      "C": "forma alongada com uma extremidade angular, profundidade superior à extensão e bordas regulares, sem pontes de tecido no fundo da lesão.",
+      "D": "forma irregular com bordas escoriadas e pontes de tecido no fundo, resultantes do esmagamento dos planos atravessados pelo instrumento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "As feridas punctórias têm forma circular ou ovalar (podendo ser puntiforme), maior profundidade do que extensão, hemorragia externa escassa ou ausente e extremidades desprovidas de ângulos (p. 161-162). Isso valida A. B inverte a relação profundidade/extensão e a intensidade da hemorragia, que é escassa. C descreve a ferida perfuro-incisa, com extremidade angular. D descreve a ferida contusa, com pontes de tecido."
+  },
+  {
+    "id": 1485,
+    "alternativas": {
+      "A": "a orla de contusão está presente no orifício de entrada apenas nos disparos a curta distância, formando-se pela ação dos gases sobre a pele.",
+      "B": "a orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, de bordas invaginadas, e o OS, maior, de bordas evertidas e sem queimadura, esfumaçamento ou tatuagem.",
+      "C": "o orifício de saída, por corresponder à passagem do projétil já deformado pelos planos atravessados, apresenta orla de enxugo e zona de tatuagem sempre mais evidentes do que as observadas no orifício de entrada.",
+      "D": "o orifício de entrada é geralmente maior que o de saída, com bordas evertidas, sendo o tamanho relativo o critério mais seguro para distinguir os dois orifícios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, com bordas invaginadas, e o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem (p. 165-167). Isso valida B. A condiciona a orla de contusão à curta distância, quando ela é invariável no OE, e a atribui aos gases, quando decorre do atrito do projétil. C transfere ao OS sinais próprios do OE. D inverte tamanho e bordas dos orifícios."
+  },
+  {
+    "id": 1486,
+    "alternativas": {
+      "A": "a tatuagem, por ser deposição superficial de resíduos, é removida com tecido umedecido, ao contrário do esfumaçamento, que se incrusta na derme.",
+      "B": "a Câmara de Mina de Hofmann forma-se nos disparos efetuados a curta distância sobre regiões de tecido mole, em que os gases da deflagração se difundem livremente no subcutâneo, sem encontrar a resistência de um plano ósseo.",
+      "C": "a zona de esfumaçamento (fuligem) pode ser removida com tecido umedecido, enquanto a tatuagem (grânulos de pólvora incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é típica de tiro encostado sobre região óssea.",
+      "D": "as zonas de chamuscamento, esfumaçamento e tatuagem formam-se independentemente da distância do disparo, refletindo apenas o tipo de pólvora empregada na munição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A zona de esfumaçamento (deposição de fuligem) pode ser removida com tecido umedecido; a tatuagem (grânulos de pólvora incombusta incrustados) não sai à limpeza; a Câmara de Mina de Hofmann é lesão típica de tiro encostado sobre região óssea, com ruptura estrelada e evertida (p. 166-167). Isso valida C. A inverte a remoção das duas zonas. B desloca a Câmara de Hofmann para tecidos moles a curta distância, quando ela decorre do tiro ENCOSTADO sobre plano ósseo, que reflete os gases. D nega a dependência das zonas em relação à distância do disparo, que é justamente o que permite estimá-la."
+  },
+  {
+    "id": 1487,
+    "alternativas": {
+      "A": "instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas; ainda assim, a estimativa do tempo de morte nunca deve basear-se em um único sinal cadavérico.",
+      "B": "instala-se entre 2 e 3 horas após o óbito e progride até tornar-se definitiva, permanecendo assim até a completa esqueletização do cadáver, o que a torna o parâmetro isolado mais confiável de toda a cronotanatognose.",
+      "C": "instala-se imediatamente após a parada circulatória, atinge o máximo em cerca de 6 horas e desaparece em 12 horas, quando têm início os fenômenos transformativos.",
+      "D": "instala-se após o surgimento dos livores, entre 12 e 24 horas do óbito, e se desfaz na mesma sequência em que se instalou, permitindo datar a morte com precisão horária."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A rigidez cadavérica instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas, com o início da decomposição; a determinação do tempo de morte nunca deve se basear em um único sinal cadavérico, exigindo avaliação conjunta (p. 168-170). Isso valida A. B acerta o início, mas torna a rigidez permanente e a eleva a parâmetro isolado confiável, contrariando a regra da avaliação conjunta. C e D erram os tempos de instalação, máximo e desaparecimento, e D ainda promete precisão horária que a cronotanatognose não oferece."
+  },
+  {
+    "id": 1488,
+    "alternativas": {
+      "A": "são manchas violáceas que surgem nas primeiras 24 horas de forma difusa por todo o corpo, sem relação com a posição em que o cadáver permaneceu.",
+      "B": "são manchas violáceas pelo acúmulo de sangue nas regiões mais declives, em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição do corpo podem indicar remoção ou manipulação posterior.",
+      "C": "são manchas violáceas que se formam nas regiões de apoio do corpo, por compressão dos tecidos contra a superfície, sendo tanto mais intensas quanto maior o peso corporal.",
+      "D": "são manchas violáceas de instalação imediata ao óbito, cuja fixação ocorre em poucos minutos, de modo que qualquer incompatibilidade com a posição do corpo exclui a hipótese de manipulação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os livores são manchas violáceas pelo acúmulo de sangue nas regiões mais declives (por ação da gravidade), surgindo em regra entre 2 e 4 horas após a morte; livores incompatíveis com a posição em que o corpo foi encontrado podem indicar remoção ou manipulação posterior (p. 170). Isso valida B. A nega a relação com a posição, que é o dado mais útil dos livores. C confunde livor com a palidez das zonas de compressão — o livor se forma justamente onde o sangue se acumula, não pelo peso. D antecipa a fixação e inverte a conclusão: a incompatibilidade sugere manipulação, não a exclui."
+  },
+  {
+    "id": 1489,
+    "alternativas": {
+      "A": "horizontal, contínuo em toda a circunferência do pescoço, de bordos iguais e situado abaixo da cartilagem tireoide.",
+      "B": "único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente (bordos desiguais).",
+      "C": "múltiplo e descendente, com bordos apergaminhados e escoriações semilunares associadas, produzidas pelas unhas da própria vítima.",
+      "D": "oblíquo e descendente, contínuo em toda a extensão, com maior profundidade justamente na região oposta ao ponto de suspensão do corpo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No enforcamento, o sulco é em geral único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente, isto é, de bordos desiguais (p. 175). Isso valida B. A descreve o sulco do estrangulamento (horizontal, contínuo, bordos iguais). C atribui multiplicidade e direção descendente, além de escoriações típicas da esganadura. D inverte a direção (o sulco é ascendente) e a interrupção, que ocorre ao nível do nó."
+  },
+  {
+    "id": 1490,
+    "alternativas": {
+      "A": "no enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento, em geral horizontal, não interrompido e de bordos iguais; e na esganadura não há sulco, mas escoriações e equimoses produzidas por dedos e unhas.",
+      "B": "no enforcamento o sulco é horizontal e contínuo; no estrangulamento, oblíquo e interrompido; e na esganadura observa-se sulco profundo e único na região anterior do pescoço.",
+      "C": "no enforcamento e no estrangulamento os sulcos são indistinguíveis entre si, diferenciando-se apenas pela presença de fratura do osso hioide, exclusiva da esganadura.",
+      "D": "no enforcamento o sulco é oblíquo, ascendente e interrompido; no estrangulamento não se observam marcas externas no pescoço, por atuar o laço sobre plano profundo; e na esganadura o sulco apresenta-se horizontal, contínuo e de bordos iguais em toda a extensão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No enforcamento o sulco é oblíquo, ascendente, interrompido ao nível do nó e de bordos desiguais; no estrangulamento é em geral horizontal, não interrompido e de bordos iguais; na esganadura (compressão por mãos e dedos) não há sulco, observando-se escoriações e equimoses pela pressão de dedos e unhas no pescoço (p. 175-176). Isso valida A. B inverte enforcamento e estrangulamento e cria sulco na esganadura. C nega a diferenciação pelo exame do pescoço. D suprime as marcas do estrangulamento e atribui sulco à esganadura."
+  }
+]
