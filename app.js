@@ -3330,7 +3330,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { titulo: 'Capítulo 4 - Armas de Fogo Longas', arquivo: 'Capitulo_04.html' },
                 { titulo: 'Capítulo 5 - Exames em Armas de Fogo', arquivo: 'Capitulo_05.html' },
                 { titulo: 'Capítulo 6 - Exames em Munição (Confronto Balístico e SINAB)', arquivo: 'Capitulo_06.html' },
-                { titulo: 'Anexos - Descrições e Soluções Reveladoras', arquivo: 'Capitulo_07_Anexos.html' }
+                { titulo: 'Anexos - Descrições e Soluções Reveladoras', arquivo: 'Capitulo_07_Anexos.html' },
+                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' }
             ]
         },
         'pceb': {
@@ -3347,7 +3348,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { titulo: 'Capítulo 8 - Ameaça de Bomba (Vistoria, Plano de Segurança)', arquivo: 'Capitulo_08.html' },
                 { titulo: 'Capítulo 9 - Procedimentos de Reação a Bombas', arquivo: 'Capitulo_09.html' },
                 { titulo: 'Capítulo 10 - Perícia em Local de Explosão', arquivo: 'Capitulo_10.html' },
-                { titulo: 'Anexos - Segurança, Queima, Resp. Civil e Legislação', arquivo: 'Capitulo_11_Anexos.html' }
+                { titulo: 'Anexos - Segurança, Queima, Resp. Civil e Legislação', arquivo: 'Capitulo_11_Anexos.html' },
+                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' }
             ]
         },
         'quimica_forense': {
@@ -3360,7 +3362,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { titulo: 'Capítulo 5 - Dissociativos, Alucinógenos e Outras Drogas', arquivo: 'Capitulo_05.html' },
                 { titulo: 'Capítulo 6 - Novas Substâncias Psicoativas (NSP)', arquivo: 'Capitulo_06.html' },
                 { titulo: 'Capítulo 7 - Testes Preliminares e Definitivos', arquivo: 'Capitulo_07.html' },
-                { titulo: 'Anexos - Apêndices (Testes Preliminares e Reagentes)', arquivo: 'Capitulo_08_Apendices.html' }
+                { titulo: 'Anexos - Apêndices (Testes Preliminares e Reagentes)', arquivo: 'Capitulo_08_Apendices.html' },
+                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' }
             ]
         },
         'ipo_2': {
@@ -3475,7 +3478,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Locais de crime contra o patrimônio',
                 'Locais de morte violenta',
                 'Desastres de massa (DVI)',
-                'O laudo pericial de local de crime'
+                'O laudo pericial de local de crime',
+                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' }
             ]
         },
         'informatica_forense': {
@@ -3488,7 +3492,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Análise de Vestígios Digitais',
                 'Exames em Casos de Abuso Sexual Infantojuvenil (ASI)',
                 'Exames em Equipamentos Eletrônicos Portáteis',
-                'Laudo e Anexos Digitais'
+                'Laudo e Anexos Digitais',
+                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' }
             ]
         }
     };
