@@ -4736,6 +4736,12 @@ html.dark-mode .fc-badge.total { color: #9ca3af; }
     transform: rotateX(180deg);
 }
 
+/* Na troca de card o flip é desfeito instantaneamente: girando de volta, o verso
+   (já com a resposta do próximo card) apareceria durante a rotação. */
+.fc-card.fc-no-anim {
+    transition: none;
+}
+
 .fc-card-face {
     position: absolute;
     width: 100%;

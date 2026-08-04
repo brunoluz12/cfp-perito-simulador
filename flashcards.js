@@ -182,15 +182,25 @@ function mostrarCardAtual() {
     document.getElementById('fc-review-deck-name').innerHTML = card.deck + modeBadge;
     document.getElementById('fc-review-progress').textContent = `${currentCardIndex + 1} / ${currentReviewSession.length}`;
     
-    document.getElementById('fc-card-front-content').innerHTML = formatText(card.front);
-    document.getElementById('fc-card-back-content').innerHTML = formatText(card.back);
-    
     const cardElement = document.getElementById('fc-active-card');
+
+    // Desvira SEM animação antes de trocar o conteúdo. Se o card girasse de volta
+    // normalmente (0,6s), o verso — já preenchido com a resposta do próximo card —
+    // ficaria visível durante a rotação e entregaria a resposta antes da pergunta.
+    cardElement.classList.add('fc-no-anim');
     cardElement.classList.remove('flipped');
     isCardFlipped = false;
-    
+    void cardElement.offsetWidth; // força o reset a valer já neste frame
+
+    // Com a frente na tela, trocar o verso não aparece para o usuário.
+    document.getElementById('fc-card-front-content').innerHTML = formatText(card.front);
+    document.getElementById('fc-card-back-content').innerHTML = formatText(card.back);
+
     document.getElementById('fc-review-actions').style.display = 'none';
     document.getElementById('fc-show-answer-btn').style.display = 'block';
+
+    // Devolve a animação para o próximo "Mostrar Resposta".
+    requestAnimationFrame(() => cardElement.classList.remove('fc-no-anim'));
 }
 
 function virarCard() {
