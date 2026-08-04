@@ -129,9 +129,9 @@
         const st = doc.createElement('style');
         st.id = '__hl_style';
         st.textContent =
-            'mark.pcpr-hl{padding:0 1px;border-radius:3px;cursor:pointer;color:inherit;' +
+            'mark.cfp-hl{padding:0 1px;border-radius:3px;cursor:pointer;color:inherit;' +
             'transition:filter .15s;-webkit-box-decoration-break:clone;box-decoration-break:clone;}' +
-            'mark.pcpr-hl:hover{filter:brightness(0.92);}';
+            'mark.cfp-hl:hover{filter:brightness(0.92);}';
         doc.head.appendChild(st);
     }
 
@@ -156,10 +156,10 @@
             if (dentroIni && dentroFim) alvo.push(t);
         }
         for (const no of alvo) {
-            if (no.parentNode && no.parentNode.classList && no.parentNode.classList.contains('pcpr-hl')
+            if (no.parentNode && no.parentNode.classList && no.parentNode.classList.contains('cfp-hl')
                 && no.parentNode.dataset.hlId === id) continue;
             const m = doc.createElement('mark');
-            m.className = 'pcpr-hl';
+            m.className = 'cfp-hl';
             m.dataset.hlId = id;
             m.dataset.cor = cor;
             m.style.backgroundColor = CORES[cor] || CORES.amarelo;
@@ -189,7 +189,7 @@
     }
 
     function recolorir(doc, id, cor) {
-        doc.querySelectorAll(`mark.pcpr-hl[data-hl-id="${id}"]`).forEach(m => {
+        doc.querySelectorAll(`mark.cfp-hl[data-hl-id="${id}"]`).forEach(m => {
             m.dataset.cor = cor;
             m.style.backgroundColor = CORES[cor] || CORES.amarelo;
         });
@@ -197,7 +197,7 @@
     }
 
     function removerMarca(doc, id) {
-        doc.querySelectorAll(`mark.pcpr-hl[data-hl-id="${id}"]`).forEach(m => {
+        doc.querySelectorAll(`mark.cfp-hl[data-hl-id="${id}"]`).forEach(m => {
             const pai = m.parentNode;
             while (m.firstChild) pai.insertBefore(m.firstChild, m);
             pai.removeChild(m);
@@ -303,7 +303,7 @@
                     mostrarPopup(sel.getRangeAt(0).getBoundingClientRect(), false);
                     return;
                 }
-                const alvo = e.target && e.target.closest && e.target.closest('mark.pcpr-hl');
+                const alvo = e.target && e.target.closest && e.target.closest('mark.cfp-hl');
                 if (alvo) {
                     marcaEditando = alvo.dataset.hlId;
                     mostrarPopup(alvo.getBoundingClientRect(), true);
@@ -329,6 +329,6 @@
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();
 
-    // Exposição para diagnóstico/testes (console: __pcprHl)
-    window.__pcprHl = { construirMapa, indiceGlobal, posParaNo, localizar, envolverRange, aplicarSalvas, lerTudo };
+    // Exposição para diagnóstico/testes (console: __cfpHl)
+    window.__cfpHl = { construirMapa, indiceGlobal, posParaNo, localizar, envolverRange, aplicarSalvas, lerTudo };
 })();
