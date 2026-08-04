@@ -1,0 +1,121 @@
+[
+  { "dia": "01", "diaSemana": "Sábado", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - SUB MP5 (4)" },
+    { "horario": "15h50 a 17h30", "aula": "TO - ABO (26)" } ] },
+
+  { "dia": "03", "diaSemana": "Segunda-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - PIST 3 (4)" },
+    { "horario": "10h00 a 11h40", "aula": "LOCINTER (46)" },
+    { "horario": "13h50 a 15h30", "aula": "LOCINTER (48)" },
+    { "horario": "15h50 a 17h30", "aula": "TEAP - CINT (4)" } ] },
+
+  { "dia": "04", "diaSemana": "Terça-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "IF (16)" },
+    { "horario": "10h00 a 11h40", "aula": "DPP 1 (12)" },
+    { "horario": "13h50 a 15h30", "aula": "AT - SUB MP5 (6)" },
+    { "horario": "15h50 a 17h30", "aula": "IF (18)" },
+    { "horario": "Extra", "aula": "TFP 01 (12)" } ] },
+
+  { "dia": "05", "diaSemana": "Quarta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "LOCINTER (50)" },
+    { "horario": "10h00 a 11h40", "aula": "LOCINTER (52)" },
+    { "horario": "15h50 a 17h30", "aula": "IF (20)" },
+    { "horario": "17h50 a 19h30", "aula": "AT - PIST 3 (6)" } ] },
+
+  { "dia": "06", "diaSemana": "Quinta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - SUB MP5 (8)" },
+    { "horario": "10h00 a 11h40", "aula": "IF (22)" },
+    { "horario": "13h50 a 15h30", "aula": "LOCINTER (54)" },
+    { "horario": "15h50 a 17h30", "aula": "LOCINTER (56)" } ] },
+
+  { "dia": "07", "diaSemana": "Sexta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - FUZ 2 (4)" },
+    { "horario": "10h00 a 11h40", "aula": "IF (24)" },
+    { "horario": "13h50 a 15h30", "aula": "LOCINTER (58)" },
+    { "horario": "15h50 a 17h30", "aula": "LOCINTER (60)" } ] },
+
+  { "dia": "08", "diaSemana": "Sábado", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "LOCINTER (62)" },
+    { "horario": "10h00 a 11h40", "aula": "TEAP - CINT (6)" },
+    { "horario": "13h50 a 15h30", "aula": "AT - PIST FI (2)" } ] },
+
+  { "dia": "10", "diaSemana": "Segunda-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "VE (4)" },
+    { "horario": "10h00 a 11h40", "aula": "TO - ABO (28)" },
+    { "horario": "13h50 a 15h30", "aula": "LOCINTER (64)" },
+    { "horario": "15h50 a 17h30", "aula": "LOCINTER (66)" },
+    { "horario": "17h50 a 19h30", "aula": "LOCINTER (68)" } ] },
+
+  { "dia": "11", "diaSemana": "Terça-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "TEAP - GE (4)" },
+    { "horario": "13h50 a 15h30", "aula": "ISDC-IS (2)" },
+    { "horario": "15h50 a 17h30", "aula": "ISDC-IS (4)" },
+    { "horario": "17h50 a 19h30", "aula": "AT - SOBP (2)" } ] },
+
+  { "dia": "12", "diaSemana": "Quarta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "VF (6)" },
+    { "horario": "13h50 a 15h30", "aula": "ISDC-IS (6)" },
+    { "horario": "15h50 a 17h30", "aula": "ISDC-IS (8)" } ] },
+
+  { "dia": "13", "diaSemana": "Quinta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - FUZ 2 (6)" },
+    { "horario": "10h00 a 11h40", "aula": "DPP 1 (13)" },
+    { "horario": "13h50 a 15h30", "aula": "TEAP - BA (4)" },
+    { "horario": "Extra", "aula": "TFP 01 (13)" } ] },
+
+  { "dia": "14", "diaSemana": "Sexta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - SOBP (4)" },
+    { "horario": "10h00 a 11h40", "aula": "ISDC-PSI (4)" },
+    { "horario": "17h50 a 19h30", "aula": "MESDEB (10)" } ] },
+
+  { "dia": "15", "diaSemana": "Sábado", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "AT - SOBP (6)" } ] },
+
+  { "dia": "17", "diaSemana": "Segunda-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "VF (8)" },
+    { "horario": "10h00 a 11h40", "aula": "JEC (2)" },
+    { "horario": "13h50 a 15h30", "aula": "JEC (4)" },
+    { "horario": "15h50 a 17h30", "aula": "JEC (6)" } ] },
+
+  { "dia": "18", "diaSemana": "Terça-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "JEC (8)" },
+    { "horario": "10h00 a 11h40", "aula": "JEC (10)" },
+    { "horario": "13h50 a 15h30", "aula": "JEC (12)" },
+    { "horario": "15h50 a 17h30", "aula": "JEC (14)" },
+    { "horario": "17h50 a 19h30", "aula": "MESDEB (12)" } ] },
+
+  { "dia": "19", "diaSemana": "Quarta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "JEC (16)" },
+    { "horario": "10h00 a 11h40", "aula": "JEC (18)" },
+    { "horario": "13h50 a 15h30", "aula": "JEC (20)" },
+    { "horario": "15h50 a 17h30", "aula": "JEC (22)" } ] },
+
+  { "dia": "20", "diaSemana": "Quinta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "JEC (24)" },
+    { "horario": "10h00 a 11h40", "aula": "JEC (26)" },
+    { "horario": "13h50 a 15h30", "aula": "JEC (28)" },
+    { "horario": "15h50 a 17h30", "aula": "JEC (30)" } ] },
+
+  { "dia": "21", "diaSemana": "Sexta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "JEC (32)" },
+    { "horario": "10h00 a 11h40", "aula": "JEC (34)" },
+    { "horario": "13h50 a 15h30", "aula": "JEC (36)" },
+    { "horario": "15h50 a 17h30", "aula": "JEC (38)" } ] },
+
+  { "dia": "24", "diaSemana": "Segunda-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "JEC (40)" },
+    { "horario": "10h00 a 11h40", "aula": "JEC (42)" } ] },
+
+  { "dia": "25", "diaSemana": "Terça-Feira", "blocos": [
+    { "horario": "10h00 a 11h40", "aula": "TEAP - BA (6)" },
+    { "horario": "15h50 a 17h30", "aula": "DPP 1 (14)" },
+    { "horario": "Extra", "aula": "TFP 01 (14)" } ] },
+
+  { "dia": "26", "diaSemana": "Quarta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "EV (2)" },
+    { "horario": "10h00 a 11h40", "aula": "EV (4)" } ] },
+
+  { "dia": "28", "diaSemana": "Sexta-Feira", "blocos": [
+    { "horario": "08h00 a 09h40", "aula": "F (2)" },
+    { "horario": "10h00 a 11h40", "aula": "F (4)" } ] }
+]

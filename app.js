@@ -2794,7 +2794,9 @@ const aulaPrefixMap = {
     'LOCINTER': 'loc',  // LOCINTER = Locais de Crime e suas Interfaces
     'VF': null,         // VF: código sem disciplina correspondente no plano (não conta)
     'VE': null,         // VE: idem
-    'MESDEB': null      // Mesa de debate (evento, não conta)
+    'MESDEB': null,     // Mesa de debate (evento, não conta)
+    'EV': null,         // Escolha de Vagas (evento)
+    'F': null           // Formatura (evento)
 };
 
 // Devolve a LISTA de ids de disciplinas (em planoEducacional) a partir do
@@ -4050,7 +4052,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'DO':      { nome: 'Direção Operacional',            cor: '#f97316' },
         'APC':     { nome: 'Atividade Policial em Campo',    cor: '#84cc16' },
         'IF':      { nome: 'Informática Forense',            cor: '#0891b2' },
-        'JEC':     { nome: 'Jornada de Criminalística',      cor: '#1d4ed8' }
+        'JEC':     { nome: 'Jornada de Criminalística',      cor: '#1d4ed8' },
+        // Agenda de agosto/2026 passou a usar as siglas curtas da pauta oficial
+        // no lugar de "EVENTO - ...": EV = Escolha de Vagas, F = Formatura.
+        'EV':      { nome: 'Escolha de Vagas',               cor: '#94a3b8' },
+        'F':       { nome: 'Formatura',                      cor: '#94a3b8' },
+        'MESDEB':  { nome: 'Mesa de Debate',                 cor: '#94a3b8' }
     };
     const COR_EVENTO = '#94a3b8';
 
