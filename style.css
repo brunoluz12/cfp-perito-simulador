@@ -996,22 +996,6 @@ textarea:focus-visible {
     color: #1d4ed8;
     border: 1px solid rgba(59, 130, 246, 0.3);
 }
-/* Aproveitamento nas questões já respondidas — a cor dá a leitura imediata */
-.badge.aproveitamento.bom {
-    background: rgba(16, 185, 129, 0.12);
-    color: #047857;
-    border: 1px solid rgba(16, 185, 129, 0.3);
-}
-.badge.aproveitamento.medio {
-    background: rgba(245, 158, 11, 0.14);
-    color: #b45309;
-    border: 1px solid rgba(245, 158, 11, 0.32);
-}
-.badge.aproveitamento.ruim {
-    background: rgba(239, 68, 68, 0.12);
-    color: #b91c1c;
-    border: 1px solid rgba(239, 68, 68, 0.3);
-}
 
 .question-panel {
     margin-bottom: 24px;
@@ -4410,18 +4394,6 @@ html.dark-mode .badge.subtle {
 html.dark-mode .badge.progresso {
     background: rgba(59, 130, 246, 0.18);
     color: #93c5fd;
-}
-html.dark-mode .badge.aproveitamento.bom {
-    background: rgba(16, 185, 129, 0.16);
-    color: #34d399;
-}
-html.dark-mode .badge.aproveitamento.medio {
-    background: rgba(245, 158, 11, 0.18);
-    color: #fbbf24;
-}
-html.dark-mode .badge.aproveitamento.ruim {
-    background: rgba(239, 68, 68, 0.16);
-    color: #f87171;
 }
 
 /* Controle de disciplinas */

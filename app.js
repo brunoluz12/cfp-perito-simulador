@@ -1423,33 +1423,23 @@ function resetarEstadoSessao(questoes) {
 // caderno agora cabe num badge ao lado do "Questão X de Y".
 function atualizarPaleta() {
     const badge = document.getElementById('quiz-progresso-badge');
-    const badgeAcerto = document.getElementById('quiz-aproveitamento-badge');
     if (!badge) return;
     if (!simuladoAtual || simuladoAtual.length <= 1) {
         badge.style.display = 'none';
-        if (badgeAcerto) badgeAcerto.style.display = 'none';
         return;
     }
 
+    const total = simuladoAtual.length;
     const respondidas = simuladoAtual.filter(q => q.foi_respondida_neste_simulado).length;
-    const faltam = simuladoAtual.length - respondidas;
-    badge.textContent = `${respondidas} respondidas · ${faltam} ${faltam === 1 ? 'falta' : 'faltam'}`;
-    badge.style.display = 'inline-flex';
-
-    if (!badgeAcerto) return;
-    // Aproveitamento sobre o que JÁ foi respondido (não sobre o caderno todo);
-    // sem nenhuma resposta ainda, não há percentual a mostrar.
-    if (respondidas === 0) {
-        badgeAcerto.style.display = 'none';
-        return;
+    // O percentual é de ACERTO sobre o que já foi respondido; antes da primeira
+    // resposta ele não existe (seria 0/0) e o campo mostra só as contagens.
+    let texto = `Total: ${total} - Respondidas: ${respondidas}`;
+    if (respondidas > 0) {
+        const acertos = simuladoAtual.filter(q => q.foi_respondida_neste_simulado && q.acertou_neste_simulado).length;
+        texto += ` (${Math.round((acertos / respondidas) * 100)}%)`;
     }
-    const acertos = simuladoAtual.filter(q => q.foi_respondida_neste_simulado && q.acertou_neste_simulado).length;
-    const pct = Math.round((acertos / respondidas) * 100);
-    badgeAcerto.textContent = `${pct}% de acerto (${acertos}/${respondidas})`;
-    badgeAcerto.classList.toggle('bom', pct >= 70);
-    badgeAcerto.classList.toggle('medio', pct >= 50 && pct < 70);
-    badgeAcerto.classList.toggle('ruim', pct < 50);
-    badgeAcerto.style.display = 'inline-flex';
+    badge.textContent = texto;
+    badge.style.display = 'inline-flex';
 }
 
 // ==========================================
