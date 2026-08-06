@@ -1619,6 +1619,10 @@ function configurarEventos() {
     });
     const btnEnviarCom = document.getElementById('btn-enviar-comentario');
     if (btnEnviarCom) btnEnviarCom.addEventListener('click', publicarComentario);
+    const btnAbrirForm = document.getElementById('btn-abrir-form-comentario');
+    if (btnAbrirForm) btnAbrirForm.addEventListener('click', () => alternarFormComentario(true));
+    const btnCancelarCom = document.getElementById('btn-cancelar-comentario');
+    if (btnCancelarCom) btnCancelarCom.addEventListener('click', () => alternarFormComentario(false));
     const qstatsClose = document.getElementById('modal-qstats-close');
     if (qstatsClose) qstatsClose.addEventListener('click', fecharEstatisticasQuestao);
     const qstatsOverlay = document.getElementById('modal-qstats');
@@ -2180,10 +2184,9 @@ function carregarQuestaoUI() {
     // mostra quantos comentários ela já tem.
     const painelCom = document.getElementById('comentarios-panel');
     if (painelCom) painelCom.classList.add('hidden');
-    const campoCom = document.getElementById('comentario-texto');
-    if (campoCom) campoCom.value = '';
-    const statusCom = document.getElementById('comentario-status');
-    if (statusCom) statusCom.textContent = '';
+    comentarioEditandoId = null;
+    comentariosCarregados = [];
+    alternarFormComentario(false);
     atualizarContadorComentarios(q.id);
 
     // Botão de exclusão (somente admin)
@@ -2677,10 +2680,17 @@ async function atualizarContadorComentarios(qid) {
     } catch (e) { /* offline: o botão continua funcionando */ }
 }
 
+// Comentário aberto em edição (só um por vez); null = ninguém editando.
+let comentarioEditandoId = null;
+// Última lista carregada, para re-renderizar ao entrar/sair do modo edição
+// sem precisar bater na API de novo.
+let comentariosCarregados = [];
+
 function renderizarComentarios(lista) {
     const cont = document.getElementById('comentarios-lista');
     const contador = document.getElementById('comentarios-contador');
     if (!cont) return;
+    comentariosCarregados = lista;
     if (contador) contador.textContent = lista.length;
 
     if (!lista.length) {
@@ -2689,19 +2699,37 @@ function renderizarComentarios(lista) {
     }
 
     cont.innerHTML = lista.map((c) => {
-        const podeApagar = c.autor === currentUser || isAdmin;
-        const botao = podeApagar
-            ? `<button class="comentario-apagar tooltip" data-cid="${c.cid}" data-tooltip="Apagar comentário" aria-label="Apagar comentário"><i class="ph ph-trash"></i></button>`
-            : '';
-        const eu = c.autor === currentUser ? '<span class="comentario-eu">você</span>' : '';
+        const souAutor = c.autor === currentUser;
+        const eu = souAutor ? '<span class="comentario-eu">você</span>' : '';
+        const editado = c.editadoEm ? '<span class="comentario-editado">(editado)</span>' : '';
+
+        // Editar é só do autor; apagar, do autor ou do admin (moderação).
+        let acoes = '';
+        if (souAutor) {
+            acoes += `<button class="comentario-acao tooltip" data-editar="${c.cid}" data-tooltip="Editar" aria-label="Editar comentário"><i class="ph ph-pencil-simple"></i></button>`;
+        }
+        if (souAutor || isAdmin) {
+            acoes += `<button class="comentario-acao comentario-apagar tooltip" data-cid="${c.cid}" data-tooltip="Apagar" aria-label="Apagar comentário"><i class="ph ph-trash"></i></button>`;
+        }
+
+        const corpo = c.cid === comentarioEditandoId
+            ? `<div class="comentario-edicao">
+                   <textarea class="custom-textarea" id="comentario-edicao-texto" rows="3" maxlength="1500">${escapeHtml(c.texto)}</textarea>
+                   <div class="comentario-form-acoes">
+                       <button class="btn-secondary btn-sm" data-cancelar-edicao="1">Cancelar</button>
+                       <button class="btn-comentario" data-salvar-edicao="${c.cid}">Salvar</button>
+                   </div>
+               </div>`
+            : `<p class="comentario-texto">${escapeHtml(c.texto)}</p>`;
+
         return `
             <div class="comentario-item">
                 <div class="comentario-topo">
                     <span class="comentario-autor">${escapeHtml(c.autor)}</span>${eu}
-                    <span class="comentario-data">${comentarioDataRelativa(c.ts)}</span>
-                    ${botao}
+                    <span class="comentario-data">${comentarioDataRelativa(c.ts)}</span>${editado}
+                    <span class="comentario-acoes">${acoes}</span>
                 </div>
-                <p class="comentario-texto">${escapeHtml(c.texto)}</p>
+                ${corpo}
             </div>
         `;
     }).join('');
@@ -2709,6 +2737,61 @@ function renderizarComentarios(lista) {
     cont.querySelectorAll('.comentario-apagar').forEach((b) => {
         b.addEventListener('click', () => apagarComentario(b.dataset.cid));
     });
+    cont.querySelectorAll('[data-editar]').forEach((b) => {
+        b.addEventListener('click', () => {
+            comentarioEditandoId = b.dataset.editar;
+            renderizarComentarios(comentariosCarregados);
+        });
+    });
+    cont.querySelectorAll('[data-cancelar-edicao]').forEach((b) => {
+        b.addEventListener('click', () => {
+            comentarioEditandoId = null;
+            renderizarComentarios(comentariosCarregados);
+        });
+    });
+    cont.querySelectorAll('[data-salvar-edicao]').forEach((b) => {
+        b.addEventListener('click', () => salvarEdicaoComentario(b.dataset.salvarEdicao));
+    });
+}
+
+async function salvarEdicaoComentario(cid) {
+    const q = simuladoAtual[questaoAtualIndex];
+    const campo = document.getElementById('comentario-edicao-texto');
+    if (!q || !campo) return;
+    const texto = (campo.value || '').trim();
+    if (!texto) return alert('O comentário não pode ficar vazio.');
+
+    try {
+        const r = await fetch(`${VERCEL_API_URL}/api/comentarios`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: q.id, cid, autor: currentUser, texto })
+        });
+        const d = await r.json();
+        if (!r.ok) throw new Error(d.error || 'Falha ao editar');
+        comentarioEditandoId = null;
+        await carregarComentarios();
+    } catch (e) {
+        alert(e.message || 'Não foi possível editar o comentário.');
+    }
+}
+
+// Mostra/esconde o campo de escrita (fica oculto até o aluno pedir).
+function alternarFormComentario(mostrar) {
+    const form = document.getElementById('comentario-form');
+    const botao = document.getElementById('btn-abrir-form-comentario');
+    if (!form || !botao) return;
+    form.classList.toggle('hidden', !mostrar);
+    botao.classList.toggle('hidden', mostrar);
+    if (mostrar) {
+        const campo = document.getElementById('comentario-texto');
+        if (campo) campo.focus();
+    } else {
+        const campo = document.getElementById('comentario-texto');
+        if (campo) campo.value = '';
+        const status = document.getElementById('comentario-status');
+        if (status) status.textContent = '';
+    }
 }
 
 async function carregarComentarios() {
@@ -2731,6 +2814,9 @@ function alternarComentarios() {
     const abrindo = painel.classList.contains('hidden');
     painel.classList.toggle('hidden', !abrindo);
     if (abrindo) {
+        // Abre mostrando só a lista; escrever é uma ação à parte.
+        alternarFormComentario(false);
+        comentarioEditandoId = null;
         carregarComentarios();
         setTimeout(() => painel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
     }
@@ -2763,7 +2849,7 @@ async function publicarComentario() {
         });
         const d = await r.json();
         if (!r.ok) throw new Error(d.error || 'Falha ao publicar');
-        campo.value = '';
+        alternarFormComentario(false); // publicou: o campo some de novo
         await carregarComentarios();
         atualizarContadorComentarios(q.id);
     } catch (e) {

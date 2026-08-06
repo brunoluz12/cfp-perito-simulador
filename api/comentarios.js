@@ -22,7 +22,7 @@ function parse(item) {
 
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') return res.status(200).end();
@@ -80,6 +80,42 @@ module.exports = async (req, res) => {
     } catch (error) {
       console.error('comentarios POST error:', error);
       return res.status(500).json({ error: 'Falha ao publicar o comentário' });
+    }
+  }
+
+  // PUT { id, cid, autor, texto } → edita (SÓ o autor; nem o admin edita texto alheio)
+  if (req.method === 'PUT') {
+    try {
+      const { id, cid, autor, texto } = req.body || {};
+      const qid = Number(id);
+      const quem = String(autor || '').trim();
+      const corpo = String(texto || '').trim();
+
+      if (Number.isNaN(qid) || !cid) return res.status(400).json({ error: 'id e cid são obrigatórios' });
+      if (!corpo) return res.status(400).json({ error: 'O comentário está vazio' });
+      if (corpo.length > MAX_TEXTO) {
+        return res.status(400).json({ error: `O comentário passa de ${MAX_TEXTO} caracteres` });
+      }
+
+      const brutos = (await redis.lrange(chave(qid), 0, MAX_POR_QUESTAO - 1)) || [];
+      const indice = brutos.findIndex((b) => {
+        const c = parse(b);
+        return c && c.cid === cid;
+      });
+      if (indice === -1) return res.status(404).json({ error: 'Comentário não encontrado' });
+
+      const atual = parse(brutos[indice]);
+      if (atual.autor !== quem) {
+        return res.status(403).json({ error: 'Só o autor pode editar o próprio comentário' });
+      }
+
+      // Mantém cid e data original; marca que foi editado.
+      const novo = { ...atual, texto: corpo, editadoEm: Date.now() };
+      await redis.lset(chave(qid), indice, JSON.stringify(novo));
+      return res.status(200).json({ success: true, comentario: novo });
+    } catch (error) {
+      console.error('comentarios PUT error:', error);
+      return res.status(500).json({ error: 'Falha ao editar o comentário' });
     }
   }
 

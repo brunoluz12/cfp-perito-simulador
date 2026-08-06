@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=41">
+    <link rel="stylesheet" href="style.css?v=42">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -362,10 +362,13 @@
                         <h4><i class="ph ph-chat-circle-text"></i> Comentários da turma <span id="comentarios-contador" class="badge subtle">0</span></h4>
                         <button id="btn-fechar-comentarios" class="btn-icon tooltip" data-tooltip="Fechar comentários" aria-label="Fechar comentários"><i class="ph ph-x"></i></button>
                     </div>
-                    <div class="comentario-form">
+                    <!-- O campo de escrita só aparece ao pedir; some de novo após publicar -->
+                    <button id="btn-abrir-form-comentario" class="btn-comentario"><i class="ph ph-pencil-simple"></i> Escrever comentário</button>
+                    <div id="comentario-form" class="comentario-form hidden">
                         <textarea id="comentario-texto" class="custom-textarea" rows="3" maxlength="1500" placeholder="Escreva um comentário sobre esta questão para a turma..."></textarea>
                         <div class="comentario-form-acoes">
                             <span id="comentario-status" class="comentario-status"></span>
+                            <button id="btn-cancelar-comentario" class="btn-secondary btn-sm">Cancelar</button>
                             <button id="btn-enviar-comentario" class="btn-comentario">Publicar</button>
                         </div>
                     </div>
@@ -958,7 +961,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
     <script src="flashcards.js?v=3"></script>
-    <script src="app.js?v=86"></script>
+    <script src="app.js?v=87"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
     <script src="tts_material.js?v=4"></script>
