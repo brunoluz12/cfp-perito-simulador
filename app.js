@@ -1501,7 +1501,10 @@ function handleQuizKeydown(e) {
     } else if (e.key === 'ArrowLeft') {
         questaoAnterior();
     } else if (e.key === 'ArrowRight') {
+        // Respondida: segue o fluxo normal (que encerra o caderno na última).
+        // Sem responder: apenas pula, igual ao botão da seta.
         if (feedbackVisivel) proximaQuestao();
+        else avancarQuestao();
     } else if (key === 'R') {
         questaoAleatoria();
         e.preventDefault();
@@ -1584,6 +1587,7 @@ function configurarEventos() {
     document.getElementById('btn-responder').addEventListener('click', verificarResposta);
     
     document.getElementById('btn-anterior').addEventListener('click', questaoAnterior);
+    document.getElementById('btn-avancar').addEventListener('click', avancarQuestao);
     
     const chkTodas = document.getElementById('chk-qtd-todas');
     const inputQtd = document.getElementById('qtd-questoes-input');
@@ -2142,8 +2146,12 @@ function carregarQuestaoUI() {
     // barra volta ao estado inicial da questão.
     document.getElementById('btn-proxima').style.display = 'none';
 
+    // Setas de navegação: cada uma some na ponta correspondente do caderno.
     const btnAnterior = document.getElementById('btn-anterior');
     btnAnterior.style.display = questaoAtualIndex > 0 ? 'inline-flex' : 'none';
+
+    const btnAvancar = document.getElementById('btn-avancar');
+    btnAvancar.style.display = questaoAtualIndex < simuladoAtual.length - 1 ? 'inline-flex' : 'none';
 
     // Meta Dados
     document.getElementById('q-capitulo').textContent = q.capitulo;
@@ -2452,6 +2460,16 @@ function questaoAleatoria() {
 function questaoAnterior() {
     if (questaoAtualIndex > 0) {
         questaoAtualIndex--;
+        carregarQuestaoUI();
+    }
+}
+
+// Espelho do questaoAnterior: navega para a frente sem exigir resposta, para
+// pular uma questão. Diferente do "Próxima", nunca encerra o caderno — quem
+// finaliza é o botão "Ver Resultado" na última questão.
+function avancarQuestao() {
+    if (questaoAtualIndex < simuladoAtual.length - 1) {
+        questaoAtualIndex++;
         carregarQuestaoUI();
     }
 }
