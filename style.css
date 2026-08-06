@@ -1108,14 +1108,66 @@ textarea:focus-visible {
     color: white;
 }
 
-/* AÇÕES DO QUIZ (Anterior / Responder) */
+/* AÇÕES DO QUIZ — barra compacta, alinhada à direita.
+   Navegação é só ícone (seta/embaralhar); a ação principal leva texto. */
 .action-panel {
     display: flex;
-    gap: 12px;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
 }
-.action-panel #btn-anterior { flex: 1; }
-.action-panel #btn-responder { flex: 2; }
-.action-panel #btn-aleatoria { flex: 1; }
+
+/* Botão redondo de navegação (Anterior / Aleatória) */
+.btn-nav {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--primary-color);
+    background: rgba(59, 130, 246, 0.10);
+    color: var(--primary-color);
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: background 0.18s ease, transform 0.18s ease;
+}
+.btn-nav:hover {
+    background: rgba(59, 130, 246, 0.20);
+    transform: translateY(-1px);
+}
+.btn-nav i { line-height: 1; }
+
+/* Ação principal: Responder / Próxima (ocupam o mesmo lugar, alternando) */
+.btn-acao {
+    flex: 0 0 auto;
+    min-width: 150px;
+    padding: 11px 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.28);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.btn-acao:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(59, 130, 246, 0.38);
+}
+.btn-acao:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    box-shadow: none;
+}
 
 /* Dica de atalhos de teclado */
 .kbd-hint {
@@ -1237,12 +1289,6 @@ textarea:focus-visible {
     align-items: center;
     gap: 6px;
     font-weight: 500;
-}
-
-.feedback-actions {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 16px;
 }
 
 @keyframes slideUp {
@@ -4380,9 +4426,8 @@ html.dark-mode .option-letter {
         min-height: 44px; /* alvo de toque confortável */
     }
     .action-panel {
-        flex-direction: column;
         gap: 8px !important;
-        /* Barra de resposta sempre ao alcance do polegar em questões longas */
+        /* Barra de resposta sempre ao alcance do polegar em questoes longas */
         position: sticky;
         bottom: 8px;
         z-index: 50;
@@ -4394,24 +4439,15 @@ html.dark-mode .option-letter {
         padding: 8px;
         box-shadow: var(--shadow-panel);
     }
-    .action-panel button {
-        width: 100%;
+    /* Uma linha so: icones a esquerda e a acao principal ocupando o que sobra. */
+    .btn-nav {
+        width: 46px;
+        height: 46px; /* alvo de toque confortavel */
     }
-    /* Com 3 botões, empilhar todos deixaria a barra fixa alta demais e comeria a
-       tela da questão: "Responder" fica em cima, em largura total, e Anterior e
-       Aleatória dividem a linha de baixo. */
-    .action-panel {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .action-panel #btn-responder {
-        order: -1;
-        flex: 1 0 100%;
-    }
-    .action-panel #btn-anterior,
-    .action-panel #btn-aleatoria {
-        flex: 1 1 0;
-        width: auto;
+    .action-panel .btn-acao {
+        flex: 1 1 auto;
+        min-width: 0;
+        min-height: 46px;
     }
     .kbd-hint {
         display: none; /* atalhos de teclado não se aplicam no celular */
@@ -4433,14 +4469,6 @@ html.dark-mode .option-letter {
     }
     .feedback-panel {
         padding: 16px;
-    }
-    .feedback-actions {
-        flex-direction: column;
-        gap: 8px;
-    }
-    .feedback-actions button {
-        width: 100%;
-        margin: 0 !important;
     }
     .personal-notes-container textarea {
         font-size: 0.85rem;

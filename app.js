@@ -1584,7 +1584,6 @@ function configurarEventos() {
     document.getElementById('btn-responder').addEventListener('click', verificarResposta);
     
     document.getElementById('btn-anterior').addEventListener('click', questaoAnterior);
-    document.getElementById('btn-feedback-anterior').addEventListener('click', questaoAnterior);
     
     const chkTodas = document.getElementById('chk-qtd-todas');
     const inputQtd = document.getElementById('qtd-questoes-input');
@@ -2137,18 +2136,14 @@ function carregarQuestaoUI() {
     // Reset Botões Responder e Anterior
     const btnResponder = document.getElementById('btn-responder');
     btnResponder.disabled = true;
-    btnResponder.style.display = 'block';
-    
+    btnResponder.style.display = 'inline-flex'; // .btn-acao alinha ícone+texto por flex
+
+    // "Próxima" só aparece depois de responder (ver mostrarFeedback); aqui a
+    // barra volta ao estado inicial da questão.
+    document.getElementById('btn-proxima').style.display = 'none';
+
     const btnAnterior = document.getElementById('btn-anterior');
-    const btnFeedbackAnterior = document.getElementById('btn-feedback-anterior');
-    
-    if (questaoAtualIndex > 0) {
-        btnAnterior.style.display = 'flex';
-        btnFeedbackAnterior.style.display = 'flex';
-    } else {
-        btnAnterior.style.display = 'none';
-        btnFeedbackAnterior.style.display = 'none';
-    }
+    btnAnterior.style.display = questaoAtualIndex > 0 ? 'inline-flex' : 'none';
 
     // Meta Dados
     document.getElementById('q-capitulo').textContent = q.capitulo;
@@ -2404,13 +2399,14 @@ function mostrarFeedback(q, isAcerto) {
     document.getElementById('feedback-justificativa').textContent = q.justificativa;
     document.getElementById('feedback-referencia').textContent = q.referencia;
     
-    // Mudar texto do botão se for a última
+    // Respondida: "Próxima" toma o lugar de "Responder" na barra de ações.
     const btnProx = document.getElementById('btn-proxima');
     if (questaoAtualIndex === simuladoAtual.length - 1) {
         btnProx.innerHTML = 'Ver Resultado <i class="ph ph-flag-checkered"></i>';
     } else {
-        btnProx.innerHTML = 'Próxima Questão <i class="ph ph-arrow-right"></i>';
+        btnProx.innerHTML = 'Próxima <i class="ph ph-arrow-right"></i>';
     }
+    btnProx.style.display = 'inline-flex';
 
     // Garante que a justificativa fique visível sem o usuário precisar rolar
     setTimeout(() => {

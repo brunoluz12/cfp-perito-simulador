@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=36">
+    <link rel="stylesheet" href="style.css?v=37">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -333,12 +333,14 @@
                     <!-- Geradas dinamicamente -->
                 </div>
 
+                <!-- Barra única de navegação: antes existiam botões repetidos aqui e no
+                     painel de feedback (dois "Anterior" na tela depois de responder).
+                     "Responder" e "Próxima" ocupam o mesmo lugar, alternando. -->
                 <div class="action-panel mt-4">
-                    <button id="btn-anterior" class="btn-secondary" style="display: none;"><i class="ph ph-arrow-left"></i> Anterior</button>
-                    <button id="btn-responder" class="btn-primary" disabled>Responder</button>
-                    <!-- Fica aqui (e não no feedback) para estar disponível ANTES de responder:
-                         permite sortear outra questão sem ter que responder a atual. -->
-                    <button id="btn-aleatoria" class="btn-secondary" onclick="questaoAleatoria()" title="Atalho: tecla R"><i class="ph ph-shuffle"></i> Aleatória</button>
+                    <button id="btn-anterior" class="btn-nav" style="display: none;" title="Questão anterior (←)" aria-label="Questão anterior"><i class="ph ph-arrow-left"></i></button>
+                    <button id="btn-aleatoria" class="btn-nav" onclick="questaoAleatoria()" title="Questão aleatória (R)" aria-label="Questão aleatória"><i class="ph ph-shuffle"></i></button>
+                    <button id="btn-responder" class="btn-acao" disabled>Responder</button>
+                    <button id="btn-proxima" class="btn-acao" style="display: none;">Próxima <i class="ph ph-arrow-right"></i></button>
                 </div>
                 <p class="kbd-hint">Atalhos: <kbd>A</kbd>–<kbd>D</kbd> seleciona · <kbd>Enter</kbd> responde e avança · <kbd>←</kbd> <kbd>→</kbd> navegam · <kbd>R</kbd> questão aleatória · duplo clique risca a alternativa</p>
 
@@ -351,10 +353,6 @@
                     <div class="feedback-content">
                         <p id="feedback-justificativa">Justificativa aqui.</p>
                         <p class="referencia"><i class="ph ph-book-open"></i> Referência: <span id="feedback-referencia"></span></p>
-                    </div>
-                    <div class="feedback-actions">
-                        <button id="btn-feedback-anterior" class="btn-secondary" style="display: none; margin-right: auto;"><i class="ph ph-arrow-left"></i> Anterior</button>
-                        <button id="btn-proxima" class="btn-primary" style="width: auto;">Próxima Questão <i class="ph ph-arrow-right"></i></button>
                     </div>
                 </div>
 
@@ -947,7 +945,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
     <script src="flashcards.js?v=3"></script>
-    <script src="app.js?v=81"></script>
+    <script src="app.js?v=82"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
     <script src="tts_material.js?v=4"></script>
