@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=40">
+    <link rel="stylesheet" href="style.css?v=41">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -339,7 +339,7 @@
                     <button id="btn-anterior" class="btn-nav" style="display: none;" title="Questão anterior (←)" aria-label="Questão anterior"><i class="ph ph-arrow-left"></i></button>
                     <button id="btn-avancar" class="btn-nav" style="display: none;" title="Avançar sem responder (→)" aria-label="Próxima questão"><i class="ph ph-arrow-right"></i></button>
                     <button id="btn-aleatoria" class="btn-nav" onclick="questaoAleatoria()" title="Questão aleatória (R)" aria-label="Questão aleatória"><i class="ph ph-shuffle"></i></button>
-                    <button id="btn-comentario" class="btn-comentario" title="Comentário"><i class="ph ph-chat-circle-text"></i><span class="rotulo">Comentário</span></button>
+                    <button id="btn-comentario" class="btn-comentario" title="Comentários da turma"><i class="ph ph-chat-circle-text"></i><span class="rotulo">Comentário</span><span id="btn-comentario-badge" class="comentario-badge" style="display: none;">0</span></button>
                     <button id="btn-responder" class="btn-acao" disabled>Responder</button>
                     <button id="btn-proxima" class="btn-acao" style="display: none;">Próxima <i class="ph ph-arrow-right"></i></button>
                 </div>
@@ -353,6 +353,24 @@
                     <div class="feedback-content">
                         <p id="feedback-justificativa">Justificativa aqui.</p>
                         <p class="referencia"><i class="ph ph-book-open"></i> Referência: <span id="feedback-referencia"></span></p>
+                    </div>
+                </div>
+
+                <!-- Comentários da turma: lista única, sem resposta a comentário -->
+                <div id="comentarios-panel" class="comentarios-panel hidden">
+                    <div class="comentarios-header">
+                        <h4><i class="ph ph-chat-circle-text"></i> Comentários da turma <span id="comentarios-contador" class="badge subtle">0</span></h4>
+                        <button id="btn-fechar-comentarios" class="btn-icon tooltip" data-tooltip="Fechar comentários" aria-label="Fechar comentários"><i class="ph ph-x"></i></button>
+                    </div>
+                    <div class="comentario-form">
+                        <textarea id="comentario-texto" class="custom-textarea" rows="3" maxlength="1500" placeholder="Escreva um comentário sobre esta questão para a turma..."></textarea>
+                        <div class="comentario-form-acoes">
+                            <span id="comentario-status" class="comentario-status"></span>
+                            <button id="btn-enviar-comentario" class="btn-comentario">Publicar</button>
+                        </div>
+                    </div>
+                    <div id="comentarios-lista" class="comentarios-lista">
+                        <p class="comentarios-vazio">Carregando…</p>
                     </div>
                 </div>
 
@@ -940,7 +958,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
     <script src="flashcards.js?v=3"></script>
-    <script src="app.js?v=85"></script>
+    <script src="app.js?v=86"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
     <script src="tts_material.js?v=4"></script>

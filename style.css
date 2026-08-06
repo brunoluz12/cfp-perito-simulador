@@ -1259,6 +1259,125 @@ textarea:focus-visible {
 }
 
 /* FEEDBACK PANEL — cartão interno logo abaixo das alternativas */
+/* ── COMENTÁRIOS DA TURMA ─────────────────────────── */
+.comentarios-panel {
+    margin-top: 20px;
+    padding: 18px 20px;
+    border-radius: var(--radius-md);
+    background: rgba(139, 92, 246, 0.05);
+    border: 1px solid var(--panel-border);
+    border-left: 4px solid var(--accent-color);
+    animation: slideUp 0.3s ease;
+}
+.comentarios-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+.comentarios-header h4 {
+    margin: 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-main);
+}
+.comentario-form textarea {
+    width: 100%;
+    resize: vertical;
+}
+.comentario-form-acoes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 8px;
+}
+.comentario-status {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-right: auto;
+}
+.comentarios-lista {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.comentarios-vazio {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+}
+.comentario-item {
+    padding: 11px 13px;
+    border-radius: var(--radius-md);
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+}
+.comentario-topo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+.comentario-autor {
+    font-weight: 600;
+    font-size: 0.88rem;
+    color: var(--text-main);
+}
+.comentario-eu {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 999px;
+    padding: 0 6px;
+}
+.comentario-data {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+.comentario-apagar {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 2px 4px;
+    border-radius: 6px;
+}
+.comentario-apagar:hover {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+.comentario-texto {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+/* Contador no botão da barra de ações */
+.comentario-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 999px;
+    background: var(--accent-color);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
 .feedback-panel {
     margin-top: 20px;
     padding: 20px;

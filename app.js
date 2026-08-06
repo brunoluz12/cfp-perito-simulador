@@ -1609,6 +1609,16 @@ function configurarEventos() {
     if (btnExcluirQ) btnExcluirQ.addEventListener('click', excluirQuestaoAtual);
     const btnStatsQ = document.getElementById('btn-stats-questao');
     if (btnStatsQ) btnStatsQ.addEventListener('click', abrirEstatisticasQuestao);
+
+    // Comentários da turma
+    const btnComentario = document.getElementById('btn-comentario');
+    if (btnComentario) btnComentario.addEventListener('click', alternarComentarios);
+    const btnFecharCom = document.getElementById('btn-fechar-comentarios');
+    if (btnFecharCom) btnFecharCom.addEventListener('click', () => {
+        document.getElementById('comentarios-panel').classList.add('hidden');
+    });
+    const btnEnviarCom = document.getElementById('btn-enviar-comentario');
+    if (btnEnviarCom) btnEnviarCom.addEventListener('click', publicarComentario);
     const qstatsClose = document.getElementById('modal-qstats-close');
     if (qstatsClose) qstatsClose.addEventListener('click', fecharEstatisticasQuestao);
     const qstatsOverlay = document.getElementById('modal-qstats');
@@ -2166,6 +2176,16 @@ function carregarQuestaoUI() {
     // estatísticas da questão (ícone de gráfico).
     document.getElementById('q-id').textContent = `ID: ${q.id}`;
 
+    // Comentários: o painel começa fechado a cada questão e o badge do botão
+    // mostra quantos comentários ela já tem.
+    const painelCom = document.getElementById('comentarios-panel');
+    if (painelCom) painelCom.classList.add('hidden');
+    const campoCom = document.getElementById('comentario-texto');
+    if (campoCom) campoCom.value = '';
+    const statusCom = document.getElementById('comentario-status');
+    if (statusCom) statusCom.textContent = '';
+    atualizarContadorComentarios(q.id);
+
     // Botão de exclusão (somente admin)
     const btnExcluir = document.getElementById('btn-excluir-questao');
     if (btnExcluir) btnExcluir.style.display = isAdmin ? 'inline-flex' : 'none';
@@ -2609,6 +2629,167 @@ function registrarResolucaoAgregada(id, letra, acerto) {
             body: JSON.stringify({ id, letra, acerto })
         }).catch(() => {});
     } catch (e) { /* offline/local: ignora */ }
+}
+
+// ==========================================
+// COMENTÁRIOS DA TURMA (por questão, públicos)
+// ==========================================
+// O texto vem de outros alunos e é inserido via innerHTML na lista, então
+// precisa ser escapado: sem isso, um comentário com HTML seria executado na
+// tela de todo mundo.
+function escapeHtml(s) {
+    return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+// Lista única: cada envio é um comentário novo no topo, sem resposta a
+// comentário — foi a escolha de projeto para não lidar com árvore.
+
+function comentarioDataRelativa(ts) {
+    const seg = Math.floor((Date.now() - Number(ts)) / 1000);
+    if (seg < 60) return 'agora';
+    const min = Math.floor(seg / 60);
+    if (min < 60) return `há ${min} min`;
+    const h = Math.floor(min / 60);
+    if (h < 24) return `há ${h}h`;
+    const d = Math.floor(h / 24);
+    if (d < 30) return `há ${d}d`;
+    return new Date(Number(ts)).toLocaleDateString('pt-BR');
+}
+
+// Badge do botão: mostra que a questão já tem comentários sem precisar abrir.
+async function atualizarContadorComentarios(qid) {
+    const badge = document.getElementById('btn-comentario-badge');
+    if (!badge) return;
+    badge.style.display = 'none';
+    try {
+        const r = await fetch(`${VERCEL_API_URL}/api/comentarios?id=${qid}&count=1`, { cache: 'no-store' });
+        if (!r.ok) return;
+        const d = await r.json();
+        if (d.total > 0) {
+            badge.textContent = d.total;
+            badge.style.display = 'inline-flex';
+        }
+    } catch (e) { /* offline: o botão continua funcionando */ }
+}
+
+function renderizarComentarios(lista) {
+    const cont = document.getElementById('comentarios-lista');
+    const contador = document.getElementById('comentarios-contador');
+    if (!cont) return;
+    if (contador) contador.textContent = lista.length;
+
+    if (!lista.length) {
+        cont.innerHTML = '<p class="comentarios-vazio">Ninguém comentou esta questão ainda. Seja o primeiro.</p>';
+        return;
+    }
+
+    cont.innerHTML = lista.map((c) => {
+        const podeApagar = c.autor === currentUser || isAdmin;
+        const botao = podeApagar
+            ? `<button class="comentario-apagar tooltip" data-cid="${c.cid}" data-tooltip="Apagar comentário" aria-label="Apagar comentário"><i class="ph ph-trash"></i></button>`
+            : '';
+        const eu = c.autor === currentUser ? '<span class="comentario-eu">você</span>' : '';
+        return `
+            <div class="comentario-item">
+                <div class="comentario-topo">
+                    <span class="comentario-autor">${escapeHtml(c.autor)}</span>${eu}
+                    <span class="comentario-data">${comentarioDataRelativa(c.ts)}</span>
+                    ${botao}
+                </div>
+                <p class="comentario-texto">${escapeHtml(c.texto)}</p>
+            </div>
+        `;
+    }).join('');
+
+    cont.querySelectorAll('.comentario-apagar').forEach((b) => {
+        b.addEventListener('click', () => apagarComentario(b.dataset.cid));
+    });
+}
+
+async function carregarComentarios() {
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+    const cont = document.getElementById('comentarios-lista');
+    if (cont) cont.innerHTML = '<p class="comentarios-vazio">Carregando…</p>';
+    try {
+        const r = await fetch(`${VERCEL_API_URL}/api/comentarios?id=${q.id}`, { cache: 'no-store' });
+        const d = await r.json();
+        renderizarComentarios(d.comentarios || []);
+    } catch (e) {
+        if (cont) cont.innerHTML = '<p class="comentarios-vazio">Não foi possível carregar os comentários agora.</p>';
+    }
+}
+
+function alternarComentarios() {
+    const painel = document.getElementById('comentarios-panel');
+    if (!painel) return;
+    const abrindo = painel.classList.contains('hidden');
+    painel.classList.toggle('hidden', !abrindo);
+    if (abrindo) {
+        carregarComentarios();
+        setTimeout(() => painel.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
+    }
+}
+
+async function publicarComentario() {
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+    const campo = document.getElementById('comentario-texto');
+    const status = document.getElementById('comentario-status');
+    const botao = document.getElementById('btn-enviar-comentario');
+    const texto = (campo.value || '').trim();
+
+    if (!texto) {
+        if (status) status.textContent = 'Escreva algo antes de publicar.';
+        return;
+    }
+    if (!currentUser) {
+        if (status) status.textContent = 'Entre com seu nome para comentar.';
+        return;
+    }
+
+    if (botao) { botao.disabled = true; botao.textContent = 'Publicando…'; }
+    if (status) status.textContent = '';
+    try {
+        const r = await fetch(`${VERCEL_API_URL}/api/comentarios`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: q.id, autor: currentUser, texto })
+        });
+        const d = await r.json();
+        if (!r.ok) throw new Error(d.error || 'Falha ao publicar');
+        campo.value = '';
+        await carregarComentarios();
+        atualizarContadorComentarios(q.id);
+    } catch (e) {
+        if (status) status.textContent = e.message || 'Não foi possível publicar agora.';
+    } finally {
+        if (botao) { botao.disabled = false; botao.textContent = 'Publicar'; }
+    }
+}
+
+async function apagarComentario(cid) {
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q || !cid) return;
+    if (!confirm('Apagar este comentário?')) return;
+    try {
+        const r = await fetch(`${VERCEL_API_URL}/api/comentarios`, {
+            method: 'DELETE',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: q.id, cid, autor: currentUser })
+        });
+        const d = await r.json();
+        if (!r.ok) throw new Error(d.error || 'Falha ao apagar');
+        await carregarComentarios();
+        atualizarContadorComentarios(q.id);
+    } catch (e) {
+        alert(e.message || 'Não foi possível apagar o comentário.');
+    }
 }
 
 function fecharEstatisticasQuestao() {
