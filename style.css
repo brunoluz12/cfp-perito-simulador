@@ -946,25 +946,17 @@ textarea:focus-visible {
 .cs-erros { color: var(--error-color); display: flex; align-items: center; gap: 4px; }
 
 /* TELA QUIZ */
+/* Sobrou só a barra de progresso — ela ocupa a largura toda e ganha bem menos
+   altura, liberando o espaço entre a barra de título e a questão. */
 .quiz-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .progress-bar-container {
     flex: 1;
-    margin: 0 24px;
-}
-
-.progress-info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    font-weight: 500;
+    margin: 0;
 }
 
 .progress-bar-bg {
@@ -1003,8 +995,12 @@ textarea:focus-visible {
     margin-bottom: 24px;
 }
 
+/* Disciplina, conteúdo, ID e "Questão X de Y" na mesma linha; quebra em telas
+   estreitas em vez de espremer os badges. */
 .question-meta {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 8px;
     margin-bottom: 16px;
 }
@@ -4421,11 +4417,7 @@ html.dark-mode .option-letter {
         font-size: 0.85rem;
     }
     .progress-bar-container {
-        order: 3;
         width: 100%;
-    }
-    .progress-info {
-        font-size: 0.85rem;
     }
     .question-panel {
         padding: 16px;

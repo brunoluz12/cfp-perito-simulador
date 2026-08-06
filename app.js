@@ -1550,8 +1550,12 @@ function configurarEventos() {
             }
         });
     }
-    document.getElementById('btn-voltar').addEventListener('click', () => showView('dashboard'));
-    document.getElementById('btn-finalizar-quiz').addEventListener('click', finalizarSimulado);
+    // "Voltar" e "Encerrar" saíram do cabeçalho do quiz (ver index.html); os
+    // listeners só são registrados se os botões existirem.
+    const btnVoltarQuiz = document.getElementById('btn-voltar');
+    if (btnVoltarQuiz) btnVoltarQuiz.addEventListener('click', () => showView('dashboard'));
+    const btnFinalizarQuiz = document.getElementById('btn-finalizar-quiz');
+    if (btnFinalizarQuiz) btnFinalizarQuiz.addEventListener('click', finalizarSimulado);
     document.getElementById('btn-proxima').addEventListener('click', proximaQuestao);
 
     // Modal "Seu Desempenho"
@@ -2156,27 +2160,12 @@ function carregarQuestaoUI() {
     const btnAvancar = document.getElementById('btn-avancar');
     btnAvancar.style.display = questaoAtualIndex < simuladoAtual.length - 1 ? 'inline-flex' : 'none';
 
-    // Meta Dados
-    document.getElementById('q-capitulo').textContent = q.capitulo;
+    // Meta Dados — o badge de "Capítulo" saiu: nenhuma questão do banco tem esse
+    // campo (era sempre "undefined" na tela); quem identifica o assunto é o
+    // conteúdo, logo ao lado. A contagem de vezes resolvidas ficou só nas
+    // estatísticas da questão (ícone de gráfico).
     document.getElementById('q-id').textContent = `ID: ${q.id}`;
-    
-    // Tentativas
-    let histAtual = historicoQuestoes[q.id];
-    let tentativas = 0;
-    if (typeof histAtual === 'string') {
-        tentativas = 1;
-    } else if (histAtual && histAtual.tentativas) {
-        tentativas = histAtual.tentativas;
-    }
-    
-    const spanTentativas = document.getElementById('q-tentativas');
-    if (tentativas > 0) {
-        spanTentativas.innerHTML = `<i class="ph ph-arrows-clockwise"></i> Resolvida: ${tentativas}x`;
-        spanTentativas.style.display = 'inline-block';
-    } else {
-        spanTentativas.style.display = 'none';
-    }
-    
+
     // Botão de exclusão (somente admin)
     const btnExcluir = document.getElementById('btn-excluir-questao');
     if (btnExcluir) btnExcluir.style.display = isAdmin ? 'inline-flex' : 'none';
