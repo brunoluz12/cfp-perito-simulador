@@ -1418,40 +1418,20 @@ function resetarEstadoSessao(questoes) {
 // ==========================================
 // PALETA DE QUESTÕES (navegação numerada do caderno)
 // ==========================================
+// Substitui a antiga paleta de chips numerados (um por questão, verde/vermelho):
+// ela ocupava a faixa inteira sob o título e deixou de ser útil. O andamento do
+// caderno agora cabe num badge ao lado do "Questão X de Y".
 function atualizarPaleta() {
-    const wrap = document.getElementById('quiz-palette');
-    if (!wrap) return;
+    const badge = document.getElementById('quiz-progresso-badge');
+    if (!badge) return;
     if (!simuladoAtual || simuladoAtual.length <= 1) {
-        wrap.style.display = 'none';
+        badge.style.display = 'none';
         return;
     }
-    wrap.style.display = 'flex';
-
-    // (Re)constrói os chips apenas quando o tamanho do caderno muda
-    if (wrap.childElementCount !== simuladoAtual.length) {
-        wrap.innerHTML = '';
-        simuladoAtual.forEach((_, i) => {
-            const chip = document.createElement('button');
-            chip.type = 'button';
-            chip.className = 'palette-chip';
-            chip.textContent = i + 1;
-            chip.addEventListener('click', () => {
-                questaoAtualIndex = i;
-                carregarQuestaoUI();
-            });
-            wrap.appendChild(chip);
-        });
-    }
-
-    Array.from(wrap.children).forEach((chip, i) => {
-        const q = simuladoAtual[i];
-        chip.classList.toggle('current', i === questaoAtualIndex);
-        chip.classList.toggle('answered-correct', !!q.foi_respondida_neste_simulado && !!q.acertou_neste_simulado);
-        chip.classList.toggle('answered-wrong', !!q.foi_respondida_neste_simulado && !q.acertou_neste_simulado);
-    });
-
-    const atual = wrap.children[questaoAtualIndex];
-    if (atual) atual.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+    const respondidas = simuladoAtual.filter(q => q.foi_respondida_neste_simulado).length;
+    const faltam = simuladoAtual.length - respondidas;
+    badge.textContent = `${respondidas} respondidas · ${faltam} ${faltam === 1 ? 'falta' : 'faltam'}`;
+    badge.style.display = 'inline-flex';
 }
 
 // ==========================================

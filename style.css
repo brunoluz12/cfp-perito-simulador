@@ -990,6 +990,12 @@ textarea:focus-visible {
     background: rgba(0,0,0,0.05);
     color: var(--text-muted);
 }
+/* Andamento do caderno (substituiu a paleta de chips) */
+.badge.progresso {
+    background: rgba(16, 185, 129, 0.12);
+    color: #047857;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
 
 .question-panel {
     margin-bottom: 24px;
@@ -1208,54 +1214,6 @@ textarea:focus-visible {
     font-family: inherit;
     font-size: 0.72rem;
     font-weight: 600;
-}
-
-/* PALETA DE QUESTÕES (navegação numerada) */
-.quiz-palette {
-    display: flex;
-    gap: 6px;
-    overflow-x: auto;
-    padding: 10px 12px;
-    margin-bottom: 16px;
-    background: var(--panel-bg);
-    border: 1px solid var(--panel-border);
-    border-radius: var(--radius-md);
-    scrollbar-width: thin;
-}
-.quiz-palette::-webkit-scrollbar { height: 5px; }
-.quiz-palette::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
-
-.palette-chip {
-    min-width: 32px;
-    height: 32px;
-    border-radius: var(--radius-sm);
-    border: 1px solid var(--panel-border);
-    background: rgba(255, 255, 255, 0.7);
-    color: var(--text-muted);
-    font-weight: 600;
-    font-size: 0.82rem;
-    flex-shrink: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-.palette-chip:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-}
-.palette-chip.answered-correct {
-    background: var(--success-bg);
-    border-color: rgba(16, 185, 129, 0.35);
-    color: #047857;
-}
-.palette-chip.answered-wrong {
-    background: var(--error-bg);
-    border-color: rgba(239, 68, 68, 0.35);
-    color: #b91c1c;
-}
-.palette-chip.current {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
 }
 
 /* FEEDBACK PANEL — cartão interno logo abaixo das alternativas */
@@ -4400,14 +4358,6 @@ html.dark-mode .feedback-panel {
 html.dark-mode .feedback-panel.correct { background: rgba(16, 185, 129, 0.1); }
 html.dark-mode .feedback-panel.wrong { background: rgba(239, 68, 68, 0.09); }
 
-/* Paleta de questões no dark */
-html.dark-mode .quiz-palette::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); }
-html.dark-mode .palette-chip {
-    background: rgba(15, 23, 42, 0.5);
-}
-html.dark-mode .palette-chip.answered-correct { color: #34d399; }
-html.dark-mode .palette-chip.answered-wrong { color: #f87171; }
-
 /* Kbd hints no dark */
 html.dark-mode .kbd-hint kbd {
     background: rgba(255, 255, 255, 0.08);
@@ -4440,6 +4390,10 @@ html.dark-mode .badge.outline {
 }
 html.dark-mode .badge.subtle {
     background: rgba(255, 255, 255, 0.05);
+}
+html.dark-mode .badge.progresso {
+    background: rgba(16, 185, 129, 0.16);
+    color: #34d399;
 }
 
 /* Controle de disciplinas */
@@ -4627,14 +4581,6 @@ html.dark-mode .option-letter {
     }
     .kbd-hint {
         display: none; /* atalhos de teclado não se aplicam no celular */
-    }
-    .quiz-palette {
-        padding: 8px;
-        gap: 5px;
-    }
-    .palette-chip {
-        min-width: 36px;
-        height: 36px;
     }
     .reader-footer {
         flex-direction: column;

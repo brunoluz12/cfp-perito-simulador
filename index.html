@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=42">
+    <link rel="stylesheet" href="style.css?v=43">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -296,10 +296,6 @@
                 </div>
             </div>
 
-            <div id="quiz-palette" class="quiz-palette" style="display: none;">
-                <!-- Chips numerados gerados via JS -->
-            </div>
-
             <div class="glass-panel question-panel">
                 <div class="question-meta-wrapper">
                     <div class="question-meta">
@@ -307,6 +303,8 @@
                         <span id="quiz-conteudo-badge" class="badge outline" style="display: none;">Conteúdo</span>
                         <span id="q-id" class="badge subtle">ID</span>
                         <span id="current-question-indicator" class="badge subtle">Questão 1 de 10</span>
+                        <!-- Substitui a paleta de chips: dá a noção de andamento do caderno -->
+                        <span id="quiz-progresso-badge" class="badge progresso">0 respondidas · 0 faltam</span>
                     </div>
                     <div class="question-actions">
                         <button id="btn-stats-questao" class="btn-icon tooltip" data-tooltip="Estatísticas da questão">
@@ -961,7 +959,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
     <script src="flashcards.js?v=3"></script>
-    <script src="app.js?v=87"></script>
+    <script src="app.js?v=88"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
     <script src="tts_material.js?v=4"></script>
