@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=35">
+    <link rel="stylesheet" href="style.css?v=36">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -336,6 +336,9 @@
                 <div class="action-panel mt-4">
                     <button id="btn-anterior" class="btn-secondary" style="display: none;"><i class="ph ph-arrow-left"></i> Anterior</button>
                     <button id="btn-responder" class="btn-primary" disabled>Responder</button>
+                    <!-- Fica aqui (e não no feedback) para estar disponível ANTES de responder:
+                         permite sortear outra questão sem ter que responder a atual. -->
+                    <button id="btn-aleatoria" class="btn-secondary" onclick="questaoAleatoria()" title="Atalho: tecla R"><i class="ph ph-shuffle"></i> Aleatória</button>
                 </div>
                 <p class="kbd-hint">Atalhos: <kbd>A</kbd>–<kbd>D</kbd> seleciona · <kbd>Enter</kbd> responde e avança · <kbd>←</kbd> <kbd>→</kbd> navegam · <kbd>R</kbd> questão aleatória · duplo clique risca a alternativa</p>
 
@@ -351,7 +354,6 @@
                     </div>
                     <div class="feedback-actions">
                         <button id="btn-feedback-anterior" class="btn-secondary" style="display: none; margin-right: auto;"><i class="ph ph-arrow-left"></i> Anterior</button>
-                        <button id="btn-aleatoria" class="btn-secondary" style="width: auto;" onclick="questaoAleatoria()" title="Atalho: tecla R"><i class="ph ph-shuffle"></i> Aleatória</button>
                         <button id="btn-proxima" class="btn-primary" style="width: auto;">Próxima Questão <i class="ph ph-arrow-right"></i></button>
                     </div>
                 </div>

@@ -1115,6 +1115,7 @@ textarea:focus-visible {
 }
 .action-panel #btn-anterior { flex: 1; }
 .action-panel #btn-responder { flex: 2; }
+.action-panel #btn-aleatoria { flex: 1; }
 
 /* Dica de atalhos de teclado */
 .kbd-hint {
@@ -4395,6 +4396,22 @@ html.dark-mode .option-letter {
     }
     .action-panel button {
         width: 100%;
+    }
+    /* Com 3 botões, empilhar todos deixaria a barra fixa alta demais e comeria a
+       tela da questão: "Responder" fica em cima, em largura total, e Anterior e
+       Aleatória dividem a linha de baixo. */
+    .action-panel {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .action-panel #btn-responder {
+        order: -1;
+        flex: 1 0 100%;
+    }
+    .action-panel #btn-anterior,
+    .action-panel #btn-aleatoria {
+        flex: 1 1 0;
+        width: auto;
     }
     .kbd-hint {
         display: none; /* atalhos de teclado não se aplicam no celular */
