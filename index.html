@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=38">
+    <link rel="stylesheet" href="style.css?v=39">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -337,13 +337,16 @@
                      painel de feedback (dois "Anterior" na tela depois de responder).
                      "Responder" e "Próxima" ocupam o mesmo lugar, alternando. -->
                 <div class="action-panel mt-4">
+                    <!-- A dica de atalhos mora dentro da barra (e não abaixo dela) para
+                         ficar na mesma linha dos botões, ocupando o espaço à esquerda. -->
+                    <p class="kbd-hint">Atalhos: <kbd>A</kbd>–<kbd>D</kbd> seleciona · <kbd>Enter</kbd> responde e avança · <kbd>←</kbd> <kbd>→</kbd> navegam · <kbd>R</kbd> aleatória</p>
                     <button id="btn-anterior" class="btn-nav" style="display: none;" title="Questão anterior (←)" aria-label="Questão anterior"><i class="ph ph-arrow-left"></i></button>
                     <button id="btn-avancar" class="btn-nav" style="display: none;" title="Avançar sem responder (→)" aria-label="Próxima questão"><i class="ph ph-arrow-right"></i></button>
                     <button id="btn-aleatoria" class="btn-nav" onclick="questaoAleatoria()" title="Questão aleatória (R)" aria-label="Questão aleatória"><i class="ph ph-shuffle"></i></button>
+                    <button id="btn-comentario" class="btn-comentario" title="Comentário"><i class="ph ph-chat-circle-text"></i><span class="rotulo">Comentário</span></button>
                     <button id="btn-responder" class="btn-acao" disabled>Responder</button>
                     <button id="btn-proxima" class="btn-acao" style="display: none;">Próxima <i class="ph ph-arrow-right"></i></button>
                 </div>
-                <p class="kbd-hint">Atalhos: <kbd>A</kbd>–<kbd>D</kbd> seleciona · <kbd>Enter</kbd> responde e avança · <kbd>←</kbd> <kbd>→</kbd> navegam · <kbd>R</kbd> questão aleatória · duplo clique risca a alternativa</p>
 
                 <!-- Feedback (justificativa) — logo abaixo das alternativas -->
                 <div id="feedback-panel" class="feedback-panel hidden">
@@ -357,11 +360,6 @@
                     </div>
                 </div>
 
-                <details id="notes-details" class="personal-notes-container mt-4">
-                    <summary class="notes-summary"><i class="ph ph-note-pencil"></i> Meus Comentários <span id="comment-status" class="status-msg"></span></summary>
-                    <textarea id="q-comment" class="custom-textarea mt-2" placeholder="Adicione uma anotação pessoal para revisar depois..."></textarea>
-                    <button id="btn-save-comment" class="btn-secondary btn-sm mt-2">Salvar Anotação</button>
-                </details>
             </div>
         </main>
         
@@ -946,7 +944,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
     <script src="flashcards.js?v=3"></script>
-    <script src="app.js?v=83"></script>
+    <script src="app.js?v=84"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
     <script src="tts_material.js?v=4"></script>

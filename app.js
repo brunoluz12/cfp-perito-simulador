@@ -1609,7 +1609,10 @@ function configurarEventos() {
     if (qstatsClose) qstatsClose.addEventListener('click', fecharEstatisticasQuestao);
     const qstatsOverlay = document.getElementById('modal-qstats');
     if (qstatsOverlay) qstatsOverlay.addEventListener('click', (e) => { if (e.target === qstatsOverlay) fecharEstatisticasQuestao(); });
-    document.getElementById('btn-save-comment').addEventListener('click', salvarAnotacaoQuestao);
+    // O botão de salvar anotação saiu do layout da questão; o listener só é
+    // registrado se o elemento existir.
+    const btnSalvarAnotacao = document.getElementById('btn-save-comment');
+    if (btnSalvarAnotacao) btnSalvarAnotacao.addEventListener('click', salvarAnotacaoQuestao);
     
     const chkOcultar = document.getElementById('filtro-ocultar-respondidas');
     const chkErros = document.getElementById('filtro-apenas-erros');
@@ -2190,11 +2193,14 @@ function carregarQuestaoUI() {
 
     atualizarBotaoIrrelevante(q);
 
+    // A seção "Meus Comentários" saiu da tela da questão; os comentários já
+    // gravados continuam no armazenamento e na sincronização, só não têm mais
+    // campo aqui. Os guards abaixo mantêm o fluxo funcionando sem esses elementos.
     const commentBox = document.getElementById('q-comment');
-    commentBox.value = comentarios[q.id] || '';
-    document.getElementById('comment-status').classList.remove('show');
+    if (commentBox) commentBox.value = comentarios[q.id] || '';
+    const commentStatus = document.getElementById('comment-status');
+    if (commentStatus) commentStatus.classList.remove('show');
 
-    // Abre as anotações automaticamente apenas se a questão já tem comentário
     const notesDetails = document.getElementById('notes-details');
     if (notesDetails) notesDetails.open = !!comentarios[q.id];
     
@@ -2724,7 +2730,9 @@ function renderMinhasResolucoes(q, el) {
 function salvarAnotacaoQuestao(e) {
     e.preventDefault();
     const q = simuladoAtual[questaoAtualIndex];
-    const texto = document.getElementById('q-comment').value.trim();
+    const campo = document.getElementById('q-comment');
+    if (!campo) return; // seção removida da tela da questão
+    const texto = campo.value.trim();
     
     if (texto) {
         comentarios[q.id] = texto;
