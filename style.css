@@ -4802,6 +4802,31 @@ html.dark-mode .pfister-radio-option label:hover {
     flex-direction: column;
 }
 
+/* Ações da caixa de resumo: "Revisar selecionados" ao lado de "Revisar Todos" */
+.fc-summary-acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.fc-summary-acoes button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+/* Coluna de seleção da tabela de baralhos */
+.fc-col-check {
+    width: 38px;
+    text-align: center;
+}
+.fc-col-check input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
 .fc-stat-number {
     font-size: 3rem;
     font-weight: 700;

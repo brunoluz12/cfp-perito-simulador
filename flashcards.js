@@ -105,13 +105,18 @@ function excluirCard(id) {
     renderFlashcardDashboard();
 }
 
+// Filtro de baralho: aceita null (todos), o nome de um baralho ou uma lista
+// deles — é o que permite revisar vários de uma vez.
+function cardNoFiltro(card, deckFilter) {
+    if (!deckFilter) return true;
+    if (Array.isArray(deckFilter)) return deckFilter.includes(card.deck);
+    return card.deck === deckFilter;
+}
+
 // Obter cards pendentes
 function getCardsPendentes(deckFilter = null) {
     const now = Date.now();
-    return flashcards.filter(c => {
-        if (deckFilter && c.deck !== deckFilter) return false;
-        return c.due <= now;
-    });
+    return flashcards.filter(c => cardNoFiltro(c, deckFilter) && c.due <= now);
 }
 
 // Estatísticas por baralho
@@ -139,14 +144,17 @@ function iniciarRevisao(deckFilter = null) {
     currentDeckFilter = deckFilter;
     let pendentes = getCardsPendentes(deckFilter);
     
+    const varios = Array.isArray(deckFilter) && deckFilter.length > 1;
+    const alvo = varios ? 'nos baralhos selecionados' : 'neste baralho';
+
     if (pendentes.length === 0) {
         // Modo Prática (Revisão Livre)
-        const allCards = deckFilter ? flashcards.filter(c => c.deck === deckFilter) : flashcards;
+        const allCards = flashcards.filter(c => cardNoFiltro(c, deckFilter));
         if (allCards.length === 0) {
-            alert("Não há cards neste baralho!");
+            alert(`Não há cards ${alvo}!`);
             return;
         }
-        if (confirm("Você não tem cards agendados para hoje neste baralho. Deseja iniciar uma sessão de PRÁTICA (Revisão Livre)?\n\nNeste modo as datas de revisão oficiais não serão alteradas.")) {
+        if (confirm(`Você não tem cards agendados para hoje ${alvo}. Deseja iniciar uma sessão de PRÁTICA (Revisão Livre)?\n\nNeste modo as datas de revisão oficiais não serão alteradas.`)) {
             currentReviewSession = [...allCards];
             isFreeReview = true;
         } else {
@@ -278,30 +286,77 @@ function renderFlashcardDashboard() {
     deckList.innerHTML = '';
     
     if (stats.length === 0) {
-        deckList.innerHTML = '<p style="color:var(--text-muted); padding:20px; text-align:center;">Nenhum baralho criado. Clique em "Novo Card" para começar!</p>';
+        deckList.innerHTML = '<tr><td colspan="6" style="color:var(--text-muted); padding:20px; text-align:center;">Nenhum baralho criado. Clique em "Novo Card" para começar!</td></tr>';
     } else {
         stats.forEach(s => {
             totalPendentes += s.due;
             totalNovos += s.new;
-            
+
             const tr = document.createElement('tr');
+            // O nome do baralho vai no dataset (e não interpolado no onclick):
+            // nomes com aspas quebrariam o atributo.
             tr.innerHTML = `
+                <td class="fc-col-check"><input type="checkbox" class="fc-check-deck" aria-label="Selecionar baralho"></td>
                 <td>${s.deck}</td>
                 <td><span class="fc-badge new">${s.new}</span></td>
                 <td><span class="fc-badge due">${s.due}</span></td>
                 <td><span class="fc-badge total">${s.total}</span></td>
                 <td>
-                    <button class="btn-primary btn-sm" onclick="iniciarRevisao('${s.deck}')">Revisar</button>
-                    <button class="btn-secondary btn-sm" onclick="exportarDeck('${s.deck}')" title="Exportar JSON"><i class="ph ph-export"></i></button>
-                    <button class="btn-danger btn-sm" onclick="excluirDeck('${s.deck}')" title="Excluir Baralho"><i class="ph ph-trash"></i></button>
+                    <button class="btn-primary btn-sm" data-acao="revisar">Revisar</button>
+                    <button class="btn-secondary btn-sm" data-acao="exportar" title="Exportar JSON"><i class="ph ph-export"></i></button>
+                    <button class="btn-danger btn-sm" data-acao="excluir" title="Excluir Baralho"><i class="ph ph-trash"></i></button>
                 </td>
             `;
+            tr.querySelector('.fc-check-deck').dataset.deck = s.deck;
+            tr.querySelector('.fc-check-deck').addEventListener('change', atualizarSelecaoBaralhos);
+            tr.querySelector('[data-acao="revisar"]').addEventListener('click', () => iniciarRevisao(s.deck));
+            tr.querySelector('[data-acao="exportar"]').addEventListener('click', () => exportarDeck(s.deck));
+            tr.querySelector('[data-acao="excluir"]').addEventListener('click', () => excluirDeck(s.deck));
             deckList.appendChild(tr);
         });
     }
-    
+
     document.getElementById('fc-total-pendentes').textContent = totalPendentes + totalNovos;
     document.getElementById('fc-btn-iniciar-tudo').disabled = flashcards.length === 0;
+    // A tabela foi reconstruída: nenhuma linha marcada.
+    const checkTodos = document.getElementById('fc-check-todos');
+    if (checkTodos) { checkTodos.checked = false; checkTodos.indeterminate = false; }
+    atualizarSelecaoBaralhos();
+}
+
+// ── Seleção de vários baralhos ────────────────────────────
+function baralhosSelecionados() {
+    return Array.from(document.querySelectorAll('.fc-check-deck:checked')).map(c => c.dataset.deck);
+}
+
+function atualizarSelecaoBaralhos() {
+    const marcados = baralhosSelecionados();
+    const btn = document.getElementById('fc-btn-revisar-selecionados');
+    if (btn) {
+        btn.disabled = marcados.length === 0;
+        btn.textContent = marcados.length
+            ? `Revisar selecionados (${marcados.length})`
+            : 'Revisar selecionados';
+    }
+    // "Marcar todos" reflete o estado real: cheio, vazio ou parcial.
+    const todos = document.querySelectorAll('.fc-check-deck');
+    const checkTodos = document.getElementById('fc-check-todos');
+    if (checkTodos && todos.length) {
+        checkTodos.checked = marcados.length === todos.length;
+        checkTodos.indeterminate = marcados.length > 0 && marcados.length < todos.length;
+    }
+}
+
+function alternarTodosBaralhos(marcar) {
+    document.querySelectorAll('.fc-check-deck').forEach(c => { c.checked = marcar; });
+    atualizarSelecaoBaralhos();
+}
+
+function revisarSelecionados() {
+    const decks = baralhosSelecionados();
+    if (!decks.length) return;
+    // Um só selecionado é o mesmo que clicar em "Revisar" na linha dele.
+    iniciarRevisao(decks.length === 1 ? decks[0] : decks);
 }
 
 function abrirModalNovoCard() {

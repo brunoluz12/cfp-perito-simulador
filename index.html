@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=45">
+    <link rel="stylesheet" href="style.css?v=46">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -566,13 +566,18 @@
                             <span id="fc-total-pendentes" class="fc-stat-number">0</span>
                             <span class="fc-stat-label">Cards para revisar hoje</span>
                         </div>
-                        <button id="fc-btn-iniciar-tudo" class="btn-primary btn-lg" onclick="iniciarRevisao(null)">Revisar Todos</button>
+                        <div class="fc-summary-acoes">
+                            <!-- Só habilita com baralhos marcados na tabela abaixo -->
+                            <button id="fc-btn-revisar-selecionados" class="btn-secondary btn-lg" onclick="revisarSelecionados()" disabled>Revisar selecionados</button>
+                            <button id="fc-btn-iniciar-tudo" class="btn-primary btn-lg" onclick="iniciarRevisao(null)">Revisar Todos</button>
+                        </div>
                     </div>
 
                     <div class="fc-decks-table-container glass-panel">
                         <table class="fc-decks-table">
                             <thead>
                                 <tr>
+                                    <th class="fc-col-check"><input type="checkbox" id="fc-check-todos" onchange="alternarTodosBaralhos(this.checked)" title="Marcar/desmarcar todos" aria-label="Marcar todos os baralhos"></th>
                                     <th>Baralho</th>
                                     <th>Novos</th>
                                     <th>A Revisar</th>
@@ -958,7 +963,7 @@
 
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
-    <script src="flashcards.js?v=3"></script>
+    <script src="flashcards.js?v=4"></script>
     <script src="app.js?v=90"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
