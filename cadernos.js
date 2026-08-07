@@ -30,6 +30,7 @@ function cadernoNormalizar(c) {
     if (!c || !c.id || !Array.isArray(c.questaoIds)) return null;
     c.nome = c.nome || 'Caderno sem nome';
     c.tipo = c.tipo === 'simulado' ? 'simulado' : 'caderno';
+    c.curado = c.curado === true; // montado questão a questão
     c.disciplinas = Array.isArray(c.disciplinas) ? c.disciplinas : [];
     c.respostas = (c.respostas && typeof c.respostas === 'object') ? c.respostas : {};
     c.rodadas = Array.isArray(c.rodadas) ? c.rodadas : [];
@@ -236,6 +237,54 @@ function cadernoRenomear(id) {
     cadernosSalvar();
 }
 
+// ------------------------------------------
+// CADERNO CURADO (montado questão a questão)
+// ------------------------------------------
+// Diferente dos cadernos gerados por filtro, este nasce vazio e recebe questões
+// escolhidas na mão durante a resolução. Depois disso é um caderno como
+// qualquer outro: aparece no painel e reabre pelo mesmo caminho.
+
+function cadernoCriarCurado(nome) {
+    const limpo = String(nome || '').trim().slice(0, 80);
+    if (!limpo) return null;
+    const c = {
+        id: cadernoNovoId(),
+        nome: limpo,
+        tipo: 'caderno',
+        curado: true,          // só para rotular no painel; não muda o comportamento
+        disciplinas: [],
+        questaoIds: [],
+        posicao: 0,
+        respostas: {},
+        rodadas: [],
+        criadoEm: Date.now(),
+        atualizadoEm: Date.now()
+    };
+    cadernos.unshift(c);
+    cadernosSalvar();
+    return c;
+}
+
+// Devolve 'add' | 'dup' | 'erro' para a tela dar o retorno certo.
+function cadernoAdicionarQuestao(cadernoId, questaoId) {
+    const c = cadernoObter(cadernoId);
+    if (!c || questaoId == null) return 'erro';
+    if (c.questaoIds.includes(questaoId)) return 'dup';
+
+    c.questaoIds.push(questaoId);
+
+    // Mantém a lista de disciplinas coerente com o conteúdo, como nos gerados.
+    const q = (typeof bancoQuestoes !== 'undefined')
+        ? bancoQuestoes.find(x => x.id === questaoId) : null;
+    if (q && q.disciplina && !c.disciplinas.includes(q.disciplina)) {
+        c.disciplinas.push(q.disciplina);
+    }
+
+    c.atualizadoEm = Date.now();
+    cadernosSalvar();
+    return 'add';
+}
+
 function cadernoExcluir(id) {
     const c = cadernoObter(id);
     if (!c) return;
@@ -326,6 +375,7 @@ function renderCadernosPainel() {
 
         const meta = [
             c.tipo === 'simulado' ? 'Simulado' : null,
+            c.curado ? 'Selecionadas' : null,
             `${r.total} questões`,
             c.rodadas.length > 0 ? `${rodada}ª rodada` : null,
             cadFmtQuando(c.atualizadoEm)

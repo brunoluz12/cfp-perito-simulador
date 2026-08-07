@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=48">
+    <link rel="stylesheet" href="style.css?v=49">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -337,6 +337,7 @@
                     <button id="btn-anterior" class="btn-nav" style="display: none;" title="Questão anterior (←)" aria-label="Questão anterior"><i class="ph ph-arrow-left"></i></button>
                     <button id="btn-avancar" class="btn-nav" style="display: none;" title="Avançar sem responder (→)" aria-label="Próxima questão"><i class="ph ph-arrow-right"></i></button>
                     <button id="btn-aleatoria" class="btn-nav" onclick="questaoAleatoria()" title="Questão aleatória (R)" aria-label="Questão aleatória"><i class="ph ph-shuffle"></i></button>
+                    <button id="btn-add-caderno" class="btn-caderno" title="Salvar esta questão em um caderno"><i class="ph ph-bookmark-simple"></i><span class="rotulo">Caderno</span></button>
                     <button id="btn-comentario" class="btn-comentario" title="Comentários da turma"><i class="ph ph-chat-circle-text"></i><span class="rotulo">Comentário</span><span id="btn-comentario-badge" class="comentario-badge" style="display: none;">0</span></button>
                     <button id="btn-responder" class="btn-acao" disabled>Responder</button>
                     <button id="btn-proxima" class="btn-acao" style="display: none;">Próxima <i class="ph ph-arrow-right"></i></button>
@@ -900,6 +901,30 @@
     </div>
 
     <!-- MODAL: ESTATISTICAS DA QUESTAO -->
+    <!-- Salvar a questão atual num caderno montado à mão -->
+    <div id="modal-add-caderno" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content glass-panel" style="max-width: 520px;">
+            <div class="modal-header">
+                <h3><i class="ph ph-bookmark-simple"></i> Salvar questão em caderno</h3>
+                <button type="button" class="modal-close" id="modal-add-caderno-close" aria-label="Fechar">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="addcad-sub">A questão em tela será adicionada ao caderno escolhido.</p>
+
+                <div class="addcad-novo">
+                    <input type="text" id="addcad-nome" class="custom-input-text" maxlength="80" placeholder="Nome do novo caderno (ex.: Estratégicas LOC)">
+                    <button id="addcad-btn-criar" class="btn-primary">Criar e salvar</button>
+                </div>
+
+                <div class="addcad-sep"><span>ou escolha um já criado</span></div>
+
+                <div id="addcad-lista" class="addcad-lista"></div>
+            </div>
+        </div>
+    </div>
+
     <div id="modal-qstats" class="modal-overlay" aria-hidden="true">
         <div class="modal-content glass-panel" style="max-width: 540px;">
             <div class="modal-header">
@@ -970,8 +995,8 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
     <script src="flashcards.js?v=8"></script>
-    <script src="app.js?v=91"></script>
-    <script src="cadernos.js?v=1"></script>
+    <script src="app.js?v=92"></script>
+    <script src="cadernos.js?v=2"></script>
     <script src="marcador.js?v=2"></script>
     <script src="tts_material.js?v=4"></script>
     <script src="pfister.js?v=1"></script>

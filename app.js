@@ -1455,6 +1455,13 @@ function handleQuizKeydown(e) {
         if (e.key === 'Escape') { fecharEstatisticasQuestao(); e.preventDefault(); }
         return;
     }
+    // Idem para o modal de salvar em caderno (tem campo de texto: os atalhos
+    // A–D não podem roubar as teclas enquanto o usuário digita o nome).
+    const addCadModal = document.getElementById('modal-add-caderno');
+    if (addCadModal && addCadModal.classList.contains('is-open')) {
+        if (e.key === 'Escape') { fecharModalAddCaderno(); e.preventDefault(); }
+        return;
+    }
     const tag = (e.target.tagName || '').toLowerCase();
     if (tag === 'input' || tag === 'textarea' || tag === 'select' || e.ctrlKey || e.metaKey || e.altKey) return;
     // Enter com foco em botões de navegação (Voltar, Encerrar...) deixa o botão agir
@@ -1597,6 +1604,22 @@ function configurarEventos() {
     if (btnExcluirQ) btnExcluirQ.addEventListener('click', excluirQuestaoAtual);
     const btnStatsQ = document.getElementById('btn-stats-questao');
     if (btnStatsQ) btnStatsQ.addEventListener('click', abrirEstatisticasQuestao);
+
+    // Salvar questão em caderno
+    const btnAddCad = document.getElementById('btn-add-caderno');
+    if (btnAddCad) btnAddCad.addEventListener('click', abrirModalAddCaderno);
+    const addCadClose = document.getElementById('modal-add-caderno-close');
+    if (addCadClose) addCadClose.addEventListener('click', fecharModalAddCaderno);
+    const addCadOverlay = document.getElementById('modal-add-caderno');
+    if (addCadOverlay) addCadOverlay.addEventListener('click', (e) => {
+        if (e.target === addCadOverlay) fecharModalAddCaderno();
+    });
+    const addCadCriar = document.getElementById('addcad-btn-criar');
+    if (addCadCriar) addCadCriar.addEventListener('click', criarCadernoComQuestaoAtual);
+    const addCadNome = document.getElementById('addcad-nome');
+    if (addCadNome) addCadNome.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') { e.preventDefault(); criarCadernoComQuestaoAtual(); }
+    });
 
     // Comentários da turma
     const btnComentario = document.getElementById('btn-comentario');
@@ -2864,6 +2887,96 @@ async function apagarComentario(cid) {
     } catch (e) {
         alert(e.message || 'Não foi possível apagar o comentário.');
     }
+}
+
+// ==========================================
+// SALVAR QUESTÃO EM CADERNO (curadoria manual)
+// ==========================================
+
+function abrirModalAddCaderno() {
+    const q = simuladoAtual[questaoAtualIndex];
+    const overlay = document.getElementById('modal-add-caderno');
+    if (!q || !overlay) return;
+    document.getElementById('addcad-nome').value = '';
+    renderListaAddCaderno();
+    overlay.classList.add('is-open');
+    overlay.setAttribute('aria-hidden', 'false');
+}
+
+function fecharModalAddCaderno() {
+    const overlay = document.getElementById('modal-add-caderno');
+    if (!overlay) return;
+    overlay.classList.remove('is-open');
+    overlay.setAttribute('aria-hidden', 'true');
+}
+
+function renderListaAddCaderno() {
+    const box = document.getElementById('addcad-lista');
+    if (!box) return;
+    const q = simuladoAtual[questaoAtualIndex];
+    const lista = (typeof cadernos !== 'undefined' && Array.isArray(cadernos)) ? cadernos : [];
+
+    if (lista.length === 0) {
+        box.innerHTML = '<p class="addcad-vazio">Você ainda não tem cadernos salvos. Crie um acima.</p>';
+        return;
+    }
+
+    box.innerHTML = lista.map(c => {
+        // Já contém esta questão: mostra o estado em vez de deixar clicar de novo.
+        const jaTem = q && c.questaoIds.includes(q.id);
+        return `
+            <button class="addcad-item${jaTem ? ' ja-tem' : ''}" data-id="${c.id}" ${jaTem ? 'disabled' : ''}>
+                <span class="addcad-item-nome">${escapeHtml(c.nome)}</span>
+                <span class="addcad-item-meta">${c.questaoIds.length} ${c.questaoIds.length === 1 ? 'questão' : 'questões'}</span>
+                <span class="addcad-item-acao">${jaTem ? '<i class="ph ph-check"></i> já está' : '<i class="ph ph-plus"></i> salvar'}</span>
+            </button>`;
+    }).join('');
+
+    box.querySelectorAll('.addcad-item:not([disabled])').forEach(b => {
+        b.addEventListener('click', () => salvarQuestaoEmCaderno(b.dataset.id));
+    });
+}
+
+function salvarQuestaoEmCaderno(cadernoId) {
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!q) return;
+    const r = cadernoAdicionarQuestao(cadernoId, q.id);
+    if (r === 'add') {
+        const c = cadernoObter(cadernoId);
+        mostrarToastCaderno(`Questão salva em "${c ? c.nome : 'caderno'}".`);
+        fecharModalAddCaderno();
+    } else if (r === 'dup') {
+        mostrarToastCaderno('Esta questão já está nesse caderno.');
+        renderListaAddCaderno();
+    } else {
+        alert('Não foi possível salvar a questão nesse caderno.');
+    }
+}
+
+function criarCadernoComQuestaoAtual() {
+    const campo = document.getElementById('addcad-nome');
+    const q = simuladoAtual[questaoAtualIndex];
+    if (!campo || !q) return;
+    const nome = campo.value.trim();
+    if (!nome) {
+        campo.focus();
+        return;
+    }
+    const c = cadernoCriarCurado(nome);
+    if (!c) return;
+    cadernoAdicionarQuestao(c.id, q.id);
+    mostrarToastCaderno(`Caderno "${c.nome}" criado com esta questão.`);
+    fecharModalAddCaderno();
+}
+
+// Aviso curto no canto da tela (o modal fecha ao salvar, então sem isso a ação
+// não daria retorno nenhum).
+function mostrarToastCaderno(msg) {
+    const cont = document.createElement('div');
+    cont.className = 'toast-container';
+    cont.innerHTML = `<div class="toast toast-success"><span>✅</span><span>${escapeHtml(msg)}</span></div>`;
+    document.body.appendChild(cont);
+    setTimeout(() => cont.remove(), 2600);
 }
 
 function fecharEstatisticasQuestao() {

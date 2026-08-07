@@ -1168,6 +1168,147 @@ textarea:focus-visible {
 }
 .btn-comentario i { font-size: 1.05rem; line-height: 1; }
 
+/* Salvar em caderno: verde, terceira cor da barra (navegação azul, comentário
+   violeta), para as três ações se distinguirem de relance. */
+.btn-caderno {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    height: 42px;
+    padding: 0 16px;
+    border-radius: var(--radius-md);
+    border: 1px solid #10b981;
+    background: rgba(16, 185, 129, 0.12);
+    color: #047857;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.18s ease, transform 0.18s ease;
+}
+.btn-caderno:hover {
+    background: rgba(16, 185, 129, 0.22);
+    transform: translateY(-1px);
+}
+.btn-caderno i { font-size: 1.05rem; line-height: 1; }
+html.dark-mode .btn-caderno { color: #34d399; }
+
+/* Aviso flutuante (usado ao salvar questão em caderno) */
+.toast-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    pointer-events: none;
+}
+.toast {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    box-shadow: var(--shadow-panel);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 0.9rem;
+    color: var(--text-main);
+    max-width: 340px;
+    animation: slideUp 0.25s ease;
+}
+.toast-success { border-left: 3px solid var(--success-color, #10b981); }
+
+/* ── Modal: salvar questão em caderno ─────────────── */
+.addcad-sub {
+    margin: 0 0 16px;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+}
+.addcad-novo {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.addcad-novo input {
+    flex: 1 1 220px;
+    min-width: 0;
+}
+.addcad-novo .btn-primary {
+    width: auto;
+    flex: 0 0 auto;
+    padding: 10px 18px;
+    font-size: 0.9rem;
+}
+.addcad-sep {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0 12px;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+}
+.addcad-sep::before,
+.addcad-sep::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--panel-border);
+}
+.addcad-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 320px;
+    overflow-y: auto;
+}
+.addcad-vazio {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+}
+.addcad-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    padding: 11px 13px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--panel-border);
+    background: var(--panel-bg);
+    cursor: pointer;
+    transition: border-color 0.18s ease, background 0.18s ease;
+}
+.addcad-item:hover:not([disabled]) {
+    border-color: #10b981;
+    background: rgba(16, 185, 129, 0.08);
+}
+.addcad-item[disabled] {
+    opacity: 0.6;
+    cursor: default;
+}
+.addcad-item-nome {
+    flex: 1;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--text-main);
+}
+.addcad-item-meta {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+.addcad-item-acao {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #047857;
+    white-space: nowrap;
+}
+.addcad-item.ja-tem .addcad-item-acao { color: var(--text-muted); }
+html.dark-mode .addcad-item-acao { color: #34d399; }
+
 .btn-acao {
     flex: 0 0 auto;
     min-width: 150px;
@@ -4571,12 +4712,14 @@ html.dark-mode .option-letter {
     }
     /* Sem espaço para o rótulo: "Comentário" fica só com o ícone, do mesmo
        tamanho dos botões de navegação. */
-    .btn-comentario {
+    .btn-comentario,
+    .btn-caderno {
         width: 46px;
         height: 46px;
         padding: 0;
     }
-    .btn-comentario .rotulo {
+    .btn-comentario .rotulo,
+    .btn-caderno .rotulo {
         display: none;
     }
     .kbd-hint {
