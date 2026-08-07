@@ -125,7 +125,7 @@ function alternarFavoritoCard() {
     // O card da sessão é o MESMO objeto do array `flashcards` (a sessão guarda
     // referências), então basta alterar aqui e salvar.
     card.fav = !card.fav;
-    salvarFlashcards();
+    saveFlashcards();
     atualizarBotaoFavoritoCard();
 }
 
