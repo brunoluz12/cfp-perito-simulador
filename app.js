@@ -3011,8 +3011,11 @@ const planoEducacional = [
     { id: "ipo", nome: "INVESTIGAÇÃO POLICIAL (IPO)", horas: 48, aulas: 24 },
     { id: "jec", nome: "JORNADA ESPECÍFICA DE CRIMINALÍSTICA (JEC)", horas: 42, aulas: 21 },
     { id: "loc", nome: "LOCAIS DE CRIME E SUAS INTERFACES (LOC)", horas: 68, aulas: 34 },
-    { id: "pvat", nome: "PERÍCIA EM VEÍCULOS E ACIDENTES DE TRÁFEGO (PVAT)", horas: 22, aulas: 11 },
-    { id: "pproc", nome: "PERÍCIA EM PRODUTOS E CONTRATAÇÕES (PPROC)", horas: 24, aulas: 12 },
+    // PVAT e PPROC já foram encerradas: o total de aulas segue o que a pauta
+    // efetivamente registrou (10 e 11 blocos), e não a divisão teórica da carga
+    // horária — que deixava sempre 1 aula pendente e impedia a conclusão.
+    { id: "pvat", nome: "PERÍCIA EM VEÍCULOS E ACIDENTES DE TRÁFEGO (PVAT)", horas: 22, aulas: 10 },
+    { id: "pproc", nome: "PERÍCIA EM PRODUTOS E CONTRATAÇÕES (PPROC)", horas: 24, aulas: 11 },
     { id: "ppcexb", nome: "PERÍCIAS EM PRODUTOS CONTROLADOS, EXPLOSIVOS E BALÍSTICA (PPCEXB)", horas: 34, aulas: 17 },
     { id: "sop", nome: "SOCORRISMO POLICIAL (SOP)", horas: 16, aulas: 8 },
     { id: "to", nome: "TÉCNICAS OPERACIONAIS (TO)", horas: 44, aulas: 22 },
@@ -3234,10 +3237,13 @@ function renderizarGridControle() {
         card.className = 'discipline-card';
 
         const progressoAtual = progressoCurso[disc.id] || new Array(disc.aulas).fill(false);
-        const aulasDadas = progressoAtual.filter(p => p === true).length;
+        // Progresso salvo antes pode ter mais posições que o total atual (o
+        // número de aulas de uma disciplina pode ser corrigido): limita para não
+        // passar de 100% nem deixar de marcar como concluída.
+        const aulasDadas = Math.min(progressoAtual.filter(p => p === true).length, disc.aulas);
         const percent = Math.round((aulasDadas / disc.aulas) * 100);
 
-        if (aulasDadas === disc.aulas) card.classList.add('is-concluida');
+        if (aulasDadas >= disc.aulas) card.classList.add('is-concluida');
 
         card.innerHTML = `
             <div class="discipline-card-header">
@@ -3302,9 +3308,9 @@ function alternarAula(discId, aulaIndex, boxElement) {
         boxElement.classList.remove('checked');
     }
     
-    // Atualiza texto e barra
-    const aulasDadas = arr.filter(p => p === true).length;
+    // Atualiza texto e barra (limitado ao total, pelo mesmo motivo do render)
     const discInfo = planoEducacional.find(d => d.id === discId);
+    const aulasDadas = Math.min(arr.filter(p => p === true).length, discInfo.aulas);
     const percent = Math.round((aulasDadas / discInfo.aulas) * 100);
     
     document.getElementById(`prog-text-${discId}`).textContent = `${aulasDadas} / ${discInfo.aulas} Aulas`;
