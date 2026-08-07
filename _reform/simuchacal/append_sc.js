@@ -34,7 +34,7 @@ for (const f of FILES) {
     if (keys.length !== 4 || !LETTERS.every(l => keys.includes(l))) errors.push(`${tag}: alternativas != A-D`);
     if (!LETTERS.includes(q.resposta_correta)) errors.push(`${tag}: resposta_correta inválida`);
     if (!disciplinas.has(q.disciplina)) errors.push(`${tag}: disciplina desconhecida "${q.disciplina}"`);
-    if (q.conteudo !== 'SC') errors.push(`${tag}: conteudo != SC`);
+    if (q.conteudo !== 'Simula Chacal') errors.push(`${tag}: conteudo != Simula Chacal`);
     if (!q.enunciado || !q.justificativa) errors.push(`${tag}: enunciado/justificativa vazios`);
     if (existing.has(q.enunciado.trim())) { dupes++; console.log(`${tag}: aviso - enunciado idêntico já existe no banco`); }
     novas.push(q);
@@ -46,7 +46,7 @@ if (!APPLY) { console.log('(dry-run) OK. Use --apply.'); process.exit(0); }
 
 let id = maxId;
 const objs = novas.map(q => ({
-  id: ++id, disciplina: q.disciplina, conteudo: 'SC', tipo: 'multipla_escolha',
+  id: ++id, disciplina: q.disciplina, conteudo: 'Simula Chacal', tipo: 'multipla_escolha',
   enunciado: q.enunciado, alternativas: q.alternativas, resposta_correta: q.resposta_correta,
   justificativa: q.justificativa, referencia: q.referencia,
 }));

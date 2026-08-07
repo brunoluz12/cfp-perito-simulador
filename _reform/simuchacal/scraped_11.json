@@ -1,7 +1,7 @@
 [
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Tal como para armas de fogo, cartuchos de munição e elementos de munição apreendidos podem passar por exames de identificação direta, com descrição de suas características e procedência, além de teste de eficiência para os cartuchos recebidos íntegros ou de confronto balístico para os elementos de munição recebidos disparados.\n\nNo que se refere à descrição de estojos, assinale a alternativa incorreta:",
     "alternativas": {
@@ -16,7 +16,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Qual a diferença entre Calibre real e nominal? (Essa teoricamente é importante)",
     "alternativas": {
@@ -31,7 +31,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Qual o problema de usar cartuchos nominais diferentes ao indicado na arma?",
     "alternativas": {
@@ -46,7 +46,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o calibre real:\n\nI - Quando o número de raias é par, tal tarefa é simples, visto que dois cheios estarão opostos um ao outro.\nII - Quando o número de raias é ímpar, entretanto, um cheio estará oposto a uma raia, devendo a medida do calibre real ser tomada entre a superfície de um cheio e a delimitação entre um cheio e uma raia em posição oposta.\nIII - Todo cartucho de munição apresenta, gravado na base do culote, o calibre real de uso.\nIV - Os calibres reais são designados, conforme o tipo de medida utilizado, pelas suas respectivas frações de polegada ou milímetros, podendo haver diversos calibres reais para um único calibre nominal.",
     "alternativas": {
@@ -61,7 +61,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Da mesma forma que no caso das armas de fogo e cartuchos de munição, todos os elementos de munição recebidos como questionados devem ser descritos e fotografados. Quanto mais extensiva for a descrição e a documentação fotográfica tanto mais seguro estará o perito quanto a questionamentos que possam ocorrer, referentes ao seu laudo, no futuro.\n\nNo que se refere à descrição de projéteis, assinale a alternativa incorreta:",
     "alternativas": {
@@ -76,7 +76,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "O resultado dos procedimentos de comparação dos projéteis e estojos depende diretamente da qualidade dos padrões colhidos da arma. Desta forma, é importante reproduzir, tanto quanto possível, as mesmas condições do fato que originou o projétil ou estojo questionado.\nÉ importante que os cartuchos utilizados no procedimento de coleta de padrões atendam aos requisitos de autenticidade, adequabilidade, contemporaneidade e quantidade.\n\nCom relação ao procedimento de coleta de padrões de projéteis, assinale a alternativa incorreta:",
     "alternativas": {
@@ -91,7 +91,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Uma arma de fogo somente pode ser considerada como tal quando coexistem quais elementos essenciais?",
     "alternativas": {
@@ -106,7 +106,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto à classificação das armas de arremesso, assinale a alternativa correta.",
     "alternativas": {
@@ -121,7 +121,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a classificação das armas, assinale a alternativa correta.",
     "alternativas": {
@@ -136,7 +136,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos resíduos nas mãos do atirador, julgue a alternativa correta:",
     "alternativas": {
@@ -151,7 +151,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto ao procedimento de coleta de resíduo para MEV, julgue a assertiva correta:",
     "alternativas": {
@@ -166,7 +166,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto ao procedimento de coleta de resíduo para MEV, julgue a assertiva correta:",
     "alternativas": {
@@ -181,7 +181,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o funcionamento das pistolas semiautomáticas e automáticas, assinale a alternativa correta.",
     "alternativas": {
@@ -196,7 +196,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca das partes constituintes da pistola semiautomática, assinale a alternativa correta.",
     "alternativas": {
@@ -211,7 +211,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo o texto, é correto afirmar que as pistolas podem ser classificadas:",
     "alternativas": {
@@ -226,7 +226,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Com relação aos resíduos em anteparos e distência de tiro, quais itens abaixo são verdadeiros?\nI - Tiro a curta distância é aquele que ocorre dentro da região\nespacial na qual os efeitos secundários do disparo imprimem marcas sobre o alvo.\nII - A distância máxima na qual os efeitos secundários são sentidos\ndepende do alcance, grau de concentração e especificidade dos resíduos expelidos,\no que depende da arma, da munição e das condições ambientais no momento\ndo disparo.\nIII - Tomando-se por base os resíduos geralmente pesquisados, ou seja,\nresíduos de combustão da pólvora e espoleta, o limite prático é de cerca de um\nmetro, se não houver vento no momento do disparo. Caso haja vento, esse limite\npode diminuir para cerca de meio metro.",
     "alternativas": {
@@ -241,7 +241,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Ao realizar um procedimento experimental para se determinar a distância do anteparo, após realizar a coleta de padrões o Perito encontrou os seguintes resultados:\nA uma distância de 5cm, presença de zona de chama e zona de esfumaçamento.\nA uma distância de 10cm, presença de zona de esfumaçamento de zona de tatuagem.\nO material questionado tinha a presença de zona de chama, zona de esfumaçamento e zona de tatuagem.\nQual pode ser a conclusão do Perito?",
     "alternativas": {
@@ -256,7 +256,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "As substâncias pesquisáveis para a determinação de distância de tiro são:\nI - nitritos: resultantes da combustão da pólvora e revelados por meio do Reagente de Griess, o qual tinge as áreas contaminadas com uma coloração rosada;\nII - chumbo: proveniente de fragmentos do projétil e revelados por meio do\nreagente rodizonato de sódio, o qual tinge as áreas contaminadas com\numa coloração violeta ou púrpura;\nIII - cobre: proveniente do encamisamento de projéteis e revelados por meio do reagente ditiooxamida ou ácido rubeânico, o qual tinge as áreas contaminadas com coloração verde;\nIV - compostos sulfurados: presentes apenas na pólvora negra, são revelados por meio da reação de azida de sódio com o iodo, ficando o suporte incolor nas regiões contaminadas.",
     "alternativas": {
@@ -271,7 +271,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Segundo a Portaria nº 8.714-DG/PF, a respeito do funcionamento das armas de fogo semiautomáticas e automáticas, é correto afirmar que:",
     "alternativas": {
@@ -286,7 +286,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "No que tange à classificação das armas de fogo quanto à mobilidade, o texto aponta divergências entre a doutrina clássica e as definições da legislação nacional (Decreto 11.615/2023). Com base nas definições exclusivas deste Decreto apresentadas no texto, assinale a alternativa correta:",
     "alternativas": {
@@ -301,7 +301,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o conceito de calibre em armas de fogo com alma raiada, com base nas definições técnicas do documento fornecido, assinale a alternativa que descreve corretamente o calibre real:",
     "alternativas": {
@@ -316,7 +316,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as divisões didáticas da Balística Forense e seus campos de atuação, analise os itens abaixo:\nI. O estudo da trajetória, velocidade e energia do projétil, bem como a influência da resistência do ar sobre ele, é objeto da Balística Externa.\nII. A Balística Interna estuda os fenômenos ocorridos na arma desde a detonação da espoleta até o momento em que o projétil atinge o alvo final.\nIII. Quando o disparo atinge um ser humano, o estudo das lesões traumáticas resultantes (vestígios intrínsecos) é de competência da Balística Terminal.\nIV. A identificação mediata de uma arma de fogo ocorre por meio do confronto balístico, comparando vestígios impressos em elementos de munição.\nEstá(ão) correta(s) apenas:",
     "alternativas": {
@@ -331,7 +331,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Um Perito Criminal Federal recebe uma pistola com a numeração de série raspada para exame. Durante a análise, ele também deve verificar se a arma é capaz de realizar disparos e quais os efeitos que ela produz em alvos de teste para subsidiar a investigação. De acordo com as divisões da Balística Forense e os campos de pesquisa da PF, assinale a alternativa correta:",
     "alternativas": {
@@ -346,7 +346,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Quanto aos conceitos fundamentais e à natureza da Balística, assinale a alternativa CORRETA:",
     "alternativas": {
@@ -361,7 +361,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca dos resultados do SINAB e de sua relevância para a investigação criminal, selecione o item incorreto.",
     "alternativas": {
@@ -376,7 +376,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Julgue os itens a seguir acerca do funcionamento e dos resultados do SINAB e selecione o item errado.",
     "alternativas": {
@@ -391,7 +391,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os resultados e a relevância do SINAB para a investigação criminal, analise os itens a seguir:\n\nI. Permite a identificação de séries criminosas.\nII. Possibilita a integração entre investigações estaduais e federais.\nIII. Restringe a correlação balística a crimes ocorridos na mesma unidade da Federação.\nIV. Depende exclusivamente da atuação da Polícia Científica para sua efetividade.\nV. Atua apenas quando há requisição prévia de comparação balística.\n\nEstão corretos apenas os itens:",
     "alternativas": {
@@ -406,7 +406,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Julgue os seguintes itens sobre os projéteis de arma de fogo:\nI - Os projéteis de liga de chumbo podem conter estanho, antimônio e arsênico\nII - Os projéteis encamisados não contém chumbo em sua composição\nIII - Alguns tipos de projéteis comumente encontrados são: Ogival, Ponta Plana, Ponta Oca, Semi Canto Vivo e Canto Vivo\nIV - O projétil é o elemento inerte do cartucho, na medida em que nem participa do processo de combustão, nem é expelido pelo cano da arma.",
     "alternativas": {
@@ -421,7 +421,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Um perito criminal analisa uma munição destinada a um fuzil de alta precisão com cano longo. Ao verificar as especificações da carga de projeção, ele observa que o propelente deve ter uma queima controlada para acompanhar o deslocamento do projétil por toda a extensão do cano. Qual a classificação técnica dessa pólvora e a justificativa para seu uso nesse armamento?",
     "alternativas": {
@@ -436,7 +436,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante uma análise laboratorial de vestígios de disparos, identifica-se a presença de nitroglicerina misturada à nitrocelulose na composição química dos grãos de propelente. Considerando a classificação das pólvoras químicas modernas, esse material é classificado como:",
     "alternativas": {
@@ -451,7 +451,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Ao investigar a evolução histórica dos cartuchos, um perito explica por que a pólvora negra, composta por salitre, carvão e enxofre, tornou-se obsoleta para o uso em armas de fogo modernas. De acordo com os parâmetros técnicos de eficiência, qual o principal motivo dessa substituição?",
     "alternativas": {
@@ -466,7 +466,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando as características construtivas e funcionais do revólver, assinale a alternativa CORRETA:",
     "alternativas": {
@@ -481,7 +481,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante o exame de um revólver, constatou-se que o armamento apresentava um tambor contendo seis câmaras de combustão e apenas um cano. Considerando o funcionamento desse tipo de arma, assinale a alternativa CORRETA:",
     "alternativas": {
@@ -496,7 +496,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da relação entre o tambor, as câmaras de combustão e o cano nos revólveres, analise as afirmativas:\n\nI. O revólver possui diversas câmaras de combustão dispostas paralelamente ao redor do eixo de rotação do tambor.\n\nII. Durante o funcionamento da arma, as câmaras do tambor são sucessivamente posicionadas em alinhamento com o cano.\n\nIII. Diferentemente das pistolas semiautomáticas, nos revólveres cada cartucho permanece alojado em uma das câmaras do tambor no momento do disparo.\n\nIV. A rotação do tambor permite que diferentes câmaras de combustão utilizem sucessivamente um mesmo cano para a realização dos disparos.",
     "alternativas": {
@@ -511,7 +511,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação ao confronto balístico em projéteis, é CORRETO afirmar que:",
     "alternativas": {
@@ -526,7 +526,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Tendo em vista o que está exposto na apostila em relação ao confronto balístico em estojos, assinale a alternativa CORRETA:",
     "alternativas": {
@@ -541,7 +541,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "O exame microcomparativo pode ser efetuado entre projéteis padrões e\nquestionados, quando a arma questionada estiver disponível ao perito, ou entre\ndiversos projéteis questionados, visando determinar se todos foram expelidos pelo\ncano da mesma arma. Sobre esse assunto, é CORRETO afirmar que:",
     "alternativas": {
@@ -556,7 +556,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "As armas de fogo longas são caracterizadas principalmente por:",
     "alternativas": {
@@ -571,7 +571,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "O termo rifle deriva do inglês rifled, que significa:",
     "alternativas": {
@@ -586,7 +586,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Uma característica que diferencia a carabina dos rifles e fuzis é:",
     "alternativas": {
@@ -601,7 +601,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com a tabela de correspondência técnica entre calibres nominais e calibres reais para armas de alma lisa, é correto afirmar que:",
     "alternativas": {
@@ -616,7 +616,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Na descrição de cartuchos e estojos, devem ser indicados, EXCETO:",
     "alternativas": {
@@ -631,7 +631,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Em um local de crime onde foram efetuados disparos de espingarda e os projéteis (balins) estão dispersos, qual elemento de munição é considerado fundamental para a indicação do calibre nominal da arma empregada, segundo a fonte?",
     "alternativas": {
@@ -646,7 +646,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre o cálculo e a definição do calibre nominal em armas de alma lisa (como o calibre 12), a literatura técnica da Academia Nacional de Polícia estabelece que:",
     "alternativas": {
@@ -661,7 +661,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos:",
     "alternativas": {
@@ -676,7 +676,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as técnicas e limitações da revelação de caracteres suprimidos em armas de fogo, analise as afirmações abaixo:\n\nI. A revelação de numerações removidas é possível porque o processo de cunhagem a frio altera a estrutura metálica por baixo dos caracteres, deixando sinais latentes que podem ser reagidos quimicamente.\n\nII. O procedimento experimental de revelação é plenamente eficaz e produz resultados positivos mesmo quando os caracteres originais foram gravados por meio de processos de impressão a laser.\n\nIII. Durante a preparação da arma, deve-se evitar o uso de graxa nas partes não relacionadas à área a ser revelada, permitindo que os ácidos voláteis da solução limpem toda a superfície do armamento.\n\nIV. Caso a pressão utilizada no momento da cunhagem original tenha sido desigual entre um caractere e outro, a revelação pericial desses caracteres também poderá ocorrer de modo desigual.\n\nAssinale a opção que indica as afirmações INCORRETAS:",
     "alternativas": {
@@ -691,7 +691,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Com relação ao mecanismo de disparo dos revólveres, selecione a afirmativa correta:",
     "alternativas": {
@@ -706,7 +706,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "É importante que os cartuchos utilizados no procedimento de coleta de padrões\natendam aos requisitos de autenticidade, adequabilidade, contemporaneidade\ne quantidade:\nI - A autenticidade é o mais importante requisito de um padrão. Um padrão é autêntico quando tiver origem certa e inquestionável, ou seja, há a certeza de que o padrão foi colhido com a arma questionada.\nII - Adequabilidade: os padrões colhidos serão adequados quando suas características forem as mais similares possíveis com as dos materiais questionados, com os quais serão comparados.\nIII - Por contemporaneidade se entende que um padrão deve ser colhido no menor lapso de tempo após o projétil ou estojo questionados terem sido produzidos.\nIV - Quantidade: Não é possível precisar quantos padrões são necessários para efetuar, com\nsucesso, um exame de comparação balística, devendo ser colhidos tantos padrões quantos sejam necessários para formar a convicção dos peritos.\nEstão CORRETAS:",
     "alternativas": {
@@ -721,7 +721,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "De acordo com o procedimento experimental para a revelação de caracteres suprimidos, qual é a primeira medida que o perito deve tomar para evitar que os ácidos das soluções reveladoras danifiquem as partes da arma que não serão analisadas?",
     "alternativas": {
@@ -736,7 +736,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante a realização do exame para revelação de numeração de série em uma arma de fogo, o que o perito deve fazer caso a primeira tentativa de aplicação do reagente químico não seja bem-sucedida?",
     "alternativas": {
@@ -751,7 +751,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a coleta de amostras e análises\nI. A análise de resíduos de disparo, quando requisitada, deve ser a primeira tarefa a\nser efetuada em uma arma.\nII. O resultado do teste será positivo se houver uma coloração azul, de modo geral, tanto mais intenso quanto maior for a quantidade de nitritos, no(s) cone(s).\nIII. No caso dos tambores de revólveres, cada câmara pode ser analisada de modo\nindependente, colocando-se um cone de papel em cada uma e procedendo-se\ncomo nos exames dos canos de armas.\nIV. Qualquer disparo que o perito efetuar, previamente à análise de nitritos, irá formar uma camada de resíduos no interior do cano e câmaras, sendo que estes resíduos fornecerão um resultado positivo no teste de recentidade causando interferência nos resultados.",
     "alternativas": {
@@ -766,7 +766,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Com relação a classificação dos revólveres quanto à percussão, selecione a afirmativa INCORRETA.",
     "alternativas": {
@@ -781,7 +781,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Com relação à extração dos revólveres, selecione a afirmativa verdadeira.",
     "alternativas": {
@@ -796,7 +796,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os exames de resíduos na mão do atirador, assinale a alternativa CORRETA:",
     "alternativas": {
@@ -811,7 +811,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa INCORRETA com relação aos exames realizados e utilização de reagentes.",
     "alternativas": {
@@ -826,7 +826,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "O Sistema Nacional de Análise Balística (SINAB) permite, EXCETO:",
     "alternativas": {
@@ -841,7 +841,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é a principal finalidade da indicação do calibre nominal gravada na arma de fogo?",
     "alternativas": {
@@ -856,7 +856,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa correta quanto as características de calibre nominal e real de armas de fogo e munições.",
     "alternativas": {
@@ -871,7 +871,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a Legislação nacional a respeito de banco de dados\nbalísticos assinale a alternativa INCORRETA:",
     "alternativas": {
@@ -886,7 +886,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante a elaboração de um laudo pericial, o perito verifica que a arma analisada possui gravado um calibre nominal diferente daquele constante nas tabelas das Portarias Conjuntas C Ex/DG-PF nº 2/2023 e nº 3/2024. Entretanto, após análise técnica, conclui que ambas as designações correspondem ao mesmo calibre nominal. À luz do texto, a conduta mais adequada é:",
     "alternativas": {
@@ -901,7 +901,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Com relação aos Protocolos de operação do SINAB, assinale a alternativa INCORRETA:",
     "alternativas": {
@@ -916,7 +916,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante a análise pericial de uma camiseta de algodão de cor clara recuperada de uma vítima de disparo de arma de fogo, o perito criminal constata a presença de uma nítida zona de esfumaçamento e de grãos de pólvora incombusta incrustados ao redor do orifício de entrada (zona de tatuagem).\nContudo, após exame macroscópico minucioso, não é observado nenhum sinal de crestamento de pelos ou queimadura no tecido.\nConsiderando a dinâmica espacial dos resíduos do disparo, qual é a conclusão técnica correta sobre o ocorrido?",
     "alternativas": {
@@ -931,7 +931,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Uma equipe pericial é acionada para atender a um local de crime de homicídio por disparo de arma de fogo. Para viabilizar os exames posteriores de determinação de distância de tiro em laboratório, os peritos precisam coletar e preservar a camiseta da vítima, a qual está bastante manchada de sangue e não possui botões ou aberturas frontais\n. Qual procedimento de coleta e preservação atende rigorosamente aos padrões científicos para evitar contaminação e preservar os resíduos secundários?",
     "alternativas": {
@@ -946,7 +946,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Em um laboratório de balística forense, um perito criminal analisa os resíduos secundários deixados ao redor do orifício de entrada em um anteparo de tecido questionado\n. Para determinar se o projétil que produziu o impacto era do tipo encamisado (jaquetado) ou de chumbo nu, o perito decide realizar testes químicos específicos para detecção de metais\n. Qual associação de reagente, reação observada e interpretação química está correta e permite identificar o uso de um projétil encamisado?",
     "alternativas": {
@@ -961,7 +961,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "E m relação aos conceitos de calibre nominal e calibre real nas armas de alma raiada, assinale a alternativa correta.",
     "alternativas": {
@@ -976,7 +976,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Nos projéteis, qual a função do encamisamento?",
     "alternativas": {
@@ -991,7 +991,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante exame pericial em uma arma de fogo apreendida, foi obtido resultado positivo para nitritos no interior do cano, mediante emprego do reagente de Griess. Com base nesse resultado, o perito poderá concluir que:",
     "alternativas": {
@@ -1006,7 +1006,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Uma arma de fogo é encaminhada para exame pericial, havendo suspeita de ter sido utilizada em crime ocorrido há alguns dias. O teste para nitritos apresenta resultado negativo.\n\nNessa situação, é correto afirmar que:",
     "alternativas": {
@@ -1021,7 +1021,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca da utilização dos nitritos como indicativos de disparo de arma de fogo, analise os itens:\n\nI. Os nitritos são razoavelmente instáveis na presença de ar.\n\nII. O tempo de degradação dos nitritos no interior da arma, em condições normais, apresenta comportamento previsível e reprodutível.\n\nIII. Os nitritos são muito solúveis em água.\n\nIV. Os nitritos podem ser encontrados em fontes externas à arma, como resíduos de urina, cinzas, fertilizantes e aditivos de alimentos.\n\nEstá correto o que se afirma em:",
     "alternativas": {
@@ -1036,7 +1036,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Um projétil é composto de:",
     "alternativas": {
@@ -1051,7 +1051,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Caso um dispositivo possua propelente e projétil, mas careça do aparato arremessador propriamente dito, qual função técnica é imediatamente comprometida?",
     "alternativas": {
@@ -1066,7 +1066,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Qual elemento de engenharia é projetado para suportar o estresse mecânico do raiamento em altas velocidades?",
     "alternativas": {
@@ -1081,7 +1081,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "A classificação dos revólveres quanto à extração dos cartuchos e estojos distingue a extração manual da automática, podendo ainda ser simples ou simultânea. Acerca dessa classificação, assinale a opção correta.",
     "alternativas": {
@@ -1096,7 +1096,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Os revólveres podem ser classificados em diversas categorias.\nAssinale a alternativa que contém as classificações.",
     "alternativas": {
@@ -1111,7 +1111,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Quais são as duas modalidades da armação possíveis para revólveres?",
     "alternativas": {
@@ -1126,7 +1126,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre os tipos de revólveres",
     "alternativas": {
@@ -1141,7 +1141,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Considerando a estrutura e o funcionamento dos cartuchos de munição para espingardas, assinale a alternativa correta.",
     "alternativas": {
@@ -1156,7 +1156,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à constituição dos cartuchos para espingarda e à variedade de projéteis ou materiais que podem ser neles empregados, assinale a alternativa correta.",
     "alternativas": {
@@ -1171,7 +1171,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante o exame de uma espingarda, um perito pretende determinar o seu calibre real e avaliar a configuração do choke. Considerando os conceitos aplicáveis às armas de alma lisa, assinale a alternativa correta.",
     "alternativas": {
@@ -1186,7 +1186,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Armas de percussão intrínseca radial, anelar ou periférica (rimfire) são aquelas nas quais a",
     "alternativas": {
@@ -1201,7 +1201,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Nas armas de percussão intrínseca indireta",
     "alternativas": {
@@ -1216,7 +1216,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "As armas de percussão intrínseca podem ainda ser classificadas",
     "alternativas": {
@@ -1231,7 +1231,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante a realização de testes de eficiência em munições no âmbito da Polícia Federal, alguns procedimentos específicos devem ser seguidos devido à natureza destrutiva do exame. De acordo com o texto, assinale a alternativa correta sobre esse processo:",
     "alternativas": {
@@ -1246,7 +1246,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "O exame de confronto balístico fundamenta-se nos princípios científicos da identificação mediata das armas de fogo, que envolvem a reprodutibilidade e a unicidade das marcas. Com base nos conceitos apresentados no texto, a unicidade refere-se ao fato de que:",
     "alternativas": {
@@ -1261,7 +1261,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "A preservação das marcas microscópicas em elementos de munição questionados é crítica para o sucesso do confronto balístico. Diante das recomendações técnicas descritas no texto, assinale a conduta correta que o operador deve adotar em um local de crime:",
     "alternativas": {
@@ -1276,7 +1276,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Arma de fogo longa de repetição, com cano de alma raiada que, diferente de arma de tiro único, possui um carregador denominado depósito na coronha, e que tem como característica marcante a presença de um ferrolho com alavanca para extração do estojo. O texto exposto traz características de uma arma denominada de:",
     "alternativas": {
@@ -1291,7 +1291,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a espingarda, está correto afirmar, exceto:",
     "alternativas": {
@@ -1306,7 +1306,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as armas de fogo, assinale a opção correta",
     "alternativas": {
@@ -1321,7 +1321,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Qual é o objetivo do exame de eficiência de uma arma de fogo?",
     "alternativas": {
@@ -1336,7 +1336,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Nos testes de eficiência realizados em armas de fogo, assinale a alternativa correta.",
     "alternativas": {
@@ -1351,7 +1351,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Analise as afirmativas relacionadas ao exame de eficiência de armas de fogo:\n\nI. Antes dos disparos, deve ser realizada inspeção visual para verificar se o cano está desobstruído, se a arma aparentemente está em bom estado para o tiro e se o mecanismo está operante em seco.\n\nII. Caso existam dúvidas sobre a capacidade de a arma manter sua integridade durante o disparo, o teste de eficiência deve ser efetuado remotamente.\n\nIII. Quando a arma apresenta defeito, basta descrever suas causas prováveis, não sendo necessário determinar se ela ainda poderia ser utilizada para efetuar disparos.\n\nIV. Depois dos testes, o perito deve certificar-se, especialmente no caso de armas com defeitos, de que a arma está devidamente descarregada.\n\nAssinale a alternativa correta.",
     "alternativas": {
@@ -1366,7 +1366,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Acerca dos procedimentos de coleta projéteis padrões, avalie as assertivas abaixo.\n\nI. Os disparos com revólver devem ser produzidos inicialmente em ação simples, por ser esta a forma usual de produzir disparos com tais armas, em casos raros, pode ser necessário coletar padrões de diferentes câmaras.\nII. Se o cano estiver livre, este não deverá ser limpo antes de serem coletados os padrões, independentemente do estado em que esteja.\nIII. Os atiradores, em sua maioria, empunham a arma na posição vertical para atirar, devendo ser esta a posição preferencial para a coleta de padrões.",
     "alternativas": {
@@ -1381,7 +1381,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Não é possível precisar quantos padrões são necessários para efetuar, com sucesso, um exame de comparação balística, devendo ser colhidos tantos padrões quantos sejam necessários para formar a convicção dos peritos. O caso ideal é enviar a arma para os peritos que farão o confronto balístico.\n\nCaso isso seja impossível, qual o mínimo de padrões que deverá ser colhido de cada arma e enviado para análise juntamente com os materiais questionados?",
     "alternativas": {
@@ -1396,7 +1396,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "No contexto de Padrões em Balística Forense, acerca do requisito de contemporaneidade dos padrões, é correto afirmar que:",
     "alternativas": {
@@ -1411,7 +1411,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre a classificação das armas de fogo quanto à alma do cano, assinale a alternativa correta.",
     "alternativas": {
@@ -1426,7 +1426,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "A respeito do raiamento das armas de fogo, conforme a apostila, assinale a alternativa correta.",
     "alternativas": {
@@ -1441,7 +1441,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante um exame pericial, verificou-se que determinada arma possui raiamento do tipo 6-S. De acordo com a nomenclatura adotada pela apostila, essa informação significa que o cano apresenta:",
     "alternativas": {
@@ -1456,7 +1456,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Para realizar um confronto balístico, foram obtidos diversos estojos padrões. Posteriormente, constatou-se que:\n\nI. os estojos foram recolhidos em um estande onde também havia materiais provenientes de outras armas;\nII. foi utilizada munição de marca e composição diferentes das encontradas no estojo questionado;\nIII. os padrões foram produzidos muito tempo depois do fato investigado, após numerosos disparos com a arma.\n\nEmbora tenham sido coletados muitos estojos, os problemas descritos comprometem, respectivamente, os requisitos de:",
     "alternativas": {
@@ -1471,7 +1471,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Durante o exame de uma pistola, o perito verificou a inscrição “9 mm Luger” no ferrolho. Em seguida, realizou uma medição instrumental na boca do cano, entre dois cheios diametralmente opostos, obtendo o diâmetro interno da alma.\n\nA inscrição e a medida obtida correspondem, respectivamente, ao:",
     "alternativas": {
@@ -1486,7 +1486,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Em um local de crime, foi recuperado um projétil identificado como compatível com munição de calibre nominal .380 Auto. Posteriormente, foi apreendida uma pistola calibre nominal 9 mm. Um investigador descartou imediatamente a arma, alegando que calibres nominais diferentes jamais poderiam apresentar compatibilidade balística.\n\nAssinale a alternativa correta.",
     "alternativas": {
@@ -1501,7 +1501,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Sobre as características e a função do estojo em um cartucho de munição, assinale a alternativa correta:",
     "alternativas": {
@@ -1516,7 +1516,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "No que se refere à cápsula de espoletamento e aos sistemas de fogo central, assinale a alternativa correta:",
     "alternativas": {
@@ -1531,7 +1531,7 @@
   },
   {
     "disciplina": "PCEB - Balística Forense",
-    "conteudo": "SC",
+    "conteudo": "Simula Chacal",
     "tipo": "multipla_escolha",
     "enunciado": "Em relação à carga de projeção (pólvora) e sua aplicação em diferentes tipos de armamento, é correto afirmar que:",
     "alternativas": {
