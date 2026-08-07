@@ -203,6 +203,9 @@ function mostrarCardAtual() {
     // Com a frente na tela, trocar o verso não aparece para o usuário.
     document.getElementById('fc-card-front-content').innerHTML = formatText(card.front);
     document.getElementById('fc-card-back-content').innerHTML = formatText(card.back);
+    // A pergunta fica repetida no verso, para consulta ao avaliar a resposta.
+    const backPergunta = document.getElementById('fc-card-back-pergunta');
+    if (backPergunta) backPergunta.innerHTML = formatText(card.front);
 
     document.getElementById('fc-review-actions').style.display = 'none';
     document.getElementById('fc-show-answer-btn').style.display = 'block';

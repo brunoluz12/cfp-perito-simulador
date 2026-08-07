@@ -4960,12 +4960,29 @@ html.dark-mode .fc-badge.total { color: #9ca3af; }
     transform: rotateX(180deg);
     background: rgba(59, 130, 246, 0.05);
     border-color: rgba(59, 130, 246, 0.2);
+    /* Com pergunta + resposta o verso pode passar da altura do card: rola em vez
+       de cortar. O 'safe center' mantém a centralização sem esconder o topo
+       quando o conteúdo transborda (o 'center' acima é o fallback). */
+    overflow-y: auto;
+    justify-content: center;
+    justify-content: safe center;
 }
 
 .fc-card-content {
     font-size: 1.4rem;
     line-height: 1.6;
     width: 100%;
+}
+
+/* Pergunta repetida no verso: discreta, para não competir com a resposta */
+.fc-card-pergunta {
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    border-bottom: 1px dashed var(--border-color);
 }
 
 .fc-card-hint {

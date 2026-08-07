@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=46">
+    <link rel="stylesheet" href="style.css?v=47">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -606,6 +606,9 @@
                                 <div class="fc-card-hint"><i class="ph ph-hand-tap"></i> Toque para revelar</div>
                             </div>
                             <div class="fc-card-face fc-card-back">
+                                <!-- A pergunta se repete aqui: virado o card, a frente some e
+                                     não havia como reler o enunciado antes de se avaliar. -->
+                                <div class="fc-card-pergunta" id="fc-card-back-pergunta"></div>
                                 <div class="fc-card-content" id="fc-card-back-content"></div>
                             </div>
                         </div>
@@ -963,7 +966,7 @@
 
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
-    <script src="flashcards.js?v=4"></script>
+    <script src="flashcards.js?v=5"></script>
     <script src="app.js?v=90"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>
