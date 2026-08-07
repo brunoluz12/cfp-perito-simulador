@@ -569,6 +569,8 @@
                         <div class="fc-summary-acoes">
                             <!-- Só habilita com baralhos marcados na tabela abaixo -->
                             <button id="fc-btn-revisar-selecionados" class="btn-secondary btn-lg" onclick="revisarSelecionados()" disabled>Revisar selecionados</button>
+                            <!-- Ignora o agendamento: traz todos os cards, sem mexer nas datas -->
+                            <button id="fc-btn-praticar-tudo" class="btn-secondary btn-lg" onclick="iniciarRevisao(null, true)" title="Todos os cards, mesmo os que ainda não venceram"><i class="ph ph-repeat"></i> Praticar tudo</button>
                             <button id="fc-btn-iniciar-tudo" class="btn-primary btn-lg" onclick="iniciarRevisao(null)">Revisar Todos</button>
                         </div>
                     </div>
@@ -967,7 +969,7 @@
 
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
-    <script src="flashcards.js?v=7"></script>
+    <script src="flashcards.js?v=8"></script>
     <script src="app.js?v=91"></script>
     <script src="cadernos.js?v=1"></script>
     <script src="marcador.js?v=2"></script>

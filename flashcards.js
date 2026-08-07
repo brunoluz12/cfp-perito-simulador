@@ -166,16 +166,27 @@ function getDeckStats() {
 }
 
 // Iniciar Revisão
-function iniciarRevisao(deckFilter = null) {
+// `praticar = true` ignora o agendamento e traz TODOS os cards do filtro, sem
+// alterar as datas de revisão — é o "Praticar tudo". Sem ele, o comportamento
+// é o de sempre: só os cards vencidos.
+function iniciarRevisao(deckFilter = null, praticar = false) {
     currentDeckFilter = deckFilter;
-    let pendentes = getCardsPendentes(deckFilter);
-    
+    let pendentes = praticar ? [] : getCardsPendentes(deckFilter);
+
     const varios = Array.isArray(deckFilter) && deckFilter.length > 1;
     const alvo = deckFilter === FILTRO_FAVORITOS
         ? 'entre os favoritos'
         : (varios ? 'nos baralhos selecionados' : 'neste baralho');
 
-    if (pendentes.length === 0) {
+    if (praticar) {
+        const todos = flashcards.filter(c => cardNoFiltro(c, deckFilter));
+        if (todos.length === 0) {
+            alert(`Não há cards ${alvo}!`);
+            return;
+        }
+        currentReviewSession = [...todos];
+        isFreeReview = true;
+    } else if (pendentes.length === 0) {
         // Modo Prática (Revisão Livre)
         const allCards = flashcards.filter(c => cardNoFiltro(c, deckFilter));
         if (allCards.length === 0) {
@@ -330,10 +341,15 @@ function renderFlashcardDashboard() {
             <td><span class="fc-badge new">${favs.filter(c => c.reviews === 0).length}</span></td>
             <td><span class="fc-badge due">${favs.filter(c => c.reviews > 0 && c.due <= agora).length}</span></td>
             <td><span class="fc-badge total">${favs.length}</span></td>
-            <td><button class="btn-primary btn-sm" data-acao="revisar-fav">Revisar</button></td>
+            <td>
+                <button class="btn-primary btn-sm" data-acao="revisar-fav">Revisar</button>
+                <button class="btn-secondary btn-sm" data-acao="praticar-fav" title="Praticar todos os favoritos, mesmo os não agendados"><i class="ph ph-repeat"></i></button>
+            </td>
         `;
         trFav.querySelector('[data-acao="revisar-fav"]')
             .addEventListener('click', () => iniciarRevisao(FILTRO_FAVORITOS));
+        trFav.querySelector('[data-acao="praticar-fav"]')
+            .addEventListener('click', () => iniciarRevisao(FILTRO_FAVORITOS, true));
         deckList.appendChild(trFav);
     }
 
@@ -355,6 +371,7 @@ function renderFlashcardDashboard() {
                 <td><span class="fc-badge total">${s.total}</span></td>
                 <td>
                     <button class="btn-primary btn-sm" data-acao="revisar">Revisar</button>
+                    <button class="btn-secondary btn-sm" data-acao="praticar" title="Praticar todos os cards, mesmo os não agendados"><i class="ph ph-repeat"></i></button>
                     <button class="btn-secondary btn-sm" data-acao="exportar" title="Exportar JSON"><i class="ph ph-export"></i></button>
                     <button class="btn-danger btn-sm" data-acao="excluir" title="Excluir Baralho"><i class="ph ph-trash"></i></button>
                 </td>
@@ -362,6 +379,7 @@ function renderFlashcardDashboard() {
             tr.querySelector('.fc-check-deck').dataset.deck = s.deck;
             tr.querySelector('.fc-check-deck').addEventListener('change', atualizarSelecaoBaralhos);
             tr.querySelector('[data-acao="revisar"]').addEventListener('click', () => iniciarRevisao(s.deck));
+            tr.querySelector('[data-acao="praticar"]').addEventListener('click', () => iniciarRevisao(s.deck, true));
             tr.querySelector('[data-acao="exportar"]').addEventListener('click', () => exportarDeck(s.deck));
             tr.querySelector('[data-acao="excluir"]').addEventListener('click', () => excluirDeck(s.deck));
             deckList.appendChild(tr);
@@ -370,6 +388,8 @@ function renderFlashcardDashboard() {
 
     document.getElementById('fc-total-pendentes').textContent = totalPendentes + totalNovos;
     document.getElementById('fc-btn-iniciar-tudo').disabled = flashcards.length === 0;
+    const btnPraticarTudo = document.getElementById('fc-btn-praticar-tudo');
+    if (btnPraticarTudo) btnPraticarTudo.disabled = flashcards.length === 0;
     // A tabela foi reconstruída: nenhuma linha marcada.
     const checkTodos = document.getElementById('fc-check-todos');
     if (checkTodos) { checkTodos.checked = false; checkTodos.indeterminate = false; }
