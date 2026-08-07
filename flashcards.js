@@ -105,12 +105,38 @@ function excluirCard(id) {
     renderFlashcardDashboard();
 }
 
-// Filtro de baralho: aceita null (todos), o nome de um baralho ou uma lista
-// deles — é o que permite revisar vários de uma vez.
+// Filtro especial: em vez de um baralho, seleciona os cards marcados como
+// favoritos, de qualquer baralho.
+const FILTRO_FAVORITOS = '__favoritos__';
+
+// Filtro de baralho: aceita null (todos), o nome de um baralho, uma lista deles
+// — é o que permite revisar vários de uma vez — ou FILTRO_FAVORITOS.
 function cardNoFiltro(card, deckFilter) {
     if (!deckFilter) return true;
+    if (deckFilter === FILTRO_FAVORITOS) return !!card.fav;
     if (Array.isArray(deckFilter)) return deckFilter.includes(card.deck);
     return card.deck === deckFilter;
+}
+
+// Marca/desmarca o card em revisão como favorito.
+function alternarFavoritoCard() {
+    const card = currentReviewSession[currentCardIndex];
+    if (!card) return;
+    // O card da sessão é o MESMO objeto do array `flashcards` (a sessão guarda
+    // referências), então basta alterar aqui e salvar.
+    card.fav = !card.fav;
+    salvarFlashcards();
+    atualizarBotaoFavoritoCard();
+}
+
+function atualizarBotaoFavoritoCard() {
+    const btn = document.getElementById('fc-btn-fav');
+    if (!btn) return;
+    const card = currentReviewSession[currentCardIndex];
+    const ativo = !!(card && card.fav);
+    btn.classList.toggle('ativo', ativo);
+    btn.innerHTML = `<i class="ph${ativo ? '-fill' : ''} ph-star"></i>`;
+    btn.title = ativo ? 'Remover dos favoritos' : 'Marcar como favorito';
 }
 
 // Obter cards pendentes
@@ -145,7 +171,9 @@ function iniciarRevisao(deckFilter = null) {
     let pendentes = getCardsPendentes(deckFilter);
     
     const varios = Array.isArray(deckFilter) && deckFilter.length > 1;
-    const alvo = varios ? 'nos baralhos selecionados' : 'neste baralho';
+    const alvo = deckFilter === FILTRO_FAVORITOS
+        ? 'entre os favoritos'
+        : (varios ? 'nos baralhos selecionados' : 'neste baralho');
 
     if (pendentes.length === 0) {
         // Modo Prática (Revisão Livre)
@@ -189,7 +217,8 @@ function mostrarCardAtual() {
     const modeBadge = isFreeReview ? ' <span class="fc-badge new" style="margin-left: 8px;">Modo Prática</span>' : '';
     document.getElementById('fc-review-deck-name').innerHTML = card.deck + modeBadge;
     document.getElementById('fc-review-progress').textContent = `${currentCardIndex + 1} / ${currentReviewSession.length}`;
-    
+    atualizarBotaoFavoritoCard();
+
     const cardElement = document.getElementById('fc-active-card');
 
     // Desvira SEM animação antes de trocar o conteúdo. Se o card girasse de volta
@@ -288,7 +317,27 @@ function renderFlashcardDashboard() {
     const deckList = document.getElementById('fc-deck-list');
     deckList.innerHTML = '';
     
-    if (stats.length === 0) {
+    // Linha dos favoritos: atalho para revisar os cards marcados, de qualquer
+    // baralho. Só aparece quando existe pelo menos um.
+    const favs = flashcards.filter(c => c.fav);
+    if (favs.length > 0) {
+        const agora = Date.now();
+        const trFav = document.createElement('tr');
+        trFav.className = 'fc-linha-fav';
+        trFav.innerHTML = `
+            <td class="fc-col-check"></td>
+            <td><i class="ph-fill ph-star"></i> Favoritos <small>(todos os baralhos)</small></td>
+            <td><span class="fc-badge new">${favs.filter(c => c.reviews === 0).length}</span></td>
+            <td><span class="fc-badge due">${favs.filter(c => c.reviews > 0 && c.due <= agora).length}</span></td>
+            <td><span class="fc-badge total">${favs.length}</span></td>
+            <td><button class="btn-primary btn-sm" data-acao="revisar-fav">Revisar</button></td>
+        `;
+        trFav.querySelector('[data-acao="revisar-fav"]')
+            .addEventListener('click', () => iniciarRevisao(FILTRO_FAVORITOS));
+        deckList.appendChild(trFav);
+    }
+
+    if (stats.length === 0 && favs.length === 0) {
         deckList.innerHTML = '<tr><td colspan="6" style="color:var(--text-muted); padding:20px; text-align:center;">Nenhum baralho criado. Clique em "Novo Card" para começar!</td></tr>';
     } else {
         stats.forEach(s => {
