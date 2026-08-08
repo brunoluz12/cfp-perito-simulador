@@ -421,6 +421,19 @@ async function tryLogin(username, autoRestore = false) {
         atualizarHeaderStats();
         configurarEventos();
         carregarControleCurso();
+
+        // Na restauração de sessão o app subia só com o localStorage DESTE
+        // aparelho — quem já tinha login salvo (caso típico do celular) nunca
+        // recebia o que foi feito em outro dispositivo e, pior, a primeira
+        // alteração local sobrescrevia a nuvem inteira via /api/save. Aqui
+        // fazemos a mesclagem em silêncio: junta nuvem + local e devolve o
+        // resultado para os dois lados.
+        if (autoRestore) {
+            syncInicialEmCurso = true;
+            syncLocalWithCloud(true)
+                .catch(() => {})
+                .finally(() => { syncInicialEmCurso = false; });
+        }
     } catch (criticalError) {
         console.error("Erro crítico ao tentar inicializar o app:", criticalError);
         alert("Erro ao iniciar o aplicativo: " + criticalError.message);
@@ -432,13 +445,21 @@ async function tryLogin(username, autoRestore = false) {
 }
 
 let syncPending = false;
+// Verdadeiro enquanto a mesclagem automática da abertura não termina.
+let syncInicialEmCurso = false;
 
 function requestCloudSync() {
     if (!currentUser) return;
     if (syncTimeout) clearTimeout(syncTimeout);
     syncPending = true;
-    
+
     syncTimeout = setTimeout(async () => {
+        // A mesclagem inicial ainda está rodando: enviar agora subiria o estado
+        // pré-merge e desfaria o que veio da nuvem. Tenta de novo em seguida.
+        if (syncInicialEmCurso) {
+            requestCloudSync();
+            return;
+        }
         let agendaAplicada = {};
         try { agendaAplicada = JSON.parse(localStorage.getItem('pcpr_agenda_aplicada') || '{}'); } catch (e) {}
         let marcacoes = {};
@@ -551,9 +572,11 @@ async function logout() {
 // ==========================================
 // SINCRONIZAÇÃO MANUAL
 // ==========================================
-async function syncLocalWithCloud() {
+// `silencioso` = sem alertas: usado na restauração de sessão, que sincroniza
+// sozinha ao abrir o app.
+async function syncLocalWithCloud(silencioso = false) {
     if (!currentUser) return;
-    
+
     const btn = document.getElementById('btn-sync-cloud');
     if (btn) {
         btn.classList.add('syncing');
@@ -743,11 +766,13 @@ async function syncLocalWithCloud() {
         try { atualizarTelaDashboard(); } catch (e) {}             // indicadores + lista por capítulo
         try { atualizarHeaderStats(); } catch (e) {}
 
-        alert("Sincronização concluída com sucesso!");
+        if (!silencioso) alert("Sincronização concluída com sucesso!");
 
     } catch (e) {
         console.error("Erro na sincronização:", e);
-        alert("Erro ao sincronizar. Verifique sua conexão.");
+        // Em silêncio a falha não interrompe o uso: o app segue com os dados
+        // locais e o botão da nuvem continua disponível.
+        if (!silencioso) alert("Erro ao sincronizar. Verifique sua conexão.");
     } finally {
         if (btn) {
             btn.classList.remove('syncing');
