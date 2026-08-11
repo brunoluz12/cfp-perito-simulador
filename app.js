@@ -35,13 +35,12 @@ function alterarCargoGlobal() {
 // materiais, mas elas ficam fora de TODAS as seleções (Simulador, Simulado,
 // Anotações, Flashcards e aba Materiais). Para reativar, basta remover daqui.
 const disciplinasEncerradas = new Set([
-    'Investigação Policial (IPO)',                 // IPO 1
     'Criminalística',
     'PVAT - Módulo I (Identificação Veicular)',
     'PVAT - Módulo II (Acidentes de Tráfego)'
 ]);
 // Chaves correspondentes no select da aba Materiais
-const materiaisEncerrados = ['ipo', 'criminalistica', 'pvat_mod_1', 'pvat_mod_2'];
+const materiaisEncerrados = ['criminalistica', 'pvat_mod_1', 'pvat_mod_2'];
 
 function disciplinaPermitidaParaCargo(disciplina) {
     if (!disciplina) return true;
