@@ -203,6 +203,9 @@
             pai.removeChild(m);
             pai.normalize();
         });
+        if (typeof registrarExclusao === 'function') {
+            registrarExclusao('marcacoes', chaveCapitulo() + '::' + id);
+        }
         gravarMarcas(marcasDoCapitulo().filter(m => m.id !== id));
     }
 

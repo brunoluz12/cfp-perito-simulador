@@ -290,6 +290,7 @@ function cadernoExcluir(id) {
     if (!c) return;
     if (!confirm(`Excluir o caderno "${c.nome}"?\n\nO histórico geral de questões resolvidas é mantido — só este caderno some.`)) return;
     cadernos = cadernos.filter(x => x.id !== id);
+    if (typeof registrarExclusao === 'function') registrarExclusao('cadernos', id);
     if (cadernoAtualId === id) cadernoAtualId = null;
     cadernosSalvar();
 }

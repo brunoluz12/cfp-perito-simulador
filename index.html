@@ -61,7 +61,7 @@
                       <option value="delegado">Delegado</option>
                       <option value="escrivao">Escrivão</option>
                   </select>
-                  <button id="btn-sync-cloud" class="theme-toggle tooltip" style="font-size: 1rem; display: inline-flex; align-items: center; gap: 6px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--border-color);" data-tooltip="Sincronizar Progresso com a Nuvem" onclick="syncLocalWithCloud()" aria-label="Sincronizar Progresso">
+                  <button id="btn-sync-cloud" class="theme-toggle tooltip" style="font-size: 1rem; display: inline-flex; align-items: center; gap: 6px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--border-color);" data-tooltip="Sincronizar Progresso com a Nuvem (clique direito: adotar este dispositivo como referência)" onclick="syncLocalWithCloud()" oncontextmenu="event.preventDefault(); definirEsteDispositivoComoFonte(); return false;" aria-label="Sincronizar Progresso">
                       <i class="ph ph-cloud-arrows"></i> <span style="font-size: 0.9rem; font-weight: 500;">Nuvem</span>
                   </button>
                   <button id="btn-theme-toggle" class="theme-toggle tooltip" data-tooltip="Alternar modo escuro/claro" onclick="toggleTheme()" aria-label="Alternar tema">
@@ -994,10 +994,10 @@
 
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=176"></script>
-    <script src="flashcards.js?v=8"></script>
-    <script src="app.js?v=94"></script>
-    <script src="cadernos.js?v=2"></script>
-    <script src="marcador.js?v=2"></script>
+    <script src="flashcards.js?v=9"></script>
+    <script src="app.js?v=95"></script>
+    <script src="cadernos.js?v=3"></script>
+    <script src="marcador.js?v=3"></script>
     <script src="tts_material.js?v=4"></script>
     <script src="pfister.js?v=1"></script>
 </body>

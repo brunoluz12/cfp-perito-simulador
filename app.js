@@ -42,6 +42,177 @@ const disciplinasEncerradas = new Set([
 // Chaves correspondentes no select da aba Materiais
 const materiaisEncerrados = ['criminalistica', 'pvat_mod_1', 'pvat_mod_2'];
 
+// ============================================================================
+// MARCADORES DE EXCLUSÃO (tombstones)
+// ----------------------------------------------------------------------------
+// O merge da sincronização é uma UNIÃO: se um item existe em qualquer lado, ele
+// fica. Isso preserva dados, mas torna impossível apagar algo — o aparelho que
+// ainda tem a cópia antiga a devolve para a nuvem no próximo acesso.
+// A solução é registrar a EXCLUSÃO como um dado que também sincroniza: ao
+// apagar, guarda-se o id e o instante; no merge, tudo que estiver marcado como
+// excluído é removido dos dois lados. Um item reeditado DEPOIS da exclusão
+// (atualizadoEm maior que o instante do apagamento) prevalece e volta.
+// ============================================================================
+const TOMBSTONES_KEY = 'pcpr_deletados';
+const TOMBSTONES_TTL = 1000 * 60 * 60 * 24 * 180; // 180 dias
+
+function lerTombstones() {
+    try {
+        const t = JSON.parse(localStorage.getItem(TOMBSTONES_KEY) || '{}');
+        return (t && typeof t === 'object') ? t : {};
+    } catch (e) { return {}; }
+}
+
+function gravarTombstones(t) {
+    try { localStorage.setItem(TOMBSTONES_KEY, JSON.stringify(t || {})); } catch (e) {}
+}
+
+// Registra que um item foi apagado neste dispositivo.
+function registrarExclusao(colecao, id) {
+    if (!colecao || id === undefined || id === null) return;
+    const t = lerTombstones();
+    if (!t[colecao] || typeof t[colecao] !== 'object') t[colecao] = {};
+    t[colecao][String(id)] = Date.now();
+    gravarTombstones(t);
+}
+
+// Desfaz o marcador (o item voltou a existir por ação do usuário).
+function desfazerExclusao(colecao, id) {
+    if (!colecao || id === undefined || id === null) return;
+    const t = lerTombstones();
+    if (t[colecao]) {
+        delete t[colecao][String(id)];
+        gravarTombstones(t);
+    }
+}
+
+function estaExcluido(tomb, colecao, id, atualizadoEm) {
+    const quando = tomb && tomb[colecao] ? tomb[colecao][String(id)] : undefined;
+    if (!quando) return false;
+    // Item alterado depois da exclusão volta a valer (edição vence apagamento).
+    if (atualizadoEm && Number(atualizadoEm) > Number(quando)) return false;
+    return true;
+}
+
+// União de dois conjuntos de marcadores, mantendo sempre o instante mais recente.
+function mesclarTombstones(a, b) {
+    const out = {};
+    const colecoes = new Set([...Object.keys(a || {}), ...Object.keys(b || {})]);
+    const corte = Date.now() - TOMBSTONES_TTL;
+    colecoes.forEach(col => {
+        const ca = (a && a[col]) || {};
+        const cb = (b && b[col]) || {};
+        const m = {};
+        [...new Set([...Object.keys(ca), ...Object.keys(cb)])].forEach(id => {
+            const quando = Math.max(Number(ca[id]) || 0, Number(cb[id]) || 0);
+            if (quando > corte) m[id] = quando; // descarta marcadores muito antigos
+        });
+        if (Object.keys(m).length) out[col] = m;
+    });
+    return out;
+}
+
+// Remove de uma lista de objetos com id os itens marcados como excluídos.
+function filtrarExcluidos(lista, tomb, colecao) {
+    return (lista || []).filter(item =>
+        item && item.id !== undefined &&
+        !estaExcluido(tomb, colecao, item.id, item.atualizadoEm));
+}
+
+window.registrarExclusao = registrarExclusao;
+window.desfazerExclusao = desfazerExclusao;
+
+// ----------------------------------------------------------------------------
+// Reparo pontual: adotar ESTE dispositivo como referência.
+// Exclusões feitas antes de existirem os marcadores não deixaram rastro, e o
+// outro aparelho já devolveu os itens para a nuvem. Esta função compara a nuvem
+// com o estado local e cria marcadores para tudo que existe lá e não existe
+// aqui — ou seja, reconstrói as exclusões perdidas. Depois disso a sincronização
+// normal propaga os apagamentos para os demais dispositivos.
+// ATENÇÃO: apaga também o que só existir no outro aparelho e nunca tiver
+// chegado a este. Deve ser executada no dispositivo que está correto.
+// ----------------------------------------------------------------------------
+async function definirEsteDispositivoComoFonte() {
+    if (!currentUser) { alert('Entre na sua conta antes de usar esta função.'); return; }
+
+    let cloudData;
+    try {
+        const r = await fetch(`${VERCEL_API_URL}/api/load?username=${encodeURIComponent(currentUser)}`);
+        if (!r.ok) throw new Error('falha ao ler a nuvem');
+        cloudData = (await r.json()).data || {};
+    } catch (e) {
+        alert('Não foi possível ler os dados da nuvem. Verifique a conexão e tente de novo.');
+        return;
+    }
+
+    const local = {
+        flashcards: JSON.parse(localStorage.getItem('pcpr_flashcards') || '[]'),
+        anotacoes: JSON.parse(localStorage.getItem('pcpr_notes') || '[]'),
+        cadernos: JSON.parse(localStorage.getItem('pcpr_cadernos') || '[]'),
+        favoritos: JSON.parse(localStorage.getItem('pcpr_favorites') || '[]'),
+        irrelevantes: JSON.parse(localStorage.getItem('pcpr_irrelevant') || '[]'),
+        materialEstudado: JSON.parse(localStorage.getItem('pcpr_material_studied') || '{}'),
+        marcacoes: JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}')
+    };
+
+    const pendentes = []; // [colecao, id]
+
+    // Coleções de objetos com id
+    [['flashcards', 'flashcards'], ['anotacoes', 'anotacoes'], ['cadernos', 'cadernos']]
+        .forEach(([campo, colecao]) => {
+            const aqui = new Set((local[campo] || []).map(x => x && x.id).filter(x => x !== undefined));
+            (Array.isArray(cloudData[campo]) ? cloudData[campo] : []).forEach(item => {
+                if (item && item.id !== undefined && !aqui.has(item.id)) pendentes.push([colecao, item.id]);
+            });
+        });
+
+    // Listas de ids simples
+    [['favoritos', 'favoritos'], ['irrelevantes', 'irrelevantes']].forEach(([campo, colecao]) => {
+        const aqui = new Set(local[campo] || []);
+        (Array.isArray(cloudData[campo]) ? cloudData[campo] : []).forEach(id => {
+            if (!aqui.has(id)) pendentes.push([colecao, id]);
+        });
+    });
+
+    // Capítulos marcados como estudados
+    Object.keys(cloudData.materialEstudado || {}).forEach(k => {
+        if (!local.materialEstudado[k]) pendentes.push(['materialEstudado', k]);
+    });
+
+    // Grifos, identificados por "capítulo::id"
+    Object.keys(cloudData.marcacoes || {}).forEach(cap => {
+        const aqui = new Set((local.marcacoes[cap] || []).map(m => m && m.id).filter(Boolean));
+        (Array.isArray(cloudData.marcacoes[cap]) ? cloudData.marcacoes[cap] : []).forEach(m => {
+            if (m && m.id && !aqui.has(m.id)) pendentes.push(['marcacoes', cap + '::' + m.id]);
+        });
+    });
+
+    if (!pendentes.length) {
+        alert('Nada a corrigir: a nuvem não tem nenhum item que já não exista neste dispositivo.');
+        return;
+    }
+
+    const contagem = pendentes.reduce((acc, [c]) => { acc[c] = (acc[c] || 0) + 1; return acc; }, {});
+    const resumo = Object.entries(contagem)
+        .map(([c, n]) => `  • ${c}: ${n}`).join('\n');
+
+    const ok = confirm(
+        'ADOTAR ESTE DISPOSITIVO COMO REFERÊNCIA\n\n' +
+        'A nuvem tem itens que não existem aqui. Eles serão apagados definitivamente ' +
+        'de todos os seus aparelhos:\n\n' + resumo + '\n\n' +
+        'Use esta opção apenas no dispositivo em que os dados estão corretos. ' +
+        'Se você criou algo no celular que ainda não chegou a este computador, isso ' +
+        'também será perdido.\n\nConfirmar?'
+    );
+    if (!ok) return;
+
+    pendentes.forEach(([colecao, id]) => registrarExclusao(colecao, id));
+    await syncLocalWithCloud();
+    alert(`Pronto. ${pendentes.length} item(ns) foram marcados como excluídos e removidos da nuvem.\n\n` +
+          'Abra o app no celular e toque em "Nuvem" para ele receber as exclusões.');
+}
+window.definirEsteDispositivoComoFonte = definirEsteDispositivoComoFonte;
+
 function disciplinaPermitidaParaCargo(disciplina) {
     if (!disciplina) return true;
     if (disciplinasEncerradas.has(disciplina)) return false;
@@ -384,6 +555,9 @@ async function tryLogin(username, autoRestore = false) {
                 if (result.data.anotacoes) localStorage.setItem('pcpr_notes', JSON.stringify(result.data.anotacoes));
                 if (result.data.marcacoes) localStorage.setItem('pcpr_marcacoes', JSON.stringify(result.data.marcacoes));
                 if (result.data.cadernos) localStorage.setItem('pcpr_cadernos', JSON.stringify(result.data.cadernos));
+                // Marcadores de exclusão: sem eles este dispositivo voltaria a
+                // ressuscitar itens já apagados em outro aparelho.
+                if (result.data.deletados) gravarTombstones(mesclarTombstones(result.data.deletados, lerTombstones()));
             }
         }
     } catch (e) {
@@ -475,7 +649,8 @@ function requestCloudSync() {
             flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
             anotacoes: anotacoes,
             marcacoes: marcacoes,
-            cadernos: (typeof cadernos !== 'undefined' ? cadernos : [])
+            cadernos: (typeof cadernos !== 'undefined' ? cadernos : []),
+            deletados: lerTombstones()
         };
 
         try {
@@ -530,7 +705,8 @@ async function logout() {
                     flashcards: (typeof flashcards !== 'undefined' ? flashcards : []),
                     anotacoes: anotacoes,
                     marcacoes: marcacoes,
-                    cadernos: (typeof cadernos !== 'undefined' ? cadernos : [])
+                    cadernos: (typeof cadernos !== 'undefined' ? cadernos : []),
+                    deletados: lerTombstones()
                 }})
             });
         } catch (e) {
@@ -606,6 +782,13 @@ async function syncLocalWithCloud(silencioso = false) {
             cadernos: JSON.parse(localStorage.getItem('pcpr_cadernos') || '[]')
         };
 
+        // 2.1 Marcadores de exclusão dos dois lados, unidos.
+        // Precisam ser mesclados ANTES do merge dos dados: é essa lista que
+        // autoriza remover, do resultado final, o que foi apagado em qualquer
+        // dispositivo — sem ela a união simplesmente ressuscitaria os itens.
+        const tomb = mesclarTombstones(cloudData.deletados || {}, lerTombstones());
+        gravarTombstones(tomb);
+
         // 3. Merge Inteligente (UNION: nunca perde dados de nenhum lado)
 
         // --- Histórico de Questões ---
@@ -637,11 +820,13 @@ async function syncLocalWithCloud(silencioso = false) {
             }
         });
         
-        // --- Favoritos: união de arrays sem duplicata ---
-        const mergedFavoritos = [...new Set([...(cloudData.favoritos || []), ...(localData.favoritos || [])])];
+        // --- Favoritos: união de arrays, menos os desfavoritados ---
+        const mergedFavoritos = [...new Set([...(cloudData.favoritos || []), ...(localData.favoritos || [])])]
+            .filter(id => !estaExcluido(tomb, 'favoritos', id));
 
-        // --- Irrelevantes: união de arrays sem duplicata ---
-        const mergedIrrelevantes = [...new Set([...(cloudData.irrelevantes || []), ...(localData.irrelevantes || [])])];
+        // --- Irrelevantes: união de arrays, menos os desmarcados ---
+        const mergedIrrelevantes = [...new Set([...(cloudData.irrelevantes || []), ...(localData.irrelevantes || [])])]
+            .filter(id => !estaExcluido(tomb, 'irrelevantes', id));
         
         // --- Comentários: união de chaves. Se a mesma questão tiver comentário nos dois, o local é mais novo ---
         const mergedComentarios = { ...(cloudData.comentarios || {}), ...(localData.comentarios || {}) };
@@ -658,6 +843,10 @@ async function syncLocalWithCloud(silencioso = false) {
                 mergedMaterial[key] = true;
             }
             // Não removemos o que já existe na nuvem (não sobrescrevemos com 'false')
+        });
+        // Exceção: capítulos DESMARCADOS de propósito saem da união.
+        Object.keys(mergedMaterial).forEach(key => {
+            if (estaExcluido(tomb, 'materialEstudado', key)) delete mergedMaterial[key];
         });
         
         // --- Progresso do Curso: UNION (pega o mais avançado de cada campo) ---
@@ -679,7 +868,7 @@ async function syncLocalWithCloud(silencioso = false) {
         const cardMap = new Map();
         cCards.forEach(c => { if (c && c.id) cardMap.set(c.id, c); });
         lCards.forEach(c => { if (c && c.id) cardMap.set(c.id, c); }); // local sobrescreve nuvem
-        const mergedFlashcards = Array.from(cardMap.values());
+        const mergedFlashcards = filtrarExcluidos(Array.from(cardMap.values()), tomb, 'flashcards');
         
         // --- Anotações: união por ID, local ganha em conflito (mais recente) ---
         const cNotes = Array.isArray(cloudData.anotacoes) ? cloudData.anotacoes : [];
@@ -687,7 +876,7 @@ async function syncLocalWithCloud(silencioso = false) {
         const noteMap = new Map();
         cNotes.forEach(n => { if (n && n.id) noteMap.set(n.id, n); });
         lNotes.forEach(n => { if (n && n.id) noteMap.set(n.id, n); }); // local sobrescreve nuvem
-        const mergedAnotacoes = Array.from(noteMap.values());
+        const mergedAnotacoes = filtrarExcluidos(Array.from(noteMap.values()), tomb, 'anotacoes');
 
         // --- Cadernos salvos: união por ID; em conflito vence o mais recentemente atualizado ---
         const cCad = Array.isArray(cloudData.cadernos) ? cloudData.cadernos : [];
@@ -699,7 +888,7 @@ async function syncLocalWithCloud(silencioso = false) {
             const naNuvem = cadMap.get(c.id);
             if (!naNuvem || (c.atualizadoEm || 0) >= (naNuvem.atualizadoEm || 0)) cadMap.set(c.id, c);
         });
-        const mergedCadernos = Array.from(cadMap.values());
+        const mergedCadernos = filtrarExcluidos(Array.from(cadMap.values()), tomb, 'cadernos');
 
         // --- Marcações (marca-texto dos materiais): união por capítulo e por id, local ganha ---
         const cMarc = cloudData.marcacoes || {};
@@ -709,7 +898,10 @@ async function syncLocalWithCloud(silencioso = false) {
             const porId = new Map();
             (Array.isArray(cMarc[k]) ? cMarc[k] : []).forEach(m => { if (m && m.id) porId.set(m.id, m); });
             (Array.isArray(lMarc[k]) ? lMarc[k] : []).forEach(m => { if (m && m.id) porId.set(m.id, m); });
-            if (porId.size) mergedMarcacoes[k] = Array.from(porId.values());
+            // Grifos apagados são identificados por "capítulo::id"
+            const vivos = Array.from(porId.values())
+                .filter(m => !estaExcluido(tomb, 'marcacoes', k + '::' + m.id));
+            if (vivos.length) mergedMarcacoes[k] = vivos;
         });
 
         // Atualiza memória e localStorage
@@ -745,7 +937,8 @@ async function syncLocalWithCloud(silencioso = false) {
             flashcards: mergedFlashcards,
             anotacoes: mergedAnotacoes,
             marcacoes: mergedMarcacoes,
-            cadernos: mergedCadernos
+            cadernos: mergedCadernos,
+            deletados: tomb
         };
 
         await fetch(`${VERCEL_API_URL}/api/save`, {
@@ -2566,10 +2759,12 @@ function toggleFavorite(e) {
     const index = favoritos.indexOf(q.id);
     if (index > -1) {
         favoritos.splice(index, 1);
+        registrarExclusao('favoritos', q.id);
         btnFav.classList.remove('active');
         btnFav.innerHTML = '<i class="ph ph-star"></i>';
     } else {
         favoritos.push(q.id);
+        desfazerExclusao('favoritos', q.id);
         btnFav.classList.add('active');
         btnFav.innerHTML = '<i class="ph-fill ph-star"></i>';
     }
@@ -2586,8 +2781,10 @@ function toggleIrrelevante(e) {
     const index = irrelevantes.indexOf(q.id);
     if (index > -1) {
         irrelevantes.splice(index, 1);
+        registrarExclusao('irrelevantes', q.id);
     } else {
         irrelevantes.push(q.id);
+        desfazerExclusao('irrelevantes', q.id);
     }
     atualizarBotaoIrrelevante(q);
     salvarIrrelevantes();
@@ -4244,7 +4441,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     btnEst.addEventListener('click', () => {
                         if (!matDisc.value || !matCap.value) return;
                         const key = getMaterialKey(matDisc.value, matCap.value);
-                        if (materialEstudado[key]) delete materialEstudado[key]; else materialEstudado[key] = true;
+                        if (materialEstudado[key]) { delete materialEstudado[key]; registrarExclusao('materialEstudado', key); }
+                        else { materialEstudado[key] = true; desfazerExclusao('materialEstudado', key); }
                         salvarMaterialEstudado();
                         atualizarBotaoEstudado(matDisc.value, matCap.value);
                         atualizarEstiloOpcoes(matCap, matDisc.value);
@@ -4328,8 +4526,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (materialEstudado[key]) {
                 delete materialEstudado[key];
+                registrarExclusao('materialEstudado', key);
             } else {
                 materialEstudado[key] = true;
+                desfazerExclusao('materialEstudado', key);
             }
 
             salvarMaterialEstudado();
@@ -4994,7 +5194,8 @@ async function salvarAnotacoesStore() {
             // O /api/save grava o documento inteiro: sem estes campos, salvar uma
             // anotação apagaria marcações e cadernos que já estavam na nuvem.
             marcacoes: JSON.parse(localStorage.getItem('pcpr_marcacoes') || '{}'),
-            cadernos: (typeof cadernos !== 'undefined' ? cadernos : [])
+            cadernos: (typeof cadernos !== 'undefined' ? cadernos : []),
+            deletados: lerTombstones()
         };
         await fetch(`${VERCEL_API_URL}/api/save`, {
             method: 'POST',
@@ -5239,6 +5440,7 @@ function notesExcluir(id) {
     if (!n) return;
     if (!confirm(`Excluir a anotação "${n.titulo || 'Sem título'}"? Esta ação não pode ser desfeita.`)) return;
     anotacoes = anotacoes.filter(x => x.id !== id);
+    registrarExclusao('anotacoes', id);
     salvarAnotacoesStore();
     if (notesEditId === id) notesFecharEditor();
     else renderNotesList();

@@ -101,6 +101,7 @@ function editarCard(id, deck, front, back) {
 // Excluir card
 function excluirCard(id) {
     flashcards = flashcards.filter(c => c.id !== id);
+    if (typeof registrarExclusao === 'function') registrarExclusao('flashcards', id);
     saveFlashcards();
     renderFlashcardDashboard();
 }
@@ -503,6 +504,10 @@ function salvarFormCard(e) {
 
 function excluirDeck(deck) {
     if (confirm(`Tem certeza que deseja excluir o baralho "${deck}" e todos os seus cards?`)) {
+        if (typeof registrarExclusao === 'function') {
+            flashcards.filter(c => c.deck === deck)
+                      .forEach(c => registrarExclusao('flashcards', c.id));
+        }
         flashcards = flashcards.filter(c => c.deck !== deck);
         saveFlashcards();
         renderFlashcardDashboard();
