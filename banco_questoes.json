@@ -49698,5 +49698,158 @@
     "referencia": "PDF LOC, p. 120",
     "nivel": "dificil",
     "essencial": false
+  },
+  {
+    "id": 4001,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Mancha de sangue em piso de cerâmica, mancha de sangue em sofá e sangue impregnado em terra pedem, respectivamente:",
+    "alternativas": {
+      "A": "suabe estéril, recorte ou raspagem, e espátula",
+      "B": "espátula, suabe estéril e recorte ou raspagem do suporte",
+      "C": "recorte do suporte, espátula e suabe estéril umedecido",
+      "D": "suabe estéril, espátula e remoção integral do suporte"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em superfície imóvel e não absorvente (cerâmica, azulejo, vidro, couro) usa-se suabe estéril, umedecido se necessário; em suporte imóvel e absorvente (sofá, banco de automóvel, tronco, concreto, asfalto) recorta-se ou raspa-se o suporte; e em areia ou terra coleta-se a maior quantidade possível com espátula. Em todos, seca-se antes de acondicionar em papel.",
+    "referencia": "PDF LOC, p. 121",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4002,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao coletar sangue impregnado em areia ou terra, o caderno determina ainda que se recolha, em separado:",
+    "alternativas": {
+      "A": "uma amostra do solo de área distante, como padrão de comparação",
+      "B": "um pouco do material sem sangue, para identificar interferentes",
+      "C": "a camada superficial, por concentrar a maior parte do vestígio",
+      "D": "porção equivalente em volume à mancha, para eventual contraprova"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deve-se coletar um pouco da areia ou terra onde não seja observado sangue e acondicionar em separado, para fins de identificação de possíveis interferentes. Não sendo possível secar o material, ele vai em pote plástico estéril fechado, refrigerado e congelado assim que possível.",
+    "referencia": "PDF LOC, p. 121",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4003,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de pelos e cabelos com pinça estéril, o cuidado de não tocar as extremidades dos fios existe para:",
+    "alternativas": {
+      "A": "evitar a quebra da haste durante o transporte",
+      "B": "impedir a transferência de células epiteliais do perito",
+      "C": "não danificar o bulbo",
+      "D": "preservar a cor e a espessura originais do fio"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Cabelos e pelos são coletados com pinça estéril evitando-se tocar as extremidades dos fios, para não danificar o bulbo — é dele que se extrai o material genético de melhor qualidade.",
+    "referencia": "PDF LOC, p. 123",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4004,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Fios de cabelo de origem diferente, separados pela disposição no local ou por cor, comprimento e espessura, devem ser:",
+    "alternativas": {
+      "A": "reunidos num único envelope primário, para não se perderem",
+      "B": "congelados a -20°C já no local de crime",
+      "C": "enviados sem secagem prévia, para preservar o bulbo",
+      "D": "acondicionados em embalagens separadas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Fios de origem diferente vão em embalagens separadas. Fios isolados são acondicionados em envelope primário e este em um segundo envelope de papel identificado; o congelamento a -20°C só se aplica à armazenagem por períodos longos, e não à coleta no local.",
+    "referencia": "PDF LOC, p. 123",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4005,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Bitucas de cigarro, gomas de mascar, garrafas e talheres com saliva devem, segundo o caderno, ser:",
+    "alternativas": {
+      "A": "coletados inteiros, com as bitucas separadas",
+      "B": "submetidos a coleta com suabe umedecido em água destilada",
+      "C": "recortados ou raspados na região de contato com a boca",
+      "D": "reunidos em um único envelope de papel por tipo de objeto"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Sendo suportes móveis, coleta-se o objeto inteiro, e havendo várias bitucas de cigarro elas são acondicionadas individualmente. O suabe umedecido é para saliva em suporte imóvel e não absorvente; cortar ou raspar, para o imóvel e absorvente.",
+    "referencia": "PDF LOC, p. 123",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4006,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando não é possível a identificação papiloscópica — superfícies porosas ou irregulares, ou fragmentos insuficientes —, o caderno admite:",
+    "alternativas": {
+      "A": "raspar a superfície com bisturi estéril, recolhendo o pó em papel",
+      "B": "coletar o material com suabe umedecido em água destilada estéril",
+      "C": "aplicar reagente de contraste antes de nova tentativa de revelação",
+      "D": "encaminhar o objeto ao laboratório sem qualquer coleta prévia"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Nesses casos o perito pode coletar o material com suabe umedecido em água destilada estéril, secando-o e acondicionando em envelope de papel ou porta-suabe. Sempre que possível, porém, o objeto deve ser coletado na íntegra, manuseado com luvas novas e máscara.",
+    "referencia": "PDF LOC, p. 124",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4007,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Fragmentos musculares e vísceras, de um lado, e ossos e dentes sem tecido mole aderido, de outro, exigem, respectivamente:",
+    "alternativas": {
+      "A": "papel em temperatura ambiente, e plástico estéril refrigerado e congelado",
+      "B": "plástico estéril refrigerado nos dois casos, por serem tecidos orgânicos",
+      "C": "plástico estéril refrigerado e congelado, e papel em temperatura ambiente",
+      "D": "papel em temperatura ambiente nos dois casos, após secagem natural"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Tecidos moles são coletados com bisturi e pinça, acondicionados em recipiente plástico estéril fechado, refrigerados no local e congelados a -20°C assim que possível. Ossos e dentes sem tecido mole aderido vão inteiros em embalagens de papel, à temperatura ambiente — mas, havendo aderências de tecidos moles, seguem a regra dos tecidos orgânicos.",
+    "referencia": "PDF LOC, p. 124",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4008,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encontrado projétil de arma de fogo com aparente material biológico, o caderno orienta que o perito:",
+    "alternativas": {
+      "A": "encaminhe primeiro à balística, por ser exame não destrutivo",
+      "B": "colete o material com suabe seco antes de qualquer remessa",
+      "C": "descarte o exame genético, dada a alteração térmica do disparo",
+      "D": "avalie o exame de DNA antes dos exames balísticos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Projéteis podem conter sangue ou fragmentos de tecidos orgânicos, e é importante que o perito avalie a necessidade de realizar exame de DNA antes de encaminhá-los para exames balísticos.",
+    "referencia": "PDF LOC, p. 124",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4009,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao envio das amostras questionadas e de referência para exame de DNA, o caderno determina que:",
+    "alternativas": {
+      "A": "sigam em embalagens separadas, sem contato em hipótese alguma",
+      "B": "sigam na mesma embalagem lacrada, para garantir o caso fechado",
+      "C": "as de referência sejam remetidas depois, após o laudo preliminar",
+      "D": "apenas as questionadas exijam etiqueta de material refrigerado"
+    },
+    "resposta_correta": "A",
+    "justificativa": "É fundamental que as questionadas e as de referência sejam acondicionadas de forma que não entrem em contato em hipótese alguma; considerando a imprevisibilidade do transporte, recomenda-se enviá-las em embalagens separadas. O envio se dá quando o caso está fechado, ou seja, quando os vestígios vão acompanhados das referências necessárias.",
+    "referencia": "PDF LOC, p. 127",
+    "nivel": "dificil"
   }
 ]

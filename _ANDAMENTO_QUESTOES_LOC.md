@@ -64,7 +64,7 @@ A numeração impressa coincide com a do PDF (página 91 impressa = `d[90]`).
 |---|---|---|---|
 | 13 — Vestígios e a dinâmica dos fatos | 91 | ✅ feito | 4 novas (11 no total) |
 | 14 — Vestígios químicos | 93-101 | ✅ feito | 26 novas (38 no total) |
-| 15 — Vestígios biológicos | 103-128 | 🟡 **em andamento** | 54 novas (74 no total) — falta p. 121-128 |
+| 15 — Vestígios biológicos | 103-128 | ✅ feito | 63 novas (83 no total, 47 visíveis) |
 | 16 — Vestígios físicos | 129-134 | ✅ feito | 17 novas (29 no total) |
 | 17 — Microvestígios | 135-142 | ✅ feito | 46 novas (58 no total) |
 
@@ -108,11 +108,25 @@ O maior e mais denso — 26 páginas. Sumário:
    não absorvente, móvel × imóvel), as 5 técnicas de coleta (suabe, raspagem,
    remoção do suporte, seringa, pinça), o quadro "como secar", o envelope
    primário e a preservação (ambiente / 4°C / -20°C). 33 questões, ids 3230-3262.
-3. ⬜ **PRÓXIMA** — p. 121-128: a matriz do 15.1.9 (técnica recomendada em
-   função do tipo de vestígio — sangue, sêmen, pelos e cabelos, saliva, suor,
-   células epiteliais, tecidos orgânicos, ossos e dentes, projéteis, coleta em
-   cadáveres e em pessoas vivas), embalagem e envio para exame de DNA (127) e
-   amostras para análises toxicológicas, ante e post-mortem (127-128)
+3. ✅ **FEITA** — p. 121-127, enxuta desde a origem (9 questões, ids 4001-4009):
+   os três cenários do sangue, bulbo dos pelos, saliva em suporte móvel,
+   células epiteliais quando a papiloscopia falha, tecidos moles × ossos e
+   dentes, projéteis antes da balística e embalagens separadas para DNA.
+   Ficaram de fora, por já estarem cobertos por questões antigas do banco:
+   sêmen/preservativo (1447), cadáveres (2670), amostras de referência e
+   parentes (1448, 2671) e toxicológicas (1449, 2673, 2674).
+
+## Concluído — e o filtro `essencial`
+
+Os capítulos 13 a 17 chegaram a 210 questões, volume que ninguém responde. 77
+foram marcadas com `essencial: false` no banco e são filtradas em `app.js`, no
+mesmo ponto em que já se filtravam as exclusões do admin. Nada foi apagado: os
+ids seguem ocupados e as estatísticas do Redis, intactas. Para trazê-las de
+volta, remover o teste `q.essencial !== false` daquela linha.
+
+⚠️ **Ao inserir novos lotes, use piso fixo de id** (`Math.max(4000, ...ids) + 1`)
+e nunca `max(id)+1` puro: se uma faixa alta for escondida ou apagada, o id
+poderia ser reciclado e a questão nova herdaria as estatísticas da antiga.
 
 **Correção feita no validador durante a fatia 1:** a regra da extensão só pode
 reprovar quando a correta é ESTRITAMENTE a maior. Havendo empate no tamanho
