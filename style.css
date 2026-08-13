@@ -1337,6 +1337,19 @@ html.dark-mode .addcad-item-acao { color: #34d399; }
     box-shadow: none;
 }
 
+/* "Próxima" nasce no lugar exato do "Responder" depois que a questão é
+   respondida. Com a mesma cor dos dois, a troca passava despercebida — parecia
+   que o clique não tinha surtido efeito. A cor de acento separa a ação de
+   AVANÇAR da ação de RESPONDER, e evita de propósito o verde e o vermelho, que
+   na mesma tela já significam acerto e erro. */
+#btn-proxima {
+    background: linear-gradient(135deg, var(--accent-color), #7c3aed);
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.30);
+}
+#btn-proxima:hover:not(:disabled) {
+    box-shadow: 0 4px 14px rgba(139, 92, 246, 0.42);
+}
+
 /* Dica de atalhos de teclado */
 /* Dentro da barra de ações: ocupa a sobra à esquerda, na mesma linha dos botões. */
 .kbd-hint {
