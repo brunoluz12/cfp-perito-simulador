@@ -47155,7 +47155,8 @@
     "resposta_correta": "B",
     "justificativa": "A fita adesiva recolhe microvestígios superficiais, em especial fibras e partículas leves. Os materiais aderidos ou incrustados cabem à raspagem (espátula ou lâmina de bisturi); as partículas em fendas e superfícies irregulares, à varredura a vácuo; o suporte destacado por corte, ao recorte da área de interesse.",
     "referencia": "PDF LOC, p. 138",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3118,
@@ -47189,7 +47190,8 @@
     "resposta_correta": "D",
     "justificativa": "O recorte é citado especialmente para materiais como tecidos, preservando o vestígio no contexto original e reduzindo manipulações diretas. As áreas extensas com muitos detritos remetem à varredura a vácuo; os materiais incrustados, à raspagem com lâmina de bisturi; as tintas e polímeros são a restrição da fita adesiva.",
     "referencia": "PDF LOC, p. 139",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3120,
@@ -47291,7 +47293,8 @@
     "resposta_correta": "B",
     "justificativa": "Os levantadores devem ser acondicionados de forma a permitir visualização, recuperação e preservação — por exemplo, fixando-os em superfícies transparentes antes do armazenamento em envelopes. Secar ao ar é a regra dos itens molhados; embrulhar em papel e pôr entre papelão é o cuidado com evidências frágeis; perfurar o lacre é o regime dos itens que não podem ser secos.",
     "referencia": "PDF LOC, p. 139",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3126,
@@ -47308,7 +47311,8 @@
     "resposta_correta": "C",
     "justificativa": "Recomenda-se enviar amostra do material adesivo empregado no levantamento, a título de padrão, para avaliar eventuais interferências do suporte na análise dos vestígios. A numeração individualizada é função da embalagem de segurança; os filtros novos e a limpeza das superfícies de trabalho são cuidados de outras etapas.",
     "referencia": "PDF LOC, p. 139",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3127,
@@ -47325,7 +47329,8 @@
     "resposta_correta": "D",
     "justificativa": "Para a aspiração, destaca-se que os filtros sejam novos e o equipamento esteja limpo antes de cada uso. A troca de luvas é cuidado das pinças; a proteção das bordas dos rolos é procedimento prévio à manipulação; não dobrar o item é cuidado de acondicionamento.",
     "referencia": "PDF LOC, p. 139",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3128,
@@ -47359,7 +47364,8 @@
     "resposta_correta": "B",
     "justificativa": "Os diferentes comprimentos de onda são citados para tintas, fibras, cabelos e vidro. As partículas superficiais e os materiais refletivos remetem à iluminação oblíqua; o fundo de papel preto, aos fundos contrastantes; as partículas de dimensões reduzidas, à lupa iluminada, à lupa de mão ou ao estereomicroscópio.",
     "referencia": "PDF LOC, p. 137",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3130,
@@ -47376,7 +47382,8 @@
     "resposta_correta": "C",
     "justificativa": "Os equipamentos de ampliação destinam-se a partículas de pequenas dimensões. Tintas e revestimentos remetem às luzes de diferentes comprimentos de onda; o contraste de cabelos claros em meio a detritos, aos fundos contrastantes; os materiais refletivos, à iluminação oblíqua.",
     "referencia": "PDF LOC, p. 137",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3131,
@@ -47393,7 +47400,8 @@
     "resposta_correta": "D",
     "justificativa": "O papel preto é o exemplo dado para os fundos contrastantes, que melhoram a visualização e a coleta — no caso, cabelos claros em meio a detritos. Evitar a interação do adesivo é a restrição da fita; preservar o material que se desprende é a coleta sobre superfície limpa; impedir a contaminação cruzada é a troca de luvas.",
     "referencia": "PDF LOC, p. 137",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3132,
@@ -47444,7 +47452,8 @@
     "resposta_correta": "C",
     "justificativa": "Tintas e revestimentos são úteis na associação entre veículos, ferramentas e superfícies envolvidas no evento. Indicar deslocamentos e rotas percorridas é utilidade das partículas de solo; relacionar objetos, embalagens e instrumentos, dos materiais poliméricos; diferenciar espécies, dos cabelos e pelos.",
     "referencia": "PDF LOC, p. 136",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3135,
@@ -47461,7 +47470,8 @@
     "resposta_correta": "D",
     "justificativa": "As partículas metálicas é que são associadas a ferramentas, arrombamentos ou atividades específicas. O vidro permite comparações e vínculos de origem comum; os poliméricos relacionam objetos, embalagens e instrumentos; as fibras indicam contato e origem.",
     "referencia": "PDF LOC, p. 136",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3136,
@@ -47495,7 +47505,8 @@
     "resposta_correta": "B",
     "justificativa": "As fibras têxteis podem indicar contato entre vítima, suspeito e objetos, além de sugerir a origem de materiais como roupas, estofados e carpetes.",
     "referencia": "PDF LOC, p. 135",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3138,
@@ -47529,7 +47540,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno destaca que os exemplares conhecidos sejam representativos de todas as variações da amostra conhecida. Avaliar antes de qualquer comparação e submeter a exame microscópico são etapas do exame de ajuste físico; manter o padrão na mesma embalagem primária do vestígio contraria a regra de acondicionamento individual.",
     "referencia": "PDF LOC, p. 140",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3140,
@@ -47563,7 +47575,8 @@
     "resposta_correta": "B",
     "justificativa": "Coletas indiscriminadas geram sobrecarga no processamento, aumento de material irrelevante e redução da efetividade da análise, sem contribuir de forma significativa para a investigação. A alteração química é a restrição específica do adesivo; o dano à morfologia é o risco das pinças.",
     "referencia": "PDF LOC, p. 140",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3142,
@@ -47614,7 +47627,8 @@
     "resposta_correta": "A",
     "justificativa": "As medidas de preservação citadas são ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado. As demais transportam para o corpo técnicas descritas em outros trechos.",
     "referencia": "PDF LOC, p. 140-141",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3145,
@@ -47631,7 +47645,8 @@
     "resposta_correta": "B",
     "justificativa": "Esses materiais podem conter vestígios que se desprenderam do corpo durante o transporte e que serão posteriormente analisados em laboratório. A numeração individualizada é função da embalagem de segurança; a amostra-padrão do material empregado é a do adesivo usado no levantamento; evitar contaminação cruzada é a troca de luvas.",
     "referencia": "PDF LOC, p. 141",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3146,
@@ -47665,7 +47680,8 @@
     "resposta_correta": "D",
     "justificativa": "A embalagem primária deve ser à prova de vazamentos, limpa, de tamanho adequado e não utilizada. Ser perfurada é o regime excepcional dos itens que não podem ser secos; a numeração individualizada é da embalagem de segurança; o papelão limpo é o cuidado com evidências frágeis.",
     "referencia": "PDF LOC, p. 141",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3148,
@@ -47733,7 +47749,8 @@
     "resposta_correta": "D",
     "justificativa": "Qualquer material coletado nesse papel deve ser preservado, devendo o papel ser enviado juntamente com o item.",
     "referencia": "PDF LOC, p. 141",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3152,
@@ -47750,7 +47767,8 @@
     "resposta_correta": "A",
     "justificativa": "Para evidências frágeis pode ser necessário embrulhar o item em papel antes de embalar, ou colocá-lo entre pedaços de papelão limpo e não utilizado. Secar ao ar é a regra dos itens molhados; perfurar o lacre é o regime dos itens que não podem ser secos; fixar em superfície transparente é o acondicionamento dos levantadores de fita.",
     "referencia": "PDF LOC, p. 141",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3153,
@@ -47801,7 +47819,8 @@
     "resposta_correta": "D",
     "justificativa": "Inicialmente, as amostras questionadas devem ser avaliadas separadamente, antes de qualquer comparação com amostras conhecidas.",
     "referencia": "PDF LOC, p. 142",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3156,
@@ -47835,7 +47854,8 @@
     "resposta_correta": "B",
     "justificativa": "A ductilidade importa especialmente em áreas onde o alongamento causado pela separação pode gerar distorções que dificultem o realinhamento perfeito. Pigmentação e granulação são características avaliadas na comparação, não efeitos da ductilidade.",
     "referencia": "PDF LOC, p. 142",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3158,
@@ -47852,7 +47872,8 @@
     "resposta_correta": "C",
     "justificativa": "Quando os contornos macroscópicos não se alinham e não há características correspondentes nas superfícies separadas, ou não há características de superfície transversal, não há necessidade de prosseguir com exames adicionais.",
     "referencia": "PDF LOC, p. 142",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3159,
@@ -47869,7 +47890,8 @@
     "resposta_correta": "D",
     "justificativa": "A proteção das bordas dos rolos é o exemplo dado para o armazenamento adequado dos materiais e instrumentos de coleta, garantindo sua integridade até o momento do uso e evitando contaminação prévia.",
     "referencia": "PDF LOC, p. 136",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3160,
@@ -47886,7 +47908,8 @@
     "resposta_correta": "A",
     "justificativa": "A coleta sobre superfície limpa preserva qualquer material que se desprenda durante a manipulação — o material coletado no papel, ou o próprio papel, deve ser preservado. Contrastar o vestígio para facilitar a visualização confunde com os fundos contrastantes da etapa de detecção.",
     "referencia": "PDF LOC, p. 137",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3161,
@@ -47954,7 +47977,8 @@
     "resposta_correta": "C",
     "justificativa": "Toda interação entre pessoas, objetos ou superfícies resulta em transferência de materiais, ainda que muitas vezes imperceptíveis. As demais restringem a transferência a um tipo de contato ou à visibilidade da marca, o que o texto não faz.",
     "referencia": "PDF LOC, p. 91",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3165,
@@ -48022,7 +48046,8 @@
     "resposta_correta": "C",
     "justificativa": "O texto vincula os danos à concentração, à quantidade e ao tempo de exposição ao produto químico. As demais misturam elementos da avaliação de perigos em campo com a rota de exposição cutânea.",
     "referencia": "PDF LOC, p. 94",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3169,
@@ -48039,7 +48064,8 @@
     "resposta_correta": "D",
     "justificativa": "A injeção direta pode ocorrer por furadas de agulhas e cortes em vidros, metais ou objetos cortantes contaminados; por isso a recomendação de trabalhar sempre com luvas e, se necessário, com duas ou mais.",
     "referencia": "PDF LOC, p. 94",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3170,
@@ -48056,7 +48082,8 @@
     "resposta_correta": "A",
     "justificativa": "A ingestão pode causar severos danos à boca, à garganta e ao aparelho digestivo, e a prevenção passa por lavar as mãos antes de comer, fumar ou usar cosméticos, além de não levar alimentos, bebidas ou cigarros a áreas sujeitas à contaminação.",
     "referencia": "PDF LOC, p. 94",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3171,
@@ -48175,7 +48202,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno veda comer, beber ou fumar em áreas com presença de substâncias químicas e também utilizar lentes de contato durante a atuação nesses ambientes. Ao contrário do que sugerem as demais, ele recomenda evitar trabalhar sozinho e usar máscaras apropriadas.",
     "referencia": "PDF LOC, p. 97",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3178,
@@ -48226,7 +48254,8 @@
     "resposta_correta": "C",
     "justificativa": "Essa é a nota do hidróxido de amônio, que aparece com \"Não\" na coluna de risco de fogo justamente por conta da baixa inflamabilidade. O permanganato de potássio é oxidante forte; o ácido clorídrico produz hidrogênio com metais; o carbonato de potássio não apresenta risco de explosão nem de fogo.",
     "referencia": "PDF LOC, p. 98",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3181,
@@ -48243,7 +48272,8 @@
     "resposta_correta": "D",
     "justificativa": "A advertência expressa é que recipientes vazios podem conter vapores suficientes para provocar uma explosão, razão pela qual não se deve usar chama próximo deles. O descarte em pias é vedado no capítulo de proteção ao meio ambiente, e o acondicionamento exige embalagens não utilizadas.",
     "referencia": "PDF LOC, p. 98",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3182,
@@ -48277,7 +48307,8 @@
     "resposta_correta": "B",
     "justificativa": "Para sólidos acima de 10 kg, a amostra mínima é de 1,5 a 2% da massa. Os 100 gramas valem para sólidos de 1 a 10 kg; os 200 ml, para líquidos de 1 a 10 L; e o percentual sobre o volume, para líquidos acima de 10 L.",
     "referencia": "PDF LOC, p. 99",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3184,
@@ -48311,7 +48342,8 @@
     "resposta_correta": "D",
     "justificativa": "Para medicamentos, a amostra é o produto acondicionado em sua embalagem mais externa original de fábrica. A unidade do produto individual em embalagem original é a regra de bebidas, defensivos agrícolas, saneantes e produtos comerciais em geral; a coleta em vários pontos é a regra dos sólidos.",
     "referencia": "PDF LOC, p. 99",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3186,
@@ -48328,7 +48360,8 @@
     "resposta_correta": "A",
     "justificativa": "As amostras de produtos sólidos devem ser colhidas de vários pontos dos pacotes — região interna, central e superfície — a fim de se obter uma amostra representativa. A preservação de parte do conteúdo para contraprova é orientação distinta, ligada à coleta em embalagens originais.",
     "referencia": "PDF LOC, p. 100",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3187,
@@ -48430,7 +48463,8 @@
     "resposta_correta": "C",
     "justificativa": "A exceção expressa ao uso de pinças é a coleta de projéteis, que deve ser feita usando luvas ou sacos plásticos. As espátulas especiais são a orientação para amostras-padrão de lascas de pintura de veículos, e as espátulas e pinças previamente limpas, para terras e sujidades.",
     "referencia": "PDF LOC, p. 129",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3193,
@@ -48464,7 +48498,8 @@
     "resposta_correta": "A",
     "justificativa": "Esse cuidado consta da linha das armas de fogo, ao lado da remoção dos cartuchos e cápsulas deflagradas e do transporte com a arma desmuniciada. Para projéteis e estojos, o cuidado correspondente é evitar contatos e atritos com instrumentos metálicos.",
     "referencia": "PDF LOC, p. 129",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3195,
@@ -48515,7 +48550,8 @@
     "resposta_correta": "D",
     "justificativa": "As peças de roupa devem ser secas naturalmente e recolhidas individualmente, evitando-se o excesso de dobras no acondicionamento. As espátulas e pinças previamente limpas são a orientação para terras e sujidades.",
     "referencia": "PDF LOC, p. 130",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3198,
@@ -48549,7 +48585,8 @@
     "resposta_correta": "B",
     "justificativa": "O caderno recomenda fotografar usando base fixa, preferencialmente um monopé ou um tripé invertido, que é mais fácil de fixar em locais distintos.",
     "referencia": "PDF LOC, p. 130",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3200,
@@ -48583,7 +48620,8 @@
     "resposta_correta": "D",
     "justificativa": "Não se deve usar flash automático, pois satura o vestígio de luz, achatando-o e inutilizando-o para medições e confrontos; em locais muito escuros, admite-se o flash mantido em ângulo aproximado de 45 graus, de modo que a luz acentue os relevos. A perpendicularidade é exigida da câmera, no nivelamento, e não do flash.",
     "referencia": "PDF LOC, p. 131",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3202,
@@ -48600,7 +48638,8 @@
     "resposta_correta": "A",
     "justificativa": "O nivelamento é exigido porque uma fotografia em ângulo significa que as medidas ficarão distorcidas. A incidência da luz em ângulo, ao contrário, é justamente o que se busca no melhor horário; e a escala tem que constar da fotografia em qualquer hipótese.",
     "referencia": "PDF LOC, p. 131",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3203,
@@ -48634,7 +48673,8 @@
     "resposta_correta": "C",
     "justificativa": "A câmera deve estar ajustada para o formato macro ou para a distância focal desejada, e a mesma distância focal usada no local de crime deve ser repetida com as amostras suspeitas — condição para o confronto posterior.",
     "referencia": "PDF LOC, p. 131",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3205,
@@ -48668,7 +48708,8 @@
     "resposta_correta": "A",
     "justificativa": "A nota é explícita: deve-se evitar tocar em regiões que poderão ter amostra biológica, como a extremidade do copo, porque o atrito pode remover esse tipo de vestígio e ainda contaminar as luvas.",
     "referencia": "PDF LOC, p. 132",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3207,
@@ -48736,7 +48777,8 @@
     "resposta_correta": "B",
     "justificativa": "Vestígio mantido úmido e abafado é meio propício à proliferação de microrganismos, como bactérias e fungos, que degradam o DNA. As alterações por ultravioleta pertencem à exposição à luz e a degradação química, à exposição a agentes químicos.",
     "referencia": "PDF LOC, p. 104",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3211,
@@ -48753,7 +48795,8 @@
     "resposta_correta": "C",
     "justificativa": "Ácidos, bases e soluções de limpeza degradam quimicamente o DNA, com destaque expresso para o hipoclorito de sódio (água sanitária). O álcool etílico e o sabão neutro aparecem como etapas da desinfecção do material permanente, e o EDTA é o anticoagulante do tubo de coleta.",
     "referencia": "PDF LOC, p. 104",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3212,
@@ -48787,7 +48830,8 @@
     "resposta_correta": "A",
     "justificativa": "A falha de documentação prévia — fotografia, descrição e Formulário de Coleta de Amostras Biológicas — compromete a origem do vestígio, que pode ser questionada na Justiça. A contaminação cruzada decorre do acondicionamento inadequado, e a inviabilidade por contaminação decorre da técnica de coleta inapropriada.",
     "referencia": "PDF LOC, p. 104",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3214,
@@ -48821,7 +48865,8 @@
     "resposta_correta": "C",
     "justificativa": "A exigência é que os materiais sejam sempre NOVOS, no caso das embalagens de papel, ou ESTÉREIS, no caso dos demais materiais. O álcool etílico aparece como etapa do procedimento de limpeza do material permanente, não como preparo antes de cada uso.",
     "referencia": "PDF LOC, p. 105",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3216,
@@ -48838,7 +48883,8 @@
     "resposta_correta": "D",
     "justificativa": "Desde novembro de 2005, quando foi realizado o I Seminário de Coleta de Vestígios para Exame de DNA, todos os Setec e Nutec do Brasil passaram a dispor da maleta. A Instrução Técnica de 2016 é a norma dos procedimentos, e a relação de itens da maleta constitui seu Apêndice II.",
     "referencia": "PDF LOC, p. 105",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3217,
@@ -48872,7 +48918,8 @@
     "resposta_correta": "B",
     "justificativa": "A água destilada estéril é disponibilizada em flaconetes de 10 mL e pode ser substituída por água para injeção, que inclusive possui grau de pureza superior.",
     "referencia": "PDF LOC, p. 105",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3219,
@@ -48923,7 +48970,8 @@
     "resposta_correta": "A",
     "justificativa": "A troca deve ser efetuada SEMPRE que for manipulado outro vestígio, justamente para impedir a transferência de material entre eles. As demais criam periodicidades que o texto não estabelece.",
     "referencia": "PDF LOC, p. 107",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3222,
@@ -48940,7 +48988,8 @@
     "resposta_correta": "B",
     "justificativa": "O risco a que o perito se expõe decorre de os vestígios de origem biológica serem uma possível fonte de transmissão de doenças contagiosas; daí a vacinação em dia e o uso de EPI adequado.",
     "referencia": "PDF LOC, p. 107",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3223,
@@ -48957,7 +49006,8 @@
     "resposta_correta": "C",
     "justificativa": "Os perfurocortantes exigem descarte em embalagens de plástico ou papelão rígido. A solução de água sanitária integra a desinfecção do material permanente, e não o descarte de descartáveis.",
     "referencia": "PDF LOC, p. 107",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3224,
@@ -48974,7 +49024,8 @@
     "resposta_correta": "D",
     "justificativa": "Como o material se destina à coleta de vestígios que podem seguir para análise de DNA, não basta a eliminação de microrganismos: é necessário eliminar todo o DNA presente no material.",
     "referencia": "PDF LOC, p. 107",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3225,
@@ -48991,7 +49042,8 @@
     "resposta_correta": "A",
     "justificativa": "A etapa de imersão emprega água sanitária comercial com concentração de cloro ativo entre 2% e 3%, durante dez minutos — tempos maiores podem danificar os materiais. O álcool etílico é usado depois, no enxágue, e não como diluente.",
     "referencia": "PDF LOC, p. 108",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3226,
@@ -49008,7 +49060,8 @@
     "resposta_correta": "B",
     "justificativa": "A ordem é: lavar com sabão neutro e água corrente; imergir em água sanitária; enxaguar com água corrente e depois com álcool etílico; secar ao ar ou em estufa; e por fim embalar. A lavagem com sabão antecede a imersão, e a secagem e a embalagem vêm depois do enxágue.",
     "referencia": "PDF LOC, p. 108",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3227,
@@ -49025,7 +49078,8 @@
     "resposta_correta": "C",
     "justificativa": "Em casos extremos, é preferível proteger o vestígio da luz, do calor e da contaminação da melhor forma possível até que se providencie material adequado, do que contaminar ou degradar o vestígio utilizando materiais inadequados. O caderno desaconselha expressamente improvisar materiais de coleta.",
     "referencia": "PDF LOC, p. 108",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3228,
@@ -49059,7 +49113,8 @@
     "resposta_correta": "A",
     "justificativa": "Entre os recursos usados na impossibilidade de remover a peça inteira, o caderno registra que o luminol revela especificamente sangue, ao contrário da luz forense, empregada de modo mais amplo para orientar a coleta em grandes áreas ou superfícies imóveis.",
     "referencia": "PDF LOC, p. 108",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3230,
@@ -49093,7 +49148,8 @@
     "resposta_correta": "B",
     "justificativa": "A área lambida do selo ou envelope tem a saliva como fonte de DNA. O suor aparece em boné, fita adesiva, garrafa, lençol, óculos, roupa suja e unha; as células epiteliais, na fita adesiva e nos óculos.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3232,
@@ -49110,7 +49166,8 @@
     "resposta_correta": "C",
     "justificativa": "Nos óculos, o DNA se localiza nos apoios do nariz e das orelhas e nas lentes, tendo como fonte suor e células epiteliais. Bocal e superfície externa correspondem à garrafa, lata ou copo; a ponta e as cerdas, à escova ou palito de dentes.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3233,
@@ -49127,7 +49184,8 @@
     "resposta_correta": "D",
     "justificativa": "A camisinha usada tem DNA nas superfícies interna e externa, com fonte em sêmen e células vaginais ou retais. No lençol, travesseiro e fronha as fontes são suor, pelos, sêmen e saliva; na roupa suja, sangue, suor e sêmen; na marca de mordida, saliva.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3234,
@@ -49144,7 +49202,8 @@
     "resposta_correta": "A",
     "justificativa": "A unha ou pedaço de unha tem o DNA nos arranhões, com fonte em sangue, suor e tecido. O projétil, por sua vez, tem sangue e tecido na superfície externa; a faca ou bastão tem suor, pele, sangue e tecido no cabo e na ponta.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3235,
@@ -49178,7 +49237,8 @@
     "resposta_correta": "C",
     "justificativa": "Quando positivos, esses testes indicam apenas a possibilidade de haver sangue — são também incapazes de diferenciar sangue humano de animal, o que exige testes de origem realizados em laboratório.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3237,
@@ -49195,7 +49255,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno cita benzidina, tetrametilbenzidina, verde de malaquita, fenolftaleína (Kastle Meyer) e ortotoluidina. Luminol e fluoresceína são testes de luminescência para screening de grandes áreas; os imunológicos e imunocromatográficos são os testes de origem.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3238,
@@ -49212,7 +49273,8 @@
     "resposta_correta": "A",
     "justificativa": "Os testes de cor devem ser feitos em pequena porção do material questionado, preservando a maior quantidade possível intacta; caso a quantidade seja mínima, não se realiza o teste, preservando-se a amostra para os exames necessários.",
     "referencia": "PDF LOC, p. 109",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3239,
@@ -49246,7 +49308,8 @@
     "resposta_correta": "C",
     "justificativa": "Os mais utilizados são os testes imunológicos e imunocromatográficos, que devem ser realizados no laboratório, quando a quantidade de amostra não for limitante e os preliminares forem positivos. Os testes de cor é que são aplicáveis no local.",
     "referencia": "PDF LOC, p. 111",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3241,
@@ -49280,7 +49343,8 @@
     "resposta_correta": "A",
     "justificativa": "A documentação mínima exige fotografia do vestígio tal como foi encontrado, contextualizado no ambiente e em detalhe, com e sem escala, além do registro no FCAB com croqui e do preenchimento da cadeia de custódia nas embalagens.",
     "referencia": "PDF LOC, p. 111",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3243,
@@ -49297,7 +49361,8 @@
     "resposta_correta": "B",
     "justificativa": "São não absorventes os metais, vidros e azulejos; terra, areia, tecidos e concreto são absorventes. Veículos, paredes e pisos exemplificam outra classificação, a de superfícies imóveis.",
     "referencia": "PDF LOC, p. 112",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3244,
@@ -49348,7 +49413,8 @@
     "resposta_correta": "A",
     "justificativa": "Em manchas secas, umedece-se o suabe com uma ou duas gotas de água destilada estéril — alternativamente soro fisiológico estéril — e então se fricciona sobre a superfície. Umedecer o suabe na própria amostra é o procedimento das manchas úmidas e dos fluidos em estado líquido.",
     "referencia": "PDF LOC, p. 112",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3247,
@@ -49365,7 +49431,8 @@
     "resposta_correta": "B",
     "justificativa": "Uma vez aberta, a água destilada só poderá ser utilizada no mesmo dia, sendo o restante descartado. A embalagem ideal é em ampolas plásticas, mais fáceis de manusear e sem risco de quebrar dentro da maleta.",
     "referencia": "PDF LOC, p. 112",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3248,
@@ -49382,7 +49449,8 @@
     "resposta_correta": "C",
     "justificativa": "A secagem deve se dar ao natural, ao abrigo da luz e do calor excessivo; não se deve utilizar secadores de cabelo, fornos ou exposição ao sol para acelerar o processo. Suportes de isopor são justamente recomendados para a secagem dos suabes.",
     "referencia": "PDF LOC, p. 115",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3249,
@@ -49399,7 +49467,8 @@
     "resposta_correta": "D",
     "justificativa": "Durante o processo a amostra deve ser protegida de contaminação, evitando-se ao máximo o contato com quaisquer objetos ou substâncias, não tocando diretamente na amostra e evitando falar próximo a ela sem máscara.",
     "referencia": "PDF LOC, p. 115",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3250,
@@ -49433,7 +49502,8 @@
     "resposta_correta": "B",
     "justificativa": "Na raspagem o suporte é removido juntamente com a amostra, com maiores possibilidades de serem coletados contaminantes e inibidores que podem prejudicar futuras análises, especialmente os exames de DNA. Por isso se recomenda tentar primeiro o suabe.",
     "referencia": "PDF LOC, p. 115",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3252,
@@ -49450,7 +49520,8 @@
     "resposta_correta": "C",
     "justificativa": "Recomenda-se fixar com fita adesiva uma folha de papel nova logo abaixo da mancha, confeccionando a seguir um envelope primário. O raspado deve ser seco antes de acondicionado em embalagens de papel identificadas, lacradas e rubricadas.",
     "referencia": "PDF LOC, p. 115",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3253,
@@ -49467,7 +49538,8 @@
     "resposta_correta": "D",
     "justificativa": "O envelope primário permite acondicionar amostras pequenas — pós provenientes de raspados, cabelos e pelos — sem risco de que se percam, e deve ser colocado dentro de um segundo envelope identificado e lacrado.",
     "referencia": "PDF LOC, p. 116",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3254,
@@ -49484,7 +49556,8 @@
     "resposta_correta": "A",
     "justificativa": "Objetos como armas, ferramentas e utensílios vão preferencialmente em caixas de papelão rígido, idealmente com perfurações que permitam amarrar o objeto, fixando-o à embalagem. As vestes em geral é que vão em envelopes de papel, depois de secas.",
     "referencia": "PDF LOC, p. 116",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3255,
@@ -49501,7 +49574,8 @@
     "resposta_correta": "B",
     "justificativa": "O recorte de um local do estofado onde não haja manchas permite aos peritos do laboratório identificar possíveis interferentes presentes na composição do tecido.",
     "referencia": "PDF LOC, p. 118",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3256,
@@ -49535,7 +49609,8 @@
     "resposta_correta": "D",
     "justificativa": "Quando a amostra for urina, ou outro fluido biológico diluído, deve ser coletada sempre a maior quantidade possível — orientação oposta à dos testes de cor, feitos em pequena porção.",
     "referencia": "PDF LOC, p. 118",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 3258,
@@ -49603,7 +49678,8 @@
     "resposta_correta": "D",
     "justificativa": "São vestígios secos os fluidos coletados com suabe ou raspados, as manchas secas em vestes e objetos coletados total ou parcialmente e os ossos e dentes SEM presença de tecidos moles. Vísceras são tecidos moles e cabelos e pelos entram na regra do congelamento.",
     "referencia": "PDF LOC, p. 120",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 3262,
@@ -49620,6 +49696,7 @@
     "resposta_correta": "A",
     "justificativa": "No local, o perito deve ter à disposição uma caixa térmica com gelo, preferencialmente gelo reciclável, onde vão os vestígios que necessitam de refrigeração ou congelamento até chegarem ao Setec ou Nutec; o armazenamento em freezer ou geladeira deve ser feito tão logo seja possível.",
     "referencia": "PDF LOC, p. 120",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   }
 ]

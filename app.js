@@ -1248,8 +1248,13 @@ function carregarBancoQuestoes() {
             throw new Error('Variável questoesDB não encontrada. Verifique se o banco_questoes.js está correto.');
         }
 
-        // Filtra as questões excluídas globalmente pelo admin
-        bancoQuestoes = questoesDB.filter(q => !questoesExcluidasSet.has(q.id));
+        // Filtra as questões excluídas globalmente pelo admin e as marcadas como
+        // não essenciais. `essencial: false` sai quando um lote cobre a mesma
+        // matriz do caderno várias vezes: o fato continua no material, como
+        // distrator das questões que ficaram, mas deixa de virar uma questão à
+        // parte. Nada é apagado — para trazer as ocultas de volta basta remover
+        // este segundo teste, sem que nenhum id ou estatística tenha se perdido.
+        bancoQuestoes = questoesDB.filter(q => !questoesExcluidasSet.has(q.id) && q.essencial !== false);
         window.bancoQuestoes = bancoQuestoes; // Expose globally for flashcards.js
 
         // Extrai disciplinas únicas (ordenadas)
