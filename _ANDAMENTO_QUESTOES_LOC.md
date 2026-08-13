@@ -64,7 +64,7 @@ A numeração impressa coincide com a do PDF (página 91 impressa = `d[90]`).
 |---|---|---|---|
 | 13 — Vestígios e a dinâmica dos fatos | 91 | ✅ feito | 4 novas (11 no total) |
 | 14 — Vestígios químicos | 93-101 | ✅ feito | 26 novas (38 no total) |
-| 15 — Vestígios biológicos | 103-128 | 🟡 **em andamento** | 21 novas (41 no total) — falta p. 109-128 |
+| 15 — Vestígios biológicos | 103-128 | 🟡 **em andamento** | 54 novas (74 no total) — falta p. 121-128 |
 | 16 — Vestígios físicos | 129-134 | ✅ feito | 17 novas (29 no total) |
 | 17 — Microvestígios | 135-142 | ✅ feito | 46 novas (58 no total) |
 
@@ -102,12 +102,17 @@ O maior e mais denso — 26 páginas. Sumário:
 1. ✅ **FEITA** — p. 103-108: degradação do DNA (4 fatores), maleta / Apêndice II
    da IT, cuidados iniciais, descarte e desinfecção (5 etapas), pré-coleta e
    localização dos vestígios. 21 questões, ids 3209-3229.
-2. ⬜ **PRÓXIMA** — p. 109-120: testes preliminares para sangue (109), testes de
-   origem para sangue humano (111) e as 5 técnicas de coleta — suabe (112),
-   raspagem (115), remoção do suporte (116), seringa (118), pinça (119) —
-   além da preservação dos vestígios biológicos (119)
-3. ⬜ p. 121-128 — a matriz vestígio × técnica (15.1.9, os 11 tipos), embalagem
-   e envio para exame de DNA (127) e amostras toxicológicas (127-128)
+2. ✅ **FEITA** — p. 109-120: tabela vestígio × localização × fonte do DNA (14
+   linhas), testes preliminares de cor para sangue, testes de origem,
+   documentação/SISCRIM, fatores de escolha da técnica (absorvente ×
+   não absorvente, móvel × imóvel), as 5 técnicas de coleta (suabe, raspagem,
+   remoção do suporte, seringa, pinça), o quadro "como secar", o envelope
+   primário e a preservação (ambiente / 4°C / -20°C). 33 questões, ids 3230-3262.
+3. ⬜ **PRÓXIMA** — p. 121-128: a matriz do 15.1.9 (técnica recomendada em
+   função do tipo de vestígio — sangue, sêmen, pelos e cabelos, saliva, suor,
+   células epiteliais, tecidos orgânicos, ossos e dentes, projéteis, coleta em
+   cadáveres e em pessoas vivas), embalagem e envio para exame de DNA (127) e
+   amostras para análises toxicológicas, ante e post-mortem (127-128)
 
 **Correção feita no validador durante a fatia 1:** a regra da extensão só pode
 reprovar quando a correta é ESTRITAMENTE a maior. Havendo empate no tamanho

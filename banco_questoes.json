@@ -49060,5 +49060,566 @@
     "justificativa": "Entre os recursos usados na impossibilidade de remover a peça inteira, o caderno registra que o luminol revela especificamente sangue, ao contrário da luz forense, empregada de modo mais amplo para orientar a coleta em grandes áreas ou superfícies imóveis.",
     "referencia": "PDF LOC, p. 108",
     "nivel": "dificil"
+  },
+  {
+    "id": 3230,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na tabela de localização do DNA, a fonte indicada para o boné ou máscara é:",
+    "alternativas": {
+      "A": "suor, pelos e caspa",
+      "B": "saliva depositada na parte interna",
+      "C": "células epiteliais e sangue",
+      "D": "suor e células vaginais"
+    },
+    "resposta_correta": "A",
+    "justificativa": "No boné ou máscara o DNA está dentro da peça, tendo como fonte suor, pelos e caspa. A saliva é a fonte do cigarro fumado, da escova de dentes, da marca de mordida e do selo ou envelope; as células epiteliais aparecem na fita adesiva e nos óculos.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3231,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a tabela do caderno, a área lambida do selo ou envelope tem como fonte de DNA:",
+    "alternativas": {
+      "A": "suor",
+      "B": "saliva",
+      "C": "células epiteliais",
+      "D": "sangue"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A área lambida do selo ou envelope tem a saliva como fonte de DNA. O suor aparece em boné, fita adesiva, garrafa, lençol, óculos, roupa suja e unha; as células epiteliais, na fita adesiva e nos óculos.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "medio"
+  },
+  {
+    "id": 3232,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na tabela do caderno, a possível localização do DNA nos óculos é:",
+    "alternativas": {
+      "A": "bocal e superfície externa",
+      "B": "a superfície interna ou externa da peça",
+      "C": "apoios do nariz e orelhas, e as lentes",
+      "D": "a ponta e as cerdas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nos óculos, o DNA se localiza nos apoios do nariz e das orelhas e nas lentes, tendo como fonte suor e células epiteliais. Bocal e superfície externa correspondem à garrafa, lata ou copo; a ponta e as cerdas, à escova ou palito de dentes.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3233,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme a tabela, o vestígio cuja fonte de DNA é indicada como sêmen, células vaginais ou retais é:",
+    "alternativas": {
+      "A": "o lençol ou a fronha",
+      "B": "a roupa suja recolhida",
+      "C": "a marca de mordida",
+      "D": "a camisinha usada"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A camisinha usada tem DNA nas superfícies interna e externa, com fonte em sêmen e células vaginais ou retais. No lençol, travesseiro e fronha as fontes são suor, pelos, sêmen e saliva; na roupa suja, sangue, suor e sêmen; na marca de mordida, saliva.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3234,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na tabela do caderno, os arranhões em unha ou pedaço de unha têm como fonte de DNA:",
+    "alternativas": {
+      "A": "sangue, suor e tecido",
+      "B": "saliva e células epiteliais",
+      "C": "sêmen e células vaginais",
+      "D": "suor, pelos e caspa"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A unha ou pedaço de unha tem o DNA nos arranhões, com fonte em sangue, suor e tecido. O projétil, por sua vez, tem sangue e tecido na superfície externa; a faca ou bastão tem suor, pele, sangue e tecido no cabo e na ponta.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3235,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os testes preliminares de cor para sangue caracterizam-se, segundo o caderno, por:",
+    "alternativas": {
+      "A": "elevada especificidade e baixa sensibilidade",
+      "B": "elevada sensibilidade e baixa especificidade",
+      "C": "elevada sensibilidade e elevada especificidade",
+      "D": "baixa sensibilidade e baixa especificidade para sangue"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os testes de cor apresentam elevada sensibilidade, porém baixa especificidade para detecção de sangue. Por isso, quando positivos, indicam apenas a possibilidade de haver sangue.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3236,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um resultado positivo em teste preliminar de cor para sangue permite concluir que:",
+    "alternativas": {
+      "A": "o material é sangue, restando definir a espécie",
+      "B": "o material é sangue humano, dispensado o confirmatório",
+      "C": "há possibilidade de o material ser sangue",
+      "D": "o material contém DNA em quantidade suficiente"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quando positivos, esses testes indicam apenas a possibilidade de haver sangue — são também incapazes de diferenciar sangue humano de animal, o que exige testes de origem realizados em laboratório.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3237,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "São reagentes empregados nos testes preliminares de cor para sangue, conforme o caderno:",
+    "alternativas": {
+      "A": "luminol, fluoresceína e água oxigenada",
+      "B": "reagentes imunológicos e imunocromatográficos",
+      "C": "hipoclorito de sódio e álcool etílico absoluto",
+      "D": "benzidina, verde de malaquita e ortotoluidina"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno cita benzidina, tetrametilbenzidina, verde de malaquita, fenolftaleína (Kastle Meyer) e ortotoluidina. Luminol e fluoresceína são testes de luminescência para screening de grandes áreas; os imunológicos e imunocromatográficos são os testes de origem.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3238,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sendo mínima a quantidade de vestígio disponível, o caderno determina que o teste preliminar de cor:",
+    "alternativas": {
+      "A": "não seja realizado, preservando-se a amostra",
+      "B": "seja realizado em toda a extensão da mancha",
+      "C": "seja substituído pela aplicação de luminol",
+      "D": "seja repetido para confirmar o resultado obtido"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os testes de cor devem ser feitos em pequena porção do material questionado, preservando a maior quantidade possível intacta; caso a quantidade seja mínima, não se realiza o teste, preservando-se a amostra para os exames necessários.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3239,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao uso de luminol e fluoresceína no screening de grandes áreas, o caderno determina que:",
+    "alternativas": {
+      "A": "a aplicação preceda qualquer coleta, para mapear a cena",
+      "B": "as amostras visíveis sejam coletadas antes da aplicação",
+      "C": "sejam aplicados apenas após os testes imunocromatográficos",
+      "D": "substituam os testes de cor sempre que a área for extensa"
+    },
+    "resposta_correta": "B",
+    "justificativa": "É importante que todas as amostras visíveis sejam coletadas antes de se aplicar luminol ou fluoresceína, reservando esses reagentes para as áreas onde não é possível a visualização do vestígio.",
+    "referencia": "PDF LOC, p. 109",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3240,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os testes de origem para determinação de sangue humano, segundo o caderno:",
+    "alternativas": {
+      "A": "são testes de cor aplicados no próprio local do crime",
+      "B": "produzem luminescência e servem ao screening de áreas",
+      "C": "são imunológicos, realizados no laboratório",
+      "D": "diferenciam apenas sangue de outros fluidos biológicos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os mais utilizados são os testes imunológicos e imunocromatográficos, que devem ser realizados no laboratório, quando a quantidade de amostra não for limitante e os preliminares forem positivos. Os testes de cor é que são aplicáveis no local.",
+    "referencia": "PDF LOC, p. 111",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3241,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A cadeia de custódia dos vestígios biológicos, no Sistema Nacional de Criminalística, é controlada pelo:",
+    "alternativas": {
+      "A": "SEPGEF, setor de perícias genéticas",
+      "B": "SETEC da unidade descentralizada",
+      "C": "BDCRIM",
+      "D": "SISCRIM"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A cadeia de custódia é controlada pelo SISCRIM, onde devem ficar registrados o FCAB, o laudo de local de crime e os materiais lacrados. O SEPGEF é o setor consultado em dúvidas sobre os testes; o BDCRIM é a biblioteca digital onde está a instrução técnica.",
+    "referencia": "PDF LOC, p. 111",
+    "nivel": "medio"
+  },
+  {
+    "id": 3242,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à fotografia exigida na documentação do vestígio biológico, o caderno determina o registro:",
+    "alternativas": {
+      "A": "contextualizado no ambiente e em detalhe, com e sem escala",
+      "B": "apenas em detalhe, sempre acompanhado de escala do tipo \"L\"",
+      "C": "após a coleta, para demonstrar a integridade do suporte",
+      "D": "somente quando o vestígio não for visível a olho nu"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A documentação mínima exige fotografia do vestígio tal como foi encontrado, contextualizado no ambiente e em detalhe, com e sem escala, além do registro no FCAB com croqui e do preenchimento da cadeia de custódia nas embalagens.",
+    "referencia": "PDF LOC, p. 111",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3243,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na classificação dos suportes adotada pelo caderno, são exemplos de superfícies NÃO absorventes:",
+    "alternativas": {
+      "A": "terra, areia e concreto",
+      "B": "metais, vidros e azulejos",
+      "C": "tecidos, madeira e papel",
+      "D": "veículos, paredes e pisos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "São não absorventes os metais, vidros e azulejos; terra, areia, tecidos e concreto são absorventes. Veículos, paredes e pisos exemplificam outra classificação, a de superfícies imóveis.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3244,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Consideram-se superfícies MÓVEIS, para efeito de escolha da técnica de coleta:",
+    "alternativas": {
+      "A": "as que absorvem o fluido biológico depositado sobre elas",
+      "B": "as que exigem raspagem por serem irregulares",
+      "C": "as passíveis de coleta integral e envio ao laboratório",
+      "D": "as que não podem ser transportadas, como paredes e pisos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "São móveis as superfícies passíveis de serem coletadas em sua totalidade e enviadas ao laboratório, como objetos, vestes e armas; as imóveis são as que não podem ser transportadas, como veículos, paredes, pisos e armários.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3245,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A coleta com suabe é utilizada principalmente para:",
+    "alternativas": {
+      "A": "pelos, fios de cabelo e gomas de mascar",
+      "B": "amostras líquidas diluídas, como urina",
+      "C": "material impregnado em superfície irregular",
+      "D": "fluidos como sangue, sêmen e saliva"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O suabe é a técnica principal para fluidos biológicos — sangue, sêmen e saliva — em manchas secas ou úmidas. Pelos e gomas de mascar são coletados com pinça; líquidos diluídos, com seringa; e material impregnado em superfície irregular, por raspagem.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3246,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de mancha SECA a ser coletada com suabe, o procedimento indicado é:",
+    "alternativas": {
+      "A": "umedecer o suabe com uma ou duas gotas de água destilada estéril",
+      "B": "umedecer o suabe diretamente na amostra encontrada",
+      "C": "raspar a superfície com bisturi estéril antes de aplicar o suabe",
+      "D": "aplicar soro fisiológico sobre a mancha antes da fricção"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Em manchas secas, umedece-se o suabe com uma ou duas gotas de água destilada estéril — alternativamente soro fisiológico estéril — e então se fricciona sobre a superfície. Umedecer o suabe na própria amostra é o procedimento das manchas úmidas e dos fluidos em estado líquido.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3247,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Uma vez aberta, a água destilada estéril da maleta, segundo o caderno:",
+    "alternativas": {
+      "A": "pode ser reutilizada enquanto permanecer lacrada a ampola",
+      "B": "só pode ser usada no mesmo dia, descartando-se o restante",
+      "C": "deve ser fervida antes de cada nova utilização em campo",
+      "D": "passa a servir apenas para a limpeza de instrumentos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Uma vez aberta, a água destilada só poderá ser utilizada no mesmo dia, sendo o restante descartado. A embalagem ideal é em ampolas plásticas, mais fáceis de manusear e sem risco de quebrar dentro da maleta.",
+    "referencia": "PDF LOC, p. 112",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3248,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a secagem de amostras biológicas antes do acondicionamento, o caderno veda expressamente:",
+    "alternativas": {
+      "A": "a secagem em ambiente fechado e com pouca circulação de ar",
+      "B": "o emprego de suportes de isopor durante o processo",
+      "C": "o uso de secadores de cabelo, fornos ou exposição ao sol",
+      "D": "a secagem de suabes fora da embalagem original"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A secagem deve se dar ao natural, ao abrigo da luz e do calor excessivo; não se deve utilizar secadores de cabelo, fornos ou exposição ao sol para acelerar o processo. Suportes de isopor são justamente recomendados para a secagem dos suabes.",
+    "referencia": "PDF LOC, p. 115",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3249,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a secagem da amostra, além de não tocá-la diretamente, o caderno recomenda:",
+    "alternativas": {
+      "A": "mantê-la sob luz forense para acompanhar a evaporação",
+      "B": "revolvê-la periodicamente para uniformizar a secagem",
+      "C": "aproximar fonte de calor branda para reduzir o tempo",
+      "D": "evitar falar próximo a ela sem máscara"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Durante o processo a amostra deve ser protegida de contaminação, evitando-se ao máximo o contato com quaisquer objetos ou substâncias, não tocando diretamente na amostra e evitando falar próximo a ela sem máscara.",
+    "referencia": "PDF LOC, p. 115",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3250,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A coleta por raspagem é indicada quando a amostra está impregnada em:",
+    "alternativas": {
+      "A": "superfície absorvente e irregular, como o asfalto",
+      "B": "superfície não absorvente e lisa, como vidros e azulejos",
+      "C": "suporte móvel passível de envio integral ao laboratório",
+      "D": "meio líquido diluído, como sangue misturado à água"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A raspagem se aplica a amostra impregnada em superfície absorvente e irregular — paredes de concreto, troncos de árvores, asfalto — e somente quando não é possível a coleta com suabe.",
+    "referencia": "PDF LOC, p. 115",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3251,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caderno recomenda tentar primeiro a coleta com suabe, antes da raspagem, porque nesta última:",
+    "alternativas": {
+      "A": "a amostra fica exposta por mais tempo à luz e ao calor",
+      "B": "o suporte vem junto, trazendo contaminantes e inibidores",
+      "C": "não é possível preservar parte do vestígio para contraprova",
+      "D": "o bisturi pode alterar a morfologia da mancha analisada"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Na raspagem o suporte é removido juntamente com a amostra, com maiores possibilidades de serem coletados contaminantes e inibidores que podem prejudicar futuras análises, especialmente os exames de DNA. Por isso se recomenda tentar primeiro o suabe.",
+    "referencia": "PDF LOC, p. 115",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3252,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para facilitar a raspagem em superfícies verticais, preservando a maior quantidade de amostra, o caderno sugere:",
+    "alternativas": {
+      "A": "apoiar um pote plástico estéril na base da superfície raspada",
+      "B": "umedecer previamente a mancha para reduzir a dispersão do pó",
+      "C": "fixar com fita uma folha de papel nova abaixo da mancha",
+      "D": "aspirar o material desprendido com equipamento portátil"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recomenda-se fixar com fita adesiva uma folha de papel nova logo abaixo da mancha, confeccionando a seguir um envelope primário. O raspado deve ser seco antes de acondicionado em embalagens de papel identificadas, lacradas e rubricadas.",
+    "referencia": "PDF LOC, p. 115",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3253,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O envelope primário, confeccionado a partir de folha de papel nova dobrada sucessivamente, destina-se a:",
+    "alternativas": {
+      "A": "objetos volumosos, como armas, ferramentas e utensílios",
+      "B": "amostras líquidas que não possam ser secas no local",
+      "C": "vestes recolhidas após secagem ao abrigo da luz",
+      "D": "amostras pequenas, como pós de raspados e pelos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O envelope primário permite acondicionar amostras pequenas — pós provenientes de raspados, cabelos e pelos — sem risco de que se percam, e deve ser colocado dentro de um segundo envelope identificado e lacrado.",
+    "referencia": "PDF LOC, p. 116",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3254,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta por remoção do suporte, armas, ferramentas e utensílios devem ser acondicionados preferencialmente em:",
+    "alternativas": {
+      "A": "caixas de papelão rígido, com perfurações para amarrá-lo",
+      "B": "envelopes de papel, após secos ao abrigo da luz e do calor",
+      "C": "potes plásticos de boca larga com tampa rosca",
+      "D": "sacos plásticos vedados com fita adesiva de boa qualidade"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Objetos como armas, ferramentas e utensílios vão preferencialmente em caixas de papelão rígido, idealmente com perfurações que permitam amarrar o objeto, fixando-o à embalagem. As vestes em geral é que vão em envelopes de papel, depois de secas.",
+    "referencia": "PDF LOC, p. 116",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3255,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao recortar mancha de sangue em estofado, o caderno orienta recortar também um trecho sem manchas para:",
+    "alternativas": {
+      "A": "servir de contraprova em caso de contestação judicial",
+      "B": "identificar interferentes na composição do tecido",
+      "C": "completar o volume mínimo exigido pelo laboratório",
+      "D": "proteger a área manchada durante o transporte"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O recorte de um local do estofado onde não haja manchas permite aos peritos do laboratório identificar possíveis interferentes presentes na composição do tecido.",
+    "referencia": "PDF LOC, p. 118",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3256,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A coleta com seringa estéril descartável destina-se a:",
+    "alternativas": {
+      "A": "manchas secas em superfícies não absorventes",
+      "B": "fragmentos de tecidos orgânicos e gomas de mascar",
+      "C": "amostras líquidas, diluídas ou não",
+      "D": "material impregnado em paredes de concreto"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Amostras líquidas, diluídas ou não, podem ser coletadas com seringa estéril descartável. Quando não é possível secar a amostra, ela vai em embalagem plástica estéril, preferencialmente potes de boca larga e tampa rosca, sendo refrigerada em seguida.",
+    "referencia": "PDF LOC, p. 118",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3257,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Tratando-se de urina ou outro fluido biológico diluído, o caderno determina coletar:",
+    "alternativas": {
+      "A": "porção mínima, preservando o restante no local",
+      "B": "apenas o suficiente para o teste preliminar de cor",
+      "C": "volume fixo de 200 ml por ponto amostrado",
+      "D": "sempre a maior quantidade possível"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Quando a amostra for urina, ou outro fluido biológico diluído, deve ser coletada sempre a maior quantidade possível — orientação oposta à dos testes de cor, feitos em pequena porção.",
+    "referencia": "PDF LOC, p. 118",
+    "nivel": "medio"
+  },
+  {
+    "id": 3258,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "São exemplos de materiais coletados em sua totalidade com auxílio de pinça limpa:",
+    "alternativas": {
+      "A": "pelos, fios de cabelo, gomas de mascar e cigarros",
+      "B": "sangue líquido, urina e outros fluidos diluídos",
+      "C": "manchas secas impregnadas em concreto e asfalto",
+      "D": "vestes e objetos passíveis de envio ao laboratório"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Pelos, fios de cabelo, gomas de mascar, cigarros e fragmentos de tecidos orgânicos são coletados na sua totalidade com auxílio de pinça limpa. Fluidos líquidos vão com seringa; material impregnado em superfície irregular, por raspagem.",
+    "referencia": "PDF LOC, p. 119",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3259,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na preservação, o sangue coletado de pessoa viva em tubo com anticoagulante EDTA deve ser mantido:",
+    "alternativas": {
+      "A": "congelado a -20°C, com retirada do ar",
+      "B": "em refrigerador, a aproximadamente 4°C",
+      "C": "em temperatura ambiente, protegido da luz",
+      "D": "em caixa térmica com gelo até a análise"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O sangue coletado de pessoa viva em tubo com EDTA deve ser preservado em refrigerador, à temperatura aproximada de 4°C. O congelamento a -20°C é a regra dos tecidos moles, fluidos em estado líquido, cabelos e pelos.",
+    "referencia": "PDF LOC, p. 120",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3260,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Devem ser congelados a -20°C, retirando-se a maior quantidade possível de ar da embalagem:",
+    "alternativas": {
+      "A": "ossos e dentes sem presença de tecidos moles",
+      "B": "manchas secas em vestes e objetos recortados",
+      "C": "tecidos moles, fluidos líquidos, cabelos e pelos",
+      "D": "suabes e raspados já secos antes do acondicionamento"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Tecidos moles, fluidos biológicos em estado líquido, cabelos e pelos devem ser congelados a -20°C, evitando-se descongelar e congelar novamente antes do encaminhamento. Ossos e dentes sem tecidos moles, manchas secas, suabes e raspados são vestígios secos, mantidos em temperatura ambiente.",
+    "referencia": "PDF LOC, p. 120",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3261,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os vestígios secos, mantidos em temperatura ambiente e ao abrigo de luz, calor e umidade, o caderno inclui:",
+    "alternativas": {
+      "A": "fragmentos de vísceras retirados do cadáver",
+      "B": "sangue diluído recolhido com seringa estéril",
+      "C": "fios de cabelo com bulbo recém-arrancados",
+      "D": "ossos e dentes sem presença de tecidos moles"
+    },
+    "resposta_correta": "D",
+    "justificativa": "São vestígios secos os fluidos coletados com suabe ou raspados, as manchas secas em vestes e objetos coletados total ou parcialmente e os ossos e dentes SEM presença de tecidos moles. Vísceras são tecidos moles e cabelos e pelos entram na regra do congelamento.",
+    "referencia": "PDF LOC, p. 120",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3262,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "No local de crime, além de embalagens de papel novas e opacas, o perito deve dispor de:",
+    "alternativas": {
+      "A": "caixa térmica com gelo, preferencialmente reciclável",
+      "B": "estufa portátil para acelerar a secagem das amostras",
+      "C": "freezer de campo para congelamento imediato a -20°C",
+      "D": "recipientes de vidro âmbar para fluidos em estado líquido"
+    },
+    "resposta_correta": "A",
+    "justificativa": "No local, o perito deve ter à disposição uma caixa térmica com gelo, preferencialmente gelo reciclável, onde vão os vestígios que necessitam de refrigeração ou congelamento até chegarem ao Setec ou Nutec; o armazenamento em freezer ou geladeira deve ser feito tão logo seja possível.",
+    "referencia": "PDF LOC, p. 120",
+    "nivel": "dificil"
   }
 ]
