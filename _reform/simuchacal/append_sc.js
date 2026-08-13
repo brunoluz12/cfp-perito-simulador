@@ -9,7 +9,9 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const BANK = path.join(ROOT, 'banco_questoes.js');
 const APPLY = process.argv.includes('--apply');
 const LETTERS = ['A', 'B', 'C', 'D'];
-const FILES = ['scraped_10.json', 'scraped_11.json', 'scraped_13.json', 'scraped_14.json'];
+// Lista apenas os simulados AINDA NAO importados: o script anexa mesmo o que
+// ele proprio sinaliza como duplicata verbatim.
+const FILES = ['scraped_15.json'];
 
 function loadBank() {
   const s = fs.readFileSync(BANK, 'utf8');

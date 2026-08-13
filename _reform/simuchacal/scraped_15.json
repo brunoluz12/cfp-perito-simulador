@@ -1,0 +1,1074 @@
+[
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as recomendações técnicas para a padronização de procedimentos em locais de crime (Roteiro do exame de local de morte violenta) e as metodologias empregadas no Exame das Vestes, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "A retirada das vestes deve ser feita de forma cautelosa no local do crime para não prejudicar o exame perinecroscópico, sendo estritamente proibido o corte do tecido, mesmo que isso dificulte a preservação de vestígios.",
+      "B": "O exame das vestes é um procedimento seletivo que prioriza as roupas externas, sendo o exame de roupas íntimas e calçados realizado apenas quando houver suspeita prévia de crimes sexuais.",
+      "C": "O procedimento inclui a identificação da natureza de manchas (como sangue e resíduos de disparo de arma de fogo), a descrição de sua morfologia e o registro de orifícios, rasgamentos ou arrancamento de botões.",
+      "D": "Quando as vestes necessitarem de exames complementares, elas devem ser recolhidas, mas não há necessidade de informar os peritos médicos-legistas sobre esse procedimento, uma vez que a responsabilidade passa a ser exclusiva do laboratório."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C (A alternativa reproduz literalmente as alíneas \"d\" e \"e\" do procedimento. O contexto geral obedece à padronização de procedimentos em locais de crime. A alternativa A erra ao proibir o corte (que às vezes é necessário e deve ser registrado); a B erra ao dizer que não inclui roupas íntimas; a D erra pois os peritos médicos-legistas devem sim ser informados sobre o recolhimento).",
+    "referencia": "SimuChacal, simulado 15, questão #863 — Ref: Página 174",
+    "_site_id": 863
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com as recomendações técnicas especiais para locais de morte relacionados a disparo de arma de fogo, cujo objetivo é auxiliar no diagnóstico diferencial entre homicídio, suicídio e acidente, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Em armas não automáticas (revólveres), o exame da posição relativa dos cartuchos no tambor é secundário e dispensável, desde que a arma seja prontamente encaminhada para confronto balístico.",
+      "B": "Para o estabelecimento seguro e preciso da distância do(s) disparo(s), o perito deve constatar vestígios relacionados a resíduos secundários e sinais característicos, como as Zonas de Tatuagem e de Esfumaçamento.",
+      "C": "A análise rigorosa da posição da vítima tem como foco exclusivo a trajetória do projétil, não havendo correlação técnica com a disposição das vestes, manchas de sangue ou livores hipostáticos.",
+      "D": "A presença de cartas, bilhetes ou objetos organizados no local deve ser ignorada pela perícia criminal, visto que elementos de \"ritual de alívio\" competem apenas à investigação conduzida por psicólogos forenses."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B (A alternativa B está correta e reproduz os parâmetros descritos na apostila. A alternativa A está incorreta, pois o item 1 destaca que o exame do tambor e a fotografia com a posição relativa dos cartuchos é \"essencial\"; a C está incorreta, pois o item 6 exige que se analise a compatibilidade da posição da vítima com as vestes, manchas e livores; a D está incorreta, pois o item 7 inclui expressamente a busca por evidências de \"ritual de alívio\" no rol de observações da perícia de local).",
+    "referencia": "SimuChacal, simulado 15, questão #864 — Ref: Página 175",
+    "_site_id": 864
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base nas diretrizes para perícia em \"Locais de morte por ação do calor\", assinale a alternativa correta acerca dos procedimentos para o diagnóstico diferencial entre homicídio, suicídio e acidente:",
+    "alternativas": {
+      "A": "O recolhimento de fragmentos de vestes é considerado irrelevante, uma vez que a ação direta do fogo destrói inevitavelmente quaisquer vestígios de líquidos inflamáveis (acelerantes).",
+      "B": "A verificação das vias respiratórias do cadáver, em busca de sinais de respiração prévia à morte, deve ser realizada exclusivamente no Instituto Médico Legal (IML), sendo inviável a sua constatação no local do fato.",
+      "C": "O perito deve realizar um exame minucioso do cadáver buscando ativamente por feridas que possam ter sido produzidas por outros instrumentos lesivos não relacionados ao fogo.",
+      "D": "Caso exista lesão em um fragmento ósseo separado do corpo, o perito deve descartá-lo, pois a ação do calor faz com que os ossos percam sua resistência e inviabiliza exames complementares."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C (A alternativa reproduz literalmente o que está estabelecido na apostila. A alternativa A está incorreta porque o item \"3\" afirma que as vestes podem conter traços de acelerantes mesmo após a ação do fogo. A alternativa B está incorreta porque o item \"4\" recomenda a verificação, sempre que possível, ainda no local. A alternativa D está incorreta porque o documento determina que fragmentos ósseos separados com lesão devem ser fotografados e conservados para os demais peritos).",
+    "referencia": "SimuChacal, simulado 15, questão #865 — Ref: Página 177",
+    "_site_id": 865
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No contexto do exame perinecroscópico em locais de morte violenta, os instrumentos perfuro-cortantes, como facas, punhais e canivetes, produzem lesões características.\n\nConsiderando a análise pericial detalhada dessas lesões, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As lesões perfuro-incisas possuem aspecto de “casa de botão”, formada por extremidades com formato rombo, desde que o instrumento utilizado possua dois gumes.",
+      "B": "Em geral, lesões perfuro-incisas produzem hemorragia abundante, em razão da solução de continuidade tecidual.",
+      "C": "A largura e o aspecto das lesões perfuro-incisas relacionam-se com as linhas de clivagem de Langer, onde incisões perpendiculares a essas linhas resultam em cicatrizes lineares.",
+      "D": "Somente é possível estimar a largura da lâmina do instrumento por meio da juntada das bordas da lesão, a fim de reconstituir sua largura."
+    },
+    "resposta_correta": "D",
+    "justificativa": "- a. Incorreta: Embora as lesões tenham o aspecto de \"casa de botão\", suas extremidades possuem formas angulares, e não rombas (arredondadas).\n- b. Incorreta: O material afirma explicitamente que nessas lesões a hemorragia é escassa e, em geral, concentra-se internamente.\n- c. Incorreta: A relação com as linhas de clivagem de Langer funciona de forma oposta à descrita na alternativa: a cicatriz resultante é linear quando a incisão é feita paralelamente a essas linhas. Quando a incisão é perpendicular, a tensão é máxima e a abertura da lesão torna-se maior e disforme.\n- d. Correta: Esta alternativa reproduz literalmente o texto do caderno didático, que afirma: \"Uma ideia da largura da lâmina somente pode ser obtida juntando-se as bordas da lesão para reconstituir a largura da lesão\".",
+    "referencia": "SimuChacal, simulado 15, questão #879 — Ref: 162",
+    "_site_id": 879
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame perinecroscópico em locais de morte violenta, a correta identificação dos instrumentos causadores é essencial para a interpretação técnica da dinâmica dos fatos.\n\nConsiderando a análise pericial detalhada dessas lesões, assinale a alternativa incorreta.",
+    "alternativas": {
+      "A": "Instrumentos perfurantes geram lesões com forma circular ou ovalar, podendo ser apenas puntiforme.",
+      "B": "Chaves-de-fenda são instrumentos capazes de gerar lesões perfurocontusas, assim como aquelas produzidas por projéteis de arma de fogo.",
+      "C": "Prego, estilete e agulha são considerados instrumentos perfurantes, que geram lesões punctórias com extremidades desprovidas de ângulos.",
+      "D": "Em um disparo por arma de fogo, a orla de contusão pode estar ausente na pele caso o projétil tenha atravessado vestes antes de atingir o corpo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "a. Correta: O material afirma explicitamente que as feridas punctórias (produzidas por instrumentos perfurantes) possuem \"forma circular ou ovalar, podendo ser apenas puntiforme\".\n\nb. Correta: O caderno classifica a chave-de-fenda como um instrumento perfurocontundente. Além disso, define que o tipo de lesão produzido por essa classe de agentes (que inclui os projéteis de arma de fogo) são as \"feridas perfurocontusas\".\n\nc. Correta: O caderno lista literalmente \"prego, estilete, agulha\" como exemplos de instrumentos perfurantes e destaca que as lesões por eles produzidas possuem \"extremidades desprovidas de ângulos\".\n\nd. INCORRETA: Esta alternativa atribui à orla de contusão uma característica que o material didático reserva à orla de enxugo. Segundo o caderno, a orla de contusão \"está invariavelmente presente, independentemente da distância do disparo\".",
+    "referencia": "SimuChacal, simulado 15, questão #880 — Ref: Página 164 e 166",
+    "_site_id": 880
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta e o acondicionamento de amostras biológicas em casos ante-mortem e post-mortem, analise os itens:\n\nI. A urina deve ser coletada em dois frascos plásticos, denominados A e B, com volumes mínimos de 60 ml e 40 ml, respectivamente.\n\nII. As amostras de urina devem ser protegidas da luz e armazenadas e transportadas em temperatura entre 4 °C e 8 °C.\n\nIII. Para a coleta de sangue total, devem ser utilizados quatro frascos, sendo dois com NaF, um com EDTA e um destinado à coagulação, todos contendo gel separador e mantidos congelados.\n\nIV. Nos casos post-mortem, recomenda-se a coleta de 25 g de vísceras em frasco plástico limpo, seco, inquebrável, de boca estreita e com tampa de rosca provida de lacre.\n\nEstá correto o que se afirma em:",
+    "alternativas": {
+      "A": "I e II, apenas.",
+      "B": "I, II e IV, apenas.",
+      "C": "III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os itens I, II e IV estão corretos. O item III está errado porque os tubos de sangue não devem possuir gel separador, e as amostras não devem ser congeladas, para evitar hemólise. Página 128.",
+    "referencia": "SimuChacal, simulado 15, questão #881 — Ref: 128",
+    "_site_id": 881
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, foram encontradas duas armas de fogo, ambas contendo cartuchos. Considerando os procedimentos de coleta, transporte e acondicionamento apresentados na apostila, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "As armas devem ser transportadas municiadas, evitando-se a retirada dos cartuchos para não alterar sua condição original.",
+      "B": "Os cartuchos devem ser removidos, e cada arma deve ser acondicionada separadamente com seus respectivos cartuchos.",
+      "C": "As duas armas e todos os cartuchos devem ser acondicionados conjuntamente, pois pertencem ao mesmo local de crime.",
+      "D": "Os cartuchos devem ser removidos e acondicionados separadamente das armas, ainda que seja possível identificar a qual arma pertenciam."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A arma deve ser transportada desmuniciada. A arma e seus respectivos cartuchos podem ser acondicionados na mesma embalagem, mas, havendo mais de uma arma, cada conjunto deve ser acondicionado separadamente. A alternativa A mantém a arma municiada; a C mistura armas distintas; e a D separa desnecessariamente os cartuchos de sua respectiva arma. Página 129.",
+    "referencia": "SimuChacal, simulado 15, questão #882 — Ref: 129",
+    "_site_id": 882
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "A respeito da fotografia de marcas de pegadas e de pneus, analise os itens:\n\nI. A câmera deve ser estabilizada com monopé ou tripé, devendo-se repetir nas amostras suspeitas a mesma distância focal utilizada no local de crime.\n\nII. O meio-dia constitui o melhor momento para fotografar com luz natural, pois a incidência vertical da luz ressalta os relevos e detalhes das marcas.\n\nIII. O flash automático não deve ser utilizado; em locais muito escuros, pode-se empregar um flash mantido em ângulo aproximado de 45 graus.\n\nIV. A fotografia deve ser realizada perpendicularmente à marca, com a escala constando da imagem, enquanto a localização do vestígio e o nome do fotógrafo são informações facultativas na própria fotografia.\n\nEstá correto o que se afirma em:",
+    "alternativas": {
+      "A": "I e II, apenas.",
+      "B": "II e IV, apenas.",
+      "C": "I, III e IV, apenas.",
+      "D": "I, II, III e IV."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os itens I, III e IV estão corretos. O item II está errado porque o meio-dia não é o melhor horário: a luz intensa e vertical pode saturar ou achatar a imagem, reduzindo a percepção dos detalhes e relevos da marca. Páginas 131 e 132.",
+    "referencia": "SimuChacal, simulado 15, questão #883 — Ref: 131-132",
+    "_site_id": 883
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base na metodologia de investigação, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "A obtenção da autoria do crime decorre prioritariamente da análise dos vestígios materiais, ao passo que as entrevistas possuem caráter meramente complementar.",
+      "B": "A investigação da cena do crime fundamenta-se na integração de diferentes fontes de informação, sendo possível que a reunião dos elementos obtidos permita esclarecer não apenas a autoria, mas também a motivação do delito.",
+      "C": "A definição da forma como o meio empregado foi utilizado depende, necessariamente, da identificação prévia do autor do crime.",
+      "D": "A metodologia de investigação pressupõe que os vestígios materiais sejam suficientes para responder aos questionamentos técnicos da investigação, cabendo às entrevistas apenas confirmar as conclusões obtidas no exame do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A) Incorreta\nA alternativa cria uma hierarquia entre vestígios e entrevistas que não existe no texto.\nA apostila afirma:\n\"Para responder a esses questionamentos, é preciso encontrar o maior número possível de informações oriundas de entrevistas com pessoas que provavelmente viram o fato e dos vestígios materiais presentes no local.\"\nAssim, ambas as fontes são relevantes.\nB) Correta\nA alternativa traduz corretamente a ideia central da metodologia de investigação.\nFundamentação:\n\"É preciso encontrar o maior número possível de informações oriundas de entrevistas (...) e dos vestígios materiais presentes no local.\"\ne\n\"Caso se consiga responder a todas essas perguntas, pode-se então obter autoria e até mesmo a motivação do crime.\"\nA apostila utiliza \"até mesmo\", indicando que a motivação pode ser alcançada a partir da integração das informações obtidas.\nC) Incorreta\nA apostila não estabelece relação de dependência entre conhecer o autor e compreender a forma de utilização do meio empregado.\nAo contrário, ambos aparecem como questionamentos independentes da investigação:\n\"Qual o meio empregado?\"\n\"De que forma foi utilizado?\"\n\"Quem foi o autor?\"\nNão há indicação de ordem ou condicionamento entre eles.\nD) Incorreta\nIdem A",
+    "referencia": "SimuChacal, simulado 15, questão #887",
+    "_site_id": 887
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "A coordenação entre o trabalho do papiloscopista e o da equipe pericial justifica-se porque",
+    "alternativas": {
+      "A": "o levantamento das impressões digitais deve ocorrer após a conclusão das demais etapas do processamento do local, evitando interferências sobre os demais vestígios.",
+      "B": "o levantamento das impressões digitais integra a etapa de coleta de vestígios",
+      "C": "a coleta de impressões digitais depende da autorização do perito criminal, a quem compete decidir o momento mais oportuno para sua realização.",
+      "D": "o processamento do local deve ser interrompido durante o levantamento das impressões digitais, a fim de preservar a integridade dos vestígios papilares."
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"O levantamento das impressões digitais deve ser realizado na etapa da coleta de vestígios, assim é necessário que esta tarefa seja coordenada com o restante dos trabalhos, devendo o perito cuidar para que nenhuma etapa do processamento do local seja atropelada...",
+    "referencia": "SimuChacal, simulado 15, questão #888",
+    "_site_id": 888
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com base nos papeis que cada policial na cena de crime, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O papiloscopista policial federal é responsável pelo levantamento das impressões digitais, devendo essa atividade ser realizada em momento próprio do processamento do local, de forma independente das demais atividades periciais.",
+      "B": "O agente compõe a equipe de isolamento e preservação da área e não tem atuação na perícia no processamento do local.",
+      "C": "O perito criminal federal é responsável pela reavaliação do isolamento, pela coleta de vestígios, pelos levantamentos fotográfico e descritivo e pela elaboração do laudo, o qual deve conter a descrição minuciosa dos vestígios encontrados, independentemente de sua contextualização no local.",
+      "D": "O delegado de Polícia Federal é responsável pelo isolamento e pela preservação do local de crime, além de receber o local após a conclusão das análises periciais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A - INCORRETA - O levantamento das impressdes digitais deve ser realizado na etapa\nda coleta de vestigios, assim é necessdrio que esta tarefa seja coordenada com\no restante dos trabalhos,\nB -INCORRETA - O agente compõe a equipe de isolamento e preservação da área, podendo,\naté mesmo, caso seja solicitado, ajudar a perícia no processamento do local.\nC - INCORRETA - É o responsável pelo processamento do local de crime, que consiste nas etapas\nseguintes: reavaliar isolamento; proceder à busca por vestígios e coletá-los de\nmaneira adequada; fazer os levantamentos fotográfico e descritivo e os croquis;\nencaminhar, caso seja necessário, os vestígios para futuras análises; e elaborar o\nlaudo de exame do local, descrevendo, minuciosamente, os vestígios encontrados,\ndescrevendo claramente sua posição e contextualização no local.\nD - CORRETA - DPF é o responsável legal pelo isolamento e preservação do local de crime. É também o delegado quem receberá o local, após concluídas as análises.",
+    "referencia": "SimuChacal, simulado 15, questão #889",
+    "_site_id": 889
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos procedimentos de coleta de microvestígios, julgue as assertivas que se seguem:",
+    "alternativas": {
+      "A": "É aceitável e preferível coletar o item inteiro, mesmo quando os vestígios já forem visíveis em sua superfície",
+      "B": "A coleta de microvestígios tende a ser mais eficiente quando feita no local de crime, uma vez que reduz o risco de perda, contaminação ou alteração dos vestígios durante o transporte",
+      "C": "Dentre os principais métodos de coleta de microvestígios, destaca-se o levantamento com fita adesiva, sendo utilizada para a coleta de microvestígios superficiais, especialmente recomendado em caso de fibras, partículas leves, tintas ou polímeros",
+      "D": "A varredura a vácuo (aspiração com filtro) é uma técnica utilizada principalmente quando decorreu um pequeno tempo desde o evento, evitando a coleta de grande quantidade de material estranho"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A- Correta\n\nB- \"Como regra geral, a coleta de microvestígios tende a ser mais eficiente e controlada em ambiente laboratorial do que no local de crime.\"\n\nC- \"Por exemplo, NÃO é recomendada a utilização de adesivos para coleta de determinados materiais, como tintas ou polímeros, pois o adesivo pode interagir com o vestígio e alterar suas características químicas. \"\n\nD- \"A aspiração é uma técnica utilizada principalmente quando: Já decorreu um tempo significativo desde o evento.\"",
+    "referencia": "SimuChacal, simulado 15, questão #890 — Ref: 138-139",
+    "_site_id": 890
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos procedimentos de coleta de microvestígios, julgue as assertivas que se seguem:",
+    "alternativas": {
+      "A": "Os dois métodos mais comuns a coleta de de microvestigios invisíveis são recorte da área de interesse e varredura a vácuo (aspiração com filtro)",
+      "B": "A remoção de vestigios do corpo deve ser feita na cena, uma vez que podem ser perdidos durante o transporte.",
+      "C": "As principais medidas de preservação do corpo incluem: ensacar as mãos e os pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado",
+      "D": "Uma vez que cada coleta de fita adesiva abrange uma pequena área, recomenda-se que tal tipo de coleta seja feita em quantidade generalizada, visando reduzir a perda de vestígios relevantes"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A- \"Os dois métodos mais comuns para sua coleta são:\n- levantamento com fita adesiva\n- varredura a vácuo (aspiração com filtro)\"\n\nB- \"A remoção de vestigios do corpo na cena nem sempre é necessária, especialmente quando métodos adequados de preservação são adotados. \"\n\nC- Correta\n\nD- \"Considerando que, em geral, há grande quantidade de detritos microscópicos em uma cena, a aspiração indiscriminada ou o uso generalizado de fita adesiva devem ser evitados.\"",
+    "referencia": "SimuChacal, simulado 15, questão #891 — Ref: 139-140",
+    "_site_id": 891
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com relação aos procedimentos de acondicionamento de microvestígios, julgue as assertivas que se seguem:",
+    "alternativas": {
+      "A": "A embalagem primária é a que possui numeração individualizada, resguardando a identidade do vestígio e seu vinculo com o caso",
+      "B": "Itens que serão examinados para resíduos líquidos inflamáveis ou outros produtos químicos, como alvejante, não devem ser secos, pois isso pode causar perda de evidências.",
+      "C": "O exame de ajuste físico é o processo de avaliar dois ou mais itens com o objetivo\nde formar uma opinião sobre se eles já estiveram unidos. Esse exame baseia-se na premissa de que eventos de separação são reproduzíveis, no todo ou em parte quando forem replicadas as condições originais",
+      "D": "Após a comparação e a análise conjunta dos vestígios e/ou padrões, com o objetivo de verificar a existência de ajuste físico entre eles, realiza-se a análise das características individuais"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A- \"O recipiente primário deve ser devidamente protegido em uma embalagem de segurança (envelope ou saco de lacre). Essa embalagem DE SEGURANÇA é a que possui numeração individualizada, resguardando a identidade do vestígio e seu vinculo com o caso. \"\n\nB- Correta\n\nC- \"Esse exame baseia-se na premissa de que eventos de separação (como quebras, cortes ou rasgos) não são reproduzíveis, no todo ou em parte. Isso ocorre devido à combinação de forças aplicadas, às características de construção e às propriedades do material, que podem gerar características individuais.\"\n\nD- Após a análise das características individuais, realiza-se a comparação e a análise conjunta dos vestígios e/ou padrões, com o objetivo de verificar a existência de ajuste físico entre eles.",
+    "referencia": "SimuChacal, simulado 15, questão #895 — Ref: 141-142",
+    "_site_id": 895
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando as definições e a classificação de locais de interesse da polícia apresentadas na doutrina e na Instrução Normativa DG/PF nº 297/2024, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O \"local de crime\" limita-se exclusivamente ao ponto exato onde ocorreu a execução do ato delituoso, não abrangendo locais relacionados a atos preparatórios ou posteriores.",
+      "B": "O local onde uma quadrilha de empresários desviou verbas públicas destinadas à construção de uma estrada, sendo necessária a perícia para constatar se a obra seguiu o projeto original, é classificado como \"local onde o crime foi planejado\".",
+      "C": "No \"local relacionado ao fato\", podem ser obtidas informações adicionais, como registros de hospedagem e imagens de circuito interno em um hotel onde ocorreu o acerto de propina, mesmo que o crime tenha sido executado em outro sítio.",
+      "D": "De acordo com o Art. 158 do CPP, quando a infração deixar vestígios, o exame de corpo de delito é indispensável, podendo, contudo, ser suprido pela confissão do acusado em casos de crimes de alta complexidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A alternativa descreve com precisão o conceito de \"Local relacionado ao fato\", citando o exemplo do hotel para acerto de propinas presente no texto.",
+    "referencia": "SimuChacal, simulado 15, questão #899 — Ref: 13-17",
+    "_site_id": 899
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os procedimentos operacionais e as competências da autoridade policial e da perícia no local de crime, analise os itens a seguir:\nI. Logo que tiver conhecimento da prática da infração penal, a autoridade policial deverá dirigir-se ao local e apreender imediatamente os objetos que tiverem relação com o fato, para evitar a perda da prova, independentemente da chegada dos peritos. II. O isolamento e a preservação do local visam garantir que não se altere o estado das coisas até a chegada dos peritos criminais, conforme preceitua o Art. 6º, inciso I, do CPP. III. Os peritos criminais podem instruir seus laudos com fotografias, desenhos ou esquemas elucidativos, devendo registrar no laudo eventuais alterações do estado das coisas encontradas no local. IV. A cadeia de custódia consiste em uma sucessão de eventos que se inicia obrigatoriamente na delegacia, com o recebimento dos vestígios coletados por policiais militares ou civis.\n\nEstão corretos apenas os itens:",
+    "alternativas": {
+      "A": "I e IV.",
+      "B": "II e III.",
+      "C": "II, III e IV.",
+      "D": "I e II."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O item II reflete o Art. 6º, I do CPP, e o item III reflete o Art. 169 e seu parágrafo único.\n\nErro das demais: (I) A autoridade policial só deve apreender os objetos após liberados pelos peritos criminais (Art. 6º, II). (IV) A cadeia de custódia é uma sucessão de eventos iniciados na cena do crime, e não apenas na delegacia.",
+    "referencia": "SimuChacal, simulado 15, questão #900",
+    "_site_id": 900
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange à natureza das informações encontradas em um local de crime e aos princípios da criminalística, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "Informações subjetivas são aquelas calcadas em dados concretos e absolutos, sendo por isso consideradas a fonte mais segura para a reconstrução do ocorrido.",
+      "B": "O Princípio da Transferência estabelece que, nos locais de crime, existe uma troca de vestígios: o criminoso geralmente deixa algo seu no local ou leva algo do local consigo.",
+      "C": "A análise de uma cena de crime fica a cargo da autoridade policial (delegado), pois o investigador comum já possui o preparo técnico necessário para localizar e manusear vestígios sem comprometer seu valor probatório.",
+      "D": "As informações oriundas de vestígios materiais são de ordem interpretativa e de cunho pessoal, podendo refletir ou não a verdade, dependendo da confirmação por depoimentos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa define literalmente o Princípio da Transferência conforme exposto na apostila.",
+    "referencia": "SimuChacal, simulado 15, questão #901 — Ref: 13-17",
+    "_site_id": 901
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No processamento de locais de morte violenta, as lesões perfurocontusas produzidas por projéteis de arma de fogo representam a maior parte da casuística pericial.\n\nNo que se refere a forma do orifício de entrada, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O projétil que penetra obliquamente o plano cutâneo gera uma lesão com formato circular.",
+      "B": "O projétil que penetra perpendicularmente o plano cutâneo gera uma lesão com formato ovalado.",
+      "C": "Um disparo em que o projétil, antes da penetração, se fragmenta ou se deforma, gera uma lesão em formato poligonal.",
+      "D": "A depender de diversos fatores determinantes, o disparo pode produzir lesões perfurocontusas, contusas ou escoriações tangenciais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "a. Incorreta: O material afirma que o projétil que penetra obliquamente gera uma lesão com formato ovalar ou em fenda, e não circular.\n\nb. Incorreta: O projétil que penetra perpendicularmente ao plano cutâneo é o que gera uma lesão com formato circular.\n\nc. Incorreta: Disparos onde o projétil sofre deformação ou se fragmenta antes da penetração resultam em uma forma atípica. O formato poligonal é característico de disparos com a \"boca\" do cano encostada na pele em regiões com plano ósseo subjacente.\n\nd. Correta: \"São as lesões perfurocontusas, de entrada e de saída, além das lesões contusas, das escoriações (em ação tangencial), que podem ser produzidas, dependendo dos efeitos lesivos relacionados aos fatores determinantes\".",
+    "referencia": "SimuChacal, simulado 15, questão #902 — Ref: 165",
+    "_site_id": 902
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta e o acondicionamento de cabelos e pelos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Devem ser coletados com as mãos enluvadas, segurando-se preferencialmente pelas extremidades dos fios.",
+      "B": "Devem ser coletados com pinça estéril, evitando tocar as extremidades dos fios para não danificar o bulbo.",
+      "C": "Fios de origens diferentes devem ser acondicionados juntos, desde que apresentem cor e espessura semelhantes.",
+      "D": "Para armazenamento por períodos longos, devem ser mantidos à temperatura ambiente em envelope de papel."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Trecho de onde saiu a resposta:\n\n“Cabelos e pelos devem ser coletados com pinça estéril, evitando tocar as extremidades dos fios para não danificar o bulbo.”\n\nO texto também estabelece:\n\n“Para armazenamento por períodos longos, manter congelado a -20°C em embalagem plástica estéril fechada, retirando-se a maior quantidade possível de ar.”",
+    "referencia": "SimuChacal, simulado 15, questão #906",
+    "_site_id": 906
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o estado de conservação do cadáver e o respectivo material a ser coletado, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Em cadáver falecido há menos de 24 horas, devem ser coletados preferencialmente dentes molares.",
+      "B": "Em decomposição avançada, devem ser coletados tecidos moles junto dos ossos.",
+      "C": "Em decomposição inicial ou cadáver parcialmente carbonizado, devem ser coletados exclusivamente ossos longos.",
+      "D": "Em cadáver ossado ou profundamente carbonizado que possua dentes, deve-se priorizar a coleta de sangue por punção cardíaca."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Trecho de onde saiu a resposta:\n\n“Decomposição avançada — Tecidos moles junto dos ossos.”\n\nAs demais correspondências apresentadas no texto são:\n\n“Falecido há menos de 24 horas — Sangue, preferencialmente por punção cardíaca.”\n\n“Decomposição inicial ou parcialmente carbonizado — Cerca de 1 cm³ de tecido muscular esquelético ou cardíaco, linfonodo, fígado ou outro órgão bem preservado.”\n\n“Ossada ou profundamente carbonizado — Dentes na seguinte ordem de preferência: 1º molares, 2º pré-molares, 3º caninos, 4º incisivos [...]”",
+    "referencia": "SimuChacal, simulado 15, questão #907",
+    "_site_id": 907
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas sobre a coleta de amostras biológicas de referência:\n\nI. Os exames de DNA são de natureza comparativa, sendo necessária, sempre que possível, a coleta de amostras de origem conhecida.\n\nII. A coleta deve ser realizada preferencialmente por esfregaço da mucosa oral com suabe estéril.\n\nIII. Cabelos e células descamativas da pele devem ser priorizados como amostras de referência, pois possuem grandes quantidades de DNA.\n\nIV. Com a alteração da Lei de Execução Penal pela Lei nº 15.295/2025, a coleta de DNA de condenados pode ser realizada diretamente na unidade prisional por profissional da Divisão de Saúde, observada a cadeia de custódia.\n\nAssinale a alternativa correta.",
+    "alternativas": {
+      "A": "Apenas I e II estão corretas.",
+      "B": "Apenas I, II e IV estão corretas.",
+      "C": "Apenas II, III e IV estão corretas.",
+      "D": "I, II, III e IV estão corretas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 15, questão #908",
+    "_site_id": 908
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No que tange à coleta de vestígios físicos quando o suporte é móvel (como armas e ferramentas), as boas práticas periciais determinam que:",
+    "alternativas": {
+      "A": "O material deve ser acondicionado exclusivamente em sacos plásticos herméticos para evitar qualquer troca gasosa com o ambiente.",
+      "B": "Objetos como ferramentas e utensílios devem ser preferencialmente fixados em caixas de papelão rígido, utilizando perfurações para amarrar o objeto e imobilizá-lo",
+      "C": "Peças de vestuário devem ser dobradas o máximo possível para reduzir o volume da embalagem, sendo guardadas em frascos de vidro.",
+      "D": "A coleta integral do suporte só é recomendada se houver risco iminente de perda do vestígio biológico por intempéries."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B – O manual orienta o uso de caixas de papelão rígido com amarrações para fixar objetos móveis e preservar vestígios",
+    "referencia": "SimuChacal, simulado 15, questão #909 — Ref: 108-112",
+    "_site_id": 909
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a preservação de vestígios biológicos em diferentes estados, assinale a alternativa tecnicamente correta segundo as diretrizes da Polícia Federal:",
+    "alternativas": {
+      "A": "Sangue coletado de pessoa viva em tubo com anticoagulante EDTA deve ser imediatamente congelado a -20°C para análise de DNA",
+      "B": "Tecidos moles e fluidos biológicos em estado líquido devem ser preservados em geladeira comum (4°C) por tempo indeterminado.",
+      "C": "Tecidos moles, fluidos líquidos e cabelos devem ser congelados a -20°C, retirando-se a maior quantidade possível de ar da embalagem primária",
+      "D": "Vestígios secos coletados com suabe devem ser mantidos em recipientes plásticos estéreis com tampa rosca em temperatura ambiente."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C – Tecidos moles e fluidos líquidos exigem congelamento a -20°C com remoção de ar para garantir a integridade da amostra.",
+    "referencia": "SimuChacal, simulado 15, questão #910",
+    "_site_id": 910
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de amostras biológicas de referência em cadáveres para fins de comparação genética, a literatura técnica estabelece uma ordem de preferência para corpos em estado de carbonização profunda ou esqueletização. Essa ordem inicia-se por:",
+    "alternativas": {
+      "A": "Ossos longos, como o fêmur e a fíbula, devido à sua resistência térmica.",
+      "B": "Fragmentos de pele protegidos por vestes, se disponíveis.",
+      "C": "Dentes, seguindo a ordem de preferência: 1º molares, 2º pré-molares e 3º caninos (preferencialmente sem cáries ou restaurações)",
+      "D": "Punção cardíaca para obtenção de sangue total, mesmo em corpos carbonizados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A tabela de coleta em cadáveres prioriza dentes molares e pré-molares íntegros em casos de carbonização ou decomposição avançada",
+    "referencia": "SimuChacal, simulado 15, questão #911",
+    "_site_id": 911
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Qual é o componente interno das objetivas que controlam a intensidade de luz?",
+    "alternativas": {
+      "A": "Obturador",
+      "B": "ISO",
+      "C": "Diafragma",
+      "D": "Sensor"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O processo fotográfico de máquinas digitais envolve uma câmera escura com um sensor no seu interior e uma objetiva (formada por um conjunto de lentes), que direciona os raios de luz para o sensor.\nAlém disso, todas possuem processadores que manipulam os arquivos digitais das imagens antes de serem arquivadas em mídia.\nNo interior das objetivas, há um diafragma que controla a intensidade da luz.\nA máquina também tem que ter um componente, chamado de obturador, que tem a atribuição de monitorar o tempo de exposição do sensor à luz.",
+    "referencia": "SimuChacal, simulado 15, questão #912 — Ref: p. 58",
+    "_site_id": 912
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em relação às limitações da utilização da tecnologia 3D em locais de crime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A captura tridimensional elimina a necessidade de registro fotográfico convencional.",
+      "B": "A elevada resolução dos escâneres 3D torna dispensável o reposicionamento de vestígios na nuvem de pontos.",
+      "C": "Alguns objetos, especialmente pretos e/ou brilhantes, podem exigir preparação prévia da cena para viabilizar sua captura adequada.",
+      "D": "A principal limitação da tecnologia 3D consiste na impossibilidade de utilização de softwares para processamento das imagens."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto afirma que um bom registro fotográfico continua sendo imprescindível devido às limitações de resolução da tecnologia 3D.\n\nAlternativa B – Incorreta.\nO texto afirma que a resolução ainda não é suficiente para capturar todos os detalhes da cena, tornando importante o registro fotográfico.\n\nAlternativa C – Correta.\nO texto informa que objetos pretos e/ou brilhantes podem exigir o uso de sprays específicos ou outros artifícios para permitir uma captura adequada.\n\nAlternativa D – Incorreta.\nO texto afirma justamente que os escâneres dependem de softwares para gerar produtos úteis, não que sua utilização seja impossível.",
+    "referencia": "SimuChacal, simulado 15, questão #913 — Ref: Págs. 83 - 87",
+    "_site_id": 913
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Acerca dos drones de asa rotativa e de asa fixa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os drones de asa fixa possuem maior capacidade de manobra, podendo permanecer parados no ar e realizar decolagem e pouso verticais.",
+      "B": "Os drones de asa rotativa apresentam voo mais eficiente, possibilitando maior autonomia e alcance que os drones de asa fixa.",
+      "C": "Quadricópteros possuem redundância de motores, podendo manter o voo mesmo com a falha de um deles.",
+      "D": "Os drones de asa fixa apresentam maior eficiência de voo, sendo mais indicados para operações em grandes extensões e distâncias."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Alternativa A – Incorreta.\nEssas características pertencem aos drones de asa rotativa.\n\nAlternativa B – Incorreta.\nO texto afirma que o voo dos drones de asa rotativa é ineficiente, com menor autonomia e alcance.\n\nAlternativa C – Incorreta.\nSegundo o texto, quadricópteros não possuem redundância: a falha de um motor provoca a queda da aeronave.\n\nAlternativa D – Correta.\nO texto afirma que os drones de asa fixa voam com maior eficiência, velocidade e autonomia, sendo adequados para operações em grandes extensões e distâncias.",
+    "referencia": "SimuChacal, simulado 15, questão #914 — Ref: Págs. 83 - 87",
+    "_site_id": 914
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue os itens a seguir:\nI - Os sensores são dispositivos que capturam os raios de luz, transformados em pulsos elétricos, sendo estes processados na máquina e transformados em arquivos digitais antes de serem arquivados na mídia.\nII - Objetivas são formadas por um conjunto de lentes.\nIII - Objetivas são classificadas em função de seus ângulos de visão.\nIV - Obturador controla o tempo de exposição do sensor à luz.",
+    "alternativas": {
+      "A": "1 Alternativa correta",
+      "B": "2 Alternativas corretas",
+      "C": "3 Alternativas corretas",
+      "D": "4 Alternativas corretas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Tudo conforme material",
+    "referencia": "SimuChacal, simulado 15, questão #915 — Ref: p.58 a 60",
+    "_site_id": 915
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a apostila, assinale a alternativa correta acerca da regulamentação dos drones no Brasil.",
+    "alternativas": {
+      "A": "Todos os voos de drones realizados por órgãos de segurança pública dependem de autorização prévia do SARPAS, inclusive os operacionais.",
+      "B": "Os drones da Classe 3 exigem aprovação prévia do projeto da aeronave e habilitação do piloto.",
+      "C": "Todo drone operando no Brasil deve ser homologado pela ANATEL, e os voos operacionais dos órgãos de segurança pública possuem cadastro no SARPAS apenas em caráter informativo.",
+      "D": "A ICA 100-40 foi editada pela ANAC e estabelece exclusivamente os requisitos para homologação de drones da Classe 1."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Alternativa A – Incorreta.\nO texto estabelece que os voos operacionais dos órgãos de segurança pública possuem cadastro no SARPAS apenas em caráter informativo, dispensando autorização prévia.\n\nAlternativa B – Incorreta.\nOs drones da Classe 3 não exigem habilitação do piloto nem aprovação do projeto da aeronave, embora devam ser cadastrados no SISANT.\n\nAlternativa C – Correta.\nO texto afirma que todo drone operando no Brasil deve ser homologado pela ANATEL e que, para voos operacionais dos órgãos de segurança pública, o cadastro no SARPAS é apenas informativo.\n\nAlternativa D – Incorreta.\nO texto informa que a ICA 100-40 é uma norma do DECEA que regulamenta o voo civil de drones, e não uma norma da ANAC sobre homologação da Classe 1.",
+    "referencia": "SimuChacal, simulado 15, questão #916 — Ref: Págs. 83 - 87",
+    "_site_id": 916
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre objetivas.",
+    "alternativas": {
+      "A": "As grande-angulares se aproximam da perspectivo do olho humano.",
+      "B": "As que têm ângulos diagonais maiores que 65° são chamadas de grande-angulares. Dão a impressão de que o objeto está mais afastado do que realmente está.",
+      "C": "As teleobjetivas proporcionam um campo de visão mais ampIo.",
+      "D": "As normais é um ângulo de visão mais restrito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Alternativa A - fala de objetiva normal\nAlternativa B - correta\nAlternativa C - fala de grande-angular\nAlternativa D - fala de teleobjetiva",
+    "referencia": "SimuChacal, simulado 15, questão #917 — Ref: p. 61",
+    "_site_id": 917
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o processamento de um local de crime de morte violenta, um perito criminal identifica uma quantidade considerável de sangue acumulado em uma poça sobre o piso de mármore da cozinha. Em um segundo ponto, no banheiro, observa sangue diluído na água da pia. Considerando que as amostras estão em estado líquido e não é viável realizar a secagem no local, assinale a alternativa que descreve o procedimento técnico correto de coleta e acondicionamento, conforme os protocolos de vestígios biológicos:",
+    "alternativas": {
+      "A": "A coleta deve ser realizada com seringa estéril descartável, e o material deve ser acondicionado em embalagem de material plástico estéril (preferencialmente potes de boca larga e tampa rosca), devendo ser mantido sob refrigeração.",
+      "B": "O perito deve utilizar um suabe para absorver o líquido diretamente da poça, acondicionando-o imediatamente em envelopes de papel para garantir a secagem natural durante o transporte em temperatura ambiente.",
+      "C": "Por se tratar de amostras líquidas, o perito deve priorizar a coleta por raspagem após o umedecimento com água destilada, utilizando bisturi estéril e acondicionando o raspado em envelopes primários de papel novos.",
+      "D": "A amostra de sangue na pia, por estar diluída, deve ser coletada em pequena quantidade (cerca de 1ml) com pipeta de vidro e armazenada em frascos de vidro âmbar de boca estreita para evitar a degradação pela luz."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Amostras líquidas (diluídas ou não) podem ser coletadas com seringa estéril descartável. Quando não é possível secar a amostra, ela deve ser acondicionada em material plástico estéril (como potes de boca larga tipo coletor de urina) e refrigerada. Além disso, para fluídos biológicos diluídos (como o sangue na pia), a orientação é coletar sempre a maior quantidade possível.\n\nA opção B está incorreta porque envelopes de papel são usados para vestígios secos; líquidos vazariam e degradariam no papel .\n\nA opção C descreve a técnica de raspagem, que é indicada para manchas impregnadas em suportes que não podem ser transportados (como paredes).\n\nA opção D erra ao sugerir \"pequena quantidade\" (o correto é a maior possível) e o uso de frascos de vidro âmbar, que são recomendados para solventes químicos.",
+    "referencia": "SimuChacal, simulado 15, questão #946 — Ref: p. 118-119",
+    "_site_id": 946
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o processamento de um local de crime de natureza sexual, a equipe de perícia identifica vestígios distintos: um preservativo utilizado contendo fluido biológico (sêmen) e, sobre o tapete, alguns fios de cabelo e uma goma de mascar fresca. Considerando as normas técnicas para evitar a degradação do DNA e garantir a viabilidade das análises genéticas, assinale a alternativa que descreve o procedimento correto:",
+    "alternativas": {
+      "A": "Caso os vestígios biológicos coletados com pinça não possam ser secos no local, eles devem ser colocados em embalagens de papel e mantidos sob exposição solar direta para acelerar a evaporação da umidade antes do congelamento.",
+      "B": "O preservativo contendo sêmen deve ser coletado e acondicionado imediatamente em um envelope de papel permeável, para permitir a secagem natural do fluido durante o transporte, evitando assim a proliferação de microrganismos degradantes.",
+      "C": "Para a coleta de sêmen no interior do preservativo, o perito deve utilizar um suabe, acondicionando-o em um frasco de vidro âmbar com conservante químico para impedir a oxidação do material genético pela luz.",
+      "D": "Os fios de cabelo e a goma de mascar devem ser coletados com o auxílio de uma pinça limpa e, se estiverem secos, devem ser acondicionados em embalagens de papel, mantidos em temperatura ambiente e protegidos da luz e do calor."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Materiais como pelos, fios de cabelo e gomas de mascar podem ser coletados em sua totalidade com o auxílio de uma pinça limpa. Se o material estiver seco, o acondicionamento deve ser feito em embalagens de papel, mantendo-se a temperatura ambiente e protegendo o vestígio da luz, umidade e calor.\n\nA opção A é tecnicamente perigosa: a secagem nunca deve ser feita sob exposição ao sol ou fontes de calor, pois isso degrada o DNA. Além disso, vestígios que não podem ser secos devem ser acondicionados em recipientes plásticos (que não vazem: selados) e refrigerados/congelados, não em papel.\n\nA opção B está incorreta porque o preservativo com sêmen (fluido líquido) deve ser fechado com um nó, colocado em embalagem plástica fechada, refrigerado no local e congelado a -20°C o quanto antes. Envelopes de papel são para vestígios secos.\n\nA opção C erra ao sugerir frasco de vidro âmbar com conservante; o protocolo para acondicionamento de preservativos envolve fechar com nó, usar embalagem plástica e congelamento. O uso de suabe no interior é uma técnica de coleta do material no preservativo.",
+    "referencia": "SimuChacal, simulado 15, questão #947 — Ref: p. 118-122",
+    "_site_id": 947
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "O adequado acondicionamento e a preservação dos vestígios biológicos são etapas críticas para garantir a viabilidade de exames de DNA e outras análises forenses. Com base nos protocolos técnicos para coleta e guarda de amostras biológicas (como sangue, sêmen e tecidos), assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Manchas de sangue encontradas em suportes móveis, como ferramentas ou vestes, devem ser coletadas preferencialmente em sua totalidade (o item inteiro) e acondicionadas em envelopes ou sacos de papel após estarem secas.",
+      "B": "Amostras de sangue de pessoa viva, quando coletadas em tubos contendo o anticoagulante EDTA, devem ser preservadas sob congelamento imediato a -20°C para evitar a degradação do material genético antes do envio ao laboratório.",
+      "C": "No caso de sangue líquido acumulado em poças ou diluído (como em pias ou vasos sanitários), a coleta deve ser feita com seringa estéril descartável, priorizando-se a maior quantidade possível, e o material deve ser mantido congelado.",
+      "D": "Vestígios como pelos, cabelos e gomas de mascar, se estiverem secos, podem ser mantidos à temperatura ambiente, desde que acondicionados em embalagens de papel e protegidos da luz, umidade e calor excessivo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "De acordo com a página 120 do material, o sangue coletado de pessoa viva em tubo com anticoagulante EDTA deve ser preservado em refrigerador, à temperatura aproximada de 4°C, e não congelado. O congelamento é indicado para fluidos biológicos em estado líquido (como poças de sangue ou sêmen), tecidos moles e pelos.",
+    "referencia": "SimuChacal, simulado 15, questão #948 — Ref: p. 118-122",
+    "_site_id": 948
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as técnicas de captura de realidade, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O laser é uma técnica passiva que funciona emitindo feixes de laser e calculando o seu\ntempo de retorno (tempo de voo) ou diferença de fase de uma onda portadora (lidar).",
+      "B": "Luz estruturada é uma técnica ativa que projeta padrões de luz no objeto de interesse\ne capturam a deformação destes mesmos padrões.",
+      "C": "Os óculos de realidade virtual são utilizados na perícia de local de crime como uma técnica que permite capturar o ambiente e realizar fixação dos vestígios simultaneamente.",
+      "D": "Fotogrametria é uma técnica ativa em que softwares específicos são utilizados para se combinar centenas ou até milhares de fotos de um mesmo local ou objeto de interesse qualquer."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Laser: ativo\nLuz estruturada: ativo\nFotogrametria: passivo",
+    "referencia": "SimuChacal, simulado 15, questão #949 — Ref: 77 a 79",
+    "_site_id": 949
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, o perito encontra um vestígio biológico que, em razão de suas características, não pode ser imediatamente seco. Considerando exclusivamente as recomendações apresentadas no material quanto à preservação do DNA, ao acondicionamento dos vestígios e aos fatores capazes de provocar sua degradação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) O vestígio deve ser acondicionado preferencialmente em embalagem de papel ou papelão, ainda que permaneça úmido, pois materiais permeáveis ao ar são recomendados para todos os vestígios biológicos.",
+      "B": "b) O vestígio que não pode ser seco deve ser acondicionado em recipiente plástico estéril que não vaze e que permita sua refrigeração ou congelamento, evitando-se condições que favoreçam proliferação de microrganismos, exposição à luz, ao calor e a agentes químicos.",
+      "C": "c) A principal preocupação na preservação de vestígios biológicos úmidos é a exposição à luz ultravioleta, sendo a manutenção da umidade recomendável para evitar alterações estruturais do DNA.",
+      "D": "d) O acondicionamento em recipiente plástico hermeticamente fechado é recomendado para qualquer vestígio biológico, independentemente de estar seco ou úmido, pois impede simultaneamente a degradação química e a proliferação microbiana."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material estabelece que a umidade, quando mantida, favorece a proliferação de bactérias e fungos capazes de degradar o DNA. Para vestígios que não podem ser secos, recomenda-se o acondicionamento em recipientes plásticos que não vazem e permitam refrigeração ou congelamento. Também devem ser evitados luz, calor e contato com substâncias químicas. Para vestígios que podem ser secos, a recomendação é distinta: embalagens opacas e permeáveis ao ar, como envelopes, sacos e caixas de papel ou papelão.",
+    "referencia": "SimuChacal, simulado 15, questão #950 — Ref: p.104 e 105",
+    "_site_id": 950
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a coleta de vestígios biológicos em um local de crime, um perito utiliza sucessivamente os mesmos instrumentos para manipular diferentes amostras, sob o argumento de que os materiais serão posteriormente submetidos à desinfecção. Considerando as orientações constantes do material, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "a) A reutilização de luvas, lâminas e demais materiais que entram em contato com vestígios é aceitável quando as amostras pertencem ao mesmo local de crime, desde que os materiais sejam desinfetados ao final da coleta.",
+      "B": "b) A troca de luvas, lâminas de bisturi e tudo aquilo que entrar em contato com o material deve ocorrer sempre que se for manipular outro vestígio, a fim de evitar contaminação entre as amostras.",
+      "C": "c) A troca de luvas é necessária apenas quando houver contato direto com sangue, enquanto lâminas e demais instrumentos podem ser reutilizados entre vestígios após lavagem com água corrente.",
+      "D": "d) A utilização de máscara, touca e luvas descartáveis é recomendada apenas quando houver risco de contaminação do perito, não sendo apresentada no material como medida destinada também a evitar a contaminação dos vestígios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O material ressalta que o perito deve adotar cuidados para não contaminar o vestígio com suas próprias células e para não se contaminar com agentes infecciosos. Entre os cuidados imprescindíveis estão o uso de luvas, máscaras e toucas descartáveis e, especialmente, a troca de luvas, lâminas de bisturi e tudo que entrar em contato com o material sempre que for manipulado outro vestígio.",
+    "referencia": "SimuChacal, simulado 15, questão #951 — Ref: p. 107",
+    "_site_id": 951
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Após uma operação de coleta de vestígios biológicos, determinados materiais permanentes utilizados durante os procedimentos precisam ser preparados para uma futura utilização. Considerando que esses materiais podem entrar novamente em contato com vestígios destinados à análise de DNA, assinale a alternativa que apresenta corretamente a sequência de procedimentos recomendada no material.",
+    "alternativas": {
+      "A": "a) Lavar com água corrente e sabão neutro → deixar imerso em água sanitária por dez minutos → enxaguar com álcool etílico → secar ao ar → embalar para evitar contaminação.",
+      "B": "b) Lavar com sabão neutro e água corrente → deixar imerso em solução de água sanitária comercial, com concentração de cloro ativo entre 2% e 3%, por dez minutos → enxaguar com água corrente e, em seguida, com álcool etílico → secar ao ar, protegido de contaminações, ou em estufa → embalar de modo a mantê-lo limpo até a próxima utilização.",
+      "C": "c) Lavar com sabão neutro e água corrente → imergir em solução de água sanitária por tempo superior a dez minutos para assegurar a eliminação completa do DNA → enxaguar exclusivamente com álcool etílico → secar em estufa → armazenar sem embalagem para evitar umidade.",
+      "D": "d) Lavar com água corrente → imergir em solução de água sanitária comercial → enxaguar com água corrente → utilizar imediatamente, pois a embalagem posterior pode favorecer a retenção de resíduos químicos e comprometer a utilização do material."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A alternativa b reproduz a sequência apresentada no item 15.1.4. O material destaca que, para materiais permanentes destinados à coleta de vestígios que poderão ser submetidos à análise de DNA, não basta eliminar os microrganismos: é necessário eliminar todo o DNA presente no material. A sequência recomendada é: (1) lavagem com sabão neutro e água corrente; (2) imersão em água sanitária comercial, com 2% a 3% de cloro ativo, por dez minutos; (3) enxágue com água corrente e depois álcool etílico; (4) secagem ao ar, protegida de contaminações, ou em estufa; e (5) embalagem para manutenção da limpeza até a próxima utilização. O texto alerta ainda que tempos superiores a dez minutos podem danificar os materiais.",
+    "referencia": "SimuChacal, simulado 15, questão #952 — Ref: p. 107 e 108",
+    "_site_id": 952
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao chegar a um local de crime e assumi-lo formalmente, qual deve ser a postura do perito designado como chefe de equipe, de acordo com as recomendações de processamento?",
+    "alternativas": {
+      "A": "Priorizar a rapidez no recolhimento dos vestígios para minimizar o tempo de isolamento da área.",
+      "B": "Esclarecer aos policiais presentes que a cena está sob controle da perícia e alertá-los que a pressa é uma fonte de erro no processamento.",
+      "C": "Iniciar imediatamente a busca completa por vestígios, sem a necessidade de uma reunião preliminar com a equipe.",
+      "D": "Delegar a responsabilidade do controle da cena ao primeiro policial que chegou ao local, focando apenas nos exames técnicos."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 15, questão #953",
+    "_site_id": 953
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os padrões de busca descritos no texto, qual técnica é caracterizada por ser aplicada em áreas pequenas, com poucas pessoas, iniciando-se na periferia e seguindo em direção ao ponto central?",
+    "alternativas": {
+      "A": "Busca em linha.",
+      "B": "Busca em linha cruzada.",
+      "C": "Busca em espiral.",
+      "D": "Busca por quadrante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 15, questão #954",
+    "_site_id": 954
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Dentre as premissas básicas para a realização de uma busca em local de crime, qual orientação o perito deve seguir em relação à documentação e à metodologia de varredura?",
+    "alternativas": {
+      "A": "A documentação deve ser sucinta, pois o excesso de detalhes pode prejudicar a análise posterior no laudo.",
+      "B": "A busca deve ser conduzida sempre do específico para o geral, focando primeiro nos vestígios já visíveis.",
+      "C": "Um vestígio material nunca é demasiadamente documentado; quanto mais informações forem registradas sobre ele, melhor.",
+      "D": "Em áreas escondidas ou simuladas, a busca deve ser cautelosa e lenta, enquanto nas áreas visíveis deve ser vigorosa."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Gabarito oficial: alternativa C. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 15, questão #955",
+    "_site_id": 955
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "São fenômenos cadavéricos consecutivos citados pela apostila:",
+    "alternativas": {
+      "A": "Habemmus mortis, algor mortis, rigor mortis e sola mortis.",
+      "B": "Algor mortis, algor mortis, rigor mortis e livor mortis.",
+      "C": "Perda da consciência e parada respiratória.",
+      "D": "Interrupção da circulação sanguínea e abolição da sensibilidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A. Habemmus mortis e sola mortis não existem.\nB. Correta\nC. São fenômenos imediatos.\nD. São fenômenos imediatos.",
+    "referencia": "SimuChacal, simulado 15, questão #956 — Ref: p. 169 e 170",
+    "_site_id": 956
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Analise as afirmativas abaixo sobre as técnicas ativas de captura da realidade e assinale a alternativa que contém as verdadeiras:\n\nI - Os escâneres a laser podem ser do tipo estacionário ou cinemático. Os escâneres estacionários funcionam presos a um tripé, enquanto os escâneres cinemáticos funcionam em movimento constante.\nII - A técnica de luz estruturada consegue capturar detalhes melhor que os escâneres a laser.\nIII - Os escâneres a laser do tipo estacionário são mais rápidos de trabalhar que os cinemáticos, porém geram uma nuvem de pontos com qualidade inferior.\nIV - Registro é o processo de unir diferentes pontos de vista capturados por um escâner estacionário, que é sempre realizado em etapa posterior de pós-processamento.",
+    "alternativas": {
+      "A": "Apenas I",
+      "B": "I e IV",
+      "C": "I e II",
+      "D": "I e III"
+    },
+    "resposta_correta": "C",
+    "justificativa": "III - invertido estacionário com cinemático\nIV - Dispositivos mais modernos permitem o registro automático (registro tá em negrito na apostila).",
+    "referencia": "SimuChacal, simulado 15, questão #957 — Ref: 78 e 81",
+    "_site_id": 957
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o fenômeno cadavérico da putrefação, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "A putrefação é um fenômeno consecutivo.",
+      "B": "A putefração é afetada por fatores ambientais e individuais.",
+      "C": "A putrefaçãovnão fornece informações relevantes para o perito de local de crime.",
+      "D": "A putrefação caracteriza-se pelo resfriamento imediato do cadáver."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gabarito oficial: alternativa B. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 15, questão #958 — Ref: p. 170",
+    "_site_id": 958
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso prático dos escâneres a laser no processamento de uma cena de crime, assinale as afirmativas corretas:\n\nI - O escaneamento a laser não permite a reconstrução das trajetórias dos disparos de armas de fogo, para tal finalidade é necessário utilizar fotografias dos orifícios encontrados na cena do crime.\nII - O escaneamento a laser do local do crime dispensa o posicionamento individual de evidências (“amarração”) e mensurações do ambiente no próprio local de crime.\nIII - O escaneamento a laser permite a reconstrução da cena de crime a partir de filmagens de CFTV.\nIV - O escaneamento a laser permite localizar machas de sangue, mas não permite que se determine o ponto no espaço de onde manchas de sangue se originaram.",
+    "alternativas": {
+      "A": "Apenas I",
+      "B": "I e IV",
+      "C": "I e III",
+      "D": "II e III"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Permite fazer tudo isso aí e mais...\nLaser ajuda muito, vai cair na prova tão certo quanto meu nome é Euzin da Silva",
+    "referencia": "SimuChacal, simulado 15, questão #959 — Ref: 82",
+    "_site_id": 959
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "São padrões de busca em locais de crime, EXCETO:",
+    "alternativas": {
+      "A": "Busca em espiral - inicia-se na parte periférica e vai-se contornando a cena até se chegar ao ponto central - geralmente aplicada quando a área a ser pesquisada é pequena e se dispõe de poucas pessoas",
+      "B": "Busca em linha - os profissionais devem estender os braços e se posicionar de modo a ficarem a uma distância de dois braços um do outro - utilizada quando a área a ser coberta é extensa e se dispõe de uma quantidade suficiente de pessoas.",
+      "C": "Busca radial - inicia-se com os profissionais posicionados no epicentro do evento, deslocando-se em direção ao isolamento - utilizada quando os vestígios podem ter se deslocado à partir do epicentro, devido à natureza do evento",
+      "D": "Busca por quadrante - Divide-se a cena de crime em quadrantes e realizar uma busca em cada um. Dependendo da situação, pode ser interessante aplicar uma outra metodologia de busca dentro de cada quadrante."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Letra C - Viagem entre busca de local de crime e busca em local de explosão!\nAlternativas A, B e D, literalidade do material.",
+    "referencia": "SimuChacal, simulado 15, questão #960 — Ref: pags. 34 e 35",
+    "_site_id": 960
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No modo automático com prioridade do obturador (S), utilizado em câmeras fotográficas, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "O fotógrafo escolhe a abertura do diafragma, e a máquina calcula o tempo de exposição correspondente.",
+      "B": "O fotógrafo escolhe o tempo de exposição (velocidade do obturador), e a máquina calcula a abertura do diafragma correspondente.",
+      "C": "O fotógrafo ajusta manualmente tanto a abertura quanto o tempo de exposição.",
+      "D": "A máquina determina automaticamente tanto a velocidade do obturador quanto a abertura."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Página 68. O material afirma literalmente: “o fotógrafo escolhe o tempo de exposição (velocidade do obturador) e a máquina calcula a abertura do diafragma correspondente.”",
+    "referencia": "SimuChacal, simulado 15, questão #961 — Ref: 68",
+    "_site_id": 961
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com as características técnicas desejáveis para o registro fotográfico realizado pelo perito, assinale a alternativa que NÃO corresponde a uma recomendação apresentada no material:",
+    "alternativas": {
+      "A": "Adequação técnica.",
+      "B": "Contextualização e sequência lógica das imagens.",
+      "C": "Escolha da melhor técnica, iluminação e perspectiva.",
+      "D": "Redução do número de fotografias ao mínimo possível, evitando registros repetidos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Página 71. O material recomenda que não se economize no número de fotografias e destaca a importância de registrar adequadamente os vestígios.",
+    "referencia": "SimuChacal, simulado 15, questão #962 — Ref: 71",
+    "_site_id": 962
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "No modo manual (M) da câmera fotográfica, conforme o material, assinale a alternativa correta:",
+    "alternativas": {
+      "A": "O fotógrafo escolhe apenas o tempo de exposição, enquanto a máquina calcula automaticamente a abertura do diafragma.",
+      "B": "O fotógrafo escolhe apenas a abertura do diafragma, enquanto a máquina calcula automaticamente o tempo de exposição.",
+      "C": "O fotógrafo pode ajustar manualmente tanto a abertura do diafragma quanto o tempo de exposição.",
+      "D": "O modo manual permite apenas manter o obturador aberto por tempo indefinido."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Página 69. O material informa que, no modo manual, “o fotógrafo pode ajustar manualmente tanto a abertura do diafragma como o tempo de exposição (velocidade do obturador)”.",
+    "referencia": "SimuChacal, simulado 15, questão #963 — Ref: 69",
+    "_site_id": 963
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as premissas básicas para a realização de uma busca, julgue os itens a seguir:\n\nI - um vestígio material nunca pode ser demasiadamente documentado;\n\nII - conduza a busca do geral para o específico;\n\nIII - no caso de necessidade, sempre existe uma segunda chance de processar o local de maneira adequada;\n\nIV - proceda a uma busca cautelosa nas áreas visíveis de modo a evitar perda ou contaminação de vestígios;\n\nV - promova uma busca vigorosa por áreas escondidas/dissimuladas.\n\nEstão corretas as alternativas:",
+    "alternativas": {
+      "A": "II, III, IV e V",
+      "B": "I, II, IV e V",
+      "C": "Todas as alternativas estao corretas",
+      "D": "I, II, III e IV"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A III está errada, porque, de acordo com a apostila:\n\n- Só existe uma chance de processar o local de maneira adequada;",
+    "referencia": "SimuChacal, simulado 15, questão #964 — Ref: item 4.3.5.1",
+    "_site_id": 964
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "A interpretacdo correta dos fenémenos cadavéricos permite:",
+    "alternativas": {
+      "A": "Estimar o intervalo pós-morte.",
+      "B": "Estabelecer com exatidão a data da morte.",
+      "C": "Confirmar autoria de forma definitiva.",
+      "D": "Determinar o instrumento utilizado no crime."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gabarito oficial: alternativa A. (Sem comentário do colaborador na fonte.)",
+    "referencia": "SimuChacal, simulado 15, questão #965 — Ref: p. 171",
+    "_site_id": 965
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre coletas e amostras, julgue os itens a seguir:\n\nI - Para agilizar o exame do local, os vestígios devem ser coletados assim que encontrados.\nII - Mesmo os vestígios coletados pelo Perito deverão ser deixados a cargo do delegado para proceder à apreensão.\nIII - Quando o vestígio a ser coletado estiver impregnado ou depositado em um suporte, e ele não puder ser totalmente encaminhado para análises, o Perito deve coletar, além da amostra do vestígio, uma amostra de controle, ou amostra padrão.\n\nEstão corretas:",
+    "alternativas": {
+      "A": "1 alternativa",
+      "B": "2 alternativas",
+      "C": "3 alternativas",
+      "D": "nenhuma alternativa"
+    },
+    "resposta_correta": "A",
+    "justificativa": "I - ERRADA - segundo o material: \"Somente depois que cada vestígio encontrado tiver sido posicionado, fotografado e, se possível, descrito, é que se procederá à sua coleta.\"\n\nII - ERRADA - de acordo com o material: \"Alguns vestígios serão coletados e levados pelo próprio perito, (...). Outros vestígios serão fotografados e discriminados na documentação, mas serão deixados a cargo do delegado para proceder à apreensão.\"\n\nIII - CERTA - segundo o item 4.4.2 Amostras padrão ou controle: \"Este é um procedimento que deve ser realizado quando o vestígio a ser coletado estiver impregnado ou depositado em um suporte, e ele não puder ser totalmente encaminhado para análises (...) deve ser providenciada uma amostra (...) denominada de amostra controle, ou amostra padrão.\"",
+    "referencia": "SimuChacal, simulado 15, questão #966 — Ref: item 4.4, págs. 36 e 37",
+    "_site_id": 966
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cuidados necessários na perícia em locais de crime contra o patrimônio, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "A versão de arrombamento apresentada por testemunhas deve ser confirmada pela presença de vestígios materiais.",
+      "B": "A observação do modus operandi pode auxiliar na identificação de autoria em diferentes casos.",
+      "C": "É necessário considerar rotas alternativas de acesso e fuga durante a análise.",
+      "D": "O perito deve aceitar integralmente os depoimentos das testemunhas, sem necessidade de confrontá-los com vestígios materiais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O material reforça a importância da imparcialidade e da comprovação técnica dos fatos, evitando que a perícia se baseie apenas em relatos subjetivos.",
+    "referencia": "SimuChacal, simulado 15, questão #967 — Ref: 149",
+    "_site_id": 967
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA quanto aos vestígios que podem ser encontrados em locais de roubo (assalto):",
+    "alternativas": {
+      "A": "Impressões digitais.",
+      "B": "Pegadas.",
+      "C": "Objetos abandonados.",
+      "D": "Arma de fogo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pela prépria natureza desse tipo de crime, é comum que não se encontrem muitos vestigios no local. De qualquer forma, possiveis vestigios que devem ser levados em conta incluem os seguintes:\n- móveis e objetos desalinhados;\n- impressões digitais;\n- pegadas;\n- vestigios biológicos (sangue, suor, cabelos efc.);\n- objetos abandonados;\n- cartuchos deflagrados;\n- imagens filmadas por circuito interno de seguranca, quando disponiveis;\n- cameras de CFTV das edificagdes vizinhas e câmeras de videomonitoramento urbano.",
+    "referencia": "SimuChacal, simulado 15, questão #968 — Ref: 149",
+    "_site_id": 968
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a análise pericial de vidros quebrados em locais de crime, diferentes tipos de rupturas podem ser observados.\nAssinale a alternativa correta sobre os vestígios que permitem identificar o ponto de impacto e a direção do disparo.",
+    "alternativas": {
+      "A": "As rupturas concêntricas se irradiam em linhas a partir do ponto de impacto, não estão sempre presentes em vidraças quebradas. São mais comuns em vidros laminados de maior flexibilidade, como os vidros de automéveis. Encontram-se normalmente no mesmo lado da superficie do vidro em que ocorreu o impacto;",
+      "B": "As rupturas radiais formam círculos ao redor do ponto de impacto",
+      "C": "fragmentos: em geral, encontram-se do mesmo lado do ponto de impacto efetuado em portas e janelas por ocasido do arrombamento;",
+      "D": "cone de transfixação: no caso de impactos em alta velocidade e alta energia (ex.: pedras arremessadas, disparos de arma de fogo), forma-se uma abertura maior na superficie oposta à superficie do choque sobre o vidro;"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Resultam do impacto, sobre superfícies de vidro, de qualquer objeto sólido o suficiente para promover o dano. Os seguintes indícios podem ser observados:\n\nFragmentos: em geral, encontram-se do lado oposto ao ponto de impacto efetuado em portas e janelas por ocasião do arrombamento.\n\nCone de transfixação: no caso de impactos em alta velocidade e alta energia (ex.: pedras arremessadas, disparos de arma de fogo), forma-se uma abertura maior na superfície oposta à superfície do choque sobre o vidro.\n\nRupturas radiais: fraturas que se originam no ponto de impacto inicial e se prolongam radialmente na superfície do vidro oposta à colisão.\n\nRupturas concêntricas: essas fraturas não estão sempre presentes em vidraças quebradas. São mais comuns em vidros laminados de maior flexibilidade, como os vidros de automóveis. Encontram-se normalmente no mesmo lado da superfície do vidro em que ocorreu o impacto.",
+    "referencia": "SimuChacal, simulado 15, questão #969 — Ref: 150",
+    "_site_id": 969
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso de hash e compressão na perícia, assinale a afirmação correta",
+    "alternativas": {
+      "A": "Se o perito necessitar encaminhar em anexo ao laudo uma pasta contendo muitos arquivos de mídias, é procedimento padrão inserir os hashes de cada arquivo no laudo, para garantir que os anexos estão íntegros.",
+      "B": "A função hash é um algoritmo que, a partir de uma entrada, gera saídas de forma estocástica.",
+      "C": "A função hash é um algoritmo que, a partir de uma entrada, gera sempre uma mesma saída, que terá comprimento dependente do tamanho da entrada fornecida.",
+      "D": "Se o perito necessitar encaminhar em anexo ao laudo uma pasta contendo muitos arquivos de mídia, pode ser inviável inserir no laudo uma tabela com o hash de todos eles, tendo como alternativa colocá-los numa pasta e gerar um arquivo .txt com a relação dos hashes de cada um desses arquivos, para posteriormente calcular o hash desse arquivo .txt e este sim consignar no laudo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "a) errado, não se insere lista de hashes no laudo. O padrão é criar um arquivo txt com as hashes de cada arquivo, depois gerar o hash desse arquivo txt e inserir no laudo apenas a hash final.\n\nb) Hash usa algoritmo determinístico. Toda vez que uma mesma entrada for dada, a mesma saída será gerada.\n\nc) Errado. A saída é sempre do mesmo tamanho, independentemente do tamanho da entrada. SHA 256 a saída é sempre de 256 bits.\n\nd) correta. Pag 75 da apostila.",
+    "referencia": "SimuChacal, simulado 15, questão #970",
+    "_site_id": 970
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre formatos de arquivos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O JPEG/JPG é o mais comum para fotografia, comprimindo bastante o arquivo, perdendo um pouco da qualidade, mas gera arquivos leves.",
+      "B": "Ao contrário de outros formatos de imagem, a cada salvamento de arquivo JPEG não ocorre nova compressão da imagem, o que causaria perda cumulativa de qualidade.",
+      "C": "O formato TIFF apresenta arquivos com alta compressão, não sendo recomendado para profissionais que trabalham com impressões ou edições de alta qualidade.",
+      "D": "Arquivos do tipo RAW são recomendados quando não há interesse no pós-processamento da imagem."
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) correta. Literalidade apostila Pag 75.\n\nb) errada. Ocorre nova compressão da imagem, causando perda cumulativa de qualidade.\n\nc) errado. TIFF gera arquivos pesados e é recomendado para esses profissionais, porque preserva detalhes.\n\nd) errado. RAW é o arquivo bruto gerado pela câmera preservando dados originais de luz e cor semprocessamento/compressão/perda.\nPor isso, fotógrafos usam esse formato para fazer o pós-processamento da imagem depois, balanceando as cores... Gera arquivos pesados pela alta qualidade. São extensões de arquivo exclusivas de cada fabricante (Nikon, sony, canon...), precisa de software específico para editar/abrir.",
+    "referencia": "SimuChacal, simulado 15, questão #971",
+    "_site_id": 971
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre captura de imagens em locais de interesse e documentação dos itens capturados, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Quando se realiza registros fotográficos durante a perícia, mesmo que as imagens não sejam inseridas no laudo, não devem ser descartadas. Sendo recomendado que sejam arquivadas no computador do perito ou na pasta de rede.",
+      "B": "Capturas da realidade na forma passiva é a fotografia do local utilizando emissão de laser ou padrões de luz emitidos pelo próprio equipamento.",
+      "C": "Uma forma de captura ativa é a criação de passeios virtuais, com fotos 360°, semelhantes ao Google Street View.",
+      "D": "A fotogrametria é uma técnica de captura ativa que combina centenas ou até milhares de fotos de um mesmo local, gerando modelos 2D ou 3D."
+    },
+    "resposta_correta": "A",
+    "justificativa": "a) correta. Literalidade apostila Pag. 75 (Dossiê de imagens...)\n\nb) errada. A captura passiva precisa de luz no local, podendo ser luz natural ou de outras fontes, mas o laser do próprio equipamento é uma captura ativa.\n\nc) errada. Passeio virtual (fotos 360°) é uma forma de captura passiva, assim como fotogrametria.\n\nd) errada. A descrição da técnica está correta, mas se trata de uma técnica de captura passiva, assim como o passeio virtual.",
+    "referencia": "SimuChacal, simulado 15, questão #972",
+    "_site_id": 972
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caderno consigna que, no ambiente imediato, procede-se ao exame cuidadoso de todos os detalhes, presumindo-se que o local tenha sido convenientemente preservado desde o comparecimento do primeiro policial. Acerca do alcance dessa presunção e da relação entre os ambientes imediato e mediato, é correto afirmar que:",
+    "alternativas": {
+      "A": "A presunção de conveniente preservação retroage à prática do delito, de modo que eventuais alterações produzidas antes da chegada do primeiro policial não comprometem o exame minucioso do ambiente imediato",
+      "B": "A presunção de conveniente preservação tem por marco o comparecimento do primeiro policial, e o exame cuidadoso de todos os detalhes se dá no ambiente imediato",
+      "C": "A continuidade geográfica entre os dois ambientes impõe que os esforços de isolamento sejam distribuídos igualmente entre imediato e mediato, sob pena de contaminação recíproca das áreas",
+      "D": "O exame cuidadoso de todos os detalhes alcança primeiramente o ambiente mediato, por ser a área intermediária entre o local onde ocorreu o fato e o grande ambiente exterior"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O texto ancora a presunção no comparecimento do primeiro policial, não na prática do delito, situa no ambiente imediato o exame cuidadoso de todos os detalhes e manda concentrar nele os esforços de isolamento, ressalvando que em diversos casos deve haver preocupação também com o mediato.\nA) estende a presunção para trás do marco fixado, justamente o intervalo que presunção alguma cobre.\nC) parte de uma afirmação verdadeira (a continuidade geográfica existe) para extrair dela uma equalização de esforços que o texto nega.\nD) inverte a ordem do exame e cria uma divisão de etapas entre os ambientes que o caderno não estabelece.",
+    "referencia": "SimuChacal, simulado 15, questão #973 — Ref: 23",
+    "_site_id": 973
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Um policial militar é o primeiro a chegar a uma cena de crime. Minutos depois chega o primeiro policial federal, que encontra a área sem qualquer delimitação física e uma vítima com sangramento ativo. À luz do caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "Por já estar a cena sob a responsabilidade da corporação que chegou primeiro, cabe ao policial federal preservar o estado em que a encontrou, limitando-se a registrar a ausência de delimitação física para consignação posterior pela perícia no laudo.",
+      "B": "Sendo policiais militares e bombeiros os que usualmente chegam primeiro, e devendo eles já possuir certo tipo de conhecimento sobre isolamento e preservação de áreas de crime, as providências padrões incumbem ao agente de maior graduação entre os presentes.",
+      "C": "Cabe ao policial federal providenciar a delimitação física ainda ausente e obter com o primeiro agente informações sobre o local, ressalvado que a presença da vítima altera o procedimento inicial, cuja principal medida passa a ser o socorro.",
+      "D": "A existência de vítima com sangramento ativo dispensa momentaneamente o isolamento da área, que somente será providenciado após a remoção e a estabilização hospitalar, quando cessada a urgência médica e afastada a imputação de omissão de socorro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Assim que o primeiro policial federal chega, ele deve realizar procedimentos padrões — verificar as condições do isolamento, providenciar a delimitação física caso ainda não tenha sido feita, estabelecer contato com aqueles primeiros agentes obtendo o maior número possível de informações e procurar identificar pessoas que possuam algum conhecimento sobre o fato. Havendo vítimas, a presença delas altera o procedimento inicial de isolamento, pois a principal medida é providenciar socorro.\n\nA) transfere ao agente anterior uma providência que o caderno atribui ao policial federal recém-chegado.\nB) encadeia duas afirmações verdadeiras do texto para concluir o que ele nega expressamente: independentemente do cargo do primeiro policial, essas providências devem sempre ser tomadas.\nD) confunde alterar o procedimento inicial com dispensar o isolamento — o socorro passa à frente, a preservação não é suprimida.",
+    "referencia": "SimuChacal, simulado 15, questão #974",
+    "_site_id": 974
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em local de crime de grande repercussão, com presença intensa de profissionais de imprensa, a equipe precisa definir como se relacionar com eles. Conforme o caderno, é correto afirmar que:",
+    "alternativas": {
+      "A": "Cada policial presente pode prestar declarações sobre o que presenciou, desde que as apresente expressamente como opinião pessoal e não como posição institucional, preservando-se assim a versão oficial da investigação e a unidade do discurso da polícia.",
+      "B": "Deve haver um policial à disposição da imprensa, sendo apenas ele o porta-voz do grupo, e todos devem evitar falar sobre as hipóteses do crime, admitindo-se, com muito critério, pedir ajuda à imprensa para divulgar fatos que contribuam para as investigações.",
+      "C": "As hipóteses iniciais podem ser compartilhadas com a imprensa desde que acompanhadas de advertência quanto à sua provisoriedade, já que serão descartadas à luz dos novos conhecimentos obtidos e o resultado da perícia poderá levar alguns dias para sair.",
+      "D": "A atuação da imprensa no local deve ser integralmente obstada até a liberação da cena, pois o caso da escola paulistana demonstra que a divulgação jornalística de fatos é, em si mesma, incompatível com a apuração da verdade e com a proteção de terceiros."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Em locais de grande repercussão, um policial deve ficar à disposição da imprensa e apenas ele ser o porta-voz do grupo; todos devem evitar falar sobre as hipóteses do crime; e é possível solicitar a ajuda da imprensa para a divulgação de certos fatos que contribuam para o andamento das investigações, com muito critério, pois não se pode prever o impacto da informação no seio da sociedade.\nA) contraria frontalmente o texto: a palavra de um policial não é sua opinião pessoal, é vista como o ponto de vista da polícia — e ainda rompe a regra do porta-voz único.\nC) admite exatamente o que o caderno manda evitar: hipóteses informadas à imprensa ainda no local podem ser divulgadas, atrapalhando a investigação e até colocando pessoas em risco.\nD) extrapola o exemplo da escola paulistana, que serve apenas para mostrar o cuidado ao emitir opiniões, e ignora que o próprio texto admite a colaboração da imprensa, devendo ela ser tratada com ética e profissionalismo.",
+    "referencia": "SimuChacal, simulado 15, questão #975",
+    "_site_id": 975
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante da iminência de forte tempestade, a equipe identifica uma pegada na areia em local ainda não processado pela perícia e não dispõe de meio para cobrir o vestígio. Considerando o caderno e o art. 169 do CPP nele transcrito, é correto afirmar que:",
+    "alternativas": {
+      "A": "Os policiais devem abster-se de qualquer intervenção sobre a cena, pois o art. 169 determina que não se altere o estado das coisas até a chegada dos peritos, sendo a perda do vestígio consequência inerente ao dever de inalterabilidade do local.",
+      "B": "Os policiais devem documentar a cena e ampliar ao máximo a área isolada, aplicando-se às intempéries climáticas e às dificuldades estruturais a mesma regra prática que o caderno estabelece para a delimitação do perímetro do local de crime.",
+      "C": "Os policiais devem coletar o vestígio de imediato e por qualquer meio disponível, pois o material coletado inadequadamente é sempre preferível ao não coletado, incumbindo ao perito discutir no laudo as consequências da coleta para a dinâmica dos fatos.",
+      "D": "Os policiais devem fotografar, medir e mesmo desenhar um croqui, prevalecendo o bom senso, e os peritos registrarão no laudo as alterações do estado das coisas, discutindo no relatório as consequências dessas alterações na dinâmica dos fatos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Não sendo possível cobrir o vestígio, os policiais devem tirar fotografias, realizar medições e mesmo procurar desenhar um croqui, pois a escolha será entre o vestígio coletado inadequadamente e aquele não coletado, prevalecendo nesses casos o bom senso; e o parágrafo único do art. 169 reparte com precisão os instrumentos — os peritos registrarão no laudo as alterações do estado das coisas e discutirão no relatório as consequências dessas alterações na dinâmica dos fatos.\nA) transforma o caput do art. 169, dirigido à autoridade para que providencie a não alteração do estado das coisas, em vedação de qualquer documentação, quando o próprio dispositivo prevê que os laudos podem ser instruídos com fotografias, desenhos ou esquemas elucidativos.\nB) importa para as intempéries a regra da maior área possível, que o caderno enuncia para a delimitação do perímetro (p. 24), ignorando que, para as dificuldades estruturais, o texto afirma expressamente não haver regra prática clara, prevalecendo o bom senso, o diálogo e a capacidade de ouvir as corporações e os serviços envolvidos.\nC) converte em preferência categórica o que o caderno deixa ao bom senso e inverte a repartição do art. 169, pondo no laudo a discussão que o parágrafo único destina ao relatório.",
+    "referencia": "SimuChacal, simulado 15, questão #976",
+    "_site_id": 976
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "De acordo com o material didático sobre o processo de DVI (identificação de vítimas de desastre).\nEm qual das etapas é realizada a entrevistas com familiares e amigos de pessoas desaparecidas?",
+    "alternativas": {
+      "A": "Etapa PM (Pós Mortem)",
+      "B": "Etapa AM (Ante Mortem)",
+      "C": "Etapa de Reconciliação",
+      "D": "Etapa de Revisão/Preparação"
+    },
+    "resposta_correta": "B",
+    "justificativa": "\"A coleta de dados AM ocorre por duas frentes principais. A primeira consiste na realização de entrevistas com familiares e amigos, visando obter informações sobre características gerais do desaparecido, tais como sexo, idade, estatura...\"",
+    "referencia": "SimuChacal, simulado 15, questão #980 — Ref: Pg. 183",
+    "_site_id": 980
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "A atuação pericia em DVI, na etapa de POS MORTEM, ocorre a:",
+    "alternativas": {
+      "A": "Realização de entrevistas com familiares e amigos, visando obter informações sobre características gerais do desaparecido.",
+      "B": "Remoção dos corpos e vestígios de corpo do local do desastre de forma ordenada.",
+      "C": "Realização de exame sistemático dos corpos e dos vestígios coletados, com o objetivo de coletar dados técnicos confiáveis para posterior confronto",
+      "D": "Confronto de informações referenciais sobre as pessoas desaparecidas com aquelas colhidas nos exames dos remanescentes humanos."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A etapa post mortem (PM) integra o processo DVI e tem como finalidade o\nexame sistemático dos corpos e dos vestígios coletados, com o objetivo de coletar\ndados técnicos confiáveis para posterior confronto com as informações.\nA- Etapa AM\nB- Etapa de busca e recuperação dos corpos\nD - Etapa de confronto e reconciliação",
+    "referencia": "SimuChacal, simulado 15, questão #981 — Ref: Pg.182",
+    "_site_id": 981
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Julgue as afirmações a seguir acerca de DVI:\n\nI - Os métodos de identificação usados em casos de desastres devem, idealmente, atender aos seguintes requisitos: possuir base científica; serem confiáveis\ne precisos; ter aplicabilidade sob condições de campo, mesmo na ausência de\nequipamentos ou instalações especiais; e ter capacidade de identificar a vítima, independente do prazo.\nII - Consideram-se como métodos capazes de identificar um corpo, também chamados de métodos primários: impressões digitais (papiloscopia), exame odontológico e exame de DNA. Sendo necessário o resultado positivo em pelo menos 2 para considerar o corpo identificado\nIII - São considerados métodos secundérios: dados médicos, antropologia forense, vestes e pertences e fotografias, entre outros. Entretanto, estes meios de identificação, dependendo do contexto, podem ser suficientes como Único meio de identificação.\nIV - O reconhecimento visual por familiares ou testemunhas não é considerado procedimento de identificação, por não possuir base técnico-cientifica, sendo contraindicado em um cenário DVI.\n\nEstão corretas as afirmações",
+    "alternativas": {
+      "A": "I, II, IV",
+      "B": "I, III, IV",
+      "C": "I, II, III e IV",
+      "D": "III e IV"
+    },
+    "resposta_correta": "D",
+    "justificativa": "I - errado. O reconhecimento precisa ocorrer dentro de um período razoável\nII - errado. O resultado positivo em apenas um método é suficiente para considerar o corpo identificado.",
+    "referencia": "SimuChacal, simulado 15, questão #982 — Ref: Pg. 185",
+    "_site_id": 982
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os peritos devem ter o cuidado de anotar e fotografar as manchas em sua forma original.\nEm situações em que o sangue ainda está em estado líquido, é preciso que esse exame seja registrado antes de se movimentar o corpo.\nDiante desta afirmativa julgue os itens a seguir:\nI - Os vestígios, como manchas diversas, pelos depositados, fibras, minerais, terra, areia, detritos, material orgânico, podem ser encontrados no cadáver.\nII - O material normalmente presente nas unhas, mãos e órgãos genitais da vítima pode oferecer pistas para a identificação do agressor.\nIII - Observar se anéis, alianças, brincos, relógios, etc. foram retirados da vítima.\nIV - O corpo deve ser examinado retirando imediatamente suas vestes, a fim de não se perder as possíveis lesões por baixo das roupas.\nQuantas alternativas estão corretas?",
+    "alternativas": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "resposta_correta": "C",
+    "justificativa": "I - Os vestígios, como manchas diversas, pelos depositados, fibras, minerais, terra, areia, detritos, material orgânico, podem ser encontrados no cadáver. LITERAL\nII - O material normalmente presente nas unhas, mãos e órgãos genitais da vítima pode oferecer pistas para a identificação do agressor. LITERAL\nIII - Observar se anéis, alianças, brincos, relógios, etc. foram retirados da vítima. LITERAL\nIV - O corpo deve ser examinado inicialmente com as vestes, a fim de não se arriscar descaracterizar algum outro vestígio, tais como escorrimentos e demais manchas de sangue.",
+    "referencia": "SimuChacal, simulado 15, questão #983 — Ref: 158",
+    "_site_id": 983
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre Tipos de lesões e instrumentos causadores pode-se afirmar que a lesão que geralmente causa escoriações, equimoses, sugilações, rubefação, hematoma e fratura são geralmente causadas por:",
+    "alternativas": {
+      "A": "Instrumentos contundentes",
+      "B": "Instrumentos cortantes",
+      "C": "Instrumentos perfurocortantes",
+      "D": "Instrumentos corto-contundentes"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Escoriações, equimoses, sugilações, rubefação, hematoma e fratura são geralmente causadas por instrumentos contudentes",
+    "referencia": "SimuChacal, simulado 15, questão #984 — Ref: 159-161",
+    "_site_id": 984
+  },
+  {
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Simula Chacal",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como exemplos principais, temos facas, lâminas de barbear, pedaços de vidro, navalhas, bisturis, etc.\n- Tipo de Lesão: feridas incisas\n- As características gerais destas lesões são:\n- bordas regulares, lisas e nítidas, geralmente sangrantes;\n- maior extensão de comprimento que de profundidade;\n- centro da ferida geralmente mais profundo que as extremidades;\n- início da lesão mais profunda e curta, e fim mais longo e superficial;\n- “cauda de saída” ou “cauda de escoriação”.\nDiante das características apresentadas, é possível afirmar o texto refere-se a:",
+    "alternativas": {
+      "A": "Instrumentos cortantes",
+      "B": "Instrumentos contundentes",
+      "C": "Instrumentos perfurocortantes",
+      "D": "Instrumentos corto-contundentes"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Instrumentos cortantes",
+    "referencia": "SimuChacal, simulado 15, questão #985",
+    "_site_id": 985
+  }
+]
