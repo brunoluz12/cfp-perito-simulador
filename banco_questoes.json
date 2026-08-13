@@ -47122,5 +47122,787 @@
     "resposta_correta": "A",
     "justificativa": "Instrumentos cortantes",
     "referencia": "SimuChacal, simulado 15, questão #985"
+  },
+  {
+    "id": 3116,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de microvestígios em itens ou áreas, o emprego de pinças (ou similares) é indicado para:",
+    "alternativas": {
+      "A": "material particulado visível, como fibras e fragmentos",
+      "B": "materiais soltos ou aderidos, inclusive incrustados",
+      "C": "área extensa, com vestígios em fendas ou pouco acessíveis",
+      "D": "microvestígios superficiais, sobretudo partículas leves"
+    },
+    "resposta_correta": "A",
+    "justificativa": "As pinças são indicadas para materiais particulados visíveis: fibras, fragmentos, cabelos e partículas diversas. Os materiais soltos ou aderidos cabem à raspagem; a área extensa com vestígios pouco acessíveis, à varredura a vácuo; os microvestígios superficiais e as partículas leves, ao levantamento com fita adesiva.",
+    "referencia": "PDF LOC, p. 138",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3117,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O levantamento com fita adesiva destina-se, segundo o caderno, à coleta de:",
+    "alternativas": {
+      "A": "materiais aderidos ou incrustados na superfície do item examinado",
+      "B": "microvestígios superficiais, como fibras e partículas leves",
+      "C": "partículas alojadas em fendas e superfícies irregulares",
+      "D": "vestígios cujo suporte inteiro possa ser destacado por corte"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A fita adesiva recolhe microvestígios superficiais, em especial fibras e partículas leves. Os materiais aderidos ou incrustados cabem à raspagem (espátula ou lâmina de bisturi); as partículas em fendas e superfícies irregulares, à varredura a vácuo; o suporte destacado por corte, ao recorte da área de interesse.",
+    "referencia": "PDF LOC, p. 138",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3118,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A raspagem é indicada, no caderno, para a coleta de:",
+    "alternativas": {
+      "A": "material particulado visível, como cabelos e fragmentos",
+      "B": "partículas alojadas em fendas ou superfícies irregulares",
+      "C": "materiais soltos ou aderidos à superfície do item",
+      "D": "fibras e partículas leves apenas depositadas sobre o suporte"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A raspagem alcança materiais soltos ou aderidos à superfície. O material particulado visível cabe às pinças; as partículas em fendas ou superfícies irregulares, à varredura a vácuo; as fibras e partículas leves apenas depositadas, ao levantamento com fita adesiva.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3119,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O recorte da área de interesse é apontado como recurso especialmente aplicável a:",
+    "alternativas": {
+      "A": "áreas extensas com grande quantidade de detritos",
+      "B": "materiais incrustados, que exigem lâmina de bisturi",
+      "C": "tintas e polímeros, incompatíveis com o adesivo",
+      "D": "tecidos, preservando o vestígio em seu contexto"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O recorte é citado especialmente para materiais como tecidos, preservando o vestígio no contexto original e reduzindo manipulações diretas. As áreas extensas com muitos detritos remetem à varredura a vácuo; os materiais incrustados, à raspagem com lâmina de bisturi; as tintas e polímeros são a restrição da fita adesiva.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3120,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A varredura a vácuo (aspiração com filtro) é utilizada principalmente quando:",
+    "alternativas": {
+      "A": "já decorreu tempo significativo desde o evento",
+      "B": "o vestígio está visível e exige coleta direcionada",
+      "C": "o suporte é um tecido do qual se possa recortar um trecho",
+      "D": "o material é particulado e pode ser preso com pinça"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre as quatro situações listadas para a aspiração está o decurso de tempo significativo desde o evento — além de área extensa, vestígios pouco acessíveis e partículas em fendas ou superfícies irregulares. O vestígio visível pede coleta direcionada, e não abrangente; o tecido do qual se recorta um trecho remete ao recorte; o material preso com pinça, às pinças.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3121,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A recomendação de empregar a varredura a vácuo somente após as demais técnicas de coleta justifica-se porque esse método:",
+    "alternativas": {
+      "A": "faz o adesivo interagir com o vestígio, alterando sua composição",
+      "B": "é menos seletivo e recolhe muito material estranho ao interesse",
+      "C": "exige pressão sobre o suporte e altera a morfologia da evidência",
+      "D": "remove o suporte inteiro, impedindo o exame do contexto original"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A aspiração é método menos seletivo, podendo recolher grande quantidade de material estranho; por isso deve vir depois das técnicas mais direcionadas. A interação do adesivo com o vestígio é a restrição da fita quanto a tintas e polímeros; a pressão que altera a morfologia é o cuidado das pinças; e a remoção do suporte inteiro, ao contrário do que se afirma, preserva o contexto.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3122,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caderno desaconselha o uso de adesivos na coleta de:",
+    "alternativas": {
+      "A": "fibras e partículas leves depositadas na superfície",
+      "B": "cabelos claros misturados a detritos no substrato",
+      "C": "tintas ou polímeros, pela interação química",
+      "D": "fragmentos de vidro e partículas refletivas de glitter"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Não se recomenda adesivo para tintas ou polímeros, pois pode interagir com o vestígio e alterar suas características químicas. As fibras e partículas leves são justamente a indicação da fita; os cabelos claros em meio a detritos remetem aos fundos contrastantes; o vidro e o glitter, à iluminação oblíqua.",
+    "referencia": "PDF LOC, p. 138",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3123,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na raspagem, a lâmina de bisturi ou instrumento similar destina-se a:",
+    "alternativas": {
+      "A": "material solto sobre o suporte, sem aderência a ele",
+      "B": "partículas leves apenas depositadas sobre a superfície",
+      "C": "tecidos, cujo trecho de interesse é destacado por recorte",
+      "D": "materiais aderidos ou incrustados no suporte"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Dentro da própria raspagem, a espátula serve ao material solto e a lâmina de bisturi aos materiais aderidos ou incrustados. As partículas leves apenas depositadas cabem à fita adesiva; o trecho de tecido destacado, ao recorte da área de interesse.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3124,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O cuidado de não aplicar pressão excessiva, sob pena de danificar ou alterar a morfologia da evidência, refere-se ao uso de:",
+    "alternativas": {
+      "A": "pinças na coleta de material particulado",
+      "B": "espátula na raspagem de material solto",
+      "C": "fita adesiva sobre superfícies porosas",
+      "D": "filtro na varredura a vácuo de áreas amplas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O alerta quanto à pressão excessiva é feito para as pinças. A raspagem tem cautela quanto a perda de material e contaminação; a fita tem restrição quanto a tintas e polímeros; a aspiração exige filtros novos e equipamento limpo.",
+    "referencia": "PDF LOC, p. 138",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3125,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Concluído o levantamento com fita adesiva, o caderno determina que os levantadores sejam:",
+    "alternativas": {
+      "A": "secos ao ar antes de qualquer acondicionamento",
+      "B": "fixados em superfícies transparentes antes do envelope",
+      "C": "embrulhados em papel e postos entre pedaços de papelão limpo",
+      "D": "perfurados no lacre para permitir a circulação de ar"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os levantadores devem ser acondicionados de forma a permitir visualização, recuperação e preservação — por exemplo, fixando-os em superfícies transparentes antes do armazenamento em envelopes. Secar ao ar é a regra dos itens molhados; embrulhar em papel e pôr entre papelão é o cuidado com evidências frágeis; perfurar o lacre é o regime dos itens que não podem ser secos.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3126,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O envio ao laboratório de uma amostra do próprio material empregado na coleta, a título de padrão, tem por finalidade:",
+    "alternativas": {
+      "A": "demonstrar que os filtros utilizados eram novos e limpos",
+      "B": "resguardar a numeração individualizada do vestígio",
+      "C": "permitir avaliar interferências do suporte na análise",
+      "D": "comprovar a limpeza das superfícies de trabalho"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Recomenda-se enviar amostra do material adesivo empregado no levantamento, a título de padrão, para avaliar eventuais interferências do suporte na análise dos vestígios. A numeração individualizada é função da embalagem de segurança; os filtros novos e a limpeza das superfícies de trabalho são cuidados de outras etapas.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3127,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale o cuidado que o caderno associa expressamente à varredura a vácuo:",
+    "alternativas": {
+      "A": "trocar as luvas entre a manipulação de itens diferentes na cena",
+      "B": "proteger as bordas dos rolos antes do emprego em campo",
+      "C": "evitar dobrar o item para não obliterar a impressão",
+      "D": "garantir filtros novos e equipamento limpo antes do uso"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Para a aspiração, destaca-se que os filtros sejam novos e o equipamento esteja limpo antes de cada uso. A troca de luvas é cuidado das pinças; a proteção das bordas dos rolos é procedimento prévio à manipulação; não dobrar o item é cuidado de acondicionamento.",
+    "referencia": "PDF LOC, p. 139",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3128,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A iluminação oblíqua auxilia especificamente na visualização de:",
+    "alternativas": {
+      "A": "partículas superficiais e materiais refletivos",
+      "B": "materiais como tintas, fibras, cabelos e também vidro",
+      "C": "partículas de dimensões muito pequenas ou submilimétricas",
+      "D": "cabelos claros quando há muito detrito no substrato"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A iluminação oblíqua revela partículas superficiais — como cabelos aderidos a tecidos — e materiais refletivos, como fragmentos de vidro e glitter. Tintas, fibras, cabelos e vidro remetem às luzes com diferentes comprimentos de onda; as partículas de pequenas dimensões, à lupa ou ao estereomicroscópio; os cabelos claros em meio a detritos, aos fundos contrastantes. Atenção: o vidro aparece em duas linhas da matriz, e o que separa é o restante do par.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3129,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O uso de luzes com diferentes comprimentos de onda facilita a identificação de:",
+    "alternativas": {
+      "A": "partículas superficiais e materiais refletivos como glitter",
+      "B": "materiais como tintas, fibras, cabelos e vidro",
+      "C": "cabelos claros contrastados sobre fundo de papel preto",
+      "D": "partículas de dimensões muito reduzidas ou submilimétricas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os diferentes comprimentos de onda são citados para tintas, fibras, cabelos e vidro. As partículas superficiais e os materiais refletivos remetem à iluminação oblíqua; o fundo de papel preto, aos fundos contrastantes; as partículas de dimensões reduzidas, à lupa iluminada, à lupa de mão ou ao estereomicroscópio.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3130,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A utilização de lupa iluminada, lupa de mão ou estereomicroscópio auxilia especificamente:",
+    "alternativas": {
+      "A": "na identificação de tintas e revestimentos presentes na cena",
+      "B": "no contraste de cabelos claros em meio a detritos",
+      "C": "na visualização de partículas de pequenas dimensões",
+      "D": "na revelação de materiais refletivos, como o vidro"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os equipamentos de ampliação destinam-se a partículas de pequenas dimensões. Tintas e revestimentos remetem às luzes de diferentes comprimentos de onda; o contraste de cabelos claros em meio a detritos, aos fundos contrastantes; os materiais refletivos, à iluminação oblíqua.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3131,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O emprego de papel preto como fundo, citado no caderno, tem por finalidade:",
+    "alternativas": {
+      "A": "evitar que o adesivo interaja com tintas e polímeros",
+      "B": "preservar o material que se desprende durante a coleta",
+      "C": "impedir a contaminação cruzada entre itens distintos",
+      "D": "identificar cabelos claros em meio a detritos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O papel preto é o exemplo dado para os fundos contrastantes, que melhoram a visualização e a coleta — no caso, cabelos claros em meio a detritos. Evitar a interação do adesivo é a restrição da fita; preservar o material que se desprende é a coleta sobre superfície limpa; impedir a contaminação cruzada é a troca de luvas.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3132,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para identificar microvestígios de tinta e, em outra frente, cabelos claros em meio a detritos, os recursos indicados são, respectivamente:",
+    "alternativas": {
+      "A": "comprimentos de onda e fundos contrastantes",
+      "B": "iluminação oblíqua e lupa de mão iluminada",
+      "C": "fundos contrastantes e estereomicroscópio óptico",
+      "D": "estereomicroscópio e iluminação oblíqua direta"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A tinta está na lista dos comprimentos de onda; o cabelo claro em meio a detritos é o exemplo literal do fundo contrastante (papel preto). As demais combinações trocam os pares da matriz de detecção.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3133,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os microvestígios que o caderno associa, respectivamente, a rotas percorridas e à diferenciação entre espécies são:",
+    "alternativas": {
+      "A": "partículas metálicas e materiais poliméricos",
+      "B": "partículas de solo e cabelos e pelos",
+      "C": "fibras têxteis e fragmentos de vidro",
+      "D": "tintas e revestimentos e partículas de solo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O solo indica deslocamentos, rotas percorridas ou vínculo com determinado ambiente; cabelos e pelos indicam contato físico e auxiliam na diferenciação entre espécies. As metálicas remetem a ferramentas e arrombamentos; as tintas, à associação entre veículos, ferramentas e superfícies.",
+    "referencia": "PDF LOC, p. 135-136",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3134,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o caderno, as tintas e revestimentos são úteis, sobretudo, para:",
+    "alternativas": {
+      "A": "indicar deslocamentos e rotas percorridas pelo autor",
+      "B": "relacionar objetos, embalagens ou instrumentos usados",
+      "C": "associar veículos, ferramentas e superfícies",
+      "D": "diferenciar espécies a partir do material recolhido"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Tintas e revestimentos são úteis na associação entre veículos, ferramentas e superfícies envolvidas no evento. Indicar deslocamentos e rotas percorridas é utilidade das partículas de solo; relacionar objetos, embalagens e instrumentos, dos materiais poliméricos; diferenciar espécies, dos cabelos e pelos.",
+    "referencia": "PDF LOC, p. 136",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3135,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A associação a ferramentas, arrombamentos ou atividades específicas é atribuída, no caderno, a:",
+    "alternativas": {
+      "A": "fragmentos de vidro recolhidos na cena",
+      "B": "materiais poliméricos como borrachas e adesivos",
+      "C": "fibras têxteis provenientes de estofados",
+      "D": "partículas metálicas encontradas no local"
+    },
+    "resposta_correta": "D",
+    "justificativa": "As partículas metálicas é que são associadas a ferramentas, arrombamentos ou atividades específicas. O vidro permite comparações e vínculos de origem comum; os poliméricos relacionam objetos, embalagens e instrumentos; as fibras indicam contato e origem.",
+    "referencia": "PDF LOC, p. 136",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3136,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Relacionar embalagens e instrumentos utilizados, de um lado, e apontar compatibilidade com objeto de possível origem comum, de outro, são utilidades atribuídas, respectivamente, a:",
+    "alternativas": {
+      "A": "materiais poliméricos e fragmentos de vidro",
+      "B": "partículas metálicas e partículas de solo recolhidas",
+      "C": "fragmentos de vidro e materiais poliméricos",
+      "D": "fibras têxteis e tintas de superfícies danificadas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Materiais poliméricos (plásticos, borrachas, adesivos) relacionam objetos, embalagens ou instrumentos; fragmentos de vidro permitem comparações e indicam compatibilidade com objetos de possível origem comum. Há entre as alternativas a mesma dupla na ordem invertida — atenção à ordem pedida no enunciado.",
+    "referencia": "PDF LOC, p. 136",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3137,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A utilidade de sugerir a origem do material — roupas, estofados ou carpetes — é atribuída a:",
+    "alternativas": {
+      "A": "partículas de solo recolhidas no trajeto",
+      "B": "fibras têxteis encontradas na cena",
+      "C": "cabelos e pelos aderidos às vestes",
+      "D": "tintas lascadas de superfícies danificadas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As fibras têxteis podem indicar contato entre vítima, suspeito e objetos, além de sugerir a origem de materiais como roupas, estofados e carpetes.",
+    "referencia": "PDF LOC, p. 135",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3138,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A exigência de registrar a orientação (face interna/externa) diz respeito à coleta de padrão de:",
+    "alternativas": {
+      "A": "fibras provenientes de carpetes, tapetes ou estofados da cena",
+      "B": "amostras de solo de áreas com indícios de trânsito",
+      "C": "fragmentos de vidro provenientes de janelas quebradas",
+      "D": "exemplares de tinta de superfícies com sinais de dano"
+    },
+    "resposta_correta": "C",
+    "justificativa": "As quatro são amostras-padrão previstas no capítulo, mas só o vidro de janela quebrada traz a ressalva de atentar para a marcação da orientação — face interna/externa.",
+    "referencia": "PDF LOC, p. 140",
+    "nivel": "medio"
+  },
+  {
+    "id": 3139,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao coletar exemplares conhecidos (padrões), a consideração apontada como uma das mais importantes é:",
+    "alternativas": {
+      "A": "coletá-los antes de qualquer manipulação do questionado",
+      "B": "mantê-los na mesma embalagem primária do vestígio",
+      "C": "submetê-los a exame microscópico antes da comparação",
+      "D": "garantir que representem todas as variações da amostra"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno destaca que os exemplares conhecidos sejam representativos de todas as variações da amostra conhecida. Avaliar antes de qualquer comparação e submeter a exame microscópico são etapas do exame de ajuste físico; manter o padrão na mesma embalagem primária do vestígio contraria a regra de acondicionamento individual.",
+    "referencia": "PDF LOC, p. 140",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3140,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para a coleta de microvestígios não visíveis a olho nu, os dois métodos mais comuns são:",
+    "alternativas": {
+      "A": "levantamento com fita adesiva e varredura a vácuo",
+      "B": "raspagem com espátula e recorte da área de interesse",
+      "C": "coleta com pinças e raspagem com lâmina de bisturi",
+      "D": "coleta do item inteiro e recorte do suporte têxtil"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para os microvestígios invisíveis, os dois métodos mais comuns citados são o levantamento com fita adesiva e a varredura a vácuo (aspiração com filtro).",
+    "referencia": "PDF LOC, p. 139-140",
+    "nivel": "medio"
+  },
+  {
+    "id": 3141,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A advertência de que a aspiração indiscriminada e o uso generalizado de fita adesiva devem ser evitados apoia-se em que essas práticas:",
+    "alternativas": {
+      "A": "alteram quimicamente as tintas e os polímeros coletados",
+      "B": "sobrecarregam o processamento e reduzem a efetividade",
+      "C": "impedem o realinhamento das bordas no ajuste físico",
+      "D": "danificam a morfologia das partículas manipuladas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Coletas indiscriminadas geram sobrecarga no processamento, aumento de material irrelevante e redução da efetividade da análise, sem contribuir de forma significativa para a investigação. A alteração química é a restrição específica do adesivo; o dano à morfologia é o risco das pinças.",
+    "referencia": "PDF LOC, p. 140",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3142,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sempre que viável do ponto de vista operacional e logístico, o caderno considera aceitável e preferível:",
+    "alternativas": {
+      "A": "recortar somente a área do suporte onde está o vestígio",
+      "B": "aspirar toda a área antes das técnicas direcionadas",
+      "C": "coletar o item inteiro, mesmo com vestígios visíveis",
+      "D": "raspar a superfície para remover o material aderido"
+    },
+    "resposta_correta": "C",
+    "justificativa": "É aceitável e preferível coletar o item inteiro mesmo quando os vestígios já são visíveis em sua superfície, pois isso reduz o risco de perda, contaminação ou alteração durante procedimentos realizados na cena.",
+    "referencia": "PDF LOC, p. 137-138",
+    "nivel": "medio"
+  },
+  {
+    "id": 3143,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A regra geral de que a coleta de microvestígios tende a ser mais eficiente e controlada em laboratório do que no local apoia-se em:",
+    "alternativas": {
+      "A": "menor necessidade de amostras-padrão para comparação",
+      "B": "dispensa do uso de EPI durante todo o processamento",
+      "C": "possibilidade de secar itens molhados com fonte de calor",
+      "D": "melhores condições de iluminação e controle ambiental"
+    },
+    "resposta_correta": "D",
+    "justificativa": "No laboratório é possível utilizar melhores condições de iluminação, controle ambiental, equipamentos especializados e técnicas mais refinadas de análise e coleta. Secar itens molhados com fonte de calor contraria a regra de secagem, que veda calor e luz solar.",
+    "referencia": "PDF LOC, p. 138",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3144,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as principais medidas de preservação de vestígios no corpo, o caderno cita:",
+    "alternativas": {
+      "A": "ensacar as mãos e os pés, quando descalços",
+      "B": "secar as vestes ao ar antes da remoção do corpo",
+      "C": "raspar as unhas com espátula ainda na cena",
+      "D": "aspirar as vestes com filtro novo no local"
+    },
+    "resposta_correta": "A",
+    "justificativa": "As medidas de preservação citadas são ensacar mãos e pés (quando descalços) e acondicionar o corpo em saco para cadáver limpo e adequado. As demais transportam para o corpo técnicas descritas em outros trechos.",
+    "referencia": "PDF LOC, p. 140-141",
+    "nivel": "medio"
+  },
+  {
+    "id": 3145,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os sacos e materiais utilizados no acondicionamento do corpo devem ser preservados porque:",
+    "alternativas": {
+      "A": "possuem a numeração individualizada do vestígio",
+      "B": "podem conter vestígios desprendidos no transporte",
+      "C": "servem como amostra-padrão do material empregado",
+      "D": "evitam a contaminação cruzada entre diferentes itens"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Esses materiais podem conter vestígios que se desprenderam do corpo durante o transporte e que serão posteriormente analisados em laboratório. A numeração individualizada é função da embalagem de segurança; a amostra-padrão do material empregado é a do adesivo usado no levantamento; evitar contaminação cruzada é a troca de luvas.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3146,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A embalagem que possui numeração individualizada, resguardando a identidade do vestígio e seu vínculo com o caso, é:",
+    "alternativas": {
+      "A": "a embalagem primária, em contato direto com o vestígio",
+      "B": "o invólucro de papel usado em evidências frágeis",
+      "C": "a embalagem de segurança, envelope ou saco de lacre",
+      "D": "a folha de papel colocada sob o item na secagem"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A embalagem de segurança (envelope ou saco de lacre) é a que possui numeração individualizada. A embalagem primária é a que fica em contato direto com o vestígio.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "medio"
+  },
+  {
+    "id": 3147,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "São requisitos expressos da embalagem primária:",
+    "alternativas": {
+      "A": "perfurada, de modo a permitir a circulação de ar",
+      "B": "numerada individualmente para vincular ao caso",
+      "C": "revestida de papelão limpo e não utilizado",
+      "D": "à prova de vazamentos, limpa e não utilizada"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A embalagem primária deve ser à prova de vazamentos, limpa, de tamanho adequado e não utilizada. Ser perfurada é o regime excepcional dos itens que não podem ser secos; a numeração individualizada é da embalagem de segurança; o papelão limpo é o cuidado com evidências frágeis.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3148,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Roupas e outros itens molhados devem, como regra, ser:",
+    "alternativas": {
+      "A": "secos ao ar rapidamente, sem calor ou luz solar",
+      "B": "mantidos úmidos até a chegada ao laboratório",
+      "C": "embalados em recipiente plástico à prova de vazamento",
+      "D": "embrulhados em papel e postos entre papelão limpo"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os itens molhados devem ser secos ao ar o mais rápido possível, sem exposição ao calor ou à luz solar, em área segura que previna perda ou contaminação. Embrulhar em papel e pôr entre papelão é o cuidado com evidências frágeis.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3149,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A regra de secar itens molhados não se aplica quando o item será examinado quanto a:",
+    "alternativas": {
+      "A": "fibras têxteis aderidas à superfície do tecido",
+      "B": "resíduos líquidos inflamáveis ou produtos químicos",
+      "C": "impressões produzidas por sangue ou outra substância",
+      "D": "fragmentos de vidro alojados na trama do tecido"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Itens que serão examinados para resíduos líquidos inflamáveis ou outros produtos químicos, como alvejante, não devem ser secos, pois isso pode causar perda de evidências.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3150,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos casos em que o item não pode ser seco, o caderno determina que:",
+    "alternativas": {
+      "A": "o item seja embrulhado em papel limpo antes de embalado",
+      "B": "o item seja fixado previamente em superfície transparente",
+      "C": "o recipiente primário seja de papel e o lacre, perfurado",
+      "D": "o item seja disposto entre pedaços de papelão limpo"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Para esses casos, os recipientes primários devem ser de papel e o saco de lacre deve ser perfurado, de modo a permitir a circulação de ar. Embrulhar em papel e dispor entre papelão são cuidados com evidências frágeis; fixar em superfície transparente é o acondicionamento dos levantadores de fita adesiva.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3151,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "As folhas de papel limpas colocadas sob os itens durante a secagem devem:",
+    "alternativas": {
+      "A": "ser descartadas assim que o item estiver seco",
+      "B": "substituir a embalagem primária do vestígio",
+      "C": "receber a numeração individualizada do caso",
+      "D": "ser enviadas junto com o item ao laboratório"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Qualquer material coletado nesse papel deve ser preservado, devendo o papel ser enviado juntamente com o item.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "medio"
+  },
+  {
+    "id": 3152,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Evidências frágeis, como grandes pedaços de vidro quebrado, podem exigir:",
+    "alternativas": {
+      "A": "embrulhar o item em papel antes de embalar",
+      "B": "secá-lo ao ar antes de qualquer acondicionamento",
+      "C": "perfurar o saco de lacre para permitir ventilação",
+      "D": "fixá-lo previamente em uma superfície transparente"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para evidências frágeis pode ser necessário embrulhar o item em papel antes de embalar, ou colocá-lo entre pedaços de papelão limpo e não utilizado. Secar ao ar é a regra dos itens molhados; perfurar o lacre é o regime dos itens que não podem ser secos; fixar em superfície transparente é o acondicionamento dos levantadores de fita.",
+    "referencia": "PDF LOC, p. 141",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3153,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Havendo impressão no item, produzida por sangue ou outra substância, o cuidado indicado é:",
+    "alternativas": {
+      "A": "raspá-la com espátula para coleta imediata do material",
+      "B": "não dobrar nem manipular de modo a obliterá-la",
+      "C": "levantá-la com fita adesiva convencional",
+      "D": "secá-la sob luz solar antes de embalar"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Havendo impressão no item, deve-se ter cuidado para não dobrar nem manipular o material de forma que possa danificar ou obliterar a impressão. Secar sob luz solar contraria a vedação expressa de exposição ao calor e à luz solar.",
+    "referencia": "PDF LOC, p. 141-142",
+    "nivel": "medio"
+  },
+  {
+    "id": 3154,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame de ajuste físico baseia-se na premissa de que:",
+    "alternativas": {
+      "A": "bordas regulares permitem realinhar qualquer material",
+      "B": "a comparação precede a análise individual das amostras",
+      "C": "eventos de separação não são reproduzíveis",
+      "D": "defeitos de fabricação não cruzam o limite de separação"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A premissa é que eventos de separação (quebras, cortes, rasgos) não são reproduzíveis, no todo ou em parte, pela combinação de forças aplicadas, características de construção e propriedades do material. Dizer que a comparação precede a análise individual inverte a ordem do procedimento; negar que defeitos de fabricação cruzem o limite inverte o papel das características que atravessam a separação.",
+    "referencia": "PDF LOC, p. 142",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3155,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "No procedimento do exame de ajuste físico, as amostras questionadas devem:",
+    "alternativas": {
+      "A": "ser comparadas de imediato às amostras conhecidas",
+      "B": "ser submetidas a exame microscópico após o realinhamento",
+      "C": "ser recortadas do suporte antes da análise das bordas",
+      "D": "ser avaliadas separadamente antes da comparação"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Inicialmente, as amostras questionadas devem ser avaliadas separadamente, antes de qualquer comparação com amostras conhecidas.",
+    "referencia": "PDF LOC, p. 142",
+    "nivel": "medio"
+  },
+  {
+    "id": 3156,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Arranhões, manchas ou defeitos de fabricação que atravessam o limite de separação servem, no exame de ajuste físico, para:",
+    "alternativas": {
+      "A": "dar suporte à existência de um ajuste físico",
+      "B": "descartar o prosseguimento do exame comparativo",
+      "C": "indicar a ductilidade do material analisado",
+      "D": "demonstrar a origem comum entre fragmentos de vidro"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Características que atravessam o limite de separação podem ser utilizadas para dar suporte à existência de um ajuste físico. Demonstrar origem comum entre fragmentos de vidro confunde com a utilidade atribuída ao vidro no rol de microvestígios.",
+    "referencia": "PDF LOC, p. 142",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3157,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ductilidade do material deve ser considerada no exame de ajuste físico porque:",
+    "alternativas": {
+      "A": "impede que se formem características individuais nas bordas",
+      "B": "o alongamento gera distorções no realinhamento",
+      "C": "dispensa o exame microscópico das superfícies comparadas",
+      "D": "altera a pigmentação e a granulação do material rompido"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A ductilidade importa especialmente em áreas onde o alongamento causado pela separação pode gerar distorções que dificultem o realinhamento perfeito. Pigmentação e granulação são características avaliadas na comparação, não efeitos da ductilidade.",
+    "referencia": "PDF LOC, p. 142",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3158,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caderno dispensa a continuidade dos exames adicionais de ajuste físico quando:",
+    "alternativas": {
+      "A": "as bordas apresentam pigmentação e textura distintas",
+      "B": "a amostra conhecida não representa todas as variações existentes",
+      "C": "os contornos não se alinham nem há correspondência",
+      "D": "o material analisado apresenta elevada ductilidade"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Quando os contornos macroscópicos não se alinham e não há características correspondentes nas superfícies separadas, ou não há características de superfície transversal, não há necessidade de prosseguir com exames adicionais.",
+    "referencia": "PDF LOC, p. 142",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3159,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "A proteção das bordas dos rolos de fita adesiva é citada no caderno como exemplo de:",
+    "alternativas": {
+      "A": "limpeza dos equipamentos e superfícies de trabalho",
+      "B": "utilização de equipamentos de proteção individual",
+      "C": "acondicionamento em embalagem primária apropriada",
+      "D": "armazenamento adequado dos materiais de coleta"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A proteção das bordas dos rolos é o exemplo dado para o armazenamento adequado dos materiais e instrumentos de coleta, garantindo sua integridade até o momento do uso e evitando contaminação prévia.",
+    "referencia": "PDF LOC, p. 136",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3160,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Coletar itens sobre uma superfície limpa, como uma folha de papel, tem por finalidade:",
+    "alternativas": {
+      "A": "preservar o material que se desprenda na manipulação",
+      "B": "contrastar o vestígio para facilitar sua visualização",
+      "C": "substituir o uso de equipamentos de proteção individual",
+      "D": "permitir a secagem do item sem exposição ao calor"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A coleta sobre superfície limpa preserva qualquer material que se desprenda durante a manipulação — o material coletado no papel, ou o próprio papel, deve ser preservado. Contrastar o vestígio para facilitar a visualização confunde com os fundos contrastantes da etapa de detecção.",
+    "referencia": "PDF LOC, p. 137",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3161,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 17 - Microvestígios",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à definição de microvestígio, é correto afirmar que o termo:",
+    "alternativas": {
+      "A": "possui definição legal específica na legislação brasileira",
+      "B": "não depende só da dimensão física absoluta",
+      "C": "abrange somente materiais de dimensão submilimétrica",
+      "D": "exclui os materiais latentes por não serem perceptíveis"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O termo não depende exclusivamente de uma dimensão física absoluta, mas também do contexto em que o vestígio está inserido e de sua perceptibilidade. A legislação brasileira não traz definição específica, embora o conceito jurídico de vestígio seja abrangente o bastante para incluí-los — inclusive os materiais latentes e não visíveis.",
+    "referencia": "PDF LOC, p. 135",
+    "nivel": "medio"
   }
 ]
