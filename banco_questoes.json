@@ -48703,5 +48703,362 @@
     "justificativa": "Antes da coleta, é importante realizar o registro fotográfico, descritivo e topográfico de cada vestígio a ser coletado; só depois se procede à coleta, com material adequado e critérios de segurança e preservação conforme o tipo de vestígio.",
     "referencia": "PDF LOC, p. 129",
     "nivel": "medio"
+  },
+  {
+    "id": 3209,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os fatores de degradação do DNA, o que provoca alterações estruturais capazes de prejudicar especificamente a etapa de amplificação é:",
+    "alternativas": {
+      "A": "a exposição à luz, pela radiação ultravioleta",
+      "B": "a exposição ao calor em excesso sobre o vestígio",
+      "C": "a proliferação de bactérias e fungos no material",
+      "D": "o contato com soluções de limpeza e água sanitária"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A radiação ultravioleta provoca alterações estruturais no DNA que prejudicam a etapa de amplificação. O calor degrada o DNA e favorece a proliferação microbiana; os microrganismos degradam o DNA; e os agentes químicos o degradam quimicamente — nenhum deles é descrito pelo efeito sobre a amplificação.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3210,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caderno associa a manutenção do vestígio úmido e abafado ao risco de:",
+    "alternativas": {
+      "A": "alterações estruturais provocadas pela radiação ultravioleta",
+      "B": "proliferação de microrganismos que degradam o DNA",
+      "C": "degradação química por ácidos, bases e soluções de limpeza",
+      "D": "perda da amostra por evaporação dos fluidos biológicos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Vestígio mantido úmido e abafado é meio propício à proliferação de microrganismos, como bactérias e fungos, que degradam o DNA. As alterações por ultravioleta pertencem à exposição à luz e a degradação química, à exposição a agentes químicos.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3211,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os agentes químicos que degradam o DNA, o caderno destaca especialmente:",
+    "alternativas": {
+      "A": "o álcool etílico utilizado na desinfecção de materiais",
+      "B": "o anticoagulante EDTA dos tubos de coleta de sangue",
+      "C": "o hipoclorito de sódio, presente na água sanitária",
+      "D": "o sabão neutro empregado na lavagem dos instrumentos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Ácidos, bases e soluções de limpeza degradam quimicamente o DNA, com destaque expresso para o hipoclorito de sódio (água sanitária). O álcool etílico e o sabão neutro aparecem como etapas da desinfecção do material permanente, e o EDTA é o anticoagulante do tubo de coleta.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3212,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como regra prática de acondicionamento de vestígios biológicos, aqueles que PODEM ser secos devem ir para:",
+    "alternativas": {
+      "A": "recipientes plásticos que não vazem e permitam refrigeração",
+      "B": "embalagem de isopor com tampa e volume mínimo de três litros",
+      "C": "tubos a vácuo de plástico contendo anticoagulante apropriado",
+      "D": "embalagens opacas e permeáveis ao ar, como envelopes"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Vestígios que podem ser secos vão em embalagens opacas e permeáveis ao ar — envelopes, sacos e caixas de papel ou papelão. Os recipientes plásticos que não vazam e permitem refrigeração ou congelamento são para os vestígios que NÃO podem ser secos.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3213,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o caderno, a consequência de não documentar corretamente o vestígio antes da coleta, com fotografia, descrição e preenchimento do FCAB, é:",
+    "alternativas": {
+      "A": "a origem do vestígio poder ser questionada na Justiça",
+      "B": "a contaminação cruzada entre os vestígios coletados",
+      "C": "a degradação do material por proliferação microbiana",
+      "D": "a inviabilidade da análise por contaminação ocorrida na coleta"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A falha de documentação prévia — fotografia, descrição e Formulário de Coleta de Amostras Biológicas — compromete a origem do vestígio, que pode ser questionada na Justiça. A contaminação cruzada decorre do acondicionamento inadequado, e a inviabilidade por contaminação decorre da técnica de coleta inapropriada.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3214,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os procedimentos periciais da Polícia Federal relativos a vestígios biológicos coletados para identificação genética são normatizados pela:",
+    "alternativas": {
+      "A": "Portaria nº 8.714-DG/PF, de 13 de agosto de 2018",
+      "B": "Instrução Técnica nº 29/2016-DITEC/PF",
+      "C": "Instrução Normativa nº 276 da Ditec",
+      "D": "Lei nº 13.964, de 2019"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A norma citada é a Instrução Técnica nº 29/2016-DITEC/PF, de 16 de junho de 2016, acessível na intranet pela Biblioteca Digital da Criminalística (BDCRIM). A Lei nº 13.964/2019 é a que introduziu a definição legal de vestígio no CPP.",
+    "referencia": "PDF LOC, p. 104",
+    "nivel": "medio"
+  },
+  {
+    "id": 3215,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos materiais empregados na coleta de vestígios biológicos, o caderno exige que sejam:",
+    "alternativas": {
+      "A": "estéreis em todos os casos, inclusive nas embalagens de papel",
+      "B": "novos em todos os casos, dispensada a esterilização prévia",
+      "C": "novos, nas embalagens de papel, e estéreis nos demais",
+      "D": "higienizados com álcool etílico imediatamente antes do uso"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A exigência é que os materiais sejam sempre NOVOS, no caso das embalagens de papel, ou ESTÉREIS, no caso dos demais materiais. O álcool etílico aparece como etapa do procedimento de limpeza do material permanente, não como preparo antes de cada uso.",
+    "referencia": "PDF LOC, p. 105",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3216,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A maleta de vestígios biológicos passou a ser distribuída aos Setec e Nutec de todo o país a partir de:",
+    "alternativas": {
+      "A": "junho de 2016, com a edição da Instrução Técnica da Ditec",
+      "B": "agosto de 2018, com a portaria de acesso restrito do caderno",
+      "C": "dezembro de 2019, com a alteração do CPP sobre cadeia de custódia",
+      "D": "novembro de 2005, após o I Seminário de Coleta para Exame de DNA"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Desde novembro de 2005, quando foi realizado o I Seminário de Coleta de Vestígios para Exame de DNA, todos os Setec e Nutec do Brasil passaram a dispor da maleta. A Instrução Técnica de 2016 é a norma dos procedimentos, e a relação de itens da maleta constitui seu Apêndice II.",
+    "referencia": "PDF LOC, p. 105",
+    "nivel": "medio"
+  },
+  {
+    "id": 3217,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na relação de itens da maleta, as embalagens de vestígio P, M e G correspondem, respectivamente, aos tamanhos:",
+    "alternativas": {
+      "A": "A4, A3 e A1",
+      "B": "A3, A2 e A1",
+      "C": "A5, A4 e A3",
+      "D": "A4, A2 e A1"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A embalagem de vestígio P é o envelope de papel novo em tamanho sugerido A4; a M, A3; e a G, A1 — podendo esta ser montada com papel pardo. O envelope primário também pode ser uma folha A4 nova dobrada.",
+    "referencia": "PDF LOC, p. 105",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3218,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A água destilada estéril prevista na maleta pode ser substituída, segundo o caderno, por:",
+    "alternativas": {
+      "A": "água mineral sem gás de garrafa lacrada e nova",
+      "B": "água para injeção, que possui grau de pureza superior",
+      "C": "solução fisiológica estéril, em flaconetes de 10 mL lacrados",
+      "D": "álcool etílico diluído em água corrente filtrada"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A água destilada estéril é disponibilizada em flaconetes de 10 mL e pode ser substituída por água para injeção, que inclusive possui grau de pureza superior.",
+    "referencia": "PDF LOC, p. 105",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3219,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O tubo a vácuo de plástico com anticoagulante EDTA previsto na maleta destina-se especificamente à coleta de:",
+    "alternativas": {
+      "A": "saliva em suporte líquido",
+      "B": "material de raspagem subungueal",
+      "C": "sangue total",
+      "D": "secreção vaginal diluída"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O Vacutainer com EDTA é o tubo a vácuo de plástico específico para coleta de sangue total, com anticoagulante EDTA.",
+    "referencia": "PDF LOC, p. 107",
+    "nivel": "medio"
+  },
+  {
+    "id": 3220,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O traje de proteção do tipo TYVEC é indicado, no caderno, para situações como:",
+    "alternativas": {
+      "A": "coleta de manchas de saliva em superfícies lavadas",
+      "B": "manuseio de perfurocortantes durante o descarte",
+      "C": "limpeza de material permanente com água sanitária",
+      "D": "desastres de massa e corpos em decomposição"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O traje TYVEC é indicado em locais com maior probabilidade de o perito se contaminar ou contaminar as amostras — desastres de massa, grande quantidade de sangue e corpos em decomposição. Luvas, máscaras e toucas descartáveis são o EPI de uso geral no manuseio de vestígios biológicos.",
+    "referencia": "PDF LOC, p. 107",
+    "nivel": "medio"
+  },
+  {
+    "id": 3221,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à troca de luvas, lâminas de bisturi e demais itens que entram em contato com o material, o caderno determina que ocorra:",
+    "alternativas": {
+      "A": "sempre que for manipulado outro vestígio",
+      "B": "ao final de cada etapa do processamento do local",
+      "C": "apenas quando houver contato visível com sangue",
+      "D": "a cada duas horas de trabalho ininterrupto na cena"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A troca deve ser efetuada SEMPRE que for manipulado outro vestígio, justamente para impedir a transferência de material entre eles. As demais criam periodicidades que o texto não estabelece.",
+    "referencia": "PDF LOC, p. 107",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3222,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O perito deve manter a vacinação em dia contra doenças infectocontagiosas porque os vestígios biológicos:",
+    "alternativas": {
+      "A": "podem conter agentes químicos capazes de degradar o DNA",
+      "B": "são possível fonte de doenças contagiosas",
+      "C": "exigem manuseio sem luvas em determinadas coletas",
+      "D": "costumam estar associados a perfurocortantes na cena"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O risco a que o perito se expõe decorre de os vestígios de origem biológica serem uma possível fonte de transmissão de doenças contagiosas; daí a vacinação em dia e o uso de EPI adequado.",
+    "referencia": "PDF LOC, p. 107",
+    "nivel": "medio"
+  },
+  {
+    "id": 3223,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "No descarte dos materiais utilizados, os perfurocortantes, como agulhas e lâminas de bisturi, devem ser depositados em:",
+    "alternativas": {
+      "A": "envelopes de papel novo, selados com fita adesiva",
+      "B": "recipiente com solução de água sanitária a 2%",
+      "C": "embalagens de plástico ou papelão rígido",
+      "D": "embalagem de isopor com tampa, junto ao demais material"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os perfurocortantes exigem descarte em embalagens de plástico ou papelão rígido. A solução de água sanitária integra a desinfecção do material permanente, e não o descarte de descartáveis.",
+    "referencia": "PDF LOC, p. 107",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3224,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A limpeza do material permanente destinado à coleta de vestígios biológicos exige mais do que eliminar microrganismos porque é necessário:",
+    "alternativas": {
+      "A": "remover resíduos de anticoagulante dos instrumentos",
+      "B": "neutralizar o cloro ativo remanescente da desinfecção",
+      "C": "evitar a oxidação das lâminas de aço carbono",
+      "D": "eliminar todo o DNA presente no material"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Como o material se destina à coleta de vestígios que podem seguir para análise de DNA, não basta a eliminação de microrganismos: é necessário eliminar todo o DNA presente no material.",
+    "referencia": "PDF LOC, p. 107",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3225,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na desinfecção do material permanente, a imersão em solução de água sanitária comercial deve observar:",
+    "alternativas": {
+      "A": "cloro ativo entre 2% e 3%, por dez minutos",
+      "B": "concentração de cloro ativo de 5%, por trinta minutos",
+      "C": "imersão por tempo indeterminado até a secagem completa",
+      "D": "diluição em álcool etílico antes da imersão do material"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A etapa de imersão emprega água sanitária comercial com concentração de cloro ativo entre 2% e 3%, durante dez minutos — tempos maiores podem danificar os materiais. O álcool etílico é usado depois, no enxágue, e não como diluente.",
+    "referencia": "PDF LOC, p. 108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3226,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na sequência de limpeza do material permanente, a etapa imediatamente posterior à imersão em água sanitária é:",
+    "alternativas": {
+      "A": "secar ao ar protegido de contaminações, ou em estufa",
+      "B": "enxaguar com água corrente e depois com álcool etílico",
+      "C": "lavar com sabão neutro e água corrente, usando luvas",
+      "D": "embalar o material para mantê-lo limpo até o próximo uso"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A ordem é: lavar com sabão neutro e água corrente; imergir em água sanitária; enxaguar com água corrente e depois com álcool etílico; secar ao ar ou em estufa; e por fim embalar. A lavagem com sabão antecede a imersão, e a secagem e a embalagem vêm depois do enxágue.",
+    "referencia": "PDF LOC, p. 108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3227,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Não havendo material adequado de coleta disponível, o caderno considera preferível:",
+    "alternativas": {
+      "A": "improvisar o material mais próximo do recomendado e coletar de imediato",
+      "B": "coletar com o material disponível e registrar a ressalva no laudo",
+      "C": "proteger o vestígio da luz, do calor e da contaminação até obtê-lo",
+      "D": "liberar o local e retornar somente com a maleta completa"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Em casos extremos, é preferível proteger o vestígio da luz, do calor e da contaminação da melhor forma possível até que se providencie material adequado, do que contaminar ou degradar o vestígio utilizando materiais inadequados. O caderno desaconselha expressamente improvisar materiais de coleta.",
+    "referencia": "PDF LOC, p. 108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3228,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando a amostra biológica não é visível a olho nu, a conduta que o caderno indica em primeiro lugar é:",
+    "alternativas": {
+      "A": "aplicar luminol para revelar a presença de qualquer fluido",
+      "B": "iluminar a área com luz forense antes de qualquer remoção",
+      "C": "coletar por varredura toda a superfície potencialmente atingida",
+      "D": "encaminhar a peça inteira ao laboratório, sempre que possível"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Nesses casos — superfícies lavadas, vestígio muito antigo, quantidade muito pequena ou de difícil visualização —, sempre que possível o perito deve encaminhar a peça inteira ao laboratório. A luz forense e os reagentes químicos entram na impossibilidade de remover a peça inteira.",
+    "referencia": "PDF LOC, p. 108",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3229,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 15 - Vestígios biológicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O uso do luminol, tal como descrito no caderno, permite a visualização de:",
+    "alternativas": {
+      "A": "sangue, especificamente",
+      "B": "qualquer fluido biológico presente",
+      "C": "saliva e sêmen em superfícies porosas",
+      "D": "células epiteliais em pequena quantidade"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Entre os recursos usados na impossibilidade de remover a peça inteira, o caderno registra que o luminol revela especificamente sangue, ao contrário da luz forense, empregada de modo mais amplo para orientar a coleta em grandes áreas ou superfícies imóveis.",
+    "referencia": "PDF LOC, p. 108",
+    "nivel": "dificil"
   }
 ]
