@@ -47904,5 +47904,804 @@ const questoesDB = [
     "justificativa": "O termo não depende exclusivamente de uma dimensão física absoluta, mas também do contexto em que o vestígio está inserido e de sua perceptibilidade. A legislação brasileira não traz definição específica, embora o conceito jurídico de vestígio seja abrangente o bastante para incluí-los — inclusive os materiais latentes e não visíveis.",
     "referencia": "PDF LOC, p. 135",
     "nivel": "medio"
+  },
+  {
+    "id": 3162,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O princípio segundo o qual todo contato deixa uma marca, base da formação dos vestígios em locais de crime, é atribuído no caderno a:",
+    "alternativas": {
+      "A": "Edmond Locard, no Princípio da Troca",
+      "B": "Hans Gross, na criminalística sistemática",
+      "C": "Alphonse Bertillon, no sistema antropométrico",
+      "D": "Edmond Locard, no laboratório de Lyon"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno associa a dinâmica dos vestígios ao Princípio da Troca de Locard, formulado por Edmond Locard, segundo o qual todo contato deixa uma marca. A alternativa que cita o laboratório de Lyon confunde o princípio com outra contribuição do mesmo autor; as demais atribuem o princípio a autores diversos.",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 3163,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Conforme o art. 158-A, § 3º, do CPP, transcrito no caderno, vestígio é todo objeto ou material bruto:",
+    "alternativas": {
+      "A": "de dimensões submilimétricas ou microscópicas, cuja detecção dependa de técnicas apropriadas",
+      "B": "visível ou latente, constatado ou recolhido, que se relaciona à infração penal",
+      "C": "recolhido pelo perito e submetido à cadeia de custódia até o laudo",
+      "D": "apreendido no ambiente imediato e vinculado à autoria do delito"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A definição legal alcança o material visível ou latente, constatado ou recolhido, que se relaciona à infração penal (Lei nº 13.964/2019). A referência a dimensões submilimétricas é a caracterização de microvestígio pela literatura científica, não a definição legal de vestígio; as demais acrescentam requisitos que o dispositivo não traz.",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3164,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o caderno, a transferência de materiais que dá origem aos vestígios resulta de:",
+    "alternativas": {
+      "A": "apenas o contato direto entre o autor e a vítima durante a ação criminosa violenta",
+      "B": "somente as interações capazes de deixar marcas visíveis a olho nu",
+      "C": "toda interação entre pessoas, objetos ou superfícies, ainda que imperceptível",
+      "D": "unicamente o contato do autor com o ambiente imediato do crime"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Toda interação entre pessoas, objetos ou superfícies resulta em transferência de materiais, ainda que muitas vezes imperceptíveis. As demais restringem a transferência a um tipo de contato ou à visibilidade da marca, o que o texto não faz.",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3165,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 13 - Vestígios e a dinâmica dos fatos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A adequada identificação, coleta e preservação dos vestígios é apontada como essencial para:",
+    "alternativas": {
+      "A": "permitir a individualização do autor com grau de certeza científica absoluta",
+      "B": "garantir a admissibilidade da prova pericial perante a autoridade judiciária",
+      "C": "dispensar a realização de exames complementares em ambiente laboratorial",
+      "D": "reconstruir a dinâmica dos fatos e vincular pessoas, objetos e ambientes"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A finalidade apontada é garantir a integridade e possibilitar análises confiáveis, contribuindo para a reconstrução da dinâmica dos fatos e para o estabelecimento de vínculos entre pessoas, objetos e ambientes. As demais atribuem à etapa consequências que o texto não afirma.",
+    "referencia": "PDF LOC, p. 91",
+    "nivel": "medio"
+  },
+  {
+    "id": 3166,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A recomendação de arejar previamente ambientes confinados, como porões de edificações ou embarcações, associa-se à rota de exposição por:",
+    "alternativas": {
+      "A": "inalação",
+      "B": "contato com a pele",
+      "C": "ingestão",
+      "D": "injeção"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A inalação é a introdução de produto tóxico pelo sistema respiratório, e para ela o caderno recomenda manipular em áreas ventiladas, arejar ambientes confinados antes de adentrá-los e usar máscaras apropriadas.",
+    "referencia": "PDF LOC, p. 94",
+    "nivel": "medio"
+  },
+  {
+    "id": 3167,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Vômitos, náuseas, tremores, visão turva, danos ao fígado e rins, choque ou colapso são citados no caderno como efeitos sistêmicos decorrentes de:",
+    "alternativas": {
+      "A": "introdução do produto tóxico pelo sistema respiratório",
+      "B": "absorção da substância pela pele, atingindo a corrente sanguínea",
+      "C": "entrada da substância pela boca, atingindo a garganta e o aparelho digestivo",
+      "D": "penetração direta por furadas de agulha ou cortes contaminados"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Esses efeitos sistêmicos são descritos na rota de contato com a pele, quando a substância é absorvida e penetra na corrente sanguínea. A rota respiratória é a inalação; a entrada pela boca é a ingestão; as furadas e cortes caracterizam a injeção.",
+    "referencia": "PDF LOC, p. 94",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3168,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o caderno, os danos à saúde decorrentes do contato com a pele dependem de:",
+    "alternativas": {
+      "A": "estado físico da substância e da ventilação do ambiente",
+      "B": "existência de pictogramas de perigo no rótulo do recipiente",
+      "C": "concentração, quantidade e tempo de exposição ao produto",
+      "D": "presença de compostos instáveis sensíveis a impacto ou fricção"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O texto vincula os danos à concentração, à quantidade e ao tempo de exposição ao produto químico. As demais misturam elementos da avaliação de perigos em campo com a rota de exposição cutânea.",
+    "referencia": "PDF LOC, p. 94",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3169,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A orientação de vestir as mãos com duas ou mais luvas, quando necessário, é apresentada como boa prática contra a rota de:",
+    "alternativas": {
+      "A": "inalação",
+      "B": "ingestão",
+      "C": "contato com a pele",
+      "D": "injeção"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A injeção direta pode ocorrer por furadas de agulhas e cortes em vidros, metais ou objetos cortantes contaminados; por isso a recomendação de trabalhar sempre com luvas e, se necessário, com duas ou mais.",
+    "referencia": "PDF LOC, p. 94",
+    "nivel": "medio"
+  },
+  {
+    "id": 3170,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Lavar as mãos antes de comer, fumar ou usar cosméticos, como batom, é medida associada no caderno à prevenção de:",
+    "alternativas": {
+      "A": "ingestão",
+      "B": "injeção",
+      "C": "inalação",
+      "D": "contato com a pele"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A ingestão pode causar severos danos à boca, à garganta e ao aparelho digestivo, e a prevenção passa por lavar as mãos antes de comer, fumar ou usar cosméticos, além de não levar alimentos, bebidas ou cigarros a áreas sujeitas à contaminação.",
+    "referencia": "PDF LOC, p. 94",
+    "nivel": "medio"
+  },
+  {
+    "id": 3171,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os cuidados de proteção ao meio ambiente em local de refino de cocaína, o caderno adverte especificamente para o risco dos lençóis freáticos ao tratar de:",
+    "alternativas": {
+      "A": "mistura de substâncias sem instrução de profissional qualificado",
+      "B": "despejo de substâncias no solo sem tratamento de neutralização",
+      "C": "remoção de substâncias expostas a chuva e ventos fortes",
+      "D": "proximidade das substâncias com fontes de combustão"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O alerta quanto aos lençóis freáticos, que podem carregar substâncias tóxicas por longas distâncias e contaminar recursos hídricos, aparece na vedação de despejar substâncias diretamente no solo sem tratamento de neutralização. Os demais itens são cuidados distintos da mesma lista.",
+    "referencia": "PDF LOC, p. 93",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3172,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pictogramas de perigo, palavras de advertência e frases de perigo, que permitem identificar rapidamente inflamabilidade, toxicidade, corrosividade e potencial oxidante, integram:",
+    "alternativas": {
+      "A": "a Ficha de Informações de Segurança de Produtos Químicos (FISPQ) do fabricante",
+      "B": "a etiqueta de identificação da amostra coletada em campo",
+      "C": "o Sistema Globalmente Harmonizado (GHS) de classificação e rotulagem",
+      "D": "a tabela de resumo dos riscos das substâncias comumente encontradas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Esses elementos pertencem ao Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos, observáveis no próprio recipiente. A FISPQ é o documento técnico consultado à parte; a etiqueta identifica a amostra já coletada; a tabela de riscos é material do próprio caderno.",
+    "referencia": "PDF LOC, p. 96",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3173,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Medidas de primeiros socorros, procedimentos em caso de vazamento, estabilidade e reatividade e informações toxicológicas são conteúdos que o caderno atribui:",
+    "alternativas": {
+      "A": "ao rótulo do recipiente, quando disponível no local",
+      "B": "aos pictogramas do sistema globalmente harmonizado de rotulagem",
+      "C": "à identificação preliminar feita por aspectos observáveis",
+      "D": "à FISPQ, consultada em bases públicas e sítios de fabricantes"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Esses itens compõem a Ficha de Informações de Segurança de Produtos Químicos, amplamente disponível em bases de dados públicas e nos sítios de fabricantes. O rótulo traz informações relevantes, mas não se deve confiar exclusivamente nele; os pictogramas dão características gerais; a identificação preliminar limita-se a aspectos observáveis.",
+    "referencia": "PDF LOC, p. 96",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3174,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A identificação preliminar da substância em campo deve priorizar, conforme o caderno:",
+    "alternativas": {
+      "A": "estado físico, cor, presença de vapores, recipientes associados e contexto",
+      "B": "odor característico obtido pela aproximação cuidadosa e breve do recipiente",
+      "C": "reação da substância com pequena quantidade de água destilada",
+      "D": "consulta ao rótulo como fonte suficiente sobre riscos envolvidos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A identificação preliminar deve priorizar aspectos observáveis — estado físico, cor, presença de vapores, recipientes associados e contexto do local —, sem contato direto ou exposição desnecessária do perito. O caderno veda expressamente inalar vapores ou odores para identificar substâncias e adverte que não se deve confiar exclusivamente no rótulo.",
+    "referencia": "PDF LOC, p. 96",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3175,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao abrir recipientes com substâncias químicas, especialmente sem identificação ou com histórico desconhecido, o caderno determina:",
+    "alternativas": {
+      "A": "aproximar-se com a face protegida para verificar o odor do conteúdo",
+      "B": "usar instrumentos que não produzam faíscas, de forma lenta e cautelosa",
+      "C": "aguardar a chegada de profissional da área química para qualquer abertura",
+      "D": "diluir previamente o conteúdo com solvente neutro compatível"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A orientação é utilizar instrumentos que não produzam faíscas e proceder de forma lenta e cautelosa, considerando a possibilidade de formação de compostos instáveis, sensíveis a impacto ou fricção. O apoio de profissional da área química é recomendado sempre que possível, mas não como condição para qualquer abertura.",
+    "referencia": "PDF LOC, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3176,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A vedação a misturar substâncias químicas comporta, no caderno, uma única ressalva:",
+    "alternativas": {
+      "A": "situações de urgência em que haja risco iminente de incêndio no local",
+      "B": "casos em que o rótulo do recipiente indique a compatibilidade dos produtos",
+      "C": "fins de diluição ou neutralização, havendo conhecimento técnico para tal",
+      "D": "hipóteses em que a mistura ocorra em ambiente ventilado e com uso de EPI"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A ressalva expressa é a diluição ou neutralização, desde que haja conhecimento técnico para tal — e, no capítulo de proteção ao meio ambiente, que a mistura só ocorra quando o perito for instruído por profissional qualificado. As demais criam exceções que o texto não prevê.",
+    "referencia": "PDF LOC, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3177,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Além de não comer, beber ou fumar em áreas com substâncias químicas, o caderno veda expressamente:",
+    "alternativas": {
+      "A": "o emprego de luvas de látex em contato com solventes orgânicos",
+      "B": "a permanência de mais de um perito na mesma área contaminada",
+      "C": "a utilização de máscaras em ambientes previamente arejados",
+      "D": "o uso de lentes de contato durante a atuação nesses ambientes"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno veda comer, beber ou fumar em áreas com presença de substâncias químicas e também utilizar lentes de contato durante a atuação nesses ambientes. Ao contrário do que sugerem as demais, ele recomenda evitar trabalhar sozinho e usar máscaras apropriadas.",
+    "referencia": "PDF LOC, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3178,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na tabela de riscos do caderno, acetona, querosene e metanol têm em comum o fato de:",
+    "alternativas": {
+      "A": "apresentarem risco de explosão e de fogo, sem serem corrosivos ou cáusticos",
+      "B": "serem corrosivos ou cáusticos, sem apresentarem risco de explosão nem de fogo",
+      "C": "não apresentarem nenhum dos três riscos relacionados na tabela",
+      "D": "apresentarem risco de explosão apenas em contato com metais"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Acetona, querosene e metanol aparecem com \"Sim\" para risco de explosão e de fogo e \"Não\" para corrosivo ou cáustico. A combinação de corrosivo sem risco de fogo é a dos carbonatos e do hidróxido de sódio; a ausência dos três riscos é do sulfato de sódio; o risco de explosão condicionado ao contato com metais é a nota dos ácidos sulfúrico e clorídrico.",
+    "referencia": "PDF LOC, p. 97",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3179,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo as notas da tabela de riscos, o risco de explosão dos ácidos sulfúrico e clorídrico decorre de:",
+    "alternativas": {
+      "A": "formarem misturas explosivas com o ar em determinadas condições específicas",
+      "B": "produzirem gás hidrogênio em contato com grande parte dos metais",
+      "C": "reagirem de forma explosiva com o peróxido de hidrogênio",
+      "D": "aumentarem a inflamabilidade de materiais combustíveis"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A nota específica dos ácidos sulfúrico e clorídrico é a produção de gás hidrogênio, altamente explosivo, em contato com grande parte dos metais. A formação de misturas explosivas com o ar é a nota do hidróxido de amônio; a reação explosiva com peróxido de hidrogênio e o aumento da inflamabilidade de combustíveis são notas do permanganato de potássio.",
+    "referencia": "PDF LOC, p. 98",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3180,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ressalva de que a substância tem baixa inflamabilidade, mas pode formar misturas explosivas com o ar em condições específicas, refere-se, na tabela, ao:",
+    "alternativas": {
+      "A": "permanganato de potássio",
+      "B": "ácido clorídrico",
+      "C": "hidróxido de amônio",
+      "D": "carbonato de potássio"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Essa é a nota do hidróxido de amônio, que aparece com \"Não\" na coluna de risco de fogo justamente por conta da baixa inflamabilidade. O permanganato de potássio é oxidante forte; o ácido clorídrico produz hidrogênio com metais; o carbonato de potássio não apresenta risco de explosão nem de fogo.",
+    "referencia": "PDF LOC, p. 98",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3181,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caderno adverte que recipientes vazios de substâncias químicas:",
+    "alternativas": {
+      "A": "devem ser descartados em pias após lavagem com água corrente",
+      "B": "dispensam identificação por não conterem produto remanescente",
+      "C": "podem ser reutilizados para acondicionar amostras da mesma natureza",
+      "D": "podem conter vapores suficientes para provocar uma explosão"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A advertência expressa é que recipientes vazios podem conter vapores suficientes para provocar uma explosão, razão pela qual não se deve usar chama próximo deles. O descarte em pias é vedado no capítulo de proteção ao meio ambiente, e o acondicionamento exige embalagens não utilizadas.",
+    "referencia": "PDF LOC, p. 98",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3182,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pela tabela de amostragem baseada no UNODC, sendo \"n\" o número total de itens ou embalagens, quando 10 < n ≤ 100 deve-se:",
+    "alternativas": {
+      "A": "escolher aleatoriamente 10 unidades e retirar uma amostra de cada",
+      "B": "retirar uma amostra de cada uma das unidades apreendidas na operação",
+      "C": "coletar amostra apenas das embalagens que apresentem rótulo",
+      "D": "colher 100 gramas do conjunto, como amostra representativa"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Para 10 < n ≤ 100, escolhem-se aleatoriamente 10 unidades e retira-se uma amostra de cada. Retirar amostra de cada unidade é a regra para n ≤ 10; os 100 gramas são a quantidade mínima de amostra para sólidos de 1 a 10 kg, e não critério de número de amostras.",
+    "referencia": "PDF LOC, p. 99",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3183,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às quantidades mínimas recomendadas, para produto sólido acima de 10 kg a amostra mínima é:",
+    "alternativas": {
+      "A": "100 gramas",
+      "B": "1,5 a 2% da massa",
+      "C": "200 ml",
+      "D": "1,5 a 2% do volume"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para sólidos acima de 10 kg, a amostra mínima é de 1,5 a 2% da massa. Os 100 gramas valem para sólidos de 1 a 10 kg; os 200 ml, para líquidos de 1 a 10 L; e o percentual sobre o volume, para líquidos acima de 10 L.",
+    "referencia": "PDF LOC, p. 99",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3184,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A regra de amostrar no mínimo 1 L por unidade é ressalva expressa do caderno para:",
+    "alternativas": {
+      "A": "medicamentos",
+      "B": "defensivos agrícolas",
+      "C": "combustível",
+      "D": "solventes orgânicos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A nota da tabela de quantidades mínimas registra que, tratando-se de combustível, deve-se amostrar no mínimo 1 L por unidade. Medicamentos e defensivos agrícolas têm regra própria quanto à embalagem, e não quanto ao volume mínimo.",
+    "referencia": "PDF LOC, p. 99",
+    "nivel": "medio"
+  },
+  {
+    "id": 3185,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "No caso de medicamentos, as amostras devem ser constituídas:",
+    "alternativas": {
+      "A": "pela unidade do produto individual, em sua embalagem original",
+      "B": "por porções colhidas da região interna, central e da superfície",
+      "C": "por 200 ml do conteúdo, preservando-se parte para contraprova",
+      "D": "pelo produto na embalagem mais externa original de fábrica"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Para medicamentos, a amostra é o produto acondicionado em sua embalagem mais externa original de fábrica. A unidade do produto individual em embalagem original é a regra de bebidas, defensivos agrícolas, saneantes e produtos comerciais em geral; a coleta em vários pontos é a regra dos sólidos.",
+    "referencia": "PDF LOC, p. 99",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3186,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao amostrar produtos sólidos, o caderno determina colher de vários pontos dos pacotes porque:",
+    "alternativas": {
+      "A": "assim se obtém uma amostra representativa do material",
+      "B": "evita-se o contato direto do perito com a substância",
+      "C": "reduz-se o risco de reação entre produtos incompatíveis",
+      "D": "preserva-se parte do conteúdo para eventual contraprova"
+    },
+    "resposta_correta": "A",
+    "justificativa": "As amostras de produtos sólidos devem ser colhidas de vários pontos dos pacotes — região interna, central e superfície — a fim de se obter uma amostra representativa. A preservação de parte do conteúdo para contraprova é orientação distinta, ligada à coleta em embalagens originais.",
+    "referencia": "PDF LOC, p. 100",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3187,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A vedação a homogeneizar o produto antes da coleta, salvo remoção prévia dos peróxidos, aplica-se, no caderno, ao caso de:",
+    "alternativas": {
+      "A": "produtos líquidos heterogêneos, como emulsões e suspensões",
+      "B": "éter com formação aparente de resíduos de peróxidos",
+      "C": "ácidos inorgânicos diluídos acondicionados em plástico",
+      "D": "soluções aquosas com pH básico em frasco de boca estreita"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Embora a regra geral mande misturar bem o produto líquido antes da coleta, o caderno excepciona o éter com formação aparente de resíduos de peróxidos, que não deve ser homogeneizado sem que os peróxidos sejam antes removidos. Nos líquidos heterogêneos, ao contrário, manda-se misturar bem e colher do fundo, do centro e da superfície.",
+    "referencia": "PDF LOC, p. 100",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3188,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O frasco de vidro neutro, de cor âmbar, boca estreita, com tampa interna de plástico e tampa externa com rosca é recomendado para:",
+    "alternativas": {
+      "A": "substâncias sólidas em geral, como sais e hidróxidos",
+      "B": "soluções aquosas com pH básico e soluções de ácido fluorídrico",
+      "C": "solventes orgânicos e soluções aquosas de pH neutro ou ácido",
+      "D": "produtos comerciais mantidos em sua embalagem original de fábrica"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O frasco de vidro âmbar de boca estreita destina-se a solventes orgânicos diversos e soluções aquosas com pH neutro ou ácido. As substâncias sólidas vão em frasco de plástico de boca larga; as soluções de pH básico e o ácido fluorídrico, em frasco de plástico de boca estreita.",
+    "referencia": "PDF LOC, p. 100",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3189,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O frasco de plástico (polietileno) de boca larga, com tampa interna e externa, é o recomendado para:",
+    "alternativas": {
+      "A": "solventes orgânicos como acetona, tolueno, hexano e éter etílico",
+      "B": "soluções aquosas de pH básico e ácidos diluídos",
+      "C": "ácidos inorgânicos concentrados, exceto o fluorídrico",
+      "D": "substâncias sólidas, como sulfato de sódio e soda cáustica"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A boca larga em polietileno é a indicação para substâncias sólidas — sulfato de sódio, permanganato de potássio, cal viva, carbonatos, bicarbonatos, hidróxido de sódio e de potássio —, admitindo-se ainda sacos plásticos vedados com fita adesiva de boa qualidade. Os solventes e ácidos concentrados vão em vidro âmbar de boca estreita; as soluções básicas e os ácidos diluídos, em plástico de boca estreita.",
+    "referencia": "PDF LOC, p. 100",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3190,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o ácido fluorídrico, o caderno registra observação específica no sentido de que ele:",
+    "alternativas": {
+      "A": "não pode ser coletado em recipiente de vidro",
+      "B": "deve ser neutralizado antes de qualquer acondicionamento",
+      "C": "só pode ser transportado em embalagem original de fábrica",
+      "D": "exige frasco de vidro âmbar, como os demais ácidos inorgânicos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A observação expressa é que o ácido fluorídrico não pode ser coletado em recipiente de vidro — por isso ele é a exceção na lista de ácidos inorgânicos destinados ao frasco de vidro âmbar e aparece entre as soluções acondicionadas em plástico de boca estreita.",
+    "referencia": "PDF LOC, p. 101",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3191,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 14 - Vestígios químicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na identificação de amostras químicas, o caderno recomenda recobrir as etiquetas com:",
+    "alternativas": {
+      "A": "invólucro de papel, antes do acondicionamento em envelope apropriado",
+      "B": "fita adesiva transparente de boa qualidade, para evitar extravios",
+      "C": "material macio, como algodão, para impedir atrito no transporte",
+      "D": "lacre numerado individualmente, que vincula a amostra ao caso"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Recomenda-se utilizar etiquetas e recobri-las com fita adesiva transparente de boa qualidade, a fim de evitar extravios ou confusões entre amostras. O invólucro de papel e o material macio são cuidados de acondicionamento de outros vestígios, e o lacre numerado é elemento da embalagem de segurança.",
+    "referencia": "PDF LOC, p. 101",
+    "nivel": "medio"
+  },
+  {
+    "id": 3192,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de objetos com impressões papilares, o caderno orienta usar pinças sempre que possível, com uma exceção expressa:",
+    "alternativas": {
+      "A": "as armas de fogo, que exigem manuseio pela empunhadura",
+      "B": "os estojos, que devem ser recolhidos com espátula limpa",
+      "C": "os projéteis, coletados com luvas ou sacos plásticos",
+      "D": "as lascas de pintura, que pedem espátulas especiais"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A exceção expressa ao uso de pinças é a coleta de projéteis, que deve ser feita usando luvas ou sacos plásticos. As espátulas especiais são a orientação para amostras-padrão de lascas de pintura de veículos, e as espátulas e pinças previamente limpas, para terras e sujidades.",
+    "referencia": "PDF LOC, p. 129",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3193,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao acondicionamento de armas de fogo e respectivos cartuchos, a tabela do caderno determina:",
+    "alternativas": {
+      "A": "acondicionar cada cartucho individualmente, envolto em algodão",
+      "B": "usar envelopes ou plásticos individuais para cada peça",
+      "C": "evitar choques e contatos dos objetos entre si na embalagem",
+      "D": "acondicionar a arma e os cartuchos em uma mesma embalagem"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A arma e os referidos cartuchos vão em uma mesma embalagem; havendo mais de uma arma, cada uma é acondicionada separadamente com os respectivos cartuchos. O acondicionamento individual envolto em material macio é a regra dos projéteis e estojos; os envelopes ou plásticos individuais valem para terras e sujidades; evitar choques é o cuidado com objetos que contenham impressões papilares.",
+    "referencia": "PDF LOC, p. 129-130",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3194,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O cuidado de evitar procedimentos que possam causar sulcos ou arranhões à \"alma\" dos canos é previsto para:",
+    "alternativas": {
+      "A": "armas de fogo",
+      "B": "projéteis e estojos",
+      "C": "marcas de ferramentas",
+      "D": "objetos com impressões papilares"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Esse cuidado consta da linha das armas de fogo, ao lado da remoção dos cartuchos e cápsulas deflagradas e do transporte com a arma desmuniciada. Para projéteis e estojos, o cuidado correspondente é evitar contatos e atritos com instrumentos metálicos.",
+    "referencia": "PDF LOC, p. 129",
+    "nivel": "medio"
+  },
+  {
+    "id": 3195,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encontrado projétil incrustado em objeto sólido, a orientação do caderno é:",
+    "alternativas": {
+      "A": "extraí-lo com pinça metálica, para não contaminá-lo com luvas",
+      "B": "removê-lo trabalhando no suporte, evitando tocar o projétil",
+      "C": "limpar os resquícios de material impregnado antes de embalar",
+      "D": "transportar o objeto inteiro ao laboratório, sem qualquer remoção"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deve-se removê-lo trabalhando no suporte, evitando tocar o projétil, e retirá-lo com os fragmentos do material no qual se encontra alojado. O caderno determina justamente NÃO remover os resquícios de materiais impregnados no projétil, e a coleta de projéteis é feita com luvas ou sacos plásticos, não com instrumentos metálicos.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3196,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "O acondicionamento individual em frascos ou recipientes envoltos em material macio, como algodão, é a orientação para:",
+    "alternativas": {
+      "A": "peças de roupa recolhidas na cena",
+      "B": "terras e sujidades coletadas com espátula",
+      "C": "projéteis e estojos de armas de fogo",
+      "D": "lascas de pintura de veículos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Projéteis e estojos são acondicionados individualmente em frascos ou recipientes envoltos em material macio, como algodão. Terras, sujidades e lascas de pintura vão em envelopes ou plásticos; para peças de roupa, o cuidado é evitar o excesso de dobras.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3197,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às peças de roupa, a tabela do caderno orienta:",
+    "alternativas": {
+      "A": "acondicioná-las ainda úmidas, para preservar vestígios biológicos",
+      "B": "recolhê-las em conjunto, num único envelope plástico lacrado",
+      "C": "utilizar espátulas e pinças previamente limpas na remoção",
+      "D": "secar naturalmente e recolhê-las individualmente"
+    },
+    "resposta_correta": "D",
+    "justificativa": "As peças de roupa devem ser secas naturalmente e recolhidas individualmente, evitando-se o excesso de dobras no acondicionamento. As espátulas e pinças previamente limpas são a orientação para terras e sujidades.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "medio"
+  },
+  {
+    "id": 3198,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de marcas de pegadas ou de pneus do tipo PRESSIONADAS, o caderno orienta:",
+    "alternativas": {
+      "A": "fotografar com escala e tirar o molde com material adequado",
+      "B": "fotografar com régua ou escala em \"L\", sem necessidade de molde",
+      "C": "transportar a peça suporte ao laboratório sempre que possível",
+      "D": "utilizar espátulas especiais para destacar a marca do substrato"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Nas marcas pressionadas, além de fotografar com régua ou escala, tira-se o molde com material adequado, como gesso ou material odontológico. Só fotografar com escala, preferencialmente do tipo \"L\", é a orientação das marcas superficiais; o transporte da peça suporte é a das marcas de ferramentas.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3199,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para fotografar marcas de pegadas e de pneus, a base fixa recomendada no caderno é:",
+    "alternativas": {
+      "A": "apoio manual firme, com a câmera rente ao solo",
+      "B": "monopé ou tripé invertido, de fixação mais fácil",
+      "C": "tripé convencional de três estágios, com coluna central elevada",
+      "D": "suporte fixado à régua em \"L\" utilizada como escala"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O caderno recomenda fotografar usando base fixa, preferencialmente um monopé ou um tripé invertido, que é mais fácil de fixar em locais distintos.",
+    "referencia": "PDF LOC, p. 130",
+    "nivel": "medio"
+  },
+  {
+    "id": 3200,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à luz natural na fotografia de marcas de pegadas e pneus, o melhor horário é:",
+    "alternativas": {
+      "A": "ao meio-dia, quando a incidência vertical elimina as sombras",
+      "B": "ao entardecer, com uso complementar de flash automático",
+      "C": "pela manhã ou no final da tarde, com incidência em ângulo",
+      "D": "em qualquer horário, desde que se use câmera digital"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O melhor horário é pela manhã ou no final da tarde, quando os raios de sol incidem em ângulo sobre a marca. Fotografar ao meio-dia equivale a usar o flash: satura o vestígio de luz, deixa-o achatado e faz perder detalhes e definição. A câmera digital é útil por informar de imediato a qualidade da foto, não por dispensar o horário adequado.",
+    "referencia": "PDF LOC, p. 131",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3201,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o uso de flash na fotografia dessas marcas, o caderno estabelece que:",
+    "alternativas": {
+      "A": "o flash automático é preferível por padronizar a exposição",
+      "B": "o flash deve ser mantido perpendicular à marca, como a câmera",
+      "C": "o flash substitui a luz natural sempre que houver sombra no local",
+      "D": "em locais muito escuros, pode ser usado a cerca de 45 graus"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Não se deve usar flash automático, pois satura o vestígio de luz, achatando-o e inutilizando-o para medições e confrontos; em locais muito escuros, admite-se o flash mantido em ângulo aproximado de 45 graus, de modo que a luz acentue os relevos. A perpendicularidade é exigida da câmera, no nivelamento, e não do flash.",
+    "referencia": "PDF LOC, p. 131",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3202,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "A exigência de fotografar perpendicularmente à pegada ou à marca de pneu é justificada, no caderno, porque:",
+    "alternativas": {
+      "A": "a fotografia em ângulo distorce as medidas do vestígio",
+      "B": "o ângulo produz sombras que escurecem os relevos",
+      "C": "a perpendicularidade dispensa o uso de escala na imagem",
+      "D": "apenas assim a luz natural incide corretamente sobre a marca"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O nivelamento é exigido porque uma fotografia em ângulo significa que as medidas ficarão distorcidas. A incidência da luz em ângulo, ao contrário, é justamente o que se busca no melhor horário; e a escala tem que constar da fotografia em qualquer hipótese.",
+    "referencia": "PDF LOC, p. 131",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3203,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na fotografia de marcas de pegadas e pneus, é elemento OBRIGATÓRIO na imagem:",
+    "alternativas": {
+      "A": "o nome do fotógrafo",
+      "B": "a escala",
+      "C": "a coordenada de GPS",
+      "D": "a data da coleta"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A escala tem que constar da fotografia. A descrição da localização do vestígio, como uma coordenada de GPS, e o nome do fotógrafo são facultativos; se forem incluídos, devem ser fixados num papel próximo à régua ou inseridos por aplicativos próprios.",
+    "referencia": "PDF LOC, p. 132",
+    "nivel": "medio"
+  },
+  {
+    "id": 3204,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à distância focal empregada na fotografia dessas marcas, o caderno determina que:",
+    "alternativas": {
+      "A": "seja sempre a máxima permitida pela lente, para ampliar o detalhe",
+      "B": "varie conforme a luminosidade natural disponível no momento do exame",
+      "C": "a mesma do local seja repetida com as amostras suspeitas",
+      "D": "seja ajustada para o formato panorâmico, abrangendo o entorno"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A câmera deve estar ajustada para o formato macro ou para a distância focal desejada, e a mesma distância focal usada no local de crime deve ser repetida com as amostras suspeitas — condição para o confronto posterior.",
+    "referencia": "PDF LOC, p. 131",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3205,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao coletar projéteis em local com feridos ou mortos por arma de fogo, o caderno adverte para não:",
+    "alternativas": {
+      "A": "tocar o projétil com as mãos, ainda que enluvadas",
+      "B": "acondicionar dois projéteis no mesmo recipiente rígido",
+      "C": "remover o projétil junto com fragmentos do suporte",
+      "D": "usar a mesma luva em mais de uma coleta"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A nota adverte para não usar a mesma luva em mais de uma coleta, pois isso poderá contaminar os projéteis com diferentes vestígios biológicos. O caderno orienta justamente coletar projéteis com a própria mão usando luvas, e a remoção com os fragmentos do material em que estão alojados é procedimento recomendado.",
+    "referencia": "PDF LOC, p. 132",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3206,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao coletar recipientes de vidro, como copos, o caderno orienta evitar tocar a extremidade porque:",
+    "alternativas": {
+      "A": "o atrito pode remover a amostra biológica e contaminar as luvas",
+      "B": "a região concentra impressões papilares de terceiros",
+      "C": "o contato pode provocar microfraturas que inviabilizam o ajuste físico",
+      "D": "a superfície costuma reter resíduos químicos corrosivos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A nota é explícita: deve-se evitar tocar em regiões que poderão ter amostra biológica, como a extremidade do copo, porque o atrito pode remover esse tipo de vestígio e ainda contaminar as luvas.",
+    "referencia": "PDF LOC, p. 132",
+    "nivel": "dificil"
+  },
+  {
+    "id": 3207,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à identificação e etiquetagem dos vestígios físicos, o caderno determina:",
+    "alternativas": {
+      "A": "inscrever o número do vestígio em área discreta da peça",
+      "B": "evitar marcação ou inscrição no corpo do próprio vestígio",
+      "C": "gravar as iniciais do coletador na superfície do objeto",
+      "D": "dispensar a etiqueta quando o vestígio for facilmente reconhecível"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Deve-se evitar a marcação ou inscrição no corpo do próprio vestígio, a fim de preservar sua integridade; sempre que possível, as etiquetas ou inscrições são fixadas nos envelopes ou recipientes em que o material é recolhido e acondicionado.",
+    "referencia": "PDF LOC, p. 134",
+    "nivel": "medio"
+  },
+  {
+    "id": 3208,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 16 - Vestígios físicos",
+    "tipo": "multipla_escolha",
+    "enunciado": "Antes de proceder à coleta de qualquer vestígio físico, o caderno determina realizar o registro:",
+    "alternativas": {
+      "A": "apenas fotográfico, com escala e identificação do coletador",
+      "B": "em ata circunstanciada assinada por duas testemunhas",
+      "C": "fotográfico, descritivo e topográfico de cada vestígio",
+      "D": "do estado de conservação e do peso aproximado do item"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Antes da coleta, é importante realizar o registro fotográfico, descritivo e topográfico de cada vestígio a ser coletado; só depois se procede à coleta, com material adequado e critérios de segurança e preservação conforme o tipo de vestígio.",
+    "referencia": "PDF LOC, p. 129",
+    "nivel": "medio"
   }
 ];
