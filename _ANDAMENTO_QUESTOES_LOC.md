@@ -58,7 +58,7 @@ d[i].get_pixmap(matrix=pymupdf.Matrix(2.0, 2.0)).save('saida_%d.png' % (i+1))
 ```
 A numeração impressa coincide com a do PDF (página 91 impressa = `d[90]`).
 
-## Situação (13/08/2026)
+## Situação (14/08/2026)
 
 | Capítulo | Páginas | Status | Questões |
 |---|---|---|---|
@@ -67,11 +67,23 @@ A numeração impressa coincide com a do PDF (página 91 impressa = `d[90]`).
 | 15 — Vestígios biológicos | 103-128 | ✅ feito | 63 novas (83 no total, 47 visíveis) |
 | 16 — Vestígios físicos | 129-134 | ✅ feito | 17 novas (29 no total) |
 | 17 — Microvestígios | 135-142 | ✅ feito | 46 novas (58 no total) |
+| 18 — Crimes contra o patrimônio | 145-155 | ✅ feito | 45 novas (57 no total) |
+| 19 — Locais de morte violenta | 157-178 | ✅ feito | 119 novas (141 no total) |
 
-Commits: `062ae86` (Cap. 17) e `b40bc99` (Caps. 13/14/16), repositório
+Commits: `062ae86` (Cap. 17), `b40bc99` (Caps. 13/14/16), `a2292e4` (Cap. 18),
+`7e8e4e9` e `26c36eb` (Cap. 19, fatias 1 e 2). Repositório
 `brunoluz12/cfp-perito-simulador`, branch `master`.
 
-## O que falta: Capítulo 15 (p. 103-128)
+**Atenção ao volume:** os caps. 18 e 19 entraram inteiros, sem a poda de
+`essencial: false` que se fez nos caps. 13 a 17. Se ficarem pesados demais para
+revisar, o caminho é o mesmo: marcar as redundantes com `essencial: false` (nada
+é apagado, os ids seguem ocupados).
+
+**Fonte dos caps. 18 e 19:** o PDF renderizado, nunca o `materiais/LOC/COMPLETO`.
+O OCR daquele material corrompe justamente os números (o art. 155 aparece lá como
+"reclusão de 7 (um) a 6 (seis) anos"; a apostila traz 1 a 6).
+
+## Como foi o Capítulo 15 (p. 103-128)
 
 O maior e mais denso — 26 páginas. Sumário:
 
