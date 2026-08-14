@@ -20557,7 +20557,8 @@
     "resposta_correta": "A",
     "justificativa": "A ferida contusa apresenta bordas irregulares e pontes de tecido no fundo, sinal que a distingue da ferida incisa (cortante), de bordas regulares e nítidas, sem pontes de tecido (p. 158-160). Isso valida A. B atribui as pontes de tecido à ferida incisa, cuja característica é justamente a ausência delas. C e D transferem o sinal para as feridas perfuro-incisa e punctória, produzidas por penetração e igualmente desprovidas de pontes de tecido.",
     "referencia": "PDF LOC, p. 158-160",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 1482,
@@ -20574,7 +20575,8 @@
     "resposta_correta": "B",
     "justificativa": "Entre as lesões cortantes, o esgorjamento é o corte na região anterior do pescoço e o degolamento, na região posterior (p. 160). Isso valida B. A inverte as definições. C e D igualam indevidamente os termos ou os confundem com decapitação.",
     "referencia": "PDF LOC, p. 160",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 1483,
@@ -20591,7 +20593,8 @@
     "resposta_correta": "B",
     "justificativa": "A ferida perfuro-incisa em 'casa de botão' com uma extremidade angular e outra arredondada indica instrumento de um gume; com dois gumes, ambas as extremidades seriam angulares. A forma sofre influência das linhas de clivagem de Langer (p. 160-161). Isso valida B. A atribui a assimetria ao ângulo de penetração de uma lâmina de dois gumes, quando dois gumes produzem duas extremidades angulares. C descreve ferida incisa, produzida por deslizamento, não por penetração. D descreve ferida punctória, cujas extremidades são desprovidas de ângulos.",
     "referencia": "PDF LOC, p. 160-161",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 1484,
@@ -20625,7 +20628,8 @@
     "resposta_correta": "B",
     "justificativa": "A orla de contusão está invariavelmente presente no OE, independentemente da distância; o OE costuma ser menor, com bordas invaginadas, e o OS é geralmente maior, com bordas evertidas e sem zonas de queimadura, esfumaçamento ou tatuagem (p. 165-167). Isso valida B. A condiciona a orla de contusão à curta distância, quando ela é invariável no OE, e a atribui aos gases, quando decorre do atrito do projétil. C transfere ao OS sinais próprios do OE. D inverte tamanho e bordas dos orifícios.",
     "referencia": "PDF LOC, p. 165-167",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 1486,
@@ -20659,7 +20663,8 @@
     "resposta_correta": "A",
     "justificativa": "A rigidez cadavérica instala-se entre 2 e 3 horas após o óbito, atinge intensidade máxima por volta de 12 horas e desaparece entre 24 e 36 horas, com o início da decomposição; a determinação do tempo de morte nunca deve se basear em um único sinal cadavérico, exigindo avaliação conjunta (p. 168-170). Isso valida A. B acerta o início, mas torna a rigidez permanente e a eleva a parâmetro isolado confiável, contrariando a regra da avaliação conjunta. C e D erram os tempos de instalação, máximo e desaparecimento, e D ainda promete precisão horária que a cronotanatognose não oferece.",
     "referencia": "PDF LOC, p. 168-170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 1488,
@@ -20693,7 +20698,8 @@
     "resposta_correta": "B",
     "justificativa": "No enforcamento, o sulco é em geral único, oblíquo e ascendente (de baixo para cima), interrompido ao nível do nó, apergaminhado, com bordo superior saliente, isto é, de bordos desiguais (p. 175). Isso valida B. A descreve o sulco do estrangulamento (horizontal, contínuo, bordos iguais). C atribui multiplicidade e direção descendente, além de escoriações típicas da esganadura. D inverte a direção (o sulco é ascendente) e a interrupção, que ocorre ao nível do nó.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 1490,
@@ -50649,7 +50655,8 @@
     "resposta_correta": "B",
     "justificativa": "Sinal de violência é toda e qualquer lesão sofrida pela vítima, mesmo as mais simples, e sua presença auxilia no estabelecimento da dinâmica do evento. O contato entre vítima e agressor caracteriza o sinal de luta; os vestígios gerados pela vítima ao tentar evitar os ferimentos caracterizam a reação de defesa; as lesões nos punhos por instrumentos constritores são apenas um exemplo de sinal de violência com significado especial.",
     "referencia": "PDF LOC, p. 157",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4057,
@@ -50666,7 +50673,8 @@
     "resposta_correta": "C",
     "justificativa": "A definição é a de reação de defesa. O sinal de luta é o vestígio que permite identificar o contato entre vítima e agressor; o sinal de violência é toda e qualquer lesão sofrida pela vítima; os vestígios intrínsecos são sangue, sêmen, vísceras, vômitos, saliva e fezes.",
     "referencia": "PDF LOC, p. 157",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4058,
@@ -50683,7 +50691,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno usa as lesões nos punhos por instrumentos constritores como exemplo de sinal de violência com significado especial. Vestígios intrínsecos são sangue, sêmen, vísceras, vômitos, saliva e fezes; o sinal de luta identifica o contato entre vítima e agressor; a reação de defesa reúne vestígios gerados pela própria vítima ao evitar os golpes.",
     "referencia": "PDF LOC, p. 157",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4059,
@@ -50734,7 +50743,8 @@
     "resposta_correta": "C",
     "justificativa": "O caderno determina que, com o sangue ainda líquido, o registro seja feito antes de se movimentar o corpo, anotando-se e fotografando-se as manchas em sua forma original. A retirada das vestes é posterior ao primeiro exame; a complementação no IML ocorre depois do trabalho no local; o exame das regiões anatômicas é etapa seguinte ao registro das manchas.",
     "referencia": "PDF LOC, p. 158",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4062,
@@ -50751,7 +50761,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno registra que o material das unhas, mãos e órgãos genitais pode oferecer pistas para a identificação do agressor. O movimento da vítima na cena é informação extraída das manchas de sangue; a forma do instrumento é o que muitas vezes a equimose revela; a estimativa de tempo decorrido é obtida pelo espectro equimótico.",
     "referencia": "PDF LOC, p. 158",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4063,
@@ -50768,7 +50779,8 @@
     "resposta_correta": "A",
     "justificativa": "O caderno indica que a subtração desses objetos é averiguada pela marca que eles deixam na área do corpo em que eram usados. O material sob as unhas serve à identificação do agressor; as formas de produção das manchas informam a dinâmica; a ordem das regiões anatômicas é apenas o roteiro do exame.",
     "referencia": "PDF LOC, p. 158",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4064,
@@ -50802,7 +50814,8 @@
     "resposta_correta": "C",
     "justificativa": "A única ressalva de atenção especial na lista é para as mãos, dentro do exame dos membros superiores. A sequência é cabeça, pescoço, tórax, membros superiores, membros inferiores, abdômen, dorso e órgãos genitais — logo, o pescoço vem depois da cabeça, o dorso depois do abdômen e os órgãos genitais em último lugar.",
     "referencia": "PDF LOC, p. 158",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4066,
@@ -50853,7 +50866,8 @@
     "resposta_correta": "B",
     "justificativa": "Para os contundentes, o caderno arrola contusão, ferida contusa e fratura. A ferida incisa é a lesão dos cortantes, aos quais se ligam os termos esgorjamento e degolamento; a ferida perfuro-incisa é a dos perfurocortantes; a ferida punctória é a dos perfurantes.",
     "referencia": "PDF LOC, p. 158",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4069,
@@ -50887,7 +50901,8 @@
     "resposta_correta": "D",
     "justificativa": "A caracterização das escoriações ungueais ou arciformes ganha importância nos crimes de conotação sexual e nas lesões de defesa, em que a vítima pode guardar material do agressor sob as unhas, relevante para a identificação de autoria pelo DNA. O atrito com superfícies rugosas, como concreto e asfalto, produz as escoriações em placa; o deslizamento de unhas gera arranhões, que são escoriações lineares; as manobras eróticas relacionam-se às sugilações.",
     "referencia": "PDF LOC, p. 159",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4071,
@@ -50904,7 +50919,8 @@
     "resposta_correta": "A",
     "justificativa": "As sugilações são o tipo especial de equimose, mais leve, que pode apresentar-se em pequenos grãos, e devem ser buscadas nas vítimas de crimes de natureza sexual. O hematoma decorre da ruptura de vasos mais calibrosos, com distensão dos tecidos; a rubefação é mera congestão; a escoriação em placa é definida em duas dimensões pelo atrito com superfícies rugosas.",
     "referencia": "PDF LOC, p. 159",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4072,
@@ -50921,7 +50937,8 @@
     "resposta_correta": "B",
     "justificativa": "O espectro equimótico é o recurso indicado para a estimativa do tempo decorrido da produção da equimose, feita na maior parte das vezes com auxílio do médico-legista. Revelar a forma do instrumento é outra utilidade da equimose em si; a profundidade do infiltrado e o material sob as unhas não são objeto do espectro.",
     "referencia": "PDF LOC, p. 159",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4073,
@@ -50938,7 +50955,8 @@
     "resposta_correta": "C",
     "justificativa": "O caderno explica que a rubefação — mera congestão do tecido, sem ruptura de vasos, como nas marcas de tapas — desaparece em tempo relativamente restrito, em geral inferior ao da chegada do perito ao local. O espectro equimótico serve às equimoses; o acúmulo de sangue sobre plano ósseo é a bossa sanguínea, ligada ao hematoma; a visibilidade não é condicionada à retirada das vestes.",
     "referencia": "PDF LOC, p. 160",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4074,
@@ -50955,7 +50973,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno dá o nome de bossa sanguínea ao hematoma formado sobre plano ósseo subjacente. A orla equimótica é a que acompanha a ferida contusa; a sugilação é a equimose leve ligada a manobras eróticas; o espectro equimótico é o método de estimativa do tempo da lesão.",
     "referencia": "PDF LOC, p. 160",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4075,
@@ -51006,7 +51025,8 @@
     "resposta_correta": "C",
     "justificativa": "Nessas hipóteses, o choque de regiões anatômicas contra superfícies rígidas faz do corpo humano o próprio agente ativo da produção da lesão contusa. A ação tangencial do objeto sobre o corpo produz escoriações; as lâminas de gume afiado produzem feridas incisas; as lesões penetrantes e transfixantes são próprias dos perfurantes e perfurocortantes.",
     "referencia": "PDF LOC, p. 160",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4078,
@@ -51040,7 +51060,8 @@
     "resposta_correta": "A",
     "justificativa": "O caderno relaciona entorses, luxações e edemas traumáticos ao grupo das fraturas, porém como lesões de menor importância e de caracterização mais difícil para o perito. As de observação externa mais fácil são as expostas, as com encurtamento de membros, as completas com cavalgamento e as da calota craniana com afundamento.",
     "referencia": "PDF LOC, p. 161",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4080,
@@ -51057,7 +51078,8 @@
     "resposta_correta": "B",
     "justificativa": "A ferida incisa tem bordas regulares, lisas e nítidas, geralmente sangrantes, maior extensão de comprimento que de profundidade, centro geralmente mais profundo que as extremidades, início mais profundo e curto e fim mais longo e superficial, além da cauda de saída ou de escoriação. Profundidade maior que extensão e largura é da ferida perfuro-incisa; extremidades sem ângulos, da punctória; bordos denteados com pontes de tecido, da contusa.",
     "referencia": "PDF LOC, p. 161",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4081,
@@ -51108,7 +51130,8 @@
     "resposta_correta": "A",
     "justificativa": "O caderno descreve hemorragia escassa nas feridas perfuro-incisas, porque em geral ela se concentra internamente. Bordas geralmente sangrantes são característica das feridas incisas; a hemorragia externa escassa ou ausente é descrição das punctórias; o número de gumes influencia as extremidades da lesão, não o volume da hemorragia.",
     "referencia": "PDF LOC, p. 162",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4084,
@@ -51125,7 +51148,8 @@
     "resposta_correta": "B",
     "justificativa": "A feição transfixante (com entrada e saída) ocorre normalmente quando a região atingida possui espessura menor, tais como membros superiores (braços e mãos), pernas e pescoço. O plano ósseo subjacente é relevante para a ferida contusa e para a forma poligonal do orifício de entrada; as vestes influem no enxugo; a incidência perpendicular determina a forma circular do orifício de entrada.",
     "referencia": "PDF LOC, p. 162",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4085,
@@ -51142,7 +51166,8 @@
     "resposta_correta": "C",
     "justificativa": "O caderno registra que a rotação da lâmina na saída gera ferida com aspecto duplo ou com discreta cauda de escoriação. Extremidades sem ângulos descrevem a ferida punctória; bordas invaginadas de fora para dentro são do orifício de entrada de projétil; pontes de tecido unindo as bordas caracterizam a ferida contusa.",
     "referencia": "PDF LOC, p. 162",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4086,
@@ -51159,7 +51184,8 @@
     "resposta_correta": "D",
     "justificativa": "As lesões corto-contusas dependem da força aplicada pelo agente e da condição da lâmina: lâmina sem gume tão afiado tende a contundir mais, e lâmina mais afiada tende a cortar mais. A espessura da região e a incidência perpendicular não são os fatores apontados para esse equilíbrio.",
     "referencia": "PDF LOC, p. 163",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4087,
@@ -51176,7 +51202,8 @@
     "resposta_correta": "A",
     "justificativa": "O caderno afirma que, quanto maior a massa de um instrumento desse tipo, maior sua eficiência para contundir; a capacidade de cortar depende do gume da lâmina. Justamente por contundir, é comum haver outros tipos de lesões contusas associadas, como as fraturas.",
     "referencia": "PDF LOC, p. 163",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4088,
@@ -51193,7 +51220,8 @@
     "resposta_correta": "B",
     "justificativa": "A ferida punctória, dos instrumentos perfurantes, tem forma circular ou ovalar, podendo ser puntiforme, maior profundidade que extensão, hemorragia externa escassa ou ausente e extremidades desprovidas de ângulos — ao contrário da perfuro-incisa, cujas extremidades angulares permitem caracterizar o número de gumes. Bordas regulares e nítidas descrevem a ferida incisa; orla equimótica com bordos denteados e pontes de tecido, a ferida contusa.",
     "referencia": "PDF LOC, p. 164",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4089,
@@ -51244,7 +51272,8 @@
     "resposta_correta": "A",
     "justificativa": "O canto vivo é o exemplo dado para a forma geométrica. A deformabilidade é exemplificada pelo hollow point; a velocidade é subdividida em subsônicos e supersônicos; a massa figura na lista sem exemplo associado.",
     "referencia": "PDF LOC, p. 165",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4092,
@@ -51261,7 +51290,8 @@
     "resposta_correta": "B",
     "justificativa": "A explicação dada é a elasticidade da epiderme, que faz a dimensão do orifício ser menor que o diâmetro da base do projétil e, em geral, menor que a verificada nos orifícios de saída. A ação contundente do projétil produz a orla de contusão; o contato da superfície do projétil com os bordos deixa a orla de enxugo; as bordas invaginadas são característica autônoma do orifício de entrada.",
     "referencia": "PDF LOC, p. 165",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4093,
@@ -51295,7 +51325,8 @@
     "resposta_correta": "D",
     "justificativa": "A forma atípica resulta de o projétil, antes de penetrar no plano cutâneo, sofrer deformação em sua ogiva ou fragmentar-se ao ricochetear em superfície rígida. Penetração perpendicular gera forma circular; penetração oblíqua, forma ovalar ou em fenda; cano encostado com plano ósseo subjacente, forma poligonal.",
     "referencia": "PDF LOC, p. 165",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4095,
@@ -51312,7 +51343,8 @@
     "resposta_correta": "A",
     "justificativa": "Estando a região coberta por vestes, a limpeza ocorre quando da penetração do projétil no tecido e o enxugo fica restrito à veste. A orla de contusão continua invariavelmente presente, independentemente da distância; a tatuagem é formada por grânulos incombustos que penetram na epiderme e na derme; o esfumaçamento permanece removível com tecido umedecido.",
     "referencia": "PDF LOC, p. 166",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4096,
@@ -51329,7 +51361,8 @@
     "resposta_correta": "B",
     "justificativa": "O caderno registra a auréola ou orla equimótica como elemento que pode estar ou não presente no orifício de entrada — no orifício de saída ela é dada como muitas vezes presente. A presença invariável, independentemente da distância, é da orla de contusão; os resíduos de pólvora e graxa formam a orla de enxugo ou de limpeza; os grânulos incombustos que penetram na derme constituem a zona de tatuagem.",
     "referencia": "PDF LOC, p. 166",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4097,
@@ -51346,7 +51379,8 @@
     "resposta_correta": "C",
     "justificativa": "A zona de chamuscamento aparece em disparos a distância que permita a ação dos gases inflamados decorrentes da combustão dos explosivos contidos na unidade de munição. A deposição de fuligem e resíduos pulverulentos, particularmente do propelente, é o esfumaçamento; os grânulos incombustos que penetram na pele formam a tatuagem; a ação contundente do projétil produz a orla de contusão.",
     "referencia": "PDF LOC, p. 166",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4098,
@@ -51363,7 +51397,8 @@
     "resposta_correta": "D",
     "justificativa": "A forma do esfumaçamento depende do ângulo de inclinação entre a extremidade do cano e o alvo, ao passo que a extensão e a concentração variam com a distância do disparo. A espessura da região anatômica determina o caráter transfixante das lesões; a qualidade da munição é fator determinante dos efeitos lesivos; a elasticidade da epiderme explica a dimensão do orifício de entrada.",
     "referencia": "PDF LOC, p. 166",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4099,
@@ -51380,7 +51415,8 @@
     "resposta_correta": "A",
     "justificativa": "Na zona de tatuagem, a fração de grânulos de pólvora incombustos penetra nas camadas da epiderme e inclusive na derme, em função da força propulsiva das partículas. A remoção com tecido umedecido é possível no esfumaçamento; a ruptura estrelada por gases sob a pele é a Câmara de Mina de Hoffmann; a deposição na tábua óssea do crânio e de arcos costais é o sinal de Benassi.",
     "referencia": "PDF LOC, p. 167",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4100,
@@ -51397,7 +51433,8 @@
     "resposta_correta": "B",
     "justificativa": "O sinal de Benassi é encontrado na tábua óssea do crânio e de arcos costais, em disparos encostados à pele ou bem próximos, formando cone de impurezas e fuligem ao redor do orifício. A marca do cano ao redor do orifício de entrada, por queimadura, é o sinal de Puppe-Werkgartner; a ruptura estrelada e evertida por gases sob a pele é a Câmara de Mina de Hoffmann; a zona de contusão no orifício de saída ocorre quando a região fica encostada em anteparo.",
     "referencia": "PDF LOC, p. 167",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4101,
@@ -51414,7 +51451,8 @@
     "resposta_correta": "C",
     "justificativa": "A exceção apontada é a região anatômica em que a lesão de saída se produz estando encostada a um anteparo, como uma parede, muro ou piso. O cano encostado influencia o orifício de entrada (forma poligonal, Câmara de Mina, Puppe-Werkgartner); a menor espessura favorece lesões transfixantes; a deformação da ogiva produz orifício de entrada atípico.",
     "referencia": "PDF LOC, p. 168",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4102,
@@ -51431,7 +51469,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno indica aspecto irregular, com bordas dilaceradas, e formas predominantes poligonal, em fenda e elípticas. Circular, ovalar ou puntiforme descreve a ferida punctória; a ruptura estrelada e evertida é da Câmara de Mina de Hoffmann; linear, arciforme e em placa são tipos de escoriação.",
     "referencia": "PDF LOC, p. 168",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4103,
@@ -51448,7 +51487,8 @@
     "resposta_correta": "A",
     "justificativa": "A lista do orifício de saída encerra-se com o material orgânico trazido pelo projétil. Resíduos de pólvora e graxa nos bordos formam a orla de enxugo, do orifício de entrada; os grânulos incrustados na derme constituem a tatuagem; a fuligem removível com tecido umedecido é o esfumaçamento — nenhuma dessas zonas aparece no orifício de saída.",
     "referencia": "PDF LOC, p. 168",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4104,
@@ -51465,7 +51505,8 @@
     "resposta_correta": "B",
     "justificativa": "A cronotanatognose é o ramo da Medicina Legal destinado ao estudo da determinação do tempo decorrido desde a morte, estimando o intervalo pós-morte pela análise dos fenômenos cadavéricos observados no cadáver e no ambiente. A distância do disparo é inferida pelas zonas adjacentes ao orifício de entrada; a identificação do instrumento decorre do exame das lesões.",
     "referencia": "PDF LOC, p. 168",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4105,
@@ -51499,7 +51540,8 @@
     "resposta_correta": "B",
     "justificativa": "A classificação adotada é em fenômenos imediatos, consecutivos e transformativos. Destrutivos e conservadores são subdivisões dos transformativos; as alterações físicas, químicas e biológicas descrevem a natureza do processo, não a sua classificação.",
     "referencia": "PDF LOC, p. 169",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4107,
@@ -51533,7 +51575,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno registra que os fenômenos imediatos têm limitada utilidade prática na estimativa cronológica em locais de crime. A verificação de alteração da posição do cadáver é utilidade apontada para a rigidez; a preservação parcial de lesões e caracteres identificadores é o valor pericial dos fenômenos conservadores.",
     "referencia": "PDF LOC, p. 169",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4109,
@@ -51550,7 +51593,8 @@
     "resposta_correta": "A",
     "justificativa": "O algor mortis é a perda gradual da temperatura corporal até o equilíbrio com o meio ambiente. O endurecimento progressivo da musculatura é a rigidez; o acúmulo de sangue nas regiões declivosas produz os livores; a ação bacteriana destrutiva é a putrefação.",
     "referencia": "PDF LOC, p. 169",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4110,
@@ -51567,7 +51611,8 @@
     "resposta_correta": "B",
     "justificativa": "Os fatores listados para o resfriamento são temperatura ambiente, ventilação, umidade, massa corporal, vestimentas e causa da morte; em locais fechados e climatizados o processo pode ocorrer de forma distinta da observada em ambientes externos. Exposição ao sol e presença de insetos figuram entre os fatores da velocidade de decomposição; a posição declive explica os livores; as alterações bioquímicas das fibras explicam a rigidez.",
     "referencia": "PDF LOC, p. 169",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4111,
@@ -51584,7 +51629,8 @@
     "resposta_correta": "C",
     "justificativa": "A rigidez instala-se habitualmente entre 2 e 3 horas após o óbito. O intervalo de 2 a 4 horas é o do surgimento dos livores; por volta de 12 horas a rigidez atinge intensidade máxima; entre 24 e 36 horas ela desaparece gradativamente, em razão do início da decomposição.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4112,
@@ -51601,7 +51647,8 @@
     "resposta_correta": "D",
     "justificativa": "A rigidez inicia-se nos pequenos grupos musculares da face e mandíbula, evoluindo posteriormente para pescoço, tronco e membros — logo, os membros são atingidos por último, e não há instalação simultânea. As regiões mais declivosas são a referência dos livores cadavéricos.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4113,
@@ -51618,7 +51665,8 @@
     "resposta_correta": "A",
     "justificativa": "A intensidade máxima ocorre por volta de 12 horas. Entre 2 e 3 horas a rigidez se instala; entre 24 e 36 horas ela desaparece gradativamente; entre 2 e 4 horas surgem os livores.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4114,
@@ -51635,7 +51683,8 @@
     "resposta_correta": "B",
     "justificativa": "O desaparecimento gradativo da rigidez entre 24 e 36 horas decorre do início da decomposição. O equilíbrio térmico encerra o resfriamento cadavérico; a migração do sangue por gravidade forma os livores; os fenômenos conservadores retardam a decomposição, não explicam o fim da rigidez.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4115,
@@ -51652,7 +51701,8 @@
     "resposta_correta": "C",
     "justificativa": "Os livores resultam do acúmulo de sangue nas regiões mais declivosas do corpo, em virtude da ação da gravidade. O endurecimento das fibras é a rigidez; a ação bacteriana, iniciada pela coloração verde abdominal, é a putrefação; a perda de temperatura é o resfriamento.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4116,
@@ -51686,7 +51736,8 @@
     "resposta_correta": "A",
     "justificativa": "Os livores informam a posição original do cadáver, a possível movimentação do corpo, uma estimativa temporal aproximada e a compatibilidade entre cadáver e cena. As alterações bioquímicas das fibras dizem respeito à rigidez; a ação bacteriana, à putrefação; o equilíbrio térmico, ao resfriamento.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4118,
@@ -51703,7 +51754,8 @@
     "resposta_correta": "B",
     "justificativa": "A incompatibilidade entre os livores e a posição de encontro do corpo aponta remoção ou manipulação posterior. Mumificação, saponificação e maceração retardam a decomposição; a causa da morte é um dos fatores da velocidade putrefativa; a rigidez segue seu próprio curso temporal.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4119,
@@ -51720,7 +51772,8 @@
     "resposta_correta": "C",
     "justificativa": "A putrefação é o principal fenômeno transformativo destrutivo, causado principalmente pela ação bacteriana. Os processos que retardam a decomposição são os conservadores; os decorrentes da cessação das funções vitais são os imediatos; a perda gradual de temperatura é o resfriamento, fenômeno consecutivo.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4120,
@@ -51754,7 +51807,8 @@
     "resposta_correta": "A",
     "justificativa": "A sequência começa pela coloração verde abdominal, seguida da circulação póstuma gasosa, do enfisema putrefativo e da liquefação dos tecidos.",
     "referencia": "PDF LOC, p. 170",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4122,
@@ -51771,7 +51825,8 @@
     "resposta_correta": "B",
     "justificativa": "Os fatores da velocidade de decomposição listados são temperatura, umidade, exposição ao sol, presença de insetos e causa da morte, sendo a evolução putrefativa mais acelerada em regiões tropicais. Massa corporal, ventilação e vestimentas influem no resfriamento; a posição declive explica os livores; as alterações bioquímicas das fibras, a rigidez.",
     "referencia": "PDF LOC, p. 171",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4123,
@@ -51788,7 +51843,8 @@
     "resposta_correta": "C",
     "justificativa": "O caderno registra que em regiões tropicais a evolução putrefativa tende a ser mais acelerada. As fases evolutivas permanecem as mesmas, e a mumificação é fenômeno conservador, que retarda a decomposição em vez de precedê-la.",
     "referencia": "PDF LOC, p. 171",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4124,
@@ -51805,7 +51861,8 @@
     "resposta_correta": "D",
     "justificativa": "Os conservadores destacados são mumificação, saponificação e maceração, que retardam a decomposição em determinadas condições ambientais. Coloração verde, enfisema e liquefação são fases da putrefação; resfriamento, rigidez e livores são fenômenos consecutivos; perda da consciência e relaxamento muscular são imediatos.",
     "referencia": "PDF LOC, p. 171",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4125,
@@ -51822,7 +51879,8 @@
     "resposta_correta": "A",
     "justificativa": "A importância pericial dos conservadores está em permitirem a preservação parcial de lesões e de características identificadoras. Eles retardam — e não aceleram — a decomposição; a posição original é informada pelos livores; nenhum fenômeno permite fixar com exatidão o horário do óbito, daí a exigência de avaliação conjunta.",
     "referencia": "PDF LOC, p. 171",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4126,
@@ -51839,7 +51897,8 @@
     "resposta_correta": "B",
     "justificativa": "A interpretação dos fenômenos permite estimar o intervalo pós-morte, confrontar versões apresentadas, verificar a coerência cronológica dos fatos, auxiliar na dinâmica do evento e direcionar linhas investigativas. O espectro equimótico serve à datação de equimoses, não à autoria; o estudo deve ser integrado aos vestígios do ambiente e não substitui os exames do IML.",
     "referencia": "PDF LOC, p. 171",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4127,
@@ -51856,7 +51915,8 @@
     "resposta_correta": "C",
     "justificativa": "O caderno exige o estudo integrado, considerando ao mesmo tempo os achados do cadáver, os vestígios do ambiente e os elementos investigativos disponíveis — nunca um único sinal, uma única medida ou apenas versões colhidas.",
     "referencia": "PDF LOC, p. 171",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4128,
@@ -51907,7 +51967,8 @@
     "resposta_correta": "B",
     "justificativa": "As anotações gerais compreendem data e hora do início dos exames, localização exata do evento, condições atmosféricas, de iluminação e de visibilidade, completa análise das vias de acesso, descrição do local e condições topográficas da área. As dimensões de portas, móveis e janelas são recomendação para o croqui; a preparação do material é procedimento anterior ao exame; a disposição geral das vestes abre o exame das vestes.",
     "referencia": "PDF LOC, p. 172",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4131,
@@ -51924,7 +51985,8 @@
     "resposta_correta": "C",
     "justificativa": "A completa análise das vias de acesso e as condições topográficas da área integram as anotações gerais. As distâncias até pontos específicos, como as vias de acesso, são recomendação do croqui; a adequação do isolamento é verificada no exame preliminar; orifícios e rasgamentos pertencem ao exame das vestes.",
     "referencia": "PDF LOC, p. 172",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4132,
@@ -51958,7 +52020,8 @@
     "resposta_correta": "A",
     "justificativa": "O croqui deve trazer dimensões de portas, móveis e janelas caso necessário, distâncias de objetos até pontos específicos como as vias de acesso (entrada e saída) e distâncias entre objetos. Condições atmosféricas e de visibilidade são anotações gerais; a natureza e a morfologia das manchas pertencem ao exame das vestes; classificar e medir as lesões é etapa do exame do cadáver.",
     "referencia": "PDF LOC, p. 172",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4134,
@@ -51975,7 +52038,8 @@
     "resposta_correta": "B",
     "justificativa": "As fotografias externas devem mostrar vistas gerais da cena incluindo pontos de referência, como placas, marcos e vias públicas. A lente grande-angular é recomendada para ambientes internos restritos; as duas tomadas em ângulos opostos referem-se às fotografias do cadáver; escala e placas com números ou letras são recomendação para as fotos de detalhe.",
     "referencia": "PDF LOC, p. 172",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4135,
@@ -51992,7 +52056,8 @@
     "resposta_correta": "C",
     "justificativa": "A grande-angular é indicada nas fotografias internas de ambientes restritos, como quartos e banheiros, por ser necessária para mostrar a posição relativa entre as evidências. As fotos de detalhe destinam-se a cada evidência; a tomada do rosto serve à identificação; as fotos a distâncias médias registram posições relativas entre vestígios.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4136,
@@ -52009,7 +52074,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno recomenda que as fotos de detalhe incluam uma escala e também placas com números ou letras que identifiquem os vestígios. Os dois ângulos opostos são exigência das fotografias do cadáver; os pontos de referência aparecem nas vistas gerais externas; as posições relativas entre vestígios são objeto das fotos a distâncias médias.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4137,
@@ -52060,7 +52126,8 @@
     "resposta_correta": "C",
     "justificativa": "O caderno indica essa tomada como importante para uma identificação segura da vítima. A posição exata é registrada pelas duas fotos em ângulos opostos; as manchas diversas no corpo têm fotos de detalhe próprias; o confronto entre os vestígios do cadáver e os da cena é etapa distinta do exame.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4140,
@@ -52077,7 +52144,8 @@
     "resposta_correta": "D",
     "justificativa": "As marcas identificadoras permitem ao perito que realiza a coleta reconhecer, em data posterior, cada evidência como aquela coletada na cena do crime. A cronologia das lesões não decorre da marcação; as distâncias até as vias de acesso são objeto do croqui; a natureza das manchas é apurada no exame das vestes.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4141,
@@ -52094,7 +52162,8 @@
     "resposta_correta": "A",
     "justificativa": "A sequência começa pela análise visual do cadáver, sem movimentá-lo; só então vêm a descrição da posição em que o corpo foi encontrado, a descrição da vítima, a identificação das lesões, os sinais de luta e as evidências no corpo. A retirada das vestes integra o exame das vestes, posterior.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4142,
@@ -52111,7 +52180,8 @@
     "resposta_correta": "B",
     "justificativa": "A descrição da vítima inclui sexo, cor, fase cronológica (criança, jovem, adulto ou idoso), compleição física, comprimento e cor dos cabelos e cor dos olhos. Disposição das vestes e conteúdo dos bolsos pertencem ao exame das vestes; classificar e medir as lesões é item próprio; sinais de luta e resíduos nas mãos são itens seguintes da mesma lista.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4143,
@@ -52128,7 +52198,8 @@
     "resposta_correta": "C",
     "justificativa": "As silhuetas anatômicas são recomendadas para posicionar cada uma das lesões identificadas, na etapa de classificação e tomada de medidas. As distâncias entre objetos vão no croqui; a posição exata do corpo é registrada por fotografia; as manchas nas vestes têm descrição própria.",
     "referencia": "PDF LOC, p. 173",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4144,
@@ -52162,7 +52233,8 @@
     "resposta_correta": "A",
     "justificativa": "O caderno registra que sinais característicos, tatuagens etc. devem ser fotografados, especialmente quando a vítima não é identificada. A suspeita de manipulação é sugerida por livores incompatíveis; a natureza das lesões e a presença de fenômenos conservadores não são as condições apontadas nesse item.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4146,
@@ -52179,7 +52251,8 @@
     "resposta_correta": "B",
     "justificativa": "O item determina o exame de todas as vestes, inclusive roupas íntimas e calçados. A existência de manchas, orifícios ou rasgamentos é objeto de identificação dentro desse exame, e não critério para selecionar quais peças examinar.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4147,
@@ -52196,7 +52269,8 @@
     "resposta_correta": "C",
     "justificativa": "A retirada das vestes deve ser cuidadosa, para evitar a perda de vestígios que estejam nesse suporte, e, sendo necessário o corte da veste, ele deve ser registrado. As vestes são encaminhadas ao IML ou recolhidas para exames complementares, jamais descartadas ou lavadas.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4148,
@@ -52213,7 +52287,8 @@
     "resposta_correta": "D",
     "justificativa": "O exame das vestes identifica orifícios, rasgamentos, irregularidades e arrancamento de botões, além da natureza das manchas e sua morfologia (sangue, esperma, resíduos de disparo) e do conteúdo dos bolsos. Compleição e fase cronológica integram a descrição da vítima; os sinais internos de asfixia são achados do exame no IML; as condições atmosféricas são anotações gerais.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4149,
@@ -52230,7 +52305,8 @@
     "resposta_correta": "A",
     "justificativa": "A recomendação é encaminhar ao IML as vestes examinadas que não tenham mais informações a extrair e, quando forem necessários exames complementares, recolhê-las informando os peritos médicos-legistas sobre o recolhimento.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4150,
@@ -52247,7 +52323,8 @@
     "resposta_correta": "B",
     "justificativa": "O perito deve acompanhar os exames cadavéricos realizados no IML, levando ao médico-legista as informações obtidas durante o exame da cena, que servem de orientação para a busca dos achados médico-legais. O exame interno é do legista; os dados dele obtidos são confrontados com as hipóteses do exame de local e podem ser citados no laudo do perito de local.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4151,
@@ -52264,7 +52341,8 @@
     "resposta_correta": "C",
     "justificativa": "Os dados do exame interno devem ser confrontados com as hipóteses levantadas durante o exame de local, podendo ser citados no laudo do perito de local — não são, portanto, de uso exclusivo do legista, e o estudo permanece integrado aos vestígios do ambiente.",
     "referencia": "PDF LOC, p. 174",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4152,
@@ -52298,7 +52376,8 @@
     "resposta_correta": "A",
     "justificativa": "Nas pistolas, a atenção especial recai sobre os estojos deflagrados próximos à vítima. O exame do tambor cabe aos revólveres; a distância horizontal percorrida é item das mortes por precipitação; o cogumelo de espuma caracteriza o afogado.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4154,
@@ -52315,7 +52394,8 @@
     "resposta_correta": "B",
     "justificativa": "O primeiro item do diagnóstico diferencial trata do número de disparos efetuados no local, considerando a probabilidade dos disparos para comprovar a eficiência da arma e os disparos de hesitação. O número de disparos que atingiram a vítima é apurado pelas lesões de entrada e de saída; a região anatômica e a posição da arma são itens autônomos da mesma lista.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4155,
@@ -52332,7 +52412,8 @@
     "resposta_correta": "C",
     "justificativa": "A distância é estabelecida pela constatação de vestígios relacionados a resíduos secundários de disparo e pela presença dos sinais característicos — zonas de tatuagem, de esfumaçamento e de queimadura, Câmara de Hofmann, sinal de Puppe-Werkgartner e sinal de Benassi. Posição da arma, número de lesões e marcas de queda são itens distintos do mesmo rol.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4156,
@@ -52349,7 +52430,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno manda confrontar a posição da vítima com a disposição das vestes, as manchas de sangue e os livores hipostáticos. O número de disparos e a região anatômica atingida são itens próprios; cartas, bilhetes e objetos organizados caracterizam o chamado ritual de alívio.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4157,
@@ -52366,7 +52448,8 @@
     "resposta_correta": "A",
     "justificativa": "O último item da lista é a busca por marcas de queda produzidas na arma, bem como no suporte onde ela possa ter caído. O exame das vias respiratórias é recomendação das mortes por ação do calor; o ponto de impacto do corpo é item das precipitações; cogumelo de espuma e cianose da face são características do afogado.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4158,
@@ -52383,7 +52466,8 @@
     "resposta_correta": "B",
     "justificativa": "O sulco do enforcado é em geral único, oblíquo, ascendente, interrompido ao nível do nó, apergaminhado e com o bordo superior saliente — logo, de bordos desiguais. Bordos iguais, pela uniformidade da compressão, caracterizam o sulco do estrangulado; a ausência de sulco, com escoriações e equimoses no pescoço, é própria da esganadura.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4159,
@@ -52400,7 +52484,8 @@
     "resposta_correta": "C",
     "justificativa": "O sulco do estrangulado pode ser único ou não, dispõe-se geralmente de modo horizontal em relação ao pescoço ou ligeiramente oblíquo, não se apresenta interrompido ao nível do nó e é apergaminhado, com bordos iguais. O trajeto oblíquo e ascendente interrompido no nó é do enforcado; a ausência de sulco com lesões nas faces laterais é da esganadura.",
     "referencia": "PDF LOC, p. 175",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4160,
@@ -52417,7 +52502,8 @@
     "resposta_correta": "D",
     "justificativa": "Na esganadura não aparecem sinais externos de compressão como sulcos, mas escoriações e equimoses produzidas pela pressão violenta dos dedos e unhas, nas faces laterais e anterior do pescoço. O sulco interrompido no nó é do enforcado; o sulco horizontal de bordos iguais, do estrangulado; cogumelo de espuma e pele anserina são do afogado.",
     "referencia": "PDF LOC, p. 176",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4161,
@@ -52434,7 +52520,8 @@
     "resposta_correta": "A",
     "justificativa": "A lista da asfixia por instrumento constritor inclui a caracterização do sulco, a localização e descrição completa do instrumento constritor e de sua amarração, a posição da vítima (tipo de suspensão), o exame das vestes e da cena, o ritual de alívio, o exame do cadáver e os sinais internos de asfixia. Ponto de impacto pertence à precipitação; líquidos inflamáveis, à ação do calor; embalagens de venenos, ao envenenamento.",
     "referencia": "PDF LOC, p. 176",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4162,
@@ -52451,7 +52538,8 @@
     "resposta_correta": "B",
     "justificativa": "A distância horizontal percorrida distingue as hipóteses: na acidental a projeção é perpendicular ou quase perpendicular; nas voluntária e criminosa há projeção oblíqua, com afastamento horizontal, porque a vítima recebe um impulso inicial — geralmente mais acentuado no caso voluntário que no criminoso.",
     "referencia": "PDF LOC, p. 176",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4163,
@@ -52468,7 +52556,8 @@
     "resposta_correta": "C",
     "justificativa": "Nas projeções oblíquas, o impulso inicial do caso voluntário é geralmente mais acentuado que o do criminoso. Nas quedas acidentais a projeção é perpendicular ou quase perpendicular, justamente por não haver impulso.",
     "referencia": "PDF LOC, p. 176",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4164,
@@ -52485,7 +52574,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno observa que, nos casos voluntários, geralmente a vítima escolhe locais sem obstáculos. Nos acidentais a projeção é perpendicular ou quase perpendicular; o impulso inicial mais acentuado é o do voluntário; o afastamento horizontal caracteriza justamente as projeções oblíquas.",
     "referencia": "PDF LOC, p. 176",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4165,
@@ -52502,7 +52592,8 @@
     "resposta_correta": "A",
     "justificativa": "O caderno manda buscar evidências no ponto de projeção com correspondência no solado do calçado da vítima ou na planta de seus pés. Manchas nas vestes e resíduos de disparo nas mãos pertencem a outros itens do exame; corpos estranhos sob as unhas são característica arrolada para o cadáver afogado.",
     "referencia": "PDF LOC, p. 177",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4166,
@@ -52553,7 +52644,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno lembra que a ação do fogo faz os ossos perderem resistência; por isso, existindo lesão em fragmento ósseo separado do corpo, esse fragmento deve ser fotografado e conservado para os demais peritos que examinarão o corpo, sendo que o exame no IML deve receber também especial atenção.",
     "referencia": "PDF LOC, p. 177",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4169,
@@ -52570,7 +52662,8 @@
     "resposta_correta": "A",
     "justificativa": "As características típicas arroladas são a presença de cogumelo de espuma, cianose da face, pele anserina ou arrepiada e corpos estranhos sob as unhas. As manchas violáceas nas regiões declivosas são os livores; o sulco de bordo superior saliente é do enforcado; escoriações e equimoses nas faces laterais do pescoço, da esganadura.",
     "referencia": "PDF LOC, p. 177",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4170,
@@ -52587,7 +52680,8 @@
     "resposta_correta": "B",
     "justificativa": "Além da acuidade do exame do local e das vestes, o caderno manda observar a existência de lesões improváveis nos casos de afogamento e comprovar os sinais internos de asfixia durante o acompanhamento do exame no IML, descartando causas não acidentais. Distância horizontal é item da precipitação; o tambor, dos disparos de arma de fogo; embalagens de tóxicos, do envenenamento.",
     "referencia": "PDF LOC, p. 177",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   },
   {
     "id": 4171,
@@ -52621,7 +52715,8 @@
     "resposta_correta": "D",
     "justificativa": "O caderno indica a confirmação das substâncias utilizadas por meio de exames toxicológicos. O exame das vias respiratórias é recomendação das mortes por ação do calor; os livores servem à posição e à estimativa temporal; o confronto balístico pertence aos locais de disparo de arma de fogo.",
     "referencia": "PDF LOC, p. 178",
-    "nivel": "medio"
+    "nivel": "medio",
+    "essencial": false
   },
   {
     "id": 4173,
@@ -52638,6 +52733,7 @@
     "resposta_correta": "A",
     "justificativa": "O ritual de alívio aparece expressamente nas listas dos locais de morte por disparo de arma de fogo, por asfixia por instrumento constritor, por precipitação e por envenenamento. Nas mortes por ação do calor e por afogamento o caderno não arrola esse item, e nas precipitações ele consta da lista geral, sem restrição às quedas acidentais.",
     "referencia": "PDF LOC, p. 178",
-    "nivel": "dificil"
+    "nivel": "dificil",
+    "essencial": false
   }
 ]
