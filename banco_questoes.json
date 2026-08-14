@@ -51466,5 +51466,1178 @@
     "justificativa": "A cronotanatognose é o ramo da Medicina Legal destinado ao estudo da determinação do tempo decorrido desde a morte, estimando o intervalo pós-morte pela análise dos fenômenos cadavéricos observados no cadáver e no ambiente. A distância do disparo é inferida pelas zonas adjacentes ao orifício de entrada; a identificação do instrumento decorre do exame das lesões.",
     "referencia": "PDF LOC, p. 168",
     "nivel": "medio"
+  },
+  {
+    "id": 4105,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o caderno, a determinação do tempo de morte:",
+    "alternativas": {
+      "A": "não deve ser realizada com base em um único sinal cadavérico",
+      "B": "apoia-se preferencialmente na rigidez, por ser o sinal mais estável",
+      "C": "dispensa a análise das condições ambientais em que o corpo se encontra",
+      "D": "é atribuição exclusiva do médico-legista, no exame interno do cadáver"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno adverte que a determinação do tempo de morte não deve basear-se em um único sinal cadavérico: o exame exige avaliação conjunta dos fenômenos observados, das condições ambientais, da posição do corpo, das vestes, da temperatura local e das particularidades fisiológicas da vítima. Nenhum sinal isolado prevalece, as condições ambientais são parte obrigatória da análise e o perito de local participa dessa avaliação.",
+    "referencia": "PDF LOC, p. 169",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4106,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os fenômenos cadavéricos classificam-se em:",
+    "alternativas": {
+      "A": "destrutivos, conservadores e putrefativos",
+      "B": "imediatos, consecutivos e transformativos",
+      "C": "físicos, químicos e biológicos progressivos",
+      "D": "mediatos, tardios e residuais"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A classificação adotada é em fenômenos imediatos, consecutivos e transformativos. Destrutivos e conservadores são subdivisões dos transformativos; as alterações físicas, químicas e biológicas descrevem a natureza do processo, não a sua classificação.",
+    "referencia": "PDF LOC, p. 169",
+    "nivel": "medio"
+  },
+  {
+    "id": 4107,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "São exemplos de fenômenos cadavéricos imediatos:",
+    "alternativas": {
+      "A": "resfriamento cadavérico, rigidez cadavérica e livores cadavéricos",
+      "B": "mumificação, saponificação e maceração do cadáver examinado",
+      "C": "perda da consciência, parada respiratória e relaxamento muscular",
+      "D": "coloração verde abdominal, enfisema putrefativo e liquefação"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os fenômenos imediatos decorrem da cessação das funções vitais e surgem logo após a morte: perda da consciência, interrupção da circulação sanguínea, parada respiratória, abolição da sensibilidade e relaxamento muscular generalizado. Resfriamento, rigidez e livores são consecutivos; mumificação, saponificação e maceração são transformativos conservadores; coloração verde, enfisema e liquefação são fases da putrefação.",
+    "referencia": "PDF LOC, p. 169",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4108,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os fenômenos imediatos, embora possuam importância médica, apresentam:",
+    "alternativas": {
+      "A": "precisão superior à dos livores na estimativa do horário",
+      "B": "relevância principal na verificação da posição do cadáver",
+      "C": "importância na preservação de características identificadoras",
+      "D": "limitada utilidade prática na estimativa cronológica"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno registra que os fenômenos imediatos têm limitada utilidade prática na estimativa cronológica em locais de crime. A verificação de alteração da posição do cadáver é utilidade apontada para a rigidez; a preservação parcial de lesões e caracteres identificadores é o valor pericial dos fenômenos conservadores.",
+    "referencia": "PDF LOC, p. 169",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4109,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O resfriamento cadavérico (algor mortis) corresponde:",
+    "alternativas": {
+      "A": "à perda gradual da temperatura corporal",
+      "B": "ao endurecimento progressivo da musculatura após a morte",
+      "C": "ao acúmulo de sangue nas regiões mais declivosas do corpo",
+      "D": "à ação bacteriana que destrói progressivamente os tecidos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O algor mortis é a perda gradual da temperatura corporal até o equilíbrio com o meio ambiente. O endurecimento progressivo da musculatura é a rigidez; o acúmulo de sangue nas regiões declivosas produz os livores; a ação bacteriana destrutiva é a putrefação.",
+    "referencia": "PDF LOC, p. 169",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4110,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Interferem no processo de resfriamento cadavérico fatores como:",
+    "alternativas": {
+      "A": "exposição ao sol e presença de insetos no ambiente",
+      "B": "ventilação, umidade, massa corporal e vestimentas",
+      "C": "posição declive das regiões corporais atingidas",
+      "D": "alterações bioquímicas ocorridas nas fibras musculares"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os fatores listados para o resfriamento são temperatura ambiente, ventilação, umidade, massa corporal, vestimentas e causa da morte; em locais fechados e climatizados o processo pode ocorrer de forma distinta da observada em ambientes externos. Exposição ao sol e presença de insetos figuram entre os fatores da velocidade de decomposição; a posição declive explica os livores; as alterações bioquímicas das fibras explicam a rigidez.",
+    "referencia": "PDF LOC, p. 169",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4111,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A rigidez cadavérica instala-se habitualmente:",
+    "alternativas": {
+      "A": "entre 2 e 4 horas após a morte",
+      "B": "por volta de 12 horas após a morte",
+      "C": "entre 2 e 3 horas após o óbito",
+      "D": "entre 24 e 36 horas após a morte"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A rigidez instala-se habitualmente entre 2 e 3 horas após o óbito. O intervalo de 2 a 4 horas é o do surgimento dos livores; por volta de 12 horas a rigidez atinge intensidade máxima; entre 24 e 36 horas ela desaparece gradativamente, em razão do início da decomposição.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4112,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A rigidez cadavérica inicia-se:",
+    "alternativas": {
+      "A": "nos membros inferiores, evoluindo depois para o tronco",
+      "B": "simultaneamente em toda a musculatura esquelética",
+      "C": "nas regiões mais declivosas do corpo da vítima",
+      "D": "nos pequenos grupos musculares da face e da mandíbula"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A rigidez inicia-se nos pequenos grupos musculares da face e mandíbula, evoluindo posteriormente para pescoço, tronco e membros — logo, os membros são atingidos por último, e não há instalação simultânea. As regiões mais declivosas são a referência dos livores cadavéricos.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4113,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A rigidez cadavérica atinge intensidade máxima por volta de:",
+    "alternativas": {
+      "A": "12 horas",
+      "B": "2 a 3 horas",
+      "C": "24 a 36 horas",
+      "D": "2 a 4 horas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A intensidade máxima ocorre por volta de 12 horas. Entre 2 e 3 horas a rigidez se instala; entre 24 e 36 horas ela desaparece gradativamente; entre 2 e 4 horas surgem os livores.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4114,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A rigidez desaparece gradativamente entre 24 e 36 horas em razão:",
+    "alternativas": {
+      "A": "do equilíbrio térmico com o meio ambiente",
+      "B": "do início da decomposição",
+      "C": "da migração do sangue para as regiões declivosas",
+      "D": "da ação dos fenômenos conservadores sobre o corpo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O desaparecimento gradativo da rigidez entre 24 e 36 horas decorre do início da decomposição. O equilíbrio térmico encerra o resfriamento cadavérico; a migração do sangue por gravidade forma os livores; os fenômenos conservadores retardam a decomposição, não explicam o fim da rigidez.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4115,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os livores cadavéricos são manchas violáceas produzidas:",
+    "alternativas": {
+      "A": "pelo endurecimento progressivo das fibras da musculatura",
+      "B": "pela ação bacteriana sobre os tecidos da região abdominal",
+      "C": "pelo acúmulo de sangue nas regiões mais declivosas",
+      "D": "pela perda gradual de temperatura até o equilíbrio térmico"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os livores resultam do acúmulo de sangue nas regiões mais declivosas do corpo, em virtude da ação da gravidade. O endurecimento das fibras é a rigidez; a ação bacteriana, iniciada pela coloração verde abdominal, é a putrefação; a perda de temperatura é o resfriamento.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4116,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os livores cadavéricos surgem, em regra:",
+    "alternativas": {
+      "A": "entre 2 e 3 horas após o óbito",
+      "B": "por volta de 12 horas após a morte",
+      "C": "entre 24 e 36 horas após a morte",
+      "D": "entre 2 e 4 horas após a morte"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os livores surgem, em regra, entre 2 e 4 horas após a morte, tornando-se progressivamente mais evidentes. O intervalo de 2 a 3 horas é o da instalação da rigidez; 12 horas é o pico de intensidade da rigidez; 24 a 36 horas é a faixa de seu desaparecimento.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4117,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A análise dos livores fornece ao exame do local informação sobre:",
+    "alternativas": {
+      "A": "a posição original e a movimentação do corpo",
+      "B": "a intensidade das alterações bioquímicas das fibras",
+      "C": "a velocidade da ação bacteriana sobre os tecidos",
+      "D": "o equilíbrio térmico entre o corpo e o meio ambiente"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os livores informam a posição original do cadáver, a possível movimentação do corpo, uma estimativa temporal aproximada e a compatibilidade entre cadáver e cena. As alterações bioquímicas das fibras dizem respeito à rigidez; a ação bacteriana, à putrefação; o equilíbrio térmico, ao resfriamento.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4118,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Livores incompatíveis com a posição em que o corpo foi encontrado podem indicar:",
+    "alternativas": {
+      "A": "retardo da decomposição por fenômeno conservador",
+      "B": "remoção ou manipulação posterior do corpo",
+      "C": "aceleração da putrefação em razão da causa da morte",
+      "D": "instalação precoce da rigidez cadavérica na vítima"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A incompatibilidade entre os livores e a posição de encontro do corpo aponta remoção ou manipulação posterior. Mumificação, saponificação e maceração retardam a decomposição; a causa da morte é um dos fatores da velocidade putrefativa; a rigidez segue seu próprio curso temporal.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4119,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A putrefação é apresentada no caderno como:",
+    "alternativas": {
+      "A": "processo conservador que retarda a decomposição do corpo",
+      "B": "fenômeno imediato decorrente da cessação das funções vitais",
+      "C": "o principal fenômeno transformativo destrutivo do cadáver",
+      "D": "fenômeno consecutivo ligado à perda gradual de temperatura"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A putrefação é o principal fenômeno transformativo destrutivo, causado principalmente pela ação bacteriana. Os processos que retardam a decomposição são os conservadores; os decorrentes da cessação das funções vitais são os imediatos; a perda gradual de temperatura é o resfriamento, fenômeno consecutivo.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4120,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As fases evolutivas clássicas da putrefação são, nessa ordem:",
+    "alternativas": {
+      "A": "enfisema putrefativo, liquefação dos tecidos, coloração verde, circulação gasosa",
+      "B": "mumificação, saponificação, maceração e liquefação final dos tecidos moles",
+      "C": "resfriamento cadavérico, rigidez, livores e circulação póstuma gasosa",
+      "D": "coloração verde abdominal, circulação póstuma gasosa, enfisema, liquefação"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A putrefação divide-se classicamente em coloração verde abdominal, circulação póstuma gasosa, enfisema putrefativo e liquefação dos tecidos, nessa sequência. A inversão dessa ordem é falsa; mumificação, saponificação e maceração são fenômenos conservadores; resfriamento, rigidez e livores são consecutivos.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4121,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A primeira fase evolutiva da putrefação é:",
+    "alternativas": {
+      "A": "a coloração verde abdominal",
+      "B": "a circulação póstuma gasosa",
+      "C": "o enfisema putrefativo",
+      "D": "a liquefação dos tecidos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A sequência começa pela coloração verde abdominal, seguida da circulação póstuma gasosa, do enfisema putrefativo e da liquefação dos tecidos.",
+    "referencia": "PDF LOC, p. 170",
+    "nivel": "medio"
+  },
+  {
+    "id": 4122,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A velocidade da decomposição depende de fatores ambientais e individuais, tais como:",
+    "alternativas": {
+      "A": "massa corporal, ventilação e vestimentas do cadáver",
+      "B": "exposição ao sol, presença de insetos e causa da morte",
+      "C": "posição declive das regiões corporais do cadáver",
+      "D": "alterações bioquímicas ocorridas nas fibras musculares"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os fatores da velocidade de decomposição listados são temperatura, umidade, exposição ao sol, presença de insetos e causa da morte, sendo a evolução putrefativa mais acelerada em regiões tropicais. Massa corporal, ventilação e vestimentas influem no resfriamento; a posição declive explica os livores; as alterações bioquímicas das fibras, a rigidez.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4123,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em regiões tropicais, a evolução putrefativa tende a ocorrer:",
+    "alternativas": {
+      "A": "de forma mais lenta",
+      "B": "sem a fase de enfisema putrefativo",
+      "C": "de forma mais acelerada",
+      "D": "apenas após a mumificação do corpo"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno registra que em regiões tropicais a evolução putrefativa tende a ser mais acelerada. As fases evolutivas permanecem as mesmas, e a mumificação é fenômeno conservador, que retarda a decomposição em vez de precedê-la.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "medio"
+  },
+  {
+    "id": 4124,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "São fenômenos cadavéricos conservadores:",
+    "alternativas": {
+      "A": "coloração verde abdominal, enfisema e liquefação",
+      "B": "resfriamento, rigidez e livores cadavéricos",
+      "C": "perda da consciência e relaxamento muscular",
+      "D": "mumificação, saponificação e maceração"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os conservadores destacados são mumificação, saponificação e maceração, que retardam a decomposição em determinadas condições ambientais. Coloração verde, enfisema e liquefação são fases da putrefação; resfriamento, rigidez e livores são fenômenos consecutivos; perda da consciência e relaxamento muscular são imediatos.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4125,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os fenômenos conservadores possuem importância pericial por:",
+    "alternativas": {
+      "A": "preservarem parcialmente lesões e caracteres",
+      "B": "acelerarem a evolução das fases da putrefação no cadáver",
+      "C": "indicarem a posição original em que o corpo foi deixado",
+      "D": "permitirem estabelecer com exatidão o horário do óbito"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A importância pericial dos conservadores está em permitirem a preservação parcial de lesões e de características identificadoras. Eles retardam — e não aceleram — a decomposição; a posição original é informada pelos livores; nenhum fenômeno permite fixar com exatidão o horário do óbito, daí a exigência de avaliação conjunta.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4126,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as finalidades que a interpretação correta dos fenômenos cadavéricos permite, o caderno arrola:",
+    "alternativas": {
+      "A": "determinar a autoria do fato a partir do espectro equimótico",
+      "B": "confrontar versões e direcionar investigações",
+      "C": "dispensar a análise dos vestígios existentes no ambiente",
+      "D": "substituir os exames complementares realizados no IML"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A interpretação dos fenômenos permite estimar o intervalo pós-morte, confrontar versões apresentadas, verificar a coerência cronológica dos fatos, auxiliar na dinâmica do evento e direcionar linhas investigativas. O espectro equimótico serve à datação de equimoses, não à autoria; o estudo deve ser integrado aos vestígios do ambiente e não substitui os exames do IML.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4127,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O estudo cronotanológico deve ser realizado de maneira integrada, considerando simultaneamente:",
+    "alternativas": {
+      "A": "apenas os fenômenos observados no corpo da vítima",
+      "B": "somente a temperatura corporal medida ainda no local",
+      "C": "os achados do cadáver e o ambiente",
+      "D": "exclusivamente os relatos prestados por testemunhas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno exige o estudo integrado, considerando ao mesmo tempo os achados do cadáver, os vestígios do ambiente e os elementos investigativos disponíveis — nunca um único sinal, uma única medida ou apenas versões colhidas.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4128,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Integram os procedimentos anteriores ao exame de local de morte violenta:",
+    "alternativas": {
+      "A": "a visualização geral da cena e a verificação do isolamento",
+      "B": "a anotação da data e da hora do início dos exames no local",
+      "C": "a análise visual do cadáver, sem que ele seja movimentado",
+      "D": "a anotação do endereço e do horário de solicitação"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os procedimentos anteriores ao exame são a anotação do endereço do fato, a preparação do material, o reconhecimento do tipo de solicitação (natureza do exame) e a anotação do horário de solicitação. A visualização geral com verificação do isolamento pertence ao exame preliminar; a data e hora do início dos exames abre as anotações gerais; a análise visual sem movimentar o corpo inicia o exame do cadáver no local.",
+    "referencia": "PDF LOC, p. 171",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4129,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A escolha do tipo de padrão a ser utilizado na busca de vestígios — em linha, em grade, em espiral ou em quadrantes — integra:",
+    "alternativas": {
+      "A": "o exame preliminar da cena do crime",
+      "B": "os procedimentos anteriores ao exame",
+      "C": "as anotações gerais da cena do crime",
+      "D": "o exame do cadáver realizado no local"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O exame preliminar da cena compõe-se da visualização geral com verificação da adequação do isolamento e da escolha do padrão de busca. Os procedimentos anteriores tratam de endereço, material, natureza do exame e horário de solicitação; as anotações gerais reúnem data, hora, localização e condições do ambiente; o exame do cadáver começa pela análise visual sem movimentação.",
+    "referencia": "PDF LOC, p. 172",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4130,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constam do rol de anotações gerais da cena do crime:",
+    "alternativas": {
+      "A": "as dimensões de portas, móveis e janelas, caso necessário",
+      "B": "as condições atmosféricas, de iluminação e de visibilidade",
+      "C": "a preparação do material a ser utilizado no exame do local",
+      "D": "a descrição da disposição geral das vestes sobre o corpo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As anotações gerais compreendem data e hora do início dos exames, localização exata do evento, condições atmosféricas, de iluminação e de visibilidade, completa análise das vias de acesso, descrição do local e condições topográficas da área. As dimensões de portas, móveis e janelas são recomendação para o croqui; a preparação do material é procedimento anterior ao exame; a disposição geral das vestes abre o exame das vestes.",
+    "referencia": "PDF LOC, p. 172",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4131,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ainda entre as anotações gerais da cena, o caderno inclui:",
+    "alternativas": {
+      "A": "as distâncias de objetos até pontos específicos de entrada e saída",
+      "B": "a verificação da adequação do isolamento do local examinado",
+      "C": "a completa análise das vias de acesso e as condições topográficas",
+      "D": "a identificação de orifícios e rasgamentos existentes nas vestes"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A completa análise das vias de acesso e as condições topográficas da área integram as anotações gerais. As distâncias até pontos específicos, como as vias de acesso, são recomendação do croqui; a adequação do isolamento é verificada no exame preliminar; orifícios e rasgamentos pertencem ao exame das vestes.",
+    "referencia": "PDF LOC, p. 172",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4132,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao croqui da cena do crime, o caderno determina que:",
+    "alternativas": {
+      "A": "só é exigido nos locais de morte violenta com mais de uma vítima",
+      "B": "substitui as fotografias de detalhe de cada vestígio encontrado",
+      "C": "é dispensado quando houver levantamento fotográfico completo",
+      "D": "deverá ser apresentado qualquer que seja a complexidade do local"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O croqui deverá sempre ser apresentado, independentemente da complexidade do local. Ele não é condicionado ao número de vítimas nem substituído pelo levantamento fotográfico, que é documentação complementar e não alternativa.",
+    "referencia": "PDF LOC, p. 172",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4133,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Recomenda-se que o croqui da cena inclua:",
+    "alternativas": {
+      "A": "distâncias até as vias de acesso e entre objetos",
+      "B": "as condições atmosféricas e de visibilidade no momento do exame",
+      "C": "a natureza das manchas encontradas e a descrição de sua morfologia",
+      "D": "a classificação e a tomada de medidas de todas as lesões da vítima"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O croqui deve trazer dimensões de portas, móveis e janelas caso necessário, distâncias de objetos até pontos específicos como as vias de acesso (entrada e saída) e distâncias entre objetos. Condições atmosféricas e de visibilidade são anotações gerais; a natureza e a morfologia das manchas pertencem ao exame das vestes; classificar e medir as lesões é etapa do exame do cadáver.",
+    "referencia": "PDF LOC, p. 172",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4134,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As fotografias externas da cena devem ilustrar vistas gerais incluindo:",
+    "alternativas": {
+      "A": "lentes do tipo grande-angular em ambientes restritos",
+      "B": "pontos de referência, como placas e marcos",
+      "C": "ao menos duas tomadas em ângulos opostos do corpo",
+      "D": "escala e placas com números ou letras identificadoras"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As fotografias externas devem mostrar vistas gerais da cena incluindo pontos de referência, como placas, marcos e vias públicas. A lente grande-angular é recomendada para ambientes internos restritos; as duas tomadas em ângulos opostos referem-se às fotografias do cadáver; escala e placas com números ou letras são recomendação para as fotos de detalhe.",
+    "referencia": "PDF LOC, p. 172",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4135,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O uso de lentes do tipo grande-angular é recomendado nas fotografias:",
+    "alternativas": {
+      "A": "de detalhe de cada vestígio individualizado",
+      "B": "do rosto do cadáver, para identificação segura",
+      "C": "de ambientes restritos, como banheiros",
+      "D": "tomadas a distâncias médias na área externa"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A grande-angular é indicada nas fotografias internas de ambientes restritos, como quartos e banheiros, por ser necessária para mostrar a posição relativa entre as evidências. As fotos de detalhe destinam-se a cada evidência; a tomada do rosto serve à identificação; as fotos a distâncias médias registram posições relativas entre vestígios.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4136,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Recomenda-se que as fotos de detalhe incluam:",
+    "alternativas": {
+      "A": "ao menos dois ângulos opostos que ilustrem a posição do corpo",
+      "B": "pontos de referência, como placas, marcos e vias públicas",
+      "C": "as posições relativas entre diferentes vestígios da cena",
+      "D": "escala e placas com números ou letras"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno recomenda que as fotos de detalhe incluam uma escala e também placas com números ou letras que identifiquem os vestígios. Os dois ângulos opostos são exigência das fotografias do cadáver; os pontos de referência aparecem nas vistas gerais externas; as posições relativas entre vestígios são objeto das fotos a distâncias médias.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4137,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às fotografias do cadáver, o caderno registra que:",
+    "alternativas": {
+      "A": "devem ser efetuadas pelo menos duas fotos em ângulos opostos",
+      "B": "basta uma tomada geral que enquadre todo o ambiente examinado",
+      "C": "devem ser realizadas somente após a limpeza das lesões da vítima",
+      "D": "são dispensáveis quando houver croqui detalhado da cena do crime"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Devem ser efetuadas pelo menos duas fotos em ângulos opostos, que ilustrem a posição exata em que o corpo se encontrava — o próprio Código de Processo Penal exige que a posição em que a vítima foi encontrada seja documentada por fotografia. As lesões são fotografadas antes e depois da limpeza, e o croqui não substitui o registro fotográfico.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4138,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Todas as lesões devem ser fotografadas ainda no local:",
+    "alternativas": {
+      "A": "apenas depois de removidas todas as vestes da vítima",
+      "B": "antes e depois da devida limpeza, quando esta for necessária",
+      "C": "somente no Instituto de Medicina Legal, com escala métrica",
+      "D": "exclusivamente a curta distância, para salientar os detalhes"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As lesões devem ser fotografadas ainda no local, antes e depois da devida limpeza quando necessária, a distâncias intermediárias (que permitam a localização anatômica) e a curta distância (salientando os detalhes) — logo, não apenas a curta distância nem apenas no IML.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4139,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A tomada fotográfica que enquadra o rosto do cadáver em detalhe é importante para:",
+    "alternativas": {
+      "A": "o registro da posição exata do corpo",
+      "B": "a documentação das manchas de sangue",
+      "C": "uma identificação segura da vítima",
+      "D": "o confronto com os vestígios da cena"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno indica essa tomada como importante para uma identificação segura da vítima. A posição exata é registrada pelas duas fotos em ângulos opostos; as manchas diversas no corpo têm fotos de detalhe próprias; o confronto entre os vestígios do cadáver e os da cena é etapa distinta do exame.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4140,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As marcas identificadoras apostas às evidências — iniciais, números etc. — destinam-se a:",
+    "alternativas": {
+      "A": "indicar a ordem cronológica em que as lesões foram produzidas",
+      "B": "estabelecer a distância de cada vestígio até as vias de acesso",
+      "C": "demonstrar a natureza das manchas encontradas sobre as vestes",
+      "D": "permitir reconhecer, depois, cada evidência coletada"
+    },
+    "resposta_correta": "D",
+    "justificativa": "As marcas identificadoras permitem ao perito que realiza a coleta reconhecer, em data posterior, cada evidência como aquela coletada na cena do crime. A cronologia das lesões não decorre da marcação; as distâncias até as vias de acesso são objeto do croqui; a natureza das manchas é apurada no exame das vestes.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4141,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame do cadáver no local inicia-se:",
+    "alternativas": {
+      "A": "pela análise visual do corpo, sem movimentá-lo",
+      "B": "pela descrição da posição em que ele foi encontrado",
+      "C": "pela identificação de todas as lesões existentes",
+      "D": "pela retirada cuidadosa de todas as suas vestes"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A sequência começa pela análise visual do cadáver, sem movimentá-lo; só então vêm a descrição da posição em que o corpo foi encontrado, a descrição da vítima, a identificação das lesões, os sinais de luta e as evidências no corpo. A retirada das vestes integra o exame das vestes, posterior.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4142,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na descrição da vítima, feita durante o exame do cadáver no local, o caderno relaciona:",
+    "alternativas": {
+      "A": "a disposição geral das vestes e o conteúdo dos bolsos",
+      "B": "sexo, cor, fase cronológica e compleição física",
+      "C": "a classificação e as medidas de cada lesão encontrada",
+      "D": "os sinais de luta e os resíduos de disparo nas mãos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A descrição da vítima inclui sexo, cor, fase cronológica (criança, jovem, adulto ou idoso), compleição física, comprimento e cor dos cabelos e cor dos olhos. Disposição das vestes e conteúdo dos bolsos pertencem ao exame das vestes; classificar e medir as lesões é item próprio; sinais de luta e resíduos nas mãos são itens seguintes da mesma lista.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4143,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Recomenda-se a utilização de silhuetas anatômicas para:",
+    "alternativas": {
+      "A": "representar as distâncias entre os objetos da cena",
+      "B": "registrar a posição exata em que o corpo se encontrava",
+      "C": "posicionar cada uma das lesões identificadas",
+      "D": "documentar a natureza das manchas presentes nas vestes"
+    },
+    "resposta_correta": "C",
+    "justificativa": "As silhuetas anatômicas são recomendadas para posicionar cada uma das lesões identificadas, na etapa de classificação e tomada de medidas. As distâncias entre objetos vão no croqui; a posição exata do corpo é registrada por fotografia; as manchas nas vestes têm descrição própria.",
+    "referencia": "PDF LOC, p. 173",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4144,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na identificação de evidências diretamente no corpo, o caderno pede especial atenção:",
+    "alternativas": {
+      "A": "ao arrancamento de botões e aos rasgamentos das vestes",
+      "B": "à presença de cogumelo de espuma nas vias respiratórias",
+      "C": "ao exame do tambor das armas não automáticas apreendidas",
+      "D": "ao exame de resíduos de disparo presentes nas mãos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Entre as evidências no corpo — manchas de sangue, resíduos originados por disparo, vestígios do agressor e pertences —, o caderno destaca especial atenção ao exame de resíduos de disparo presentes nas mãos. Arrancamento de botões pertence ao exame das vestes; o cogumelo de espuma é característica do afogado; o exame do tambor é recomendação dos locais de disparo de arma de fogo.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4145,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A observação e anotação de sinais característicos e tatuagens deve ser acompanhada de fotografia, especialmente quando:",
+    "alternativas": {
+      "A": "a vítima não é identificada",
+      "B": "houver suspeita de manipulação do corpo",
+      "C": "as lesões forem produzidas por arma de fogo",
+      "D": "o corpo apresentar fenômenos conservadores"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno registra que sinais característicos, tatuagens etc. devem ser fotografados, especialmente quando a vítima não é identificada. A suspeita de manipulação é sugerida por livores incompatíveis; a natureza das lesões e a presença de fenômenos conservadores não são as condições apontadas nesse item.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4146,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame das vestes, no roteiro do caderno, abrange:",
+    "alternativas": {
+      "A": "apenas as peças que apresentem manchas visíveis",
+      "B": "todas elas, inclusive roupas íntimas e calçados",
+      "C": "somente as vestes recolhidas para exame no IML",
+      "D": "exclusivamente aquelas com orifícios ou rasgamentos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O item determina o exame de todas as vestes, inclusive roupas íntimas e calçados. A existência de manchas, orifícios ou rasgamentos é objeto de identificação dentro desse exame, e não critério para selecionar quais peças examinar.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4147,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sendo necessário o corte cuidadoso da veste para sua retirada, o caderno exige que:",
+    "alternativas": {
+      "A": "a peça seja descartada após a fotografia",
+      "B": "o corte seja realizado apenas no IML",
+      "C": "o corte seja registrado",
+      "D": "a veste seja lavada antes de ser examinada"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A retirada das vestes deve ser cuidadosa, para evitar a perda de vestígios que estejam nesse suporte, e, sendo necessário o corte da veste, ele deve ser registrado. As vestes são encaminhadas ao IML ou recolhidas para exames complementares, jamais descartadas ou lavadas.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4148,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame das vestes, devem ser identificados:",
+    "alternativas": {
+      "A": "a compleição física e a fase cronológica da vítima",
+      "B": "os sinais internos de asfixia presentes no cadáver",
+      "C": "as condições atmosféricas e de visibilidade do local",
+      "D": "orifícios, rasgamentos e arrancamento de botões"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O exame das vestes identifica orifícios, rasgamentos, irregularidades e arrancamento de botões, além da natureza das manchas e sua morfologia (sangue, esperma, resíduos de disparo) e do conteúdo dos bolsos. Compleição e fase cronológica integram a descrição da vítima; os sinais internos de asfixia são achados do exame no IML; as condições atmosféricas são anotações gerais.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4149,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando as vestes necessitarem de exames complementares, o caderno determina que:",
+    "alternativas": {
+      "A": "sejam recolhidas e os legistas informados",
+      "B": "sejam encaminhadas ao IML junto com o corpo da vítima",
+      "C": "permaneçam no corpo até a chegada ao instituto médico-legal",
+      "D": "sejam fotografadas e devolvidas aos familiares da vítima"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A recomendação é encaminhar ao IML as vestes examinadas que não tenham mais informações a extrair e, quando forem necessários exames complementares, recolhê-las informando os peritos médicos-legistas sobre o recolhimento.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4150,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame do cadáver no IML, cabe ao perito de local:",
+    "alternativas": {
+      "A": "realizar o exame interno em conjunto com o médico-legista",
+      "B": "acompanhar os exames, levando as informações da cena",
+      "C": "aguardar o laudo do legista para só então redigir seu exame",
+      "D": "confrontar as vestes recolhidas com os relatos das testemunhas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O perito deve acompanhar os exames cadavéricos realizados no IML, levando ao médico-legista as informações obtidas durante o exame da cena, que servem de orientação para a busca dos achados médico-legais. O exame interno é do legista; os dados dele obtidos são confrontados com as hipóteses do exame de local e podem ser citados no laudo do perito de local.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4151,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os dados obtidos no exame interno do cadáver:",
+    "alternativas": {
+      "A": "são de uso exclusivo do médico-legista responsável pelo exame",
+      "B": "substituem o croqui elaborado durante o exame da cena",
+      "C": "devem ser confrontados com as hipóteses do exame de local",
+      "D": "dispensam o confronto com os vestígios do ambiente"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os dados do exame interno devem ser confrontados com as hipóteses levantadas durante o exame de local, podendo ser citados no laudo do perito de local — não são, portanto, de uso exclusivo do legista, e o estudo permanece integrado aos vestígios do ambiente.",
+    "referencia": "PDF LOC, p. 174",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4152,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas armas não automáticas (revólveres), o caderno considera essencial:",
+    "alternativas": {
+      "A": "a atenção especial aos estojos deflagrados próximos à vítima",
+      "B": "a busca de marcas de queda produzidas no suporte da arma",
+      "C": "a análise da compatibilidade entre a posição e os livores",
+      "D": "o exame do tambor, com fotografia da posição dos cartuchos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Para revólveres, é essencial o exame do tambor — com fotografia — registrando a posição relativa dos cartuchos deflagrados ou não. Os estojos deflagrados próximos à vítima são o ponto de atenção nas pistolas; as marcas de queda e a compatibilidade da posição com os livores hipostáticos são itens distintos da mesma lista.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4153,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas armas semiautomáticas (pistolas), deve-se dedicar especial atenção:",
+    "alternativas": {
+      "A": "aos estojos deflagrados próximos à vítima",
+      "B": "ao exame do tambor e à posição dos cartuchos",
+      "C": "à distância horizontal percorrida pelo corpo",
+      "D": "ao cogumelo de espuma nas vias respiratórias"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Nas pistolas, a atenção especial recai sobre os estojos deflagrados próximos à vítima. O exame do tambor cabe aos revólveres; a distância horizontal percorrida é item das mortes por precipitação; o cogumelo de espuma caracteriza o afogado.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4154,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A consideração da probabilidade dos disparos, para comprovar a eficiência da arma e os disparos de hesitação, integra a análise:",
+    "alternativas": {
+      "A": "do número de disparos que atingiram a vítima",
+      "B": "do número de disparos efetuados no local",
+      "C": "da região anatômica atingida pelos projéteis",
+      "D": "da posição da arma em relação à vítima"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O primeiro item do diagnóstico diferencial trata do número de disparos efetuados no local, considerando a probabilidade dos disparos para comprovar a eficiência da arma e os disparos de hesitação. O número de disparos que atingiram a vítima é apurado pelas lesões de entrada e de saída; a região anatômica e a posição da arma são itens autônomos da mesma lista.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4155,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O estabelecimento seguro e preciso da distância dos disparos apoia-se:",
+    "alternativas": {
+      "A": "na posição da arma em relação ao corpo da vítima",
+      "B": "no número de lesões de entrada e de saída encontradas",
+      "C": "nos resíduos secundários e nos sinais característicos",
+      "D": "nas marcas de queda produzidas na arma e no suporte"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A distância é estabelecida pela constatação de vestígios relacionados a resíduos secundários de disparo e pela presença dos sinais característicos — zonas de tatuagem, de esfumaçamento e de queimadura, Câmara de Hofmann, sinal de Puppe-Werkgartner e sinal de Benassi. Posição da arma, número de lesões e marcas de queda são itens distintos do mesmo rol.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4156,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A análise rigorosa da posição da vítima deve verificar sua compatibilidade com:",
+    "alternativas": {
+      "A": "o número de disparos efetuados no interior do ambiente",
+      "B": "a região anatômica atingida por cada um dos projéteis",
+      "C": "a presença de cartas, bilhetes e objetos organizados",
+      "D": "a disposição das vestes, o sangue e os livores"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno manda confrontar a posição da vítima com a disposição das vestes, as manchas de sangue e os livores hipostáticos. O número de disparos e a região anatômica atingida são itens próprios; cartas, bilhetes e objetos organizados caracterizam o chamado ritual de alívio.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4157,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os itens do diagnóstico diferencial nos locais de morte por disparo de arma de fogo, o caderno inclui:",
+    "alternativas": {
+      "A": "a busca por marcas de queda na arma e no suporte onde caiu",
+      "B": "o exame das vias respiratórias em busca de sinais de respiração",
+      "C": "a localização exata do ponto de impacto do corpo da vítima",
+      "D": "a presença de cogumelo de espuma e de cianose da face"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O último item da lista é a busca por marcas de queda produzidas na arma, bem como no suporte onde ela possa ter caído. O exame das vias respiratórias é recomendação das mortes por ação do calor; o ponto de impacto do corpo é item das precipitações; cogumelo de espuma e cianose da face são características do afogado.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4158,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto aos bordos, o sulco do enforcado caracteriza-se por:",
+    "alternativas": {
+      "A": "bordos iguais, pela uniformidade da compressão",
+      "B": "bordos desiguais, com o superior saliente",
+      "C": "ausência de sulco, com escoriações e equimoses",
+      "D": "bordos apergaminhados apenas na face posterior"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O sulco do enforcado é em geral único, oblíquo, ascendente, interrompido ao nível do nó, apergaminhado e com o bordo superior saliente — logo, de bordos desiguais. Bordos iguais, pela uniformidade da compressão, caracterizam o sulco do estrangulado; a ausência de sulco, com escoriações e equimoses no pescoço, é própria da esganadura.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4159,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O sulco do estrangulado dispõe-se geralmente:",
+    "alternativas": {
+      "A": "de modo oblíquo e ascendente, interrompido ao nível do nó",
+      "B": "em dois planos paralelos, com o bordo inferior saliente",
+      "C": "de modo horizontal, sem interrupção no nó",
+      "D": "apenas nas faces laterais do pescoço, sem formar sulco"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O sulco do estrangulado pode ser único ou não, dispõe-se geralmente de modo horizontal em relação ao pescoço ou ligeiramente oblíquo, não se apresenta interrompido ao nível do nó e é apergaminhado, com bordos iguais. O trajeto oblíquo e ascendente interrompido no nó é do enforcado; a ausência de sulco com lesões nas faces laterais é da esganadura.",
+    "referencia": "PDF LOC, p. 175",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4160,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos casos de esganadura, o exame minucioso do cadáver revela:",
+    "alternativas": {
+      "A": "sulco apergaminhado interrompido ao nível do nó",
+      "B": "sulco horizontal com bordos iguais em torno do pescoço",
+      "C": "cogumelo de espuma e pele anserina ou arrepiada",
+      "D": "escoriações e equimoses pela pressão de dedos e unhas"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Na esganadura não aparecem sinais externos de compressão como sulcos, mas escoriações e equimoses produzidas pela pressão violenta dos dedos e unhas, nas faces laterais e anterior do pescoço. O sulco interrompido no nó é do enforcado; o sulco horizontal de bordos iguais, do estrangulado; cogumelo de espuma e pele anserina são do afogado.",
+    "referencia": "PDF LOC, p. 176",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4161,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os itens a observar nos locais de morte por asfixia por instrumento constritor, o caderno inclui:",
+    "alternativas": {
+      "A": "a descrição do instrumento e de sua amarração",
+      "B": "a localização exata do ponto de impacto do corpo no solo",
+      "C": "a busca de traços de líquidos inflamáveis nos fragmentos",
+      "D": "a presença de embalagens de venenos e de medicamentos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A lista da asfixia por instrumento constritor inclui a caracterização do sulco, a localização e descrição completa do instrumento constritor e de sua amarração, a posição da vítima (tipo de suspensão), o exame das vestes e da cena, o ritual de alívio, o exame do cadáver e os sinais internos de asfixia. Ponto de impacto pertence à precipitação; líquidos inflamáveis, à ação do calor; embalagens de venenos, ao envenenamento.",
+    "referencia": "PDF LOC, p. 176",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4162,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na morte por precipitação, a projeção perpendicular ou quase perpendicular do corpo sugere queda:",
+    "alternativas": {
+      "A": "voluntária, com impulso inicial acentuado",
+      "B": "acidental",
+      "C": "criminosa, com afastamento horizontal",
+      "D": "voluntária ou criminosa, indistintamente"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A distância horizontal percorrida distingue as hipóteses: na acidental a projeção é perpendicular ou quase perpendicular; nas voluntária e criminosa há projeção oblíqua, com afastamento horizontal, porque a vítima recebe um impulso inicial — geralmente mais acentuado no caso voluntário que no criminoso.",
+    "referencia": "PDF LOC, p. 176",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4163,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao impulso inicial nas precipitações com projeção oblíqua, o caderno registra que:",
+    "alternativas": {
+      "A": "o do criminoso costuma superar em muito o do caso voluntário",
+      "B": "ambos são idênticos, o que impede qualquer diferenciação",
+      "C": "o do voluntário é geralmente mais acentuado que o do criminoso",
+      "D": "ele só se verifica nas quedas de natureza estritamente acidental"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nas projeções oblíquas, o impulso inicial do caso voluntário é geralmente mais acentuado que o do criminoso. Nas quedas acidentais a projeção é perpendicular ou quase perpendicular, justamente por não haver impulso.",
+    "referencia": "PDF LOC, p. 176",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4164,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à existência de obstáculos entre o ponto de projeção e o de repouso final:",
+    "alternativas": {
+      "A": "nos casos acidentais, a projeção costuma ser oblíqua ao prédio",
+      "B": "nos casos criminosos, o impulso inicial costuma ser o maior",
+      "C": "em qualquer hipótese, o afastamento horizontal é perpendicular",
+      "D": "nos casos voluntários, a vítima escolhe locais sem obstáculos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno observa que, nos casos voluntários, geralmente a vítima escolhe locais sem obstáculos. Nos acidentais a projeção é perpendicular ou quase perpendicular; o impulso inicial mais acentuado é o do voluntário; o afastamento horizontal caracteriza justamente as projeções oblíquas.",
+    "referencia": "PDF LOC, p. 176",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4165,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A busca de evidências no ponto de projeção, nas mortes por precipitação, interessa por sua correspondência:",
+    "alternativas": {
+      "A": "no solado do calçado da vítima ou na planta dos pés",
+      "B": "nas manchas de sangue observadas sobre as vestes",
+      "C": "nos resíduos de disparo presentes nas mãos da vítima",
+      "D": "nos corpos estranhos encontrados sob as unhas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno manda buscar evidências no ponto de projeção com correspondência no solado do calçado da vítima ou na planta de seus pés. Manchas nas vestes e resíduos de disparo nas mãos pertencem a outros itens do exame; corpos estranhos sob as unhas são característica arrolada para o cadáver afogado.",
+    "referencia": "PDF LOC, p. 177",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4166,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O recolhimento de fragmentos de vestes nas mortes por ação do calor justifica-se porque eles:",
+    "alternativas": {
+      "A": "permitem identificar orifícios e o arrancamento de botões",
+      "B": "podem conter traços de líquidos inflamáveis",
+      "C": "revelam a posição original em que o corpo se encontrava",
+      "D": "indicam a distância do disparo pelos resíduos secundários"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Fragmentos de vestes que estejam com o cadáver devem ser recolhidos porque podem conter, mesmo após a ação do fogo, traços de líquidos inflamáveis utilizados como \"acelerantes\". Orifícios e botões são objeto do exame das vestes em geral; a posição original é informada pelos livores; os resíduos secundários servem à distância do disparo.",
+    "referencia": "PDF LOC, p. 177",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4167,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A verificação das vias respiratórias do cadáver, ainda no local, nas mortes por ação do calor, busca:",
+    "alternativas": {
+      "A": "a presença do cogumelo de espuma típico do afogado",
+      "B": "corpos estranhos depositados sob as unhas da vítima",
+      "C": "sinais de que houve respiração antes da morte",
+      "D": "resíduos de disparo aspirados durante a ação criminosa"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno determina a verificação, sempre que possível ainda no local, das vias respiratórias, pois podem existir sinais indicativos de que houve respiração antes da morte. Cogumelo de espuma e corpos estranhos sob as unhas são características do cadáver afogado.",
+    "referencia": "PDF LOC, p. 177",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4168,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Como a ação do fogo faz os ossos perderem resistência, o caderno recomenda que a lesão existente em fragmento ósseo separado do corpo seja:",
+    "alternativas": {
+      "A": "descartada, por não ter valor probatório próprio",
+      "B": "reconstituída no local antes da remoção do corpo",
+      "C": "encaminhada diretamente ao laboratório de DNA",
+      "D": "fotografada e conservada para os demais peritos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno lembra que a ação do fogo faz os ossos perderem resistência; por isso, existindo lesão em fragmento ósseo separado do corpo, esse fragmento deve ser fotografado e conservado para os demais peritos que examinarão o corpo, sendo que o exame no IML deve receber também especial atenção.",
+    "referencia": "PDF LOC, p. 177",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4169,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "São características típicas do cadáver afogado, segundo o caderno:",
+    "alternativas": {
+      "A": "cogumelo de espuma, cianose da face e pele anserina",
+      "B": "manchas violáceas nas regiões declivosas do corpo",
+      "C": "sulco apergaminhado com o bordo superior saliente",
+      "D": "escoriações e equimoses nas faces laterais do pescoço"
+    },
+    "resposta_correta": "A",
+    "justificativa": "As características típicas arroladas são a presença de cogumelo de espuma, cianose da face, pele anserina ou arrepiada e corpos estranhos sob as unhas. As manchas violáceas nas regiões declivosas são os livores; o sulco de bordo superior saliente é do enforcado; escoriações e equimoses nas faces laterais do pescoço, da esganadura.",
+    "referencia": "PDF LOC, p. 177",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4170,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos locais de morte por afogamento, o caderno manda observar ainda:",
+    "alternativas": {
+      "A": "a distância horizontal percorrida pelo corpo",
+      "B": "a existência de lesões improváveis nesses casos",
+      "C": "a posição relativa dos cartuchos no tambor",
+      "D": "a presença de embalagens de substâncias tóxicas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Além da acuidade do exame do local e das vestes, o caderno manda observar a existência de lesões improváveis nos casos de afogamento e comprovar os sinais internos de asfixia durante o acompanhamento do exame no IML, descartando causas não acidentais. Distância horizontal é item da precipitação; o tambor, dos disparos de arma de fogo; embalagens de tóxicos, do envenenamento.",
+    "referencia": "PDF LOC, p. 177",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4171,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos locais de morte por envenenamento, o caderno manda observar:",
+    "alternativas": {
+      "A": "o cogumelo de espuma e a cianose da face da vítima",
+      "B": "a amarração do instrumento constritor empregado",
+      "C": "embalagens de venenos e de medicamentos",
+      "D": "as marcas de queda produzidas na arma e no suporte"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nos locais de envenenamento observam-se a presença de embalagens de venenos, medicamentos e substâncias tóxicas diversas, as evidências de ritual de alívio e a confirmação das substâncias por exames toxicológicos. Cogumelo de espuma e cianose são do afogamento; a amarração do constritor, da asfixia; as marcas de queda da arma, dos disparos.",
+    "referencia": "PDF LOC, p. 178",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4172,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A confirmação das substâncias utilizadas nas mortes por envenenamento faz-se:",
+    "alternativas": {
+      "A": "pelo exame das vias respiratórias no local",
+      "B": "pela análise dos livores hipostáticos",
+      "C": "pelo confronto balístico dos projéteis",
+      "D": "por meio de exames toxicológicos"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno indica a confirmação das substâncias utilizadas por meio de exames toxicológicos. O exame das vias respiratórias é recomendação das mortes por ação do calor; os livores servem à posição e à estimativa temporal; o confronto balístico pertence aos locais de disparo de arma de fogo.",
+    "referencia": "PDF LOC, p. 178",
+    "nivel": "medio"
+  },
+  {
+    "id": 4173,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A observação de evidências relacionadas a \"ritual de alívio\" — cartas, bilhetes, objetos organizados — é item expressamente previsto nos locais de morte por:",
+    "alternativas": {
+      "A": "disparo, asfixia, precipitação e envenenamento",
+      "B": "mortes por ação do calor e por afogamento, apenas",
+      "C": "afogamento e envenenamento, apenas",
+      "D": "precipitação, apenas nas quedas acidentais"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O ritual de alívio aparece expressamente nas listas dos locais de morte por disparo de arma de fogo, por asfixia por instrumento constritor, por precipitação e por envenenamento. Nas mortes por ação do calor e por afogamento o caderno não arrola esse item, e nas precipitações ele consta da lista geral, sem restrição às quedas acidentais.",
+    "referencia": "PDF LOC, p. 178",
+    "nivel": "dificil"
   }
 ]
