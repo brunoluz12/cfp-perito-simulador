@@ -49851,5 +49851,770 @@ const questoesDB = [
     "justificativa": "É fundamental que as questionadas e as de referência sejam acondicionadas de forma que não entrem em contato em hipótese alguma; considerando a imprevisibilidade do transporte, recomenda-se enviá-las em embalagens separadas. O envio se dá quando o caso está fechado, ou seja, quando os vestígios vão acompanhados das referências necessárias.",
     "referencia": "PDF LOC, p. 127",
     "nivel": "dificil"
+  },
+  {
+    "id": 4010,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo os dispositivos reproduzidos no caderno, a pena cominada ao furto em sua forma simples (caput do art. 155 do Código Penal) é de:",
+    "alternativas": {
+      "A": "reclusão, de 1 (um) a 6 (seis) anos, e multa",
+      "B": "reclusão, de 2 (dois) a 8 (oito) anos, e multa",
+      "C": "reclusão, de 4 (quatro) a 10 (dez) anos, e multa",
+      "D": "reclusão, de 6 (seis) a 10 (dez) anos, e multa"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caput do art. 155 comina reclusão de 1 a 6 anos, e multa. A faixa de 2 a 8 anos é a do furto qualificado (§ 4º); a de 4 a 10 anos é a do furto com emprego de explosivo (§ 4º-A) e a da subtração de veículo automotor transportado para outro Estado ou para o exterior (§ 5º); a de 6 a 10 anos é a do caput do roubo (art. 157).",
+    "referencia": "PDF LOC, p. 145",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4011,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No furto, a circunstância de o crime ser praticado durante o repouso noturno acarreta:",
+    "alternativas": {
+      "A": "aumento da pena de um terço até metade",
+      "B": "aumento da pena de metade",
+      "C": "aumento da pena de dois terços",
+      "D": "aplicação em dobro da pena do caput"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O § 1º do art. 155 manda aumentar a pena de metade no repouso noturno. O aumento de um terço até metade é o das majorantes do roubo (art. 157, § 2º); o aumento de dois terços é o do § 2º-A do roubo (arma de fogo ou explosivo para romper obstáculo); a pena em dobro é a do § 2º-B, quando a arma de fogo é de uso restrito ou proibido.",
+    "referencia": "PDF LOC, p. 145",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4012,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que descreve corretamente o conteúdo do § 3º do art. 155 do Código Penal, tal como transcrito no caderno:",
+    "alternativas": {
+      "A": "a pena aumenta-se de metade se o crime é praticado durante o repouso noturno",
+      "B": "sendo primário o criminoso e de pequeno valor a coisa, o juiz pode aplicar somente a multa",
+      "C": "equipara-se à coisa móvel a energia elétrica ou qualquer outra que tenha valor econômico",
+      "D": "a pena é de reclusão de 4 a 10 anos se houver emprego de explosivo que cause perigo comum"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A equiparação da energia elétrica (e de qualquer outra que tenha valor econômico) à coisa móvel está no § 3º. O aumento de metade pelo repouso noturno é o § 1º; a substituição da reclusão por detenção, a diminuição de um a dois terços ou a aplicação isolada da multa ao criminoso primário com coisa de pequeno valor é o § 2º; a reclusão de 4 a 10 anos pelo emprego de explosivo é o § 4º-A.",
+    "referencia": "PDF LOC, p. 145",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4013,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Se o criminoso é primário e é de pequeno valor a coisa furtada, o § 2º do art. 155 faculta ao juiz:",
+    "alternativas": {
+      "A": "reconhecer a equiparação da energia elétrica de valor econômico à coisa móvel subtraída",
+      "B": "aumentar a pena de metade, na hipótese de o crime ocorrer durante o repouso noturno",
+      "C": "elevar a pena para reclusão de 2 a 8 anos por rompimento de obstáculo à subtração",
+      "D": "substituir a reclusão por detenção ou aplicar somente a pena de multa"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O § 2º autoriza o juiz a substituir a reclusão pela detenção, diminuí-la de um a dois terços ou aplicar somente a pena de multa. A equiparação da energia elétrica à coisa móvel é o § 3º; o aumento de metade no repouso noturno é o § 1º; a elevação para 2 a 8 anos por destruição ou rompimento de obstáculo é o § 4º, inciso I.",
+    "referencia": "PDF LOC, p. 145",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4014,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No furto qualificado (art. 155, § 4º), a escalada é prevista no mesmo inciso que:",
+    "alternativas": {
+      "A": "o abuso de confiança, a fraude e a destreza",
+      "B": "a destruição ou o rompimento de obstáculo à subtração",
+      "C": "o emprego de chave falsa na subtração",
+      "D": "o concurso de duas ou mais pessoas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O inciso II reúne abuso de confiança, fraude, escalada e destreza. A destruição ou rompimento de obstáculo à subtração da coisa é o inciso I; o emprego de chave falsa é o inciso III; o concurso de duas ou mais pessoas é o inciso IV.",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4015,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "O inciso V do § 4º do art. 155 qualifica o furto quando a subtração recai:",
+    "alternativas": {
+      "A": "sobre coisa protegida por obstáculo destruído ou rompido pelo agente",
+      "B": "sobre bens que comprometam o funcionamento de órgãos da União",
+      "C": "sobre bem alcançado mediante fraude, escalada ou destreza do agente",
+      "D": "sobre veículo automotor levado para outro Estado ou para o exterior"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O inciso V trata dos bens que comprometam o funcionamento de órgãos da União, dos Estados, do Distrito Federal, de Municípios ou de estabelecimentos que prestem serviços públicos essenciais. A destruição ou rompimento de obstáculo é o inciso I; a fraude, a escalada e a destreza estão no inciso II; a subtração de veículo automotor transportado para outro Estado ou para o exterior não é inciso do § 4º, e sim o § 5º, com pena própria de 4 a 10 anos.",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4016,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "São apenadas com reclusão de 4 (quatro) a 10 (dez) anos, no art. 155, as hipóteses de:",
+    "alternativas": {
+      "A": "destruição de obstáculo e concurso de duas ou mais pessoas na subtração",
+      "B": "abuso de confiança e emprego de chave falsa para alcançar a coisa alheia",
+      "C": "emprego de explosivo e subtração de veículo levado para fora do Estado",
+      "D": "prática durante o repouso noturno e pequeno valor da coisa subtraída"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A faixa de 4 a 10 anos aparece duas vezes: no § 4º-A (emprego de explosivo ou artefato análogo que cause perigo comum) e no § 5º (veículo automotor transportado para outro Estado ou para o exterior). Rompimento de obstáculo, concurso de pessoas, abuso de confiança e chave falsa são incisos do § 4º, punidos com 2 a 8 anos. O repouso noturno apenas aumenta a pena de metade (§ 1º) e o pequeno valor com réu primário é causa de abrandamento (§ 2º).",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4017,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pena do roubo em sua forma simples (caput do art. 157) é de reclusão, de:",
+    "alternativas": {
+      "A": "4 (quatro) a 10 (dez) anos, e multa",
+      "B": "2 (dois) a 8 (oito) anos, e multa",
+      "C": "1 (um) a 6 (seis) anos, e multa",
+      "D": "6 (seis) a 10 (dez) anos, e multa"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caput do art. 157 comina reclusão de 6 a 10 anos, e multa. A faixa de 4 a 10 anos é a do furto com explosivo (§ 4º-A) e a do furto de veículo levado para outro Estado (§ 5º); a de 2 a 8 anos é a do furto qualificado (§ 4º); a de 1 a 6 anos é a do furto simples.",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "medio"
+  },
+  {
+    "id": 4018,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Incorre nas mesmas penas do roubo quem, logo depois de subtraída a coisa, emprega violência contra pessoa ou grave ameaça a fim de:",
+    "alternativas": {
+      "A": "assegurar a impunidade do crime ou a detenção da coisa",
+      "B": "reduzir a vítima à impossibilidade de resistir à subtração",
+      "C": "manter a vítima em seu poder, restringindo sua liberdade",
+      "D": "atingir bens que comprometam o funcionamento de órgãos públicos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "É a figura do § 1º do art. 157: violência ou grave ameaça empregada depois da subtração, para assegurar a impunidade do crime ou a detenção da coisa para si ou para terceiro. A redução da vítima à impossibilidade de resistência integra o próprio caput, e é anterior ou concomitante à subtração; manter a vítima em poder do agente, restringindo sua liberdade, é majorante do § 2º, inciso V; a subtração de bens que comprometam o funcionamento de órgãos públicos é o § 1º-A, com pena de 6 a 12 anos.",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4019,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pena de reclusão de 6 (seis) a 12 (doze) anos, e multa, prevista no art. 157, incide quando:",
+    "alternativas": {
+      "A": "da violência empregada pelo agente resulta lesão corporal grave para a vítima",
+      "B": "a subtração recai sobre bens que comprometam o funcionamento de órgãos da União",
+      "C": "da violência empregada contra a vítima resulta o seu falecimento no local",
+      "D": "o agente integra organização criminosa ultraviolenta e da violência resulta morte"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A faixa de 6 a 12 anos é a do § 1º-A, para a subtração de bens que comprometam o funcionamento de órgãos públicos ou de estabelecimentos que prestem serviços essenciais. A lesão corporal grave leva a 7 a 18 anos (§ 3º, I); a morte leva a 24 a 30 anos (§ 3º, II); a morte praticada por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada leva a 20 a 40 anos (§ 5º).",
+    "referencia": "PDF LOC, p. 146",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4020,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "O emprego de arma branca na violência ou grave ameaça do roubo acarreta:",
+    "alternativas": {
+      "A": "aumento da pena de dois terços",
+      "B": "aplicação da pena em dobro",
+      "C": "aumento de um terço até metade",
+      "D": "aumento da pena de metade"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A arma branca é majorante do § 2º, inciso VII, cujo aumento é de um terço até metade. O aumento de dois terços é reservado ao emprego de arma de fogo (§ 2º-A, I); a pena em dobro decorre do uso de arma de fogo de uso restrito ou proibido (§ 2º-B); o aumento de metade é o do repouso noturno, previsto no furto (art. 155, § 1º).",
+    "referencia": "PDF LOC, p. 147",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4021,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No roubo, a destruição ou rompimento de obstáculo mediante emprego de explosivo ou de artefato análogo que cause perigo comum:",
+    "alternativas": {
+      "A": "aumenta a pena de um terço até metade",
+      "B": "faz a pena ser aplicada em dobro",
+      "C": "eleva a pena para reclusão de 4 a 10 anos",
+      "D": "aumenta a pena de dois terços"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Trata-se do § 2º-A, inciso II, do art. 157, cujo aumento é de dois terços — o mesmo do emprego de arma de fogo. O aumento de um terço até metade corresponde às majorantes do § 2º (concurso de pessoas, transporte de valores, arma branca etc.); a pena em dobro é a do § 2º-B (arma de fogo de uso restrito ou proibido); a reclusão de 4 a 10 anos pelo emprego de explosivo é a do furto, no art. 155, § 4º-A.",
+    "referencia": "PDF LOC, p. 147",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4022,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a hipótese que NÃO integra o rol de majorantes de um terço até metade do art. 157, § 2º:",
+    "alternativas": {
+      "A": "violência ou ameaça exercida com emprego de arma de fogo",
+      "B": "vítima em serviço de transporte de valores, conhecendo o agente tal circunstância",
+      "C": "subtração de fios, cabos ou equipamentos de transmissão de energia elétrica",
+      "D": "subtração de aparelho de telefonia celular ou de computador do tipo prancheta"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O emprego de arma de fogo foi deslocado para o § 2º-A, cujo aumento é maior, de dois terços; por isso não figura no rol do § 2º. O transporte de valores (inciso III), os fios, cabos e equipamentos de energia, telefonia ou transferência de dados (inciso VIII) e o aparelho de telefonia celular ou computador, inclusive do tipo prancheta (inciso IX), estão todos no § 2º.",
+    "referencia": "PDF LOC, p. 147",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4023,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No roubo, se da violência empregada resulta lesão corporal grave, a pena é de reclusão de:",
+    "alternativas": {
+      "A": "24 (vinte e quatro) a 30 (trinta) anos, e multa",
+      "B": "7 (sete) a 18 (dezoito) anos, e multa",
+      "C": "20 (vinte) a 40 (quarenta) anos, e multa",
+      "D": "6 (seis) a 12 (doze) anos, e multa"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A lesão corporal grave corresponde ao § 3º, inciso I, com reclusão de 7 a 18 anos. A faixa de 24 a 30 anos é a do resultado morte (§ 3º, II); a de 20 a 40 anos é a do § 5º (morte praticada por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada); a de 6 a 12 anos é a do § 1º-A (bens que comprometam o funcionamento de órgãos públicos).",
+    "referencia": "PDF LOC, p. 147",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4024,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pena de reclusão de 20 (vinte) a 40 (quarenta) anos, e multa, do § 5º do art. 157, pressupõe:",
+    "alternativas": {
+      "A": "lesão corporal grave decorrente da violência empregada contra a vítima do roubo",
+      "B": "emprego de arma de fogo de uso restrito ou proibido na grave ameaça à vítima",
+      "C": "morte resultante de ação de integrante de organização criminosa ultraviolenta",
+      "D": "subtração de veículo automotor que venha a ser transportado para o exterior"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O § 5º exige que o crime do inciso II do § 3º (roubo com resultado morte) seja cometido por integrante de organização criminosa ultraviolenta, grupo paramilitar ou milícia privada. A lesão corporal grave é punida com 7 a 18 anos (§ 3º, I); o emprego de arma de fogo de uso restrito ou proibido faz aplicar em dobro a pena do caput (§ 2º-B); a subtração de veículo automotor levado para outro Estado ou para o exterior é majorante de um terço até metade (§ 2º, IV).",
+    "referencia": "PDF LOC, p. 148",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4025,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pena cominada ao dano em sua forma simples (art. 163, caput) é de:",
+    "alternativas": {
+      "A": "detenção, de seis meses a três anos, e multa",
+      "B": "reclusão, de um a seis anos, e multa",
+      "C": "reclusão, de seis a dez anos, e multa",
+      "D": "detenção, de um a seis meses, ou multa"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caput do art. 163 comina detenção de um a seis meses, ou multa — pena alternativa. A detenção de seis meses a três anos, e multa, é a do dano qualificado (parágrafo único); a reclusão de um a seis anos é a do furto simples; a de seis a dez anos, a do roubo.",
+    "referencia": "PDF LOC, p. 148",
+    "nivel": "medio"
+  },
+  {
+    "id": 4026,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A pena de detenção, de seis meses a três anos, e multa, além da pena correspondente à violência, é a cominada ao:",
+    "alternativas": {
+      "A": "dano qualificado",
+      "B": "dano em sua forma simples",
+      "C": "furto qualificado pelo rompimento de obstáculo",
+      "D": "roubo praticado com emprego de arma branca"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Essa é a pena do parágrafo único do art. 163 (dano qualificado), acrescida da pena correspondente à violência. O dano simples é punido com detenção de um a seis meses, ou multa; o furto qualificado, com reclusão de 2 a 8 anos, e multa; o roubo com arma branca tem a pena do caput (6 a 10 anos) aumentada de um terço até metade.",
+    "referencia": "PDF LOC, p. 148",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4027,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No parágrafo único do art. 163, a qualificadora do emprego de substância inflamável ou explosiva:",
+    "alternativas": {
+      "A": "exige que a conduta seja praticada com violência à pessoa",
+      "B": "só incide se o fato não constituir crime mais grave",
+      "C": "pressupõe motivo egoístico ou prejuízo considerável à vítima",
+      "D": "alcança apenas o patrimônio da União e de suas autarquias"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O inciso II ressalva expressamente \"se o fato não constitui crime mais grave\" — daí a advertência do caderno de que a perícia deve diferenciar a conduta de outras figuras, como o crime de incêndio. A violência à pessoa ou grave ameaça é o inciso I; o motivo egoístico ou o prejuízo considerável é o inciso IV; o inciso III abrange o patrimônio da União, dos Estados, do Distrito Federal, dos Municípios, de autarquias, fundações públicas, empresas públicas, sociedades de economia mista e concessionárias de serviços públicos.",
+    "referencia": "PDF LOC, p. 148",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4028,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A perícia em local de dano deve dedicar atenção específica ao inciso II do parágrafo único do art. 163 porque cabe ao perito:",
+    "alternativas": {
+      "A": "apontar se houve violência à pessoa ou grave ameaça na execução da conduta",
+      "B": "demonstrar o motivo egoístico ou o prejuízo considerável sofrido pela vítima",
+      "C": "apurar, havendo suspeita, o emprego de substância inflamável ou explosiva",
+      "D": "identificar a natureza pública do patrimônio atingido pela ação do infrator"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno destaca que o inciso II exige determinar, em caso de suspeita, se houve emprego de substância inflamável ou explosiva, diferenciando a conduta de crime mais grave, como o incêndio. A violência ou grave ameaça (inciso I), o motivo egoístico ou prejuízo considerável (inciso IV) e a titularidade pública do bem (inciso III) são as demais qualificadoras, mas não são as apontadas como objeto próprio do exame de local.",
+    "referencia": "PDF LOC, p. 148",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4029,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a quantidade de vestígios nos locais de roubo (assalto), o caderno registra que:",
+    "alternativas": {
+      "A": "a ruptura de fechaduras e cadeados costuma deixar farto material para exame",
+      "B": "os vestígios superam os de qualquer outro local de crime contra o patrimônio",
+      "C": "os atos de vandalismo tornam o local especialmente rico em material coletável",
+      "D": "pela própria natureza do crime, é comum não se encontrarem muitos vestígios"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno alerta que, pela natureza do roubo, é comum não se encontrarem muitos vestígios no local. A ruptura ou transposição forçada de fechaduras, cadeados, portas, janelas e dutos caracteriza o furto com arrombamento; os atos de vandalismo, como pichações e quebra de vidraças, são próprios dos locais de dano ao patrimônio.",
+    "referencia": "PDF LOC, p. 149",
+    "nivel": "medio"
+  },
+  {
+    "id": 4030,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os vestígios arrolados, é acréscimo próprio dos locais de furto com arrombamento, e não da lista dos locais de roubo:",
+    "alternativas": {
+      "A": "as marcas de objetos furtados, cuja área fica mais limpa que os arredores",
+      "B": "os cartuchos deflagrados eventualmente deixados no ambiente do fato criminoso",
+      "C": "os móveis e objetos desalinhados encontrados no interior do imóvel",
+      "D": "as imagens de câmeras de videomonitoramento urbano nas imediações"
+    },
+    "resposta_correta": "A",
+    "justificativa": "As marcas de objetos furtados — área mais limpa em relação aos arredores empoeirados — integram a lista adicional do furto com arrombamento. Cartuchos deflagrados, móveis e objetos desalinhados e as imagens de CFTV e de videomonitoramento urbano constam da lista dos locais de roubo, que também se aplica ao furto, mas não são o acréscimo pedido.",
+    "referencia": "PDF LOC, p. 150",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4031,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao mencionar as ferramentas mais utilizadas em arrombamentos, o caderno associa o alicate de pressão especificamente:",
+    "alternativas": {
+      "A": "ao arrombamento de veículos automotores",
+      "B": "à remoção do cilindro de fechaduras",
+      "C": "ao corte de grades, correntes e vergalhões",
+      "D": "ao corte térmico de estruturas metálicas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O caderno registra o alicate de pressão com a observação \"remoção do cilindro de fechaduras\". O arrombamento de veículos aparece associado aos arames; o corte de grades e vergalhões é a função do alicate corta-vergalhão; o corte térmico corresponde ao maçarico. Também constam da lista martelo, chave de fenda, barra de ferro, pé-de-cabra, alicate comum, marreta, machado, machadinha e chave de roda.",
+    "referencia": "PDF LOC, p. 150",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4032,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diante de ferramentas e de marcas de arrombamento, o procedimento adequado indicado no caderno consiste em:",
+    "alternativas": {
+      "A": "fotografá-las com a maior nitidez possível e na presença de escala ou régua métrica",
+      "B": "verificar se a área correspondente está mais limpa do que os arredores empoeirados",
+      "C": "medi-las, fotografá-las e registrá-las, com teste comparativo na mesma superfície",
+      "D": "examinar manchas em paredes ou muros e os instrumentos auxiliares empregados"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Para ferramentas e suas marcas, o procedimento é a completa medição, fotografia e registro de todas elas, realizando-se, sempre que possível, teste comparativo sobre a mesma superfície. Fotografar com nitidez e com escala ou régua é a recomendação para pegadas e marcas de pneu; a área mais limpa que os arredores caracteriza as marcas de objetos furtados; as manchas em paredes ou muros e os instrumentos auxiliares dizem respeito às marcas de escalada.",
+    "referencia": "PDF LOC, p. 150",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4033,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "As rupturas concêntricas observadas em uma vidraça quebrada:",
+    "alternativas": {
+      "A": "originam-se no ponto de impacto e se prolongam na face oposta à colisão",
+      "B": "formam abertura de maior diâmetro na superfície oposta à do choque",
+      "C": "costumam ser encontradas do lado oposto ao ponto de impacto efetuado",
+      "D": "não são achado constante e situam-se no mesmo lado do impacto"
+    },
+    "resposta_correta": "D",
+    "justificativa": "As rupturas concêntricas não estão sempre presentes nas vidraças quebradas e encontram-se normalmente no mesmo lado da superfície em que ocorreu o impacto. Fraturas que nascem no ponto de impacto e se prolongam na superfície oposta à colisão são as radiais; a abertura maior na superfície oposta à do choque é o cone de transfixação; do lado oposto ao ponto de impacto é onde se encontram, em geral, os fragmentos.",
+    "referencia": "PDF LOC, p. 150",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4034,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "As rupturas mais comuns em vidros laminados de maior flexibilidade, como os de automóveis, são as:",
+    "alternativas": {
+      "A": "concêntricas",
+      "B": "radiais",
+      "C": "de transfixação cônica",
+      "D": "de fragmentação projetada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno registra que as rupturas concêntricas são mais comuns em vidros laminados de maior flexibilidade, como os vidros de automóveis. As radiais partem do ponto de impacto inicial e se prolongam radialmente; o cone de transfixação decorre de impactos em alta velocidade e alta energia, como pedras arremessadas e disparos de arma de fogo; a projeção de fragmentos para o lado oposto ao impacto é indício autônomo, e não um tipo de ruptura.",
+    "referencia": "PDF LOC, p. 150",
+    "nivel": "medio"
+  },
+  {
+    "id": 4035,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "As manchas em paredes ou muros e a presença de instrumentos auxiliares interessam ao perito porque permitem:",
+    "alternativas": {
+      "A": "demonstrar que objetos foram removidos daquela superfície pelos infratores",
+      "B": "determinar se a entrada dos infratores envolveu escalada e por quais meios",
+      "C": "estabelecer comparação futura com padrões colhidos junto a suspeitos",
+      "D": "apontar o ponto de impacto que deu origem à quebra de portas e janelas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Manchas em paredes ou muros e instrumentos auxiliares são os elementos das marcas de escalada, e servem para determinar se a entrada envolveu escalada e quais os meios utilizados. A área mais limpa que os arredores é que denuncia a remoção de objetos furtados; a comparação futura com padrões é a finalidade indicada para pegadas e marcas de pneu; o ponto de impacto é referência da análise das fraturas em vidro.",
+    "referencia": "PDF LOC, p. 151",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4036,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os vestígios adicionais listados para os locais de furto com arrombamento, o caderno inclui:",
+    "alternativas": {
+      "A": "cartuchos deflagrados no curso da ação dos agentes infratores armados",
+      "B": "móveis e objetos desalinhados no interior do compartimento",
+      "C": "restos de alimentos ingeridos pelo infrator no ambiente do fato",
+      "D": "imagens de circuito interno de segurança, quando disponíveis"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Os restos de alimentos fecham a lista adicional do furto com arrombamento: não são raros os casos em que o infrator ingere alimentos e deixa frações pelo ambiente. Cartuchos deflagrados, móveis e objetos desalinhados e imagens de circuito interno de segurança pertencem à lista dos locais de roubo.",
+    "referencia": "PDF LOC, p. 151",
+    "nivel": "medio"
+  },
+  {
+    "id": 4037,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Para caracterizar o crime de dano, o exame de local deve comprovar:",
+    "alternativas": {
+      "A": "o rompimento de obstáculo, a escalada, o uso de chave falsa ou a fraude",
+      "B": "a materialidade, os meios empregados e o ponto provável de acesso ao imóvel",
+      "C": "o horário presumido, as pessoas envolvidas e as providências já adotadas",
+      "D": "a ação ou omissão, o dano pelo objeto atingido, o nexo e o dolo"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno exige, para caracterizar o dano, a comprovação da ação (ou omissão), do dano propriamente dito por meio do objeto atingido, do nexo entre o agente infrator e o dano e do elemento volitivo, isto é, se houve ou não dolo. Rompimento de obstáculo, escalada, chave falsa e fraude são os mecanismos que o perito busca identificar nos pontos de ingresso; materialidade, meios empregados e ponto provável de acesso são conclusões do exame; horário presumido, envolvidos e providências adotadas integram as informações preliminares obtidas antes do ingresso no local.",
+    "referencia": "PDF LOC, p. 151",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4038,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Além de comprovar os elementos do crime de dano, a análise do local deve ainda:",
+    "alternativas": {
+      "A": "especificar o tipo de dano causado e a intensidade com que ocorreu",
+      "B": "apurar o valor de mercado do bem atingido para fins de indenização",
+      "C": "indicar o autor provável do fato a partir do modus operandi observado",
+      "D": "concluir pela existência de dolo específico na conduta do infrator"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno determina que a análise de local especifique o tipo de dano causado e a intensidade com que ele ocorreu; acrescenta que esse exame frequentemente assume caráter de constatação, em face do anonimato e dos prejuízos envolvidos. A avaliação econômica para fins de indenização não é tarefa atribuída ao exame de local nesse trecho; a indicação de autoria pelo modus operandi é possibilidade de relacionar casos, não conclusão obrigatória; o elemento volitivo é objeto de verificação, e não conclusão predeterminada.",
+    "referencia": "PDF LOC, p. 151",
+    "nivel": "medio"
+  },
+  {
+    "id": 4039,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo o procedimento pericial em edificações, a atuação do perito tem início:",
+    "alternativas": {
+      "A": "ao ingressar no local, com o registro fotográfico panorâmico do imóvel",
+      "B": "antes do ingresso, com a obtenção preliminar de informações sobre o fato",
+      "C": "após o reconhecimento inicial, com o levantamento descritivo do logradouro",
+      "D": "depois da fixação, com a coleta e o acondicionamento individual dos vestígios"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A atuação inicia-se ainda antes do ingresso, com informações obtidas junto à autoridade policial, à equipe de atendimento inicial, às vítimas ou aos responsáveis pelo imóvel — natureza do fato, horário presumido, pessoas envolvidas, providências já adotadas e alterações no ambiente. O registro panorâmico abre a documentação; o levantamento descritivo vem em seguida a ele; a coleta com acondicionamento individual encerra a sequência, depois do reconhecimento e da fixação.",
+    "referencia": "PDF LOC, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4040,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No reconhecimento inicial da cena, o exame pericial somente deve ser iniciado após:",
+    "alternativas": {
+      "A": "confrontadas as versões apresentadas por vítimas, testemunhas e suspeitos",
+      "B": "concluído o croqui com a disposição espacial dos elementos relevantes",
+      "C": "asseguradas as condições mínimas de segurança da equipe e de terceiros",
+      "D": "preservadas as imagens gravadas pelo sistema de CFTV da edificação"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno exige identificar riscos — estruturas comprometidas, instalações elétricas danificadas, incêndio residual, explosivos improvisados, vazamentos ou agentes perigosos — e só iniciar o exame após asseguradas condições mínimas de segurança. O confronto com as versões ocorre durante toda a atividade; o croqui é recurso complementar ao levantamento fotográfico e descritivo; a preservação das imagens de CFTV integra a busca de vestígios, e nenhum deles condiciona o início do exame.",
+    "referencia": "PDF LOC, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4041,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A documentação inicial do local, em crimes patrimoniais em edificações, deve seguir lógica progressiva:",
+    "alternativas": {
+      "A": "do específico para o geral, priorizando os vestígios de maior valor identificador",
+      "B": "da área interna para a externa, por ser o interior o foco da subtração praticada",
+      "C": "do ponto de ingresso para a rota de fuga, seguindo o deslocamento dos autores",
+      "D": "do geral para o específico e, quando aplicável, da área externa para a interna"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A regra é partir do geral para o específico e, quando aplicável, da área externa para a interna, começando pelo registro fotográfico panorâmico do imóvel, da via pública, dos acessos, das barreiras físicas e dos sistemas de segurança. A priorização dos vestígios com maior potencial identificador é critério da fase de coleta, não da documentação inicial; o exame dos pontos de ingresso, circulação e evasão é etapa posterior à documentação geral.",
+    "referencia": "PDF LOC, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4042,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao examinar os pontos de ingresso, circulação e evasão, o perito deve procurar identificar:",
+    "alternativas": {
+      "A": "rompimento de obstáculo, escalada, chave falsa, fraude ou simulação de arrombamento",
+      "B": "iluminação pública, delimitações do terreno, muros, portões e dispositivos de proteção",
+      "C": "compartimentos, disposição de móveis, objetos revolvidos e marcas de arraste",
+      "D": "ângulos de cobertura das câmeras e funcionamento aparente do sistema de gravação"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Portas violadas, fechaduras danificadas, janelas removidas, telhados acessados, paredes transpostas e dutos utilizados são examinados quanto ao mecanismo de ação, para identificar rompimento de obstáculo, escalada, uso de chave falsa, emprego de ferramenta específica, fraude ou simulação de arrombamento. Iluminação pública, delimitações, muros e portões pertencem ao levantamento descritivo externo; compartimentos, móveis, objetos revolvidos e marcas de arraste, à descrição dos ambientes internos; ângulos de cobertura e funcionamento do sistema, à análise do CFTV.",
+    "referencia": "PDF LOC, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4043,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na análise do sistema de CFTV eventualmente instalado no local, a confiabilidade temporal do sistema depende, especialmente:",
+    "alternativas": {
+      "A": "do ângulo de cobertura das câmeras existentes no perímetro da edificação",
+      "B": "da correta configuração do relógio do DVR/NVR ou equipamento equivalente",
+      "C": "da preservação imediata das imagens pelo responsável pelo estabelecimento",
+      "D": "da existência de câmeras de videomonitoramento urbano nas imediações"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O caderno condiciona a reconstrução cronológica à verificação da confiabilidade temporal do sistema, especialmente quanto à correta configuração do relógio do DVR/NVR ou equipamento equivalente. Ângulos de cobertura e funcionamento aparente são itens do levantamento das câmeras; a visualização e preservação imediata das imagens é providência recomendada ao perito; as câmeras de videomonitoramento urbano são fonte adicional de imagens, arrolada entre os vestígios dos locais de roubo.",
+    "referencia": "PDF LOC, p. 152",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4044,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Além de reconstruir a cronologia do evento, a análise das imagens do CFTV presta-se a:",
+    "alternativas": {
+      "A": "dispensar o registro fotográfico de detalhe dos vestígios individualizados",
+      "B": "substituir o croqui na representação espacial dos ambientes examinados",
+      "C": "direcionar a busca de vestígios às superfícies efetivamente tocadas",
+      "D": "comprovar, por si só, a materialidade do delito e a autoria dos fatos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "As imagens revelam horário dos fatos, quantidade de envolvidos, rotas de ingresso e evasão, setores percorridos, objetos manuseados e condutas praticadas, e ainda direcionam a busca e coleta de vestígios materiais e biológicos nas superfícies tocadas ou nas áreas utilizadas. Elas não dispensam a fotografia de detalhe nem o croqui, que são recursos próprios da fixação, e a materialidade resulta da interpretação integrada do conjunto vestigial.",
+    "referencia": "PDF LOC, p. 153",
+    "nivel": "medio"
+  },
+  {
+    "id": 4045,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Identificados os vestígios relevantes, as fotografias de detalhe de cada vestígio individualizado devem ser feitas:",
+    "alternativas": {
+      "A": "preferencialmente em panorâmica do imóvel e da via pública",
+      "B": "de modo a situar cada elemento no ambiente examinado",
+      "C": "apenas quando houver dúvida sobre as dimensões do vestígio",
+      "D": "preferencialmente sem e com escala métrica"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno recomenda a fotografia de detalhe de cada vestígio individualizado preferencialmente sem e com escala métrica. As panorâmicas do imóvel, da via pública e dos acessos abrem a documentação; situar cada elemento no ambiente examinado é a função das fotografias de conjunto; a fotografia de detalhe não é condicionada a dúvida sobre dimensões.",
+    "referencia": "PDF LOC, p. 153",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4046,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "O croqui recomendado como complemento ao levantamento fotográfico e descritivo deve indicar, entre outros elementos:",
+    "alternativas": {
+      "A": "acessos, dimensões aproximadas, trajetos prováveis e obstáculos",
+      "B": "a natureza do fato, o horário presumido e as providências já adotadas",
+      "C": "a origem, a data, o horário e o responsável pela coleta de cada vestígio",
+      "D": "os riscos identificados na cena, como instalações elétricas danificadas"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O croqui indica acessos, cômodos, dimensões aproximadas, distâncias entre pontos de interesse, posição de móveis, obstáculos, vestígios identificados, trajetos prováveis de ingresso e evasão e a localização de câmeras de CFTV e demais sistemas de segurança. Natureza do fato, horário presumido e providências adotadas são as informações preliminares; origem, data, horário e responsável pela coleta compõem o registro da cadeia de custódia; os riscos da cena pertencem ao reconhecimento inicial.",
+    "referencia": "PDF LOC, p. 153",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4047,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Concluídas as fases de reconhecimento e fixação, a coleta dos vestígios deve observar a cadeia de custódia, com registro de:",
+    "alternativas": {
+      "A": "dimensões aproximadas, distâncias entre pontos de interesse e trajetos",
+      "B": "origem, data, horário, responsável pela coleta e destinação",
+      "C": "natureza do fato, pessoas envolvidas e alterações havidas no ambiente",
+      "D": "ângulos de cobertura, funcionamento do sistema e unidade de gravação"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A coleta e o acondicionamento individual exigem registro de origem, data, horário, responsável pela coleta e destinação do material, priorizando-se elementos com maior potencial identificador ou demonstrativo da dinâmica delitiva. Dimensões e distâncias são conteúdo do croqui; natureza do fato e envolvidos, das informações preliminares; ângulos de cobertura e unidade de gravação, do levantamento do CFTV.",
+    "referencia": "PDF LOC, p. 153",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4048,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto às versões apresentadas por vítimas, testemunhas ou suspeitos em crimes patrimoniais, o perito deve:",
+    "alternativas": {
+      "A": "tomá-las como ponto de partida da reconstrução, por serem relato direto",
+      "B": "desconsiderá-las, restringindo o laudo aos achados materiais do local",
+      "C": "confrontá-las com os vestígios, sem adotar premissas antecipadas",
+      "D": "submetê-las à autoridade policial antes de iniciar a busca de vestígios"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Durante toda a atividade o perito confronta os vestígios encontrados com as versões apresentadas, sem premissas antecipadas: narrativas de furto, roubo ou dano só se confirmam tecnicamente quando compatíveis com os elementos materiais observados. Não se adota a versão como ponto de partida nem se a descarta de plano, e o confronto é tarefa pericial, não condicionada a prévia manifestação da autoridade.",
+    "referencia": "PDF LOC, p. 154",
+    "nivel": "medio"
+  },
+  {
+    "id": 4049,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame pericial de veículos oficiais vitimados por crime patrimonial, a etapa inicial consiste em:",
+    "alternativas": {
+      "A": "vistoriar portas, fechaduras, maçanetas, janelas e compartimento de carga",
+      "B": "pesquisar impressões papilares em volante, câmbio, painel e retrovisores",
+      "C": "preservar registros de rastreamento, telemetria e câmeras veiculares",
+      "D": "identificar placas, sinais identificadores e numeração patrimonial"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno estabelece que inicialmente se realiza a correta identificação do veículo, com verificação de placas, sinais identificadores, numeração patrimonial e vinculação institucional. Só em seguida vem a vistoria externa e interna com atenção aos vestígios de arrombamento; a busca de papilares nas superfícies de maior contato e a preservação dos registros eletrônicos são etapas posteriores.",
+    "referencia": "PDF LOC, p. 154",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4050,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as marcas a examinar em veículo objeto de crime patrimonial, o caderno menciona especificamente as relacionadas:",
+    "alternativas": {
+      "A": "à violação da ignição e à tentativa de ligação direta do motor",
+      "B": "à disposição da carga remanescente e ao rompimento de lacres",
+      "C": "à neutralização de bloqueadores e módulos de rastreamento",
+      "D": "ao transbordo da carga para outros veículos ou locais de armazenamento"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Na vistoria do veículo devem ser examinadas as marcas relacionadas à violação do sistema de ignição, à exposição ou supressão de fios e cabos, à tentativa de ligação direta do motor e à remoção de equipamentos embarcados, como rádio comunicadores e armamentos acondicionados. Carga remanescente, rompimento de lacres e transbordo são itens do exame do compartimento de carga dos caminhões; a neutralização de bloqueadores integra o exame dos sistemas eletrônicos embarcados.",
+    "referencia": "PDF LOC, p. 154",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4051,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "A busca de impressões papilares em veículos deve priorizar as superfícies de maior probabilidade de contato, tais como:",
+    "alternativas": {
+      "A": "baú, travas, lacres e embalagens do compartimento de carga",
+      "B": "volante, câmbio, painel, maçanetas, retrovisores e vidros",
+      "C": "placas, sinais identificadores e numeração patrimonial do veículo",
+      "D": "módulos de rastreamento, bloqueadores e câmeras embarcadas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O caderno lista volante, câmbio, painel, maçanetas internas e externas, retrovisores, vidros e compartimentos de armazenamento. Baú, travas, lacres e embalagens são objeto do exame do compartimento de carga; placas e numeração patrimonial servem à identificação do veículo; os módulos eletrônicos são analisados quanto à dinâmica do evento e a tentativas de neutralização.",
+    "referencia": "PDF LOC, p. 154",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4052,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os registros de rastreamento, telemetria e câmeras veiculares interessam sobretudo à definição da rota percorrida:",
+    "alternativas": {
+      "A": "quando o veículo permanece no local do crime",
+      "B": "quando houver disparos contra o veículo",
+      "C": "no caso de veículo posteriormente recuperado",
+      "D": "apenas se o sistema de CFTV estiver inoperante"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno vincula a definição da rota percorrida à hipótese de veículo posteriormente recuperado, citando os caminhões dos Correios cujas cargas são objeto de roubo em rodovias. A permanência do veículo no local, a existência de disparos e a inoperância do CFTV não são as condições apontadas para esse aproveitamento.",
+    "referencia": "PDF LOC, p. 154",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4053,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame do compartimento de carga de caminhão dos Correios objeto de roubo, o perito deve verificar, entre outros pontos:",
+    "alternativas": {
+      "A": "marcas de violação da ignição e de tentativa de ligação direta do motor",
+      "B": "ângulos de cobertura das câmeras e configuração do relógio do gravador",
+      "C": "a numeração patrimonial e a vinculação institucional da unidade automotiva",
+      "D": "indícios de subtração seletiva, rompimento de lacres e transbordo"
+    },
+    "resposta_correta": "D",
+    "justificativa": "No compartimento de carga verificam-se a disposição da carga remanescente, indícios de subtração seletiva, rompimento de lacres, manipulação de embalagens e sinais de transbordo da carga para outros veículos ou locais de armazenamento. A violação da ignição pertence à vistoria do habitáculo; ângulos de cobertura e relógio do gravador são itens do CFTV de edificações; a numeração patrimonial serve à identificação inicial do veículo.",
+    "referencia": "PDF LOC, p. 155",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4054,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 18 - Locais de crime contra o patrimônio",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame dos sistemas eletrônicos embarcados no veículo — rastreamento, telemetria, bloqueadores e câmeras — volta-se também a identificar:",
+    "alternativas": {
+      "A": "possíveis tentativas de neutralização do monitoramento",
+      "B": "a existência de danos compatíveis com colisões, impactos ou disparos",
+      "C": "a disposição da carga remanescente no interior do compartimento",
+      "D": "as superfícies efetivamente tocadas pelos agentes durante a ação"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno indica que o exame dos sistemas embarcados busca a reconstrução da dinâmica do evento e a identificação de possíveis tentativas de neutralização dos mecanismos de monitoramento. Perfurações, deformações e resíduos balísticos são procurados na estrutura externa e interna; a carga remanescente é item do compartimento de carga; as superfícies tocadas orientam a busca de papilares e vestígios biológicos.",
+    "referencia": "PDF LOC, p. 155",
+    "nivel": "dificil"
   }
 ];
