@@ -68,16 +68,19 @@ A numeração impressa coincide com a do PDF (página 91 impressa = `d[90]`).
 | 16 — Vestígios físicos | 129-134 | ✅ feito | 17 novas (29 no total) |
 | 17 — Microvestígios | 135-142 | ✅ feito | 46 novas (58 no total) |
 | 18 — Crimes contra o patrimônio | 145-155 | ✅ feito | 45 novas (57 no total) |
-| 19 — Locais de morte violenta | 157-178 | ✅ feito | 119 novas (141 no total) |
+| 19 — Locais de morte violenta | 157-178 | ✅ feito | 119 novas (141 no total, 45 visíveis) |
 
 Commits: `062ae86` (Cap. 17), `b40bc99` (Caps. 13/14/16), `a2292e4` (Cap. 18),
 `7e8e4e9` e `26c36eb` (Cap. 19, fatias 1 e 2). Repositório
 `brunoluz12/cfp-perito-simulador`, branch `master`.
 
-**Atenção ao volume:** os caps. 18 e 19 entraram inteiros, sem a poda de
-`essencial: false` que se fez nos caps. 13 a 17. Se ficarem pesados demais para
-revisar, o caminho é o mesmo: marcar as redundantes com `essencial: false` (nada
-é apagado, os ids seguem ocupados).
+**Volume — pode e deve ser podado ao final de cada capítulo.** O usuário revisa
+por questões: capítulo com mais de ~45 visíveis ele não consegue resolver. Gerar
+a cobertura exaustiva e só depois podar funciona, mas a poda faz parte do
+trabalho, não é opcional. O Cap. 19 foi de 141 para 45 visíveis (commit
+`556d0f5`), pelo critério de **uma questão por família de fato**, preferindo as
+densas (que cobrem 3-4 fatos por questão) às atômicas que elas já subsomem. O
+Cap. 18 ficou inteiro (57), a pedido dele, por ser quase todo penas e incisos.
 
 **Fonte dos caps. 18 e 19:** o PDF renderizado, nunca o `materiais/LOC/COMPLETO`.
 O OCR daquele material corrompe justamente os números (o art. 155 aparece lá como
