@@ -50616,5 +50616,855 @@
     "justificativa": "O caderno indica que o exame dos sistemas embarcados busca a reconstrução da dinâmica do evento e a identificação de possíveis tentativas de neutralização dos mecanismos de monitoramento. Perfurações, deformações e resíduos balísticos são procurados na estrutura externa e interna; a carga remanescente é item do compartimento de carga; as superfícies tocadas orientam a busca de papilares e vestígios biológicos.",
     "referencia": "PDF LOC, p. 155",
     "nivel": "dificil"
+  },
+  {
+    "id": 4055,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os tópicos do exame do cadáver no local, os primeiros vestígios que se procuram na vítima são:",
+    "alternativas": {
+      "A": "os ferimentos, pois por meio deles se complementam outras buscas",
+      "B": "os sinais de luta, que permitem identificar o contato entre vítima e agressor",
+      "C": "as reações de defesa, geradas pela vítima ao tentar evitar os golpes",
+      "D": "os vestígios intrínsecos, como sangue, sêmen, vísceras e vômitos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno afirma que os ferimentos são os primeiros vestígios que se procuram na vítima, pois por intermédio deles é possível complementar com outras buscas. Os sinais de luta caracterizam-se por vestígios que permitem identificar o contato entre vítima e agressor; a reação de defesa reúne os vestígios gerados pela ação da vítima ao tentar evitar os ferimentos; sangue, sêmen, vísceras, vômitos, saliva e fezes são os vestígios intrínsecos da rotina de busca.",
+    "referencia": "PDF LOC, p. 157",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4056,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No exame perinecroscópico, entende-se como sinal de violência:",
+    "alternativas": {
+      "A": "o vestígio que permite identificar o contato entre a vítima e o agressor",
+      "B": "toda e qualquer lesão sofrida pela vítima, mesmo as mais simples",
+      "C": "o vestígio gerado pela vítima na tentativa de evitar os ferimentos",
+      "D": "a lesão produzida nos punhos por instrumentos constritores, como cordas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Sinal de violência é toda e qualquer lesão sofrida pela vítima, mesmo as mais simples, e sua presença auxilia no estabelecimento da dinâmica do evento. O contato entre vítima e agressor caracteriza o sinal de luta; os vestígios gerados pela vítima ao tentar evitar os ferimentos caracterizam a reação de defesa; as lesões nos punhos por instrumentos constritores são apenas um exemplo de sinal de violência com significado especial.",
+    "referencia": "PDF LOC, p. 157",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4057,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Caracteriza-se pela presença de vestígios gerados pela ação da vítima, na tentativa de evitar os ferimentos desferidos pelo agressor:",
+    "alternativas": {
+      "A": "o sinal de luta",
+      "B": "o sinal de violência",
+      "C": "a reação de defesa",
+      "D": "o vestígio intrínseco"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A definição é a de reação de defesa. O sinal de luta é o vestígio que permite identificar o contato entre vítima e agressor; o sinal de violência é toda e qualquer lesão sofrida pela vítima; os vestígios intrínsecos são sangue, sêmen, vísceras, vômitos, saliva e fezes.",
+    "referencia": "PDF LOC, p. 157",
+    "nivel": "medio"
+  },
+  {
+    "id": 4058,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As lesões produzidas nos punhos, decorrentes de instrumentos constritores como as cordas, são citadas no caderno como exemplo de:",
+    "alternativas": {
+      "A": "vestígio intrínseco da rotina de busca no cadáver",
+      "B": "sinal de luta entre a vítima e o agressor",
+      "C": "reação de defesa esboçada pela vítima",
+      "D": "sinal de violência de significado especial"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno usa as lesões nos punhos por instrumentos constritores como exemplo de sinal de violência com significado especial. Vestígios intrínsecos são sangue, sêmen, vísceras, vômitos, saliva e fezes; o sinal de luta identifica o contato entre vítima e agressor; a reação de defesa reúne vestígios gerados pela própria vítima ao evitar os golpes.",
+    "referencia": "PDF LOC, p. 157",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4059,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "São arrolados como vestígios intrínsecos, integrantes da rotina de busca na perícia do cadáver:",
+    "alternativas": {
+      "A": "sangue, sêmen, vísceras, vômitos, saliva e fezes",
+      "B": "pelos depositados, fibras, minerais, terra e areia",
+      "C": "anéis, alianças, brincos e relógios da vítima",
+      "D": "escorrimentos e demais manchas presentes nas vestes"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Os vestígios intrínsecos citados são sangue, sêmen, vísceras, vômitos, saliva e fezes. Pelos depositados, fibras, minerais, terra, areia e detritos são vestígios que podem ser encontrados no cadáver e às vezes indicam autoria; os objetos pessoais interessam pela marca que deixam quando retirados; escorrimentos e manchas de sangue nas vestes são a razão de o corpo ser examinado inicialmente vestido.",
+    "referencia": "PDF LOC, p. 157",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4060,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Recomenda-se especial atenção às manchas de sangue na vítima, observando-se as suas diversas formas de produção, tais como:",
+    "alternativas": {
+      "A": "esmagamento, dilaceração e cavalgamento ósseo",
+      "B": "escorrimento, gotejamento e concentração",
+      "C": "invaginação, eversão e enxugo",
+      "D": "chamuscamento, esfumaçamento e tatuagem"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As formas de produção citadas para as manchas de sangue são escorrimento, gotejamento e concentração. Esmagamento e dilaceração descrevem as feridas lácero-contusas e o cavalgamento é característica de fratura completa; invaginação, eversão e enxugo dizem respeito aos orifícios de entrada e de saída de projétil; chamuscamento, esfumaçamento e tatuagem são as zonas adjacentes ao orifício de entrada.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4061,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em situações em que o sangue ainda se encontra em estado líquido, o exame das manchas deve ser registrado:",
+    "alternativas": {
+      "A": "após a retirada das vestes da vítima",
+      "B": "somente no Instituto de Medicina Legal",
+      "C": "antes de se movimentar o corpo",
+      "D": "ao final do exame das regiões anatômicas"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno determina que, com o sangue ainda líquido, o registro seja feito antes de se movimentar o corpo, anotando-se e fotografando-se as manchas em sua forma original. A retirada das vestes é posterior ao primeiro exame; a complementação no IML ocorre depois do trabalho no local; o exame das regiões anatômicas é etapa seguinte ao registro das manchas.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4062,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O material normalmente presente nas unhas, nas mãos e nos órgãos genitais da vítima interessa ao exame porque pode:",
+    "alternativas": {
+      "A": "indicar o movimento da vítima na cena do crime",
+      "B": "revelar a forma do instrumento utilizado na agressão",
+      "C": "estimar o tempo decorrido desde a produção da lesão",
+      "D": "oferecer pistas para a identificação do agressor"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno registra que o material das unhas, mãos e órgãos genitais pode oferecer pistas para a identificação do agressor. O movimento da vítima na cena é informação extraída das manchas de sangue; a forma do instrumento é o que muitas vezes a equimose revela; a estimativa de tempo decorrido é obtida pelo espectro equimótico.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4063,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A eventual retirada de anéis, alianças, brincos e relógios da vítima pode ser averiguada:",
+    "alternativas": {
+      "A": "pela marca deixada na área do corpo em que eram usados",
+      "B": "pelo material orgânico depositado sob as unhas da vítima",
+      "C": "pelas formas de produção das manchas encontradas nas vestes",
+      "D": "pelo exame das regiões anatômicas iniciado pela cabeça"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno indica que a subtração desses objetos é averiguada pela marca que eles deixam na área do corpo em que eram usados. O material sob as unhas serve à identificação do agressor; as formas de produção das manchas informam a dinâmica; a ordem das regiões anatômicas é apenas o roteiro do exame.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4064,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O corpo deve ser examinado inicialmente:",
+    "alternativas": {
+      "A": "sem as vestes, para permitir a visualização de todas as lesões",
+      "B": "com as vestes, para não descaracterizar outros vestígios",
+      "C": "somente depois de fotografadas as manchas de sangue do piso",
+      "D": "a partir dos membros superiores, com atenção especial às mãos"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O exame começa com o corpo vestido, a fim de não se arriscar descaracterizar algum outro vestígio, tais como escorrimentos e demais manchas de sangue. A retirada das vestes é posterior; a fotografia das manchas do piso não é condição para iniciar o exame do corpo; os membros superiores, com atenção especial para as mãos, são a quarta região da sequência anatômica, que se inicia pela cabeça.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4065,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na sequência de exame das regiões anatômicas, o caderno destaca atenção especial:",
+    "alternativas": {
+      "A": "ao pescoço, examinado antes da cabeça",
+      "B": "ao dorso, examinado antes do abdômen",
+      "C": "às mãos, no exame dos membros superiores",
+      "D": "aos órgãos genitais, examinados em primeiro lugar"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A única ressalva de atenção especial na lista é para as mãos, dentro do exame dos membros superiores. A sequência é cabeça, pescoço, tórax, membros superiores, membros inferiores, abdômen, dorso e órgãos genitais — logo, o pescoço vem depois da cabeça, o dorso depois do abdômen e os órgãos genitais em último lugar.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4066,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na ordem das regiões anatômicas indicada no caderno, o exame do tórax é seguido imediatamente pelo exame:",
+    "alternativas": {
+      "A": "dos membros inferiores",
+      "B": "do abdômen",
+      "C": "do dorso",
+      "D": "dos membros superiores"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A sequência é cabeça, pescoço, tórax, membros superiores (atenção especial para as mãos), membros inferiores, abdômen, dorso e órgãos genitais. Assim, ao tórax seguem-se os membros superiores; os membros inferiores vêm em quinto lugar, o abdômen em sexto e o dorso em sétimo.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4067,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O machado é arrolado entre os exemplos de instrumento contundente desde que:",
+    "alternativas": {
+      "A": "usado do lado oposto ao do gume",
+      "B": "aplicado pelo gume sobre a região atingida",
+      "C": "considerado ao lado de facas, navalhas e bisturis",
+      "D": "classificado junto de vergalhões e ponta de guarda-chuva"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno inclui o machado entre os contundentes com a ressalva \"usado do lado oposto do gume\"; aplicado pelo gume ele figura entre os corto-contundentes, ao lado de facão, foice e enxada. Facas, navalhas, lâminas de barbear, pedaços de vidro e bisturis são os cortantes; vergalhões de ferro, ponta de guarda-chuva e chave de fenda são perfurocontundentes.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4068,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os tipos de lesão produzidos por instrumentos contundentes são:",
+    "alternativas": {
+      "A": "ferida incisa, esgorjamento e degolamento",
+      "B": "contusão, ferida contusa e fratura",
+      "C": "ferida perfuro-incisa e cauda de escoriação",
+      "D": "ferida punctória, penetrante ou transfixante"
+    },
+    "resposta_correta": "B",
+    "justificativa": "Para os contundentes, o caderno arrola contusão, ferida contusa e fratura. A ferida incisa é a lesão dos cortantes, aos quais se ligam os termos esgorjamento e degolamento; a ferida perfuro-incisa é a dos perfurocortantes; a ferida punctória é a dos perfurantes.",
+    "referencia": "PDF LOC, p. 158",
+    "nivel": "medio"
+  },
+  {
+    "id": 4069,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na escoriação, produzida pelo atrito ou pela ação tangencial do objeto sobre o corpo, ocorre:",
+    "alternativas": {
+      "A": "a ruptura de pequenos vasos, com infiltrado sanguíneo",
+      "B": "a congestão do tecido, sem qualquer ruptura de vasos",
+      "C": "a retirada da epiderme, expondo a derme ou córion",
+      "D": "a ruptura de vasos calibrosos, com distensão dos tecidos"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A escoriação retira a epiderme, camada mais superficial da pele, expondo a derme (córion). A ruptura de pequenos vasos com infiltrado sanguíneo caracteriza a equimose; a congestão sem ruptura de vasos é a rubefação; a ruptura de vasos mais calibrosos com acúmulo de sangue e distensão é o hematoma.",
+    "referencia": "PDF LOC, p. 159",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4070,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As escoriações ungueais ou arciformes assumem importância maior:",
+    "alternativas": {
+      "A": "nos atropelamentos e quedas sobre superfícies rugosas",
+      "B": "nos arranhões produzidos pelo deslizamento das unhas",
+      "C": "nas manobras eróticas, como beijos e chupões",
+      "D": "nos crimes de conotação sexual e nas lesões de defesa"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A caracterização das escoriações ungueais ou arciformes ganha importância nos crimes de conotação sexual e nas lesões de defesa, em que a vítima pode guardar material do agressor sob as unhas, relevante para a identificação de autoria pelo DNA. O atrito com superfícies rugosas, como concreto e asfalto, produz as escoriações em placa; o deslizamento de unhas gera arranhões, que são escoriações lineares; as manobras eróticas relacionam-se às sugilações.",
+    "referencia": "PDF LOC, p. 159",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4071,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Constituem um tipo especial de equimose, de natureza mais leve, podendo apresentar-se na forma de pequenos grãos:",
+    "alternativas": {
+      "A": "as sugilações",
+      "B": "os hematomas",
+      "C": "as rubefações",
+      "D": "as escoriações em placa"
+    },
+    "resposta_correta": "A",
+    "justificativa": "As sugilações são o tipo especial de equimose, mais leve, que pode apresentar-se em pequenos grãos, e devem ser buscadas nas vítimas de crimes de natureza sexual. O hematoma decorre da ruptura de vasos mais calibrosos, com distensão dos tecidos; a rubefação é mera congestão; a escoriação em placa é definida em duas dimensões pelo atrito com superfícies rugosas.",
+    "referencia": "PDF LOC, p. 159",
+    "nivel": "medio"
+  },
+  {
+    "id": 4072,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O espectro equimótico presta-se, no exame das equimoses, a:",
+    "alternativas": {
+      "A": "revelar a forma do instrumento utilizado na agressão",
+      "B": "estimar o tempo decorrido desde a produção da lesão",
+      "C": "medir a profundidade do infiltrado sanguíneo no tecido",
+      "D": "identificar o material depositado sob as unhas da vítima"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O espectro equimótico é o recurso indicado para a estimativa do tempo decorrido da produção da equimose, feita na maior parte das vezes com auxílio do médico-legista. Revelar a forma do instrumento é outra utilidade da equimose em si; a profundidade do infiltrado e o material sob as unhas não são objeto do espectro.",
+    "referencia": "PDF LOC, p. 159",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4073,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A rubefação é apontada como lesão de caracterização difícil para o perito de local porque:",
+    "alternativas": {
+      "A": "depende da comparação com o espectro equimótico do legista",
+      "B": "confunde-se com o acúmulo de sangue sobre plano ósseo",
+      "C": "desaparece em tempo inferior ao da chegada ao local",
+      "D": "só se torna visível após a retirada das vestes da vítima"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno explica que a rubefação — mera congestão do tecido, sem ruptura de vasos, como nas marcas de tapas — desaparece em tempo relativamente restrito, em geral inferior ao da chegada do perito ao local. O espectro equimótico serve às equimoses; o acúmulo de sangue sobre plano ósseo é a bossa sanguínea, ligada ao hematoma; a visibilidade não é condicionada à retirada das vestes.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4074,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No hematoma, o acúmulo de sangue que ocorre sobre um plano ósseo subjacente pode ser denominado:",
+    "alternativas": {
+      "A": "orla equimótica",
+      "B": "sugilação",
+      "C": "espectro equimótico",
+      "D": "bossa sanguínea"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno dá o nome de bossa sanguínea ao hematoma formado sobre plano ósseo subjacente. A orla equimótica é a que acompanha a ferida contusa; a sugilação é a equimose leve ligada a manobras eróticas; o espectro equimótico é o método de estimativa do tempo da lesão.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "medio"
+  },
+  {
+    "id": 4075,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "São características gerais da ferida contusa:",
+    "alternativas": {
+      "A": "bordos irregulares, orla equimótica e profundidade desigual",
+      "B": "bordas regulares e nítidas, com extensão maior que a profundidade",
+      "C": "aspecto em casa de botão, com pelo menos uma extremidade angular",
+      "D": "forma circular ou ovalar, com extremidades desprovidas de ângulos"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A ferida contusa apresenta bordos irregulares, às vezes denteados, orla equimótica associada e profundidade variável e desigual, além das pontes de tecido que a distinguem das incisas. Bordas regulares e nítidas com maior extensão que profundidade descrevem a ferida incisa; a casa de botão com extremidade angular é a ferida perfuro-incisa; a forma circular ou ovalar sem ângulos é a ferida punctória.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4076,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Definem-se como aquelas em que se verificam esmagamento ou dilaceração de tecidos e contusões simultâneas:",
+    "alternativas": {
+      "A": "as feridas corto-contusas",
+      "B": "as feridas lácero-contusas",
+      "C": "as feridas perfurocontusas",
+      "D": "as feridas perfuro-incisas"
+    },
+    "resposta_correta": "B",
+    "justificativa": "As feridas lácero-contusas são o subtipo em que há esmagamento ou dilaceração de tecidos com contusões simultâneas. As corto-contusas são mistas entre contusas e incisas, produzidas por facão, machado, foice e enxada; as perfurocontusas resultam de projéteis e assemelhados; as perfuro-incisas, de instrumentos perfurocortantes.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "medio"
+  },
+  {
+    "id": 4077,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas quedas, atropelamentos, acidentes automobilísticos, explosões e desabamentos, o caderno observa que:",
+    "alternativas": {
+      "A": "as lesões decorrem da ação tangencial de objetos sobre a pele",
+      "B": "predominam as feridas produzidas por lâminas de gume afiado",
+      "C": "o corpo humano é o próprio agente ativo da produção da lesão",
+      "D": "as lesões tendem a ser transfixantes, com entrada e saída"
+    },
+    "resposta_correta": "C",
+    "justificativa": "Nessas hipóteses, o choque de regiões anatômicas contra superfícies rígidas faz do corpo humano o próprio agente ativo da produção da lesão contusa. A ação tangencial do objeto sobre o corpo produz escoriações; as lâminas de gume afiado produzem feridas incisas; as lesões penetrantes e transfixantes são próprias dos perfurantes e perfurocortantes.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4078,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as fraturas, são mais facilmente observadas pelo perito durante o exame externo:",
+    "alternativas": {
+      "A": "as entorses, as luxações e os edemas traumáticos associados",
+      "B": "as infiltrações sanguíneas produzidas em vasos de pequeno calibre",
+      "C": "as soluções de continuidade da pele com pontes de tecido no fundo",
+      "D": "as expostas, as com encurtamento de membro e as com cavalgamento"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno lista, como de observação externa mais fácil, as fraturas expostas, as que produzem encurtamento de membros, as completas com cavalgamento e as da calota craniana, sobretudo quando associadas a afundamentos. Entorses, luxações e edemas traumáticos são de menor importância e caracterização mais difícil; as infiltrações em pequenos vasos são as equimoses; as pontes de tecido caracterizam a ferida contusa.",
+    "referencia": "PDF LOC, p. 160",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4079,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As entorses, as luxações e os edemas traumáticos são apresentados no caderno como lesões:",
+    "alternativas": {
+      "A": "de menor importância e caracterização mais difícil",
+      "B": "de observação externa mais fácil que as demais fraturas",
+      "C": "próprias da ação de instrumentos perfurocortantes",
+      "D": "associadas exclusivamente aos disparos de arma de fogo"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno relaciona entorses, luxações e edemas traumáticos ao grupo das fraturas, porém como lesões de menor importância e de caracterização mais difícil para o perito. As de observação externa mais fácil são as expostas, as com encurtamento de membros, as completas com cavalgamento e as da calota craniana com afundamento.",
+    "referencia": "PDF LOC, p. 161",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4080,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as características gerais das feridas incisas, o caderno registra:",
+    "alternativas": {
+      "A": "profundidade em regra maior que a extensão e que a largura",
+      "B": "início profundo e curto, e fim longo e superficial",
+      "C": "extremidades desprovidas de ângulos e forma ovalar",
+      "D": "bordos denteados com pontes de tecido no fundo da ferida"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A ferida incisa tem bordas regulares, lisas e nítidas, geralmente sangrantes, maior extensão de comprimento que de profundidade, centro geralmente mais profundo que as extremidades, início mais profundo e curto e fim mais longo e superficial, além da cauda de saída ou de escoriação. Profundidade maior que extensão e largura é da ferida perfuro-incisa; extremidades sem ângulos, da punctória; bordos denteados com pontes de tecido, da contusa.",
+    "referencia": "PDF LOC, p. 161",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4081,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No esquartejamento completo, o caderno descreve a separação de:",
+    "alternativas": {
+      "A": "apenas da cabeça em relação ao tronco da vítima",
+      "B": "da parte anterior do pescoço, com secção completa dos tecidos moles",
+      "C": "cabeça, tronco, mãos, antebraços, braços, coxas, pernas e pés",
+      "D": "quase total do pescoço, feita pela parte posterior"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O esquartejamento é a divisão do corpo em partes mediante amputação ou desarticulação; no esquartejamento completo teriam-se separados a cabeça, o tronco, as mãos, os antebraços, os braços, as coxas, as pernas e os pés. A separação apenas da cabeça é a decapitação; a secção da parte anterior do pescoço é o esgorjamento; a secção quase total do pescoço pela parte posterior é o degolamento.",
+    "referencia": "PDF LOC, p. 161",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4082,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "São exemplos de instrumentos perfurocortantes:",
+    "alternativas": {
+      "A": "facas, lâminas de barbear, pedaços de vidro e navalhas",
+      "B": "facão, machado, foice e enxada empregados pelo gume",
+      "C": "prego, estilete, agulha e garfo de churrasco",
+      "D": "faca de ponta, peixeira, punhal, canivete e espada"
+    },
+    "resposta_correta": "D",
+    "justificativa": "Os perfurocortantes exemplificados são faca de ponta, \"peixeira\", punhal, canivete e espada. Facas, lâminas de barbear, pedaços de vidro, navalhas e bisturis são cortantes; facão, machado, foice e enxada são corto-contundentes; prego, estilete, agulha e garfo de churrasco são perfurantes.",
+    "referencia": "PDF LOC, p. 161",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4083,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas feridas perfuro-incisas, a hemorragia é caracterizada como:",
+    "alternativas": {
+      "A": "escassa, concentrando-se em geral internamente",
+      "B": "abundante, com bordas geralmente sangrantes",
+      "C": "ausente por completo, qualquer que seja a região",
+      "D": "proporcional ao número de gumes da lâmina usada"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno descreve hemorragia escassa nas feridas perfuro-incisas, porque em geral ela se concentra internamente. Bordas geralmente sangrantes são característica das feridas incisas; a hemorragia externa escassa ou ausente é descrição das punctórias; o número de gumes influencia as extremidades da lesão, não o volume da hemorragia.",
+    "referencia": "PDF LOC, p. 162",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4084,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As feridas perfuro-incisas tendem a ser transfixantes quando a região anatômica atingida:",
+    "alternativas": {
+      "A": "apresenta plano ósseo subjacente, como a calota craniana",
+      "B": "possui espessura menor, como mãos, pernas e pescoço",
+      "C": "está coberta por vestes de tecido de maior espessura",
+      "D": "é atingida perpendicularmente ao plano cutâneo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A feição transfixante (com entrada e saída) ocorre normalmente quando a região atingida possui espessura menor, tais como membros superiores (braços e mãos), pernas e pescoço. O plano ósseo subjacente é relevante para a ferida contusa e para a forma poligonal do orifício de entrada; as vestes influem no enxugo; a incidência perpendicular determina a forma circular do orifício de entrada.",
+    "referencia": "PDF LOC, p. 162",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4085,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando, na saída do instrumento, a lâmina sofre rotação, a ferida perfuro-incisa pode apresentar:",
+    "alternativas": {
+      "A": "extremidades inteiramente desprovidas de angulação",
+      "B": "bordas invaginadas, orientadas de fora para dentro",
+      "C": "aspecto duplo ou discreta cauda de escoriação",
+      "D": "pontes de tecido unindo as duas bordas da ferida"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno registra que a rotação da lâmina na saída gera ferida com aspecto duplo ou com discreta cauda de escoriação. Extremidades sem ângulos descrevem a ferida punctória; bordas invaginadas de fora para dentro são do orifício de entrada de projétil; pontes de tecido unindo as bordas caracterizam a ferida contusa.",
+    "referencia": "PDF LOC, p. 162",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4086,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nas lesões corto-contusas, o instrumento tenderá a contundir mais do que a cortar quando:",
+    "alternativas": {
+      "A": "a lâmina for mais afiada e de menor massa",
+      "B": "o golpe atingir região de menor espessura",
+      "C": "a incidência for perpendicular ao plano ósseo",
+      "D": "a lâmina não possuir um gume tão afiado"
+    },
+    "resposta_correta": "D",
+    "justificativa": "As lesões corto-contusas dependem da força aplicada pelo agente e da condição da lâmina: lâmina sem gume tão afiado tende a contundir mais, e lâmina mais afiada tende a cortar mais. A espessura da região e a incidência perpendicular não são os fatores apontados para esse equilíbrio.",
+    "referencia": "PDF LOC, p. 163",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4087,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto maior for a massa de um instrumento corto-contundente:",
+    "alternativas": {
+      "A": "maior será sua eficiência para contundir",
+      "B": "maior será sua capacidade de corte",
+      "C": "menor será a chance de fraturas associadas",
+      "D": "menor será a profundidade da lesão produzida"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O caderno afirma que, quanto maior a massa de um instrumento desse tipo, maior sua eficiência para contundir; a capacidade de cortar depende do gume da lâmina. Justamente por contundir, é comum haver outros tipos de lesões contusas associadas, como as fraturas.",
+    "referencia": "PDF LOC, p. 163",
+    "nivel": "medio"
+  },
+  {
+    "id": 4088,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Diferencia a ferida punctória da ferida perfuro-incisa a presença de:",
+    "alternativas": {
+      "A": "bordas regulares, lisas e nítidas",
+      "B": "extremidades desprovidas de ângulos",
+      "C": "orla equimótica com bordos denteados",
+      "D": "pontes de tecido no fundo da ferida"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A ferida punctória, dos instrumentos perfurantes, tem forma circular ou ovalar, podendo ser puntiforme, maior profundidade que extensão, hemorragia externa escassa ou ausente e extremidades desprovidas de ângulos — ao contrário da perfuro-incisa, cujas extremidades angulares permitem caracterizar o número de gumes. Bordas regulares e nítidas descrevem a ferida incisa; orla equimótica com bordos denteados e pontes de tecido, a ferida contusa.",
+    "referencia": "PDF LOC, p. 164",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4089,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os instrumentos perfurocontundentes, os projéteis de arma de fogo representam, segundo o caderno:",
+    "alternativas": {
+      "A": "aproximadamente metade das ocorrências registradas",
+      "B": "a minoria dos casos nos grandes centros populacionais",
+      "C": "valores pouco inferiores aos 100% da casuística",
+      "D": "apenas as mortes ocorridas em via pública"
+    },
+    "resposta_correta": "C",
+    "justificativa": "O caderno afirma que os projéteis de arma de fogo totalizam seguramente valores pouco inferiores aos 100% da casuística desse tipo de ocorrência, e que na maioria dos grandes centros populacionais as mortes por armas de fogo lideram as estatísticas — daí o subitem próprio dedicado a elas. Vergalhões de ferro, ponta de guarda-chuva e chave de fenda completam os exemplos de perfurocontundentes.",
+    "referencia": "PDF LOC, p. 164",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4090,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "NÃO figura entre os fatores determinantes dos efeitos lesivos dos projéteis de arma de fogo, tal como listados no caderno:",
+    "alternativas": {
+      "A": "a deformabilidade do projétil, como no hollow point",
+      "B": "o ângulo de incidência sobre o alvo atingido",
+      "C": "a qualidade da munição e seu estado de conservação",
+      "D": "o comprimento do cano da arma empregada"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A lista de fatores determinantes é: velocidade (subsônicos e supersônicos), massa, forma geométrica (ex.: canto vivo), deformabilidade (ex.: hollow point), distância da boca do cano até o alvo, ângulo de incidência e qualidade da munição com seu estado de conservação. O comprimento do cano não integra esse rol.",
+    "referencia": "PDF LOC, p. 165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4091,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exemplo do \"canto vivo\" é dado no caderno para ilustrar o fator:",
+    "alternativas": {
+      "A": "forma geométrica",
+      "B": "deformabilidade do projétil",
+      "C": "velocidade do projétil",
+      "D": "massa do projétil"
+    },
+    "resposta_correta": "A",
+    "justificativa": "O canto vivo é o exemplo dado para a forma geométrica. A deformabilidade é exemplificada pelo hollow point; a velocidade é subdividida em subsônicos e supersônicos; a massa figura na lista sem exemplo associado.",
+    "referencia": "PDF LOC, p. 165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4092,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos orifícios de entrada circulares, a dimensão observada é menor que o diâmetro da base do projétil em razão:",
+    "alternativas": {
+      "A": "da ação contundente do projétil sobre a pele",
+      "B": "da elasticidade da epiderme",
+      "C": "do enxugo dos resíduos nos bordos tegumentares",
+      "D": "da invaginação das bordas de fora para dentro"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A explicação dada é a elasticidade da epiderme, que faz a dimensão do orifício ser menor que o diâmetro da base do projétil e, em geral, menor que a verificada nos orifícios de saída. A ação contundente do projétil produz a orla de contusão; o contato da superfície do projétil com os bordos deixa a orla de enxugo; as bordas invaginadas são característica autônoma do orifício de entrada.",
+    "referencia": "PDF LOC, p. 165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4093,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O orifício de entrada assume forma poligonal quando o disparo é efetuado:",
+    "alternativas": {
+      "A": "perpendicularmente ao plano cutâneo da região atingida",
+      "B": "obliquamente em relação ao plano cutâneo da região",
+      "C": "com a boca do cano encostada, sobre plano ósseo",
+      "D": "com projétil deformado ou fragmentado por ricochete"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A forma poligonal ocorre quando o disparo é feito com a \"boca\" do cano encostada na superfície cutânea, tendo um plano ósseo subjacente. A penetração perpendicular produz forma circular; a penetração oblíqua produz forma ovalar ou em fenda; a deformação da ogiva ou a fragmentação por ricochete produz a forma atípica.",
+    "referencia": "PDF LOC, p. 165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4094,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A forma atípica do orifício de entrada é aquela que decorre de:",
+    "alternativas": {
+      "A": "penetração perpendicular ao plano cutâneo da região",
+      "B": "penetração oblíqua em relação ao plano cutâneo",
+      "C": "contato do cano com a pele sobre plano ósseo",
+      "D": "deformação da ogiva ou fragmentação por ricochete"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A forma atípica resulta de o projétil, antes de penetrar no plano cutâneo, sofrer deformação em sua ogiva ou fragmentar-se ao ricochetear em superfície rígida. Penetração perpendicular gera forma circular; penetração oblíqua, forma ovalar ou em fenda; cano encostado com plano ósseo subjacente, forma poligonal.",
+    "referencia": "PDF LOC, p. 165",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4095,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando a região atingida pelo projétil está coberta por vestes, o caderno registra que:",
+    "alternativas": {
+      "A": "o enxugo fica restrito à veste, onde ocorre a limpeza",
+      "B": "a orla de contusão deixa de se formar ao redor do orifício",
+      "C": "a zona de tatuagem se concentra na pele, e não no tecido",
+      "D": "o esfumaçamento passa a ser irremovível com tecido umedecido"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Estando a região coberta por vestes, a limpeza ocorre quando da penetração do projétil no tecido e o enxugo fica restrito à veste. A orla de contusão continua invariavelmente presente, independentemente da distância; a tatuagem é formada por grânulos incombustos que penetram na epiderme e na derme; o esfumaçamento permanece removível com tecido umedecido.",
+    "referencia": "PDF LOC, p. 166",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4096,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A auréola ou orla equimótica, no orifício de entrada, é descrita como aquela que:",
+    "alternativas": {
+      "A": "está invariavelmente presente, qualquer que seja a distância",
+      "B": "pode estar ou não presente",
+      "C": "resulta dos resíduos de pólvora e graxa deixados pelo projétil",
+      "D": "é formada por grânulos incombustos que penetram na derme"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O caderno registra a auréola ou orla equimótica como elemento que pode estar ou não presente no orifício de entrada — no orifício de saída ela é dada como muitas vezes presente. A presença invariável, independentemente da distância, é da orla de contusão; os resíduos de pólvora e graxa formam a orla de enxugo ou de limpeza; os grânulos incombustos que penetram na derme constituem a zona de tatuagem.",
+    "referencia": "PDF LOC, p. 166",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4097,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A zona de chamuscamento, ou de queimadura, adjacente ao orifício de entrada, decorre:",
+    "alternativas": {
+      "A": "da deposição de fuligem e de resíduos pulverulentos",
+      "B": "da penetração de grânulos de pólvora incombustos",
+      "C": "da ação dos gases inflamados da combustão",
+      "D": "da ação contundente do projétil sobre a pele"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A zona de chamuscamento aparece em disparos a distância que permita a ação dos gases inflamados decorrentes da combustão dos explosivos contidos na unidade de munição. A deposição de fuligem e resíduos pulverulentos, particularmente do propelente, é o esfumaçamento; os grânulos incombustos que penetram na pele formam a tatuagem; a ação contundente do projétil produz a orla de contusão.",
+    "referencia": "PDF LOC, p. 166",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4098,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No esfumaçamento, a forma apresentada — circular ou elipsóide — depende:",
+    "alternativas": {
+      "A": "da espessura da região anatômica atingida pelo projétil",
+      "B": "da qualidade da munição e de seu estado de conservação",
+      "C": "da elasticidade da epiderme no ponto de penetração",
+      "D": "do ângulo de inclinação entre o cano e o alvo"
+    },
+    "resposta_correta": "D",
+    "justificativa": "A forma do esfumaçamento depende do ângulo de inclinação entre a extremidade do cano e o alvo, ao passo que a extensão e a concentração variam com a distância do disparo. A espessura da região anatômica determina o caráter transfixante das lesões; a qualidade da munição é fator determinante dos efeitos lesivos; a elasticidade da epiderme explica a dimensão do orifício de entrada.",
+    "referencia": "PDF LOC, p. 166",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4099,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Os grânulos de pólvora incombustos que formam a zona de tatuagem penetram:",
+    "alternativas": {
+      "A": "nas camadas da epiderme e inclusive na derme",
+      "B": "apenas superficialmente, saindo com tecido umedecido",
+      "C": "sob a pele, provocando ruptura estrelada dos tecidos",
+      "D": "na tábua óssea do crânio e dos arcos costais"
+    },
+    "resposta_correta": "A",
+    "justificativa": "Na zona de tatuagem, a fração de grânulos de pólvora incombustos penetra nas camadas da epiderme e inclusive na derme, em função da força propulsiva das partículas. A remoção com tecido umedecido é possível no esfumaçamento; a ruptura estrelada por gases sob a pele é a Câmara de Mina de Hoffmann; a deposição na tábua óssea do crânio e de arcos costais é o sinal de Benassi.",
+    "referencia": "PDF LOC, p. 167",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4100,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "O sinal de Benassi é encontrado:",
+    "alternativas": {
+      "A": "ao redor do orifício de entrada, como marca do cano",
+      "B": "na tábua óssea do crânio e de arcos costais",
+      "C": "sob a pele, com ruptura estrelada e evertida dos tecidos",
+      "D": "nas bordas do orifício de saída encostado em anteparo"
+    },
+    "resposta_correta": "B",
+    "justificativa": "O sinal de Benassi é encontrado na tábua óssea do crânio e de arcos costais, em disparos encostados à pele ou bem próximos, formando cone de impurezas e fuligem ao redor do orifício. A marca do cano ao redor do orifício de entrada, por queimadura, é o sinal de Puppe-Werkgartner; a ruptura estrelada e evertida por gases sob a pele é a Câmara de Mina de Hoffmann; a zona de contusão no orifício de saída ocorre quando a região fica encostada em anteparo.",
+    "referencia": "PDF LOC, p. 167",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4101,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "No orifício de saída, a zona de contusão é quase sempre ausente, salvo quando:",
+    "alternativas": {
+      "A": "o disparo é efetuado com a boca do cano encostada na pele",
+      "B": "o projétil atravessa região anatômica de menor espessura",
+      "C": "a região atingida fica encostada a um anteparo",
+      "D": "o projétil sofre deformação da ogiva antes de penetrar"
+    },
+    "resposta_correta": "C",
+    "justificativa": "A exceção apontada é a região anatômica em que a lesão de saída se produz estando encostada a um anteparo, como uma parede, muro ou piso. O cano encostado influencia o orifício de entrada (forma poligonal, Câmara de Mina, Puppe-Werkgartner); a menor espessura favorece lesões transfixantes; a deformação da ogiva produz orifício de entrada atípico.",
+    "referencia": "PDF LOC, p. 168",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4102,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "As formas predominantes do orifício de saída são:",
+    "alternativas": {
+      "A": "circular, ovalar e puntiforme",
+      "B": "estrelada, evertida e crateriforme",
+      "C": "linear, arciforme e em placa",
+      "D": "poligonal, em fenda e elíptica"
+    },
+    "resposta_correta": "D",
+    "justificativa": "O caderno indica aspecto irregular, com bordas dilaceradas, e formas predominantes poligonal, em fenda e elípticas. Circular, ovalar ou puntiforme descreve a ferida punctória; a ruptura estrelada e evertida é da Câmara de Mina de Hoffmann; linear, arciforme e em placa são tipos de escoriação.",
+    "referencia": "PDF LOC, p. 168",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4103,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre as características arroladas para o orifício de saída, o caderno menciona:",
+    "alternativas": {
+      "A": "o material orgânico trazido pelo projétil",
+      "B": "os resíduos de pólvora e graxa deixados nos bordos",
+      "C": "os grânulos incombustos incrustados na derme",
+      "D": "a fuligem removível com um tecido umedecido"
+    },
+    "resposta_correta": "A",
+    "justificativa": "A lista do orifício de saída encerra-se com o material orgânico trazido pelo projétil. Resíduos de pólvora e graxa nos bordos formam a orla de enxugo, do orifício de entrada; os grânulos incrustados na derme constituem a tatuagem; a fuligem removível com tecido umedecido é o esfumaçamento — nenhuma dessas zonas aparece no orifício de saída.",
+    "referencia": "PDF LOC, p. 168",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4104,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Cap. 19 - Locais de morte violenta",
+    "tipo": "multipla_escolha",
+    "enunciado": "A cronotanatognose tem por objetivo principal:",
+    "alternativas": {
+      "A": "determinar a causa jurídica da morte da vítima examinada",
+      "B": "estimar o intervalo pós-morte",
+      "C": "estabelecer a distância do disparo que produziu a lesão",
+      "D": "identificar o instrumento que produziu cada ferimento"
+    },
+    "resposta_correta": "B",
+    "justificativa": "A cronotanatognose é o ramo da Medicina Legal destinado ao estudo da determinação do tempo decorrido desde a morte, estimando o intervalo pós-morte pela análise dos fenômenos cadavéricos observados no cadáver e no ambiente. A distância do disparo é inferida pelas zonas adjacentes ao orifício de entrada; a identificação do instrumento decorre do exame das lesões.",
+    "referencia": "PDF LOC, p. 168",
+    "nivel": "medio"
   }
 ]
