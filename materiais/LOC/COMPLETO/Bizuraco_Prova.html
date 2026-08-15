@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bizuraço Prova — Aula de Revisão LOC</title>
+<link rel="stylesheet" href="../estilo_padrao.css">
+<style>
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; margin: 0; }
+.container { max-width: 100%; margin: 0; background: #fff; padding: 28px 36px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.badge { display: inline-block; background: #2b6cb0; color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.05em; padding: 4px 10px; border-radius: 4px; text-transform: uppercase; margin-bottom: 14px; }
+.badge-alt { background: #c53030; }
+h1 { color: #1a365d; font-size: 1.85rem; margin: 0 0 6px; line-height: 1.2; }
+.subtitle { color: #718096; font-size: 1rem; margin: 0 0 24px; }
+.toc { background: #f0f5fa; border-radius: 8px; padding: 18px 24px; margin-bottom: 28px; }
+.toc h2 { border: none; color: #2b6cb0; font-size: 1.05rem; margin: 0 0 10px; padding: 0; }
+.toc ul { margin: 0; padding-left: 20px; }
+.toc li { margin-bottom: 4px; font-size: 0.95rem; }
+h2 { color: #2b6cb0; font-size: 1.4rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; margin-top: 36px; }
+h3 { color: #2c5282; font-size: 1.15rem; margin-top: 26px; }
+h4 { color: #2c5282; font-size: 1.02rem; margin-top: 20px; margin-bottom: 8px; }
+p { margin: 10px 0; }
+ul, ol { margin: 10px 0; padding-left: 24px; }
+li { margin-bottom: 6px; }
+ul.clean { list-style: none; padding-left: 0; }
+ul.clean li { padding-left: 22px; position: relative; }
+ul.clean li::before { content: "▸"; position: absolute; left: 0; color: #3182ce; font-weight: 700; }
+.box { border-left: 4px solid; border-radius: 0 6px 6px 0; padding: 14px 18px; margin: 16px 0; }
+.box-blue { background: #ebf4ff; border-color: #3182ce; }
+.box-green { background: #f0fff4; border-color: #38a169; }
+.box-orange { background: #fffaf0; border-color: #dd6b20; }
+.box-purple { background: #faf5ff; border-color: #805ad5; }
+.box-red { background: #fff5f5; border-color: #e53e3e; }
+.box h4 { margin-top: 0; }
+.mnemonic { border: 2px dashed #d68910; background: #fffbf0; border-radius: 8px; padding: 14px 18px; margin: 18px 0; }
+.mnemonic-title { font-weight: 700; color: #b9770e; margin-bottom: 6px; }
+table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 0.93rem; }
+th { background: #2b6cb0; color: #fff; text-align: left; padding: 10px 12px; }
+td { border: 1px solid #e2e8f0; padding: 9px 12px; vertical-align: top; }
+tr:nth-child(even) td { background: #f7fafc; }
+.ref-pagina { color: #a0aec0; font-style: italic; font-size: 0.85rem; }
+.citacao { background: #f7fafc; border-left: 3px solid #cbd5e0; padding: 10px 16px; font-style: italic; color: #4a5568; margin: 14px 0; }
+strong.dest { color: #c53030; }
+/* --- específicos deste capítulo --- */
+.escala { border-collapse: collapse; width: 100%; margin: 8px 0 4px; font-family: ui-monospace, Consolas, monospace; font-size: 0.88rem; }
+.escala td { border: 1px solid #cbd5e0; padding: 7px 4px; text-align: center; background: #fff; }
+.escala td.hi { background: #fefcbf; font-weight: 700; color: #975a16; }
+.escala-legenda { display: flex; justify-content: space-between; font-size: 0.8rem; color: #718096; margin-bottom: 18px; }
+.resolvido { border: 2px solid #3182ce; border-radius: 8px; margin: 20px 0; overflow: hidden; }
+.resolvido-topo { background: #2b6cb0; color: #fff; padding: 8px 16px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+.resolvido-corpo { padding: 16px 20px; }
+.enunciado { background: #f7fafc; border-left: 3px solid #cbd5e0; padding: 10px 16px; font-style: italic; color: #4a5568; margin: 0 0 14px; }
+.gabarito { margin-top: 14px; padding-top: 12px; border-top: 1px dashed #cbd5e0; font-weight: 700; color: #c53030; font-size: 1.05rem; }
+</style>
+</head>
+<body>
+<div class="container">
+<span class="badge badge-alt">🎯 Bizuraço · Aula de Revisão</span>
+<h1>Bizuraço Prova — Tudo o que o professor disse que cai</h1>
+<p class="subtitle">Reconstrução da aula final de revisão de LOC, tópico a tópico, na ordem do curso</p>
+
+<div class="box box-red">
+<h4>Como usar este material</h4>
+<p>Este capítulo <strong>não é a apostila</strong>. É o registro do que o professor efetivamente cobriu na aula de revisão — a aula em que ele afirmou que <strong>100% das questões da prova estariam ali</strong>. Cada bloco marcado em laranja é ponto que ele disse literalmente que cai; em vermelho, as pegadinhas e os erros que ele viu a turma cometer; em roxo, os pontos em que <strong>a fala dele diverge da apostila</strong> — nesses, siga o professor.</p>
+</div>
+
+<div class="toc">
+<h2>Neste capítulo</h2>
+<ul>
+<li>1. Base legal e fundamentos da perícia</li>
+<li>2. Roteiro de processamento do local (7 etapas)</li>
+<li>3. Documentação: narrativa, croqui e fotografia</li>
+<li>4. Fotografia forense — o triângulo da exposição</li>
+<li>5. Vestígios químicos</li>
+<li>6. Vestígios biológicos</li>
+<li>7. Vestígios físicos e o estudo dos vidros</li>
+<li>8. Microvestígios e o ajuste físico</li>
+<li>9. Local com disparo de arma de fogo (semelhança de triângulos)</li>
+<li>10. Local de morte violenta e o exame perinecroscópico</li>
+<li>11. Local com manchas de sangue</li>
+<li>12. Locais de crime contra o patrimônio</li>
+<li>13. Reprodução simulada</li>
+<li>14. Estrutura do laudo pericial</li>
+<li>15. Pegadinhas e conflitos com a apostila</li>
+</ul>
+</div>
+
+<h2>1. Base legal e fundamentos da perícia</h2>
+<p>O primeiro ponto da revisão: <em>"a questão legal que dá sustentação à perícia"</em>.</p>
+
+<table>
+<tr><th>Artigo</th><th>O que diz</th></tr>
+<tr><td><strong>CPP art. 158</strong></td><td>Quando a infração deixar vestígios, será <strong>indispensável</strong> o exame de corpo de delito, direto ou indireto, <strong class="dest">não podendo supri-lo a confissão do acusado</strong>. <em>O mais cobrado de todos.</em></td></tr>
+<tr><td><strong>CPP art. 158-A, §3º</strong></td><td>Conceito de vestígio: "todo objeto ou material bruto, <strong>visível ou latente</strong>, constatado ou recolhido, que se relaciona à infração penal" (Lei 13.964/2019).</td></tr>
+</table>
+
+<div class="box box-orange">
+<h4>A pergunta que ele fez logo no início — e a resposta contraintuitiva</h4>
+<p><strong>"Tem hierarquia entre as informações objetivas e as subjetivas?"</strong> — <strong class="dest">NÃO.</strong></p>
+<p>Ele mesmo antecipou a armadilha: <em>"apesar de a perícia ser conhecida como a rainha das provas"</em>, <strong>legalmente não há hierarquia entre as provas</strong>. Se a alternativa disser que a prova pericial "prevalece sobre" ou "se sobrepõe à" prova testemunhal, está <strong>errada</strong>.</p>
+</div>
+
+<div class="box box-green">
+<h4>O papel de cada tipo de informação</h4>
+<p>A <strong>matéria-prima da perícia são os vestígios</strong>, que são objetivos. As informações subjetivas (declarações, entrevistas, confissões) servem para <strong>direcionar</strong> os trabalhos, mas <strong>não são objeto de avaliação no laudo</strong> — o perito só conclui a partir dos vestígios. O confronto entre o objetivo e o subjetivo é o que leva à verdade.</p>
+<p>Sobre o art. 158, ele insistiu na parte final: <strong>"a confissão do acusado pode substituir a perícia? NÃO."</strong></p>
+</div>
+
+<h3>1.1 Conceito ampliado de local de crime (Eraldo Rabelo)</h3>
+<p>É a porção do espaço compreendida num raio que, tendo por origem o ponto no qual é constatado o fato, se estenda de modo a abranger todos os lugares em que <strong>aparente, necessária ou presumivelmente</strong> hajam sido praticados pelo criminoso os atos materiais, <strong>preliminares ou posteriores</strong> à consumação do delito e com este diretamente relacionados.</p>
+<p>Traduzindo: o local de crime não é só onde o fato aconteceu, mas <strong>todo lugar que tenha vestígios do planejamento, da execução e do que ocorreu depois</strong>.</p>
+
+<h3>1.2 Local imediato × local mediato</h3>
+<ul class="clean">
+<li><strong>Imediato:</strong> onde ocorreu o evento. É a área em que se presume encontrar a <strong>maior concentração de vestígios</strong>. É nele que se concentram os esforços de isolamento.</li>
+<li><strong>Mediato:</strong> as <strong>adjacências</strong> — área intermediária entre onde o fato ocorreu e o ambiente exterior. Entre o imediato e o mediato há <strong>continuidade geográfica</strong>.</li>
+</ul>
+
+<h3>1.3 Classificação quanto à preservação</h3>
+<ul class="clean">
+<li><strong>Idôneos (não violados):</strong> preservados na forma em que foram deixados pelo agente após a infração.</li>
+<li><strong>Inidôneos (violados):</strong> perturbados ou devassados após a prática da infração e antes da chegada dos peritos.</li>
+</ul>
+
+<h3>1.4 Classificação quanto à natureza do fato</h3>
+<p>Furto; roubo; dano; acidente de trânsito; morte violenta; explosão; incêndio; laboratório clandestino; plantio de drogas; desmatamento e queimadas criminosas; extração ilegal de madeira; garimpo ilegal; cativeiro; tráfico de animais silvestres; achado de ossada.</p>
+
+<h2>2. Roteiro de processamento do local</h2>
+<p>Sete etapas, <strong>nesta ordem exata</strong>. A cobrança dele: <em>"você tem que saber tudo que tem que fazer em cada uma dessas etapas"</em>.</p>
+
+<table>
+<tr><th>#</th><th>Etapa</th><th>O que acontece dentro dela</th></tr>
+<tr><td><strong>1</strong></td><td><strong>Preparação</strong></td><td>Obtenção de informações adicionais; localização da cena (endereço, coordenadas, referências); tipo de local/crime; condições do isolamento e da preservação; urgência do exame; material e equipamento; transporte de pessoal; meios de comunicação. <em>Planejar é o ponto crucial — começa antes de sair.</em></td></tr>
+<tr><td><strong>2</strong></td><td><strong>Chegada ao local</strong></td><td>Assumir o local (formal, segura e clara, pelo perito-chefe); oportunidade única; reunião preliminar; busca inicial; cadeia de comando; entrevistas.</td></tr>
+<tr><td><strong>3</strong></td><td><strong>Busca de vestígios</strong></td><td>Busca completa, com os padrões de busca (espiral, linha, linha cruzada, quadrante).</td></tr>
+<tr><td><strong>4</strong></td><td><strong>Documentação (fixação)</strong></td><td>Descrição narrativa + fotografia (podendo ser complementada por filmagem) + croqui.</td></tr>
+<tr><td><strong>5</strong></td><td><strong>Coleta e acondicionamento</strong></td><td>Só depois de posicionado, fotografado e descrito. Amostragem e <strong>amostras controle</strong>.</td></tr>
+<tr><td><strong>6</strong></td><td><strong>Reunião final</strong></td><td>"Fizemos tudo o que era necessário?" — conferência dos 6 itens antes da entrega.</td></tr>
+<tr><td><strong>7</strong></td><td><strong>Liberação do local</strong></td><td>"A gente entrega o local <strong>para quem? Para o DELEGADO</strong>" — ou ao policial encarregado. Entrega formal pelo perito-chefe. Geralmente verbal, <strong>mas deve ser consignada em laudo</strong>.</td></tr>
+</table>
+
+<div class="box box-orange">
+<h4>Cai na prova — ele deu isto como exemplo do formato da questão</h4>
+<p><strong>A amostra controle é colhida na etapa de COLETA</strong> — não em outra fase. Como no local nem sempre dá para saber se ela será necessária, <strong>a regra geral é sempre coletá-la</strong>.</p>
+<p>Ele usou isso justamente para ilustrar a pegadinha: a banca <strong>troca a etapa</strong> de um procedimento. <em>"Vocês têm que estar muito atentos a isso: o que se faz em cada uma dessas etapas."</em></p>
+</div>
+
+<div class="box box-orange">
+<h4>O isolamento — pergunta que ele fez duas vezes</h4>
+<p><strong>"Como é que a gente faz o isolamento? Só com fita?"</strong> — Não. <strong>Pode ser com cordas, cones, cavaletes</strong> ou qualquer barreira que mostre que a área está sob investigação da polícia. A fita é o padrão, <strong>não uma exigência</strong>.</p>
+<p><strong>"Geralmente quem faz o isolamento?"</strong> — A PM ou os bombeiros, que chegam antes. <strong>"Mas qual é a função da perícia?"</strong> — <strong class="dest">REAVALIAR o isolamento</strong>: ampliar ou reduzir o perímetro, e reforçá-lo. O perito não isola do zero; ele reavalia o que encontrou.</p>
+</div>
+
+<h3>2.1 Busca inicial × busca completa</h3>
+<div class="box box-orange">
+<p><strong>"Vai todo mundo na busca inicial? NÃO — geralmente só o chefe."</strong></p>
+</div>
+<ul class="clean">
+<li><strong>Busca inicial (preliminar):</strong> feita pelo <strong>perito-chefe</strong>, para conhecer a cena e planejar a busca detalhada. Cuidado principal: <strong>estabelecer a rota de entrada e saída</strong>, usada por todos.</li>
+<li><strong>Busca completa:</strong> aí sim entram os <strong>padrões de busca</strong> e toda a equipe.</li>
+</ul>
+
+<h3>2.2 Os quatro padrões de busca</h3>
+<table>
+<tr><th>Padrão</th><th>Quando usar</th><th>Como</th></tr>
+<tr><td><strong>Espiral</strong></td><td>Área <strong>pequena</strong>, <strong>poucas</strong> pessoas</td><td>Inicia na periferia e vai contornando até o ponto central — onde geralmente está a maioria dos vestígios.</td></tr>
+<tr><td><strong>Linha</strong></td><td>Área <strong>extensa</strong>, <strong>muitas</strong> pessoas</td><td>Braços estendidos, <strong>dois braços de distância</strong> entre pessoas. Uma <strong>pessoa-base comanda</strong> a linha. Quem achar vestígio grita <strong>"alto"</strong> e toda a linha para.</td></tr>
+<tr><td><strong>Linha cruzada</strong></td><td>Máxima cobertura</td><td>Faz a busca em linha e <strong>repete numa direção perpendicular</strong>. Mais completa, porém mais trabalhosa.</td></tr>
+<tr><td><strong>Quadrante</strong></td><td>Cena divisível</td><td>Divide em quadrantes (A, B, C, D) e busca cada um — podendo aplicar outra metodologia dentro de cada quadrante.</td></tr>
+</table>
+
+<div class="box box-red">
+<h4>⚠️ Pegadinha clássica</h4>
+<p><strong>Os vestígios NÃO devem ser coletados assim que encontrados.</strong> Devem ser <strong>marcados</strong>, para que possam ser <strong>descritos, fotografados e ter a posição anotada no croqui</strong>. Só depois vem a coleta.</p>
+</div>
+
+<h4>Premissas básicas da busca</h4>
+<ul class="clean">
+<li><strong>Só existe uma chance</strong> de processar o local de maneira adequada.</li>
+<li>Conduza a busca <strong>do geral para o específico</strong>.</li>
+<li>Busca <strong>cautelosa</strong> nas áreas visíveis, evitando perda ou contaminação.</li>
+<li>Busca <strong>vigorosa</strong> por áreas escondidas/dissimuladas.</li>
+<li>Um vestígio <strong>nunca pode ser demasiadamente documentado</strong>; o único limitante é o tempo.</li>
+</ul>
+
+<h4>Os 6 itens da reunião final</h4>
+<ol>
+<li>A documentação está devidamente preenchida?</li>
+<li>Todos os vestígios foram fotografados e posicionados no croqui?</li>
+<li>Os vestígios foram coletados adequadamente?</li>
+<li>As amostras controle necessárias foram coletadas?</li>
+<li>Os vestígios estão embalados e identificados adequadamente?</li>
+<li>Existem meios para transportar adequadamente os vestígios?</li>
+</ol>
+
+<h4>O que levar para o local</h4>
+<p><strong>EPI:</strong> luvas, máscara, touca, óculos de segurança, protetores para o calçado (pro-pé), jalecos descartáveis / tyvek.</p>
+<p><strong>Apoio, registro e documentação:</strong> GPS; fita de isolamento, cones, cavaletes; prancheta; fontes de energia/iluminação; papel branco e milimetrado; capa e guarda-chuva; formulários; lonas e plásticos; canetas; caixa de ferramentas e material de arrombamento; pincel atômico; marcadores de vestígio; giz branco e colorido; trenas eletrônicas e mecânicas; lanternas comuns e <strong>forenses</strong>; etiquetas autoadesivas; fita adesiva, tesoura, cola, régua, barbante; máquina fotográfica com cartão e baterias reservas; escalas métricas; filmadora; paquímetro; <strong>tripé</strong>; detector de metais; pen drive; balança portátil.</p>
+<p><strong>Coleta:</strong> pinças; lupa; embalagens diversas de papel e plásticas; caixas montáveis de papelão rígido; suabe e porta-suabe; lacres.</p>
+
+<h4>Divisão da equipe (4 funções)</h4>
+<ul class="clean">
+<li><strong>Chefe do local:</strong> cadeia de comando, dados do recebimento do local, formulário, descrição narrativa, busca preliminar, segurança, reuniões, liberação.</li>
+<li><strong>Fotógrafo:</strong> planejar, fotografar em close e contextualizado, preencher o controle fotográfico, garantir que tudo foi fotografado.</li>
+<li><strong>Croqui:</strong> tomar as medidas de posicionamento e documentar os vestígios no contexto.</li>
+<li><strong>Catalogador:</strong> descrever corretamente o encontrado e conferir com o fotógrafo.</li>
+</ul>
+
+<h2>3. Documentação: narrativa, croqui e fotografia</h2>
+
+<h3>3.1 Descrição narrativa</h3>
+<ul class="clean">
+<li>Pode ser <strong>escrita, gravada em áudio</strong> (gravador) ou <strong>gravada em áudio e vídeo</strong> (filmadora).</li>
+<li>Do <strong>geral para o específico</strong>. Em princípio, nenhum item é insignificante.</li>
+<li><strong>A melhor oportunidade e o melhor lugar para descrever tudo é na própria cena de crime.</strong> Quanto mais completa e organizada, mais fácil a redação e a conclusão do laudo.</li>
+</ul>
+
+<h3>3.2 Croqui</h3>
+<p><strong>Propósito:</strong> registrar a posição dos vestígios no local de modo a contextualizá-los para futuras referências. A escolha do método é do profissional.</p>
+
+<div class="box box-orange">
+<h4>"Foco especial na triangulação"</h4>
+<p>Foi a expressão dele. Dos quatro métodos, a triangulação é a que mandou dominar. Os três pontos cobrados de viva voz:</p>
+<ol>
+<li>Consiste em tirar a <strong>distância do vestígio a DOIS referenciais fixos</strong>.</li>
+<li>Os referenciais <strong class="dest">têm que ser PERENES</strong> (permanentes) — não serve um objeto que possa sair dali.</li>
+<li><strong>Objeto puntual</strong> (ex.: um estojo) → basta <strong>uma</strong> triangulação. <strong>Objeto grande</strong> (ex.: um carro) → <strong>duas</strong> triangulações, uma em cada extremidade, que fornecem posição <em>e</em> dimensão do vestígio.</li>
+</ol>
+</div>
+
+<table>
+<tr><th>Método</th><th>Princípio</th><th>Detalhes de prova</th></tr>
+<tr><td><strong>Triangulação</strong></td><td>Distância do vestígio a <strong>dois referenciais fixos</strong>.</td><td>Mais usado, pela simplicidade e precisão. <strong>Mínimo de duas pessoas</strong>. Limitante: escolher dois referenciais fixos <strong>permanentes</strong>.</td></tr>
+<tr><td><strong>Coordenadas cartesianas</strong></td><td>Medições como num plano cartesiano.</td><td>Prático em <strong>áreas fechadas</strong> — uma parede é o eixo x, a outra o eixo y.</td></tr>
+<tr><td><strong>Coordenadas polares</strong></td><td>Um referencial + ângulo.</td><td>Para <strong>áreas abertas</strong>, onde é difícil um segundo referencial. Pode-se criar referencial artificial (haste metálica enterrada, achável por detector de metais). Ângulo com bússola, geralmente a partir do <strong>Norte</strong>.</td></tr>
+<tr><td><strong>Linha base</strong></td><td>Duas trenas: uma é a linha base, a outra mede até ela.</td><td>Quando há <strong>concentração de vestígios numa mesma direção</strong>. Medidas sempre <strong>ortogonais</strong> à linha base.</td></tr>
+</table>
+
+<h3>3.3 Registro fotográfico do local</h3>
+<div class="box box-orange">
+<h4>Regra dos 3 registros por vestígio</h4>
+<ol>
+<li>Uma foto do vestígio <strong>contextualizado</strong> no local.</li>
+<li>Uma foto em <strong>close, SEM escala</strong> (para não ocultar vestígios menores ainda não percebidos).</li>
+<li>A mesma foto em close, agora <strong>COM escala</strong>.</li>
+</ol>
+</div>
+
+<ul class="clean">
+<li>Fotografar <strong>do geral para o específico</strong>: panorâmicas → distância média → objetos específicos → close.</li>
+<li>O vestígio é fotografado <strong>no local, antes da coleta</strong>.</li>
+<li>Fotos preferencialmente <strong>ao nível dos olhos</strong>, reproduzindo a perspectiva de quem adentra a cena.</li>
+<li><strong>Pegadas, impressões papilares e marcas de pneus: câmera em posição ORTOGONAL (perpendicular) ao suporte</strong>, para evitar distorções nas medidas.</li>
+<li>Registrar todos os <strong>acessos</strong> ao local e a área externa.</li>
+<li>Guardar em dossiê todas as fotografias <strong>sem edição</strong>.</li>
+</ul>
+
+<div class="box box-purple">
+<h4>Base legal da documentação — IT 20/2013 DITEC/PF</h4>
+<ul>
+<li><strong>Art. 11, § único:</strong> as condições de isolamento e preservação devem ser documentadas por fotografias e/ou filmagens. O perito supervisor deve <strong>relatar as alterações do estado das coisas</strong> e discutir suas consequências.</li>
+<li><strong>Art. 17:</strong> cadáveres sempre fotografados na posição em que forem encontrados.</li>
+<li><strong>Art. 20:</strong> vestígios fotografados no local <strong>antes</strong> da coleta.</li>
+<li><strong>Art. 21:</strong> os PCFs deverão produzir um <strong>memorial fotográfico</strong>. §1º — do <strong>geral para o específico</strong>. §2º — qualidade técnica adequada. §3º — o memorial deve respaldar as conclusões.</li>
+<li><strong>Art. 22:</strong> tantas fotografias quantas forem necessárias. §2º — destacar todos os <strong>acessos</strong> ao local e a área externa.</li>
+</ul>
+</div>
+
+<h2>4. Fotografia forense — o triângulo da exposição</h2>
+<p>Ele gastou o maior tempo da revisão aqui e resolveu o exercício duas vezes. <em>"Pode ter mais de uma questão."</em></p>
+
+<div class="box box-orange">
+<h4>Ele disse literalmente</h4>
+<p><strong>A tabelinha vai estar na prova.</strong> Você não precisa decorar os valores — precisa saber <strong>andar na tabela</strong>. <em>"Respira, aí começa a pensar: eu aumentei ou diminuí o tempo de exposição? Isso resulta em mais ou menos luz? Como compenso?"</em></p>
+</div>
+
+<h3>4.1 As três grandezas</h3>
+<ul class="clean">
+<li><strong>Abertura do diafragma</strong> (números f) — controla a <em>quantidade/intensidade</em> de luz que passa pela objetiva.</li>
+<li><strong>Tempo de exposição</strong> (obturador) — controla <em>por quanto tempo</em> o sensor fica exposto à luz.</li>
+<li><strong>ISO</strong> — sensibilidade do sensor.</li>
+</ul>
+<p>A exposição correta depende do <strong>equilíbrio entre os três</strong>: é o <strong>triângulo da exposição</strong>.</p>
+
+<h4>Escala do tempo de exposição — cada passo dobra ou reduz a luz pela metade</h4>
+<table class="escala">
+<tr><td>1/8</td><td class="hi">1/15</td><td>1/30</td><td>1/60</td><td class="hi">1/125</td><td>1/250</td><td>1/500</td><td>1/1000</td><td>1/2000</td></tr>
+</table>
+<div class="escala-legenda"><span>◀ MAIS luz (mais lento)</span><span>MENOS luz (mais rápido) ▶</span></div>
+
+<h4>Escala da abertura do diafragma — números f</h4>
+<table class="escala">
+<tr><td>f/1.4</td><td>f/2</td><td class="hi">f/2.8</td><td>f/4</td><td>f/5.6</td><td class="hi">f/8</td><td>f/11</td><td>f/16</td><td>f/22</td><td>f/32</td></tr>
+</table>
+<div class="escala-legenda"><span>◀ MAIS luz (mais aberto)</span><span>MENOS luz (mais fechado) ▶</span></div>
+
+<div class="mnemonic">
+<div class="mnemonic-title">⚡ A regra que resolve toda questão</div>
+<p>Nas escalas acima, esquerda = mais luz e direita = menos luz. Para manter a mesma luminosidade, <strong>ande o mesmo número de "cliques" na outra escala, na direção que devolve a luz</strong>.</p>
+<p>Formulação segura, sem risco de inverter: <strong>perdeu N passos de luz de um lado, ganhe N passos de luz do outro.</strong></p>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ Ele avisou no meio da resolução — não decore o lado</h4>
+<p>Ao procurar o exercício, ele reparou: <strong>"a tabela que está na apostila... é a apostila que está invertida? Mas a lógica é a mesma."</strong></p>
+<p>Ou seja: a tabela impressa na prova pode correr no <strong>sentido contrário</strong> ao das escalas acima. <strong class="dest">Nunca decore "esquerda = mais luz"</strong> — leia o sentido da tabela que vier e raciocine pelo saldo de luz.</p>
+</div>
+
+<p><strong>Por que o número f funciona ao contrário do que a intuição diz:</strong> f é uma fração. <strong>f/1.4</strong> é uma abertura <em>maior</em> que <strong>f/32</strong>, porque dividir por 1,4 dá um diâmetro maior do que dividir por 32. <strong>Quanto maior o número f, menor a abertura.</strong></p>
+
+<div class="resolvido">
+<div class="resolvido-topo">Exercício resolvido na revisão — o modelo da prova</div>
+<div class="resolvido-corpo">
+<p class="enunciado">"Considere o tempo de exposição de 1/15 e abertura do diafragma f/8. Consciente de que essa regulagem resultaria numa fotografia tremida, o perito optou por alterar o tempo de exposição para 1/125, mantendo o sensor ajustado (ISO mantido). Para que a fotografia mantenha a mesma intensidade luminosa, deverá ajustar a abertura do diafragma para…"</p>
+<ol>
+<li><strong>Aumentei ou diminuí o tempo de exposição?</strong> Diminuí — de 1/15 para 1/125 o obturador ficou aberto por muito menos tempo.</li>
+<li><strong>Isso dá mais ou menos luz?</strong> Menos luz.</li>
+<li><strong>Quantos cliques andei?</strong> 1/15 → 1/30 (1) → 1/60 (2) → 1/125 (3). <strong>Três cliques</strong> perdendo luz.</li>
+<li><strong>Como compenso?</strong> Preciso ganhar 3 cliques de luz no diafragma, ou seja, <strong>abrir</strong> o diafragma três posições.</li>
+<li><strong>Ando na tabela:</strong> f/8 → f/5.6 (1) → f/4 (2) → <strong>f/2.8</strong> (3).</li>
+</ol>
+<div class="gabarito">Resposta: f/2.8</div>
+</div>
+</div>
+
+<h4>Os três exercícios do slide (mesma mecânica)</h4>
+<table>
+<tr><th>#</th><th>Situação inicial</th><th>Alteração</th><th>Raciocínio</th><th>Resposta</th></tr>
+<tr><td><strong>1</strong></td><td>ISO 100 · 1/1000 · f/8</td><td>Tempo → 1/250</td><td>1/1000→1/500→1/250 = <strong>2 cliques a mais de luz</strong>. Compensar fechando 2.</td><td><strong>f/16</strong></td></tr>
+<tr><td><strong>2</strong></td><td>ISO 400 · 1/250 · f/11</td><td>Abertura → f/5,6</td><td>f/11→f/8→f/5.6 = <strong>2 cliques a mais de luz</strong>. Compensar acelerando 2.</td><td><strong>1/1000</strong></td></tr>
+<tr><td><strong>3</strong></td><td>ISO 400 · 1/250 · f/11</td><td>ISO → 200 <em>e</em> abertura → f/5,6</td><td>ISO 400→200 = <strong>−1</strong> de luz. Diafragma f/11→f/5.6 = <strong>+2</strong> de luz. Saldo <strong>+1</strong>. Compensar acelerando 1.</td><td><strong>1/500</strong></td></tr>
+</table>
+
+<div class="box box-orange">
+<p>Ele disse: <em>"Pode variar três, <strong>mas na prova só tem variação de dois fatores</strong>."</em> Ainda assim, saiba fazer com três (exercício 3 acima) — a escala do ISO também dobra: 100 · 200 · 400 · 800 · 1600 · 3200.</p>
+</div>
+
+<h3>4.2 Fotografia noturna / de baixa iluminação</h3>
+<div class="box box-orange">
+<h4>"Pra sua prova é isso que tá lá: o tripé"</h4>
+<ul>
+<li>Pouca luminosidade → <strong>alto tempo de exposição</strong> (obturador lento).</li>
+<li>Tempo de exposição alto → <strong>não dá para fazer na mão</strong>: exige <strong>estabilização, ou seja, TRIPÉ</strong>.</li>
+<li>Sem tripé, a foto sai <strong>borrada / tremida</strong>.</li>
+<li>Pode-se <strong>aumentar o ISO</strong> — mas <strong>cuidado com o ISO</strong>: valores muito elevados geram <strong class="dest">ruído</strong> (pequenos grãos ou pontos coloridos indesejados).</li>
+</ul>
+</div>
+
+<h4>Relações que fecham o assunto</h4>
+<ul class="clean">
+<li>Velocidade <strong>rápida</strong> "congela" a imagem; velocidade <strong>lenta</strong> borra o objeto em movimento.</li>
+<li><strong>Quanto menor a abertura (número f maior), maior a profundidade de campo</strong> (zona de nitidez) — e mais nítida a fotografia.</li>
+<li>ISO baixo (100–200) para ambientes claros; ISO alto (1600–3200) para pouca luz.</li>
+<li>Para fotografar com <strong>diafragma mais fechado + velocidade mais rápida + ISO menor</strong>, o ideal é ter <strong>luz abundante</strong>.</li>
+</ul>
+
+<h2>5. Vestígios químicos</h2>
+<p>Os quatro grupos: <strong>biológicos, físicos, químicos e microvestígios</strong>. O que mais cai nos químicos é o <strong>processo de coleta</strong>.</p>
+
+<div class="box box-orange">
+<h4>A regra do pH — cai na prova</h4>
+<ul>
+<li>Líquido: <strong>mede o pH primeiro</strong>.</li>
+<li><strong class="dest">pH ÁCIDO (ou neutro) → frasco de VIDRO</strong> (âmbar, boca estreita). <strong>Exceção: ácido fluorídrico</strong>, que não pode ir em vidro — vai em plástico.</li>
+<li><strong class="dest">pH BÁSICO → frasco de PLÁSTICO</strong> (polietileno, boca estreita). <strong>Sem exceção.</strong></li>
+<li><strong>Sólidos:</strong> frasco de plástico (polietileno) de <strong>boca larga</strong>. Aqui admite-se saco plástico bem vedado.</li>
+</ul>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ Onde ele avisou que a banca pega</h4>
+<p>pH básico exige <strong>FRASCO</strong> de plástico. <strong class="dest">Não é "saquinho de plástico".</strong> Boca larga ou estreita não interessa para o acerto da questão — o que não pode é deixar de ser frasco e deixar de ser plástico.</p>
+</div>
+
+<div class="box box-purple">
+<h4>Diferença que a banca adora contrapor</h4>
+<p>A embalagem de vestígio <strong>químico</strong> precisa estar <strong>limpa</strong>, mas <strong>não precisa ser estéril</strong>. Nos <strong>biológicos</strong>, limpa não basta: tem que ser <strong>estéril / nova</strong>.</p>
+</div>
+
+<h3>5.1 Amostragem (IT 006/2006 DITEC/PF)</h3>
+<p>Primeiro passo: <strong>agrupar o material recebido por semelhança física</strong>. Depois, para cada grupo de <em>n</em> unidades:</p>
+<table>
+<tr><th>Total de unidades do grupo</th><th>Quantas amostrar</th></tr>
+<tr><td><strong>n &lt; 10</strong></td><td><strong>Todas</strong> as unidades do grupo (uma amostra de cada).</td></tr>
+<tr><td><strong>10 ≤ n ≤ 100</strong></td><td><strong>10 unidades escolhidas aleatoriamente</strong>, uma amostra de cada.</td></tr>
+<tr><td><strong>n &gt; 100</strong></td><td><strong>√n unidades aleatórias</strong>, uma amostra de cada. Resultado <strong>arredondado para o inteiro superior mais próximo</strong>.</td></tr>
+</table>
+
+<h4>Casos especiais de amostragem</h4>
+<ul class="clean">
+<li><strong>Líquido em mistura heterogênea, em recipiente transparente:</strong> uma amostra <strong>de cada fase</strong>.</li>
+<li><strong>Líquido em recipiente que não permite visualização:</strong> amostra de <strong>pelo menos três pontos</strong> — superfície, meio e fundo.</li>
+<li><strong>Resíduos em suporte</strong> (balanças, vidrarias): encaminhar o <strong>suporte em sua totalidade</strong>. Se não for transportável, coletar resíduos suficientes para análise definitiva.</li>
+<li><strong>Quantidades mínimas:</strong> sólido 1–10 kg → <strong>100 g</strong>; líquido 1–10 L → <strong>200 mL</strong>; combustível → mínimo <strong>1 L por unidade</strong>.</li>
+</ul>
+
+<h2>6. Vestígios biológicos</h2>
+<p><em>"Não quero nenhum de vocês errando isso."</em> O ponto que ele marcou de vermelho no slide.</p>
+
+<h3>6.1 Quais são</h3>
+<p>Sangue · saliva · sêmen · urina · fezes · suor · cabelos e pelos · células epiteliais (descamativas) · <strong>tecidos moles</strong> — que são os órgãos: fígado, rins etc. Em resumo: <strong>tudo que vem do organismo vivo</strong>.</p>
+<ul class="clean">
+<li>Pode haver vestígio biológico em <strong>qualquer tipo de crime</strong> — inclusive em local de arrombamento.</li>
+<li>Importante para a <strong>materialidade</strong> e, <strong class="dest">mais ainda, para a AUTORIA</strong>.</li>
+<li>Permitem: identificação genética, <strong>vínculo genético</strong> e identificação de espécies.</li>
+</ul>
+
+<div class="box box-orange">
+<h4>O ponto vermelho do slide</h4>
+<p><strong class="dest">Mesmo que o vestígio esteja SECO, a embalagem precisa ser PERMEÁVEL AO AR</strong> (e opaca): envelopes, sacos e caixas de papel ou papelão.</p>
+<p><strong>Por quê:</strong> o ar contém água. Fechado num saco plástico lacrado, forma-se um efeito estufa / abafamento, e a bactéria degrada o material. Quando o vestígio seco vai dentro de um saco de lacre plástico, <strong>o saco deve ser furado</strong> para permitir o fluxo de ar, sem comprometer a segurança da embalagem.</p>
+</div>
+
+<div class="box box-orange">
+<h4>Limpa não basta</h4>
+<p>Para biológicos, os materiais devem ser sempre <strong>LIMPOS, NOVOS ou ESTÉREIS</strong>. A embalagem tem que ser <strong>estéril</strong> — não basta estar limpa, pelo risco de contaminação.</p>
+</div>
+
+<h3>6.2 Regra de ouro do acondicionamento</h3>
+<table>
+<tr><th>Condição</th><th>Embalagem</th><th>Armazenamento</th></tr>
+<tr><td><strong>Seco / secável</strong></td><td>Papel — permeável ao ar e <strong>opaca</strong></td><td>Temperatura ambiente, <strong>ao abrigo da luz</strong></td></tr>
+<tr><td><strong>Úmido / líquido</strong></td><td>Recipiente <strong>plástico estéril</strong> que não vaze</td><td><strong>Refrigerar</strong> no local (~4 °C) e <strong>congelar</strong> assim que possível</td></tr>
+<tr><td>Sangue em tubo com <strong>EDTA</strong></td><td>Tubo</td><td>Refrigerar a <strong>4 °C</strong></td></tr>
+<tr><td><strong>Tecidos moles</strong>, fluidos líquidos, cabelos e pelos</td><td>Embalagem plástica (retirar o ar)</td><td><strong>Congelar a −20 °C</strong>, evitando degelo</td></tr>
+<tr><td>Suabes</td><td>Porta-suabes</td><td>Local arejado, de preferência com ar-condicionado</td></tr>
+</table>
+
+<div class="mnemonic">
+<div class="mnemonic-title">⚡ Mnemônica dos slides</div>
+<p>Materiais limpos/novos/estéreis · proteger da <strong>LUZ</strong> · <strong>SECAR</strong> sempre que possível · quando não puder secar, <strong>REFRIGERAR ou CONGELAR</strong> — <strong class="dest">NÃO ABAFAR!</strong></p>
+<p>Vestígios úmidos devem ser completamente secos <strong>ao abrigo da luz e sem utilização de calor</strong>.</p>
+</div>
+
+<h3>6.3 Coleta com suabe — a coleta clássica</h3>
+<ul class="clean">
+<li><strong>Amostra úmida:</strong> basta umedecer o suabe <strong>na própria amostra</strong> e coletar.</li>
+<li><strong>Amostra seca:</strong> umedecer o suabe em <strong>água destilada estéril</strong> (ou soro fisiológico estéril), amolecer e friccionar sobre a mancha.</li>
+<li>Em ambos os casos, <strong>secar bem antes de acondicionar</strong> em embalagem de papel. <strong>Porta-suabes dispensam a secagem prévia</strong>.</li>
+<li>Água destilada, uma vez aberta, só pode ser usada <strong>no mesmo dia</strong>.</li>
+</ul>
+
+<h4>Os inimigos do DNA</h4>
+<p><strong>Calor · umidade · luz solar/UV · produtos químicos</strong> (ácidos e soluções de limpeza, como hipoclorito) · <strong>contaminação bacteriana e fúngica</strong>.</p>
+<p>Sobre o tempo: em condições adequadas de acondicionamento, <strong>o DNA se preserva por muito tempo</strong>; em condições inadequadas, <strong>cada minuto é crítico</strong>.</p>
+
+<div class="box box-red">
+<h4>⚠️ Alternativa capciosa</h4>
+<p><strong class="dest">Encontrar o DNA de uma pessoa numa cena de crime NÃO quer dizer que ela cometeu o crime.</strong> Depende do tipo de vestígio e da circunstância. O critério do perito é fundamental para estabelecer a relevância daquele vestígio.</p>
+<p>Ver o caso do <strong>"fantasma de Heilbronn"</strong>: um perfil genético feminino apareceu em ~40 cenas de crime em três países entre 1993 e 2009 — era <strong>contaminação na fábrica dos suabes</strong>.</p>
+</div>
+
+<p><strong>Perinecroscópico = perito de local. Necroscópico = médico legista</strong> (o perito pode acompanhar). Em cadáveres, buscar sempre os <strong>tecidos mais preservados</strong>.</p>
+
+<h2>7. Vestígios físicos e o estudo dos vidros</h2>
+<p><em>"O que não é biológico, não é químico e não é microvestígio, é físico."</em> Gama enorme: instrumentos, objetos e vestígios balísticos.</p>
+
+<div class="mnemonic">
+<div class="mnemonic-title">⚡ Regra de prioridade</div>
+<p><strong>1º lugar: segurança das pessoas. 2º lugar: segurança dos vestígios.</strong></p>
+</div>
+
+<h3>7.1 Armas de fogo e munição</h3>
+<ul class="clean">
+<li>Remover o carregador, <strong>desmuniciar</strong>, fazer o <strong>check de segurança</strong>. Em pistola: retirar o carregador, verificar se há cartucho na câmara, travar.</li>
+<li>Segurar pelo <strong>cabo</strong> (placas estriadas), para preservar impressões papilares.</li>
+<li><strong class="dest">O transporte é sempre com a arma DESMUNICIADA</strong> — nunca municiada/carregada, pelo risco de acidente com quem transporta.</li>
+<li>Havendo mais de uma arma, acondicionar <strong>cada uma separadamente</strong>.</li>
+<li>Acondicionar preferencialmente em <strong>caixa de papelão rígido</strong>, depois envelope de segurança com lacre e identificação.</li>
+</ul>
+
+<div class="box box-purple">
+<h4>Divergência — siga o professor</h4>
+<p><strong class="dest">Arma e munição vão embaladas SEPARADAMENTE.</strong> Ele reconheceu o conflito em voz alta: <em>"Eu sei que na apostila está lá que é junto, mas não vai ter essa questão do jeito que está lá."</em></p>
+<p>A apostila (Cap. 16) diz "acondicionar a arma e os referidos cartuchos em uma mesma embalagem". O slide admite as duas hipóteses. <strong>Marque SEPARADO.</strong></p>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ Ele perguntou e riu</h4>
+<p>"Alguém aqui vai transportar o projétil <strong>dentro do cano</strong> da arma?" — <strong class="dest">Na prova, não.</strong></p>
+</div>
+
+<h3>7.2 Projétil incrustado — o caso do escritório</h3>
+<div class="box box-orange">
+<ul>
+<li>Projétil alojado em parede, madeira ou qualquer sólido: <strong class="dest">trabalhar no SUPORTE</strong> — cortar, escavar e <strong>levar um pedaço do material junto com o projétil</strong>.</li>
+<li><strong>Nunca</strong> ir com chave de fenda, alicate ou pinça e puxar o projétil. Isso provoca ranhuras que <strong>inviabilizam o exame balístico</strong> e pode eliminar vestígio biológico.</li>
+<li><strong>Não remover os resíduos/incrustações</strong> aderidos ao projétil.</li>
+<li>Coletar o projétil <strong>com a mão enluvada ou saco plástico</strong> — não com pinça metálica. Trocar de luva entre coletas diferentes.</li>
+<li>Acondicionar <strong>individualmente</strong>, envolto em <strong>algodão</strong>, em <strong>envelope de papel</strong>; depois no saco de lacre. Nunca junto de outros objetos metálicos.</li>
+<li><em>"Vou destruir a casa? Sinto muito."</em> — a integridade do vestígio prevalece.</li>
+</ul>
+</div>
+
+<p><strong>Identificação e etiquetagem:</strong> evitar marcação ou inscrição <strong>no corpo do próprio vestígio</strong>. Fixar as etiquetas <strong>nos envelopes/recipientes</strong>. A etiqueta traz: nº do vestígio, tipo, local exato de coleta, nome do coletador e unidade.</p>
+
+<h3>7.3 Vidros</h3>
+<p>O estudo do padrão de rompimento permite determinar: o <strong>ponto de impacto</strong>; a <strong>direção da força</strong> do choque; a <strong>ordem dos impactos</strong>; e <strong>confrontar versões</strong> sobre o ocorrido.</p>
+
+<div class="box box-orange">
+<h4>As três respostas que ele cobrou na hora</h4>
+<ul>
+<li><strong>Cone de transfixação:</strong> a <strong class="dest">BASE do cone fica na superfície OPOSTA à que recebeu o choque</strong> — ou seja, <strong>na SAÍDA</strong>, onde há maior perda de massa.</li>
+<li><strong>Rupturas radiais:</strong> começam a se formar no <strong class="dest">LADO OPOSTO</strong> ao do impacto, porque essa face fica submetida a <strong>maior estado de tensão</strong>. Partem do ponto de impacto em linhas retas ou sinuosas.</li>
+<li><strong>Rupturas concêntricas (espirais):</strong> formam-se <strong>depois</strong> das radiais e iniciam <strong class="dest">do lado do impacto</strong> ("o lado da pancada"). Curva que dá voltas em torno do ponto de impacto, em forma de caracol. <strong>Frequentes em vidros laminados</strong>, mais flexíveis que os comuns.</li>
+</ul>
+</div>
+
+<h4>Mecanismos, na ordem</h4>
+<ol>
+<li><strong>Radiais:</strong> (1) choque no vidro; (2) o movimento agrupa as moléculas do lado do choque e as separa no lado oposto; (3) ultrapassado o limite elástico, formam-se as rupturas radiais.</li>
+<li><strong>Espirais:</strong> (1) logo após o impacto surgem as radiais, dividindo o vidro em triângulos/setores; (2) esses triângulos são empurrados no <strong>mesmo sentido do deslocamento do objeto</strong>; (3) com a continuidade da força, formam-se as espirais <strong>entre duas radiais previamente formadas</strong>.</li>
+</ol>
+
+<div class="box box-orange">
+<h4>Ordem dos disparos — a questão da figura colorida</h4>
+<p><strong class="dest">As rupturas radiais do segundo impacto PARAM (são interrompidas) nas radiais do primeiro.</strong></p>
+<p>Na figura que ele mostrou: o <strong>vermelho foi o primeiro</strong> (as radiais do amarelo e do azul param nele); o <strong>amarelo foi o segundo</strong> (as do azul param nele); o azul foi o terceiro.</p>
+<p><strong>Quem "para" é o mais novo; quem "barra" é o mais antigo.</strong></p>
+</div>
+
+<h2>8. Microvestígios e o ajuste físico</h2>
+<p><em>"Bem fácil essa frase, né? Deu pra gravar."</em> O fundamento científico do ajuste físico é o ponto certo desta aula.</p>
+
+<h3>8.1 Conceito</h3>
+<p>Microvestígios são <strong>vestígios físicos</strong>, geralmente de <strong>difícil visualização sem equipamentos especializados</strong>, devido ao seu pequeno tamanho ou quantidade. O termo <strong>não depende de uma medida física absoluta</strong>, mas da <strong>dificuldade de percepção e análise no contexto</strong> em que aparece.</p>
+<p><strong>Por que analisá-los:</strong> persistência e transferência · geolocalização e reconstrução · identificação e individualização. A <strong>invisibilidade aparente</strong> aumenta a chance de <strong>não serem alterados ou destruídos intencionalmente</strong>. Premissa geral: <em>todo contato deixa marcas</em>.</p>
+
+<div class="box box-orange">
+<h4>A frase que ele mandou gravar</h4>
+<p><strong>Qual o fundamento científico do exame de ajuste físico?</strong></p>
+<p>A premissa de que <strong class="dest">eventos de separação — quebras, cortes, rasgos — NÃO são reproduzíveis</strong>, no todo ou em parte, devido à <strong>combinação de forças aplicadas</strong>, às características de construção e às propriedades do material, o que lhes confere <strong>características INDIVIDUAIS</strong>.</p>
+<p>Ou seja: cada rasgo, cada interação gera <strong>marcas únicas, não reprodutíveis</strong>, que permitem afirmar que dois itens <strong>já foram um só</strong>. Não importa se a fábrica produziu tudo igual — o que individualiza é o <strong>evento de separação</strong>.</p>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ Pegadinha de negativa</h4>
+<p><strong class="dest">A ausência de um ajuste físico NÃO implica que os itens comparados tenham se originado de fontes diferentes.</strong> Da mesma forma, a <strong>ausência de detalhes de borda ou a perda de material nem sempre descarta</strong> a possibilidade de um ajuste físico.</p>
+</div>
+
+<p><strong>Ajuste positivo:</strong> as amostras compartilham características macro e microscópicas <strong>individuais</strong> entre as bordas e superfícies alinhadas, <strong>incluindo a seção transversal</strong>, realinhando-se de uma maneira que <strong>não se espera que seja replicada</strong>.</p>
+<div class="citacao">Exemplo do professor: pedaço de camisa de couro sintético deixado num hotel; busca e apreensão localizou a camisa faltando exatamente aquele pedaço, com marcas que se sobrepõem — peça-chave para a autoria.</div>
+
+<h3>8.2 Coleta de microvestígios</h3>
+<ul class="clean">
+<li><strong>Documentar primeiro:</strong> condição inicial do item, local exato de coleta, condição do vestígio antes da coleta, técnica usada e condição do item depois.</li>
+<li><strong>Se for fácil, colete o item inteiro</strong> — é preferível. É mais fácil retirar o vestígio no laboratório do que na cena.</li>
+<li><strong>Pinças</strong> (plásticas ou metálicas) para material particulado — sem excesso de pressão; trocar de luvas entre itens.</li>
+<li><strong>Fita adesiva / levantadores de gelatina</strong> — não usar em tinta ou polímeros (o adesivo lixivia e altera a química); não usar em vestígios úmidos ou biológicos.</li>
+<li><strong>Raspagem</strong> (espátula para material solto; bisturi para aderido) e <strong>recorte</strong> da área de interesse.</li>
+<li><strong>Varredura a vácuo</strong> (aspirador com filtro novo): usar <strong>por último</strong>, pois é indiscriminado. Indicado para fendas profundas, áreas grandes ou quando já se passou muito tempo.</li>
+<li><strong>Fita × aspirador:</strong> fita = detritos superficiais, menos tempo de análise, cena processada logo após o fato. Aspirador = detritos superficiais <strong>e profundos</strong>, local processado meses depois, áreas de difícil acesso.</li>
+<li><strong>Coleta de brancos:</strong> além da amostra questionada e da amostra padrão, coletar amostra do <strong>suporte usado para coletar</strong>.</li>
+<li><strong>Iluminação oblíqua</strong> ajuda a visualizar partículas de superfície (cabelos, vidro, glitter); fundos coloridos contrastantes auxiliam a coleta.</li>
+<li><strong>Busca no corpo:</strong> se feita, deve ocorrer <strong>antes da autópsia</strong>; ideal na cena, mas pode ser no necrotério.</li>
+<li><strong>Acondicionamento:</strong> embalagem <strong>primária</strong> (contato direto) dentro de <strong>embalagem de segurança</strong>. Itens molhados são secos ao ar, sem calor nem sol; recipientes primários de papel e <strong>saco de lacre furado</strong>. Exceção: itens a examinar por <strong>líquidos inflamáveis ou alvejante NÃO são secos</strong>.</li>
+</ul>
+
+<h2>9. Local com disparo de arma de fogo</h2>
+<p>Primeiro local especial estudado. Aqui entra a matemática.</p>
+
+<div class="box box-orange">
+<h4>Ele foi explícito sobre a matemática</h4>
+<p><strong class="dest">Não tem cosseno, não tem tangente.</strong> O que cai é <strong>semelhança de triângulos</strong> (e, para manchas de sangue, o <strong>seno</strong>). <em>"Traça o triângulo."</em></p>
+</div>
+
+<div class="resolvido">
+<div class="resolvido-topo">A questão do muro — refeita na revisão, com o gabarito</div>
+<div class="resolvido-corpo">
+<p class="enunciado">"Em um local de crime foi encontrado um orifício de projétil de arma de fogo, bem preservado, em um piso de madeira, rente ao chão. O orifício encontrava-se a <strong>20 m</strong> de distância de um muro de <strong>3 m</strong> de altura, que <strong>não apresentava orifícios</strong>. A <strong>450 m</strong> além desse muro havia um prédio de <strong>100 m</strong>. Considerando que a trajetória passou por cima do muro e que a trajetória do projétil é retilínea (desconsiderando a gravidade), é possível que o disparo tenha partido do prédio? Em caso positivo, de que altura?"</p>
+<ol>
+<li><strong>Desenhe.</strong> Marque o orifício no piso (vértice comum dos dois triângulos), depois o muro, depois o prédio. É o passo que ele mais insistiu.</li>
+<li><strong>Triângulo menor:</strong> base <strong>b</strong> = distância do orifício ao muro = <strong>20 m</strong>; altura <strong>h</strong> = altura do muro = <strong>3 m</strong>.</li>
+<li><strong>Triângulo maior:</strong> base <strong>B</strong> = do orifício até o prédio = <strong>20 + 450 = 470 m</strong>; altura <strong>H</strong> = a incógnita.</li>
+<li><strong>Semelhança:</strong> H / h = B / b → H / 3 = 470 / 20.</li>
+<li><strong>Resolva:</strong> H = 3 × 470 / 20 = 3 × 23,5 → <strong>H = 70,5 m</strong>.</li>
+<li><strong>Responda o que foi perguntado:</strong> 70,5 m é <strong>menor</strong> que os 100 m do prédio, logo <strong>é compatível — o disparo pode ter partido do prédio</strong>, à altura de 70,5 m (não do topo).</li>
+</ol>
+<div class="gabarito">Resposta: H = 70,5 m — sim, é possível.</div>
+</div>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ Os dois erros que derrubam a questão</h4>
+<ul>
+<li><strong class="dest">Usar B = 450 em vez de 470.</strong> Os dois triângulos partem do <strong>mesmo vértice</strong> (o orifício), então a base do triângulo maior é a distância <em>total</em>: orifício→muro <strong>mais</strong> muro→prédio.</li>
+<li><strong class="dest">Jogar a altura do prédio na conta.</strong> No primeiro momento a altura do prédio <strong>não entra</strong> — ela só serve depois, para verificar se o H encontrado cabe ali.</li>
+</ul>
+<p>Variação anunciada: no lugar do prédio pode aparecer <strong>torre, barranco ou muro</strong>. A conta é a mesma; muda só a checagem de compatibilidade no final.</p>
+</div>
+
+<h2>10. Local de morte violenta e o exame perinecroscópico</h2>
+<p><em>"Qual o principal vestígio? O corpo. A ação se concentra especificamente no cadáver."</em></p>
+
+<div class="box box-orange">
+<h4>As três etapas — nesta ordem</h4>
+<ol>
+<li><strong>Exame VISUAL do cadáver</strong> — só observação, sem tocar.</li>
+<li><strong>Exame das VESTES</strong> — como estão dispostas na vítima.</li>
+<li><strong>Exame do CADÁVER sem vestes.</strong></li>
+</ol>
+</div>
+
+<table>
+<tr><th>Etapa</th><th>O que se descreve</th></tr>
+<tr><td><strong>1ª — Visual</strong></td><td>Todas as características físicas: <strong>cor da pele, comprimento e cor dos cabelos, compleição física, sexo, altura, fase cronológica</strong> (criança, jovem, adulto, idoso). Também a <strong>posição</strong> (decúbito, apoio da cabeça, disposição dos membros) e a relação com os objetos do local.</td></tr>
+<tr><td><strong>2ª — Vestes</strong></td><td>Forma de acomodação geral das vestes · presença de <strong>orifícios ou perfurações</strong> · presença de <strong>manchas</strong>, caracterizando <strong>forma e cor</strong> · outros vestígios (físicos, químicos, biológicos): fragmentos de vidro, fibras, pelos, pós · <strong>descrição completa do conteúdo dos bolsos</strong>.</td></tr>
+<tr><td><strong>3ª — Cadáver</strong></td><td>Exame externo de <strong>todas as regiões anatômicas</strong>: cabeça · pescoço · tórax · <strong>membros superiores (atenção especial às mãos)</strong> · membros inferiores · abdômen · dorso · órgãos genitais. Descrever <strong>todas as lesões</strong>: classificação, dimensões e localização.</td></tr>
+</table>
+
+<div class="box box-red">
+<h4>⚠️ Ele perguntou de propósito</h4>
+<p>"Posso dizer que a <strong>principal função</strong> do exame perinecroscópico é levantar impressões digitais?" — <strong class="dest">NÃO.</strong></p>
+<p>O levantamento de impressões digitais e de características da face <strong>faz parte</strong>, mas a função principal é a <strong>caracterização completa</strong>: buscar a <strong>causa da morte</strong> e a <strong>dinâmica</strong> dos fatos. Vai muito além da simples identificação do cadáver.</p>
+</div>
+
+<div class="box box-orange">
+<h4>Onde e por quem</h4>
+<ul>
+<li><strong class="dest">Perinecroscópico → NO LOCAL, pelo PERITO CRIMINAL</strong> (exame externo do cadáver no local).</li>
+<li><strong class="dest">Necroscópico → no IML, pelo MÉDICO LEGISTA</strong> (o perito pode acompanhar).</li>
+<li><strong>Por que no local?</strong> Para <strong>preservar os vestígios</strong> e, sobretudo, para <strong>relacionar o corpo com os demais vestígios do local</strong> — lesões × instrumento presente na cena, manchas de sangue, posição.</li>
+</ul>
+</div>
+
+<p><strong>Consequência prática que ele destacou:</strong> analisando o corpo em conjunto com os demais vestígios, é possível dizer <strong>se o indivíduo foi morto ali ou não</strong> — a incompatibilidade entre as manchas de sangue (ou a ausência delas) e as lesões indica que a vítima foi morta em outro lugar e ali <strong>desovada</strong>. Os <strong>livores cadavéricos</strong> incompatíveis com a posição do corpo apontam no mesmo sentido.</p>
+
+<p><strong>Base legal (art. 164 CPP e art. 17 da IT 20/2013):</strong> os cadáveres serão <strong>sempre fotografados na posição em que forem encontrados</strong>, bem como todas as lesões externas e vestígios deixados no local.</p>
+
+<p><strong>O corpo com as vestes é examinado primeiro</strong>, justamente para não descaracterizar escorrimentos e outras manchas de sangue. Em manchas ainda líquidas, o registro deve ser feito <strong>antes de movimentar o corpo</strong>.</p>
+
+<h4>Outros vestígios buscados no cadáver</h4>
+<p><strong>Sinais de violência</strong> (toda e qualquer lesão, mesmo simples — ex.: marcas nos punhos por instrumento constritor) · <strong>sinais de luta</strong> (contato entre vítima e agressor) · <strong>reação de defesa</strong> · vestígios intrínsecos (sangue, sêmen, vísceras, vômito, saliva, fezes) · material sob as <strong>unhas</strong>, mãos e órgãos genitais · marcas de anéis, alianças, brincos e relógios <strong>retirados</strong> da vítima.</p>
+
+<h2>11. Local com manchas de sangue</h2>
+<p><em>"Se você não souber identificar e classificar, você vai morrer na praia — não vai saber fazer a dinâmica."</em></p>
+
+<div class="box box-orange">
+<h4>Formato da questão</h4>
+<p><strong>Pode ter foto na prova</strong>, pode ter descrição por texto, pode ter tudo. Na prova de computador dá para <strong>dar zoom</strong> e analisar a foto de perto — e <strong>as fotos são coloridas</strong>, o que ajuda mais do que no papel.</p>
+</div>
+
+<p><strong>Pelo estudo da morfologia é possível inferir:</strong> posição da vítima e do agressor · movimentação realizada no local após o ferimento · intensidade do traumatismo · movimentos executados durante o golpe.</p>
+<p><strong>O que cada característica revela:</strong> a <strong>cor</strong> → a data/idade da mancha (lise celular, oxidação do heme); a <strong>forma</strong> → a dinâmica; a <strong>dimensão</strong> → a intensidade das lesões.</p>
+
+<h3>11.1 Manchas regulares — pelo mecanismo de formação</h3>
+<table>
+<tr><th>Tipo</th><th>Mecanismo</th><th>Aparência</th></tr>
+<tr><td><strong>Gotejadas</strong></td><td>Gotas geradas de forma isolada ou em sequência independente, <strong class="dest">unicamente pela ação da GRAVIDADE</strong>. Ex.: corte no dedo, sangue pingando.</td><td>Formato <strong>circular</strong> (queda perpendicular) ou <strong>elíptico</strong>, a depender do <strong>ângulo de impacto</strong> e da <strong>superfície</strong>. Variam também com a altura de queda e o movimento.</td></tr>
+<tr><td><strong>Arterial</strong></td><td>Corte de artéria. Além da gravidade, atua o <strong>bombeamento cardíaco</strong> — a alternância <strong>sístole/diástole</strong> projeta o sangue em alto volume com <strong>variação de intensidade da força</strong>.</td><td>Manchas <strong>elípticas</strong>, em conjunto com um <strong>escorrimento característico</strong>. Padrão muito distintivo.</td></tr>
+<tr><td><strong>Cast-off</strong><br>(espargimento de dissociação)</td><td>Sangue que se <strong>desprende de um instrumento em movimento</strong> — ou por uma <strong>parada repentina</strong> do movimento. Ex.: faca, machado.</td><td><strong>Sequência de manchas em LINHA</strong>: <strong class="dest">começa circular e termina elíptica</strong>.</td></tr>
+<tr><td><strong>Impactadas</strong></td><td>Algum <strong>impacto sobre uma fonte de sangue</strong> — muito sangue jorra de uma vez. Ex.: martelada na cabeça, disparo de arma de fogo.</td><td>Conjunto de manchas circulares/elípticas com <strong>formato RADIAL a partir da origem</strong>.</td></tr>
+</table>
+
+<h3>11.2 Manchas alteradas — por ação humana ou ambiental</h3>
+<ul class="clean">
+<li><strong>Por contato</strong> — a principal alteração. A mancha já estava formada e alguém <strong>pisa ou passa a mão</strong> nela.</li>
+<li><strong>Por contato e TRANSFERIDA</strong> — quando, pela mancha, é possível <strong>identificar o objeto</strong> que causou a transferência (a forma da mão, do solado, do instrumento). <em>Se reproduz a forma do objeto, é transferida; se apenas borrou, é só alterada por contato.</em></li>
+<li><strong>Por diluição</strong> — água alterou a mancha. Ex.: choveu pouco antes de a polícia chegar.</li>
+<li><strong>Sombra</strong> — não é causada pelo sangue, mas pela <strong class="dest">AUSÊNCIA</strong> dele: um objeto estava no local, <strong>impediu a continuidade do padrão</strong> e foi removido depois.</li>
+</ul>
+
+<h3>11.3 Manchas por acúmulo</h3>
+<ul class="clean">
+<li><strong>Sangue sobre sangue</strong> — já havia uma mancha e caiu outra por cima.</li>
+<li><strong>Poça</strong> — cai muito sangue e se acumula.</li>
+<li><strong>Saturação</strong> — sempre que há <strong>absorção pela superfície</strong>. Casos mais comuns: <strong>colchão e panos grossos</strong>.</li>
+<li><strong>Escorrimento</strong> — o sangue percorre a superfície a partir da área de lesão <strong>seguindo a ação da gravidade</strong>.</li>
+</ul>
+
+<div class="box box-orange">
+<h4>A regra da energia — ele repetiu duas vezes</h4>
+<p><strong class="dest">Maior energia → maior ATOMIZAÇÃO → MENORES os diâmetros das manchas resultantes.</strong></p>
+<p>Atomizar significa dividir em partículas menores. Ao comparar duas fotos de impactadas por disparo de arma de fogo, <strong>a que tem gotículas minúsculas, com aspecto de spray, é a de MAIOR energia</strong>. A que tem manchas pequenas, porém visivelmente maiores, é a de menor energia.</p>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ Cuidado no enunciado</h4>
+<p>Uma mesma foto pode ter <strong>mais de uma classificação simultânea</strong>. Ele mostrou uma impactada que também tinha <strong>alteração por contato</strong>; e uma cena onde, ao remover a rede, apareceria uma <strong>sombra</strong>. Leia se a questão pede "a" classificação ou "as" classificações.</p>
+</div>
+
+<h2>12. Locais de crime contra o patrimônio</h2>
+<p>Furto, roubo e dano. <em>"Tem que saber as características do local e os vestígios gerados."</em></p>
+
+<table>
+<tr><th>Crime</th><th>Tipo penal</th><th>Núcleo</th></tr>
+<tr><td><strong>Furto</strong></td><td>Art. 155 CP — reclusão 1 a 6 anos e multa</td><td><strong>Subtrair</strong>, para si ou para outrem, <strong>coisa alheia móvel</strong>. Pena aumentada de metade no <strong>repouso noturno</strong>. Equipara-se a coisa móvel a <strong>energia elétrica</strong>. <em>Não existe furto culposo.</em></td></tr>
+<tr><td><strong>Furto qualificado</strong></td><td>§4º — reclusão 2 a 8 anos</td><td><strong>I</strong> destruição ou <strong>rompimento de obstáculo</strong>; <strong>II</strong> abuso de confiança, fraude, <strong>escalada</strong> ou destreza; <strong>III</strong> <strong>chave falsa</strong>; <strong>IV</strong> concurso de 2 ou mais pessoas; <strong>V</strong> bens que comprometam órgãos públicos ou serviços essenciais. <strong>§4º-A</strong> com <strong>explosivo</strong>: 4 a 10 anos. <strong>§5º</strong> veículo automotor transportado para outro Estado/exterior: 4 a 10 anos.</td></tr>
+<tr><td><strong>Roubo</strong></td><td>Art. 157 CP — reclusão 6 a 10 anos</td><td>Subtrair mediante <strong>grave ameaça ou violência à pessoa</strong>, ou depois de reduzi-la à impossibilidade de resistência. Aumento de 1/3 a metade (concurso, transporte de valores, restrição de liberdade, <strong>arma branca</strong>, fios/cabos, celular/computador, arma de fogo). <strong>§2º-A</strong> aumento de 2/3 com <strong>arma de fogo</strong> ou explosivo; <strong>§2º-B</strong> pena em dobro com arma de <strong>uso restrito ou proibido</strong>.</td></tr>
+<tr><td><strong>Roubo qualificado</strong></td><td>§3º</td><td><strong>I</strong> lesão corporal grave: 7 a 18 anos; <strong>II</strong> morte (latrocínio): <strong>24 a 30 anos</strong>.</td></tr>
+<tr><td><strong>Dano</strong></td><td>Art. 163 CP — detenção 1 a 6 meses ou multa</td><td><strong>Destruir, inutilizar ou deteriorar</strong> coisa alheia. Qualificado (6 meses a 3 anos + multa) se: violência/grave ameaça; substância <strong>inflamável ou explosiva</strong>; contra patrimônio público; motivo egoístico ou prejuízo considerável.</td></tr>
+</table>
+
+<div class="box box-orange">
+<h4>Contraste que cai</h4>
+<p><strong class="dest">Roubo (assalto) = ESCASSEZ de vestígios materiais</strong>, porque a ação é rápida e dinâmica. <strong class="dest">Furto (arrombamento) = quantidade SIGNIFICATIVA de vestígios</strong>, porque houve acesso forçado, circulação dos infratores e subtração de objetos.</p>
+</div>
+
+<h4>Vestígios em local de ROUBO</h4>
+<p>Impressões papilares · objetos abandonados pelos infratores · <strong>cordas para contenção das vítimas</strong> · vestígios biológicos (suor e saliva) · projéteis e estojos deflagrados · registros de <strong>CFTV</strong> e videomonitoramento urbano · câmeras de edificações vizinhas.</p>
+
+<h4>Vestígios em local de FURTO / ARROMBAMENTO</h4>
+<p>Impressões papilares · <strong>marcas de arrombamento</strong> em portas, janelas, fechaduras, cadeados e telhados · <strong>ferramentas e suas marcas</strong> (pé-de-cabra, chave de fenda, alicate, marreta, maçarico) · fragmentos de vidro · <strong>pegadas e marcas de pneus</strong> · vestígios biológicos (suor, sangue, saliva, urina, fezes) · objetos abandonados · <strong>marcas de escalada</strong> em muros e paredes · sinais de movimentação/remoção de objetos · <strong>áreas com diferença de poeira ou limpeza</strong> compatíveis com a retirada de bens · restos de alimentos e embalagens · imagens de CFTV.</p>
+
+<h4>Vestígios em local de DANO</h4>
+<p>Pichações e grafismos · quebra de vidraças, mobiliário e equipamentos · móveis destruídos propositalmente · impressões papilares · pegadas · vestígios biológicos · marcas de ferramenta · objetos abandonados · câmeras.</p>
+<p>No dano, o exame deve estabelecer: <strong>o mecanismo de produção do dano · a intensidade da ação · o instrumento possivelmente utilizado · a extensão dos prejuízos · a compatibilidade entre os vestígios e a dinâmica apresentada</strong>.</p>
+
+<h4>Marcas de ferramentas</h4>
+<ul class="clean">
+<li><strong>Tipos:</strong> compressão · cisalhamento · impacto · repetição.</li>
+<li><strong>Registro:</strong> reconhecimento · medições · fotografia · <strong>moldagem</strong>.</li>
+<li><strong>Valor probatório:</strong> indica o rompimento de obstáculo, pode indicar o <strong>tipo</strong> de ferramenta ou até <strong>individualizar</strong> a ferramenta usada.</li>
+</ul>
+
+<h4>Marcas de solados (pegadas)</h4>
+<ul class="clean">
+<li><strong>Tipos:</strong> por impressão · por depósito · por desenho.</li>
+<li><strong>Valor:</strong> pode incriminar <em>ou eliminar</em> um suspeito; informa marca do calçado e conformação da pisada; determina o <strong>número de participantes</strong>; posiciona um elemento no local; ajuda na <strong>dinâmica</strong>.</li>
+<li><strong class="dest">Pegadas fora do solo podem indicar ESCALADA.</strong></li>
+</ul>
+
+<div class="box box-orange">
+<h4>Detalhe fino de arrombamento</h4>
+<p><strong>Ambiente em completa desordem</strong> pode indicar que houve <strong>busca exaustiva</strong> pelo bem. <strong>Ambiente excessivamente organizado</strong> após um furto pode indicar <strong>conhecimento prévio</strong> do ambiente ou da localização do bem. Isso deve ser consignado em laudo.</p>
+</div>
+
+<h4>CFTV</h4>
+<p><strong class="dest">Antes de iniciar a busca por vestígios, cheque o CFTV.</strong> Verificar: existência de câmeras, ângulos de cobertura, funcionamento e unidade de gravação. E <strong>conferir a sincronização temporal do relógio do DVR/NVR</strong> — sem isso não há confiabilidade cronológica. As imagens revelam dinâmica, horário, quantidade de envolvidos, rotas de ingresso e evasão e <strong>quais objetos foram tocados</strong> (direcionando a busca de DNA e papilares).</p>
+
+<h2>13. Reprodução simulada</h2>
+<p>Último tópico da revisão. A pergunta certa é sempre sobre a <strong>natureza da prova</strong>.</p>
+
+<div class="box box-orange">
+<h4>A pergunta que ele fez e a resposta</h4>
+<p><strong>A reprodução simulada é uma prova pericial PURA? <span class="dest">NÃO.</span></strong></p>
+<p>Porque trabalha com <strong>elementos SUBJETIVOS</strong> — as versões narradas pelos envolvidos. A perícia pura se baseia apenas em vestígios objetivos.</p>
+</div>
+
+<div class="box box-orange">
+<h4>Quem apresenta versão — ele foi eliminando um a um</h4>
+<p><strong class="dest">VÍTIMA · ACUSADO (suspeito) · TESTEMUNHA.</strong> Só esses três.</p>
+<p>As perguntas de descarte que ele fez em sequência: <strong>"Tem versão do perito? NÃO. Tem versão de juízes? NÃO."</strong> A razão é conceitual — só entram os <strong>atores da infração</strong>. Perito, juiz e policiais não são atores da infração, logo não apresentam versão.</p>
+</div>
+
+<p><strong>Conceito:</strong> são os procedimentos adotados para esclarecer <strong>se a infração penal ocorrera de determinado modo</strong>, utilizando-se das descrições <em>in loco</em> dos atores da infração, <strong>analisando-as e comparando-as entre si e com os vestígios materiais</strong> deixados, objetivando saber da <strong>coerência, ou não, das versões</strong>.</p>
+
+<p><strong>Objetivo central:</strong> informações subjetivas (versões) <strong>×</strong> confronto com os vestígios do local periciado. <strong>Objetivos a alcançar:</strong> materialidade, dinâmica e autoria.</p>
+
+<p><strong>Por que no local?</strong> Para <strong>TESTAR</strong>. A história é revivida no lugar onde ocorreu e os elementos narrados são testados contra a realidade física. <strong>Objetivo secundário:</strong> serve como alternativa quando <strong>não houve exame pericial no local do crime</strong> à época.</p>
+
+<h4>Atribuições da equipe de peritos (4 funções)</h4>
+<ol>
+<li>Questiona e acompanha os depoimentos.</li>
+<li>Opera as fotografias.</li>
+<li>Anotações, desenhos e medições.</li>
+<li>Filmagem em vídeo, se houver.</li>
+</ol>
+
+<div class="box box-orange">
+<h4>O caso da versão que muda no dia — ele desenvolveu isso longamente</h4>
+<p>Pergunta dele: <em>"a pessoa pode alterar, no local, a versão que deu no inquérito? Pode ou não pode?"</em> — <strong class="dest">PODE.</strong> Não se pode obrigá-la a manter a versão do IPL.</p>
+<p><strong>E o que o perito faz nesse momento?</strong> <em>"Anota, testa, continua."</em> Escreve, relata e <strong>segue a reprodução com a versão que a pessoa apresentar naquele momento</strong> — batendo ou não com o inquérito, o procedimento continua. Nas palavras dele: <em>"já mudou, mudou; segue o jogo."</em></p>
+</div>
+
+<div class="box box-red">
+<h4>⚠️ A pegadinha mais fina desta seção</h4>
+<p><strong class="dest">No local, a perícia NÃO diz se a versão é verdade ou mentira.</strong> Ele foi taxativo: <em>"não é no local que você vai ver isso"</em>. A valoração vem depois, na <strong>análise e no confronto posteriores</strong>, já no laudo.</p>
+<p>O perito pode, sim, <strong>pedir confirmação</strong> durante o ato ("é isso mesmo que está no seu depoimento?"), mas não emite juízo de veracidade ali.</p>
+</div>
+
+<div class="box box-orange">
+<h4>Credibilidade</h4>
+<p>Quando a pessoa se mostra <strong>inconstante</strong> (falou uma coisa um dia e outra depois), isso <strong>afeta a credibilidade da versão</strong> e <strong>deve ser consignado</strong>. As divergências entre as próprias versões de um mesmo depoente são material de análise, não algo a ignorar.</p>
+</div>
+
+<p><strong>Resultado final:</strong> proceder às análises e confrontos das versões entre si · confrontar as versões com os vestígios · interpretar o conjunto · <strong>descrever com clareza e objetividade no laudo</strong>, apontando <strong>convergências e divergências</strong> em relação ao laudo pericial anterior e <strong>dizendo qual versão era viável</strong>.</p>
+
+<div class="citacao">"O depoimento escrito é um cadáver mumificado, em que tudo aquilo que podia subsistir de útil e de sincero desapareceu definitivamente." — Edmond Locard, 1934</div>
+
+<h2>14. Estrutura do laudo pericial</h2>
+<p><em>"A perícia de local termina com a elaboração do laudo de local."</em></p>
+
+<div class="box box-orange">
+<h4>Como ele formulou a pergunta</h4>
+<p><strong>"Quais itens ou tópicos fazem parte do laudo?"</strong> — e foi listando: <em>preâmbulo, objeto, objetivo, exame (descrição, metodologia), dinâmica, considerações técnicas, conclusão</em>. Depois separou: <strong>"quais desses, pelas portarias internas da DITEC, são OBRIGATÓRIOS?"</strong></p>
+<p>E a frase que define a cobrança: <strong class="dest">"Você tem que saber tudo o que tem que ter em cada uma dessas partes."</strong> Não basta listar os tópicos — tem que saber o conteúdo de cada um.</p>
+</div>
+
+<div class="box box-orange">
+<h4>Obrigatórios × facultativos — Portaria DITEC/PF 1.192/2022, art. 24</h4>
+<p><strong class="dest">OBRIGATÓRIOS (§1º):</strong> I — <strong>Preâmbulo</strong> · II — <strong>Objeto</strong> (ou material, veículo, local) · III — <strong>Objetivo</strong> · IV — <strong>Exame</strong> · V — <strong>Conclusão</strong> (ou respostas aos quesitos).</p>
+<p><strong>FACULTATIVOS (§2º):</strong> VI — <strong>Resumo</strong> · VII — <strong>Sumário</strong> (laudo com mais de <strong>30 páginas</strong> ou complexidade que o exija) · VIII — <strong>Histórico</strong>.</p>
+<p><strong>Atenção:</strong> o <strong class="dest">Histórico é FACULTATIVO</strong>, apesar de ser um dos tópicos mais citados. A questão adora inverter isso.</p>
+<p>Nas palavras dele: <em>"esses tópicos não têm liberdade de dizer se quer estar ou não — são obrigatórios."</em></p>
+</div>
+
+<div class="mnemonic">
+<div class="mnemonic-title">⚡ Macete — os 5 obrigatórios</div>
+<p>"<strong>Pré-Ob-Ob-Ex-Con</strong>" → <strong>Pré</strong>âmbulo · <strong>Ob</strong>jeto · <strong>Ob</strong>jetivo · <strong>Ex</strong>ame · <strong>Con</strong>clusão.</p>
+</div>
+
+<div class="box box-orange">
+<h4>A pergunta de aplicação que ele fez</h4>
+<p><strong>"Você teve uma entrevista na chegada, com os vizinhos. Essa entrevista vai para qual parte do laudo?"</strong> → <strong class="dest">HISTÓRICO.</strong></p>
+<p>É o modelo da questão: dado um elemento concreto do trabalho no local, dizer <strong>em que tópico do laudo ele é consignado</strong>. Treine com os outros: alterações do estado das coisas → Histórico; eficiência do instrumento → Análise e interpretação dos vestígios; como o crime ocorreu → Dinâmica; impossibilidade de concluir e seus motivos → Conclusão.</p>
+</div>
+
+<p>Ele mencionou ainda que <strong>podem existir itens adicionais</strong> conforme o tipo de laudo — citou, como exemplo de item próprio de laudo de local, a distinção entre <strong>local imediato e local mediato</strong>.</p>
+
+<table>
+<tr><th>Tópico</th><th>O que vai dentro</th></tr>
+<tr><td><strong>Preâmbulo</strong></td><td>Número sequencial do laudo (comum a todas as áreas, <strong>reinicia em 1º de janeiro</strong>), título e subtítulo ("Laudo de Perícia Criminal Federal — Exame de Local"), nome dos peritos, quem designou, informações da requisição (IPL, ofício, ePol, SISCRIM) e a transcrição dos quesitos.</td></tr>
+<tr><td><strong>Histórico</strong></td><td>Meio pelo qual a perícia foi solicitada · nome e matrícula da equipe policial · horário de deslocamento e de chegada · dados das equipes que preservavam o local · <strong>data e hora dos exames</strong> · endereço, coordenadas e referências. <strong>É aqui que entram as ENTREVISTAS</strong>, as alterações do estado das coisas, interrupções e providências após o encerramento.</td></tr>
+<tr><td><strong>Objeto</strong></td><td>O que foi periciado (o local, o material, o veículo).</td></tr>
+<tr><td><strong>Objetivo</strong></td><td>As finalidades dos exames, alinhadas ao tipo de solicitação ou aos quesitos. Se a requisição não especifica, os peritos descrevem os objetivos buscados.</td></tr>
+<tr><td><strong>Exame</strong></td><td>O <strong>capítulo principal</strong>. Caracterização minuciosa do local e dos vestígios, metodologias e técnicas empregadas, exames complementares e resultados, e as ilustrações. Pode ser subdividido em: <strong>Local · Sistemas de segurança · Vestígios · Exames complementares · Considerações técnico-periciais · Análise e interpretação dos vestígios · Dinâmica do evento</strong>.</td></tr>
+<tr><td><strong>Conclusão</strong></td><td>Clara e objetiva, com as respostas aos quesitos. Se não for possível concluir, deve constar a <strong>impossibilidade e os motivos</strong> (escassez de vestígios, falta de preservação). Cabe também <strong>conclusão parcial</strong>, excluindo hipóteses.</td></tr>
+<tr><td><em>Anexos</em></td><td>Elemento <strong>pós-textual, não elaborado pelo autor</strong>: projetos, mapas, fluxogramas, mídias com vídeos de CFTV, laudos complementares.</td></tr>
+</table>
+
+<div class="box box-orange">
+<h4>A definição de DINÂMICA — decore esta</h4>
+<p><strong class="dest">Contextualizar e correlacionar as informações do levantamento de local com os resultados dos exames complementares, a fim de formar a convicção sobre COMO o delito ocorreu.</strong></p>
+<p>É um dos <strong>principais objetivos do laudo pericial</strong> de local.</p>
+</div>
+
+<h4>Notas complementares</h4>
+<ul class="clean">
+<li><strong>Análise e interpretação dos vestígios</strong> é onde o perito afirma, por exemplo, se determinado instrumento <strong>era ou não eficiente</strong> para produzir a lesão encontrada. A interpretação deve ser <strong>global</strong>, considerando toda a cena.</li>
+<li><strong>Prazo:</strong> 10 dias, prorrogável em casos excepcionais a requerimento fundamentado dos peritos. O CPP não fixa limite para a prorrogação.</li>
+<li><strong>Requisição:</strong> o exame é requisitado pela autoridade ao <strong>diretor da repartição</strong>. Na PF: chefe do <strong>SETEC</strong> nas Superintendências, chefe do <strong>NUTEC</strong> nas Delegacias; no INC, ao seu diretor.</li>
+<li>Os resultados dos exames complementares <strong>devem retornar aos peritos que processaram o local</strong>, para a contextualização final.</li>
+</ul>
+
+<h2>15. Pegadinhas e conflitos com a apostila</h2>
+
+<h3>15.1 Onde professor e apostila divergem</h3>
+
+<div class="box box-purple">
+<h4>1 · Etapas do processamento</h4>
+<p>A <strong>apostila</strong> agrupa em 6 blocos (Preparação · Chegada · Busca completa · Coleta · Reunião final · Liberação). Os <strong>slides e a revisão</strong> usam <strong class="dest">7 etapas numeradas</strong>, com a <strong>Documentação como etapa 4</strong>, entre a busca e a coleta. → <strong>Use as 7 etapas.</strong></p>
+</div>
+
+<div class="box box-purple">
+<h4>2 · Escala de tempo de exposição — ele mesmo notou na hora</h4>
+<p>O slide da apostila usa a série 1/25 · 1/50 · 1/100 · 1/200 · 1/400 · 1/800 · 1/1600 e corre em <strong>sentido invertido</strong>; o professor resolveu com a série clássica 1/15 · 1/30 · 1/60 · 1/125 · 1/250 · 1/500 · 1/1000. Ele reparou ao vivo: <em>"é a apostila que está invertida? Mas a lógica é a mesma."</em></p>
+<p><strong>Não importa qual venha</strong> — em ambas, cada passo dobra ou reduz a luz pela metade. Conte cliques e raciocine pelo saldo de luz; <strong>nunca decore o lado</strong>.</p>
+</div>
+
+<h3>15.2 As afirmativas que derrubam candidato</h3>
+<ol>
+<li><strong>"Vestígio biológico seco pode ir em saco plástico lacrado."</strong> <strong class="dest">ERRADO</strong> — mesmo seco, a embalagem tem que ser <strong>permeável ao ar</strong>; o saco de lacre vai <strong>furado</strong>.</li>
+<li><strong>"Basta a embalagem estar limpa."</strong> Verdadeiro para <strong>químicos</strong>; <strong class="dest">ERRADO</strong> para <strong>biológicos</strong>, que exigem material <strong>estéril / novo</strong>.</li>
+<li><strong>"pH básico pode ir em saquinho plástico."</strong> <strong class="dest">ERRADO</strong> — tem que ser <strong>FRASCO</strong> de plástico.</li>
+<li><strong>"O ácido fluorídrico vai em vidro como os demais ácidos."</strong> <strong class="dest">ERRADO</strong> — é a <strong>única exceção</strong>: vai em plástico.</li>
+<li><strong>"O vestígio deve ser coletado assim que encontrado."</strong> <strong class="dest">ERRADO</strong> — marca-se, descreve-se, fotografa-se e plota-se no croqui <strong>antes</strong>.</li>
+<li><strong>"A base do cone de transfixação fica do lado do impacto."</strong> <strong class="dest">ERRADO</strong> — fica na face <strong>oposta</strong>, ou seja, <strong>na saída</strong>.</li>
+<li><strong>"As rupturas radiais começam do lado do impacto."</strong> <strong class="dest">ERRADO</strong> — começam do <strong>lado oposto</strong>. As <strong>concêntricas</strong> é que iniciam do lado do impacto.</li>
+<li><strong>"As radiais do primeiro disparo param nas do segundo."</strong> <strong class="dest">INVERTIDO</strong> — as do <strong>segundo</strong> param nas do <strong>primeiro</strong>.</li>
+<li><strong>"A ausência de ajuste físico prova que os itens vieram de fontes diferentes."</strong> <strong class="dest">ERRADO</strong> — não implica nada disso.</li>
+<li><strong>"Maior energia produz manchas de sangue maiores."</strong> <strong class="dest">ERRADO</strong> — maior energia = maior atomização = manchas <strong>menores</strong>.</li>
+<li><strong>"A prova pericial prevalece sobre a prova testemunhal."</strong> <strong class="dest">ERRADO</strong> — <strong>não há hierarquia</strong> entre prova objetiva e subjetiva, ainda que a perícia seja chamada de "rainha das provas".</li>
+<li><strong>"O isolamento do local é feito obrigatoriamente com fita."</strong> <strong class="dest">ERRADO</strong> — cordas, cones e cavaletes servem. E a perícia <strong>reavalia</strong> o isolamento, não o faz do zero.</li>
+<li><strong>"Na reprodução simulada, o perito atesta no local se a versão é verdadeira."</strong> <strong class="dest">ERRADO</strong> — a valoração é posterior, no confronto; no local se anota, testa e segue.</li>
+<li><strong>"O Histórico é item obrigatório do laudo."</strong> <strong class="dest">ERRADO</strong> — é <strong>facultativo</strong>, junto com Resumo e Sumário.</li>
+</ol>
+
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() {
+      setTimeout(sendHeight, 200);
+    });
+    window.addEventListener('resize', sendHeight);
+    // No MutationObserver - it causes infinite resize loops
+  })();
+</script>
+</body>
+</html>

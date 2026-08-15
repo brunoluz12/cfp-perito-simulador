@@ -4092,7 +4092,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Locais de morte violenta',
                 'Desastres de massa (DVI)',
                 'O laudo pericial de local de crime',
-                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' }
+                { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' },
+                { titulo: '🎯 Bizuraço Prova (Aula de Revisão)', arquivo: 'Bizuraco_Prova.html' }
             ]
         },
         'informatica_forense': {
