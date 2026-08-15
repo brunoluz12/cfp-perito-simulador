@@ -52735,5 +52735,2181 @@ const questoesDB = [
     "referencia": "PDF LOC, p. 178",
     "nivel": "dificil",
     "essencial": false
+  },
+  {
+    "id": 4174,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor abriu a revisão perguntando qual o artigo do CPP que dá sustentação legal à realização da perícia. Assinale a alternativa que reproduz corretamente o comando desse dispositivo.",
+    "alternativas": {
+      "A": "Art. 169 — quando a infração deixar vestígios, será indispensável o exame de corpo de delito, cabendo à autoridade policial decidir sobre sua realização em cada caso concreto.",
+      "B": "Art. 158 — quando a infração deixar vestígios, o exame de corpo de delito poderá ser dispensado se houver confissão do acusado corroborada por prova testemunhal idônea.",
+      "C": "Art. 159 — o exame de corpo de delito será indispensável sempre que a infração deixar vestígios, admitida a supressão mediante acordo entre as partes no curso da instrução.",
+      "D": "Art. 158 — quando a infração deixar vestígios, será indispensável o exame de corpo de delito, direto ou indireto, não podendo supri-lo a confissão do acusado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. É o art. 158 do CPP, com a cláusula final que o professor destacou: a confissão NÃO supre o exame de corpo de delito. B inverte exatamente essa cláusula, admitindo a dispensa por confissão. C troca o número do artigo (159 trata da qualificação do perito) e inventa a hipótese de acordo entre as partes. A também erra o artigo (169 trata da preservação do local) e transforma um dever legal em juízo discricionário da autoridade.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4175,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a revisão o professor perguntou se existe hierarquia entre as informações objetivas (vestígios) e as subjetivas (depoimentos). Sobre o tema, é correto afirmar que:",
+    "alternativas": {
+      "A": "há hierarquia legal, pois a perícia é reconhecida no ordenamento como prova de maior peso, cedendo apenas diante de confissão judicial espontânea.",
+      "B": "não há hierarquia, razão pela qual o perito deve fundamentar suas conclusões tanto nos vestígios quanto nas versões colhidas em entrevista.",
+      "C": "há hierarquia apenas na fase de inquérito, invertendo-se a precedência quando o feito chega à fase judicial de instrução.",
+      "D": "não há hierarquia legal entre elas, embora a perícia seja tradicionalmente chamada de rainha das provas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O professor antecipou a armadilha: apesar do apelido de rainha das provas, LEGALMENTE não há hierarquia entre as provas. A afirma exatamente o contrário. C cria uma inversão por fase processual que não existe. B acerta a premissa (não há hierarquia) mas erra a conclusão: o perito conclui SOMENTE a partir dos vestígios; as informações subjetivas apenas direcionam os trabalhos e não são objeto de avaliação no laudo.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4176,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o tratamento das informações subjetivas colhidas no local de crime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Não podem ser colhidas pelo perito, pois a tomada de declarações é atribuição exclusiva da autoridade policial no inquérito.",
+      "B": "Devem ser transcritas na conclusão do laudo sempre que confirmadas por ao menos duas testemunhas presenciais do fato.",
+      "C": "Substituem a busca por vestígios quando prestadas por policiais que atenderam a ocorrência antes da chegada da equipe pericial.",
+      "D": "Servem para direcionar e agilizar os trabalhos, mas não são objeto de avaliação no laudo, que se apoia nos vestígios."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As entrevistas ajudam a encontrar e contextualizar os vestígios, mas o perito só conclui a partir do material objetivo. B inventa um requisito de duas testemunhas e desloca o conteúdo para a conclusão. C é falsa: nada substitui a busca por vestígios. A é falsa: as entrevistas podem ser realizadas por qualquer membro da equipe pericial, inclusive durante os preparativos.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4177,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considerando o conceito ampliado de local de crime (Eraldo Rabelo) e a definição da IN 297/2024-DG/PF, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O local restringe-se ao ponto exato da consumação, pois é ali que se concentram os vestígios úteis à materialidade.",
+      "B": "O local abrange os atos preliminares e posteriores à consumação, mas apenas quando praticados no mesmo imóvel do fato principal.",
+      "C": "O local abrange todos os lugares em que, aparente, necessária ou presumivelmente, tenham sido praticados atos materiais preliminares ou posteriores diretamente relacionados ao delito.",
+      "D": "O local corresponde exatamente à área delimitada pela fita de isolamento no atendimento inicial, cabendo ao primeiro policial que chegar à cena fixar em definitivo essa extensão."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É a definição de Rabelo: o raio se estende para abranger o planejamento, a execução e o que ocorreu depois. A restringe indevidamente ao ponto de consumação. B acrescenta um limite territorial (mesmo imóvel) que não existe no conceito. D confunde o conceito jurídico de local com a delimitação física do isolamento, que é provisória e deve ser reavaliada pela perícia.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4178,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que distingue corretamente local imediato e local mediato.",
+    "alternativas": {
+      "A": "Imediato é o local do resultado naturalístico; mediato é o local dos atos executórios, ainda que separados por descontinuidade geográfica.",
+      "B": "Imediato é o periciado no mesmo dia do fato; mediato é aquele examinado posteriormente, quando já houve alteração das condições originais.",
+      "C": "Imediato é a área sob isolamento físico; mediato é a área externa liberada ao público, sem interesse para a busca de vestígios.",
+      "D": "Imediato é o de maior concentração de vestígios, onde ocorreu o evento; mediato são as adjacências, havendo continuidade geográfica entre eles."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A distinção é espacial: o imediato é onde o evento ocorreu e concentra os vestígios; o mediato são as adjacências, com continuidade geográfica entre ambos. B cria um critério temporal inexistente. C é falsa porque o mediato pode conter vestígios relevantes e não se confunde com área liberada. A inverte os conceitos e ainda nega a continuidade geográfica, que é justamente um elemento da definição.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4179,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à preservação, os locais de crime classificam-se em:",
+    "alternativas": {
+      "A": "primários e secundários, conforme neles tenha ocorrido a execução ou apenas o resultado do delito.",
+      "B": "internos e externos, conforme o exame recaia sobre edificações ou sobre vias públicas e áreas abertas ao entorno.",
+      "C": "preservados e liberados, conforme a autoridade policial já tenha ou não formalizado a entrega do local à perícia.",
+      "D": "idôneos ou não violados e inidôneos ou violados, conforme tenham ou não sido perturbados antes da chegada dos peritos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Idôneo (não violado) é o preservado tal como deixado pelo agente; inidôneo (violado) é o perturbado ou devassado após o fato e antes da chegada dos peritos. A, C e B descrevem outras classificações — respectivamente quanto à relação com o fato, quanto à fase do trabalho e quanto à natureza do ambiente — nenhuma delas ligada ao critério de preservação.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4180,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que apresenta as etapas do processamento do local na ordem trabalhada na revisão.",
+    "alternativas": {
+      "A": "Preparação; chegada ao local; documentação; busca de vestígios; coleta e acondicionamento; reunião final; liberação.",
+      "B": "Preparação; chegada ao local; busca de vestígios; coleta e acondicionamento; documentação; liberação; reunião final.",
+      "C": "Chegada ao local; preparação; busca de vestígios; coleta e acondicionamento; documentação; reunião final; liberação.",
+      "D": "Preparação; chegada ao local; busca de vestígios; documentação; coleta e acondicionamento; reunião final; liberação."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A sequência é: preparação, chegada, busca, documentação, coleta, reunião final e liberação. A inverte busca e documentação — não se documenta o que ainda não foi encontrado. C coloca a preparação depois da chegada, quando ela antecede o deslocamento. B coloca a coleta antes da documentação e ainda inverte reunião final e liberação: a conferência precede a entrega do local.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4181,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor usou a amostra controle como exemplo do tipo de pegadinha que a banca faz com as etapas. Sobre ela, é correto afirmar que:",
+    "alternativas": {
+      "A": "é dispensável quando o vestígio principal for encaminhado integralmente ao laboratório, mas obrigatória em qualquer recorte parcial de suporte.",
+      "B": "é colhida na etapa de documentação, simultaneamente ao registro fotográfico e ao posicionamento do vestígio no croqui.",
+      "C": "é colhida na etapa de busca, assim que identificado o suporte impregnado, para evitar que a área seja alterada.",
+      "D": "é colhida na etapa de coleta, e a regra geral é sempre coletá-la, pois no local nem sempre se sabe se será necessária."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A amostra controle pertence à etapa de COLETA — foi exatamente esse deslocamento de etapa que o professor apontou como pegadinha. B e C transferem o procedimento para etapas anteriores. A descreve corretamente a lógica do controle (necessário quando o suporte não vai inteiro), mas erra ao apresentá-la como dispensa: como no local não se sabe de antemão, a regra é sempre coletar.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4182,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o isolamento do local, conforme cobrado na revisão, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Deve ser feito obrigatoriamente com fita de isolamento padronizada, único meio que confere validade jurídica à delimitação da área.",
+      "B": "Uma vez estabelecido pelo primeiro policial no local, não pode ser alterado pela perícia, sob pena de comprometer a cadeia de custódia.",
+      "C": "É atribuição exclusiva do perito criminal federal, que o executa antes de qualquer outra providência ao chegar à cena.",
+      "D": "Pode ser feito com fita, cordas, cones ou cavaletes, e cabe à perícia reavaliar o perímetro encontrado, ampliando-o ou reduzindo-o."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O professor perguntou duas vezes: não precisa ser fita — cordas, cones e cavaletes servem. E a função da perícia é REAVALIAR o isolamento já feito. A cria uma exclusividade da fita que não existe. C inverte os papéis: quem isola primeiro é normalmente a PM ou o corpo de bombeiros. B é falsa justamente porque reavaliar o perímetro é dever da perícia, e não ofensa à cadeia de custódia.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4183,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a busca inicial e a busca completa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Ambas são realizadas por toda a equipe, diferenciando-se apenas pelo padrão de varredura adotado em cada uma delas.",
+      "B": "A busca inicial é realizada com os padrões de busca; a completa dispensa padrão, por já se conhecer a distribuição dos vestígios.",
+      "C": "A busca inicial cabe ao perito-chefe e visa a planejar a busca detalhada, definindo a rota de entrada e saída a ser usada por todos.",
+      "D": "A busca inicial é feita pelo papiloscopista, a quem compete o primeiro reconhecimento das superfícies aptas a reter impressões papilares."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O professor perguntou: vai todo mundo na busca inicial? Não — geralmente só o chefe. O cuidado central é fixar a rota de entrada e saída. A contraria essa resposta. B inverte: os padrões de busca são da etapa completa. D atribui a busca inicial ao papiloscopista, cuja atuação é o levantamento papiloscópico, realizado na etapa de coleta e coordenado com a perícia.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4184,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encerrados os exames, a entrega formal do local é feita:",
+    "alternativas": {
+      "A": "pelo perito-chefe ao papiloscopista, que permanece no local para concluir o levantamento das impressões remanescentes.",
+      "B": "por qualquer membro da equipe ao responsável pelo imóvel, mediante termo escrito assinado por duas testemunhas presentes.",
+      "C": "pelo perito-chefe ao delegado ou policial encarregado, geralmente de forma verbal, devendo ser consignada em laudo.",
+      "D": "pelo delegado à perícia, invertendo-se a responsabilidade pelo local a partir do momento da liberação formal."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A liberação é feita pelo perito-chefe ao delegado ou policial encarregado; ainda que verbal, deve constar do laudo. B erra o destinatário e inventa a exigência de termo com testemunhas. A é falsa: o levantamento papiloscópico ocorre durante a etapa de coleta, não após a liberação. D inverte o sentido da entrega — a perícia devolve o local à autoridade, e não o contrário.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4185,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Relacione corretamente o padrão de busca à situação em que é indicado.",
+    "alternativas": {
+      "A": "Espiral: área extensa com muitas pessoas, avançando da periferia para o centro sob comando de uma pessoa-base.",
+      "B": "Linha cruzada: área pequena com poucas pessoas, repetindo-se a varredura em direção perpendicular à primeira.",
+      "C": "Quadrante: área extensa e com muitas pessoas disponíveis, vedada a aplicação de outra metodologia de varredura dentro de cada setor delimitado.",
+      "D": "Linha: área extensa com quantidade suficiente de pessoas, posicionadas a dois braços de distância, sob comando de uma pessoa-base."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A busca em linha é a indicada para área extensa com muitas pessoas, com o espaçamento de dois braços e uma pessoa-base comandando o deslocamento. A atribui à espiral as características da linha — a espiral é para área pequena e poucas pessoas. B inverte igualmente: a linha cruzada é a repetição perpendicular da busca em linha, própria de áreas extensas. C acerta o contexto do quadrante, mas erra ao vedar outra metodologia dentro de cada quadrante, o que é expressamente admitido.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4186,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao encontrar um vestígio durante a busca, o procedimento correto é:",
+    "alternativas": {
+      "A": "coletá-lo imediatamente e acondicioná-lo, evitando que terceiros o destruam antes do registro fotográfico.",
+      "B": "deixá-lo no lugar sem qualquer marcação, para não interferir na leitura do conjunto durante a etapa de documentação.",
+      "C": "interromper a busca e submetê-lo de imediato ao exame preliminar cabível, registrando o resultado no formulário de local.",
+      "D": "marcá-lo, para que possa ser descrito, fotografado e ter sua posição anotada no croqui, coletando-o somente depois."
+    },
+    "resposta_correta": "D",
+    "justificativa": "É pegadinha clássica: o vestígio não é coletado assim que encontrado. Marca-se, descreve-se, fotografa-se e plota-se no croqui; a coleta vem depois. A antecipa a coleta e perde o contexto. C interrompe indevidamente a busca e antecipa exames. B erra no oposto: a marcação é justamente o que impede que outras pessoas destruam o vestígio.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4187,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São premissas básicas da busca de vestígios, conforme a revisão:",
+    "alternativas": {
+      "A": "conduzir do específico para o geral; economizar tempo nas áreas visíveis; concentrar esforços nos pontos indicados por testemunhas.",
+      "B": "conduzir do geral para o específico; documentar apenas os vestígios que se mostrem desde logo relevantes para a hipótese investigada.",
+      "C": "conduzir do geral para o específico; proceder com cautela nas áreas visíveis; buscar vigorosamente em áreas escondidas ou dissimuladas.",
+      "D": "repetir a busca sempre que necessário, já que o local pode ser reprocessado em novas diligências caso algo tenha escapado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "As premissas são: do geral para o específico, busca cautelosa nas áreas visíveis e busca vigorosa nas dissimuladas. A inverte o sentido e sugere economia de tempo. B erra ao filtrar a documentação por relevância aparente — a regra é que um vestígio nunca é documentado em excesso. D contraria a premissa central de que só existe UMA chance de processar o local adequadamente.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4188,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na reunião final, antes da liberação, a equipe confere se:",
+    "alternativas": {
+      "A": "a autoridade policial confirmou a tipificação provisória do delito, de modo a orientar a redação do tópico de dinâmica dos fatos.",
+      "B": "o laudo já se encontra redigido em sua versão preliminar, se os quesitos formulados pela autoridade foram integralmente respondidos e se a conclusão foi submetida à conferência do perito supervisor da unidade.",
+      "C": "os exames complementares foram solicitados aos setores especializados e seus prazos de resposta foram formalmente acordados.",
+      "D": "a documentação está preenchida, tudo foi fotografado e plotado, a coleta e as amostras controle foram feitas, os vestígios estão embalados e identificados e há meios de transporte adequados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "São os seis itens de conferência da reunião final, todos relativos ao trabalho de campo. B antecipa a redação do laudo, que é posterior. C trata de providências de laboratório, não da conferência do local. A é falsa porque a tipificação não condiciona o trabalho pericial, que se assenta nos vestígios.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "medio"
+  },
+  {
+    "id": 4189,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a etapa de preparação, é correto afirmar que:",
+    "alternativas": {
+      "A": "inicia-se com a chegada da equipe ao local, quando finalmente é possível avaliar as reais condições de trabalho.",
+      "B": "resume-se à conferência do material de coleta, já que as demais providências dependem de dados que só existem no local.",
+      "C": "antecede o deslocamento e abrange informações sobre a cena, tipo de local, condições do isolamento, urgência, material, transporte e comunicação.",
+      "D": "pode ser suprimida nos casos urgentes, hipótese em que a equipe se desloca e improvisa os materiais disponíveis na unidade mais próxima."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A preparação antecede tudo e reúne recursos humanos e materiais, a partir de informações sobre localização, tipo de crime, isolamento, urgência, equipamento, transporte e comunicação. A desloca o início da etapa. B reduz indevidamente seu alcance. D é a mais capciosa: na urgência a etapa fica prejudicada, mas o próprio material recomenda mitigar isso enviando parte da equipe à frente enquanto a outra providencia os meios — e não suprimir o planejamento.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4190,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São métodos de documentação do local de crime:",
+    "alternativas": {
+      "A": "descrição narrativa, registro fotográfico e reconstituição preliminar da dinâmica no próprio local.",
+      "B": "descrição narrativa, croqui e levantamento papiloscópico das superfícies de contato.",
+      "C": "croqui, registro fotográfico e coleta das amostras controle dos suportes examinados.",
+      "D": "descrição narrativa, croqui e registro fotográfico."
+    },
+    "resposta_correta": "D",
+    "justificativa": "São exatamente três: narrativa, croqui e fotografia — esta última podendo ser complementada por filmagem. B substitui a fotografia pelo levantamento papiloscópico, que é coleta, não documentação. C substitui a narrativa pela amostra controle, que também é coleta. A substitui o croqui por uma reconstituição, que é exame autônomo e posterior.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4191,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a descrição narrativa, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Deve ser feita obrigatoriamente por escrito, para que possa ser anexada ao laudo com valor de documento.",
+      "B": "Deve ser deixada para o momento da redação do laudo, quando o perito dispõe de condições adequadas de trabalho.",
+      "C": "Pode ser escrita, gravada em áudio ou em áudio e vídeo, e a melhor oportunidade para realizá-la é na própria cena.",
+      "D": "Deve limitar-se aos vestígios efetivamente coletados, evitando-se o registro de elementos que não serão objeto de exame."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A narrativa admite as três formas e deve ser feita na cena — o material é expresso ao dizer que ali está a melhor oportunidade e o melhor lugar. A cria uma exigência de forma escrita que não existe. B contraria diretamente a recomendação, e é justamente o erro que o material adverte (confiar na memória). D restringe indevidamente: a descrição abrange tudo o que for encontrado, pois em princípio nenhum item é insignificante.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4192,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor pediu foco especial na triangulação. Sobre esse método, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Posiciona o vestígio por medidas ortogonais tomadas a partir de uma linha base, sendo indicado quando os vestígios se alinham em uma direção.",
+      "B": "Posiciona o vestígio pela distância a um referencial fixo somada ao ângulo medido a partir do norte magnético com auxílio de bússola.",
+      "C": "Posiciona o vestígio pela distância a dois referenciais fixos e perenes; objeto puntual exige uma triangulação e objeto grande, duas.",
+      "D": "Posiciona o vestígio por duas medidas tomadas de paredes perpendiculares entre si, o que o torna método próprio de ambientes fechados."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. São os três pontos cobrados: dois referenciais fixos, que precisam ser perenes; objeto puntual pede uma triangulação, objeto grande pede duas (uma em cada extremidade), fornecendo posição e dimensão. B descreve as coordenadas polares. A descreve o método da linha base. D descreve as coordenadas cartesianas.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4193,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que associa corretamente o método de croqui à sua situação típica de emprego.",
+    "alternativas": {
+      "A": "Coordenadas cartesianas — áreas abertas nas quais é difícil estabelecer um segundo referencial fixo.",
+      "B": "Triangulação — vestígios concentrados em uma mesma direção, medidos ortogonalmente a partir de uma trena esticada.",
+      "C": "Linha base — ambientes fechados, tomando-se as duas paredes perpendiculares como eixos de referência.",
+      "D": "Coordenadas polares — áreas abertas, admitindo-se referencial artificial e medida angular a partir dos pontos cardeais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "As polares servem às áreas abertas, admitem referencial artificial (haste metálica localizável por detector de metais) e medida angular geralmente a partir do norte. A atribui às cartesianas o contexto das polares. C atribui à linha base o contexto das cartesianas. B atribui à triangulação o contexto da linha base.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4194,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto ao registro fotográfico de cada vestígio, a recomendação geral é de no mínimo três fotografias. São elas:",
+    "alternativas": {
+      "A": "uma panorâmica do ambiente, uma do vestígio com escala e uma do vestígio já acondicionado em sua embalagem lacrada.",
+      "B": "uma do vestígio contextualizado, uma em close com escala e uma tomada em posição oblíqua para realce do relevo.",
+      "C": "uma do vestígio contextualizado, uma em close sem escala e uma em close com escala.",
+      "D": "uma do acesso ao local, uma do vestígio contextualizado e uma em close com escala e identificação do fotógrafo."
+    },
+    "resposta_correta": "C",
+    "justificativa": "São as três: contextualizada, close SEM escala e close COM escala. A foto sem escala é recomendada porque já houve casos de a escala ser colocada sobre vestígios menores ainda não percebidos. A, B e D substituem justamente essa foto sem escala por outras tomadas, perdendo a razão técnica da regra.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4195,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Pegadas, impressões papilares e marcas de pneus devem ser fotografadas:",
+    "alternativas": {
+      "A": "ao meio-dia, quando a incidência vertical da luz solar elimina sombras que possam mascarar detalhes.",
+      "B": "com a câmera inclinada a aproximadamente 45 graus, para que a luz realce o relevo da marca.",
+      "C": "com uso de flash automático, que uniformiza a iluminação e padroniza a exposição entre as tomadas.",
+      "D": "com a câmera em posição ortogonal ao suporte, para evitar distorção das medidas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A câmera vai perpendicular (ortogonal) ao suporte; fotografar em ângulo distorce as medidas e inviabiliza o confronto. B confunde com a posição do FLASH, que é mantido a cerca de 45 graus quando necessário — a câmera permanece perpendicular. C é o oposto da recomendação: o flash automático satura e achata o vestígio. A também inverte: o meio-dia satura a marca, sendo preferíveis a manhã e o fim da tarde.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4196,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a Instrução Técnica 20/2013-DITEC/PF, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os vestígios devem ser fotografados após a coleta, em ambiente controlado, onde a iluminação pode ser padronizada.",
+      "B": "A documentação fotográfica deve orientar-se do específico para o geral, partindo do detalhe do vestígio para o conjunto da cena.",
+      "C": "Os vestígios devem ser fotografados no local em que foram encontrados, antes de sua coleta, e o memorial deve ir do geral para o específico.",
+      "D": "O memorial fotográfico é facultativo, cabendo ao perito supervisor decidir sobre sua produção conforme a complexidade do local."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Reúne o art. 20 (fotografar no local, antes da coleta) e o art. 21, §1º (do geral para o específico). A inverte o momento do registro. B inverte o sentido da progressão. D é falsa: o art. 21 determina que os peritos DEVERÃO produzir o memorial fotográfico.",
+    "referencia": "Bizuraço Prova — 3. Documentação: narrativa, croqui e fotografia",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4197,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As três regulagens que compõem o triângulo da exposição são:",
+    "alternativas": {
+      "A": "tempo de exposição, balanço de branco e profundidade de campo da objetiva empregada.",
+      "B": "abertura do diafragma, distância focal da objetiva e sensibilidade ISO do sensor.",
+      "C": "abertura do diafragma, tempo de exposição e sensibilidade ISO do sensor.",
+      "D": "abertura do diafragma, tempo de exposição e resolução do sensor expressa em megapixels."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O triângulo é diafragma, obturador (tempo) e ISO. B troca o tempo pela distância focal, que altera o ângulo de visão, não a exposição. A troca duas: o balanço de branco corrige a temperatura de cor e a profundidade de campo é consequência da abertura. D troca o ISO pela resolução, que não tem relação com a quantidade de luz registrada.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "medio"
+  },
+  {
+    "id": 4198,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Considere o tempo de exposição de 1/15 e a abertura f/8. Para corrigir uma fotografia tremida, o perito alterou o tempo para 1/125, mantendo o ISO. Para conservar a mesma intensidade luminosa, a abertura deverá ser ajustada para:",
+    "alternativas": {
+      "A": "f/22, pois o encurtamento do tempo exige o fechamento proporcional do diafragma.",
+      "B": "f/16, correspondente ao deslocamento de dois pontos na escala de números f.",
+      "C": "f/11, mantendo-se próxima da abertura original por se tratar de variação moderada.",
+      "D": "f/2.8."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. De 1/15 para 1/125 são três cliques (1/30, 1/60, 1/125), com perda de luz. Compensa-se abrindo três cliques: f/8 → f/5.6 → f/4 → f/2.8. A e B fecham o diafragma, agravando a perda de luz em vez de compensá-la. C reduz o deslocamento a um único ponto e ainda no sentido errado.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4199,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O fotômetro indicou, com ISO 100, a regulagem de 1/1000 e f/8. Mantido o ISO e alterada a velocidade para 1/250, a abertura deverá ser ajustada para:",
+    "alternativas": {
+      "A": "f/22, correspondente ao deslocamento de três pontos no sentido do fechamento do diafragma.",
+      "B": "f/4, pois a redução da velocidade do obturador precisa ser acompanhada da abertura do diafragma.",
+      "C": "f/8, uma vez que a variação do tempo de exposição não repercute na abertura necessária.",
+      "D": "f/16."
+    },
+    "resposta_correta": "D",
+    "justificativa": "De 1/1000 para 1/250 são dois cliques com ganho de luz; compensa-se fechando dois: f/8 → f/11 → f/16. B abre o diafragma, somando luz a um ajuste que já aumentou a luz. C nega a compensação, que é justamente o objeto da questão. A erra a contagem: são dois pontos, não três.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4200,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com ISO 400, a regulagem indicada foi 1/250 e f/11. Mantido o ISO e alterada a abertura para f/5,6, a velocidade do obturador deverá ser ajustada para:",
+    "alternativas": {
+      "A": "1/125, acompanhando a abertura do diafragma com o alongamento do tempo de exposição.",
+      "B": "1/250, pois a alteração da abertura é compensada automaticamente pelo fotômetro da câmera.",
+      "C": "1/1000.",
+      "D": "1/500, correspondente ao deslocamento de um ponto na escala de tempo de exposição."
+    },
+    "resposta_correta": "C",
+    "justificativa": "De f/11 para f/5.6 são dois cliques com ganho de luz; compensa-se acelerando dois: 1/250 → 1/500 → 1/1000. A alonga o tempo, somando ainda mais luz. B supõe compensação automática, o que não ocorre no modo manual proposto. D acerta o sentido, mas desloca apenas um ponto.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4201,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Com ISO 400, 1/250 e f/11, o fotógrafo altera o ISO para 200 e a abertura para f/5,6. Para manter a mesma luminosidade, a velocidade deverá ser:",
+    "alternativas": {
+      "A": "1/250, pois as alterações de ISO e de abertura se anulam integralmente entre si.",
+      "B": "1/125, já que a redução do ISO exige maior tempo de exposição do sensor à luz.",
+      "C": "1/500.",
+      "D": "1/1000, correspondente à soma dos dois pontos ganhos na abertura com o ponto perdido no ISO."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Reduzir o ISO de 400 para 200 custa 1 ponto de luz; abrir de f/11 para f/5.6 ganha 2. O saldo é +1, compensado acelerando um ponto: 1/250 → 1/500. A supõe anulação, mas os efeitos não têm a mesma magnitude. B ignora o ganho maior vindo do diafragma. D soma os deslocamentos em vez de compensar o saldo líquido.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4202,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as escalas de tempo de exposição e de abertura, o professor advertiu que a tabela da apostila corre em sentido invertido em relação à que utilizou em aula. A conclusão correta é:",
+    "alternativas": {
+      "A": "a lógica de compensação se inverte conforme a tabela adotada, devendo o candidato memorizar as duas convenções possíveis.",
+      "B": "as duas tabelas são equivalentes apenas quando o ISO permanece fixo, hipótese em que qualquer sentido de leitura conduz ao mesmo resultado.",
+      "C": "a tabela da apostila contém erro material, razão pela qual deve ser desconsiderada em favor da série clássica de valores.",
+      "D": "a lógica é a mesma; deve-se ler o sentido da tabela apresentada e raciocinar pelo saldo de luz, sem memorizar o lado."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Ele foi explícito: a apostila pode estar invertida, mas a lógica é a mesma. A regra segura é ler o sentido da tabela que vier e raciocinar pelo saldo de luz. A sugere memorizar lados, exatamente o que ele desaconselhou. C trata como erro o que é apenas convenção de apresentação. B condiciona a equivalência ao ISO fixo, o que não altera o fato de cada passo dobrar ou reduzir a luz pela metade.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4203,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em fotografia noturna ou de baixa iluminação, é correto afirmar que:",
+    "alternativas": {
+      "A": "o aumento do ISO dispensa a estabilização, pois a maior sensibilidade do sensor encurta o tempo de captura.",
+      "B": "o tempo de exposição é baixo, compensando-se a perda de luz com o fechamento adicional do diafragma.",
+      "C": "o tempo de exposição é alto, o que exige estabilização por tripé, sob pena de a imagem sair tremida.",
+      "D": "deve-se privilegiar o flash automático, que congela a cena e elimina a necessidade de apoio para a câmera."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Pouca luz exige tempo de exposição alto e, por consequência, tripé — foi o ponto que o professor mandou não esquecer. B inverte o tempo e ainda fecha o diafragma, reduzindo mais a luz. A é capciosa: o ISO pode ser elevado, mas gera ruído e não substitui a estabilização. D contraria as recomendações de uso do flash, que não resolve a iluminação geral de um ambiente amplo.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4204,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o ISO, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Valores elevados são indicados para ambientes claros, pois reduzem o risco de superexposição do sensor.",
+      "B": "Valores baixos são indicados para ambientes com pouca luz, por prolongarem a captação do sensor.",
+      "C": "Sua alteração não interfere na exposição, limitando-se a definir a resolução final do arquivo gerado.",
+      "D": "Valores muito elevados provocam ruído, que se manifesta como pequenos grãos ou pontos coloridos indesejados."
+    },
+    "resposta_correta": "D",
+    "justificativa": "ISO alto gera ruído — a advertência que o professor repetiu ao tratar da fotografia noturna. A inverte a indicação: valores baixos (100-200) é que servem a ambientes claros. C nega a participação do ISO na exposição, sendo ele um dos três vértices do triângulo. B inverte novamente: pouca luz pede ISO elevado, não baixo.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4205,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a abertura do diafragma e a profundidade de campo, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Quanto maior o número f, maior a abertura do diafragma e menor a profundidade de campo obtida.",
+      "B": "A profundidade de campo depende exclusivamente da distância focal, sendo indiferente à abertura empregada.",
+      "C": "Quanto menor a abertura (número f maior), maior a profundidade de campo e mais nítida a fotografia.",
+      "D": "Quanto menor o número f, maior a profundidade de campo, o que recomenda f/22 para retratos com fundo desfocado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Diafragma mais fechado (número f maior) resulta em maior zona de nitidez. A inverte a relação entre número f e abertura — número f maior significa abertura MENOR. B nega a influência da abertura, que é o fator determinante. D inverte a relação e ainda contradiz o exemplo que apresenta, pois f/22 é abertura pequena e produz muita profundidade, não fundo desfocado.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4206,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "É correto afirmar sobre os números f que:",
+    "alternativas": {
+      "A": "os números f indicam o tempo em que o diafragma permanece aberto, medido em frações de segundo.",
+      "B": "f/32 representa abertura maior que f/1.4, acompanhando a progressão crescente da escala numérica dos números f.",
+      "C": "a escala de números f é linear, de modo que f/8 admite o dobro da luz admitida por f/4.",
+      "D": "f/1.4 representa abertura maior que f/32, pois o número f é um divisor: quanto maior o número, menor a abertura."
+    },
+    "resposta_correta": "D",
+    "justificativa": "É a explicação que o professor deu para justificar o sentido da tabela: f é fração, então dividir por 1,4 dá diâmetro maior que dividir por 32. B inverte. C erra duas vezes: a escala não é linear e f/8 admite METADE da luz de f/5.6, não o dobro da de f/4. A confunde diafragma com obturador.",
+    "referencia": "Bizuraço Prova — 4. Fotografia forense",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4207,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na coleta de vestígios químicos líquidos, medido o pH, a regra de acondicionamento é:",
+    "alternativas": {
+      "A": "pH ácido em frasco de plástico e pH básico em frasco de vidro, sendo o ácido fluorídrico a única exceção admitida.",
+      "B": "pH ácido e pH básico em frasco de vidro âmbar, diferenciando-se apenas a largura da boca do recipiente utilizado.",
+      "C": "pH ácido em frasco de vidro, com exceção do ácido fluorídrico, e pH básico em frasco de plástico, sem exceção.",
+      "D": "pH ácido em frasco de vidro e pH básico em saco plástico vedado com fita adesiva de boa qualidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. É a regra central: ácido (ou neutro) vai em vidro, exceto o ácido fluorídrico, que ataca o vidro e vai em plástico; básico vai em plástico, sem exceção. A inverte os dois lados da regra. B ignora a distinção por pH. D acerta o ácido, mas admite saco plástico para o básico, quando a exigência é de FRASCO — ponto que o professor destacou como pegadinha.",
+    "referencia": "Bizuraço Prova — 5. Vestígios químicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4208,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor advertiu que a banca costuma explorar um detalhe do acondicionamento de líquido de pH básico. Trata-se de:",
+    "alternativas": {
+      "A": "a obrigatoriedade de que o frasco seja estéril, e não apenas limpo, como ocorre com os demais químicos.",
+      "B": "a exigência de que o frasco de plástico tenha boca estreita, sendo inadequado o de boca larga.",
+      "C": "a necessidade de refrigerar o frasco imediatamente após a coleta, sob pena de alteração do pH.",
+      "D": "a substituição do frasco de plástico por saco plástico, que não atende à exigência normativa."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A pegadinha é exatamente essa: tem que ser FRASCO de plástico, não saquinho. B trata da boca do frasco, detalhe que o professor disse não interferir no acerto. C inventa uma exigência de refrigeração inexistente para químicos. A transporta para os químicos a exigência de esterilidade, que é dos biológicos.",
+    "referencia": "Bizuraço Prova — 5. Vestígios químicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4209,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quanto à embalagem, a diferença entre vestígios químicos e biológicos é que:",
+    "alternativas": {
+      "A": "ambos exigem embalagem estéril, diferindo apenas quanto à permeabilidade ao ar exigida para os biológicos.",
+      "B": "os químicos exigem embalagem estéril e os biológicos, apenas limpa, dado o risco de reação com o material coletado.",
+      "C": "os químicos exigem embalagem limpa, enquanto os biológicos exigem material limpo, novo ou estéril.",
+      "D": "os químicos dispensam qualquer requisito de limpeza, desde que o frasco seja quimicamente compatível com a substância."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Para os químicos basta a embalagem limpa; para os biológicos, limpa não basta — o material tem que ser novo ou estéril, pelo risco de contaminação. A estende a esterilidade aos químicos. B inverte inteiramente os dois regimes. D dispensa a limpeza, que é requisito mesmo nos químicos.",
+    "referencia": "Bizuraço Prova — 5. Vestígios químicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4210,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Segundo a IT 006/2006-DITEC/PF, agrupado o material por semelhança física, o número de unidades a amostrar é:",
+    "alternativas": {
+      "A": "todas as unidades se n < 10; raiz de n se 10 ≤ n ≤ 100; dez unidades aleatórias se n > 100.",
+      "B": "dez unidades aleatórias se n < 10; todas as unidades se 10 ≤ n ≤ 100; raiz de n, arredondada para baixo, se n > 100.",
+      "C": "todas as unidades se n < 10; dez unidades aleatórias se 10 ≤ n ≤ 100; raiz de n, arredondada para cima, se n > 100.",
+      "D": "metade das unidades em qualquer faixa, respeitado o mínimo de dez amostras por grupo formado."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É a progressão correta, com o arredondamento da raiz para o inteiro superior. B inverte as duas primeiras faixas e ainda arredonda para baixo. A troca os critérios das duas últimas faixas. D substitui a regra por um percentual fixo que não existe na instrução técnica.",
+    "referencia": "Bizuraço Prova — 5. Vestígios químicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4211,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São casos especiais de amostragem de produtos líquidos:",
+    "alternativas": {
+      "A": "mistura heterogênea em recipiente transparente, coletando-se três pontos; recipiente opaco, coletando-se uma amostra de cada fase visível.",
+      "B": "qualquer líquido, encaminhando-se sempre o recipiente original integralmente, vedada a retirada de alíquotas.",
+      "C": "qualquer líquido, coletando-se sempre da superfície, por ser a região de maior concentração dos componentes voláteis.",
+      "D": "mistura heterogênea em recipiente transparente, coletando-se uma amostra de cada fase; recipiente opaco, coletando-se ao menos três pontos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "No recipiente transparente é possível ver as fases e amostrar cada uma; no opaco, sem essa visão, coletam-se pelo menos três pontos (superfície, meio e fundo). A troca os dois procedimentos entre si. C generaliza indevidamente a coleta de superfície. B veda a alíquota, quando a regra geral é preservar parte do conteúdo para contraprova.",
+    "referencia": "Bizuraço Prova — 5. Vestígios químicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4212,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As quantidades mínimas recomendadas de amostra são:",
+    "alternativas": {
+      "A": "50 g para sólidos de 1 a 10 kg; 100 mL para líquidos de 1 a 10 L; no mínimo 2 L por unidade de combustível.",
+      "B": "200 g para sólidos de 1 a 10 kg; 100 mL para líquidos de 1 a 10 L; no mínimo 500 mL por unidade de combustível.",
+      "C": "100 g para sólidos de 1 a 10 kg; 200 mL para líquidos de 1 a 10 L; no mínimo 1 L por unidade de combustível.",
+      "D": "100 g para sólidos e 100 mL para líquidos em qualquer faixa, dispensada regra própria para combustíveis."
+    },
+    "resposta_correta": "C",
+    "justificativa": "São os três números da tabela. B inverte os valores de sólido e líquido e reduz o mínimo de combustível. A reduz o sólido e dobra o combustível. D uniformiza os valores e suprime a regra específica do combustível, que tem mínimo próprio por unidade.",
+    "referencia": "Bizuraço Prova — 5. Vestígios químicos",
+    "nivel": "medio"
+  },
+  {
+    "id": 4213,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São exemplos de vestígios biológicos, conforme a lista trabalhada na revisão:",
+    "alternativas": {
+      "A": "sangue, saliva, cabelos, marcas de ferramenta e impressões papilares latentes reveladas no local.",
+      "B": "sangue, saliva, sêmen, fibras têxteis, partículas de solo e resíduos de disparo de arma de fogo.",
+      "C": "sangue, sêmen, urina, fragmentos de vidro, lascas de tinta automotiva e material particulado metálico.",
+      "D": "sangue, saliva, sêmen, urina, fezes, suor, cabelos e pelos, células epiteliais e tecidos moles."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A definição é ampla: tudo o que vem do organismo vivo, incluindo os tecidos moles, que são os órgãos. B, C e A contaminam a lista com microvestígios (fibras, solo, vidro, tinta), vestígios químicos (resíduos de disparo) e vestígios de outra natureza (marcas de ferramenta e impressões papilares), que não são material biológico.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "medio"
+  },
+  {
+    "id": 4214,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a importância do vestígio biológico, é correto afirmar que:",
+    "alternativas": {
+      "A": "presta-se apenas à materialidade, pois a individualização depende necessariamente de confronto papiloscópico.",
+      "B": "presta-se à autoria em crimes contra a pessoa, sendo irrelevante em locais de crime contra o patrimônio.",
+      "C": "presta-se à materialidade e, sobretudo, à autoria, e pode estar presente em qualquer tipo de crime.",
+      "D": "presta-se à autoria somente quando encontrado em quantidade suficiente para exame de DNA nuclear."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O professor perguntou e respondeu: importante para a materialidade e mais ainda para a autoria; e pode haver biológico em qualquer crime, inclusive arrombamento. A restringe à materialidade. B exclui os crimes patrimoniais, quando o próprio material lista suor, sangue e saliva entre os vestígios de arrombamento. D condiciona ao DNA nuclear, ignorando que o mitocondrial também tem valor identificador.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4215,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor marcou de vermelho no slide a regra sobre embalagem de vestígio biológico. Segundo ela:",
+    "alternativas": {
+      "A": "vestígios secos podem ser acondicionados em saco plástico lacrado, pois a ausência de umidade afasta o risco de degradação.",
+      "B": "vestígios secos dispensam cuidado especial de embalagem, bastando que o material esteja limpo e identificado.",
+      "C": "vestígios secos devem ser acondicionados em recipiente plástico hermético e mantidos sob refrigeração a 4 °C.",
+      "D": "vestígios secos devem ser acondicionados em embalagem permeável ao ar e opaca, ainda que já estejam secos."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A regra é essa, e o professor insistiu no advérbio: MESMO seco, a embalagem tem que ser permeável. A razão é que o ar contém água — fechado, forma-se abafamento e a bactéria degrada o material. A é justamente o erro que ele viu a turma cometer. C aplica ao seco o regime do úmido. B dispensa a exigência central da regra.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4216,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando um vestígio biológico seco, acondicionado em envelope de papel, precisa ser transportado em envelope plástico de segurança com lacre, o procedimento correto é:",
+    "alternativas": {
+      "A": "manter o saco íntegro e lacrado, adicionando sílica-gel em seu interior para absorver a umidade residual.",
+      "B": "substituir o envelope de papel por embalagem plástica, evitando dupla camada que dificulte a inspeção.",
+      "C": "furar o saco plástico, permitindo o fluxo de ar sem comprometer a segurança da embalagem.",
+      "D": "dispensar o envelope de segurança, já que o papel isoladamente satisfaz o requisito de permeabilidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O saco de lacre é furado justamente para preservar a permeabilidade sem quebrar a cadeia de custódia. B elimina a embalagem primária de papel, que é a que garante a permeabilidade. A mantém o abafamento e introduz um insumo não previsto. D dispensa a embalagem de segurança, que é o elemento de rastreio individualizado.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4217,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os materiais empregados na coleta de vestígios biológicos:",
+    "alternativas": {
+      "A": "basta que estejam limpos, aplicando-se aqui o mesmo padrão exigido para os vestígios químicos.",
+      "B": "devem ser de uso exclusivo do perito responsável, admitida a reutilização após higienização em laboratório.",
+      "C": "devem ser esterilizados no próprio local, imediatamente antes de cada coleta, com álcool a 70%.",
+      "D": "devem ser sempre limpos, novos ou estéreis, pelo risco de contaminação da amostra."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Limpo não basta: exige-se material limpo, NOVO ou ESTÉRIL. A transporta para os biológicos o padrão dos químicos. C sugere esterilização improvisada em campo, o que não substitui material estéril de fábrica. B admite reutilização, incompatível com o risco de contaminação cruzada.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4218,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que apresenta corretamente a regra de acondicionamento e preservação do vestígio biológico.",
+    "alternativas": {
+      "A": "Seco e úmido: sempre embalagem de papel, diferenciando-se apenas pela temperatura de armazenamento aplicada a cada um.",
+      "B": "Seco: plástico estéril, sob refrigeração. Úmido ou líquido: papel permeável, mantido em temperatura ambiente e ao abrigo da luz.",
+      "C": "Seco: papel permeável e opaco, temperatura ambiente ao abrigo da luz. Úmido ou líquido: plástico estéril, refrigerar e congelar.",
+      "D": "Seco e úmido: sempre recipiente plástico hermético, diferenciando-se apenas pela necessidade de congelamento do úmido."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É a regra de ouro: o que pode secar vai em papel, à temperatura ambiente e protegido da luz; o que não pode secar vai em plástico estéril, refrigerado e depois congelado. B inverte os dois regimes. A uniformiza a embalagem em papel, inadequada para líquidos. D uniformiza em plástico hermético, que abafa o vestígio seco.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4219,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta com suabe, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Na mancha seca umedece-se o suabe na própria amostra; na mancha úmida, umedece-se em água destilada estéril.",
+      "B": "Em ambos os casos o suabe deve ser acondicionado ainda úmido, para evitar a perda de células por ressecamento.",
+      "C": "Em ambos os casos o suabe deve ser umedecido em álcool absoluto, que preserva melhor o material genético.",
+      "D": "Na mancha úmida basta passar o suabe; na mancha seca, umedece-se o suabe em água destilada estéril antes de friccioná-lo."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Amostra úmida: passa o suabe direto. Amostra seca: umedece com água destilada estéril, amolece e friccciona. A inverte os dois procedimentos. C introduz o álcool, que degrada o DNA. B contraria a regra de secar antes de acondicionar — salvo quando se usa porta-suabe, que dispensa a secagem prévia porque o material seca protegido em seu interior.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4220,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São fatores de degradação do DNA em local de crime:",
+    "alternativas": {
+      "A": "frio intenso, ressecamento e exposição prolongada ao ar, razão pela qual se recomenda vedação hermética.",
+      "B": "calor, umidade e o simples decurso do tempo, que degrada o material genético independentemente do acondicionamento.",
+      "C": "calor, umidade, luz solar ou ultravioleta, produtos químicos como o hipoclorito e contaminação bacteriana e fúngica.",
+      "D": "luz solar e vibração durante o transporte, sendo os agentes microbiológicos irrelevantes para amostras já secas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "São os inimigos do DNA listados na aula. B erra no tempo: em condições adequadas o DNA se preserva por muito tempo — o tempo só é crítico quando o acondicionamento é inadequado. A inverte tudo, inclusive recomendando a vedação hermética, que é o erro combatido. D descarta a contaminação microbiológica, que é justamente o motivo da permeabilidade.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4221,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O caso do fantasma de Heilbronn, mencionado na revisão, ilustra que:",
+    "alternativas": {
+      "A": "perfis genéticos femininos apresentam maior taxa de coincidência espúria em bancos de dados de grande porte.",
+      "B": "amostras coletadas por suabe perdem valor probatório após determinado período de armazenamento em temperatura ambiente.",
+      "C": "o DNA mitocondrial não permite individualização, razão por que não deve embasar vínculo entre locais distintos.",
+      "D": "a contaminação pode ocorrer na produção do material de coleta, gerando coincidências entre cenas de crime sem relação entre si."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O perfil coincidente em cerca de 40 cenas de crime em três países vinha de contaminação na fábrica dos suabes. A atribui o fenômeno a uma propriedade estatística inexistente. C traz uma afirmação sobre DNA mitocondrial que não é o objeto do caso. B desloca a explicação para o armazenamento, quando a contaminação foi anterior ao próprio uso.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4222,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a interpretação do achado de DNA em cena de crime, é correto afirmar que:",
+    "alternativas": {
+      "A": "o achado só tem valor quando acompanhado de impressão papilar no mesmo suporte, o que confirma o contato direto.",
+      "B": "encontrar o DNA de uma pessoa na cena estabelece sua participação, cabendo à defesa demonstrar a hipótese de transferência secundária.",
+      "C": "encontrar o DNA de uma pessoa na cena não significa que ela cometeu o crime, dependendo do tipo de vestígio e da circunstância.",
+      "D": "o achado permite concluir pela autoria sempre que o perfil for obtido a partir de material com células nucleadas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Foi advertência expressa da aula, e o critério do perito é fundamental para estabelecer a relevância do vestígio. B inverte o ônus e transforma o achado em prova de participação. A cria uma exigência de corroboração papiloscópica inexistente. D confunde a qualidade técnica do perfil com a conclusão sobre autoria, que é questão de contexto.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4223,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a coleta de pelos e a distinção entre os exames possíveis:",
+    "alternativas": {
+      "A": "a coleta é feita com suabe umedecido, devendo pelos de origens diferentes ser acondicionados em um mesmo envelope primário.",
+      "B": "a coleta é feita com fita adesiva, e a presença do bulbo é irrelevante, pois a haste concentra o material genético útil.",
+      "C": "a coleta é feita com pinça, e a ausência do bulbo inviabiliza qualquer exame genético sobre o material recolhido.",
+      "D": "a coleta é feita com pinça, com cuidado para não danificar o bulbo; com bulbo permite DNA nuclear, sem bulbo apenas mitocondrial."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Pinça, preservando o bulbo, que é o que viabiliza o DNA nuclear; sem bulbo resta o mitocondrial. B erra o instrumento e nega a importância do bulbo. C acerta o instrumento mas exclui o mitocondrial, que continua possível. A erra o instrumento e ainda determina o acondicionamento conjunto, quando pelos de origens diferentes devem ser separados.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4224,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Distinga corretamente os exames realizados no cadáver:",
+    "alternativas": {
+      "A": "Perinecroscópico: realizado no IML pelo médico legista. Necroscópico: realizado no local pelo perito criminal.",
+      "B": "Ambos são realizados no local, cabendo o externo ao perito criminal e o interno ao médico legista designado.",
+      "C": "Perinecroscópico: realizado no local pelo perito criminal. Necroscópico: realizado no IML pelo médico legista, podendo o perito acompanhar.",
+      "D": "Ambos são realizados no IML, diferenciando-se pelo momento: o perinecroscópico antecede e o necroscópico sucede a abertura das cavidades."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Perinecroscópico é no local, pelo perito criminal; necroscópico é no IML, pelo legista, com possibilidade de acompanhamento pelo perito. A inverte integralmente. B mantém os dois no local, quando o necroscópico exige o IML. D transfere ambos para o IML, esvaziando o exame de local.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "medio"
+  },
+  {
+    "id": 4225,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na arrecadação de vestígios físicos, a ordem de prioridade é:",
+    "alternativas": {
+      "A": "em primeiro lugar a cadeia de custódia; em segundo, a segurança das pessoas presentes na cena.",
+      "B": "em primeiro lugar a integridade dos vestígios; em segundo, a segurança da equipe que os manipula.",
+      "C": "em primeiro lugar a celeridade da coleta; em segundo, a preservação das condições originais do suporte.",
+      "D": "em primeiro lugar a segurança das pessoas; em segundo, a segurança dos vestígios."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A ordem é pessoas e depois vestígios. B inverte a prioridade, subordinando a segurança da equipe à do material. C substitui a segurança pela celeridade, contrariando a premissa de que a pressa é a principal fonte de erro. A coloca um procedimento formal acima da integridade física das pessoas.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "medio"
+  },
+  {
+    "id": 4226,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o acondicionamento de arma de fogo e seus elementos de munição, conforme a orientação dada na revisão:",
+    "alternativas": {
+      "A": "arma e munição devem ser acondicionadas na mesma embalagem, para preservar o vínculo entre elas.",
+      "B": "arma e munição podem seguir juntas, desde que a arma esteja travada e o carregador permaneça inserido.",
+      "C": "arma e munição devem ser acondicionadas separadamente, e o transporte da arma é sempre com ela desmuniciada.",
+      "D": "arma e munição devem seguir juntas quando houver uma única arma, e separadas apenas em apreensões múltiplas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O professor reconheceu que a apostila diz o contrário e foi expresso: não vai cair do jeito que está lá — arma e munição vão SEPARADAS, e a arma é transportada desmuniciada. A reproduz a redação da apostila, que ele afastou. B mantém o carregador inserido, contrariando o check de segurança. D cria uma distinção por número de armas que não existe.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4227,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Encontrado projétil incrustado em parede de alvenaria, o procedimento correto é:",
+    "alternativas": {
+      "A": "removê-lo com pinça de pontas revestidas, evitando o contato metálico direto com a superfície do projétil.",
+      "B": "removê-lo com chave de fenda e acondicioná-lo em envelope plástico, após a retirada dos resíduos aderidos.",
+      "C": "cortar e escavar o suporte em volta, levando um pedaço do material junto com o projétil.",
+      "D": "fotografá-lo em posição e deixá-lo no local, cabendo à autoridade policial providenciar a remoção posterior."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Trabalha-se no suporte: corta, escava e leva um pedaço da parede junto. A e B usam instrumentos que produzem ranhuras capazes de inviabilizar o confronto balístico, e B ainda remove as incrustações, que podem conter vestígio biológico. D transfere à autoridade uma providência que é técnica e cabe à perícia.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4228,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Coletado o projétil, o acondicionamento adequado é:",
+    "alternativas": {
+      "A": "em envelope plástico hermético, após a limpeza dos resíduos que possam mascarar as estrias de raiamento.",
+      "B": "em conjunto com os demais elementos metálicos recolhidos, para facilitar o confronto comparativo no laboratório.",
+      "C": "em frasco de vidro com tampa rosqueável, que impede o atrito do projétil contra as paredes do recipiente.",
+      "D": "individualmente, envolto em algodão, em envelope de papel, e depois no saco de lacre."
+    },
+    "resposta_correta": "D",
+    "justificativa": "Individual, protegido por algodão, em papel e depois lacrado. B admite o contato com outros metais, que pode marcar o projétil e prejudicar o exame balístico. C não protege do impacto e não é o recipiente indicado. A determina a limpeza dos resíduos, que devem ser preservados por seu valor probatório.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4229,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a identificação e a etiquetagem dos vestígios físicos:",
+    "alternativas": {
+      "A": "a inscrição deve ser feita no próprio corpo do vestígio, garantindo que a identificação o acompanhe em qualquer manuseio.",
+      "B": "a etiquetagem é dispensável quando o vestígio segue em envelope de segurança com numeração individualizada.",
+      "C": "deve-se evitar marcação no corpo do vestígio, fixando-se as etiquetas nos envelopes ou recipientes de acondicionamento.",
+      "D": "a etiqueta deve conter apenas o número do vestígio, vedada a inclusão de dados que permitam identificar o coletador."
+    },
+    "resposta_correta": "C",
+    "justificativa": "Evita-se marcar o vestígio para preservar sua integridade; a etiqueta vai na embalagem. A é o erro que a regra combate. B dispensa a etiquetagem, quando o número do lacre não substitui os dados de origem, data e responsável. D suprime justamente o nome do coletador, que é dado exigido para a cadeia de custódia.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4230,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O estudo do padrão de rompimento de vidros permite determinar:",
+    "alternativas": {
+      "A": "o ponto de impacto, a direção da força do choque, a ordem dos impactos e o confronto de versões sobre o ocorrido.",
+      "B": "o ponto de impacto e a massa exata do objeto arremessado, calculada pela extensão das fendas radiais formadas.",
+      "C": "a direção do choque e o intervalo de tempo decorrido entre impactos sucessivos sobre a mesma superfície.",
+      "D": "a ordem dos impactos e a identificação do calibre do projétil, obtida pelo diâmetro do orifício de transfixação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as quatro finalidades listadas. B inventa o cálculo de massa. C inventa a datação do intervalo entre impactos. D confunde: o calibre até pode ser estimado pelo diâmetro do orifício em anteparo, mas não é uma das finalidades do estudo do padrão de rompimento, e essa medição tem limitações próprias.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4231,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o cone de transfixação e as rupturas no vidro, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A base do cone fica na face que recebeu o choque; as radiais iniciam-se nessa mesma face, por concentração de tensão.",
+      "B": "A base do cone fica na face de entrada; as concêntricas formam-se antes das radiais, dividindo o vidro em setores triangulares.",
+      "C": "A base do cone fica na face oposta à do choque; as radiais iniciam-se na face do impacto, e as concêntricas, na face oposta.",
+      "D": "A base do cone fica na face oposta à do choque, ou seja, na saída; as radiais iniciam-se na face oposta à do impacto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Duas das três respostas que ele cobrou: a base do cone está na face oposta ao choque (na saída, onde há maior perda de massa) e as radiais começam do lado oposto ao impacto, submetido a maior tensão. A erra as duas. C acerta o cone mas inverte radiais e concêntricas. B erra o cone e ainda inverte a ordem de formação — as radiais vêm primeiro.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4232,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as rupturas concêntricas ou espirais no vidro:",
+    "alternativas": {
+      "A": "formam-se antes das radiais e iniciam-se na face oposta à do impacto, sendo típicas dos vidros temperados.",
+      "B": "formam-se simultaneamente às radiais e não permitem inferir o lado de onde partiu o choque contra a superfície.",
+      "C": "formam-se depois das radiais e iniciam-se do lado do impacto, sendo frequentes nos vidros laminados.",
+      "D": "formam-se depois das radiais e iniciam-se na face oposta à do impacto, do mesmo modo que as fendas radiais."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. As concêntricas vêm depois das radiais e iniciam do lado da pancada — foi a terceira resposta cobrada. Aparecem com frequência em laminados, mais flexíveis que os comuns. A inverte a ordem, o lado e o tipo de vidro. B nega a inferência, que é justamente a utilidade pericial. D acerta a ordem mas repete o lado das radiais, perdendo a distinção entre elas.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4233,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o mecanismo de formação das rupturas espirais, é correto afirmar que:",
+    "alternativas": {
+      "A": "os setores triangulares delimitados pelas radiais são empurrados no mesmo sentido do deslocamento do objeto, e as espirais surgem entre duas radiais já formadas.",
+      "B": "as espirais surgem do centro para a periferia, à medida que o vidro recupera elasticamente a posição original após o impacto.",
+      "C": "os setores triangulares delimitados pelas radiais são empurrados em sentido contrário ao do deslocamento do objeto, o que explica a curvatura característica das espirais.",
+      "D": "as espirais decorrem exclusivamente da vibração residual do caixilho, sendo independentes da força aplicada no impacto."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É o mecanismo em três tempos: radiais dividem o vidro em setores, os setores são empurrados no sentido do deslocamento do objeto e, com a continuidade da força, formam-se as espirais entre duas radiais. B descreve um retorno elástico que não corresponde ao processo. C inverte o sentido do empurrão. D atribui o fenômeno ao caixilho, desligando-o da força do impacto.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4234,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em uma vidraça com três impactos, verifica-se que as fendas radiais do impacto azul são interrompidas pelas do amarelo, e que as do amarelo são interrompidas pelas do vermelho. A ordem dos disparos foi:",
+    "alternativas": {
+      "A": "azul, amarelo e vermelho, pois a fenda que se interrompe é sempre a mais antiga da sequência analisada.",
+      "B": "não é possível determinar a ordem apenas pelas radiais, sendo necessário examinar também as rupturas concêntricas.",
+      "C": "amarelo, vermelho e azul, já que o impacto intermediário é aquele cujas fendas interrompem e são interrompidas.",
+      "D": "vermelho, amarelo e azul."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. As radiais do disparo posterior PARAM nas do anterior: quem barra é o mais antigo, quem para é o mais novo. Como as do vermelho barram todas, ele foi o primeiro; o amarelo barra o azul, sendo o segundo. A inverte a regra. C descreve corretamente a posição do intermediário, mas atribui essa posição ao amarelo em primeiro lugar, contradizendo os dados. B nega a possibilidade de determinação, que é justamente a utilidade do exame.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4235,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o conceito de microvestígio, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Depende de medida física absoluta, considerando-se microvestígio o material de dimensão submilimétrica.",
+      "B": "Corresponde a categoria autônoma, distinta dos vestígios físicos, químicos e biológicos, com regime próprio de coleta.",
+      "C": "Depende do contexto e da dificuldade de percepção, e não exclusivamente de uma medida física absoluta.",
+      "D": "Abrange apenas os materiais invisíveis a olho nu, excluídos os que podem ser percebidos sem auxílio técnico."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O mesmo fragmento de vidro é visível num piso claro e imperceptível nos escombros de uma explosão — o que define é a perceptibilidade no contexto. A fixa um limite métrico que o material expressamente afasta. B erra a natureza: microvestígios SÃO vestígios físicos. D exclui os perceptíveis, quando a definição fala em difícil visualização, não em invisibilidade absoluta.",
+    "referencia": "Bizuraço Prova — 8. Microvestígios e ajuste físico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4236,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor cobrou expressamente a formulação do fundamento científico do exame de ajuste físico. Trata-se da premissa de que:",
+    "alternativas": {
+      "A": "materiais produzidos em série apresentam variações microscópicas de fabricação que os individualizam desde a origem.",
+      "B": "objetos submetidos à mesma combinação de forças tendem a romper segundo padrões previsíveis e comparáveis entre si.",
+      "C": "a comparação entre bordas separadas permite estabelecer a origem comum a partir de características de classe do material.",
+      "D": "eventos de separação, como quebras, cortes e rasgos, não são reproduzíveis e geram características individuais."
+    },
+    "resposta_correta": "D",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. É a frase que ele mandou gravar: a não reprodutibilidade do evento de separação é o que confere características INDIVIDUAIS. A desloca a individualização para a fabricação, quando o próprio exemplo das canecas idênticas mostra que o que individualiza é a separação. C reduz a conclusão a características de classe, que não individualizam. B afirma previsibilidade do rompimento, o exato contrário da premissa.",
+    "referencia": "Bizuraço Prova — 8. Microvestígios e ajuste físico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4237,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a interpretação do resultado do exame de ajuste físico:",
+    "alternativas": {
+      "A": "a ausência de ajuste físico demonstra que os itens comparados têm origens diferentes.",
+      "B": "a ausência de ajuste físico não implica que os itens comparados tenham se originado de fontes diferentes.",
+      "C": "a perda de material ao longo da borda separada descarta, por si só, a possibilidade de ajuste físico positivo.",
+      "D": "o ajuste positivo depende do realinhamento integral dos contornos macroscópicos das duas peças confrontadas."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. É a pegadinha de negativa: ausência de ajuste não prova origens distintas. A afirma exatamente o que a regra nega. C é falsa porque a perda de material nem sempre descarta o ajuste. D exige realinhamento integral, quando o ajuste pode resultar de características que atravessam o limite de separação, como estrias e grãos de madeira, mesmo sem alinhamento pleno das bordas.",
+    "referencia": "Bizuraço Prova — 8. Microvestígios e ajuste físico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4238,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa correta sobre as técnicas de coleta de microvestígios.",
+    "alternativas": {
+      "A": "A varredura a vácuo deve ser a primeira técnica empregada, por recuperar o maior volume de material da área examinada.",
+      "B": "A varredura a vácuo deve ser empregada por último, por ser indiscriminada, sendo indicada em fendas profundas e áreas grandes.",
+      "C": "O levantamento com fita adesiva é indicado para tintas e polímeros, cuja aderência ao adesivo facilita a posterior separação.",
+      "D": "A coleta do item inteiro deve ser evitada, pois amplia o risco de contaminação durante o transporte até o laboratório."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O aspirador é indiscriminado e vem depois das demais técnicas, sendo útil em fendas profundas, áreas extensas ou quando já se passou muito tempo. A inverte a ordem de emprego. C contraria a advertência expressa: não usar adesivo em tinta ou polímeros, porque o adesivo lixivia e altera a química. D inverte a regra geral, que é preferir a coleta do item inteiro quando for fácil, pois a retirada é mais eficiente em laboratório.",
+    "referencia": "Bizuraço Prova — 8. Microvestígios e ajuste físico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4239,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os cuidados na coleta de microvestígios, é correto afirmar que:",
+    "alternativas": {
+      "A": "a iluminação oblíqua auxilia a visualizar partículas de superfície, e a coleta de brancos inclui amostra do suporte usado para coletar.",
+      "B": "a iluminação frontal difusa é a mais indicada para localizar cabelos e fragmentos de vidro em superfícies têxteis.",
+      "C": "a coleta de brancos limita-se à amostra padrão do material conhecido, dispensando amostra do suporte de coleta.",
+      "D": "a busca por vestígios no corpo deve ocorrer sempre após a autópsia, quando as lesões já se encontram devidamente descritas pelo legista."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A luz oblíqua realça partículas superficiais, e os brancos incluem a amostra do próprio suporte de coleta, para descartar contaminação vinda do material do perito. B troca a iluminação oblíqua pela frontal difusa, que não realça relevo. C suprime justamente o branco do suporte. D inverte o momento: a busca no corpo, se feita, deve ocorrer ANTES da autópsia.",
+    "referencia": "Bizuraço Prova — 8. Microvestígios e ajuste físico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4240,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o acondicionamento de microvestígios e de itens molhados:",
+    "alternativas": {
+      "A": "os itens molhados devem ser secos ao ar, sem exposição a calor ou sol, salvo os destinados a exame de líquidos inflamáveis ou alvejante.",
+      "B": "os itens molhados devem ser secos com auxílio de fonte de calor branda, que acelera o processo e reduz o risco microbiológico.",
+      "C": "todos os itens molhados devem ser secos ao ar, sem exceção, antes de qualquer acondicionamento em embalagem primária.",
+      "D": "os itens molhados devem ser acondicionados ainda úmidos em embalagem plástica hermética e encaminhados sob refrigeração."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A regra é secar ao ar sem calor nem sol, e a exceção é relevante: itens que serão examinados quanto a líquidos inflamáveis ou alvejante NÃO são secos, sob pena de perda da evidência. B introduz o calor, expressamente vedado. C nega a exceção. D generaliza o regime dos biológicos líquidos para todo item molhado.",
+    "referencia": "Bizuraço Prova — 8. Microvestígios e ajuste físico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4241,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a matemática cobrada nos locais com disparo de arma de fogo, o professor foi expresso ao afirmar que:",
+    "alternativas": {
+      "A": "as questões envolvem cosseno e tangente, aplicados ao cálculo do ângulo de incidência sobre o anteparo atingido.",
+      "B": "as questões envolvem semelhança de triângulos, não havendo cosseno nem tangente.",
+      "C": "as questões envolvem o teorema de Pitágoras, aplicado à hipotenusa formada entre o orifício e o ponto de impacto.",
+      "D": "as questões dispensam cálculo, bastando a leitura direta das medidas apresentadas no croqui do local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Ele foi taxativo: não tem cosseno, não tem tangente — o que cai é semelhança de triângulos (e o seno, nas manchas de sangue). A e C indicam ferramentas que ele afastou. D nega a existência do cálculo, que é justamente o tipo de questão anunciado.",
+    "referencia": "Bizuraço Prova — 9. Disparo de arma de fogo",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4242,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Em um local de crime, um orifício de projétil no piso encontra-se a 20 m de um muro de 3 m de altura, que não apresenta orifícios. A 450 m além do muro há um prédio de 100 m. Considerando trajetória retilínea, a altura do disparo e a compatibilidade com o prédio são:",
+    "alternativas": {
+      "A": "70,5 m, sendo compatível com o prédio.",
+      "B": "67,5 m, sendo compatível com o prédio, pois a base do triângulo maior corresponde à distância entre o muro e a edificação.",
+      "C": "70,5 m, sendo incompatível, uma vez que a altura obtida ultrapassa o limite construtivo do prédio examinado.",
+      "D": "3,0 m, pois a altura do disparo é limitada pela altura do muro que a trajetória precisou transpor no percurso."
+    },
+    "resposta_correta": "A",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Os dois triângulos partem do mesmo vértice, então a base maior é 20 + 450 = 470. De H/3 = 470/20 vem H = 70,5 m, inferior aos 100 m do prédio — logo, compatível. B usa B = 450, erro que o professor apontou expressamente. C acerta o cálculo mas erra a conclusão, pois 70,5 é menor que 100. D confunde a altura do muro com a altura do disparo.",
+    "referencia": "Bizuraço Prova — 9. Disparo de arma de fogo",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4243,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na resolução do problema do muro por semelhança de triângulos, a altura do prédio:",
+    "alternativas": {
+      "A": "deve ser inserida na proporção, por constituir a altura do triângulo maior formado na representação gráfica.",
+      "B": "não entra no cálculo, servindo apenas para verificar, ao final, se a altura encontrada é compatível com a edificação.",
+      "C": "substitui a altura do muro na proporção, quando a trajetória passa acima da barreira sem atingi-la.",
+      "D": "define a base do triângulo menor, que corresponde à projeção horizontal da fachada sobre o solo."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O professor insistiu: no primeiro momento a altura do prédio não importa; ela só serve depois, para checar se o H encontrado cabe ali. A é o erro que ele antecipou — inserir todos os valores impede achar a incógnita. C substitui a altura do muro, que é justamente a altura conhecida do triângulo menor. D confunde altura com base.",
+    "referencia": "Bizuraço Prova — 9. Disparo de arma de fogo",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4244,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As etapas do exame perinecroscópico, na ordem correta, são:",
+    "alternativas": {
+      "A": "exame das vestes; exame visual do cadáver; exame do cadáver sem vestes.",
+      "B": "exame visual do cadáver; exame das vestes; exame do cadáver sem vestes.",
+      "C": "exame visual do cadáver; exame do cadáver sem vestes; exame das vestes já removidas.",
+      "D": "exame do local em torno do corpo; exame visual do cadáver; exame das vestes e do cadáver simultaneamente."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A ordem é visual, vestes e cadáver sem vestes. A antecipa as vestes ao exame visual. C remove as vestes antes de examiná-las na posição em que se encontram, o que descaracteriza escorrimentos e manchas. D acrescenta uma etapa inexistente e funde as duas últimas, perdendo a sequência.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4245,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor perguntou se a principal função do exame perinecroscópico é levantar impressões digitais. A resposta correta é:",
+    "alternativas": {
+      "A": "sim, pois a identificação do cadáver é pressuposto de todas as demais conclusões periciais sobre o fato.",
+      "B": "não; a função principal é a caracterização completa, buscando a causa e a dinâmica da morte, e o levantamento digital é parte disso.",
+      "C": "não; a função principal é a coleta de material genético, cabendo a identificação datiloscópica ao papiloscopista no IML.",
+      "D": "sim, quando o cadáver estiver sem documentos, hipótese em que a identificação assume prioridade sobre os demais exames."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O levantamento de impressões faz parte, mas a função principal é a caracterização completa, voltada à causa e à dinâmica da morte — vai muito além da identificação. A e D tratam a identificação como finalidade principal, ainda que D a condicione. C troca uma finalidade acessória por outra, a coleta genética, igualmente parcial diante do objetivo do exame.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4246,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que descreve corretamente o conteúdo das etapas do perinecroscópico.",
+    "alternativas": {
+      "A": "Na 1ª etapa descrevem-se cor da pele, cabelos, compleição, sexo, altura e fase cronológica; na 2ª, orifícios, manchas e conteúdo dos bolsos.",
+      "B": "Na 1ª etapa descrevem-se as lesões por região anatômica; na 2ª, a posição do corpo e sua relação com os objetos do local.",
+      "C": "Na 2ª etapa procede-se ao exame de todas as regiões anatômicas; na 3ª, à descrição das vestes já acondicionadas.",
+      "D": "Na 1ª etapa realiza-se a coleta do material existente sob as unhas; na 3ª, a descrição das características físicas gerais e da fase cronológica do cadáver."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É a divisão correta: características físicas e posição na etapa visual; forma de acomodação das vestes, orifícios, manchas, outros vestígios e conteúdo dos bolsos na etapa das vestes. B desloca as lesões para a primeira etapa, quando elas pertencem à terceira. C e D embaralham conteúdos entre etapas, invertendo a lógica de progressão do exame.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4247,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame perinecroscópico é realizado no local, e não no instituto médico-legal, porque:",
+    "alternativas": {
+      "A": "a legislação processual veda a remoção do cadáver antes de concluído o exame externo pela autoridade policial.",
+      "B": "permite preservar os vestígios e, sobretudo, relacionar o corpo com os demais vestígios da cena.",
+      "C": "o médico legista somente pode iniciar o exame interno após a conclusão do exame externo por perito criminal.",
+      "D": "as condições de iluminação e de acesso ao corpo são mais favoráveis no local do que em ambiente laboratorial."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A razão é a contextualização: lesões confrontadas com o instrumento presente na cena, com as manchas de sangue e com a posição do corpo. A inventa uma vedação legal. C cria uma condicionante procedimental inexistente. D é factualmente inverso, pois o ambiente controlado do IML oferece melhores condições técnicas — o que justifica o exame no local é o contexto, não o conforto.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4248,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A análise conjunta do cadáver com os demais vestígios do local permite, entre outras conclusões:",
+    "alternativas": {
+      "A": "estabelecer se a vítima foi morta naquele local ou ali desovada, pela compatibilidade das manchas de sangue e dos livores com a posição do corpo.",
+      "B": "determinar com precisão o horário do óbito, a partir da correlação entre a temperatura do corpo e a do ambiente.",
+      "C": "identificar com segurança o autor do fato, sempre que houver material genético aproveitável sob as unhas da vítima em quantidade suficiente para exame.",
+      "D": "definir a causa jurídica da morte, que decorre diretamente do quadro patológico verificado no exame externo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Foi o ponto destacado: a incompatibilidade entre as manchas ou os livores e a posição do corpo indica desova. B afirma precisão incompatível com a cronotanatognose, que exige avaliação conjunta e nunca se baseia em um único sinal. C converte um indício em identificação de autoria. D confunde causa jurídica com causa médica.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4249,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o exame do cadáver ainda vestido, é correto afirmar que:",
+    "alternativas": {
+      "A": "as vestes devem ser removidas antes de qualquer registro, para que as lesões sejam fotografadas sem interposição de tecido.",
+      "B": "o corpo é examinado primeiro com as vestes, para não descaracterizar escorrimentos e manchas de sangue.",
+      "C": "as vestes só são examinadas no IML, cabendo ao perito de local apenas descrevê-las de forma sumária no laudo.",
+      "D": "as manchas ainda líquidas devem ser coletadas antes de qualquer registro fotográfico, dado o risco de escorrimento."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Examina-se primeiro com as vestes, justamente para preservar escorrimentos e demais manchas. A antecipa a remoção e destrói esses padrões. C transfere ao IML um exame que integra a segunda etapa do perinecroscópico. D inverte a ordem entre registro e coleta: em manchas líquidas o registro deve ser feito ANTES de movimentar o corpo.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4250,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos termos do art. 164 do CPP e do art. 17 da IT 20/2013-DITEC/PF, os cadáveres:",
+    "alternativas": {
+      "A": "serão sempre fotografados na posição em que forem encontrados, bem como, na medida do possível, as lesões externas e os vestígios do local.",
+      "B": "serão fotografados após a remoção das vestes, de modo que o registro documente integralmente a superfície corporal.",
+      "C": "serão fotografados na posição em que forem encontrados apenas quando houver fundada suspeita de alteração do estado do local por terceiros.",
+      "D": "serão fotografados pelo médico legista no momento da entrada no instituto médico-legal, com escala e identificação."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É a redação dos dispositivos, com o advérbio SEMPRE. B condiciona o registro à remoção das vestes, contrariando a exigência de fotografar na posição encontrada. C transforma a regra geral em hipótese excepcional. D transfere ao legista um registro que é do perito de local, no próprio local.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4251,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor afirmou que, para trabalhar manchas de sangue, é indispensável primeiro:",
+    "alternativas": {
+      "A": "identificar e classificar corretamente as manchas, pois sem isso não se estabelece a dinâmica do evento.",
+      "B": "confirmar a natureza hemática do material por teste presuntivo, antes de qualquer inferência morfológica.",
+      "C": "medir o ângulo de impacto de todas as manchas visíveis, para só então definir o ponto de convergência.",
+      "D": "coletar material para exame de DNA, já que a classificação morfológica depende do perfil genético obtido."
+    },
+    "resposta_correta": "A",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Ele foi direto: sem saber identificar e classificar, você morre na praia e não faz a dinâmica. B trata de um exame de constatação que não é o pressuposto da leitura morfológica cobrada. C inverte a ordem: a medição de ângulos pressupõe a classificação prévia dos padrões. D condiciona a morfologia ao DNA, que são exames independentes.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4252,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o formato das questões de manchas de sangue, o professor esclareceu que:",
+    "alternativas": {
+      "A": "só haverá questões descritivas, pois imagens não são reproduzidas com fidelidade suficiente no caderno de prova.",
+      "B": "pode haver foto, descrição ou ambas, e na prova em computador é possível dar zoom, sendo as fotos coloridas.",
+      "C": "haverá exclusivamente fotografias, todas inéditas, produzidas especificamente para a avaliação final da disciplina.",
+      "D": "as imagens serão apresentadas em escala de cinza, para não favorecer candidatos com melhor acuidade cromática."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Ele disse que pode ter foto, descrição, pode ter tudo, e destacou a vantagem do zoom e das fotos coloridas na prova em computador. A e C absolutizam um único formato. D afirma escala de cinza, contrariando a informação de que as fotos são coloridas.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4253,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa que associa corretamente o padrão de mancha ao seu mecanismo de formação.",
+    "alternativas": {
+      "A": "Gotejada: formada pela ação da gravidade; arterial: pelo bombeamento cardíaco, com alternância entre sístole e diástole.",
+      "B": "Gotejada: formada pelo desprendimento de sangue de instrumento em movimento; arterial: pela ação exclusiva da gravidade.",
+      "C": "Impactada: formada pela absorção do sangue por superfície porosa; cast-off: por impacto sobre uma fonte de sangue.",
+      "D": "Cast-off: formada pela ação da gravidade sobre gota isolada; impactada: pelo escorrimento a partir da área de lesão."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Gotejada tem a gravidade como única força atuante; a arterial soma o bombeamento cardíaco, com variação de intensidade entre sístole e diástole. B troca gotejada com cast-off e reduz a arterial à gravidade. C confunde impactada com saturação e cast-off com impactada. D atribui ao cast-off o mecanismo da gotejada e à impactada o do escorrimento.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4254,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A mancha de sangue do tipo cast-off (espargimento de dissociação) caracteriza-se por:",
+    "alternativas": {
+      "A": "conjunto radial de manchas a partir de um ponto de origem, formado por impacto sobre fonte de sangue.",
+      "B": "sequência de manchas em linha, que começa circular e termina elíptica, formada pelo desprendimento de instrumento.",
+      "C": "mancha única e alongada, formada pelo escorrimento do sangue ao longo de superfície vertical, sob ação da gravidade.",
+      "D": "conjunto de manchas elípticas acompanhado de escorrimento característico, típico de lesão em vaso de grande calibre."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O cast-off vem do sangue que se desprende de um instrumento em movimento ou por parada repentina, formando sequência linear que começa circular e termina elíptica. A descreve a impactada. C descreve o escorrimento. D descreve o padrão arterial.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4255,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as manchas alteradas, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A alteração por contato só é reconhecida quando reproduz a forma do objeto; caso contrário, classifica-se como mancha por acúmulo.",
+      "B": "Quando a mancha permite identificar o objeto que causou a transferência, classifica-se como alterada por contato e transferida.",
+      "C": "A mancha do tipo sombra decorre do acúmulo de sangue ao redor de objeto interposto, que retém o material em suas bordas.",
+      "D": "A alteração por diluição pressupõe a ação humana deliberada de lavagem, não abrangendo a ação da chuva sobre o local."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Se a mancha reproduz a forma do objeto — mão, solado, instrumento — é alterada por contato E transferida; se apenas borrou, é só alterada por contato. A cria uma reclassificação para acúmulo que não existe. C inverte a sombra, que decorre da AUSÊNCIA de sangue no ponto onde o objeto impediu a deposição. D exclui a chuva, que é justamente o exemplo dado de diluição.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4256,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São classificadas como manchas por acúmulo:",
+    "alternativas": {
+      "A": "sangue sobre sangue, poça, saturação e escorrimento.",
+      "B": "sangue sobre sangue, poça, sombra e transferência por contato.",
+      "C": "poça, saturação, impactada e padrão arterial com escorrimento associado.",
+      "D": "saturação, escorrimento, gotejamento em sequência e espargimento por dissociação do instrumento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as quatro do grupo, sendo a saturação a que decorre da absorção pela superfície (colchão, panos grossos). B inclui sombra e transferência, que são manchas ALTERADAS. C inclui impactada e arterial, que são regulares. D inclui gotejamento e cast-off, também do grupo das regulares.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4257,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Comparando duas manchas impactadas produzidas por disparos de arma de fogo, aquela cujas gotículas são visivelmente menores, com aspecto de spray, indica:",
+    "alternativas": {
+      "A": "menor energia, pois a redução do diâmetro decorre da perda de velocidade do projétil antes do impacto.",
+      "B": "maior energia, pois quanto maior a energia, maior a atomização e menores os diâmetros das manchas.",
+      "C": "maior distância do disparo, sendo a energia envolvida irrelevante para o tamanho das gotículas formadas.",
+      "D": "maior volume de sangue na fonte atingida, o que fragmenta o material em partículas de menor diâmetro."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. É a regra que ele repetiu duas vezes: maior energia, maior atomização, menores as manchas. A inverte a relação. C substitui a energia pela distância, que não é o fator determinante da atomização. D atribui o efeito ao volume de sangue, quando o que fragmenta é a energia transferida.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4258,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Ao classificar manchas de sangue a partir de uma fotografia, deve-se atentar para que:",
+    "alternativas": {
+      "A": "cada imagem admite uma única classificação, devendo o perito optar pelo padrão predominante na cena retratada.",
+      "B": "uma mesma imagem pode apresentar mais de uma classificação simultânea, como impactada com alteração por contato.",
+      "C": "a classificação depende da confirmação laboratorial da natureza hemática, sendo provisória qualquer leitura feita no local.",
+      "D": "manchas em superfícies irregulares não são classificáveis, pois a textura do suporte descaracteriza o padrão original."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Ele mostrou imagens com classificação múltipla — uma impactada que também tinha alteração por contato, e uma cena em que a remoção da rede revelaria uma sombra. A impõe exclusividade inexistente. C condiciona a leitura morfológica ao laboratório. D exclui as superfícies irregulares, quando a influência da superfície é justamente um dos elementos de análise.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4259,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o que se pode inferir do estudo morfológico das manchas de sangue:",
+    "alternativas": {
+      "A": "posição da vítima e do agressor, movimentação após o ferimento, intensidade do traumatismo e movimentos durante o golpe.",
+      "B": "posição da vítima, tempo decorrido desde o óbito e identificação do instrumento utilizado na agressão.",
+      "C": "intensidade do traumatismo e tipo sanguíneo da vítima, obtido pela coloração apresentada pelas manchas mais recentes.",
+      "D": "movimentação após o ferimento e número exato de golpes desferidos, calculado pela quantidade de padrões de cast-off."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as quatro inferências listadas. B inclui a datação do óbito, que é da cronotanatognose, e a identificação do instrumento, que a morfologia apenas sugere. C afirma a determinação do tipo sanguíneo pela cor, o que não ocorre — a cor indica a idade da mancha. D afirma um número exato de golpes, que o padrão não permite estabelecer.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4260,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as características das manchas e a informação que cada uma fornece:",
+    "alternativas": {
+      "A": "a cor indica a dinâmica; a forma, a data da mancha; a dimensão, a posição relativa da vítima.",
+      "B": "a cor indica a data da mancha; a forma, a dinâmica; a dimensão, a intensidade das lesões.",
+      "C": "a cor indica a intensidade das lesões; a forma, a data; a dimensão, a distância percorrida pela gota.",
+      "D": "a cor indica a origem arterial ou venosa; a forma, a altura de queda; a dimensão, a superfície de impacto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A cor evolui com a lise celular e a oxidação do heme, revelando a idade da mancha; a forma revela a dinâmica; a dimensão, a intensidade das lesões. A, C e D embaralham essas correspondências, atribuindo a cada característica uma informação que pertence a outra.",
+    "referencia": "Bizuraço Prova — 11. Manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4261,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a quantidade e a natureza dos vestígios nos locais de crime contra o patrimônio:",
+    "alternativas": {
+      "A": "o roubo produz quantidade significativa de vestígios pelo contato direto com a vítima; o furto, escassez, pela ação furtiva.",
+      "B": "o roubo produz escassez de vestígios, pela rapidez da ação; o furto com arrombamento produz quantidade significativa.",
+      "C": "ambos produzem quantidade equivalente de vestígios, variando apenas a natureza do material predominante em cada um.",
+      "D": "o dano produz escassez de vestígios, ao passo que roubo e furto se equiparam quanto ao volume de material recuperável."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O roubo é ação rápida e dinâmica, com poucos vestígios; o arrombamento envolve acesso forçado, circulação e subtração, gerando muitos. A inverte integralmente. C nega a distinção, que é justamente o contraste cobrado. D desloca a comparação para o dano, cujos vestígios próprios são a destruição e as marcas de ferramenta.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4262,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São vestígios tipicamente encontrados em local de furto com arrombamento:",
+    "alternativas": {
+      "A": "marcas de arrombamento e de ferramentas, fragmentos de vidro, pegadas, marcas de escalada e vestígios biológicos.",
+      "B": "apenas marcas de ferramenta e fragmentos de vidro, sendo os biológicos próprios dos crimes contra a pessoa.",
+      "C": "cordas de contenção das vítimas, projéteis deflagrados e registros de videomonitoramento das vias públicas.",
+      "D": "pichações e grafismos não autorizados, além de mobiliário propositalmente destruído pelos agentes no interior do imóvel."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É o rol do arrombamento, que inclui os biológicos (suor, sangue, saliva, urina, fezes). B exclui os biológicos, contrariando a resposta dada em aula de que pode haver biológico em qualquer crime. C lista vestígios típicos de roubo. D lista vestígios típicos de dano.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4263,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as marcas de ferramenta em locais de arrombamento:",
+    "alternativas": {
+      "A": "são dos tipos compressão, cisalhamento, impacto e repetição, e podem chegar a individualizar a ferramenta utilizada.",
+      "B": "são dos tipos por impressão, por depósito e por desenho, permitindo apenas indicar a classe do instrumento empregado.",
+      "C": "não admitem moldagem, devendo ser documentadas exclusivamente por fotografia com escala e por descrição narrativa.",
+      "D": "prestam-se somente a demonstrar o rompimento de obstáculo, sem aptidão para vincular o vestígio a instrumento determinado."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São os quatro tipos, e o valor probatório vai além de indicar o tipo: pode individualizar a ferramenta. B usa a classificação das marcas de SOLADO e limita o alcance probatório. C nega a moldagem, que integra as formas de registro. D reduz a prova ao rompimento de obstáculo, desconsiderando a possibilidade de individualização.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4264,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as marcas de solados encontradas em local de crime:",
+    "alternativas": {
+      "A": "classificam-se em compressão, cisalhamento e impacto, e prestam-se exclusivamente a incriminar o suspeito confrontado.",
+      "B": "classificam-se em por impressão, por depósito e por desenho, e podem incriminar ou eliminar um suspeito.",
+      "C": "permitem determinar o número de participantes, mas não auxiliam no estabelecimento da dinâmica do evento delituoso.",
+      "D": "quando encontradas fora do solo, indicam contaminação da cena por terceiros que ingressaram após o fato."
+    },
+    "resposta_correta": "B",
+    "justificativa": "São os três tipos, e o valor probatório é duplo: pode incriminar OU eliminar. A usa a classificação das marcas de ferramenta e ignora a função de exclusão. C nega a contribuição à dinâmica, que é expressamente listada. D inverte o significado: pegada fora do solo é indicativa de ESCALADA.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4265,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a busca completa em local de furto, a disposição geral do ambiente deve ser observada porque:",
+    "alternativas": {
+      "A": "ambiente em completa desordem indica busca exaustiva pelo bem, e ambiente excessivamente organizado pode indicar conhecimento prévio.",
+      "B": "ambiente em completa desordem indica ação de mais de um agente, e ambiente organizado, ação de agente isolado.",
+      "C": "ambiente em completa desordem indica simulação do delito pela própria vítima, sendo a organização sinal de autenticidade.",
+      "D": "a disposição do mobiliário é irrelevante para o laudo, por constituir circunstância subjetiva não passível de aferição técnica."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É a leitura cobrada, e deve ser consignada em laudo. B converte a desordem em número de agentes, o que ela não permite concluir. C salta para a hipótese de autofraude sem suporte. D nega valor pericial a um dado objetivo da cena.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4266,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a análise de sistemas de CFTV em locais de crime contra o patrimônio:",
+    "alternativas": {
+      "A": "deve ser feita ao final dos trabalhos, para que as imagens confirmem os vestígios já levantados pela equipe.",
+      "B": "deve ser feita antes de iniciar a busca por vestígios, conferindo-se a sincronização temporal do relógio do DVR ou NVR.",
+      "C": "restringe-se às câmeras internas do imóvel periciado, por serem as únicas com cobertura útil da área de interesse.",
+      "D": "dispensa a verificação do relógio do equipamento, cuja precisão é garantida pela sincronização automática com a rede."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A recomendação é checar o CFTV ANTES da busca, porque as imagens direcionam a coleta para as superfícies efetivamente tocadas; e a confiabilidade cronológica depende da conferência do relógio do DVR. A inverte o momento e perde esse direcionamento. C exclui as câmeras das adjacências, que frequentemente cobrem os acessos. D dispensa a conferência que é justamente o cuidado central.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4267,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre os crimes contra o patrimônio e suas qualificadoras, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "No furto, o rompimento de obstáculo é causa de aumento de pena; no roubo, o emprego de arma de fogo é qualificadora.",
+      "B": "No furto, o rompimento de obstáculo é qualificadora; no roubo, o emprego de arma de fogo aumenta a pena em dois terços.",
+      "C": "No furto praticado durante o repouso noturno, a pena é aumentada de um terço; no roubo, o concurso de pessoas qualifica o crime.",
+      "D": "No dano, a violência à pessoa é causa de aumento; no furto, o emprego de chave falsa é circunstância meramente agravante."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O rompimento de obstáculo é qualificadora do furto (art. 155, §4º, I) e a arma de fogo no roubo aumenta a pena de dois terços (art. 157, §2º-A, I). A troca os institutos entre os dois tipos. C erra a fração do repouso noturno, que é de metade, e classifica o concurso como qualificadora do roubo, quando é causa de aumento. D trata a violência no dano como aumento, sendo qualificadora, e rebaixa a chave falsa a agravante, sendo qualificadora do furto.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4268,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o elemento subjetivo nos crimes contra o patrimônio examinados:",
+    "alternativas": {
+      "A": "furto, roubo e dano admitem a modalidade culposa quando o prejuízo decorre de conduta manifestamente descuidada.",
+      "B": "não existe furto culposo, nem roubo culposo, nem se admite o dano na modalidade culposa.",
+      "C": "apenas o dano admite a forma culposa, dada a possibilidade de deterioração acidental de coisa alheia.",
+      "D": "apenas o furto admite a forma culposa, na hipótese de apropriação de coisa alheia por erro sobre a titularidade."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Os três exigem dolo. A generaliza a culpa aos três. C e D abrem exceções inexistentes; no caso de D, a hipótese descrita configuraria erro de tipo ou apropriação indébita, e não furto culposo.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4269,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O exame pericial em local de dano deve buscar estabelecer:",
+    "alternativas": {
+      "A": "o mecanismo de produção do dano, a intensidade da ação, o instrumento utilizado, a extensão dos prejuízos e a compatibilidade com a dinâmica apresentada.",
+      "B": "apenas a extensão dos prejuízos, cuja quantificação econômica é o objeto próprio do exame de constatação de dano.",
+      "C": "o mecanismo de produção do dano e a identificação do autor, que decorre necessariamente do confronto entre as marcas de ferramenta encontradas no local.",
+      "D": "a intenção do agente ao produzir o dano, aferida pela extensão da destruição em relação ao valor total do bem atingido."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São os cinco pontos que o exame deve estabelecer. B reduz o exame à quantificação. C acrescenta a identificação do autor como consequência necessária, quando o confronto de marcas pode, no máximo, individualizar o instrumento. D atribui à perícia a aferição de intenção, que é matéria jurídica.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4270,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O professor perguntou se a reprodução simulada é prova pericial pura. A resposta e sua justificativa são:",
+    "alternativas": {
+      "A": "não é prova pericial pura, porque trabalha com elementos subjetivos, que são as versões apresentadas pelos envolvidos.",
+      "B": "não é prova pericial pura, porque é presidida pela autoridade policial, e não pelo perito criminal responsável.",
+      "C": "é prova pericial pura, pois se materializa em laudo assinado por peritos oficiais após confronto com os vestígios.",
+      "D": "é prova pericial pura quando houver laudo de local anterior, e mista quando realizada sem exame prévio da cena."
+    },
+    "resposta_correta": "A",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. A razão é a presença de elementos subjetivos — as versões. B troca a justificativa por uma questão de presidência do ato. C afirma a pureza a partir da forma (laudo e peritos), ignorando a natureza do material trabalhado. D cria uma gradação que não existe.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4271,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na reprodução simulada, podem apresentar versão:",
+    "alternativas": {
+      "A": "a vítima, o acusado, a testemunha e o policial que atendeu a ocorrência.",
+      "B": "a vítima, o acusado e a testemunha, por serem os atores da infração.",
+      "C": "a vítima, o acusado, a testemunha e o perito que examinou o local anteriormente.",
+      "D": "somente o acusado e a testemunha, uma vez que a versão da vítima já consta do termo de declarações do inquérito."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. São apenas os três atores da infração. O professor foi eliminando: tem versão do perito? Não. De juízes? Não. A e C acrescentam, respectivamente, o policial e o perito, que não são atores da infração. D exclui a vítima, cuja versão é justamente uma das que se confrontam.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4272,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A base legal da reprodução simulada é o art. 7º do CPP, segundo o qual a autoridade policial:",
+    "alternativas": {
+      "A": "deverá proceder à reprodução simulada dos fatos sempre que houver versões conflitantes entre os envolvidos.",
+      "B": "poderá proceder à reprodução simulada dos fatos, desde que esta não contrarie a moralidade ou a ordem pública.",
+      "C": "poderá proceder à reprodução simulada, condicionada à concordância expressa do acusado e de seu defensor.",
+      "D": "deverá proceder à reprodução simulada antes do encerramento do inquérito, nos crimes que deixam vestígios."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O dispositivo é facultativo (poderá) e traz a ressalva da moralidade e da ordem pública. A e D transformam a faculdade em dever. C acrescenta um requisito de concordância que não consta do artigo — embora ninguém possa ser obrigado a participar, a lei não condiciona o ato a essa anuência formal.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4273,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Se, no dia da reprodução simulada, o envolvido apresentar versão diferente daquela que consta do inquérito, o perito deve:",
+    "alternativas": {
+      "A": "suspender o ato e comunicar a autoridade policial, para que decida sobre o prosseguimento da diligência.",
+      "B": "exigir que o depoente mantenha a versão do inquérito, sob pena de nulidade do exame já iniciado.",
+      "C": "anotar, testar e prosseguir com a versão apresentada naquele momento, relatando tudo, batendo ou não com o inquérito.",
+      "D": "encerrar a participação daquele envolvido e prosseguir apenas com os demais, cujas versões permaneçam íntegras."
+    },
+    "resposta_correta": "C",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Ele desenvolveu o ponto: pode mudar, não se pode obrigar a manter, e o procedimento continua — anota, testa, relata e segue com a versão daquele momento. A e D interrompem indevidamente o ato. B impõe uma obrigação de manter a versão que não existe e inventa hipótese de nulidade.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4274,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante a execução da reprodução simulada, quanto à veracidade das versões, é correto afirmar que:",
+    "alternativas": {
+      "A": "o perito deve consignar no local, ao final de cada encenação, se a versão apresentada é verdadeira ou falsa.",
+      "B": "o perito não emite juízo de veracidade no local; a valoração ocorre depois, na análise e no confronto com os vestígios.",
+      "C": "o perito deve confrontar imediatamente o depoente com as contradições identificadas, para obter a retificação da versão.",
+      "D": "a veracidade é presumida em favor da vítima e da testemunha, admitindo-se dúvida apenas quanto à versão do acusado."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. Foi taxativo: não é no local que se vê isso — a valoração é posterior. O perito pode pedir confirmação (é isso mesmo que está no seu depoimento?), mas não emite juízo ali. A antecipa a valoração. C transforma o ato em interrogatório de confronto. D cria presunções de veracidade por posição processual.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4275,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A inconstância do depoente, que apresenta versões diferentes em momentos distintos:",
+    "alternativas": {
+      "A": "deve ser desconsiderada, aproveitando-se apenas a última versão apresentada, por ser a mais próxima da encenação.",
+      "B": "afeta a credibilidade da versão e deve ser consignada, sendo material de análise no confronto posterior.",
+      "C": "acarreta a exclusão daquele depoente do exame, por comprometer a confiabilidade de todo o procedimento realizado.",
+      "D": "somente é relevante quando se tratar do acusado, cuja mudança de versão indica tentativa de dissimulação."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A inconstância é dado de análise e deve ser registrada. A descarta informação relevante. C exclui o depoente, quando o correto é seguir com ele. D restringe a relevância ao acusado, sendo o critério aplicável a qualquer depoente.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4276,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São condições que devem ser obedecidas na reprodução simulada:",
+    "alternativas": {
+      "A": "horário, mesmas armas, reproduções sonoras, roupas, veículos, condições do tempo e perfil das pessoas.",
+      "B": "horário e local, sendo indiferentes as roupas e os veículos, por não influírem na dinâmica reproduzida.",
+      "C": "presença obrigatória do juiz e do promotor, além da identidade de horário e das condições climáticas do dia do fato.",
+      "D": "identidade absoluta de todas as condições, sendo vedada a realização do exame quando alguma delas não puder ser reproduzida."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É o rol das condições, incluindo o perfil dos atores (sexo, cor, compleição, idade). B despreza roupas e veículos, cujos tipos e cores importam para questões de reconhecimento. C torna obrigatória a presença de juiz e promotor, quando o planejamento prevê reunião com representantes da acusação e da defesa. D exige identidade absoluta, quando a regra é que, não sendo possível reproduzir uma condição, ela deve ser considerada na análise final.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4277,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a atribuição da equipe de peritos na reprodução simulada, as funções são:",
+    "alternativas": {
+      "A": "questionar e acompanhar depoimentos; operar as fotografias; fazer anotações, desenhos e medições; realizar a filmagem em vídeo.",
+      "B": "presidir o ato; conduzir os depoentes; registrar as imagens; redigir o termo de declarações a ser juntado ao inquérito.",
+      "C": "questionar os depoentes; coletar vestígios remanescentes; confrontar as versões; concluir sobre a autoria do delito.",
+      "D": "acompanhar os depoimentos; operar as fotografias; realizar a filmagem; decidir sobre a manutenção da versão do inquérito."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as quatro funções previstas. B atribui à equipe a presidência do ato e a redação de termo, que são da autoridade policial. C inclui a conclusão sobre autoria, que não é objeto do ato. D substitui a função de anotações e medições por uma decisão sobre a versão, que ninguém pode impor ao depoente.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4278,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O objetivo central da reprodução simulada é:",
+    "alternativas": {
+      "A": "obter a confissão do acusado mediante a reconstituição detalhada dos atos executórios da infração.",
+      "B": "confrontar as informações subjetivas, isto é, as versões, com os vestígios do local periciado.",
+      "C": "substituir o exame de local não realizado à época, produzindo laudo com o mesmo valor probatório do original.",
+      "D": "reconstituir a cena para fins didáticos e de treinamento, sem finalidade probatória autônoma no processo penal."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O objetivo central é o confronto versões × vestígios. A converte o ato em meio de obtenção de confissão. C descreve o objetivo SECUNDÁRIO — servir de alternativa quando não houve exame de local —, e ainda equipara indevidamente seu valor ao do exame original. D nega a finalidade probatória do exame.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4279,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Nos termos da Portaria DITEC/PF nº 1.192/2022, art. 24, são itens OBRIGATÓRIOS do laudo:",
+    "alternativas": {
+      "A": "preâmbulo, histórico, objeto, exame e conclusão.",
+      "B": "preâmbulo, objeto, objetivo, exame e conclusão.",
+      "C": "preâmbulo, resumo, objeto, objetivo e conclusão.",
+      "D": "preâmbulo, objeto, objetivo, histórico, exame e conclusão."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. São os cinco do §1º. A e D incluem o histórico entre os obrigatórios, sendo ele FACULTATIVO — inversão que o professor sinalizou como armadilha. C inclui o resumo, também facultativo, e suprime o exame, que é o capítulo principal do laudo.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4280,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São itens FACULTATIVOS do laudo pericial:",
+    "alternativas": {
+      "A": "resumo, sumário e histórico, exigindo-se o sumário nos laudos com mais de 30 páginas ou de complexidade que o justifique.",
+      "B": "resumo, sumário e anexos, exigindo-se o sumário nos laudos com mais de 50 páginas ou de complexidade elevada.",
+      "C": "histórico, considerações técnico-periciais e dinâmica do evento, que integram o corpo do laudo apenas quando pertinentes.",
+      "D": "resumo, histórico e conclusão, esta última dispensável quando os exames não permitirem diagnóstico categórico."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São os três do §2º, com o parâmetro de 30 páginas para o sumário. B troca o histórico por anexos — que não são propriamente seção do laudo — e erra o número de páginas. C lista subdivisões do capítulo Exame como se fossem itens autônomos facultativos. D inclui a conclusão, que é obrigatória: mesmo sem diagnóstico categórico, deve constar a impossibilidade e seus motivos.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4281,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Realizada entrevista com vizinhos na chegada ao local, essa informação será consignada em qual parte do laudo?",
+    "alternativas": {
+      "A": "No exame, junto à descrição do ambiente externo e das rotas de acesso identificadas.",
+      "B": "No histórico.",
+      "C": "Na conclusão, como elemento de corroboração das respostas aos quesitos formulados.",
+      "D": "Na dinâmica do evento, por integrar a reconstrução cronológica dos fatos apurados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O histórico reúne as informações da ocorrência e as providências iniciais, e é ali que entram as entrevistas. A desloca para o exame, que trata da caracterização do local e dos vestígios. C leva à conclusão informação subjetiva, que não embasa conclusão pericial. D coloca na dinâmica, que se constrói a partir dos vestígios e dos exames complementares.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4282,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A dinâmica do evento, no laudo de local, consiste em:",
+    "alternativas": {
+      "A": "narrar a versão apresentada pela vítima e pelas testemunhas, ordenando cronologicamente os fatos por elas relatados.",
+      "B": "contextualizar e correlacionar as informações do levantamento de local com os resultados dos exames complementares, formando a convicção sobre como o delito ocorreu.",
+      "C": "descrever minuciosamente cada vestígio encontrado, com suas dimensões e posição relativa no croqui elaborado.",
+      "D": "apresentar todas as hipóteses tecnicamente possíveis para o fato, sem eleger qualquer delas, cabendo à autoridade requisitante a escolha da versão mais provável."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. É a definição que o professor mandou decorar. A constrói a dinâmica sobre versões, quando ela se assenta em vestígios e exames. C descreve a caracterização dos vestígios, que antecede a dinâmica. D nega a formação de convicção, que é justamente o núcleo do conceito.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4283,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o preâmbulo do laudo pericial:",
+    "alternativas": {
+      "A": "a numeração é sequencial, comum a todas as áreas e unidades de criminalística, e reinicia no primeiro dia de cada ano.",
+      "B": "a numeração é própria de cada área de perícia e mantém continuidade entre os exercícios, sem reinício anual.",
+      "C": "deve conter a descrição do local examinado e as condições de isolamento verificadas na chegada da equipe.",
+      "D": "deve conter as respostas aos quesitos, antecipando a conclusão para facilitar a leitura pelo destinatário do laudo."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A numeração é sequencial, comum a todas as áreas e unidades, e recomeça em 1º de janeiro. B nega tanto a unicidade quanto o reinício anual. C descreve conteúdo do exame e do histórico. D antecipa a conclusão, que tem capítulo próprio.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4284,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O capítulo Exame do laudo de local pode ser subdividido em:",
+    "alternativas": {
+      "A": "local, sistemas de segurança, vestígios, exames complementares, considerações técnico-periciais, análise e interpretação dos vestígios e dinâmica do evento.",
+      "B": "preâmbulo, histórico, objeto e objetivo dos exames, conforme a complexidade do local periciado e a extensão do trabalho de campo realizado pela equipe.",
+      "C": "descrição narrativa, croqui e registro fotográfico, correspondentes aos três métodos de documentação empregados.",
+      "D": "materialidade, autoria e dinâmica, correspondentes aos três objetivos a serem alcançados pelo exame pericial."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as subdivisões possíveis do capítulo principal. B lista outros itens do laudo, que não são subdivisões do exame. C confunde as subdivisões com os métodos de documentação. D usa os objetivos da reprodução simulada como estrutura do capítulo.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4285,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Quando os peritos não reúnem elementos suficientes para um diagnóstico conclusivo:",
+    "alternativas": {
+      "A": "o laudo deve ser devolvido à autoridade requisitante sem o capítulo de conclusão, aguardando-se a produção de novos elementos pela investigação.",
+      "B": "deve constar do laudo a impossibilidade de conclusão categórica e seus motivos, admitida também a conclusão parcial que exclua hipóteses.",
+      "C": "os peritos devem apresentar a hipótese mais provável, ainda que sem suporte integral nos vestígios documentados.",
+      "D": "o laudo deve concluir pela inexistência do fato, dada a ausência de comprovação técnica dos elementos alegados."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A conclusão é obrigatória, mas pode ser negativa ou parcial: registram-se a impossibilidade e os motivos (escassez de vestígios, falta de preservação), e, quando possível, excluem-se hipóteses. A suprime a seção obrigatória. C admite conclusão sem suporte nos vestígios. D transforma ausência de prova em prova de inexistência.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4286,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o prazo e a requisição do laudo pericial, é correto afirmar que:",
+    "alternativas": {
+      "A": "o prazo é de dez dias, prorrogável em casos excepcionais a requerimento dos peritos, e o exame é requisitado ao diretor da repartição.",
+      "B": "o prazo é de trinta dias, improrrogável, e o exame é requisitado diretamente ao perito criminal designado para a diligência.",
+      "C": "o prazo é de dez dias, improrrogável, sendo a inobservância causa de nulidade do laudo eventualmente apresentado.",
+      "D": "o prazo é de dez dias, prorrogável uma única vez por igual período, mediante autorização do juiz da causa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É o art. 160, parágrafo único, combinado com o art. 178: dez dias prorrogáveis, e requisição ao diretor da repartição — na PF, o chefe do SETEC ou do NUTEC. B erra prazo e destinatário. C nega a prorrogação e inventa nulidade. D cria um limite de prorrogação que o CPP não estabelece, justamente por se tratar de matéria técnica.",
+    "referencia": "Bizuraço Prova — 14. Laudo pericial",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4287,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA sobre o acondicionamento de vestígios.",
+    "alternativas": {
+      "A": "Vestígio biológico seco pode ser acondicionado em saco plástico lacrado, desde que identificado.",
+      "B": "Líquido de pH básico deve ser acondicionado em frasco de plástico, sem exceção.",
+      "C": "Projétil deve ser acondicionado individualmente, envolto em algodão, em envelope de papel.",
+      "D": "Embalagem de vestígio químico precisa estar limpa, mas não precisa ser estéril."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A afirmação de A é falsa e por isso é a resposta: mesmo seco, o vestígio biológico exige embalagem permeável ao ar, e o saco de lacre deve ser furado. B, C e D reproduzem corretamente as regras de acondicionamento de químicos básicos, de projéteis e o padrão de limpeza exigido dos químicos.",
+    "referencia": "Bizuraço Prova — 15. Pegadinhas e divergências",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4288,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA sobre os padrões de ruptura em vidros e a leitura de manchas de sangue.",
+    "alternativas": {
+      "A": "As rupturas radiais no vidro iniciam-se na face oposta àquela que recebeu o choque.",
+      "B": "A base do cone de transfixação localiza-se na face oposta àquela do impacto recebido.",
+      "C": "Quanto maior a energia que atinge a fonte de sangue, maiores são os diâmetros das manchas resultantes.",
+      "D": "As rupturas radiais formadas pelo segundo impacto são interrompidas por aquelas formadas no primeiro."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C é a incorreta e, portanto, a resposta: maior energia produz maior atomização e manchas MENORES. A, B e D reproduzem corretamente, respectivamente, o início das radiais na face oposta, a posição da base do cone na saída e o critério de determinação da ordem dos impactos.",
+    "referencia": "Bizuraço Prova — 15. Pegadinhas e divergências",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4289,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre a divergência entre a apostila e a orientação dada em revisão quanto às etapas do processamento:",
+    "alternativas": {
+      "A": "a apostila agrupa o roteiro em seis blocos e a revisão adota sete etapas, com a documentação como quarta etapa.",
+      "B": "a apostila adota sete etapas e a revisão as reduziu a seis, fundindo a documentação com a coleta de vestígios.",
+      "C": "não há divergência: ambas adotam seis etapas, diferindo apenas quanto à nomenclatura da etapa de fixação.",
+      "D": "a apostila adota oito etapas, incluindo a elaboração do laudo como etapa final do processamento do local."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A apostila agrupa em seis (preparação, chegada, busca completa, coleta, reunião final e liberação) e a numeração de sete etapas destaca a documentação entre a busca e a coleta. B inverte a divergência. C nega sua existência. D acrescenta o laudo ao roteiro do local, quando ele é posterior ao processamento.",
+    "referencia": "Bizuraço Prova — 15. Pegadinhas e divergências",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4290,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA sobre a atuação pericial no local de crime.",
+    "alternativas": {
+      "A": "O isolamento do local pode ser feito com fita, cordas, cones ou cavaletes.",
+      "B": "A prova pericial prevalece sobre a prova testemunhal, por ser a rainha das provas.",
+      "C": "A perícia deve reavaliar o perímetro de isolamento encontrado, ampliando-o ou reduzindo-o.",
+      "D": "Na busca inicial não vai toda a equipe, cabendo-a em regra ao perito-chefe."
+    },
+    "resposta_correta": "B",
+    "justificativa": "B é a incorreta e, por isso, a resposta: apesar do apelido, não há hierarquia legal entre as provas. A, C e D reproduzem corretamente as orientações sobre meios de isolamento, dever de reavaliação do perímetro e execução da busca inicial pelo chefe da equipe.",
+    "referencia": "Bizuraço Prova — 15. Pegadinhas e divergências",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4291,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O art. 158-A, §3º, do CPP, incluído pela Lei 13.964/2019, define vestígio como:",
+    "alternativas": {
+      "A": "todo objeto ou material bruto, visível ou latente, constatado ou recolhido, que se relaciona à infração penal.",
+      "B": "todo objeto materialmente apreendido pela autoridade policial e submetido a exame pericial no curso do inquérito.",
+      "C": "todo elemento visível deixado no local do crime, excluídos os materiais latentes, que dependem de revelação técnica.",
+      "D": "todo indício que, uma vez periciado e interpretado, permita ao perito concluir sobre a autoria e a materialidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É a redação legal, e o ponto sensível é a expressão VISÍVEL OU LATENTE, além de abranger o constatado e o recolhido. B condiciona o conceito à apreensão, quando o vestígio pode ser apenas constatado. C exclui o latente, exatamente o oposto do texto. D confunde vestígio com indício já valorado, quando o vestígio é o material bruto, anterior à interpretação.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4292,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "São exemplos de classificação dos locais quanto à natureza do fato:",
+    "alternativas": {
+      "A": "furto, roubo, dano, acidente de trânsito, morte violenta, explosão, incêndio, laboratório clandestino e garimpo ilegal.",
+      "B": "locais idôneos, inidôneos, imediatos e mediatos, conforme o estado de preservação e a extensão geográfica examinada.",
+      "C": "locais internos, externos, urbanos e rurais, conforme a natureza do ambiente em que o exame pericial será realizado.",
+      "D": "locais de execução, de resultado, de planejamento e de ocultação, conforme a fase do iter criminis nele desenvolvida."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A classificação por natureza do fato lista os tipos de ocorrência, incluindo ainda plantio de drogas, desmatamento, extração ilegal de madeira, cativeiro, tráfico de animais silvestres e achado de ossada. B mistura as classificações por preservação e por extensão. C usa um critério de ambiente. D descreve os locais de interesse da polícia, que é outra classificação.",
+    "referencia": "Bizuraço Prova — 1. Base legal e fundamentos",
+    "nivel": "medio"
+  },
+  {
+    "id": 4293,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o material a ser levado ao local de crime, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Os EPIs resumem-se a luvas e máscara, sendo os demais itens dispensáveis em locais abertos e ventilados.",
+      "B": "Entre os EPIs estão luvas, máscara, touca, óculos de segurança, protetores para calçado e jaleco descartável.",
+      "C": "O tripé e o detector de metais são itens de uso exclusivo de equipes especializadas, não integrando o material padrão.",
+      "D": "O giz e os marcadores de vestígio foram substituídos pelo registro digital, não constando mais da relação de materiais."
+    },
+    "resposta_correta": "B",
+    "justificativa": "É a relação de EPI. A reduz indevidamente o rol. C exclui tripé e detector de metais, ambos listados no material de apoio, registro e documentação — e o tripé é justamente o item essencial da fotografia noturna. D afirma uma substituição que não ocorreu: giz branco e colorido e marcadores de vestígio continuam na relação.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "medio"
+  },
+  {
+    "id": 4294,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na divisão de tarefas da equipe de processamento do local, cabe ao perito encarregado de catalogar os vestígios:",
+    "alternativas": {
+      "A": "tomar as medidas de posicionamento e plotar cada vestígio no croqui do local examinado.",
+      "B": "fazer a descrição correta do que for encontrado e conferir com o fotógrafo se o vestígio já foi registrado.",
+      "C": "estabelecer a cadeia de comando com as demais instituições presentes e decidir sobre a liberação do local.",
+      "D": "planejar o levantamento fotográfico e preencher o controle das fotografias produzidas durante os exames."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O catalogador descreve o encontrado e confere com o fotógrafo, sendo recomendado não economizar na escrita. A é a função do responsável pelo croqui. C é do perito-chefe. D é do fotógrafo.",
+    "referencia": "Bizuraço Prova — 2. Roteiro de processamento",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4295,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre as temperaturas de preservação dos vestígios biológicos, é correto afirmar que:",
+    "alternativas": {
+      "A": "sangue colhido em tubo com EDTA é refrigerado a 4 °C; tecidos moles e fluidos líquidos são congelados a −20 °C.",
+      "B": "sangue colhido em tubo com EDTA é congelado a −20 °C; tecidos moles são mantidos sob refrigeração a 4 °C.",
+      "C": "todo material biológico deve ser congelado a −20 °C, inclusive o já seco e acondicionado em envelope de papel.",
+      "D": "todo material biológico deve ser refrigerado a 4 °C, admitido o congelamento apenas para ossos e peças dentárias."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as duas temperaturas: 4 °C para o sangue em EDTA e −20 °C para tecidos moles, fluidos líquidos, cabelos e pelos, evitando degelo. B inverte as duas. C estende o congelamento ao vestígio seco, que deve ficar em temperatura ambiente, ao abrigo da luz. D suprime o congelamento dos tecidos moles e o desloca para ossos e dentes, que na verdade seguem o regime do material seco.",
+    "referencia": "Bizuraço Prova — 6. Vestígios biológicos",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4296,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o transporte de projéteis e elementos de munição relacionados a uma arma apreendida:",
+    "alternativas": {
+      "A": "o projétil pode ser transportado no interior do cano da arma, o que preserva o vínculo entre os dois vestígios.",
+      "B": "o projétil não pode ser transportado no interior do cano da arma, devendo seguir em embalagem própria e individual.",
+      "C": "o projétil deve ser transportado no interior do cano apenas quando houver uma única arma apreendida no local.",
+      "D": "o projétil deve ser transportado junto às cápsulas deflagradas, em embalagem única identificada pelo número do lacre."
+    },
+    "resposta_correta": "B",
+    "justificativa": "⭐ Ponto que o professor apontou expressamente na revisão. O professor levantou justamente essa hipótese para afastá-la: na prova, não. O projétil vai individualizado, envolto em algodão e em envelope de papel. A e C admitem o transporte no cano, que pode produzir marcas e comprometer o confronto balístico. D reúne projétil e cápsulas na mesma embalagem, com risco de os metais se marcarem mutuamente.",
+    "referencia": "Bizuraço Prova — 7. Vestígios físicos e vidros",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4297,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Durante o exame do cadáver, a distinção entre os achados é a seguinte:",
+    "alternativas": {
+      "A": "sinal de violência é qualquer lesão sofrida pela vítima; sinal de luta indica contato entre vítima e agressor; reação de defesa decorre da tentativa de evitar os golpes.",
+      "B": "sinal de violência é apenas a lesão grave; sinal de luta é o desalinhamento do mobiliário; reação de defesa é a fuga registrada por vestígios de pegadas.",
+      "C": "sinal de violência e sinal de luta são sinônimos; a reação de defesa é presumida sempre que houver lesões nos membros superiores da vítima.",
+      "D": "sinal de violência é a lesão produzida por instrumento; sinal de luta é a produzida pelo próprio corpo do agressor; reação de defesa é a produzida por terceiros."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São as três noções distintas, e o material é expresso ao dizer que se entende por sinal de violência TODA e QUALQUER lesão, mesmo as mais simples. B restringe o sinal de violência às lesões graves e desloca os demais conceitos. C funde violência e luta e transforma a reação de defesa em presunção. D cria uma distinção por instrumento que não corresponde aos conceitos.",
+    "referencia": "Bizuraço Prova — 10. Morte violenta e perinecroscópico",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4298,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o crime de dano e as formas qualificadas dos crimes patrimoniais:",
+    "alternativas": {
+      "A": "o dano do art. 163 do CP é punido com detenção de um a seis meses ou multa, e o roubo com resultado morte, com reclusão de 24 a 30 anos.",
+      "B": "o dano do art. 163 do CP é punido com reclusão de um a quatro anos, e o roubo com resultado morte, com reclusão de 20 a 30 anos.",
+      "C": "o dano do art. 165 do CP é punido com detenção de seis meses a três anos, e o roubo com resultado morte, com reclusão de 15 a 30 anos.",
+      "D": "o dano do art. 163 do CP é punido com detenção de um a seis meses, e o roubo com lesão corporal grave, com reclusão de 24 a 30 anos."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São a pena simples do dano e a do latrocínio. B converte a detenção do dano em reclusão e reduz o mínimo do latrocínio. C erra o artigo do dano e informa a pena da forma qualificada como se fosse a simples. D acerta o dano mas atribui ao resultado lesão corporal grave a pena do resultado morte — a lesão grave é de 7 a 18 anos.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4299,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Entre os vestígios materiais tipicamente arrecadados em locais de furto qualificado por rompimento de obstáculo, incluem-se:",
+    "alternativas": {
+      "A": "as ferramentas empregadas na violação e suas respectivas marcas, como pé-de-cabra, chave de fenda, alicate e maçarico.",
+      "B": "apenas as marcas deixadas nas superfícies violadas, uma vez que as ferramentas costumam ser levadas pelos autores.",
+      "C": "as ferramentas empregadas, cuja análise permite datar com precisão o momento em que o obstáculo foi rompido.",
+      "D": "os equipamentos de segurança violados, sendo irrelevante a arrecadação de ferramentas abandonadas pelos agentes."
+    },
+    "resposta_correta": "A",
+    "justificativa": "Ferramentas e marcas integram o rol do arrombamento, com esses exemplos. B afirma que as ferramentas sempre são levadas, quando objetos abandonados constam expressamente da lista de vestígios. C atribui às ferramentas uma capacidade de datação precisa que elas não têm. D descarta a arrecadação de ferramentas, que é justamente o que pode individualizar o instrumento.",
+    "referencia": "Bizuraço Prova — 12. Crimes contra o patrimônio",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4300,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A epígrafe de Edmond Locard citada no encerramento do tema da reprodução simulada — o depoimento escrito é um cadáver mumificado — serve para ilustrar que:",
+    "alternativas": {
+      "A": "o depoimento escrito perde a riqueza do relato original, o que justifica revivê-lo no local, com os atores da infração.",
+      "B": "o depoimento escrito não tem valor probatório, devendo ser substituído pela reprodução simulada sempre que possível.",
+      "C": "o depoimento escrito deve ser transcrito integralmente no laudo pericial, para preservar seu conteúdo original.",
+      "D": "o depoimento escrito prevalece sobre a versão apresentada no dia da reprodução, por ter sido colhido com formalidade."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A citação sustenta a razão de ser do exame: reviver a narrativa no local, quadro a quadro. B salta para a negação do valor probatório do depoimento, o que a frase não afirma. C converte a citação em regra de redação do laudo. D inverte o sentido: se o depoente muda a versão, testa-se também a nova, sem prevalência automática da escrita.",
+    "referencia": "Bizuraço Prova — 13. Reprodução simulada",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4301,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Assinale a alternativa INCORRETA sobre pontos em que a orientação da revisão diverge da apostila.",
+    "alternativas": {
+      "A": "A apostila agrupa o processamento em 6 blocos, enquanto a revisão trabalha com 7 etapas numeradas.",
+      "B": "Na revisão, a documentação aparece como etapa 4, situada entre a busca de vestígios e a coleta.",
+      "C": "A apostila determina que arma e munição sigam separadas, e a revisão orienta acondicioná-las juntas.",
+      "D": "A tabela de tempo de exposição da apostila corre em sentido invertido em relação à utilizada em aula."
+    },
+    "resposta_correta": "C",
+    "justificativa": "C é a incorreta e, por isso, a resposta: a divergência é exatamente a oposta — a apostila manda acondicionar arma e cartuchos na mesma embalagem e o professor orientou SEPARAR. A, B e D reproduzem corretamente as demais divergências apontadas.",
+    "referencia": "Bizuraço Prova — 15. Pegadinhas e divergências",
+    "nivel": "dificil"
   }
 ];

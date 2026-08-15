@@ -4093,7 +4093,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Desastres de massa (DVI)',
                 'O laudo pericial de local de crime',
                 { titulo: '⚠️ Pegadinhas de ênfase', arquivo: 'Pegadinhas.html' },
-                { titulo: '🎯 Bizuraço Prova (Aula de Revisão)', arquivo: 'Bizuraco_Prova.html' }
+                { titulo: '🎯 Bizuraço Prova (Aula de Revisão)', arquivo: 'Bizuraco_Prova.html', conteudo: 'Bizuraço Prova' }
             ]
         },
         'informatica_forense': {
