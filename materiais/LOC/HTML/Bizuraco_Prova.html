@@ -51,6 +51,18 @@ strong.dest { color: #c53030; }
 .resolvido-corpo { padding: 16px 20px; }
 .enunciado { background: #f7fafc; border-left: 3px solid #cbd5e0; padding: 10px 16px; font-style: italic; color: #4a5568; margin: 0 0 14px; }
 .gabarito { margin-top: 14px; padding-top: 12px; border-top: 1px dashed #cbd5e0; font-weight: 700; color: #c53030; font-size: 1.05rem; }
+/* --- figuras recortadas dos slides do professor ---
+   Três larguras conforme a proporção da imagem, para que nenhuma fique
+   esticada demais nem miúda demais na largura do capítulo. */
+figure.fig-slide { margin: 24px auto; max-width: 520px; text-align: center; }
+figure.fig-slide.wide { max-width: 620px; }
+figure.fig-slide.tall { max-width: 360px; }
+figure.fig-slide img { width: 100%; height: auto; display: block; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; padding: 6px; box-sizing: border-box; }
+figure.fig-slide figcaption { font-size: 0.86rem; color: #4a5568; margin-top: 9px; line-height: 1.45; text-align: left; }
+figure.fig-slide figcaption strong { color: #2b6cb0; }
+figure.fig-slide figcaption strong.dest { color: #c53030; }
+.fig-fonte { display: block; color: #a0aec0; font-style: italic; font-size: 0.78rem; margin-top: 4px; }
+.fig-grupo { color: #2c5282; font-size: 1.02rem; margin: 30px 0 4px; }
 </style>
 </head>
 <body>
@@ -506,6 +518,50 @@ strong.dest { color: #c53030; }
 </ul>
 </div>
 
+<h4 class="fig-grupo">Os quatro tipos de vidro</h4>
+
+<figure class="fig-slide wide">
+<img src="../img/vidro_01_comum.jpg" width="823" height="471" alt="Chapa de vidro comum apoiada sobre superfície clara" loading="lazy">
+<figcaption><strong>Vidro comum.</strong> Sílica, potássio, alumina, sódio, magnésio e cálcio fundidos a cerca de 1.000 °C, <strong>sem tratamento posterior</strong>. É nele que se lê o livro-texto das rupturas radiais e concêntricas.<span class="fig-fonte">Slide da aula — "Vidro Comum".</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/vidro_02_temperado.jpg" width="1171" height="541" alt="Box de banheiro e fechamento predial executados em vidro temperado" loading="lazy">
+<figcaption><strong>Vidro temperado.</strong> Vidro comum que passou por <strong>têmpera térmica ou química</strong>. É vidro <strong>de segurança</strong>: ao romper, esfarela em <strong>fragmentos pequenos e sem corte</strong> — e desmancha por inteiro, o que praticamente elimina o padrão radial/concêntrico.<span class="fig-fonte">Slide da aula — "Vidro Temperado".</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/vidro_03_laminado.jpg" width="797" height="604" alt="Dois para-brisas de automóvel em vidro laminado" loading="lazy">
+<figcaption><strong>Vidro laminado.</strong> Duas ou mais lâminas unidas por camadas de <strong>PVB (polivinil butiral)</strong> ou resina: os <strong>fragmentos ficam presos</strong> na camada intermediária. Mais flexível que o comum — por isso é nele que as <strong class="dest">espirais</strong> aparecem com mais frequência.<span class="fig-fonte">Slide da aula — "Vidro Laminado".</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/vidro_04_blindado.jpg" width="884" height="514" alt="Diagrama das camadas de um vidro blindado: vidro, PVB, poliuretano e policarbonato" loading="lazy">
+<figcaption><strong>Vidro blindado.</strong> Multilaminado feito para resistir a <strong>disparos de arma de fogo</strong>: lâminas de vidro intercaladas por <strong>PVB/resina</strong>, fechando com <strong>poliuretano e policarbonato</strong> na face interna — a camada que segura os estilhaços do lado protegido.<span class="fig-fonte">Slide da aula — "Vidro Blindado", esquema das camadas.</span></figcaption>
+</figure>
+
+<h4 class="fig-grupo">Lendo a dinâmica no vidro</h4>
+
+<figure class="fig-slide tall">
+<img src="../img/vidro_05_cone_transfixacao.png" width="498" height="561" alt="Desenho em corte de uma chapa de vidro transfixada, com o cone alargando na face de saída" loading="lazy">
+<figcaption><strong>Cone de transfixação.</strong> Veja o corte: o furo <strong>alarga</strong> conforme atravessa. A <strong class="dest">base do cone fica na face OPOSTA à do choque</strong> — na <strong>saída</strong>, onde há maior perda de massa. É assim que se diz de que lado veio o impacto.<span class="fig-fonte">Slide da aula — "Cone de transfixação".</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/vidro_06_radiais.jpg" width="1019" height="661" alt="Vidraça com perfuração central e fendas radiais partindo do orifício" loading="lazy">
+<figcaption><strong>Rupturas radiais.</strong> Partem <strong>do ponto de impacto</strong> em linhas retas ou sinuosas. Lembre da pegadinha: elas <strong>partem</strong> do ponto de impacto, mas <strong class="dest">começam a se formar no lado OPOSTO</strong> ao do choque, que é a face submetida a maior tensão.<span class="fig-fonte">Slide da aula — impacto em vidraça.</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/vidro_07_radiais_concentricas.jpg" width="692" height="637" alt="Vidro quebrado exibindo fendas radiais cruzadas por fendas concêntricas em torno do impacto" loading="lazy">
+<figcaption><strong>Radiais + concêntricas na mesma quebra.</strong> As <strong>radiais</strong> (linhas que saem do centro) vêm <strong>primeiro</strong>; as <strong>concêntricas/espirais</strong>, que dão voltas em torno do impacto, formam-se <strong>depois</strong> e <strong class="dest">entre duas radiais já existentes</strong>, iniciando pelo lado da pancada.<span class="fig-fonte">Slide da aula — padrão completo de rompimento.</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/vidro_08_riscos_direcao.png" width="1041" height="759" alt="Esquema da fenda radial em 3D e foto da superfície de fratura com as linhas curvas de Wallner" loading="lazy">
+<figcaption><strong>Riscos na superfície de fratura.</strong> Olhando a <strong>espessura</strong> do caco, as marcas saem <strong>perpendiculares a uma face</strong> e se <strong>curvam até tangenciar a outra</strong>. A face onde o risco nasce perpendicular indica a <strong class="dest">superfície de impacto</strong>, e o arqueamento dá a <strong>direção do movimento de ruptura</strong>.<span class="fig-fonte">Slide da aula — mecanismo da fenda radial e foto da fratura.</span></figcaption>
+</figure>
+
 <h4>Mecanismos, na ordem</h4>
 <ol>
 <li><strong>Radiais:</strong> (1) choque no vidro; (2) o movimento agrupa as moléculas do lado do choque e as separa no lado oposto; (3) ultrapassado o limite elástico, formam-se as rupturas radiais.</li>
@@ -518,6 +574,11 @@ strong.dest { color: #c53030; }
 <p>Na figura que ele mostrou: o <strong>vermelho foi o primeiro</strong> (as radiais do amarelo e do azul param nele); o <strong>amarelo foi o segundo</strong> (as do azul param nele); o azul foi o terceiro.</p>
 <p><strong>Quem "para" é o mais novo; quem "barra" é o mais antigo.</strong></p>
 </div>
+
+<figure class="fig-slide">
+<img src="../img/vidro_09_ordem_impactos.jpg" width="1027" height="778" alt="Vidraça com dois furos de projétil rotulados 1º e 2º, com as fendas radiais do segundo interrompidas nas do primeiro" loading="lazy">
+<figcaption><strong>Ordem dos impactos, na prática.</strong> Dois disparos na mesma vidraça. As radiais do furo <strong>2º</strong> avançam e <strong class="dest">morrem ao encontrar</strong> as radiais do furo <strong>1º</strong> — que seguem inteiras. Quem é interrompido veio depois.<span class="fig-fonte">Slide da aula — disparos sequenciais.</span></figcaption>
+</figure>
 
 <h2>8. Microvestígios e o ajuste físico</h2>
 <p><em>"Bem fácil essa frase, né? Deu pra gravar."</em> O fundamento científico do ajuste físico é o ponto certo desta aula.</p>
@@ -638,12 +699,26 @@ strong.dest { color: #c53030; }
 <div class="box box-orange">
 <h4>Formato da questão</h4>
 <p><strong>Pode ter foto na prova</strong>, pode ter descrição por texto, pode ter tudo. Na prova de computador dá para <strong>dar zoom</strong> e analisar a foto de perto — e <strong>as fotos são coloridas</strong>, o que ajuda mais do que no papel.</p>
+<p><em>Por isso as imagens abaixo são as próprias fotos dos slides da aula: treine olhando a figura primeiro e só depois lendo a legenda.</em></p>
 </div>
 
 <p><strong>Pelo estudo da morfologia é possível inferir:</strong> posição da vítima e do agressor · movimentação realizada no local após o ferimento · intensidade do traumatismo · movimentos executados durante o golpe.</p>
 <p><strong>O que cada característica revela:</strong> a <strong>cor</strong> → a data/idade da mancha (lise celular, oxidação do heme); a <strong>forma</strong> → a dinâmica; a <strong>dimensão</strong> → a intensidade das lesões.</p>
 
-<h3>11.1 Manchas regulares — pelo mecanismo de formação</h3>
+<figure class="fig-slide wide">
+<img src="../img/sangue_02_cor.jpg" width="1292" height="545" alt="Duas manchas de sangue lado a lado: a da esquerda vermelho-viva, a da direita amarronzada" loading="lazy">
+<figcaption><strong>Cor → data.</strong> A <strong>mancha 1</strong> ainda é vermelho-viva (recente); a <strong>mancha 2</strong>, amarronzada, já sofreu <strong>lise celular e oxidação do heme</strong> — é mais antiga. É a característica que responde <em>quando</em>, não <em>como</em>.<span class="fig-fonte">Slide da aula — "O sangue como vestígio".</span></figcaption>
+</figure>
+
+<h3>11.1 O quadro que organiza tudo</h3>
+<p>Antes de decorar tipo por tipo, fixe o <strong>desenho da classificação</strong>: dois grandes ramos — <strong class="dest">regulares</strong> (o sangue produziu o padrão) e <strong class="dest">irregulares</strong> (algo aconteceu depois, ou o sangue se juntou/escorreu).</p>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_01_classificacao.png" width="1188" height="775" alt="Organograma das manchas de sangue: regulares (gotejadas, arterial, cast-off, impactada) e irregulares (alteradas, acúmulo, escorrimento)" loading="lazy">
+<figcaption><strong>O organograma do professor.</strong> Regulares: <strong>gotejadas · arterial · cast-off · impactada</strong>. Irregulares: <strong>alteradas</strong> (contato, diluída, sombra) · <strong>acúmulo</strong> (sangue sobre sangue, poça, saturação) · <strong>escorrimento</strong>.<span class="fig-fonte">Slide da aula — é este quadro que estrutura os itens 11.2 a 11.4 abaixo.</span></figcaption>
+</figure>
+
+<h3>11.2 Manchas regulares — pelo mecanismo de formação</h3>
 <table>
 <tr><th>Tipo</th><th>Mecanismo</th><th>Aparência</th></tr>
 <tr><td><strong>Gotejadas</strong></td><td>Gotas geradas de forma isolada ou em sequência independente, <strong class="dest">unicamente pela ação da GRAVIDADE</strong>. Ex.: corte no dedo, sangue pingando.</td><td>Formato <strong>circular</strong> (queda perpendicular) ou <strong>elíptico</strong>, a depender do <strong>ângulo de impacto</strong> e da <strong>superfície</strong>. Variam também com a altura de queda e o movimento.</td></tr>
@@ -652,7 +727,61 @@ strong.dest { color: #c53030; }
 <tr><td><strong>Impactadas</strong></td><td>Algum <strong>impacto sobre uma fonte de sangue</strong> — muito sangue jorra de uma vez. Ex.: martelada na cabeça, disparo de arma de fogo.</td><td>Conjunto de manchas circulares/elípticas com <strong>formato RADIAL a partir da origem</strong>.</td></tr>
 </table>
 
-<h3>11.2 Manchas alteradas — por ação humana ou ambiental</h3>
+<h4 class="fig-grupo">Como cada uma aparece na foto</h4>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_03_gotejadas_superficie.jpg" width="906" height="585" alt="Quatro gotas de sangue fotografadas com régua sobre papel liso, jornal, papelão e concreto" loading="lazy">
+<figcaption><strong>Gotejadas — e a influência da superfície.</strong> A mesma queda produz borda <strong>lisa</strong> em superfície lisa e borda <strong>serrilhada, com espículas</strong> em superfície rugosa. Cuidado na prova: o serrilhado é da <em>superfície</em>, não prova impacto.<span class="fig-fonte">Slide da aula — "Influência da superfície".</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_04_superficie_esquema.png" width="1133" height="498" alt="Esquema: gota que expande suavemente em superfície lisa e gota que rompe as bordas em superfície irregular" loading="lazy">
+<figcaption><strong>O porquê do serrilhado.</strong> A tensão das bordas é rompida pelas <strong>irregularidades da superfície</strong> ou pela <strong>energia da velocidade de queda</strong>. Superfície lisa → a gota <strong>expande suavemente</strong>.<span class="fig-fonte">Slide da aula — esquema comparativo.</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_09_arterial.jpg" width="1192" height="776" alt="Parede branca com jatos e escorrimentos verticais de sangue ao lado de um corpo" loading="lazy">
+<figcaption><strong>Arterial.</strong> Repare no padrão que o professor chamou de distintivo: manchas projetadas em <strong>alto volume</strong>, com <strong>variação de intensidade</strong> (sístole/diástole), acompanhadas do <strong>escorrimento característico</strong> descendo pela parede.<span class="fig-fonte">Slide da aula — "Arterial".</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/sangue_10_castoff.jpg" width="1015" height="766" alt="Sequência linear de manchas de sangue sobre pano branco, com seta indicando o sentido do movimento" loading="lazy">
+<figcaption><strong>Cast-off (espargimento de dissociação).</strong> A assinatura é a <strong class="dest">sequência em LINHA</strong>, que <strong>começa circular e termina elíptica</strong>. A seta marca o sentido do movimento do instrumento — as caudas apontam para onde as gotas iam.<span class="fig-fonte">Slide da aula — "Cast-off".</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/sangue_11_impactadas.jpg" width="849" height="774" alt="Parede com grande padrão radial de respingos de sangue partindo de um ponto central" loading="lazy">
+<figcaption><strong>Impactadas.</strong> Conjunto de manchas circulares/elípticas <strong class="dest">irradiando a partir da origem</strong>. Aplique aqui a regra da energia: quanto <strong>maior a energia, maior a atomização</strong> e <strong>menores</strong> as gotículas (aspecto de spray).<span class="fig-fonte">Slide da aula — "Impactadas".</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/sangue_12_backspatter.jpg" width="749" height="592" alt="Desenho de disparo na cabeça mostrando backspatter para trás e forwardspatter para a frente" loading="lazy">
+<figcaption><strong>Efeito backspatter.</strong> No disparo de arma de fogo há duas projeções: o <strong>forwardspatter</strong> (à frente, na direção do tiro) e o <strong class="dest">backspatter</strong> — que retorna <strong>contra o atirador e contra a arma</strong>. É o que sustenta a discussão do relato de caso do suicídio simulado.<span class="fig-fonte">Slide da aula — "Efeito Backspatter".</span></figcaption>
+</figure>
+
+<h4 class="fig-grupo">Da mancha para a dinâmica: direção, transporte e ângulo</h4>
+
+<figure class="fig-slide">
+<img src="../img/sangue_05_direcao_cauda.jpg" width="1067" height="727" alt="Mancha de sangue ampliada com setas amarelas indicando que as caudas apontam a direção do deslocamento" loading="lazy">
+<figcaption><strong>A cauda dá a direção.</strong> As espículas e a cauda da mancha apontam para <strong>onde a gota estava indo</strong>. A partir de várias manchas se traça o caminho e se chega ao <strong>ponto de convergência</strong>.<span class="fig-fonte">Slide da aula — detalhe ampliado de uma mancha no piso.</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_06_direcao_transporte.jpg" width="908" height="543" alt="Esquema de pessoa parada e em movimento e o formato das gotas que caem em cada situação" loading="lazy">
+<figcaption><strong>Direção de transporte.</strong> Quem sangra <strong>parado</strong> deixa manchas <strong>circulares</strong>; quem sangra <strong>em deslocamento</strong> deixa manchas <strong>alongadas com cauda no sentido da marcha</strong> — é assim que se descreve a movimentação da vítima no local.<span class="fig-fonte">Slide da aula — "Direção transporte".</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/sangue_07_angulo_seno.jpg" width="1037" height="832" alt="Diagrama do ângulo de impacto de uma gota com a fórmula sen(teta) = largura / comprimento" loading="lazy">
+<figcaption><strong>O ângulo — aqui é o SENO.</strong> <strong class="dest">sen θ = largura ÷ comprimento</strong> da mancha, logo <strong>θ = arc sen (largura/comprimento)</strong>. Casa com o recado dele na parte de matemática: sem cosseno, sem tangente — <em>semelhança de triângulos</em> e, para sangue, <strong>seno</strong>.<span class="fig-fonte">Slide da aula — largura = cateto oposto; comprimento = hipotenusa.</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_08_bordas.jpg" width="1057" height="625" alt="Duas manchas com o contorno elíptico correto marcado em tracejado laranja, ignorando espículas e cauda" loading="lazy">
+<figcaption><strong>Seleção correta das bordas.</strong> Ao medir largura e comprimento, a elipse é traçada <strong>ignorando as espículas e a cauda</strong>. Medir por fora do serrilhado alonga o comprimento e <strong>falseia o ângulo</strong> calculado.<span class="fig-fonte">Slide da aula — "Seleção das bordas corretamente".</span></figcaption>
+</figure>
+
+<h3>11.3 Manchas alteradas — por ação humana ou ambiental</h3>
 <ul class="clean">
 <li><strong>Por contato</strong> — a principal alteração. A mancha já estava formada e alguém <strong>pisa ou passa a mão</strong> nela.</li>
 <li><strong>Por contato e TRANSFERIDA</strong> — quando, pela mancha, é possível <strong>identificar o objeto</strong> que causou a transferência (a forma da mão, do solado, do instrumento). <em>Se reproduz a forma do objeto, é transferida; se apenas borrou, é só alterada por contato.</em></li>
@@ -660,13 +789,43 @@ strong.dest { color: #c53030; }
 <li><strong>Sombra</strong> — não é causada pelo sangue, mas pela <strong class="dest">AUSÊNCIA</strong> dele: um objeto estava no local, <strong>impediu a continuidade do padrão</strong> e foi removido depois.</li>
 </ul>
 
-<h3>11.3 Manchas por acúmulo</h3>
+<figure class="fig-slide">
+<img src="../img/sangue_13_contato.jpg" width="800" height="648" alt="Duas manchas de sangue borradas por contato, sem forma reconhecível" loading="lazy">
+<figcaption><strong>Alterada por contato.</strong> A mancha <strong>já estava formada</strong> e alguém pisou ou passou a mão. Ficou o borrão: <strong>não se reconhece o objeto</strong> que causou a alteração — por isso é só "por contato".<span class="fig-fonte">Slide da aula — "Manchas Alteradas por contato".</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_14_transferidas.jpg" width="980" height="571" alt="Marcas de dedos e de solado de calçado desenhadas em sangue sobre superfície clara" loading="lazy">
+<figcaption><strong>Alterada por contato — TRANSFERIDA.</strong> Aqui a mancha <strong>reproduz a forma do objeto</strong>: dá para ler os <strong>dedos</strong> e o <strong>desenho do solado</strong>. Este é o critério de corte que ele cobrou — reproduziu a forma, é transferida; só borrou, é alterada por contato.<span class="fig-fonte">Slide da aula — "Manchas Alteradas por contato - Transferidas".</span></figcaption>
+</figure>
+
+<figure class="fig-slide">
+<img src="../img/sangue_15_sombra.jpg" width="807" height="765" alt="Piso com respingos de sangue e uma área limpa em forma de arco, destacada por linha amarela" loading="lazy">
+<figcaption><strong>Sombra.</strong> A linha amarela contorna a região <strong class="dest">sem sangue</strong>: havia um objeto ali que <strong>interrompeu a continuidade do padrão</strong> e depois foi retirado. A informação pericial está na <strong>ausência</strong>, não na mancha.<span class="fig-fonte">Slide da aula — "Manchas Alteradas Sombra".</span></figcaption>
+</figure>
+
+<h3>11.4 Manchas por acúmulo</h3>
 <ul class="clean">
 <li><strong>Sangue sobre sangue</strong> — já havia uma mancha e caiu outra por cima.</li>
 <li><strong>Poça</strong> — cai muito sangue e se acumula.</li>
 <li><strong>Saturação</strong> — sempre que há <strong>absorção pela superfície</strong>. Casos mais comuns: <strong>colchão e panos grossos</strong>.</li>
 <li><strong>Escorrimento</strong> — o sangue percorre a superfície a partir da área de lesão <strong>seguindo a ação da gravidade</strong>.</li>
 </ul>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_16_sangue_sobre_sangue.jpg" width="966" height="641" alt="Duas fotos de manchas centrais escuras e espessas, cercadas de respingos, formadas por sangue caindo sobre sangue" loading="lazy">
+<figcaption><strong>Sangue sobre sangue.</strong> Já havia mancha no lugar e caiu outra por cima: o centro fica <strong>espesso e mais escuro</strong> e o novo impacto <strong>projeta respingos ao redor</strong>, a partir da mancha antiga.<span class="fig-fonte">Slide da aula — "Manchas por Acúmulo · Sangue sobre Sangue".</span></figcaption>
+</figure>
+
+<figure class="fig-slide wide">
+<img src="../img/sangue_17_poca_saturacao.jpg" width="841" height="519" alt="Corpo caído no asfalto com grande poça de sangue e a roupa encharcada" loading="lazy">
+<figcaption><strong>Poça e saturação na mesma cena.</strong> No chão, o sangue se acumulou → <strong>poça</strong>. Na roupa, foi <strong>absorvido pela superfície</strong> → <strong class="dest">saturação</strong> (o caso típico de colchão e panos grossos).<span class="fig-fonte">Slide da aula — "Manchas por Acúmulo · Poça e saturação".</span></figcaption>
+</figure>
+
+<figure class="fig-slide tall">
+<img src="../img/sangue_18_escorrimento.jpg" width="550" height="756" alt="Rosto de vítima com trilhas de sangue escorridas em duas direções diferentes" loading="lazy">
+<figcaption><strong>Escorrimento.</strong> O sangue percorre a superfície <strong>seguindo a gravidade</strong> — por isso ele denuncia a <strong>posição em que o corpo estava</strong>. Trilhas em direções incompatíveis entre si indicam que a <strong class="dest">posição mudou</strong> depois do sangramento.<span class="fig-fonte">Slide da aula — "Escorrimento".</span></figcaption>
+</figure>
 
 <div class="box box-orange">
 <h4>A regra da energia — ele repetiu duas vezes</h4>
