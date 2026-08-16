@@ -2373,6 +2373,29 @@ function gerarCaderno(e) {
     showView('quiz');
 }
 
+// Abre a figura da questão em tela cheia. O professor lembrou que, na prova de
+// computador, dá para dar zoom na foto e analisá-la de perto — aqui é o mesmo
+// gesto. Fecha no clique em qualquer lugar ou no Esc.
+function abrirZoomFigura(src, alt) {
+    if (!src) return;
+    const overlay = document.createElement('div');
+    overlay.className = 'figura-zoom-overlay';
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = alt || '';
+    overlay.appendChild(img);
+
+    const fechar = () => {
+        overlay.remove();
+        document.removeEventListener('keydown', aoTeclar);
+    };
+    const aoTeclar = (e) => { if (e.key === 'Escape') fechar(); };
+
+    overlay.addEventListener('click', fechar);
+    document.addEventListener('keydown', aoTeclar);
+    document.body.appendChild(overlay);
+}
+
 function carregarQuestaoUI() {
     const q = simuladoAtual[questaoAtualIndex];
     
@@ -2451,7 +2474,31 @@ function carregarQuestaoUI() {
     
     // Enunciado
     document.getElementById('q-enunciado').textContent = q.enunciado;
-    
+
+    // Figura da questão (campo opcional "imagem"; "imagem_legenda" e
+    // "imagem_alt" são acessórios). Sem imagem, a figura fica escondida.
+    const figura = document.getElementById('q-figura');
+    if (figura) {
+        const figImg = document.getElementById('q-figura-img');
+        const figLegenda = document.getElementById('q-figura-legenda');
+        if (q.imagem) {
+            figImg.src = q.imagem;
+            figImg.alt = q.imagem_alt || 'Figura da questão';
+            if (figLegenda) {
+                figLegenda.textContent = q.imagem_legenda || '';
+                figLegenda.style.display = q.imagem_legenda ? '' : 'none';
+            }
+            figura.classList.remove('hidden');
+            // onclick (e não addEventListener) para não acumular a cada questão
+            figImg.onclick = () => abrirZoomFigura(figImg.src, figImg.alt);
+        } else {
+            figura.classList.add('hidden');
+            figImg.removeAttribute('src'); // não deixa a foto anterior aparecendo
+            figImg.alt = '';
+            figImg.onclick = null;
+        }
+    }
+
     // Alternativas
     const container = document.getElementById('q-alternativas');
     container.innerHTML = ''; // limpar

@@ -323,6 +323,13 @@
                 </div>
                 <h3 id="q-enunciado" class="question-text">Carregando questão...</h3>
 
+                <!-- Figura da questão (só nas que têm campo "imagem"): fica entre o
+                     enunciado e as alternativas, e some quando a questão não tem. -->
+                <figure id="q-figura" class="question-figure hidden">
+                    <img id="q-figura-img" src="" alt="">
+                    <figcaption id="q-figura-legenda"></figcaption>
+                </figure>
+
                 <div id="q-alternativas" class="options-container">
                     <!-- Geradas dinamicamente -->
                 </div>
@@ -993,7 +1000,7 @@
     </div>
 
     <script src="agenda_dados.js?v=15"></script>
-    <script src="banco_questoes.js?v=179"></script>
+    <script src="banco_questoes.js?v=180"></script>
     <script src="flashcards.js?v=9"></script>
     <script src="app.js?v=97"></script>
     <script src="cadernos.js?v=3"></script>

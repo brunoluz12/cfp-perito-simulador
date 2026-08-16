@@ -54911,5 +54911,465 @@ const questoesDB = [
     "justificativa": "C é a incorreta e, por isso, a resposta: a divergência é exatamente a oposta — a apostila manda acondicionar arma e cartuchos na mesma embalagem e o professor orientou SEPARAR. A, B e D reproduzem corretamente as demais divergências apontadas.",
     "referencia": "Bizuraço Prova — 15. Pegadinhas e divergências",
     "nivel": "dificil"
+  },
+  {
+    "id": 4302,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Observe a foto. Sobre a soleira depositaram-se manchas isoladas, de contorno predominantemente circular, sem alinhamento entre si, sem distribuição radial a partir de um ponto comum e sem escorrimento associado. Assinale a classificação desse padrão.",
+    "imagem": "materiais/LOC/img/q_sangue_01_gotejadas.jpg",
+    "imagem_alt": "Soleira de concreto com manchas de sangue isoladas, de contorno circular",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "Impactadas, distribuídas de forma radial a partir da origem.",
+      "B": "Gotejadas, geradas isoladamente pela ação da gravidade.",
+      "C": "Cast-off, por dissociação do sangue de um objeto em movimento.",
+      "D": "Arterial, por projeção alternada do bombeamento cardíaco."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Gotas isoladas, circulares, sem padrão de conjunto, é a definição de mancha GOTEJADA: geradas de forma isolada ou em sequência independente, unicamente pela ação da gravidade (o caso do corte no dedo pingando). O contorno circular indica queda perpendicular à superfície. A opção das impactadas exige um conjunto irradiando de uma origem, que a foto não mostra. A de cast-off exige a sequência em linha, que também não há. A arterial exige o escorrimento característico e a variação de volume da sístole/diástole, ausentes aqui.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "facil"
+  },
+  {
+    "id": 4303,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na parede da foto veem-se conjuntos sucessivos de manchas dispostos em arcos, com variação nítida de volume entre um conjunto e outro, dos quais parte um escorrimento abundante. O mecanismo de formação compatível é o da mancha:",
+    "imagem": "materiais/LOC/img/q_sangue_02_arterial.jpg",
+    "imagem_alt": "Parede com conjuntos de manchas em arcos sucessivos e escorrimento abundante",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "gotejada, por queda livre de gotas isoladas sob ação da gravidade.",
+      "B": "impactada, por golpe desferido sobre uma fonte de sangue preexistente.",
+      "C": "por saturação, com absorção do sangue pela alvenaria da parede.",
+      "D": "arterial, com projeção alternada pela sístole e pela diástole."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O padrão é o da mancha ARTERIAL: além da gravidade atua o bombeamento cardíaco, e a alternância sístole/diástole projeta o sangue em alto volume com variação de intensidade da força — daí os arcos sucessivos de tamanhos diferentes. O escorrimento característico que desce de cada conjunto é o segundo elemento da definição, e o professor chamou esse padrão de muito distintivo. A opção das gotejadas descreve gotas isoladas por gravidade, incompatível com a projeção em arco. A das impactadas exigiria distribuição radial a partir de uma origem, não arcos repetidos. A da saturação pressupõe absorção pela superfície, e aqui o sangue escorreu sobre ela.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4304,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Sobre o pano da foto, as manchas formam uma sequência alinhada, em arco, cujos elementos passam de mais arredondados a mais alongados ao longo da linha. Esse perfil corresponde a manchas:",
+    "imagem": "materiais/LOC/img/q_sangue_03_castoff.jpg",
+    "imagem_alt": "Pano branco com sequência alinhada e arqueada de manchas de sangue",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "de cast-off, isto é, espargimento de dissociação.",
+      "B": "impactadas, de alta energia, com forte atomização.",
+      "C": "gotejadas, em sequência isolada e independente.",
+      "D": "alteradas por diluição, em razão de chuva recente."
+    },
+    "resposta_correta": "A",
+    "justificativa": "A assinatura do CAST-OFF é exatamente essa: sequência de manchas em LINHA que começa circular e termina elíptica. Ela se forma quando o sangue se desprende de um objeto que se movimenta (ou que sofre parada repentina do movimento) — a faca, o machado, o pedaço de pau. A opção das impactadas descreve um conjunto radial partindo de uma origem, e não uma linha. A das gotejadas exige queda por gravidade, sem alinhamento. A da diluição pressupõe água alterando manchas já formadas, o que produziria bordas desbotadas, não uma sequência ordenada.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4305,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O desenho reproduz o mecanismo em que o sangue se desprende de um objeto que se movimenta no meio circundante — ou que sofre parada repentina desse movimento — e vai impactar a superfície com perfil característico. Esse mecanismo produz manchas:",
+    "imagem": "materiais/LOC/img/q_sangue_04_castoff_esquema.jpg",
+    "imagem_alt": "Desenho de agressor girando um instrumento, com gotas de sangue se desprendendo em arco",
+    "imagem_legenda": "Slide da aula — mecanismo de formação do padrão.",
+    "alternativas": {
+      "A": "impactadas, por golpe direto sobre a fonte de sangue.",
+      "B": "arteriais, por impulso alternado de sístole e diástole.",
+      "C": "de cast-off, também dito espargimento de dissociação.",
+      "D": "por saturação, com absorção do sangue pela superfície."
+    },
+    "resposta_correta": "C",
+    "justificativa": "O desenho é o do CAST-OFF: o instrumento embebido em sangue é agitado, e a dissociação lança as gotas que se depositam em sequência. A opção das impactadas descreve outro mecanismo — o impacto sobre a fonte de sangue, que gera padrão radial. A arterial depende do bombeamento cardíaco da própria vítima, não do movimento de um objeto. A saturação nem é padrão de projeção: é modalidade de acúmulo, quando o sangue é absorvido pela superfície.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "facil"
+  },
+  {
+    "id": 4306,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na parte superior da foto — o tapume de madeira — o sangue aparece como um conjunto de pequenas manchas circulares e elípticas que se distribuem irradiando a partir de uma origem comum. Como se classifica esse conjunto?",
+    "imagem": "materiais/LOC/img/q_sangue_05_impactadas.jpg",
+    "imagem_alt": "Tapume de madeira coberto por pequenas manchas irradiando de uma origem, com poça no solo",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "Gotejadas, geradas de forma isolada pela ação da gravidade.",
+      "B": "Impactadas, geradas por impacto sobre uma fonte de sangue.",
+      "C": "Alteradas por contato, com o padrão borrado por alguém.",
+      "D": "Por saturação, com o sangue absorvido pelas ripas de madeira."
+    },
+    "resposta_correta": "B",
+    "justificativa": "O conjunto de manchas circulares e elípticas com formato RADIAL a partir da origem do impacto é a definição de mancha IMPACTADA — algum impacto sobre uma fonte de sangue fez muito sangue jorrar de uma vez (martelada, disparo). A opção das gotejadas descreve gotas isoladas por gravidade, sem conjunto radial. A da alteração por contato exige que alguém tenha pisado ou passado a mão numa mancha já formada, borrando-a. A da saturação exige absorção pela superfície, e no tapume o sangue ficou depositado sobre a madeira.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4307,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A parede da foto reúne, à esquerda, um conjunto de manchas pequenas irradiando de uma origem e, à direita, uma extensa área em que o padrão aparece borrado, com marcas de arrasto. O professor alertou que uma mesma foto pode ter mais de uma classificação. Assinale a leitura correta da cena.",
+    "imagem": "materiais/LOC/img/q_sangue_06_impactadas_parede.jpg",
+    "imagem_alt": "Parede com respingos finos à esquerda e área extensa borrada com marcas de arrasto à direita",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "Manchas impactadas à esquerda; alteradas por contato à direita.",
+      "B": "Manchas gotejadas à esquerda e manchas por saturação à direita.",
+      "C": "Manchas arteriais à esquerda e manchas transferidas à direita.",
+      "D": "Manchas de cast-off à esquerda e manchas diluídas à direita."
+    },
+    "resposta_correta": "A",
+    "justificativa": "São duas classificações simultâneas, exatamente o cuidado que ele mandou ter no enunciado. À esquerda, o conjunto de manchas pequenas irradiando de uma origem é IMPACTADA. À direita, o padrão foi borrado depois de formado, com arrasto e sem que se reconheça a forma do objeto: alterada POR CONTATO. A opção da saturação exigiria absorção pela parede. A das transferidas exigiria que a mancha reproduzisse a forma do objeto (mão, solado), o que o borrão não permite. A da diluição exigiria água alterando a mancha, e a das arteriais/cast-off exigiria arcos ou sequência em linha, que a foto não mostra.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4308,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O piso da foto registra marcas de pés em sangue, nas quais se reconhecem o contorno, o arco plantar e os dedos. Pelo critério de corte apresentado na revisão, essas manchas são classificadas como:",
+    "imagem": "materiais/LOC/img/q_sangue_07_transferida.jpg",
+    "imagem_alt": "Piso de cerâmica com marcas de pés desenhadas em sangue",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "alteradas por contato, apenas, sem transferência.",
+      "B": "impactadas com alteração posterior por diluição.",
+      "C": "por acúmulo, na modalidade saturação do piso.",
+      "D": "alteradas por contato e transferidas pelo objeto."
+    },
+    "resposta_correta": "D",
+    "justificativa": "O critério é justamente esse: se pela mancha é possível IDENTIFICAR O OBJETO que causou a transferência — a forma da mão, do solado, do pé — ela é alterada por contato e TRANSFERIDA. Aqui se lê o pé inteiro, com dedos e arco plantar. A opção que fica só na alteração por contato serve para o caso em que a mancha apenas borrou, sem reproduzir forma reconhecível. A que fala em diluição exigiria água alterando o padrão. A da saturação exigiria absorção pela superfície, e a cerâmica não absorve.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "facil"
+  },
+  {
+    "id": 4309,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A camisa da vítima, na foto, apresenta uma grande área em que o sangue foi absorvido pelo tecido, e não apenas depositado sobre ele. Essa é a modalidade de mancha por acúmulo denominada:",
+    "imagem": "materiais/LOC/img/q_sangue_08_saturacao.jpg",
+    "imagem_alt": "Camisa de tecido claro com grande área de sangue absorvida pelo tecido",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "poça, pelo acúmulo do sangue sobre a superfície.",
+      "B": "sangue sobre sangue, por deposições sucessivas.",
+      "C": "saturação, quando há absorção pela superfície.",
+      "D": "escorrimento, por percurso conforme a gravidade."
+    },
+    "resposta_correta": "C",
+    "justificativa": "SATURAÇÃO é a modalidade de acúmulo que ocorre sempre que há absorção pela superfície — e os casos mais comuns citados na revisão são exatamente o colchão e os panos grossos, aos quais a roupa se equipara. A poça é o acúmulo sobre uma superfície que não absorve. Sangue sobre sangue pressupõe uma mancha caindo sobre outra já existente, com respingos ao redor. Escorrimento é o percurso do sangue pela superfície seguindo a gravidade, e não a impregnação do tecido.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4310,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "No piso do banheiro da foto, o sangue se acumulou em grande volume, formando massa contínua sobre o revestimento cerâmico, sem ser absorvido por ele. Essa modalidade de mancha por acúmulo chama-se:",
+    "imagem": "materiais/LOC/img/q_sangue_09_poca.jpg",
+    "imagem_alt": "Piso de banheiro com grande volume de sangue acumulado e escorrimento na parede",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "poça, pelo acúmulo do sangue que cai em grande volume.",
+      "B": "saturação, com absorção pelo material da superfície.",
+      "C": "sombra, pela ausência de sangue em parte do padrão.",
+      "D": "cast-off, por dissociação a partir de um objeto em movimento."
+    },
+    "resposta_correta": "A",
+    "justificativa": "POÇA é a definição direta: cai muito sangue e ele se acumula. O revestimento cerâmico não absorve, o que afasta a saturação — esta exige absorção pela superfície, como no colchão e nos panos grossos. A sombra não é causada pelo sangue, mas pela AUSÊNCIA dele, quando um objeto impediu a continuidade do padrão. O cast-off é padrão de projeção a partir de um objeto em movimento, não de acúmulo.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "facil"
+  },
+  {
+    "id": 4311,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A foto mostra o piso de uma cena com gotejadas, respingos e uma mancha alterada por contato. Chama atenção uma faixa em arco, ao centro, na qual o padrão simplesmente não continua, embora haja manchas ao redor dela por todos os lados. A leitura correta dessa faixa é:",
+    "imagem": "materiais/LOC/img/q_sangue_10_sombra.jpg",
+    "imagem_alt": "Piso com respingos, gotejadas e uma faixa em arco sem sangue no centro",
+    "imagem_legenda": "Slide da aula — a mesma cena aparece no capítulo com a região marcada.",
+    "alternativas": {
+      "A": "houve diluição por água naquela faixa específica do piso.",
+      "B": "havia ali um objeto que barrou o padrão: mancha sombra.",
+      "C": "trata-se de saturação, com absorção do sangue pelo piso.",
+      "D": "é o ponto de convergência das manchas impactadas da cena."
+    },
+    "resposta_correta": "B",
+    "justificativa": "A mancha SOMBRA não é causada pelo sangue, e sim pela AUSÊNCIA dele: um objeto estava no local, impediu a continuidade do padrão e foi removido depois — por isso a região limpa fica cercada de manchas. A opção da diluição exigiria água alterando manchas já formadas, o que desbota as bordas em vez de apagar uma faixa inteira com contorno definido. A da saturação exigiria absorção pelo piso, que é impermeável. A do ponto de convergência confunde: convergência é o ponto de onde as manchas partem, e não uma área sem sangue.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4312,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Na parede da foto, a partir de vários pontos de deposição, o sangue percorreu a superfície de cima para baixo, deixando longas trilhas verticais. Esse padrão, na classificação apresentada, é o de:",
+    "imagem": "materiais/LOC/img/q_sangue_11_escorrimento.jpg",
+    "imagem_alt": "Parede com depósitos de sangue dos quais partem longas trilhas verticais",
+    "imagem_legenda": "Slide de exercício da aula de manchas de sangue.",
+    "alternativas": {
+      "A": "cast-off, por dissociação de um objeto em movimento.",
+      "B": "gotejamento, por queda livre de gotas isoladas na vertical.",
+      "C": "impactadas, pela projeção radial a partir de uma origem.",
+      "D": "escorrimento, pelo percurso do sangue segundo a gravidade."
+    },
+    "resposta_correta": "D",
+    "justificativa": "ESCORRIMENTO é o sangue percorrendo a superfície a partir da área de deposição, seguindo a ação da gravidade — exatamente as trilhas verticais da foto. A opção do cast-off exigiria uma sequência de manchas em linha, projetadas por um objeto. A do gotejamento trata de gotas que caem e se depositam, não de sangue que corre sobre a superfície. A das impactadas exigiria conjunto irradiando de uma origem comum.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4313,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O croqui reproduz uma residência em que, além da mancha extensa junto ao corpo, há uma sequência de manchas alongadas e espaçadas com regularidade, distribuídas ao longo de um percurso que atravessa a sala e alcança outro cômodo. O que esse conjunto autoriza concluir?",
+    "imagem": "materiais/LOC/img/q_sangue_12_trajeto.jpg",
+    "imagem_alt": "Croqui de residência com trilha de manchas alongadas ligando um cômodo a outro",
+    "imagem_legenda": "Slide da aula — croqui de distribuição das manchas na residência.",
+    "alternativas": {
+      "A": "Que o padrão é de cast-off, produzido por instrumento agitado durante o percurso.",
+      "B": "Que houve deslocamento de uma fonte de sangue pelo interior da casa.",
+      "C": "Que o sangue foi diluído por água ao longo de todo o corredor da casa.",
+      "D": "Que se trata de sombra, pela ausência de sangue em parte do trajeto."
+    },
+    "resposta_correta": "B",
+    "justificativa": "Manchas alongadas, espaçadas com regularidade e alinhadas ao longo de um caminho descrevem uma fonte de sangue EM DESLOCAMENTO: é a leitura de direção de transporte, que permite reconstruir a movimentação realizada no local após o ferimento. A opção do cast-off não se sustenta porque o espargimento de dissociação produz sequências curtas em linha ou arco, ligadas ao golpe, e não uma rota que percorre cômodos inteiros. A da diluição exigiria água alterando as manchas. A da sombra exigiria uma região SEM sangue cercada de padrão, e não manchas distribuídas ao longo do trajeto.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4314,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As quatro fotos mostram manchas produzidas em condições semelhantes sobre superfícies diferentes (papel liso, jornal, papelão e concreto). O que explica a diferença de borda entre elas?",
+    "imagem": "materiais/LOC/img/sangue_03_gotejadas_superficie.jpg",
+    "imagem_alt": "Quatro manchas de sangue fotografadas com régua sobre superfícies diferentes",
+    "imagem_legenda": "Figura do capítulo — influência da superfície.",
+    "alternativas": {
+      "A": "A variação do ângulo de impacto entre uma superfície e outra.",
+      "B": "O tempo decorrido desde a deposição, que altera cor e forma.",
+      "C": "A rugosidade da superfície, que rompe a tensão das bordas.",
+      "D": "A energia do impacto, que atomiza o sangue em gotículas menores."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A tensão das bordas da gota é rompida pelas IRREGULARIDADES da superfície de impacto (ou pela energia da velocidade de queda) — por isso a mesma gota expande suavemente no papel liso e sai serrilhada, com espículas, no concreto. É a pegadinha que o professor destacou: o serrilhado é da superfície e não prova, por si, impacto. A opção do ângulo altera a ELIPSE (largura × comprimento), não o serrilhado da borda. A do tempo diz respeito à cor, que informa a data. A da energia explica o tamanho das gotículas nas impactadas, não a borda de uma gota isolada.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4315,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O esquema compara a gota que atinge uma superfície lisa e a que atinge uma superfície irregular. Assinale a alternativa compatível com o que está representado.",
+    "imagem": "materiais/LOC/img/sangue_04_superficie_esquema.png",
+    "imagem_alt": "Esquema comparando gota em superfície lisa e gota em superfície irregular",
+    "imagem_legenda": "Figura do capítulo — esquema comparativo.",
+    "alternativas": {
+      "A": "Na superfície lisa a gota expande suavemente; na irregular, a borda se rompe.",
+      "B": "Na superfície lisa a gota se fragmenta em satélites; na irregular, fica circular.",
+      "C": "Em ambas o formato final é idêntico, pois depende apenas do ângulo de queda.",
+      "D": "Na superfície irregular a mancha resulta sempre menor do que na lisa."
+    },
+    "resposta_correta": "A",
+    "justificativa": "É o que o esquema mostra e o que a aula afirma: em superfície lisa a gota EXPANDE SUAVEMENTE; em superfície irregular a tensão das bordas é rompida pelas irregularidades, aparecendo as espículas e as gotas satélites. A opção que inverte os dois comportamentos contraria o desenho. A que diz que o formato é idêntico ignora a influência da superfície, que é o tema da figura. A que garante mancha sempre menor na superfície irregular inventa uma regra de tamanho que não existe — o que muda é a borda.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "facil"
+  },
+  {
+    "id": 4316,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "A ampliação destaca, com setas, as espículas e a cauda de uma mancha de sangue. Que informação essa característica fornece ao perito?",
+    "imagem": "materiais/LOC/img/sangue_05_direcao_cauda.jpg",
+    "imagem_alt": "Mancha de sangue ampliada com setas amarelas sobre as espículas e a cauda",
+    "imagem_legenda": "Figura do capítulo — detalhe ampliado de uma mancha no piso.",
+    "alternativas": {
+      "A": "A altura de queda da gota desde a fonte até a superfície.",
+      "B": "O tempo decorrido entre a deposição da mancha e o exame.",
+      "C": "O volume total de sangue perdido pela vítima naquele ambiente.",
+      "D": "O sentido em que a gota se deslocava ao atingir a superfície."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A cauda e as espículas apontam para onde a gota estava indo: dão a DIREÇÃO do deslocamento. É a partir dessa leitura, feita em várias manchas, que se traçam as retas e se chega ao ponto de convergência. A opção da altura de queda depende do diâmetro e do padrão da mancha, não da cauda. A do tempo decorrido é informação da COR (lise celular, oxidação do heme). A do volume perdido não se extrai da morfologia de uma mancha — a dimensão indica a intensidade das lesões, o que é coisa diferente.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4317,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O esquema opõe uma pessoa parada e uma pessoa em deslocamento, com o formato das gotas produzidas em cada situação. Assinale a conclusão correta.",
+    "imagem": "materiais/LOC/img/sangue_06_direcao_transporte.jpg",
+    "imagem_alt": "Esquema de pessoa parada e pessoa em movimento com o formato das gotas de cada situação",
+    "imagem_legenda": "Figura do capítulo — direção de transporte.",
+    "alternativas": {
+      "A": "A pessoa parada produz manchas alongadas, com cauda no sentido da marcha.",
+      "B": "A pessoa em deslocamento produz manchas circulares.",
+      "C": "Quem se desloca deixa manchas alongadas, com cauda no sentido da marcha.",
+      "D": "O formato da mancha não muda com o deslocamento; muda só a quantidade delas."
+    },
+    "resposta_correta": "C",
+    "justificativa": "É a leitura de direção de transporte: quem sangra PARADO deixa manchas circulares (queda perpendicular, sem componente horizontal); quem sangra EM DESLOCAMENTO deixa manchas alongadas, com a cauda apontando o sentido da marcha. A opção que atribui as manchas alongadas a quem está parado inverte o esquema. A que dá manchas circulares a quem se desloca faz a mesma inversão. A que nega qualquer mudança de formato contraria o objetivo da figura, que é justamente relacionar o perfil da mancha à movimentação.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4318,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O diagrama relaciona a forma da mancha ao ângulo de impacto. Considerando a fórmula ali apresentada e o recado do professor sobre a matemática que cai, o ângulo de impacto é obtido a partir de:",
+    "imagem": "materiais/LOC/img/sangue_07_angulo_seno.jpg",
+    "imagem_alt": "Diagrama do ângulo de impacto de uma gota com a fórmula do seno",
+    "imagem_legenda": "Figura do capítulo — largura é o cateto oposto; comprimento, a hipotenusa.",
+    "alternativas": {
+      "A": "cosseno do ângulo = largura ÷ comprimento da mancha.",
+      "B": "seno do ângulo = largura ÷ comprimento da mancha.",
+      "C": "tangente do ângulo = comprimento ÷ largura da mancha.",
+      "D": "seno do ângulo = comprimento ÷ largura da mancha."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No triângulo do diagrama, a LARGURA da mancha é o cateto oposto ao ângulo e o COMPRIMENTO é a hipotenusa; logo sen θ = largura ÷ comprimento, e θ = arc sen (largura/comprimento). Casa com o que ele disse na parte de matemática: não tem cosseno, não tem tangente — o que cai é semelhança de triângulos e, para manchas de sangue, o seno. As opções do cosseno e da tangente trocam a função trigonométrica. A que inverte a razão colocaria o resultado acima de 1 sempre que a mancha fosse alongada, o que sequer teria arco seno.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "dificil"
+  },
+  {
+    "id": 4319,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As fotos mostram, em tracejado, o contorno que o perito deve considerar ao medir a mancha para calcular o ângulo. Qual é o procedimento correto?",
+    "imagem": "materiais/LOC/img/sangue_08_bordas.jpg",
+    "imagem_alt": "Manchas com o contorno elíptico correto marcado em tracejado, ignorando espículas e cauda",
+    "imagem_legenda": "Figura do capítulo — seleção das bordas.",
+    "alternativas": {
+      "A": "Traçar a elipse por fora das espículas e da cauda, abarcando todo o depósito.",
+      "B": "Medir apenas a maior espícula, que representa a direção do deslocamento.",
+      "C": "Medir a mancha em qualquer direção, pois o resultado do seno não se altera.",
+      "D": "Traçar a elipse ignorando as espículas e a cauda, sobre o corpo da mancha."
+    },
+    "resposta_correta": "D",
+    "justificativa": "A medição usa o corpo da mancha: a elipse é traçada IGNORANDO as espículas e a cauda, como mostra o tracejado das fotos. Incluir a cauda alonga artificialmente o comprimento, diminui a razão largura/comprimento e falseia para menos o ângulo calculado — por isso a opção de traçar por fora está errada. A de medir a maior espícula confunde leitura de direção com medição de ângulo. A de medir em qualquer direção ignora que largura e comprimento são eixos definidos da elipse, e não medidas quaisquer.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4320,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "O desenho representa um disparo de arma de fogo à queima-roupa. Como se denomina a projeção de sangue que retorna no sentido do atirador e da arma?",
+    "imagem": "materiais/LOC/img/sangue_12_backspatter.jpg",
+    "imagem_alt": "Desenho de disparo encostado na cabeça com projeções para trás e para a frente",
+    "imagem_legenda": "Figura do capítulo — efeito backspatter.",
+    "alternativas": {
+      "A": "Backspatter, projetado contra o atirador e a arma.",
+      "B": "Forwardspatter, projetado no sentido de saída do disparo.",
+      "C": "Cast-off, por dissociação a partir do cano da arma.",
+      "D": "Escorrimento, pelo percurso do sangue na superfície."
+    },
+    "resposta_correta": "A",
+    "justificativa": "No disparo há duas projeções: o FORWARDSPATTER, que segue à frente na direção do tiro, e o BACKSPATTER, que retorna contra o atirador e contra a arma — é ele que fundamenta a discussão do relato de caso do suicídio simulado, porque a ausência de sangue nas mãos ou na arma contraria a versão. A opção do forwardspatter nomeia justamente a projeção oposta. A do cast-off exigiria um objeto embebido em sangue sendo agitado. A do escorrimento trata do sangue correndo sobre a superfície por gravidade.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4321,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As duas manchas da foto foram encontradas na mesma cena: a mancha 1 é vermelho-viva e a mancha 2, amarronzada. Que informação essa diferença fornece?",
+    "imagem": "materiais/LOC/img/sangue_02_cor.jpg",
+    "imagem_alt": "Duas manchas de sangue, uma vermelho-viva e outra amarronzada",
+    "imagem_legenda": "Figura do capítulo — mancha 1 e mancha 2.",
+    "alternativas": {
+      "A": "A dinâmica do evento que produziu cada uma das manchas.",
+      "B": "A intensidade das lesões sofridas pela vítima na cena.",
+      "C": "A data aproximada de formação de cada uma das manchas.",
+      "D": "O ângulo de impacto das gotas sobre aquela superfície."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A COR responde à DATA: com o tempo ocorrem a lise celular e a oxidação do heme, e o vermelho-vivo vai escurecendo até o amarronzado. Na tríade da aula, cada característica responde a uma pergunta diferente — a cor dá a data, a FORMA dá a dinâmica e a DIMENSÃO dá a intensidade das lesões. Por isso as opções da dinâmica e da intensidade atribuem à cor o papel da forma e da dimensão. A do ângulo de impacto depende da razão largura/comprimento da mancha, e não da coloração.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "facil"
+  },
+  {
+    "id": 4322,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "No organograma de classificação apresentado na aula, as manchas dividem-se em regulares e irregulares. Assinale a alternativa que aloca corretamente os padrões.",
+    "imagem": "materiais/LOC/img/sangue_01_classificacao.png",
+    "imagem_alt": "Organograma das manchas de sangue dividido em regulares e irregulares",
+    "imagem_legenda": "Figura do capítulo — organograma da classificação.",
+    "alternativas": {
+      "A": "Escorrimento é regular; cast-off é irregular.",
+      "B": "Cast-off é regular; escorrimento é irregular.",
+      "C": "Acúmulo é regular; mancha impactada é irregular.",
+      "D": "Alteradas são regulares; arterial é irregular."
+    },
+    "resposta_correta": "B",
+    "justificativa": "No organograma, as REGULARES são gotejadas, arterial, cast-off e impactada — aquelas em que o próprio sangue produziu o padrão. As IRREGULARES são alteradas (contato, diluída, sombra), acúmulo (sangue sobre sangue, poça, saturação) e escorrimento. Logo o cast-off é regular e o escorrimento, irregular. A opção que troca os dois inverte o quadro. A que põe o acúmulo entre as regulares e a impactada entre as irregulares faz a mesma inversão. A que classifica as alteradas como regulares e a arterial como irregular também contraria os dois ramos.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4323,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "As fotos mostram uma mancha central espessa e mais escura, cercada de respingos que partem dela própria. O padrão corresponde à modalidade de acúmulo denominada:",
+    "imagem": "materiais/LOC/img/sangue_16_sangue_sobre_sangue.jpg",
+    "imagem_alt": "Manchas centrais espessas e escuras cercadas de respingos que partem delas",
+    "imagem_legenda": "Figura do capítulo — manchas por acúmulo.",
+    "alternativas": {
+      "A": "poça, pela acumulação em depressão da superfície.",
+      "B": "saturação, por absorção do sangue pelo substrato.",
+      "C": "sombra, pela ausência de sangue em parte da área.",
+      "D": "sangue sobre sangue, por deposições sucessivas."
+    },
+    "resposta_correta": "D",
+    "justificativa": "SANGUE SOBRE SANGUE é a modalidade em que já havia mancha no lugar e caiu outra por cima: o centro fica espesso e mais escuro, e o novo impacto projeta respingos a partir da mancha antiga — exatamente o que as fotos mostram. A poça é o simples acúmulo de grande volume, sem os respingos periféricos partindo do centro. A saturação exige absorção pela superfície. A sombra não é causada por sangue, e sim pela ausência dele numa região que um objeto protegeu.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "medio"
+  },
+  {
+    "id": 4324,
+    "disciplina": "LOC - Locais de Crime e suas Interfaces",
+    "conteudo": "Bizuraço Prova",
+    "tipo": "multipla_escolha",
+    "enunciado": "Comparando duas fotografias de manchas impactadas produzidas por disparo de arma de fogo, uma exibe gotículas minúsculas, com aspecto de spray, e a outra exibe manchas pequenas, porém visivelmente maiores. Sobre a energia envolvida, é correto afirmar que:",
+    "imagem": "materiais/LOC/img/sangue_11_impactadas.jpg",
+    "imagem_alt": "Parede com grande padrão radial de respingos de sangue partindo de um ponto",
+    "imagem_legenda": "Figura do capítulo — manchas impactadas.",
+    "alternativas": {
+      "A": "a de gotículas minúsculas resulta de MENOR energia, pois houve menos projeção.",
+      "B": "as duas resultam da mesma energia; o que muda é a distância até a superfície.",
+      "C": "a de gotículas minúsculas resulta de MAIOR energia, por maior atomização.",
+      "D": "a de manchas maiores resulta de maior energia, pois o diâmetro acompanha a força."
+    },
+    "resposta_correta": "C",
+    "justificativa": "A regra que ele repetiu duas vezes: MAIOR energia → maior ATOMIZAÇÃO → MENORES os diâmetros das manchas resultantes. Atomizar é dividir em partículas menores, então o aspecto de spray denuncia a maior energia. A opção que associa gotículas minúsculas a menor energia inverte a regra, e é a pegadinha clássica do assunto — a afirmação 'maior energia produz manchas maiores' foi listada como ERRADA na revisão. A que iguala as energias ignora a variável que determina o tamanho. A que atribui maior energia às manchas maiores repete a mesma inversão.",
+    "referencia": "Bizuraço Prova — 11. Local com manchas de sangue",
+    "nivel": "dificil"
   }
 ];

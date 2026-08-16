@@ -1018,6 +1018,59 @@ textarea:focus-visible {
     line-height: 1.6;
 }
 
+/* Figura da questão (campo "imagem" no banco). Entra entre o enunciado e as
+   alternativas. Não existe .hidden global no projeto — daí a regra própria. */
+.question-figure {
+    margin: 0 auto 24px;
+    max-width: 560px;
+    text-align: center;
+}
+.question-figure.hidden {
+    display: none;
+}
+.question-figure img {
+    width: auto;
+    max-width: 100%;
+    /* teto de altura: sem ele, uma foto vertical empurra as alternativas para
+       fora da tela e o aluno responde sem ver as opções. O zoom cobre o resto. */
+    max-height: 420px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    background: #fff;
+    padding: 6px;
+    cursor: zoom-in; /* a prova é em computador e permite zoom; aqui também */
+}
+.question-figure figcaption {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+/* Zoom da figura: clicar abre a foto grande sobre a tela. */
+.figura-zoom-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    background: rgba(15, 23, 42, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    cursor: zoom-out;
+}
+.figura-zoom-overlay img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: var(--radius-md);
+    background: #fff;
+    padding: 6px;
+}
+
 .options-container {
     display: flex;
     flex-direction: column;
