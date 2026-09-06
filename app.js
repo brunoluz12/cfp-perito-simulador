@@ -6,29 +6,24 @@ const VERCEL_API_URL = window.location.protocol === 'file:' ? 'https://cfp-perit
 // ==========================================
 // FILTRO GLOBAL DE CARGO
 // ==========================================
-let cargoAtual = 'todos';
-try {
-    const savedCargo = localStorage.getItem('pcpr_cargo');
-    if (savedCargo) cargoAtual = savedCargo;
-} catch (e) {}
+// A plataforma atende somente o cargo de AGENTE (mesmas matérias do Escrivão).
+// O cargo é fixo: o seletor do cabeçalho está oculto e não há como trocar.
+const CARGO_FIXO = 'agente';
+let cargoAtual = CARGO_FIXO;
+try { localStorage.setItem('pcpr_cargo', CARGO_FIXO); } catch (e) {}
 
 // Executado no carregamento da página para definir o valor no HTML
 document.addEventListener('DOMContentLoaded', () => {
     const sel = document.getElementById('global-cargo-filter');
-    if (sel) sel.value = cargoAtual;
+    if (sel) sel.value = CARGO_FIXO;
 });
 
 function alterarCargoGlobal() {
+    // Mantida apenas para não quebrar o onchange do select oculto: o cargo
+    // não muda mais.
+    cargoAtual = CARGO_FIXO;
     const sel = document.getElementById('global-cargo-filter');
-    if (sel) {
-        cargoAtual = sel.value;
-        try { localStorage.setItem('pcpr_cargo', cargoAtual); } catch (e) {}
-        
-        // Disparar atualizações em toda a interface
-        if (typeof atualizarFiltrosDeDisciplina === 'function') {
-            atualizarFiltrosDeDisciplina();
-        }
-    }
+    if (sel) sel.value = CARGO_FIXO;
 }
 
 // Disciplinas cujas provas já ocorreram: o conteúdo continua no banco e nos
@@ -236,7 +231,8 @@ function disciplinaPermitidaParaCargo(disciplina) {
         return true;
     }
 
-    if (cargoAtual === 'delegado' || cargoAtual === 'escrivao') {
+    // Agente tem exatamente as mesmas matérias de Escrivão/Delegado.
+    if (cargoAtual === 'agente' || cargoAtual === 'delegado' || cargoAtual === 'escrivao') {
         if (isPeritoEspecifico) return false;
         return true;
     }
@@ -407,27 +403,34 @@ let currentUser = null;
 let syncTimeout = null;
 let isAdmin = false;
 const ADMIN_USER = 'brunoluz12';
+// Token de sessão devolvido por /api/auth: permite reabrir o app sem digitar a
+// senha de novo e é o que autoriza o painel Admin no servidor.
+const AUTH_TOKEN_KEY = 'pcpr_auth_token';
+let authToken = null;
+try { authToken = localStorage.getItem(AUTH_TOKEN_KEY); } catch (e) {}
 
 // INICIALIZAÇÃO
 document.addEventListener('DOMContentLoaded', () => {
     const overlay = document.getElementById('login-overlay');
     const btnLogin = document.getElementById('btn-login');
     const inputUser = document.getElementById('username-input');
+    const inputPass = document.getElementById('password-input');
     
     // Auto-preencher
     const savedUser = localStorage.getItem('pcpr_current_user');
     if (savedUser) inputUser.value = savedUser;
 
-    btnLogin.addEventListener('click', () => tryLogin(inputUser.value));
-    inputUser.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') tryLogin(inputUser.value);
-    });
+    const entrar = () => tryLogin(inputUser.value, inputPass ? inputPass.value : '');
+    btnLogin.addEventListener('click', entrar);
+    inputUser.addEventListener('keypress', (e) => { if (e.key === 'Enter') entrar(); });
+    if (inputPass) inputPass.addEventListener('keypress', (e) => { if (e.key === 'Enter') entrar(); });
 
-    // Manter logado: se já houve login aprovado neste navegador, restaura a sessão
-    // automaticamente, sem precisar digitar de novo. O controle de acesso
-    // (pendente/bloqueado) continua sendo revalidado pela API dentro de tryLogin.
-    if (savedUser && savedUser.trim().length >= 2) {
-        tryLogin(savedUser, true);
+    // Manter logado: se já houve login aprovado neste navegador, restaura a
+    // sessão pelo token salvo, sem pedir a senha de novo. O controle de acesso
+    // (pendente/bloqueado/senha resetada) continua sendo revalidado pela API.
+    const savedToken = localStorage.getItem(AUTH_TOKEN_KEY);
+    if (savedUser && savedUser.trim().length >= 2 && savedToken) {
+        tryLogin(savedUser, null, true);
     }
 
     // Registro de acesso confiável: muita gente mantém a aba/app aberto por dias
@@ -450,60 +453,110 @@ function pingAccess() {
     const now = Date.now();
     if (now - lastAccessPingAt < 10 * 60 * 1000) return; // 10 min
     lastAccessPingAt = now;
-    fetch(`/api/auth?username=${encodeURIComponent(currentUser)}`).catch(() => {
+    fetch(`${VERCEL_API_URL}/api/auth?username=${encodeURIComponent(currentUser)}`).catch(() => {
         // Uso local ou offline: ignora silenciosamente.
     });
 }
 
-async function tryLogin(username, autoRestore = false) {
+// Login com usuário + senha. `autoRestore` reabre a sessão salva neste
+// aparelho usando o token (sem pedir a senha de novo) e pula a carga da nuvem.
+async function tryLogin(username, password, autoRestore = false) {
     if (!username || username.trim().length < 2) {
-        if (!autoRestore) alert("Digite um nome válido com pelo menos 2 caracteres.");
+        if (!autoRestore) alert("Digite um usuário válido com pelo menos 2 caracteres.");
         return;
     }
-    
+
     const user = username.trim();
     const statusMsg = document.getElementById('login-status-msg');
     const pendingMsg = document.getElementById('login-pending-msg');
     const blockedMsg = document.getElementById('login-blocked-msg');
+    const invalidMsg = document.getElementById('login-invalid-msg');
+    const weakMsg = document.getElementById('login-weak-msg');
+    const offlineMsg = document.getElementById('login-offline-msg');
     const btn = document.getElementById('btn-login');
-    
+
+    const esconderMensagens = () => {
+        [pendingMsg, blockedMsg, invalidMsg, weakMsg, offlineMsg].forEach(el => el && el.classList.add('hidden'));
+    };
+    const falhar = (el) => {
+        statusMsg.classList.add('hidden');
+        if (el) el.classList.remove('hidden');
+        btn.disabled = false;
+    };
+
     // Esconder mensagens anteriores
-    pendingMsg.classList.add('hidden');
-    blockedMsg.classList.add('hidden');
+    esconderMensagens();
     statusMsg.classList.remove('hidden');
     btn.disabled = true;
-    
-    // Verificar acesso via API (só funciona na Vercel)
+
+    if (!autoRestore && (!password || password.length < 4)) {
+        falhar(weakMsg);
+        return;
+    }
+
+    // Verificar acesso via API
     try {
-        const authResponse = await fetch(`/api/auth?username=${encodeURIComponent(user)}`);
-        if (authResponse.ok) {
-            const authResult = await authResponse.json();
-            
-            if (authResult.status === 'pending') {
+        const corpo = autoRestore
+            ? { username: user, token: localStorage.getItem(AUTH_TOKEN_KEY) }
+            : { username: user, password };
+
+        const authResponse = await fetch(`${VERCEL_API_URL}/api/auth`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(corpo)
+        });
+
+        let authResult = {};
+        try { authResult = await authResponse.json(); } catch (e) {}
+
+        if (authResponse.status === 401) {
+            // Sessão salva não vale mais (senha trocada/resetada, ou usuário
+            // apagado): volta para a tela de login pedindo a senha.
+            localStorage.removeItem(AUTH_TOKEN_KEY);
+            authToken = null;
+            if (autoRestore) {
                 statusMsg.classList.add('hidden');
-                pendingMsg.classList.remove('hidden');
                 btn.disabled = false;
-                return; // Não permite login
+                return;
             }
-            
-            if (authResult.status === 'blocked') {
-                statusMsg.classList.add('hidden');
-                blockedMsg.classList.remove('hidden');
-                btn.disabled = false;
-                return; // Não permite login
-            }
-            
-            // Se é admin, marcar flag
-            if (authResult.isAdmin) {
-                isAdmin = true;
-            }
+            falhar(invalidMsg);
+            return;
         }
+
+        if (authResult.status === 'weak') {
+            falhar(weakMsg);
+            return;
+        }
+
+        if (authResult.status === 'pending') {
+            falhar(pendingMsg);
+            return;
+        }
+
+        if (authResult.status === 'blocked') {
+            falhar(blockedMsg);
+            return;
+        }
+
+        if (!authResponse.ok || authResult.status !== 'approved') {
+            falhar(offlineMsg);
+            return;
+        }
+
+        if (authResult.token) {
+            authToken = authResult.token;
+            try { localStorage.setItem(AUTH_TOKEN_KEY, authResult.token); } catch (e) {}
+        }
+        if (authResult.isAdmin) isAdmin = true;
     } catch (e) {
-        // API não disponível (uso local) — permite login sem controle
-        console.warn("API de autenticação não disponível. Acesso local sem controle.");
-        // Se é o admin em acesso local, habilitar admin
-        if (user.toLowerCase().trim() === ADMIN_USER) {
-            isAdmin = true;
+        // Servidor fora do ar ou sem internet.
+        console.warn("API de autenticação indisponível.", e);
+        if (autoRestore && localStorage.getItem(AUTH_TOKEN_KEY)) {
+            // Já autenticado neste aparelho: segue offline com os dados locais.
+            if (user.toLowerCase() === ADMIN_USER) isAdmin = true;
+        } else {
+            falhar(offlineMsg);
+            return;
         }
     }
     
@@ -715,8 +768,10 @@ async function logout() {
         }
     }
 
-    // Sempre remove o marcador de auto-login para de fato deslogar.
+    // Sempre remove o marcador de auto-login e o token para de fato deslogar.
     localStorage.removeItem('pcpr_current_user');
+    localStorage.removeItem(AUTH_TOKEN_KEY);
+    authToken = null;
 
     // Só limpa os dados locais do usuário se o backup na nuvem foi confirmado,
     // para nunca perder progresso que ainda não subiu (ex.: offline / uso local).
@@ -5027,6 +5082,7 @@ function getAdminSortValue(u, col) {
     switch (col) {
         case 'username': return u.username.toLowerCase();
         case 'status': return u.status === 'pending' ? 0 : u.status === 'approved' ? 1 : 2;
+        case 'senha': return u.temSenha ? 1 : 0;
         case 'resolvidas': return u.stats ? u.stats.totalResolvidas : 0;
         case 'acertos': return u.stats ? u.stats.totalAcertos : 0;
         case 'erros': return u.stats ? u.stats.totalErros : 0;
@@ -5071,6 +5127,7 @@ function renderAdminTable() {
     const cols = [
         { key: 'username', label: 'Usuário' },
         { key: 'status', label: 'Status' },
+        { key: 'senha', label: 'Senha' },
         { key: 'resolvidas', label: 'Resolvidas' },
         { key: 'acertos', label: 'Acertos' },
         { key: 'erros', label: 'Erros' },
@@ -5097,9 +5154,14 @@ function renderAdminTable() {
         const erros = u.stats ? u.stats.totalErros : 0;
         const taxa = resolvidas > 0 ? Math.round((acertos / resolvidas) * 100) : 0;
 
+        const senhaLabel = u.temSenha
+            ? '<span style="color: #059669;"><i class="ph ph-lock-key"></i> definida</span>'
+            : '<span style="color: var(--text-muted);"><i class="ph ph-lock-open"></i> a definir</span>';
+
         html += `<tr>
             <td><strong>${u.username}</strong></td>
             <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
+            <td>${senhaLabel}</td>
             <td>${resolvidas}</td>
             <td style="color: #059669; font-weight: 600;">${acertos}</td>
             <td style="color: #dc2626; font-weight: 600;">${erros}</td>
@@ -5108,6 +5170,8 @@ function renderAdminTable() {
             <td class="admin-actions">
                 ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
                 ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
+                <button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'resetPassword')"><i class="ph ph-key"></i> Resetar senha</button>
+                <button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'delete')"><i class="ph ph-trash"></i> Excluir</button>
             </td>
         </tr>`;
     });
@@ -5133,8 +5197,8 @@ async function carregarUsuariosAdmin() {
     if (!container) return;
 
     try {
-        const response = await fetch('/api/admin', {
-            headers: { 'X-Admin': ADMIN_USER }
+        const response = await fetch(`${VERCEL_API_URL}/api/admin`, {
+            headers: { 'X-Admin-Token': authToken || '' }
         });
 
         if (!response.ok) {
@@ -5168,12 +5232,18 @@ async function carregarUsuariosAdmin() {
 async function alterarStatusUsuario(username, action) {
     if (!isAdmin) return;
 
+    if (action === 'resetPassword' &&
+        !confirm(`Apagar a senha de "${username}"?\n\nEle vai escolher uma nova senha no próximo acesso e será desconectado dos aparelhos.`)) return;
+
+    if (action === 'delete' &&
+        !confirm(`EXCLUIR o usuário "${username}"?\n\nO acesso e TODO o progresso dele (estatísticas, anotações, flashcards) serão apagados. Não dá para desfazer.`)) return;
+
     try {
-        const response = await fetch('/api/admin', {
+        const response = await fetch(`${VERCEL_API_URL}/api/admin`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'X-Admin': ADMIN_USER
+                'X-Admin-Token': authToken || ''
             },
             body: JSON.stringify({ username, action })
         });
@@ -5190,11 +5260,41 @@ async function alterarStatusUsuario(username, action) {
     }
 }
 
-// Botão de atualizar no painel admin
+// Apaga TODOS os usuários (acesso + progresso), mantendo apenas o admin.
+// Usado na virada do app de uso pessoal para uso comercial.
+async function zerarUsuarios() {
+    if (!isAdmin) return;
+    if (!confirm('ZERAR a base de usuários?\n\nTodos os usuários serão apagados, com acesso e progresso (estatísticas, anotações, flashcards, cadernos). Somente ' + ADMIN_USER + ' será mantido.\n\nNão há como desfazer.')) return;
+    if (prompt('Para confirmar, digite ZERAR:') !== 'ZERAR') return;
+
+    try {
+        const response = await fetch(`${VERCEL_API_URL}/api/admin`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'X-Admin-Token': authToken || '' },
+            body: JSON.stringify({ action: 'wipe', confirm: 'ZERAR' })
+        });
+        const result = await response.json().catch(() => ({}));
+        if (response.ok) {
+            alert(`Base zerada. ${result.apagados || 0} registro(s) apagado(s).`);
+            carregarUsuariosAdmin();
+        } else {
+            alert('Erro ao zerar a base: ' + (result.error || response.status));
+        }
+    } catch (e) {
+        console.error('Erro ao zerar usuários:', e);
+        alert('Erro de conexão.');
+    }
+}
+
+// Botões do painel admin
 document.addEventListener('DOMContentLoaded', () => {
     const btnRefresh = document.getElementById('btn-refresh-admin');
     if (btnRefresh) {
         btnRefresh.addEventListener('click', () => carregarUsuariosAdmin());
+    }
+    const btnWipe = document.getElementById('btn-wipe-users');
+    if (btnWipe) {
+        btnWipe.addEventListener('click', () => zerarUsuarios());
     }
 });
 

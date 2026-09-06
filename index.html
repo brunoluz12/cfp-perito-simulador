@@ -26,14 +26,18 @@
         <div class="login-box glass-panel">
             <i class="ph ph-user-circle login-icon"></i>
             <h2>Bem-vindo!</h2>
-            <p>Por favor, digite seu nome ou apelido para sincronizar seu progresso e anotações.</p>
+            <p>Entre com seu usuário e senha para acessar a plataforma.<br><span style="font-size: 0.85rem; opacity: 0.8;">É seu primeiro acesso? Escolha um usuário e crie sua senha — o acesso é liberado pelo administrador.</span></p>
             <div class="login-input-group">
-                <input type="text" id="username-input" placeholder="Seu nome..." class="custom-input-text" autocomplete="off" />
+                <input type="text" id="username-input" placeholder="Usuário" class="custom-input-text" autocomplete="username" />
+                <input type="password" id="password-input" placeholder="Senha (mínimo 4 caracteres)" class="custom-input-text" autocomplete="current-password" />
                 <button id="btn-login" class="btn-primary">Entrar</button>
             </div>
             <p id="login-status-msg" class="login-status hidden">Buscando seus dados na nuvem...</p>
             <p id="login-pending-msg" class="login-status hidden" style="color: #f59e0b;"><i class="ph ph-hourglass"></i> Sua solicitação de acesso foi enviada. Aguarde a aprovação do administrador.</p>
             <p id="login-blocked-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-prohibit"></i> Seu acesso foi bloqueado. Entre em contato com o administrador.</p>
+            <p id="login-invalid-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-x-circle"></i> Usuário ou senha incorretos.</p>
+            <p id="login-weak-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-warning"></i> A senha precisa ter pelo menos 4 caracteres.</p>
+            <p id="login-offline-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-wifi-slash"></i> Não foi possível falar com o servidor. Verifique sua conexão e tente de novo.</p>
         </div>
     </div>
 
@@ -47,19 +51,16 @@
             <nav class="main-nav" aria-label="Seções do aplicativo">
                 <button type="button" id="tab-simulador" class="tab-link active" onclick="switchMainTab('simulador')"><i class="ph ph-exam"></i> Simulador</button>
                 <button type="button" id="tab-material" class="tab-link" onclick="switchMainTab('material')"><i class="ph ph-book-open"></i> Materiais</button>
-                <button type="button" id="tab-agenda" class="tab-link" onclick="switchMainTab('agenda')"><i class="ph ph-calendar-blank"></i> Agenda</button>
-                <button type="button" id="tab-psico" class="tab-link" onclick="switchMainTab('psico')" style="display: none;"><i class="ph ph-brain"></i> Testes</button>
+                <button type="button" id="tab-agenda" class="tab-link" style="display: none;" onclick="switchMainTab('agenda')"><i class="ph ph-calendar-blank"></i> Agenda</button>
+                <button type="button" id="tab-psico" class="tab-link" onclick="switchMainTab('psico')"><i class="ph ph-brain"></i> Testes</button>
                 <button type="button" id="tab-flashcards" class="tab-link" onclick="switchMainTab('flashcards')"><i class="ph ph-cards"></i> Flash Cards</button>
                 <button type="button" id="tab-notes" class="tab-link" onclick="switchMainTab('notes')"><i class="ph ph-note-pencil"></i> Anotações</button>
-                <button type="button" id="tab-controle" class="tab-link" onclick="switchMainTab('controle')"><i class="ph ph-list-checks"></i> Controle</button>
+                <button type="button" id="tab-controle" class="tab-link" style="display: none;" onclick="switchMainTab('controle')"><i class="ph ph-list-checks"></i> Controle</button>
                 <button type="button" id="tab-admin" class="tab-link" onclick="switchMainTab('admin')" style="display: none;"><i class="ph ph-shield-star"></i> Admin <span id="admin-pending-badge" class="admin-badge" style="display: none;">0</span></button>
             </nav>
             <div class="user-stats">
-                  <select id="global-cargo-filter" class="cargo-select tooltip" data-tooltip="Filtrar por Cargo" onchange="alterarCargoGlobal()">
-                      <option value="todos">Todos os Cargos</option>
-                      <option value="perito">Perito</option>
-                      <option value="delegado">Delegado</option>
-                      <option value="escrivao">Escrivão</option>
+                  <select id="global-cargo-filter" class="cargo-select tooltip" data-tooltip="Cargo" onchange="alterarCargoGlobal()" style="display: none;">
+                      <option value="agente">Agente</option>
                   </select>
                   <button id="btn-sync-cloud" class="theme-toggle tooltip" style="font-size: 1rem; display: inline-flex; align-items: center; gap: 6px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--border-color);" data-tooltip="Sincronizar Progresso com a Nuvem (clique direito: adotar este dispositivo como referência)" onclick="syncLocalWithCloud()" oncontextmenu="event.preventDefault(); definirEsteDispositivoComoFonte(); return false;" aria-label="Sincronizar Progresso">
                       <i class="ph ph-cloud-arrows"></i> <span style="font-size: 0.9rem; font-weight: 500;">Nuvem</span>
@@ -644,11 +645,16 @@
             <div class="glass-panel admin-panel">
                 <div class="admin-header">
                     <h2><i class="ph ph-shield-star"></i> Painel de Administração</h2>
-                    <button id="btn-refresh-admin" class="btn-secondary btn-icon" type="button">
-                        <i class="ph ph-arrows-clockwise"></i> Atualizar
-                    </button>
+                    <div style="display: flex; gap: 8px;">
+                        <button id="btn-refresh-admin" class="btn-secondary btn-icon" type="button">
+                            <i class="ph ph-arrows-clockwise"></i> Atualizar
+                        </button>
+                        <button id="btn-wipe-users" class="btn-secondary btn-icon" type="button" style="color: #ef4444; border-color: #ef4444;">
+                            <i class="ph ph-trash"></i> Zerar usuários
+                        </button>
+                    </div>
                 </div>
-                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">Gerencie o acesso dos usuários à plataforma. Usuários pendentes precisam ser aprovados para conseguir logar.</p>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">Gerencie o acesso dos usuários à plataforma. Cada pessoa escolhe a própria senha no primeiro acesso e fica <strong>pendente</strong> até você aprovar.</p>
                 <div id="admin-users-table-container">
                     <p style="color: var(--text-muted);"><i class="ph ph-spinner ph-spin"></i> Carregando usuários...</p>
                 </div>
@@ -1002,7 +1008,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=181"></script>
     <script src="flashcards.js?v=9"></script>
-    <script src="app.js?v=97"></script>
+    <script src="app.js?v=98"></script>
     <script src="cadernos.js?v=3"></script>
     <script src="marcador.js?v=3"></script>
     <script src="tts_material.js?v=4"></script>
