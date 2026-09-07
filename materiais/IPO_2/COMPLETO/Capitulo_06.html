@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 6 - Uso da Inteligência Artificial (Completo) - Investigação Policial II (IPO II)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.7; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .badge-full { background: #2b6cb0; margin-left: 6px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; margin: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 34px; }
+        h3 { color: #2d3748; margin-top: 26px; }
+        h4 { color: #4a5568; margin-top: 22px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+        pre.mono { font-family: 'Consolas', 'Courier New', monospace; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: 0.9em; line-height: 1.5; margin: 18px 0; }
+        .fig-caption { text-align: center; color: #718096; font-size: 0.92em; font-style: italic; margin-top: -6px; }
+        figure { margin: 22px 0; text-align: center; }
+        figure img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Investigação Policial II (IPO II)</span><span class="badge badge-full">Material Completo</span>
+        <h1>Capítulo 6 - Uso da Inteligência Artificial</h1>
+        <div class="subtitle">Texto integral da apostila, estruturado para leitura</div>
+    </div>
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+<li><a href="#sec1">6 O USO DA INTELIGÊNCIA ARTIFICIAL COMO FERRAMENTA DE ANÁLISE</a></li>
+<li><a href="#sec2">6.1 FUNDAMENTOS DA INTELIGÊNCIA ARTIFICIAL</a></li>
+<li style="margin-left:16px"><a href="#sec3">6.1.1 DEFINIÇÃO DE ML, DL E LLM – CONCEITOS BÁSICOS DE HIERARQUIA</a></li>
+<li style="margin-left:16px"><a href="#sec4">6.1.2 DA TEORIA DE TURING À POPULARIZAÇÃO DOS LLMS</a></li>
+<li><a href="#sec5">6.2 FUNDAMENTOS DO LLM (LARGE LANGUAGE MODEL)</a></li>
+<li style="margin-left:16px"><a href="#sec6">6.2.1 APLICAÇÕES</a></li>
+<li style="margin-left:16px"><a href="#sec7">6.2.2 PROCESSAMENTO</a></li>
+<li><a href="#sec8">6.3 PRINCÍPIOS BÁSICOS DO USO DA INTELIGÊNCIA ARTIFICIAL (IA)</a></li>
+<li><a href="#sec9">6.4 ENGENHARIA DE PROMPT</a></li>
+<li style="margin-left:16px"><a href="#sec10">6.4.1 ESTRUTURA DO PROMPT</a></li>
+<li><a href="#sec15">6.5 ENGENHARIA DE CONTEXTO</a></li>
+<li><a href="#sec16">6.6 USO DA IA PELA POLÍCIA FEDERAL</a></li>
+<li style="margin-left:16px"><a href="#sec17">6.6.1 COPILOT</a></li>
+<li style="margin-left:16px"><a href="#sec18">6.6.2 ACESSO AO COPILOT</a></li>
+        </ul>
+    </div>
+<h2 id="sec1">6 O USO DA INTELIGÊNCIA ARTIFICIAL COMO FERRAMENTA DE ANÁLISE</h2>
+<p>O avanço das tecnologias de inteligência artificial (IA) transformou a forma  como pessoas e organizações processam informações e tomam decisões. No  âmbito policial, essas ferramentas trazem oportunidades para ampliar a eficiência,  automatizar tarefas repetitivas e analisar grandes volumes de dados. Contudo,  também apresentam riscos que precisam ser cuidadosamente geridos. Este módulo  procura capacitar o investigador a utilizar assistentes baseados em IA, de forma  segura, ética e alinhada à missão institucional.</p>
+<h2 id="sec2">6.1 FUNDAMENTOS DA INTELIGÊNCIA ARTIFICIAL</h2>
+<p>A Inteligência Artificial (IA) é um campo da ciência da computação voltado  ao desenvolvimento de máquinas e programas capazes de reproduzir compor tamentos tipicamente humanos. Trata-se de uma área multidisciplinar que reúne  conhecimentos de matemática, estatística, engenharia, linguística, psicologia  cognitiva e ciência de dados.</p>
+<p>Entre as principais capacidades que a IA tenta reproduzir, destacam-se:</p>
+<p>a)	Aprendizado: capacidade de adquirir conhecimento a partir de dados  e experiências anteriores. Essa característica permite que sistemas melhorem seu  desempenho com o tempo.</p>
+<p>b)	Raciocínio: habilidade de processar informações e chegar a conclusões  lógicas, aplicando técnicas de inferência.</p>
+<p>c)	Percepção: interpretação de dados sensoriais como imagens, sons e  textos, tornando possível o reconhecimento de padrões no ambiente.</p>
+<p>d)	Adaptação: ajuste do comportamento com base em novas informações,  possibilitando a tomada de decisões em cenários dinâmicos.</p>
+<p>Assim, a IA não se limita a algoritmos estáticos; ela incorpora processos  que simulam o funcionamento cognitivo humano, buscando maior autonomia e  precisão em tarefas complexas.</p>
+<h3 id="sec3">6.1.1 DEFINIÇÃO DE ML, DL E LLM – CONCEITOS BÁSICOS DE HIERARQUIA</h3>
+<figure><img src="img/p474_241.png" loading="lazy" alt=""></figure>
+<p class="fig-caption">Figura 63 – IA, ML, DL, LLM.</p>
+<p>A Inteligência Artificial é uma área ampla. Dentro dela, destacam-se níveis  de especialização: i.	<em> Machine Learning</em> (ML) – refere-se ao aprendizado de máquina,  processo no qual algoritmos identificam padrões em dados e melho ram seu desempenho sem necessidade de programação explícita  para cada tarefa. Exemplos: classificação de e-mails como spam,  reconhecimento simples de padrões em texto ou números; ii.	<em>Deep Learning</em> (DL) – é um subconjunto do ML que utiliza redes  neurais artificiais profundas. Esse modelo imita o funcionamento do  cérebro humano por meio de várias camadas de processamento,  permitindo reconhecer correlações complexas em grandes volumes  de dados. É a base de sistemas avançados como reconhecimento  de voz, imagens e LLMs; iii.	<em>Large Language Models</em> (LLM) – são modelos de linguagem de larga  escala, treinados sobre vastos conjuntos de textos. Baseiam-se em  arquiteturas de<em> deep learning</em> (como o Transformer35) e atuam como  sistemas de previsão estatística de palavras, permitindo a geração  de textos coerentes, a resposta a perguntas e a execução de tarefas  mais complexas de linguagem natural. Assim, há uma hierarquia: IA  ML  DL  LLM, em que cada nível agrega  maior especialização e complexidade. <em> O modelo Transformer foi criado para ajudar computadores a entenderem melhor </em> <em>textos e frases. Em vez de ler palavra por palavra na ordem, ele consegue olhar para toda a </em> <em>frase de uma vez e identificar quais partes são mais importantes. Isso torna o processo mais </em> <em>rápido e eficiente, especialmente em tarefas como tradução, resumo ou geração de textos.</em></p>
+<h3 id="sec4">6.1.2 DA TEORIA DE TURING À POPULARIZAÇÃO DOS LLMS</h3>
+<p>O estudo sobre o conceito de “Inteligência Artificial” começou por volta de  1950, quando Alan Turing propôs o jogo da imitação (conhecido como Teste  de Turing) como forma de testar se máquinas poderiam pensar como humanos.  Desde então, ao longo das décadas, a IA foi evoluindo de sistemas simples para  aplicações mais complexas. Gradualmente, foi se integrando ao cotidiano: filtros  AntiSpam de e-mail, mecanismos de recomendação em plataformas digitais,  algoritmos de redes sociais, assistentes de voz (Siri, Alexa), sistemas de OCR,  reconhecimento facial, tradutores automáticos etc.</p>
+<p>Popularmente, considera-se que o grande marco recente ocorreu em 2023,  com o lançamento do ChatGPT ao grande público, inaugurando a era dos LLMs  e consolidando a IA como uma ferramenta acessível, estratégica e presente em  diversas áreas.</p>
+<h2 id="sec5">6.2 FUNDAMENTOS DO LLM (LARGE LANGUAGE MODEL)</h2>
+<p>Os LLMs são construídos a partir de redes neurais profundas e treinados em  grandes volumes de texto. Seu funcionamento baseia-se na previsão da próxima  palavra (token36), de acordo com o contexto fornecido.</p>
+<p>O desenvolvimento dos LLMs está diretamente ligado ao artigo “<em>Attention is </em> <em>All You Need</em>”37 (2017), publicado por engenheiros do Google, que apresentou a  arquitetura Transformer, permitindo que redes neurais processassem linguagem de  forma mais eficiente. Essa inovação viabilizou a criação de modelos como GPT,  BERT e outros, treinados em bases textuais massivas.</p>
+<p>Hoje, os LLMs mais populares incluem GPT (OpenAI), Gemini (Google  DeepMind), Gemma (também da Google), Claude (Anthropic), LLaMA (Meta),  Qwen (Alibaba), DeepSeek (DeepSeek AI), Grok (xAI), entre outros. Cada um  apresenta particularidades em desempenho, abertura de código e aplicações,  mas todos se fundamentam nos mesmos princípios da arquitetura Transformer.</p>
+<h3 id="sec6">6.2.1 APLICAÇÕES</h3>
+<p>Um LLM funciona como um sistema estatístico avançado. Ele analisa sequên cias de palavras já vistas no treinamento e calcula probabilidades para prever a  próxima palavra mais provável em determinado contexto.</p>
+<p>Essa capacidade permite uma ampla gama de usos, como:</p>
+<ul><li>Responder perguntas objetivas;</li></ul>
+<p><em> No contexto de modelos de linguagem, um token é a menor unidade de texto pro</em> <em>cessada pelo sistema (palavra, parte de palavra ou símbolo). O LLM gera um token por vez, </em> <em>de forma sequencial, até formar a resposta completa.</em></p>
+<p><em> VASWANI, Ashish et al. Attention is All You Need. arXiv:1706.03762 [online]. 2017. </em> <em>Disponível em: https://arxiv.org/abs/1706.03762. Acesso em: 29 ago. 2025.</em></p>
+<ul><li>Resumir documentos;</li><li>Gerar textos criativos;</li><li>Escrever ou depurar códigos de programação.</li></ul>
+<p>Assim, o modelo não “pensa” como um humano, mas estima a sequência  mais plausível com base nos padrões aprendidos. Portanto, pode perfeitamente  apoiar investigações criminais, desde que haja controle humano a todo tempo,  especialmente no que se refere à sensibilidade dos dados.</p>
+<h3 id="sec7">6.2.2 PROCESSAMENTO</h3>
+<p>O processamento interno de um LLM pode ser descrito em etapas fundamentais:</p>
+<p>i.	 Tokenização: o texto é segmentado em unidades menores (palavras,</p>
+<p>fragmentos ou símbolos) que podem ser processadas pelo modelo.</p>
+<p>ii.<em>Embeddings</em>: cada token é convertido em um vetor numérico que</p>
+<p>representa seu significado em um espaço matemático multidimen</p>
+<p>sional.</p>
+<p>iii.	Mecanismo de atenção: o modelo atribui diferentes níveis de</p>
+<p>relevância a cada token dentro do contexto, capturando relações</p>
+<p>de curto e longo alcance entre palavras.</p>
+<p>iv.	Camadas empilhadas: sucessivas transformações refinam as repre</p>
+<p>sentações, extraindo padrões cada vez mais abstratos e complexos.</p>
+<p>v.	Autorregressão: a geração ocorre de forma sequencial, em que</p>
+<p>o modelo produz um token de cada vez com base nos anteriores,</p>
+<p>construindo progressivamente a resposta.</p>
+<h2 id="sec8">6.3 PRINCÍPIOS BÁSICOS DO USO DA INTELIGÊNCIA ARTIFICIAL (IA)</h2>
+<p>O uso da Inteligência Artificial (IA) em investigações policiais deve observar  alguns princípios essenciais. O primeiro deles é a legalidade, que consiste na  plena adequação às normas vigentes, em especial à Portaria MJSP nº 961/2025,  garantindo que todo processamento de dados siga parâmetros oficiais e regu lamentados. A Portaria MJSP nº 961/2025 será objeto de aprofundamento no  próximo subcapítulo.</p>
+<p>Além da conformidade legal, é indispensável que o uso da IA seja pautado  pela ética que se refere à responsabilidade de garantir que sistemas automatizados  sejam desenvolvidos e aplicados de forma justa, transparente e segura, respeitando  os direitos fundamentais dos indivíduos. Isso inclui a proteção da privacidade, a  não discriminação, a prestação de contas e a prevenção de danos. No contexto  institucional, especialmente em áreas sensíveis como segurança pública, o uso ético  da IA exige rigor técnico e normativo para evitar vieses, assegurar a legalidade  das decisões automatizadas e preservar a confiança da sociedade nas instituições.  A ética, nesse sentido, não é somente um valor abstrato, mas um imperativo  operacional que orienta o uso legítimo e responsável da tecnologia.</p>
+<p>Outro princípio é a confiabilidade, que diz respeito à capacidade do modelo  em executar a tarefa com êxito. Isso envolve verificar se o desempenho do sistema é  adequado, ou seja, se a saída é confiável o suficiente para auxiliar na tarefa. Também  se aplica para avaliar se a taxa de processamento (tokens por segundo) atende à  demanda e se a disponibilidade do serviço é consistente para uso operacional. Este  princípio também exige que os algoritmos sejam auditáveis, garantindo que suas  decisões possam ser reproduzidas e justificadas tecnicamente. Para instituições, isso  significa que a IA deve ser integrada com supervisão humana e protocolos próprios  de validação, além da conformidade com normas legais e éticas.</p>
+<p>Por fim, destaca-se a confidencialidade. O sigilo dos dados sensíveis deve  ser preservado em qualquer circunstância. Para isso, é fundamental que o  processamento ocorra somente em servidores seguros, considerando inclusive a  anonimização38 das informações, quando necessário. Nesse ponto, é importante  atentar para as diferenças entre ambientes de uso: provedores gratuitos, como  o Gemini API “free tier”, podem coletar dados para aprimorar seus produtos; já  serviços pagos, como o plano corporativo da OpenAI, asseguram que os dados  não sejam usados para treinamento; soluções institucionais, como o Microsoft  Copilot Chat, contam com proteção empresarial vinculada a termos de aditivos  de proteção de dados; e servidores locais, como o Ollama, oferecem ainda mais  controle sobre os dados processados permitindo inferências 100% locais, sem  risco de exposição na internet.</p>
+<figure><img src="img/p477_242.png" loading="lazy" alt=""></figure>
+<p>Normativo aplicável - legalidade</p>
+<p>A Portaria MJSP nº 961/2025 estabelece diretrizes para o uso de soluções  de tecnologia da informação, incluindo inteligência artificial, em investigações  <em>38  Anonimização: conforme a LGPD, é o processo técnico que torna irreversível a identifica</em> <em>ção de um indivíduo. Dados devidamente anonimizados deixam de ser considerados “dados </em> <em>pessoais”.</em> criminais e atividades de inteligência de segurança pública. O texto aplica-se a  órgãos federais como a Polícia Federal, a Polícia Rodoviária Federal e a Polícia  Penal Federal, bem como a entidades estaduais, distritais e municipais que  utilizem recursos de fundos nacionais de segurança. Como fundamentos, aponta  a legalidade, a proporcionalidade, a proteção de dados pessoais, a integridade  dos sistemas e a transparência.</p>
+<p>O texto normativo é fundamentado em princípios como o respeito aos direitos  fundamentais, à privacidade, à proteção de dados pessoais, à legalidade e  à proporcionalidade das ações. Também enfatiza a integridade da cadeia de  custódia da prova, a segurança da informação e a transparência na utilização  das tecnologias.</p>
+<p>Ainda define conceitos essenciais como dados pessoais e sensíveis, inteligência  de segurança pública, investigação criminal, tratamento de dados e l<em>ogs </em>de acesso  e delimita o uso das tecnologias àquilo que for estritamente necessário para o  cumprimento das atribuições legais dos órgãos de segurança, vedando o uso  indiscriminado ou sem finalidade clara.</p>
+<p>A Portaria, quanto ao uso, exige proporcionalidade e revisão humana em  casos de risco a direitos fundamentais. Nesse contexto, os órgãos gestores são  obrigados a adotar medidas técnicas e administrativas para garantir a segurança  das soluções tecnológicas, como controle de acesso, autenticação segura,  auditorias periódicas, capacitação dos usuários e planos de contingência.  Prevê responsabilização administrativa, civil e criminal em caso de uso indevido  das tecnologias</p>
+<h2 id="sec9">6.4 ENGENHARIA DE PROMPT</h2>
+<p>A Engenharia de Prompt corresponde ao conjunto de técnicas utilizadas para  estruturar as instruções fornecidas a um modelo de linguagem, influenciando  diretamente a qualidade e a precisão das respostas. O ponto central é que a  IA não adivinha o que se deseja: ela interpreta a entrada textual e gera saídas  conforme padrões aprendidos. Assim, quanto mais bem formulado for o comando,  maior será a chance de obter respostas úteis, coerentes e dentro do esperado.</p>
+<p>Existem diferentes métodos para orientar a geração de respostas:</p>
+<ul><li>Zero-shot: somente descreve a tarefa, sem exemplos.</li><li>Few-shot: inclui alguns exemplos de entrada e saída para guiar o modelo.</li><li>Role prompting: atribui um papel específico ao modelo (ex.: “Você é um perito criminal”).</li><li>Contextual prompting: acrescenta informações de fundo, delimi tando escopo e contexto.</li><li>Cadeia de raciocínio(Chain of Thought – CoT): solicita que o modelo explique passo a passo, tornando o raciocínio mais claro.</li><li>Técnicas avançadas: como Tree of Thoughts (ToT), ReAct (Reason</li></ul>
+<p>&amp; Act) e Self-consistency, que ajudam a aumentar a robustez e</p>
+<p>reduzir vieses.</p>
+<p>Além da escolha da técnica, a estrutura do prompt é determinante.  Recomenda-se segmentar as partes principais: objetivo, regras, contexto, público -alvo e saída esperada. Esse padrão aumenta a clareza e a rastreabilidade,  especialmente em investigações criminais.</p>
+<h3 id="sec10">6.4.1 ESTRUTURA DO PROMPT</h3>
+<p>A forma como o prompt é estruturado impacta diretamente a interpretação  e a qualidade da resposta gerada por um modelo de linguagem. Duas formas  bastante utilizadas são o Markdown e o XML, cada uma com características  próprias e aplicabilidades distintas.</p>
+<h4 id="sec11">6.4.1.1 USO DE MARKDOWN</h4>
+<p>Por padrão, a maioria dos LLMs organiza respostas em Markdown, linguagem  de marcação leve amplamente utilizada em treinamentos de modelos. Sua principal  vantagem é a simplicidade sintática, permitindo organizar o texto em títulos, listas,  tabelas e blocos de código de forma intuitiva.</p>
+<ul><li>Títulos: iniciados por # (um # equivale a título de nível 1, ## nível</li></ul>
+<p>2, e assim por diante).</p>
+<ul><li>Listas: podem ser numeradas (1., 2.) ou com marcadores (-, *).</li><li>Ênfase: **negrito** e *itálico*.</li><li>Blocos de código: delimitados por crases triplas ``` (útil para incluir trechos técnicos, exemplos de código ou estruturas de prompt).</li></ul>
+<h4 id="sec12">6.4.1.2 USO DE XML</h4>
+<p>Uma alternativa é a utilização de tags XML, especialmente em prompts  complexos que envolvem múltiplos componentes (contexto, instruções, exemplos,  regras). Essa prática, sugerida em guias especializados como os da Anthropic39,  aumenta a precisão da interpretação do modelo, pois separa de forma inequívoca  cada parte do comando. Essa segmentação contribui para:</p>
+<ul><li>Clareza – reduz ambiguidades;</li><li>Acurácia – evita confusão entre instruções e exemplos;</li><li>Flexibilidade – facilita alterações parciais;</li><li>Parseabilidade – possibilita extração automatizada das respostas.</li></ul>
+<p><em>39  SAMPAIO, Rafael Cardoso; SABBATINI, Marcelo; LIMONGI, Ricardo.Diretrizes para o uso </em> <em>ético e responsável da Inteligência Artificial Generativa: um guia prático para pesquisadores. </em> <em>São Paulo: Editora Intercom, 2024. Disponível em:https://www.portcom.intercom.org.br/ebooks/</em> <em>detalheEbook.php?id=57203. Acesso em: 29 ago. 2025.</em> A sintaxe do XML é baseada em <em>tags</em>:</p>
+<ul><li>Abertura e fechamento: &lt;<em>tag</em>&gt; e &lt;/<em>tag</em>&gt;.</li><li>Hierarquia: <em>tags </em>podem ser aninhadas, refletindo a estrutura lógica do conteúdo.</li><li>Semântica: recomenda-se que o nome da <em>tag</em> descreva o tipo de informação que contém, como &lt;objetivo_geral&gt;, &lt;contexto&gt;, </li></ul>
+<p>&lt;regras&gt;.</p>
+<h4 id="sec13">6.4.1.3 COMPARATIVO ENTRE MARKDOWN E XML</h4>
+<p class="fig-caption">Quadro 9-Estrutura do prompt (Markdown vs XML)</p>
+<table><tr><th>Markdown</th><th>XML</th></tr><tr><td># Objetivo Geral Gerar um comentário técnico sobre o elemento de informação. # Contexto [Resumo da investigação em andamento] # Elemento de Informação [Dado fornecido] # Regras - Descreva o tipo de elemento. - Indique as partes envolvidas. - Contextualize a relevância do elemento diante do caso. ## Restrições - Somente o contexto determinará a rele vância. - Não use inferências ou conhecimentos gerais, limite-se aos dados fornecidos. # Saída Esperada Texto em linguagem formal e técnica, adequado a uso jurídico.</td><td>&lt;objetivo geral&gt; _ Gerar um comentário técnico sobre o elemento de informação. &lt;/objetivo geral&gt; _ &lt;contexto&gt; [Resumo da investigação em andamento] &lt;/contexto&gt; &lt;elemento de informacao&gt; _ _ [Dado fornecido] &lt;/elemento de informacao&gt; _ _ &lt;regras&gt; Descreva o tipo de elemento, partes envolvidas e relevância diante do contexto. &lt;restrições&gt; - Somente o contexto determinará a relevância. - Não use inferências ou conhecimentos gerais, limite-se aos dados fornecidos. &lt;/restrições &gt; &lt;/regras&gt; &lt;saida esperada&gt; _ Texto em linguagem formal e técnica, adequado a uso jurídico. &lt;/saida esperada &gt; _</td></tr></table>
+<h4 id="sec14"> 6.4.1.4</h4>
+<p>Em síntese, a Engenharia de Prompt é uma competência essencial para o  investigador moderno. Dominar a construção estruturada de prompts, valendo-se  de recursos como Markdown e XML, garante maior confiabilidade, reduz riscos de  “alucinações”40  e torna a interação com modelos de IA mais previsível e adequada  às exigências normativas e operacionais.</p>
+<h2 id="sec15">6.5 ENGENHARIA DE CONTEXTO</h2>
+<p>A expressão Engenharia de Contexto foi difundida por Andrej Karpathy41 para descrever uma evolução natural da engenharia de <em>prompt</em>. Enquanto esta  se concentra em formular instruções claras e eficazes, a engenharia de contexto  busca estruturar todo o ecossistema de informações que o modelo de linguagem  acessa durante a execução de uma tarefa. O objetivo é preencher a janela de  contexto42 com dados relevantes, na medida certa, evitando tanto lacunas quanto  excesso de informação que possam comprometer a resposta.</p>
+<p>Essa abordagem envolve não somente a redação de instruções, mas também  a seleção criteriosa de documentos, exemplos, regras e dados auxiliares que serão  apresentados ao modelo. Um contexto bem construído aumenta a precisão, reduz  a ocorrência de alucinações e mitiga vieses, permitindo que o modelo opere  de forma mais consistente em cenários complexos. Por isso, a engenharia de  contexto é considerada uma disciplina mais abrangente, que combina elementos  de organização da informação, curadoria de dados e controle técnico do fluxo  de interação.</p>
+<p>Na prática, a engenharia de contexto exige equilíbrio entre qualidade e quanti dade de dados. Informações insuficientes tornam as respostas vagas ou imprecisas;  já um contexto excessivo eleva custos operacionais e pode confundir o modelo.  Técnicas como recuperação aumentada de dados (RAG43), compressão de tokens  e uso de memória persistente exemplificam estratégias aplicáveis. Dessa forma,  a engenharia de contexto complementa a engenharia de <em>prompt</em>, fornecendo a  base necessária para que comandos curtos e objetivos gerem resultados robustos  e adequados às necessidades investigativas e normativas. <em>40  Na inteligência artificial, especialmente em modelos de linguagem como os LLMs, o </em></p>
+<p><em>termoalucinaçãorefere-se ao fenômeno em que o modelo gera uma resposta queparece </em></p>
+<p><em>correta ou plausível, mas que éfalsa, imprecisa ou inventada.</em> <em>41  Andrej Karpathy: cientista da computação, ex-diretor de IA da Tesla e ex-pesquisador da </em></p>
+<p><em>OpenAI. Tornou-se referência em visão computacional e aprendizado profundo, popularizando </em></p>
+<p><em>conceitos como “engenharia de contexto”.</em> <em>42  Janela de Contexto: limite de memória temporária de um modelo de linguagem, medido </em></p>
+<p><em>em tokens. Define a quantidade máxima de informações que podem ser processadas em </em></p>
+<p><em>uma única interação, impactando diretamente a qualidade e a completude das respostas.</em> <em>43  RAG (Retrieval-Augmented Generation): técnica que combina modelos de linguagem com </em></p>
+<p><em>mecanismos de busca em bases externas. O LLM consulta documentos relevantes durante </em></p>
+<p><em>a geração da resposta, ampliando a precisão e atualidade das informações.</em></p>
+<h2 id="sec16">6.6 USO DA IA PELA POLÍCIA FEDERAL</h2>
+<p>A Polícia Federal já faz uso de inteligência artificial muito antes da populariza ção dos modelos de linguagem de larga escala. Diversas soluções especializadas  são aplicadas em tarefas de apoio à análise, como transcrição de áudios,  reconhecimento de caracteres em documentos, classificação de imagens e  identificação biométrica. Esses sistemas demonstram que a incorporação da IA  às rotinas policiais não começou com os LLMs. No entanto, é inegável o salto no  avanço das redes de Inteligência Artificial generativa, trazendo mais possibilidades  de aplicação de novos modelos à rotina de investigação.</p>
+<p>O emprego da Inteligência Artificial Generativa no âmbito da Polícia Federal  já apresenta casos de uso consolidados e em expansão. Em inquéritos policiais,  por exemplo, é possível empregar LLMs para organizar informações de autoria  e materialidade, permitindo a geração de minutas de relatórios técnicos ou  despachos com maior padronização e clareza.</p>
+<p>Outro caso recorrente é o apoio na análise de dados financeiros e de  telecomunicações, em que modelos contextualizados com esquemas de investi gação podem identificar padrões suspeitos e propor hipóteses de vínculos entre  investigados. Da mesma forma, técnicas de engenharia de contexto permitem  alimentar o modelo com decisões judiciais, relatórios de inteligência e registros  administrativos, reduzindo a ocorrência de lacunas e alucinações. Na prática, a  Polícia Federal vem apresentando casos de uso de aplicação para:</p>
+<ul><li>Produção de IPJ (Informação de Polícia Judiciária), garantindo uniformidade na linguagem e conformidade com normas proce dimentais.</li><li>Classificação e análise de elementos de informação, em que o modelo descreve a natureza dos dados, identifica partes envolvidas  e sugere conclusões técnicas, sempre submetidas à revisão humana.</li><li>Estruturação de dados e análise de informações de mídias e documentos (OCR e relatórios digitalizados), agilizando o trabalho  de análise e permitindo buscas por palavras-chave em grandes  volumes de provas digitais.</li><li>Análise exploratória de vínculos em investigações complexas</li></ul>
+<p>(ex.: corrupção, lavagem de dinheiro e organizações criminosas),</p>
+<p>combinando I.A. generativa com linguagens de programação como</p>
+<p>Python para análise de vasto volume de dados.</p>
+<ul><li>Criação de automações investigativas, por meio de agentes autônomos que utilizam ferramentas adicionais para consultas  em bases de dados, análise de padrões e produção de relatórios  preliminares.</li></ul>
+<p>Esses usos estão sempre vinculados ao controle humano e às exigências  da Portaria MJSP nº 961/2025, que estabelece que a IA deve ser instrumento  auxiliar, com rastreabilidade, proporcionalidade e revisão obrigatória. Assim, a  integração de LLMs ao trabalho policial não substitui o investigador, mas amplia  sua capacidade analítica, tornando os procedimentos mais céleres, consistentes  e tecnicamente embasados.</p>
+<h3 id="sec17">6.6.1 COPILOT</h3>
+<p>O Copiloté uma solução de inteligência artificial desenvolvida com base na  arquitetura GPT-4, projetada para atuar como assistente digital em ambientes  profissionais e operacionais. Integrado ao ecossistema da Microsoft, o Copilot  é capaz de compreender linguagem natural, interpretar contextos complexos e  oferecer respostas precisas, seguras e contextualizadas. Sua aplicação na ativi dade policial representa um avanço significativo na modernização das rotinas  investigativas, administrativas e formativas.</p>
+<p>No contexto da Polícia Federal, o Copilot pode ser utilizado como ferramenta  estratégica em diversas frentes. Na área de investigação, auxilia na análise de  documentos, cruzamento de dados, elaboração de relatórios e identificação de  padrões em grandes volumes de informação. Sua capacidade de sintetizar con teúdos e gerar insights contribui diretamente para o aprimoramento da produção  de inteligência, permitindo a redação de peças técnicas, estudos prospectivos e  sínteses informativas com linguagem institucional e foco na segurança pública.</p>
+<p>O Copilot é capaz de automatizar tarefas rotineiras, como organização de  planilhas, geração de gráficos, tradução de documentos e revisão textual, liberando  tempo para atividades de maior valor estratégico. Outro diferencial relevante é  sua capacidade de interpretar dispositivos legais e normativos, contextualizando  leis, decretos e regulamentos em situações práticas. Isso o torna um aliado na  compreensão jurídica aplicada à atividade policial, especialmente em áreas  sensíveis como o combate à lavagem de dinheiro, crimes cibernéticos e operações  com ativos virtuais.</p>
+<p>Do ponto de vista técnico, o Copilot opera com interação multimodal,  compreendendo texto, imagens, tabelas e comandos em linguagem natural. Sua  arquitetura respeita diretrizes rígidas de segurança, operando dentro dos limites  éticos e legais exigidos em ambientes institucionais. Além disso, possui mecanismos  de atualização contínua, que permitem acesso a informações confiáveis e recentes,  e pode ser personalizado conforme as demandas específicas de setores, disciplinas  ou perfis operacionais.</p>
+<p>Apesar de sua sofisticação, é fundamental compreender que o Copilot não  substitui o juízo crítico, a experiência operacional ou a autoridade legal do policial.  Seu uso deve ser orientado por critérios técnicos, supervisão institucional e respeito  à legislação vigente. A inteligência artificial é uma ferramenta de apoio, e não  um agente decisório.</p>
+<h3 id="sec18">6.6.2 ACESSO AO COPILOT</h3>
+<p>O policial federal que possui acesso institucional ao Microsoft 365 pode utilizar  o Copilot por meio de diversos canais integrados às ferramentas corporativas da  Microsoft. O primeiro e mais direto ponto de acesso é oMicrosoft Teams, onde  o Copilot aparece como uma aba ou botão na interface principal, permitindo  interações em linguagem natural para organização de reuniões, geração de atas,  análise de mensagens e apoio à comunicação interna.</p>
+<figure><img src="img/p484_243.jpeg" loading="lazy" alt=""></figure>
+<p>Onavegador Microsoft Edgeoferece acesso ao Copilot diretamente pela  interface, com um botão localizado no canto superior direito. Esse canal é útil  para pesquisas assistidas, leitura de normativos e análise de conteúdo web com  suporte da IA.</p>
+<figure><img src="img/p485_244.png" loading="lazy" alt=""></figure>
+<p>Por fim, o policial pode acessar o Copilot peloportal do Microsoft 365, disponí vel emoffice.com, utilizando seu e-mail institucional. Após o login, o Copilot estará  disponível nos aplicativos online como Word, Excel, PowerPoint e Outlook, além  de permitir colaboração em tempo real com arquivos armazenados no OneDrive.</p>
+<figure><img src="img/p485_245.jpeg" loading="lazy" alt=""></figure>
+<p>Esses canais garantem que o Copilot esteja presente nas principais rotinas  operacionais, administrativas e formativas da Polícia Federal, sempre respeitando  os parâmetros de segurança e conformidade institucional.</p>
+<p>É absolutamente indispensável que o Copilot seja usado, para fins corporativos,  em ambiente PROTEGIDO. Para tanto, o servidor da Polícia Federal deverá entrar  com seu login e com sua senha corporativa e verificar se o escudo indicativo de  proteção acusa a cor VERDE e os dizeres “PROTEÇÃO DE DADOS EMPRESARIAIS”.</p>
+<figure><img src="img/p485_246.png" loading="lazy" alt=""></figure>
+<p>De acordo com a Microsoft, empresa com a qual a Polícia Federal mantém  contrato, os dados inseridos no ambiente PROTEGIDO do Copilot estarão sub metidos à seguinte política: <em>“Com a Proteção de Dados Empresariais (EDP), os prompts e </em> <em>respostas são protegidos pelos mesmos termos contratuais e </em> <em>compromissos amplamente confiáveis por nossos clientes para </em> <em>seus e-mails no Exchange e arquivos no SharePoint”.</em> <em>Protegemos seus dados:Ajudamos a proteger seus dados com </em> <em>criptografia em repouso e em trânsito, controles rigorosos de </em> <em>segurança física e isolamento de dados entre locatários.</em> <em>Seus dados são privados:Não usaremos seus dados, exceto </em> <em>conforme suas instruções. Nossos compromissos com a pri</em> <em>vacidade incluem suporte ao GDPR, à Fronteira de Dados da </em> <em>UE, à norma ISO/IEC 27018 e ao nosso Adendo de Proteção </em> <em>de Dados.</em> <em>Seus controles de acesso e políticas se aplicam ao Copilot:O </em> <em>Copilot respeita seu modelo de identidade e permissões, herda </em> <em>seus rótulos de sensibilidade, aplica suas políticas de retenção, </em> <em>oferece suporte à auditoria de interações e segue suas confi</em> <em>gurações administrativas. Os controles e políticas específicos </em> <em>variam conforme o plano de assinatura subjacente.</em> <em>Você está protegido contra riscos de segurança e direitos </em> <em>autorais relacionados à IA:Ajudamos a proteger contra riscos </em> <em>focados em IA, como conteúdo prejudicial e injeções de prompt. </em> <em>Para preocupações com direitos autorais de conteúdo, ofere</em> <em>cemos detecção de material protegido e nosso Compromisso </em> <em>de Direitos Autorais com o Cliente.</em> <em>Seus dados não são usados para treinar modelos de base:O </em> <em>Microsoft 365 Copilot Chat usa o contexto do usuário para </em> <em>criar respostas relevantes. O Microsoft 365 Copilot também </em> <em>utiliza dados do Microsoft Graph. De forma consistente com </em> <em>nossas outras ofertas do Copilot, os prompts, respostas e dados </em> <em>acessados por meio do Microsoft Graph não são usados para </em> <em>treinar modelos de base.”</em></p>
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+  })();
+</script>
+</body>
+</html>

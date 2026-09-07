@@ -1,0 +1,19 @@
+{
+  "pdf": "../IPO/Caderno Didático IPO.pdf",
+  "disc_dir": "materiais/IPO",
+  "badge": "Investigação Policial (IPO)",
+  "body_size": 11,
+  "heading_min_size": 12.5,
+  "pausas": ["^Refer[êe]ncias"],
+  "files": [
+    {"arquivo": "Capitulo_01.html", "titulo": "Apresentação", "gatilho": "^1\\s+Apresenta"},
+    {"arquivo": "Capitulo_02.html", "titulo": "Introdução", "gatilho": "^2\\s+Introdu"},
+    {"arquivo": "Capitulo_03.html", "titulo": "Teoria da Investigação", "gatilho": "^3\\s+Teoria"},
+    {"arquivo": "Capitulo_04.html", "titulo": "Investigação Policial", "gatilho": "^4\\s+[-–]?\\s*Investiga"},
+    {"arquivo": "Capitulo_05.html", "titulo": "Inquérito Policial", "gatilho": "^5\\s+Inqu[ée]rito"},
+    {"arquivo": "Capitulo_06.html", "titulo": "Metodologia da Investigação Policial", "gatilho": "^6\\s+Metodologia"},
+    {"arquivo": "Capitulo_07.html", "titulo": "Estratégias para Nortear a Investigação", "gatilho": "^7\\s+Estrat[ée]gias"},
+    {"arquivo": "Capitulo_08.html", "titulo": "Gerenciamento das Investigações", "gatilho": "^8\\s+Gerenciamento"},
+    {"arquivo": "Capitulo_09.html", "titulo": "Conclusão", "gatilho": "^9\\s+Conclus"}
+  ]
+}

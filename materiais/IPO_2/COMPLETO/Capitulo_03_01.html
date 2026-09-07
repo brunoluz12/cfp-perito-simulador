@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 3.1 - Meios Ordinários: OSINT (Fontes Abertas) (Completo) - Investigação Policial II (IPO II)</title>
+    <link rel="stylesheet" href="../estilo_padrao.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.7; color: #333; background-color: #f9f9f9; padding: 20px; }
+        .container { max-width: 100%; margin: auto; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background: #1a202c; color: #fff; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9em; margin-bottom: 15px; }
+        .badge-full { background: #2b6cb0; margin-left: 6px; }
+        h1 { font-size: 2.1em; color: #2d3748; margin-bottom: 5px; }
+        .subtitle { font-size: 1.1em; color: #718096; }
+        .toc { background: #edf2f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .toc ul { list-style: none; padding: 0; margin: 0; }
+        .toc li { margin-bottom: 8px; }
+        .toc a { text-decoration: none; color: #3182ce; font-weight: 600; }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 34px; }
+        h3 { color: #2d3748; margin-top: 26px; }
+        h4 { color: #4a5568; margin-top: 22px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; }
+        li { margin-bottom: 6px; }
+        code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1px 5px; border-radius: 4px; font-size: 0.92em; }
+        pre.mono { font-family: 'Consolas', 'Courier New', monospace; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: 0.9em; line-height: 1.5; margin: 18px 0; }
+        .fig-caption { text-align: center; color: #718096; font-size: 0.92em; font-style: italic; margin-top: -6px; }
+        figure { margin: 22px 0; text-align: center; }
+        figure img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.97em; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; vertical-align: top; }
+        th { background: #edf2f7; color: #2d3748; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <span class="badge">Investigação Policial II (IPO II)</span><span class="badge badge-full">Material Completo</span>
+        <h1>Capítulo 3.1 - Meios Ordinários: OSINT (Fontes Abertas)</h1>
+        <div class="subtitle">Texto integral da apostila, estruturado para leitura</div>
+    </div>
+    <div class="toc">
+        <h3>Índice</h3>
+        <ul>
+<li><a href="#sec1">3 MEIOS ORDINÁRIOS DE INVESTIGAÇÃO</a></li>
+<li><a href="#sec2">3.1 PESQUISAS EM FONTES ABERTAS (OSINT)</a></li>
+<li style="margin-left:16px"><a href="#sec3">3.1.1 CATEGORIAS DE FONTES ABERTAS</a></li>
+<li style="margin-left:16px"><a href="#sec8">3.1.2 FERRAMENTAS DE BUSCA, ACOMPANHAMENTO E ANÁLISE</a></li>
+<li style="margin-left:16px"><a href="#sec14">3.1.3 EXEMPLOS OPERACIONAIS</a></li>
+<li style="margin-left:16px"><a href="#sec18">3.1.4 BOAS PRÁTICAS DE DOCUMENTAÇÃO E DE CUSTÓDIA EM FONTES ABERTAS</a></li>
+<li style="margin-left:16px"><a href="#sec19">3.1.5 SÍNTESE OPERACIONAL</a></li>
+        </ul>
+    </div>
+<h2 id="sec1">3 MEIOS ORDINÁRIOS DE INVESTIGAÇÃO</h2>
+<p>A investigação criminal se apoia em um conjunto de meios ordinários, enten didos como técnicas e ferramentas tradicionais de coleta, análise e correlação de  informações, utilizadas de forma sistemática e dentro dos limites da legalidade.  Esses meios são a espinha dorsal da atividade investigativa, servindo tanto para  subsidiar a abertura de procedimentos quanto para robustecer provas em inquéritos  já instaurados. Enquanto meios extraordinários de investigação (como interceptações telefô nicas, quebra de sigilo bancário ou infiltrações) dependem de autorização judicial  e possuem caráter excepcional, como será demonstrado nos próximos capítulos,  os meios ordinários podem ser empregados de imediato, independentemente de  apreciação judicial, respeitando a legislação vigente e os princípios constitucionais.  Por isso, constituem a primeira linha de atuação do policial investigador e devem  ser dominados com profundidade. Entre os principais meios ordinários de investigação, destacam-se:</p>
+<ul><li>pesquisas em fontes abertas (OSINT): exploração de dados disponí veis na internet, redes sociais, cadastros públicos e outras platafor mas digitais, além dos meios físicos tradicionais, com metodologia  estruturada para garantir validade e confiabilidade;</li><li>pesquisas em bancos de dados: consultas a sistemas institucionais da Polícia Federal, de outros órgãos públicos e de cooperação  internacional, permitindo rastrear pessoas, empresas, bens e movi mentações financeiras;</li><li>análise de Relatórios de Inteligência Financeira (RIF): documentos produzidos pelo Coaf que sinalizam movimentações suspeitas de  lavagem de dinheiro, corrupção ou financiamento ilícito;</li><li>análise de vínculos e fluxos: cruzamento de informações entre pessoas, empresas e eventos, com construção de redes de relacio namento para identificar estruturas criminosas e fluxos financeiros;</li><li>obtenção de dados oriundos de fontes humanas: coleta de infor mações junto a colaboradores, testemunhas, vítimas ou mesmo  informantes ocasionais, respeitando limites éticos e legais;</li><li>outras técnicas complementares: rastreamento veicular, vigilância, operações com drones, análise documental, verificação em registros  públicos, entre outros.</li></ul>
+<p>O domínio desses meios ordinários permite ao investigador transformar dados  brutos em conhecimento útil, identificar indícios relevantes e subsidiar a adoção  de medidas mais complexas. Além disso, o uso sistemático e integrado dos meios  ordinários fortalece a qualidade probatória dos inquéritos, evita nulidades e reforça  a credibilidade das investigações perante o Judiciário.</p>
+<h2 id="sec2">3.1 PESQUISAS EM FONTES ABERTAS (OSINT)</h2>
+<p>As fontes abertas constituem um dos meios ordinários de investigação mais  acessíveis e eficientes para a Polícia Federal. Trata-se da utilização de informações  de caráter público, disponíveis em meios digitais ou tradicionais, que podem ser  livremente consultadas sem a necessidade de autorização judicial. Essas informa ções estão presentes em jornais, revistas, diários oficiais, portais governamentais,  registros públicos, redes sociais, fóruns eletrônicos e em diversos outros meios  de acesso aberto.</p>
+<p>A doutrina e a prática internacional consolidaram o termo OSINT (<em>Open </em> <em>Source Intelligence</em>) para designar o processo de coleta, análise e integração  de informações oriundas de fontes abertas. No âmbito da investigação policial,  OSINT deve ser compreendida não como simples consulta a dados públicos, mas  como uma prática técnico-profissional, que exige planejamento, análise crítica,  validação da confiabilidade e documentação de cada etapa da coleta.</p>
+<p>Essa metodologia é particularmente relevante na investigação criminal porque  permite identificar vínculos, rotinas e padrões de comportamento dos investigados  sem a necessidade de intervenção direta em dados protegidos por sigilo. Com  isso, o investigador consegue antecipar cenários, levantar hipóteses investigativas e  subsidiar diligências mais complexas, funcionando muitas vezes como etapa inicial  antes da adoção de medidas extraordinárias. O emprego de fontes abertas não  substitui os demais meios, mas constitui um pilar de eficiência e economicidade  no trabalho policial.</p>
+<p>Por fim, é fundamental distinguir o uso legítimo da OSINT de práticas que  ultrapassam os limites legais. A coleta de dados verdadeiramente públicos é lícita  e amplamente aceita na atividade investigativa. Já a utilização de métodos que  envolvam invasão de sistemas informatizados configura excesso, podendo invalidar  a prova e até caracterizar crime.</p>
+<h3 id="sec3">3.1.1 CATEGORIAS DE FONTES ABERTAS</h3>
+<p>As fontes abertas abrangem todo tipo de informação de acesso público,  independentemente de estarem no meio físico ou digital. Para fins investigativos, é  importante que o policial investigador saiba distinguir os diferentes tipos de fontes,  avaliando sua confiabilidade, abrangência e aplicabilidade ao caso concreto. A  diversidade de fontes abertas pode ser organizada em quatro grandes grupos:</p>
+<h4 id="sec4">3.1.1.1 FONTES GOVERNAMENTAIS E REGISTROS OFICIAIS</h4>
+<ul><li>diários oficiais da União, Estados e Municípios (atos normativos, nomeações, contratos e licitações);</li><li>portais da transparência (transferências de recursos, convênios, despesas públicas);</li><li>sistemas de consulta processual de tribunais (PJe, e-SAJ, entre outros);</li><li>conselhos profissionais (OAB, CRM, CREA), que permitem verificar habilitações e vínculos.</li></ul>
+<p>Exemplo prático: em investigação de fraude em licitação, a análise do Diário  Oficial pode revelar a homologação do contrato com a empresa suspeita,  enquanto o Portal da Transparência permite verificar repasses federais vultosos a  determinado município.</p>
+<h4 id="sec5">3.1.1.2 FONTES DIGITAIS E PLATAFORMAS DA INTERNET</h4>
+<ul><li>motores de busca (Google, Bing), com operadores avançados</li></ul>
+<p>(site:, <em>filetype:, intitle:);</em></p>
+<ul><li>ferramentas de arquivamento e preservação (<em>Wayback Machine, </em></li></ul>
+<p><em>Archive.today</em>);</p>
+<ul><li>redes sociais abertas (X/Twitter, Facebook, Instagram, YouTube,</li></ul>
+<p>TikTok), que expõem vínculos, deslocamentos ou patrimônio;</p>
+<ul><li>ferramentas de busca reversa de imagens e vídeos (Google Imagens,</li></ul>
+<p><em>TinEye, InVID-WeVerify</em>). Exemplo prático: Após a divulgação de notícias sobre uma investigação  policial envolvendo uma empresa contratada em licitação, registros da Wayback  Machine mostram que diversas páginas do site oficial da empresa foram remo vidas ou alteradas, incluindo seções que listavam contratos públicos e parcerias  comerciais; em redes sociais, sócios podem ostentar patrimônio incompatível com  renda declarada.</p>
+<h4 id="sec6">3.1.1.3 FONTES ESPECIALIZADAS E SETORIAIS</h4>
+<ul><li>ambientais: áreas embargadas do Ibama, alerta do Inpe (Deter), imagens de satélite (<em>sentinel</em>, <em>landsat</em>), fontes de dados estaduais;</li><li>transportes e logística: <em>flightradar24</em> (tráfego aéreo), <em>marinetraffic </em></li></ul>
+<p>(movimentação marítima e portuária), <em>checkmytrip</em> (bilhetes aéreos);</p>
+<ul><li>infraestrutura digital: <em>whois</em> e registro.br (domínios), geolocalização de IPs (<em>maxmind</em>).</li></ul>
+<p>Exemplo prático: em investigações de tráfico internacional de pessoas, o cru zamento de anúncios em redes sociais com registros de deslocamentos aéreos em  plataformas abertas pode confirmar rotas utilizadas pela organização criminosa.</p>
+<h4 id="sec7">3.1.1.4 FONTES TRADICIONAIS</h4>
+<p>Ainda relevantes, especialmente em contextos regionais ou quando não há  forte presença digital:</p>
+<ul><li>jornais impressos: notícias locais que podem indicar crimes ou personagens secundários pouco visíveis em meios digitais.</li><li>revistas especializadas: economia, política, setores industriais, com dados relevantes sobre empresas, agentes econômicos ou indivíduos  investigados.</li><li>televisão e rádio: entrevistas, programas jornalísticos e até parti cipações em programas de entretenimento podem expor vínculos,  viagens e patrimônio de investigados.</li></ul>
+<p>Exemplo: um investigado que nega possuir atividade empresarial pode ser  identificado em reportagem televisiva inaugurando um negócio.</p>
+<ul><li>Publicações acadêmicas e científicas: teses, dissertações e artigos que, em alguns casos, fornecem informações sobre organizações,  regiões ou atividades ilícitas.</li></ul>
+<p>Com esse conjunto de consultas, o investigador consegue um mapeamento  inicial de vínculos e levantar hipóteses que podem auxiliar na fundamentação de  medidas extraordinárias, como quebras de sigilo telemático, bancário e fiscal.</p>
+<h3 id="sec8">3.1.2 FERRAMENTAS DE BUSCA, ACOMPANHAMENTO E ANÁLISE</h3>
+<p>As pesquisas em fontes abertas exigem do investigador não somente conhe cimento das fontes disponíveis, mas também uso criterioso de ferramentas que  ampliam a capacidade de coleta, recuperação e preservação de dados. Muitas  dessas ferramentas são de acesso gratuito e podem ser aplicadas em diligências  preliminares pela Polícia Federal, sempre respeitando os limites legais e a custódia  dos elementos digitais.</p>
+<h4 id="sec9">3.1.2.1 FERRAMENTAS DE BUSCA AVANÇADA</h4>
+<ul><li>motores de busca tradicionais: Google, Bing e Yahoo permitem localizar informações abertas por palavras-chave, nomes de pes soas, empresas ou termos associados a crimes.</li></ul>
+<p>Exemplo: a busca pelo nome de uma empresa investigada em combinação  com “fraude”, “contrato” ou “licitação” pode revelar reportagens, blogs ou  registros oficiais.</p>
+<ul><li>operadores de pesquisa: filtros nativos desses buscadores (como</li></ul>
+<p>“site:”, “filetype:”, “intitle:”) que ajudam a restringir resultados. Exemplo: “site:gov.br + nome do investigado” retorna somente resultados em  domínios governamentais.</p>
+<h4 id="sec10">3.1.2.2 FERRAMENTAS DE PRESERVAÇÃO E HISTÓRICO DE PÁGINAS</h4>
+<ul><li>máquina do tempo da internet (<em>wayback machine</em>): serviço que arquiva cópias de páginas da web em diferentes datas, permitindo  recuperar conteúdos removidos ou alterados, como o site:  https:// web.archive.org/.</li></ul>
+<p>Exemplo: recuperar o conteúdo de um sítio eletrônico de uma empresa inves tigada que foi alterado ou removido após a deflagração de operação.</p>
+<ul><li>archive.today: gera instantaneamente cópias estáticas e navegáveis de páginas da web, garantindo preservação mesmo em caso de  exclusão.</li></ul>
+<p>Exemplo: preservar o conteúdo de um portal de licitação alterado após o  início de uma investigação.</p>
+<h4 id="sec11">3.1.2.3 FERRAMENTAS DE ACOMPANHAMENTO DE REDES SOCIAIS</h4>
+<ul><li>pesquisa nativa em X (antigo Twitter), Facebook e Instagram: utiliza ção de filtros e operadores internos para localizar perfis, postagens  e interações.</li></ul>
+<p>Exemplo: verificar viagens internacionais de investigados postadas em perfis  abertos, úteis para contraditar versões apresentadas em interrogatório.</p>
+<ul><li>biblioteca de anúncios do Meta (Ad Library): permite verificar anún cios veiculados no Facebook e Instagram, identificando campanhas,  financiamentos e páginas envolvidas.</li></ul>
+<p>Exemplo: verificar gastos de candidato com anúncios em redes sociais não  declarados na prestação de contas.</p>
+<ul><li>InVID–WeVerify: extensão gratuita para análise e verificação de imagens e vídeos, permitindo quebra em quadros, busca reversa  e análise de metadados.</li><li>YouTube DataViewer: extrai horário de upload e miniaturas de vídeos no YouTube, útil para validação temporal e identificação  de reuso de conteúdo.</li></ul>
+<p>Exemplo: Investigado nega associação com facção criminosa, alegando que  cortou vínculos desde 2022. Vídeo de clipe musical postado em canal no YouTube  em 18/06/2023 mostra o investigado ostentando armas e entorpecentes, ao  lado de indivíduos já identificados como membros da facção. Data de upload  confirmada por YouTube Data Viewer. A gravação recente contradiz diretamente  a versão apresentada em interrogatório e indica envolvimento ativo após a data  declarada de rompimento.</p>
+<h4 id="sec12">3.1.2.4 FERRAMENTAS DE GEOLOCALIZAÇÃO E IMAGENS</h4>
+<ul><li>Google Maps, Google Earth e Street View: possibilitam visualizar imóveis, rotas, pontos de encontro e ambientes relacionados a  investigados.</li><li>Pesquisa reversa de imagens (Google Imagens, TinEye, Bing,</li></ul>
+<p>Yandex): permite rastrear a origem ou reuso de fotografias. Exemplo: confirmar que uma foto de investigado com veículo de luxo foi  publicada em diferentes contextos e plataformas, reforçando indícios de posse  não declarada.</p>
+<h4 id="sec13">3.1.2.5 EXEMPLO DE USO INTEGRADO DE FERRAMENTAS</h4>
+<p>Em uma investigação de fraude em licitações, o policial investigador pode:</p>
+<ul><li>utilizar o Google com operadores avançados para localizar notícias e editais em sites oficiais;</li><li>preservar versões dos editais no Archive.today para garantir prova da publicação original;</li><li>verificar no Ad Library se empresas envolvidas financiaram anúncios em redes sociais antes do certame;</li><li>confirmar a localização de imóveis e obras vinculadas à empresa vencedora por meio do Google Earth.</li></ul>
+<p>Combinando essas ferramentas, é possível coletar, preservar e analisar dados  de forma estruturada, fortalecendo a investigação preliminar e fundamentando  diligências mais complexas. Contudo, é fundamental:</p>
+<ul><li>documentar todas as etapas da pesquisa (captura de telas, registro de data e hora, links acessados);</li><li>avaliar a confiabilidade da fonte antes de utilizar o dado em</li></ul>
+<p>Informações de polícia judiciária ou relatórios;</p>
+<ul><li>observar os parâmetros aplicáveis da IN 299/2025, que assegura a cadeia de custódia dos elementos digitais coletados.</li></ul>
+<h3 id="sec14">3.1.3 EXEMPLOS OPERACIONAIS</h3>
+<p>A pesquisa em fontes abertas revela-se ainda mais valiosa quando integrada a  outros meios ordinários de investigação. Embora permita levantar indícios iniciais  e hipóteses relevantes, seu verdadeiro potencial emerge quando combinada com  consultas em bancos de dados oficiais, análise de vínculos e demais diligências  investigativas que complementam e corroboram as informações coletadas. Essa  integração fornece lastro informativo robusto para justificar medidas investigativas  extraordinárias, como quebras de sigilo bancário, fiscal ou telemático. A seguir, apresentam-se exemplos operacionais simulados, ilustrando como a  Polícia Federal pode utilizar fontes abertas em conjunto com outros meios ordinários  para sustentar investigações complexas.</p>
+<h4 id="sec15">3.1.3.1 FRAUDE EM LICITAÇÕES MUNICIPAIS</h4>
+<ul><li>Fontes abertas: editais localizados em portais oficiais com opera dores de busca;</li><li>Preservação: arquivamento no Archive.today;</li><li>Redes sociais: identificação de vínculos de empresários com agentes públicos;</li><li>Bases complementares: cruzamento com dados da Receita Federal confirma irregularidades fiscais.</li></ul>
+<p><em>Resultado:</em> indícios de direcionamento do certame, fortalecendo pedido de  diligências extraordinárias.</p>
+<h4 id="sec16">3.1.3.2 LAVAGEM DE DINHEIRO VIA EMPRESAS DE FACHADA</h4>
+<ul><li>Redes sociais: ostentação incompatível com renda;</li><li>Geolocalização: endereços inexistentes confirmados no Google</li></ul>
+<p>Earth;</p>
+<ul><li>Bases oficiais: juntas comerciais revelam sócios interpostos.</li></ul>
+<p><em>Resultado:</em> demonstração de movimentação ilícita, subsidiando representação  por quebra de sigilo bancário.</p>
+<h4 id="sec17">3.1.3.3 TRÁFICO INTERNACIONAL DE PESSOAS</h4>
+<ul><li>Fontes abertas: anúncios de trabalho no exterior em redes sociais;</li><li>Preservação: cópias no Wayback Machine;</li><li>Geolocalização: metadados de imagens confirmam rotas;</li><li>Bases oficiais: verificação de passagens e migrações pela PF.</li></ul>
+<p><em>Resultado:</em> identificação do modus operandi da rede criminosa, fundamentando  pedido de cooperação internacional.</p>
+<p>As considerações apresentadas evidenciam que a coleta em fontes abertas  constitui etapa preliminar essencial, mas não se esgota em si mesma. Seu valor  cresce à medida que os achados são confrontados e validados em bancos de  dados oficiais, fortalecendo a coerência da narrativa investigativa e garantindo a  confiabilidade do material coletado.</p>
+<p>Em síntese, as pesquisas em fontes abertas devem ser entendidas como um  ponto de partida estratégico no ciclo investigativo. Ao lado de outros meios ordiná rios de investigação, permitem ao policial investigador estruturar hipóteses sólidas,  otimizar recursos e fundamentar, com maior segurança jurídica, o requerimento  de medidas extraordinárias.</p>
+<h3 id="sec18">3.1.4 BOAS PRÁTICAS DE DOCUMENTAÇÃO E DE CUSTÓDIA EM FONTES ABERTAS</h3>
+<p>A utilização de informações de fontes abertas no âmbito da investigação  criminal somente alcança plena validade jurídica quando acompanhada de  procedimentos que assegurem a integridade, autenticidade e rastreabilidade dos  dados coletados. Não basta localizar e armazenar a informação: é necessário  adotar uma metodologia padronizada que garanta que o conteúdo possa ser  utilizado como meio de prova em juízo, respeitando o devido processo legal.</p>
+<p>Um dos pilares é a documentação da coleta, que deve incluir:</p>
+<ul><li>captura de telas (registros de tela) com a indicação clara do ende reço eletrônico, data e hora do acesso;</li><li>registro dos nomes de usuário (“@nomedeusuario”) e dos identi ficadores únicos (IDs) de perfis, páginas ou publicações, quando  disponíveis, para garantir rastreabilidade mesmo após alterações  nos nomes ou exclusão de conteúdo, além de possibilitar eventual  preservação dos dados junto às plataformas;</li><li>registro dos metadados sempre que possível (hash, cabeçalhos</li></ul>
+<p>HTTP, geotags, entre outros);</p>
+<ul><li>armazenamento do material em repositório institucional seguro, evitando alterações acidentais;</li><li>referência à fonte original em relatórios, com observação de even tuais limitações de acesso.</li></ul>
+<p>Recomenda-se que a coleta em fontes abertas seja acompanhada de uma  análise crítica da confiabilidade da informação, avaliando a veracidade, a  origem e a possibilidade de manipulação dos dados. Essa prática não somente  evita o uso de informações falsas, como também fortalece a robustez do material  apresentado em juízo.</p>
+<p>Por fim, a observância desses procedimentos assegura que a investigação  conduzida pela Polícia Federal em fontes abertas mantenha rigor técnico, susten tação jurídica e credibilidade perante o Poder Judiciário.</p>
+<h3 id="sec19">3.1.5 SÍNTESE OPERACIONAL</h3>
+<p>As pesquisas em fontes abertas consolidam-se como o primeiro passo  estratégico da investigação criminal, permitindo ao policial investigador levantar  hipóteses iniciais, antecipar cenários e subsidiar diligências de maior complexidade.  Seu valor não está somente no acesso facilitado às informações públicas, mas  na capacidade de transformar dados dispersos em conhecimento útil, capaz de  orientar decisões e estruturar linhas investigativas.</p>
+<p>Para terem efetiva utilidade jurídica, os elementos coletados devem ser  acompanhados de documentação e de procedimentos que assegurem a custódia  digital, garantindo a integridade, a autenticidade e a rastreabilidade do material.  Dessa forma, os achados em OSINT adquirem validade probatória e credibilidade  perante o Poder Judiciário.</p>
+<p>Importa destacar, contudo, que as fontes abertas não constituem um fim em  si mesmas, mas o ponto de partida de um ciclo investigativo que se robustece  com a integração a bancos de dados oficiais e, em etapas posteriores, à adoção  de medidas extraordinárias de investigação. Assim, preservam-se a legalidade, a  eficiência e a proporcionalidade da atuação policial.</p>
+</div>
+<script>
+  (function() {
+    var debounceTimer = null;
+    function sendHeight() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        var container = document.querySelector('.container') || document.body.firstElementChild || document.body;
+        var height = container.offsetHeight + 40;
+        window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');
+      }, 100);
+    }
+    window.addEventListener('load', function() { setTimeout(sendHeight, 200); });
+    window.addEventListener('resize', sendHeight);
+  })();
+</script>
+</body>
+</html>

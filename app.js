@@ -4229,6 +4229,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'pceb': true,
         'bal': true,
         'loc': true,
+        'ipo': true,
+        'ipo_2': true,
         'ipo_3': true
     };
     // false = resumido (padrão) | true = texto integral da apostila
