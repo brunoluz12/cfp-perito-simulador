@@ -120,6 +120,23 @@ module.exports = async (req, res) => {
         return res.status(200).json({ success: true, apagados });
       }
 
+      // Exclusão em lote: o painel manda a lista de selecionados de uma vez.
+      if (action === 'deleteMany') {
+        const lista = Array.isArray(body.usernames) ? body.usernames : [];
+        if (lista.length === 0) {
+          return res.status(400).json({ error: 'usernames (array) required' });
+        }
+        const apagados = [];
+        for (const nome of lista) {
+          const alvo = String(nome).toLowerCase().trim();
+          if (!alvo || alvo === ADMIN_USER) continue; // o admin nunca é apagado
+          await redis.del(`access:${alvo}`);
+          await redis.del(`user:${alvo}`);
+          apagados.push(alvo);
+        }
+        return res.status(200).json({ success: true, apagados: apagados.length, usuarios: apagados });
+      }
+
       if (!username || !['approve', 'block', 'resetPassword', 'delete'].includes(action)) {
         return res.status(400).json({ error: 'username and a valid action are required' });
       }

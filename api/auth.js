@@ -8,6 +8,10 @@ const redis = new Redis({
 
 const ADMIN_USER = 'brunoluz12';
 const MIN_PASSWORD = 4;
+// O nome de usuário é escolhido livremente por quem se cadastra e depois é
+// exibido no painel do admin: aceitar só letras, números, espaço, ponto,
+// hífen e sublinhado evita nome com HTML/script dentro.
+const USERNAME_OK = /^[\p{L}\p{N} ._-]{2,30}$/u;
 
 // Segredo usado para derivar o token de "manter conectado". Trocar o valor
 // (variável AUTH_SECRET na Vercel) desconecta todo mundo de uma vez.
@@ -88,6 +92,9 @@ module.exports = async (req, res) => {
 
     if (username.length < 2) {
       return res.status(400).json({ error: 'Username is required (min 2 chars)' });
+    }
+    if (!USERNAME_OK.test(username)) {
+      return res.status(400).json({ status: 'badUsername' });
     }
 
     const user = username.toLowerCase();

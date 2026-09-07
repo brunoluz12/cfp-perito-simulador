@@ -472,11 +472,12 @@ async function tryLogin(username, password, autoRestore = false) {
     const blockedMsg = document.getElementById('login-blocked-msg');
     const invalidMsg = document.getElementById('login-invalid-msg');
     const weakMsg = document.getElementById('login-weak-msg');
+    const badNameMsg = document.getElementById('login-badname-msg');
     const offlineMsg = document.getElementById('login-offline-msg');
     const btn = document.getElementById('btn-login');
 
     const esconderMensagens = () => {
-        [pendingMsg, blockedMsg, invalidMsg, weakMsg, offlineMsg].forEach(el => el && el.classList.add('hidden'));
+        [pendingMsg, blockedMsg, invalidMsg, weakMsg, badNameMsg, offlineMsg].forEach(el => el && el.classList.add('hidden'));
     };
     const falhar = (el) => {
         statusMsg.classList.add('hidden');
@@ -525,6 +526,11 @@ async function tryLogin(username, password, autoRestore = false) {
 
         if (authResult.status === 'weak') {
             falhar(weakMsg);
+            return;
+        }
+
+        if (authResult.status === 'badUsername') {
+            falhar(badNameMsg);
             return;
         }
 
@@ -5075,8 +5081,16 @@ document.addEventListener('DOMContentLoaded', () => {
 // PAINEL DE ADMINISTRAÇÃO
 // ==========================================
 let adminUsers = [];
+// Interpola com segurança dentro de um onclick="fn('...')": escapa primeiro
+// para a string JS e depois para o atributo HTML.
+function adminJsArg(v) {
+    return escapeHtml(String(v).replace(/\\/g, '\\\\').replace(/'/g, "\\'"));
+}
+
 let adminSortCol = 'username';
 let adminSortAsc = true;
+// Usuários marcados nas caixinhas da tabela (sobrevive à reordenação).
+let adminSelecionados = new Set();
 
 function getAdminSortValue(u, col) {
     switch (col) {
@@ -5135,9 +5149,27 @@ function renderAdminTable() {
         { key: 'ultimo_acesso', label: 'Último Acesso' }
     ];
 
-    let html = `<table class="admin-table">
+    const selecionados = sorted.filter(u => adminSelecionados.has(u.username));
+    const todosMarcados = sorted.length > 0 && selecionados.length === sorted.length;
+
+    let html = `
+        <div class="admin-selecao-barra">
+            <span>${selecionados.length > 0
+                ? `<strong>${selecionados.length}</strong> usuário(s) selecionado(s)`
+                : 'Marque as caixinhas para excluir vários de uma vez.'}</span>
+            <div style="display: flex; gap: 8px;">
+                <button class="btn-secondary btn-icon" type="button" onclick="adminSelecionarTodos(${!todosMarcados})">
+                    <i class="ph ph-check-square"></i> ${todosMarcados ? 'Desmarcar todos' : 'Selecionar todos'}
+                </button>
+                <button class="btn-secondary btn-icon" type="button" onclick="excluirUsuariosSelecionados()" ${selecionados.length === 0 ? 'disabled' : ''} style="color: #ef4444; border-color: #ef4444;">
+                    <i class="ph ph-trash"></i> Excluir selecionados
+                </button>
+            </div>
+        </div>
+        <table class="admin-table">
         <thead>
             <tr>
+                <th style="width: 34px;"><input type="checkbox" aria-label="Selecionar todos" onchange="adminSelecionarTodos(this.checked)" ${todosMarcados ? 'checked' : ''}></th>
                 ${cols.map(c => `<th class="sortable-th" onclick="adminSortBy('${c.key}')">${c.label} ${arrow(c.key)}</th>`).join('')}
                 <th>Ações</th>
             </tr>
@@ -5158,8 +5190,12 @@ function renderAdminTable() {
             ? '<span style="color: #059669;"><i class="ph ph-lock-key"></i> definida</span>'
             : '<span style="color: var(--text-muted);"><i class="ph ph-lock-open"></i> a definir</span>';
 
-        html += `<tr>
-            <td><strong>${u.username}</strong></td>
+        const nomeHtml = escapeHtml(u.username);
+        const nomeJs = adminJsArg(u.username);
+
+        html += `<tr class="${adminSelecionados.has(u.username) ? 'linha-selecionada' : ''}">
+            <td><input type="checkbox" aria-label="Selecionar ${nomeHtml}" onchange="adminMarcarUsuario('${nomeJs}', this.checked)" ${adminSelecionados.has(u.username) ? 'checked' : ''}></td>
+            <td><strong>${nomeHtml}</strong></td>
             <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
             <td>${senhaLabel}</td>
             <td>${resolvidas}</td>
@@ -5168,16 +5204,58 @@ function renderAdminTable() {
             <td><strong>${taxa}%</strong></td>
             <td>${reqDate}</td>
             <td class="admin-actions">
-                ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
-                ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${u.username}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
-                <button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'resetPassword')"><i class="ph ph-key"></i> Resetar senha</button>
-                <button class="btn-admin-block" onclick="alterarStatusUsuario('${u.username}', 'delete')"><i class="ph ph-trash"></i> Excluir</button>
+                ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${nomeJs}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
+                ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${nomeJs}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${nomeJs}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
+                <button class="btn-admin-block" onclick="alterarStatusUsuario('${nomeJs}', 'resetPassword')"><i class="ph ph-key"></i> Resetar senha</button>
+                <button class="btn-admin-block" onclick="alterarStatusUsuario('${nomeJs}', 'delete')"><i class="ph ph-trash"></i> Excluir</button>
             </td>
         </tr>`;
     });
 
     html += '</tbody></table>';
     container.innerHTML = html;
+}
+
+function adminMarcarUsuario(username, marcado) {
+    if (marcado) adminSelecionados.add(username);
+    else adminSelecionados.delete(username);
+    renderAdminTable();
+}
+
+function adminSelecionarTodos(marcar) {
+    if (marcar) adminUsers.forEach(u => adminSelecionados.add(u.username));
+    else adminSelecionados.clear();
+    renderAdminTable();
+}
+
+// Exclui de uma vez todos os usuários marcados nas caixinhas.
+async function excluirUsuariosSelecionados() {
+    if (!isAdmin) return;
+    const lista = adminUsers.filter(u => adminSelecionados.has(u.username)).map(u => u.username);
+    if (lista.length === 0) return;
+
+    const nomes = lista.map(n => '  - ' + n).join('\n');
+    if (!confirm('EXCLUIR ' + lista.length + ' usuário(s)?\n\n' + nomes +
+                 '\n\nO acesso e TODO o progresso deles (estatísticas, anotações, flashcards, cadernos) serão apagados. Não dá para desfazer.')) return;
+
+    try {
+        const response = await fetch(`${VERCEL_API_URL}/api/admin`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'X-Admin-Token': authToken || '' },
+            body: JSON.stringify({ action: 'deleteMany', usernames: lista })
+        });
+        const result = await response.json().catch(() => ({}));
+        if (response.ok) {
+            adminSelecionados.clear();
+            alert(result.apagados + ' usuário(s) excluído(s).');
+            carregarUsuariosAdmin();
+        } else {
+            alert('Erro ao excluir: ' + (result.error || response.status));
+        }
+    } catch (e) {
+        console.error('Erro ao excluir selecionados:', e);
+        alert('Erro de conexão.');
+    }
 }
 
 function adminSortBy(col) {
@@ -5208,6 +5286,10 @@ async function carregarUsuariosAdmin() {
 
         const data = await response.json();
         adminUsers = data.users || [];
+
+        // Descarta da seleção quem não está mais na lista (excluído, por ex.)
+        const existentes = new Set(adminUsers.map(u => u.username));
+        adminSelecionados.forEach(nome => { if (!existentes.has(nome)) adminSelecionados.delete(nome); });
 
         // Atualizar badge de pendentes
         const pendingCount = adminUsers.filter(u => u.status === 'pending').length;

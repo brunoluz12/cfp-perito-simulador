@@ -4219,6 +4219,38 @@ html.dark-mode .modal-icon-btn:hover { background: rgba(255,255,255,0.08); }
     background: rgba(0, 0, 0, 0.02);
 }
 
+/* Barra de seleção múltipla do painel admin */
+.admin-selecao-barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.02);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.admin-selecao-barra button[disabled] {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.admin-table tbody tr.linha-selecionada {
+    background: rgba(59, 130, 246, 0.08);
+}
+
+.admin-table input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
 .admin-status-badge {
     display: inline-block;
     padding: 4px 10px;
