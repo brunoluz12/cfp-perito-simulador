@@ -54,6 +54,26 @@ module.exports = async (req, res) => {
     return res.status(403).json({ error: 'Forbidden' });
   }
 
+  // GET ?comprovante=<usuario>: devolve o arquivo enviado no cadastro.
+  // Fica fora da listagem porque sao centenas de KB por pessoa.
+  if (req.method === 'GET' && req.query && req.query.comprovante) {
+    try {
+      const alvo = String(req.query.comprovante).toLowerCase().trim();
+      const arquivo = await redis.get(`comprovante:${alvo}`);
+      if (!arquivo) return res.status(404).json({ error: 'Comprovante não encontrado' });
+      const dados = lerRegistro(await redis.get(`access:${alvo}`)) || {};
+      return res.status(200).json({
+        comprovante: String(arquivo),
+        nome: dados.nome || null,
+        email: dados.email || null,
+        enviadoEm: dados.comprovanteEm || null
+      });
+    } catch (error) {
+      console.error('Admin Comprovante Error:', error);
+      return res.status(500).json({ error: 'Failed to load receipt' });
+    }
+  }
+
   // GET: listar todos os usuários
   if (req.method === 'GET') {
     try {
@@ -70,8 +90,12 @@ module.exports = async (req, res) => {
 
         users.push({
           username,
+          nome: data.nome || null,
+          email: data.email || null,
           status: data.status || 'pending',
           temSenha: !!data.passHash,
+          temComprovante: !!data.comprovanteEm,
+          comprovanteEm: data.comprovanteEm || null,
           requestedAt: data.requestedAt || null,
           approvedAt: data.approvedAt || null,
           lastAccessAt: data.lastAccessAt || null,
@@ -109,10 +133,14 @@ module.exports = async (req, res) => {
         if (String(body.confirm) !== 'ZERAR') {
           return res.status(400).json({ error: 'confirm: "ZERAR" required' });
         }
-        const chaves = [...(await listarChaves('access:*')), ...(await listarChaves('user:*'))];
+        const chaves = [
+          ...(await listarChaves('access:*')),
+          ...(await listarChaves('user:*')),
+          ...(await listarChaves('comprovante:*'))
+        ];
         let apagados = 0;
         for (const key of chaves) {
-          const nome = key.replace(/^(access|user):/, '');
+          const nome = key.replace(/^(access|user|comprovante):/, '');
           if (nome === ADMIN_USER) continue;
           await redis.del(key);
           apagados++;
@@ -132,6 +160,7 @@ module.exports = async (req, res) => {
           if (!alvo || alvo === ADMIN_USER) continue; // o admin nunca é apagado
           await redis.del(`access:${alvo}`);
           await redis.del(`user:${alvo}`);
+          await redis.del(`comprovante:${alvo}`);
           apagados.push(alvo);
         }
         return res.status(200).json({ success: true, apagados: apagados.length, usuarios: apagados });
@@ -151,6 +180,7 @@ module.exports = async (req, res) => {
       if (action === 'delete') {
         await redis.del(key);
         await redis.del(`user:${user}`);
+        await redis.del(`comprovante:${user}`);
         return res.status(200).json({ success: true, deleted: true });
       }
 

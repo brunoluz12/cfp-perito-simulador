@@ -2431,6 +2431,148 @@ html.dark-mode .material-loading-overlay {
     margin-top: 1rem;
 }
 
+/* --- Tela de cadastro (nome, e-mail, usuário, senha e comprovante) --- */
+#login-painel[hidden],
+#cadastro-painel[hidden],
+#login-reenviar-wrap[hidden],
+#cad-comprovante-preview[hidden] {
+    display: none;
+}
+
+.login-troca {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 14px;
+}
+
+.link-botao {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    font-weight: 600;
+    color: var(--primary-color);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cadastro-pix {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 14px;
+    margin-top: 14px;
+    border: 1px dashed var(--primary-color);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cadastro-pix-rotulo {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+}
+
+.cadastro-pix strong {
+    font-size: 1rem;
+    word-break: break-all;
+}
+
+.cadastro-pix-valor {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.cadastro-arquivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    border: 1px dashed var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.cadastro-arquivo:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.cadastro-arquivo.tem-arquivo {
+    border-style: solid;
+    border-color: #10b981;
+    color: #059669;
+}
+
+.cadastro-preview {
+    max-height: 160px;
+    width: auto;
+    align-self: center;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+/* --- Comprovante no painel admin --- */
+.comprovante-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.comprovante-modal[hidden] {
+    display: none;
+}
+
+.comprovante-caixa {
+    background: var(--bg-panel, #fff);
+    border-radius: 12px;
+    padding: 18px;
+    max-width: 760px;
+    width: 100%;
+    max-height: 90vh;
+    overflow: auto;
+    text-align: center;
+}
+
+html.dark-mode .comprovante-caixa {
+    background: #1f2937;
+}
+
+.comprovante-caixa img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.comprovante-cabecalho {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: left;
+}
+
+.comprovante-cabecalho h3 {
+    margin: 0 0 4px;
+    font-size: 1.05rem;
+}
+
+.comprovante-cabecalho p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
 .login-status {
     font-size: 0.85rem;
     color: var(--warning-color);
@@ -4245,8 +4387,15 @@ html.dark-mode .modal-icon-btn:hover { background: rgba(255,255,255,0.08); }
     50% { transform: scale(1.15); }
 }
 
+/* Com nome completo e e-mail a tabela ficou larga: rola dentro do painel
+   em vez de esticar a pagina inteira. */
+#admin-users-table-container {
+    overflow-x: auto;
+}
+
 .admin-table {
     width: 100%;
+    min-width: 900px;
     border-collapse: collapse;
     font-size: 0.9rem;
 }

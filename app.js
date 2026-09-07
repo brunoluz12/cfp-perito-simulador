@@ -408,6 +408,15 @@ const ADMIN_USER = 'brunoluz12';
 // Token de sessão devolvido por /api/auth: permite reabrir o app sem digitar a
 // senha de novo e é o que autoriza o painel Admin no servidor.
 const AUTH_TOKEN_KEY = 'pcpr_auth_token';
+
+// ==========================================
+// DADOS DO PIX MOSTRADOS NA TELA DE CADASTRO
+// Troque aqui para mudar o que o comprador vê. Deixe PIX_VALOR vazio
+// ('') se não quiser exibir um valor fixo.
+// ==========================================
+const PIX_CHAVE = 'brunoluz12@gmail.com';
+const PIX_VALOR = '';
+
 let authToken = null;
 try { authToken = localStorage.getItem(AUTH_TOKEN_KEY); } catch (e) {}
 
@@ -475,11 +484,16 @@ async function tryLogin(username, password, autoRestore = false) {
     const invalidMsg = document.getElementById('login-invalid-msg');
     const weakMsg = document.getElementById('login-weak-msg');
     const badNameMsg = document.getElementById('login-badname-msg');
+    const notFoundMsg = document.getElementById('login-notfound-msg');
+    const erroMsg = document.getElementById('login-erro-msg');
+    const reenviarWrap = document.getElementById('login-reenviar-wrap');
     const offlineMsg = document.getElementById('login-offline-msg');
     const btn = document.getElementById('btn-login');
 
     const esconderMensagens = () => {
-        [pendingMsg, blockedMsg, invalidMsg, weakMsg, badNameMsg, offlineMsg].forEach(el => el && el.classList.add('hidden'));
+        [pendingMsg, blockedMsg, invalidMsg, weakMsg, badNameMsg, notFoundMsg, erroMsg, offlineMsg]
+            .forEach(el => el && el.classList.add('hidden'));
+        if (reenviarWrap) reenviarWrap.hidden = true;
     };
     const falhar = (el) => {
         statusMsg.classList.add('hidden');
@@ -538,6 +552,14 @@ async function tryLogin(username, password, autoRestore = false) {
 
         if (authResult.status === 'pending') {
             falhar(pendingMsg);
+            // Deixa à mão a troca do comprovante, caso tenha anexado o errado
+            if (reenviarWrap) reenviarWrap.hidden = false;
+            return;
+        }
+
+        // Usuário inexistente: o login não cria mais conta — o caminho é o cadastro
+        if (authResponse.status === 404 || authResult.status === 'notFound') {
+            falhar(notFoundMsg);
             return;
         }
 
@@ -5152,6 +5174,8 @@ function getAdminSortValue(u, col) {
         case 'username': return u.username.toLowerCase();
         case 'status': return u.status === 'pending' ? 0 : u.status === 'approved' ? 1 : 2;
         case 'senha': return u.temSenha ? 1 : 0;
+        case 'nome': return (u.nome || '').toLowerCase();
+        case 'email': return (u.email || '').toLowerCase();
         case 'resolvidas': return u.stats ? u.stats.totalResolvidas : 0;
         case 'acertos': return u.stats ? u.stats.totalAcertos : 0;
         case 'erros': return u.stats ? u.stats.totalErros : 0;
@@ -5195,6 +5219,8 @@ function renderAdminTable() {
 
     const cols = [
         { key: 'username', label: 'Usuário' },
+        { key: 'nome', label: 'Nome completo' },
+        { key: 'email', label: 'E-mail' },
         { key: 'status', label: 'Status' },
         { key: 'senha', label: 'Senha' },
         { key: 'resolvidas', label: 'Resolvidas' },
@@ -5251,6 +5277,8 @@ function renderAdminTable() {
         html += `<tr class="${adminSelecionados.has(u.username) ? 'linha-selecionada' : ''}">
             <td><input type="checkbox" aria-label="Selecionar ${nomeHtml}" onchange="adminMarcarUsuario('${nomeJs}', this.checked)" ${adminSelecionados.has(u.username) ? 'checked' : ''}></td>
             <td><strong>${nomeHtml}</strong></td>
+            <td>${u.nome ? escapeHtml(u.nome) : '<span style="color: var(--text-muted);">—</span>'}</td>
+            <td>${u.email ? escapeHtml(u.email) : '<span style="color: var(--text-muted);">—</span>'}</td>
             <td><span class="admin-status-badge ${statusClass}">${statusLabel}</span></td>
             <td>${senhaLabel}</td>
             <td>${resolvidas}</td>
@@ -5259,6 +5287,7 @@ function renderAdminTable() {
             <td><strong>${taxa}%</strong></td>
             <td>${reqDate}</td>
             <td class="admin-actions">
+                ${u.temComprovante ? `<button class="btn-admin-approve" style="background: #2b6cb0;" onclick="verComprovante('${nomeJs}')"><i class="ph ph-receipt"></i> Comprovante</button>` : ''}
                 ${u.status !== 'approved' ? `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${nomeJs}', 'approve')"><i class="ph ph-check-circle"></i> Aprovar</button>` : ''}
                 ${u.status !== 'blocked' ? `<button class="btn-admin-block" onclick="alterarStatusUsuario('${nomeJs}', 'block')"><i class="ph ph-prohibit"></i> Bloquear</button>` : `<button class="btn-admin-approve" onclick="alterarStatusUsuario('${nomeJs}', 'approve')"><i class="ph ph-check-circle"></i> Desbloquear</button>`}
                 <button class="btn-admin-block" onclick="alterarStatusUsuario('${nomeJs}', 'resetPassword')"><i class="ph ph-key"></i> Resetar senha</button>
@@ -5396,6 +5425,68 @@ async function alterarStatusUsuario(username, action) {
         alert('Erro de conexão.');
     }
 }
+
+// Abre o comprovante do Pix enviado no cadastro, para conferir antes de aprovar.
+async function verComprovante(username) {
+    if (!isAdmin) return;
+    const modal = document.getElementById('comprovante-modal');
+    const conteudo = document.getElementById('comprovante-conteudo');
+    const titulo = document.getElementById('comprovante-nome');
+    const info = document.getElementById('comprovante-info');
+    if (!modal) return;
+
+    titulo.textContent = username;
+    info.textContent = 'Carregando...';
+    conteudo.innerHTML = '<i class="ph ph-spinner ph-spin" style="font-size: 2rem;"></i>';
+    modal.hidden = false;
+
+    try {
+        const resposta = await fetch(`${VERCEL_API_URL}/api/admin?comprovante=${encodeURIComponent(username)}`, {
+            headers: { 'X-Admin-Token': authToken || '' }
+        });
+        const dados = await resposta.json().catch(() => ({}));
+        if (!resposta.ok || !dados.comprovante) {
+            conteudo.innerHTML = '<p style="color: var(--text-muted);">Comprovante não encontrado.</p>';
+            info.textContent = '';
+            return;
+        }
+
+        titulo.textContent = dados.nome || username;
+        const quando = dados.enviadoEm
+            ? new Date(dados.enviadoEm).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+            : '';
+        info.textContent = [username, dados.email, quando ? 'enviado em ' + quando : ''].filter(Boolean).join(' · ');
+
+        if (dados.comprovante.startsWith('data:application/pdf')) {
+            // PDF em data: URL não abre em toda aba; o blob resolve.
+            const bin = atob(dados.comprovante.split(',')[1]);
+            const bytes = new Uint8Array(bin.length);
+            for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+            const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+            conteudo.innerHTML = `<p style="margin-bottom: 10px;">O comprovante veio em PDF.</p>
+                <a class="btn-primary" style="display: inline-block; text-decoration: none;" href="${url}" target="_blank" rel="noopener">Abrir o PDF</a>`;
+        } else {
+            const img = document.createElement('img');
+            img.src = dados.comprovante;
+            img.alt = 'Comprovante enviado por ' + username;
+            conteudo.innerHTML = '';
+            conteudo.appendChild(img);
+        }
+    } catch (e) {
+        console.error('Erro ao abrir comprovante:', e);
+        conteudo.innerHTML = '<p style="color: var(--error-color);">Erro de conexão ao buscar o comprovante.</p>';
+        info.textContent = '';
+    }
+}
+
+function fecharComprovante() {
+    const modal = document.getElementById('comprovante-modal');
+    if (modal) modal.hidden = true;
+}
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') fecharComprovante();
+});
 
 // Apaga TODOS os usuários (acesso + progresso), mantendo apenas o admin.
 // Usado na virada do app de uso pessoal para uso comercial.

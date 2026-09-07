@@ -16,29 +16,88 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=52">
+    <link rel="stylesheet" href="style.css?v=53">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-    <!-- OVERLAY DE LOGIN -->
+    <!-- OVERLAY DE LOGIN / CADASTRO -->
     <div id="login-overlay" class="login-overlay">
         <div class="login-box glass-panel">
-            <i class="ph ph-user-circle login-icon"></i>
-            <h2>Bem-vindo!</h2>
-            <p>Entre com seu usuário e senha para acessar a plataforma.<br><span style="font-size: 0.85rem; opacity: 0.8;">É seu primeiro acesso? Escolha um usuário e crie sua senha — o acesso é liberado pelo administrador.</span></p>
-            <div class="login-input-group">
-                <input type="text" id="username-input" placeholder="Usuário" class="custom-input-text" autocomplete="username" />
-                <input type="password" id="password-input" placeholder="Senha (mínimo 4 caracteres)" class="custom-input-text" autocomplete="current-password" />
-                <button id="btn-login" class="btn-primary">Entrar</button>
+
+            <!-- ENTRAR -->
+            <div id="login-painel">
+                <i class="ph ph-user-circle login-icon"></i>
+                <h2>Bem-vindo!</h2>
+                <p>Entre com seu usuário e senha.</p>
+                <div class="login-input-group">
+                    <input type="text" id="username-input" placeholder="Usuário" class="custom-input-text" autocomplete="username" />
+                    <input type="password" id="password-input" placeholder="Senha" class="custom-input-text" autocomplete="current-password" />
+                    <button id="btn-login" class="btn-primary">Entrar</button>
+                </div>
+                <p class="login-troca">Ainda não tem acesso? <button type="button" id="btn-ir-cadastro" class="link-botao">Criar meu cadastro</button></p>
             </div>
+
+            <!-- CADASTRO -->
+            <div id="cadastro-painel" hidden>
+                <i class="ph ph-user-plus login-icon"></i>
+                <h2>Criar cadastro</h2>
+                <p>Faça o Pix e preencha os dados abaixo com o comprovante. Assim que eu conferir, seu acesso é liberado.</p>
+
+                <div id="cadastro-pix" class="cadastro-pix">
+                    <span class="cadastro-pix-rotulo">Chave Pix</span>
+                    <strong id="cadastro-pix-chave">—</strong>
+                    <span id="cadastro-pix-valor" class="cadastro-pix-valor"></span>
+                </div>
+
+                <div class="login-input-group">
+                    <input type="text" id="cad-nome" placeholder="Nome completo (igual ao do Pix)" class="custom-input-text" autocomplete="name" />
+                    <input type="email" id="cad-email" placeholder="E-mail" class="custom-input-text" autocomplete="email" />
+                    <input type="text" id="cad-usuario" placeholder="Usuário que você vai usar para entrar" class="custom-input-text" autocomplete="username" />
+                    <input type="password" id="cad-senha" placeholder="Senha (mínimo 4 caracteres)" class="custom-input-text" autocomplete="new-password" />
+                    <input type="password" id="cad-senha2" placeholder="Repita a senha" class="custom-input-text" autocomplete="new-password" />
+
+                    <label for="cad-comprovante" class="cadastro-arquivo">
+                        <i class="ph ph-paperclip"></i>
+                        <span id="cad-comprovante-label">Anexar comprovante do Pix (foto ou PDF)</span>
+                    </label>
+                    <input type="file" id="cad-comprovante" accept="image/*,application/pdf" hidden />
+                    <img id="cad-comprovante-preview" class="cadastro-preview" alt="Prévia do comprovante" hidden />
+
+                    <button id="btn-cadastrar" class="btn-primary">Enviar cadastro</button>
+                </div>
+                <p class="login-troca">Já tem cadastro? <button type="button" id="btn-voltar-login" class="link-botao">Voltar para o login</button></p>
+            </div>
+
+            <!-- MENSAGENS -->
             <p id="login-status-msg" class="login-status hidden">Buscando seus dados na nuvem...</p>
-            <p id="login-pending-msg" class="login-status hidden" style="color: #f59e0b;"><i class="ph ph-hourglass"></i> Sua solicitação de acesso foi enviada. Aguarde a aprovação do administrador.</p>
+            <p id="login-pending-msg" class="login-status hidden" style="color: #f59e0b;"><i class="ph ph-hourglass"></i> Cadastro recebido! Estou conferindo seu pagamento — assim que eu liberar, é só entrar com seu usuário e senha.</p>
             <p id="login-blocked-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-prohibit"></i> Seu acesso foi bloqueado. Entre em contato com o administrador.</p>
             <p id="login-invalid-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-x-circle"></i> Usuário ou senha incorretos.</p>
+            <p id="login-notfound-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-user-minus"></i> Não encontrei esse usuário. Toque em "Criar meu cadastro" para se cadastrar.</p>
             <p id="login-badname-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-warning"></i> Use apenas letras, números, espaço, ponto, hífen ou sublinhado no nome de usuário (2 a 30 caracteres).</p>
             <p id="login-weak-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-warning"></i> A senha precisa ter pelo menos 4 caracteres.</p>
+            <p id="login-erro-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-warning"></i></p>
             <p id="login-offline-msg" class="login-status hidden" style="color: #ef4444;"><i class="ph ph-wifi-slash"></i> Não foi possível falar com o servidor. Verifique sua conexão e tente de novo.</p>
+
+            <p id="login-reenviar-wrap" class="login-troca" hidden>
+                Anexou o comprovante errado? <button type="button" id="btn-reenviar-comprovante" class="link-botao">Enviar outro</button>
+                <input type="file" id="reenvio-comprovante" accept="image/*,application/pdf" hidden />
+            </p>
+        </div>
+    </div>
+
+    <!-- COMPROVANTE DO PIX (painel admin) -->
+    <div id="comprovante-modal" class="comprovante-modal" hidden>
+        <div class="comprovante-caixa glass-panel">
+            <div class="comprovante-cabecalho">
+                <div>
+                    <h3 id="comprovante-nome">—</h3>
+                    <p id="comprovante-info">—</p>
+                </div>
+                <button type="button" class="btn-secondary btn-sm" onclick="fecharComprovante()"><i class="ph ph-x"></i> Fechar</button>
+            </div>
+            <div id="comprovante-conteudo"></div>
         </div>
     </div>
 
@@ -1018,7 +1077,8 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=181"></script>
     <script src="flashcards.js?v=9"></script>
-    <script src="app.js?v=102"></script>
+    <script src="app.js?v=103"></script>
+    <script src="cadastro.js?v=1"></script>
     <script src="cadernos.js?v=3"></script>
     <script src="marcador.js?v=3"></script>
     <script src="tts_material.js?v=4"></script>

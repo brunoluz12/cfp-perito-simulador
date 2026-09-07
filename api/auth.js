@@ -12,6 +12,12 @@ const MIN_PASSWORD = 4;
 // exibido no painel do admin: aceitar só letras, números, espaço, ponto,
 // hífen e sublinhado evita nome com HTML/script dentro.
 const USERNAME_OK = /^[\p{L}\p{N} ._-]{2,30}$/u;
+// Nome completo: pelo menos duas palavras, só letras e sinais de nome.
+const NOME_OK = /^[\p{L}][\p{L}'.\-]*(?:\s+[\p{L}'.\-]+)+$/u;
+const EMAIL_OK = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+// Comprovante: imagem (o app já reduz antes de enviar) ou PDF, em data URL.
+const COMPROVANTE_OK = /^data:(image\/(png|jpe?g|webp)|application\/pdf);base64,[A-Za-z0-9+/=]+$/;
+const COMPROVANTE_MAX = 700000; // ~700 KB de data URL, dentro do limite da API
 
 // Segredo usado para derivar o token de "manter conectado". Trocar o valor
 // (variável AUTH_SECRET na Vercel) desconecta todo mundo de uma vez.
@@ -45,6 +51,17 @@ function gerarToken(user, record) {
   return crypto.createHmac('sha256', AUTH_SECRET)
     .update(`${user}:${record.passHash || ''}`)
     .digest('hex');
+}
+
+// Confere os campos do cadastro. Devolve a mensagem do primeiro problema
+// encontrado, ou null se estiver tudo certo.
+function problemaNoCadastro({ nome, email, comprovante }) {
+  if (!nome || !NOME_OK.test(nome) || nome.length < 5 || nome.length > 80) return 'badNome';
+  if (!email || !EMAIL_OK.test(email) || email.length > 120) return 'badEmail';
+  if (!comprovante) return 'semComprovante';
+  if (!COMPROVANTE_OK.test(comprovante)) return 'badComprovante';
+  if (comprovante.length > COMPROVANTE_MAX) return 'comprovanteGrande';
+  return null;
 }
 
 function lerRegistro(raw) {
@@ -89,6 +106,10 @@ module.exports = async (req, res) => {
     const username = String(body.username || '').trim();
     const password = body.password != null ? String(body.password) : null;
     const token = body.token ? String(body.token) : null;
+    const acao = String(body.action || 'login');
+    const nome = String(body.nome || '').replace(/\s+/g, ' ').trim();
+    const email = String(body.email || '').trim().toLowerCase();
+    const comprovante = body.comprovante ? String(body.comprovante) : null;
 
     if (username.length < 2) {
       return res.status(400).json({ error: 'Username is required (min 2 chars)' });
@@ -102,19 +123,29 @@ module.exports = async (req, res) => {
     let record = lerRegistro(await redis.get(key));
     const agora = new Date().toISOString();
 
-    // --- Cadastro: usuário novo escolhe a senha no primeiro acesso ---------
-    if (!record) {
-      if (token) return res.status(401).json({ status: 'invalid' }); // sessão de usuário apagado
+    // --- CADASTRO ----------------------------------------------------------
+    // Nome completo, e-mail e comprovante do Pix ficam guardados para o
+    // administrador conferir antes de liberar o acesso.
+    if (acao === 'register') {
+      if (record) return res.status(409).json({ status: 'exists' });
       if (!password || password.length < MIN_PASSWORD) {
         return res.status(400).json({ status: 'weak', minLength: MIN_PASSWORD });
       }
+      const problema = problemaNoCadastro({ nome, email, comprovante });
+      if (problema) return res.status(400).json({ status: problema });
+
       record = {
         status: user === ADMIN_USER ? 'approved' : 'pending',
+        nome,
+        email,
         requestedAt: agora,
-        lastAccessAt: agora
+        lastAccessAt: agora,
+        comprovanteEm: agora
       };
       definirSenha(record, password);
       if (user === ADMIN_USER) record.approvedAt = agora;
+
+      await redis.set(`comprovante:${user}`, comprovante);
       await redis.set(key, JSON.stringify(record));
 
       return res.status(200).json({
@@ -125,7 +156,35 @@ module.exports = async (req, res) => {
       });
     }
 
-    // --- Usuário existente sem senha: define agora (1º acesso) -------------
+    // --- REENVIO DE COMPROVANTE -------------------------------------------
+    // Para quem mandou o arquivo errado: exige a senha, então só o dono troca.
+    if (acao === 'comprovante') {
+      if (!record || !record.passHash || !senhaConfere(record, password)) {
+        return res.status(401).json({ status: 'invalid' });
+      }
+      if (!comprovante || !COMPROVANTE_OK.test(comprovante)) {
+        return res.status(400).json({ status: 'badComprovante' });
+      }
+      if (comprovante.length > COMPROVANTE_MAX) {
+        return res.status(400).json({ status: 'comprovanteGrande' });
+      }
+      await redis.set(`comprovante:${user}`, comprovante);
+      record.comprovanteEm = agora;
+      await redis.set(key, JSON.stringify(record));
+      return res.status(200).json({ ok: true, status: record.status || 'pending' });
+    }
+
+    // --- LOGIN -------------------------------------------------------------
+    // Sem registro não há login: a entrada agora é sempre pela tela de
+    // cadastro (antes, digitar um nome novo criava a conta na hora).
+    if (!record) {
+      if (token) {
+        return res.status(401).json({ status: 'invalid' }); // sessão de usuário apagado
+      }
+      return res.status(404).json({ status: 'notFound' });
+    }
+
+    // --- Usuário antigo, ainda sem senha: define agora ----------------------
     if (!record.passHash) {
       if (token) return res.status(401).json({ status: 'invalid' });
       if (!password || password.length < MIN_PASSWORD) {
