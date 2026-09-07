@@ -414,7 +414,7 @@ const AUTH_TOKEN_KEY = 'pcpr_auth_token';
 // Troque aqui para mudar o que o comprador vê. Deixe PIX_VALOR vazio
 // ('') se não quiser exibir um valor fixo.
 // ==========================================
-const PIX_CHAVE = 'brunoluz12@gmail.com';
+const PIX_CHAVE = '02481611136';
 const PIX_VALOR = '';
 
 let authToken = null;

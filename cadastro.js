@@ -311,6 +311,25 @@ async function anexarComprovante(file) {
     }
 }
 
+// A chave é copiada e usada crua; na tela ela aparece formatada, porque
+// "02481611136" é difícil de conferir a olho.
+function formatarChavePix(chave) {
+    const digitos = String(chave).replace(/\D/g, '');
+    if (/^\d{11}$/.test(chave.trim())) {
+        return digitos.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4');
+    }
+    return chave;
+}
+
+function tipoDaChavePix(chave) {
+    const c = String(chave).trim();
+    if (/^\d{11}$/.test(c)) return 'CPF';
+    if (/^\d{14}$/.test(c)) return 'CNPJ';
+    if (c.includes('@')) return 'e-mail';
+    if (/^\+?\d{10,13}$/.test(c)) return 'celular';
+    return '';
+}
+
 async function copiarChavePix() {
     const label = document.getElementById('copiar-pix-label');
     try {
@@ -327,7 +346,10 @@ async function copiarChavePix() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const chave = document.getElementById('cadastro-pix-chave');
-    if (chave) chave.textContent = PIX_CHAVE;
+    if (chave) chave.textContent = formatarChavePix(PIX_CHAVE);
+    const rotulo = document.querySelector('.cadastro-pix-rotulo');
+    const tipo = tipoDaChavePix(PIX_CHAVE);
+    if (rotulo && tipo) rotulo.textContent = `Chave Pix (${tipo})`;
     const valor = document.getElementById('cadastro-pix-valor');
     if (valor && PIX_VALOR) valor.textContent = PIX_VALOR;
 
