@@ -419,7 +419,7 @@ const CONFIG_PADRAO = {
     pixChave: '02481611136',
     pixValor: 'R$ 52,00',
     pixTitular: '',
-    avisoCadastro: ''
+    avisoCadastro: 'Confiro o pagamento e libero o acesso em até 24 horas.'
 };
 let configApp = Object.assign({}, CONFIG_PADRAO);
 
