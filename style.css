@@ -4547,6 +4547,27 @@ html.dark-mode .modal-icon-btn:hover { background: rgba(255,255,255,0.08); }
     background: rgba(0, 0, 0, 0.02);
 }
 
+/* Disciplina ainda não liberada: fica na lista, mas não seleciona */
+.multi-select-option.opcao-bloqueada {
+    opacity: 0.62;
+    cursor: not-allowed;
+}
+
+.multi-select-option.opcao-bloqueada .opt-text {
+    text-decoration: none;
+}
+
+.opt-bloqueio {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #d97706;
+    white-space: nowrap;
+}
+
 /* Sub-abas do painel admin (Usuários / Configurações) */
 .admin-subabas {
     display: flex;
@@ -4614,6 +4635,37 @@ html.dark-mode .modal-icon-btn:hover { background: rgba(255,255,255,0.08); }
 .config-grupo textarea.custom-input-text {
     resize: vertical;
     font-family: inherit;
+}
+
+.config-explica {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+    margin: 0 0 12px;
+}
+
+.config-check {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 11px;
+    margin-bottom: 7px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.88rem;
+    cursor: pointer;
+}
+
+.config-check input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
+.config-check:has(input:checked) {
+    border-color: #10b981;
+    background: rgba(16, 185, 129, 0.07);
 }
 
 .config-opcional {

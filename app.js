@@ -39,6 +39,42 @@ const disciplinasVisiveis = new Set([
 // Chaves correspondentes no select da aba Materiais
 const materiaisVisiveis = ['ipo', 'ipo_2', 'ipo_3'];
 
+// Nome da disciplina no banco de questões -> chave usada em Materiais e na
+// configuração de liberação.
+const chavePorDisciplina = {
+    'Investigação Policial (IPO)': 'ipo',
+    'Investigação Policial II (IPO II)': 'ipo_2',
+    'Investigação Policial III (IPO III)': 'ipo_3'
+};
+
+// LIBERAÇÃO PROGRESSIVA
+// O curso libera as matérias aos poucos. As disciplinas ainda não liberadas
+// continuam aparecendo (para a pessoa saber que virão), mas marcadas como
+// "aguardando liberação" e sem abrir nada.
+function chaveDaDisciplina(disciplina) {
+    return chavePorDisciplina[disciplina] || null;
+}
+
+function materialLiberado(chave) {
+    const liberadas = (typeof configApp !== 'undefined' && Array.isArray(configApp.disciplinasLiberadas))
+        ? configApp.disciplinasLiberadas
+        : ['ipo'];
+    return liberadas.includes(chave);
+}
+
+function disciplinaLiberada(disciplina) {
+    const chave = chaveDaDisciplina(disciplina);
+    if (!chave) return true; // disciplina fora do controle de liberação
+    return materialLiberado(chave);
+}
+window.disciplinaLiberada = disciplinaLiberada;
+
+// Visível E liberada: é o que pode virar questão, flashcard ou anotação.
+function disciplinaDisponivel(disciplina) {
+    return disciplinaPermitidaParaCargo(disciplina) && disciplinaLiberada(disciplina);
+}
+window.disciplinaDisponivel = disciplinaDisponivel;
+
 // ============================================================================
 // MARCADORES DE EXCLUSÃO (tombstones)
 // ----------------------------------------------------------------------------
@@ -244,6 +280,21 @@ function disciplinaPermitidaParaCargo(disciplina) {
 // Expose to window for flashcards.js (loaded before app.js DOMContentLoaded)
 window.disciplinaPermitidaParaCargo = disciplinaPermitidaParaCargo;
 
+// Marca no select de Materiais a disciplina ainda nao liberada: continua
+// visivel (para a pessoa saber que vem), mas nao pode ser escolhida.
+const SUFIXO_BLOQUEIO = '  —  aguardando liberação';
+function aplicarBloqueioNaOpcaoMaterial(opt) {
+    if (!opt || !opt.value) return;
+    const base = opt.textContent.replace(SUFIXO_BLOQUEIO, '');
+    if (materialLiberado(opt.value)) {
+        opt.disabled = false;
+        opt.textContent = base;
+    } else {
+        opt.disabled = true;
+        opt.textContent = base + SUFIXO_BLOQUEIO;
+    }
+}
+
 function atualizarFiltrosDeDisciplina() {
     // 1. Banco de Questões (msDisciplina)
     if (typeof msDisciplina !== 'undefined' && msDisciplina && typeof bancoQuestoes !== 'undefined') {
@@ -253,6 +304,7 @@ function atualizarFiltrosDeDisciplina() {
             .map(d => ({
             value: d,
             label: d,
+            bloqueado: !disciplinaLiberada(d),
             count: bancoQuestoes.filter(q => q.disciplina === d).length
         })));
         msDisciplina.selectNone();
@@ -266,6 +318,7 @@ function atualizarFiltrosDeDisciplina() {
             .map(d => ({
             value: d,
             label: d,
+            bloqueado: !disciplinaLiberada(d),
             count: bancoQuestoes.filter(q => q.disciplina === d).length
         })));
         msSimDisciplina.selectNone();
@@ -277,6 +330,7 @@ function atualizarFiltrosDeDisciplina() {
         Array.from(selMat.options).forEach(opt => {
             if (!opt.value) return; // pular placeholder
             opt.style.display = disciplinaPermitidaParaCargo(opt.text) ? '' : 'none';
+            aplicarBloqueioNaOpcaoMaterial(opt);
         });
         if (selMat.selectedOptions[0] && selMat.selectedOptions[0].style.display === 'none') {
             selMat.value = '';
@@ -419,7 +473,11 @@ const CONFIG_PADRAO = {
     pixChave: '02481611136',
     pixValor: 'R$ 52,00',
     pixTitular: '',
-    avisoCadastro: 'Confiro o pagamento e libero o acesso em até 24 horas.'
+    avisoCadastro: 'Confiro o pagamento e libero o acesso em até 24 horas.',
+    // As provas do curso são progressivas: só o que já foi dado em aula fica
+    // aberto. O resto aparece como "aguardando liberação" e não abre. Para
+    // liberar, é só marcar a disciplina em Admin > Configurações.
+    disciplinasLiberadas: ['ipo']
 };
 let configApp = Object.assign({}, CONFIG_PADRAO);
 
@@ -437,10 +495,20 @@ async function carregarConfigApp() {
                 // A chave é a exceção: sem ela a tela de cadastro fica sem para
                 // onde pagar, então nesse caso volta o valor embutido no código.
                 if (!configApp.pixChave) configApp.pixChave = CONFIG_PADRAO.pixChave;
+                // null = nunca foi configurado no painel; array vazio é uma
+                // escolha legítima ("nada liberado") e precisa ser respeitada.
+                if (!Array.isArray(configApp.disciplinasLiberadas)) {
+                    configApp.disciplinasLiberadas = CONFIG_PADRAO.disciplinasLiberadas;
+                }
             }
         }
     } catch (e) {
         console.warn('Configurações não carregadas; usando os valores padrão.', e);
+    }
+    // A config chega depois que os seletores já foram montados: refaz a lista
+    // para o que foi liberado (ou bloqueado) valer sem recarregar a página.
+    if (typeof atualizarFiltrosDeDisciplina === 'function') {
+        try { atualizarFiltrosDeDisciplina(); } catch (e) {}
     }
     return configApp;
 }
@@ -1176,6 +1244,20 @@ class MultiSelect {
         txt.textContent = opt.label;
         label.appendChild(cb);
         label.appendChild(txt);
+
+        // Conteúdo ainda não liberado: aparece na lista, mas não marca.
+        if (opt.bloqueado) {
+            cb.disabled = true;
+            cb.checked = false;
+            label.classList.add('opcao-bloqueada');
+            label.title = 'Conteúdo ainda não liberado';
+            const aviso = document.createElement('span');
+            aviso.className = 'opt-bloqueio';
+            aviso.innerHTML = '<i class="ph ph-lock-simple"></i> aguardando liberação';
+            label.appendChild(aviso);
+            return label;
+        }
+
         if (opt.count != null) {
             const c = document.createElement('span');
             c.className = 'opt-count';
@@ -1232,6 +1314,7 @@ class MultiSelect {
             gcb.addEventListener('change', () => {
                 const marcar = gcb.checked;
                 todosDoGrupo.forEach(o => {
+                    if (o.bloqueado) return; // não entra no "marcar todos"
                     if (marcar) this.selected.add(o.value);
                     else this.selected.delete(o.value);
                 });
@@ -1290,7 +1373,8 @@ class MultiSelect {
     getSelected() { return [...this.selected]; }
 
     selectAll() {
-        this.options.forEach(o => this.selected.add(o.value));
+        // "Selecionar todos" não arrasta o que ainda não foi liberado
+        this.options.forEach(o => { if (!o.bloqueado) this.selected.add(o.value); });
         this._syncCheckboxes();
         this._updateLabel();
         this.onChange(this.getSelected());
@@ -1303,7 +1387,7 @@ class MultiSelect {
     }
     _syncCheckboxes() {
         this.optionsContainer.querySelectorAll('input[type="checkbox"]:not(.ms-group-cb)').forEach(cb => {
-            cb.checked = this.selected.has(cb.value);
+            cb.checked = !cb.disabled && this.selected.has(cb.value);
             const row = cb.closest('.multi-select-option');
             if (row) row.classList.toggle('is-checked', cb.checked);
         });
@@ -1391,6 +1475,7 @@ function carregarBancoQuestoes() {
             .map(d => ({
             value: d,
             label: d,
+            bloqueado: !disciplinaLiberada(d),
             count: bancoQuestoes.filter(q => q.disciplina === d).length
         })));
 
@@ -1535,7 +1620,7 @@ function somarResolucoes(respeitarCargo) {
     let resolucoes = 0, acertos = 0, erros = 0, distintas = 0;
     Object.keys(historicoQuestoes).forEach(id => {
         const disc = discPorId.get(String(id));
-        if (disc === undefined || !disciplinaPermitidaParaCargo(disc)) return;
+        if (disc === undefined || !disciplinaDisponivel(disc)) return;
         const r = resolucoesDaEntrada(historicoQuestoes[id]);
         if (r.tentativas <= 0 && !r.temStatus) return;
         resolucoes += r.tentativas; acertos += r.acertos; erros += r.erros; distintas += 1;
@@ -1552,7 +1637,7 @@ function calcularEstatisticasPorCapitulo() {
     // Conta as questões do banco (total + status), respeitando o filtro de cargo
     bancoQuestoes.forEach(q => {
         const disc = q.disciplina || "Sem Disciplina";
-        if (!disciplinaPermitidaParaCargo(disc)) return;
+        if (!disciplinaDisponivel(disc)) return;
         const cap = q.conteudo || q.capitulo || "Geral";
 
         if (!statsPorDisc[disc]) {
@@ -1680,7 +1765,7 @@ function atualizarTelaDashboard() {
 
     let totalBanco = Array.isArray(bancoQuestoes) ? bancoQuestoes.length : 0;
     if (typeof cargoAtual !== 'undefined' && cargoAtual !== 'todos' && Array.isArray(bancoQuestoes)) {
-        totalBanco = bancoQuestoes.filter(q => disciplinaPermitidaParaCargo(q.disciplina)).length;
+        totalBanco = bancoQuestoes.filter(q => disciplinaDisponivel(q.disciplina)).length;
     }
 
     document.getElementById('stat-total-resolvidas').textContent = totalResolvidas;
@@ -2110,6 +2195,7 @@ function inicializarMultiSelectSimulado() {
         .map(d => ({
         value: d,
         label: d,
+        bloqueado: !disciplinaLiberada(d),
         count: bancoQuestoes.filter(q => q.disciplina === d).length
     })));
 }
@@ -2352,7 +2438,8 @@ function gerarSimuladoModal() {
     const todasSorteadas = [];
     for (const b of buckets) {
         const pool = bancoQuestoes
-            .filter(q => q.disciplina === b.disciplina && q.conteudo === b.conteudo)
+            .filter(q => q.disciplina === b.disciplina && q.conteudo === b.conteudo
+                         && disciplinaDisponivel(q.disciplina))
             .slice();
         pool.sort(() => Math.random() - 0.5);
         todasSorteadas.push(...pool.slice(0, b.qty));
@@ -2405,7 +2492,8 @@ function gerarCaderno(e) {
     if (disciplinas.length === 0) return alert("Selecione pelo menos uma disciplina!");
 
     // Filtra por disciplina(s)
-    let questoesFiltradas = bancoQuestoes.filter(q => disciplinas.includes(q.disciplina));
+    let questoesFiltradas = bancoQuestoes.filter(q =>
+        disciplinas.includes(q.disciplina) && disciplinaDisponivel(q.disciplina));
 
     // Se algum conteúdo foi selecionado, filtra por eles. Se nenhum, considera todos.
     // Os valores vêm como "disciplina||conteúdo" (seleção precisa por par).
@@ -5487,6 +5575,9 @@ function preencherFormularioConfig() {
         const el = document.getElementById(id);
         if (el) el.value = configApp[chave] || '';
     });
+    document.querySelectorAll('.cfg-disciplina').forEach(cb => {
+        cb.checked = materialLiberado(cb.value);
+    });
     const status = document.getElementById('config-status');
     if (status) { status.textContent = ''; status.className = 'config-status'; }
 }
@@ -5505,7 +5596,9 @@ async function salvarConfigApp() {
         pixChave: document.getElementById('cfg-pix-chave').value.trim(),
         pixTitular: document.getElementById('cfg-pix-titular').value.trim(),
         pixValor: document.getElementById('cfg-pix-valor').value.trim(),
-        avisoCadastro: document.getElementById('cfg-aviso').value.trim()
+        avisoCadastro: document.getElementById('cfg-aviso').value.trim(),
+        disciplinasLiberadas: [...document.querySelectorAll('.cfg-disciplina')]
+            .filter(cb => cb.checked).map(cb => cb.value)
     };
 
     if (!config.pixChave) {
@@ -5526,6 +5619,8 @@ async function salvarConfigApp() {
         }
         configApp = Object.assign({}, configApp, resultado.config || config);
         if (typeof window.aplicarConfigNoCadastro === 'function') window.aplicarConfigNoCadastro();
+        // Liberar/bloquear disciplina muda o app inteiro; refaz os seletores
+        if (typeof atualizarFiltrosDeDisciplina === 'function') atualizarFiltrosDeDisciplina();
         mostrar('Salvo! Já vale para quem abrir o cadastro agora.', 'ok');
     } catch (e) {
         console.error('Erro ao salvar configurações:', e);
@@ -5717,7 +5812,7 @@ function notesFmtData(ts) {
 
 function notesDisciplinas() {
     if (!Array.isArray(bancoQuestoes)) return [];
-    return [...new Set(bancoQuestoes.map(q => q.disciplina))].filter(d => disciplinaPermitidaParaCargo(d)).sort();
+    return [...new Set(bancoQuestoes.map(q => q.disciplina))].filter(d => disciplinaDisponivel(d)).sort();
 }
 function notesConteudos(disc) {
     if (!disc || !Array.isArray(bancoQuestoes)) return [];

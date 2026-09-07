@@ -135,7 +135,12 @@ module.exports = async (req, res) => {
           pixChave: limpar(entrada.pixChave, 120),
           pixValor: limpar(entrada.pixValor, 40),
           pixTitular: limpar(entrada.pixTitular, 80),
-          avisoCadastro: limpar(entrada.avisoCadastro, 300)
+          avisoCadastro: limpar(entrada.avisoCadastro, 300),
+          // Chaves de disciplina (ex.: "ipo", "ipo_2"). Array vazio é válido e
+          // significa "nada liberado", então não pode virar null aqui.
+          disciplinasLiberadas: Array.isArray(entrada.disciplinasLiberadas)
+            ? entrada.disciplinasLiberadas.map(k => limpar(k, 40)).filter(Boolean).slice(0, 40)
+            : null
         };
         await redis.set('config:app', JSON.stringify(config));
         return res.status(200).json({ success: true, config });

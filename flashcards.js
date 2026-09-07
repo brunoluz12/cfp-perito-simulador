@@ -28,11 +28,11 @@ function fcGetDisciplinas() {
     }
     return [...set].filter(d => {
         try {
-            if (typeof window.disciplinaPermitidaParaCargo === 'function') {
-                return window.disciplinaPermitidaParaCargo(d);
+            if (typeof window.disciplinaDisponivel === 'function') {
+                return window.disciplinaDisponivel(d);
             }
-            if (typeof disciplinaPermitidaParaCargo === 'function') {
-                return disciplinaPermitidaParaCargo(d);
+            if (typeof disciplinaDisponivel === 'function') {
+                return disciplinaDisponivel(d);
             }
         } catch (e) {
             console.error("Erro ao filtrar disciplina:", e);

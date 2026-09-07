@@ -13,7 +13,11 @@ const PADRAO = {
   pixChave: '',
   pixValor: '',
   pixTitular: '',
-  avisoCadastro: ''
+  avisoCadastro: '',
+  // Disciplinas com o conteúdo liberado. As demais aparecem no app como
+  // "aguardando liberação" e não abrem. null = ainda não configurado, e aí
+  // o app usa a lista embutida nele.
+  disciplinasLiberadas: null
 };
 
 module.exports = async (req, res) => {
