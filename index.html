@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=54">
+    <link rel="stylesheet" href="style.css?v=55">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -56,10 +56,12 @@
                         <span class="cadastro-pix-rotulo">Chave Pix</span>
                         <strong id="cadastro-pix-chave">—</strong>
                         <span id="cadastro-pix-valor" class="cadastro-pix-valor"></span>
+                        <span id="cadastro-pix-titular" class="cadastro-pix-valor" hidden></span>
                         <button type="button" id="btn-copiar-pix" class="btn-secondary btn-sm" style="margin-top: 8px;">
                             <i class="ph ph-copy"></i> <span id="copiar-pix-label">Copiar chave</span>
                         </button>
                     </div>
+                    <p id="cadastro-aviso" class="cadastro-aviso" hidden></p>
                     <div class="login-input-group">
                         <button type="button" id="btn-passo1-avancar" class="btn-primary">Já fiz o Pix, avançar <i class="ph ph-arrow-right"></i></button>
                     </div>
@@ -756,7 +758,7 @@
             <div class="glass-panel admin-panel">
                 <div class="admin-header">
                     <h2><i class="ph ph-shield-star"></i> Painel de Administração</h2>
-                    <div style="display: flex; gap: 8px;">
+                    <div id="admin-acoes-usuarios" style="display: flex; gap: 8px;">
                         <button id="btn-refresh-admin" class="btn-secondary btn-icon" type="button">
                             <i class="ph ph-arrows-clockwise"></i> Atualizar
                         </button>
@@ -765,9 +767,63 @@
                         </button>
                     </div>
                 </div>
-                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">Gerencie o acesso dos usuários à plataforma. Cada pessoa escolhe a própria senha no primeiro acesso e fica <strong>pendente</strong> até você aprovar.</p>
-                <div id="admin-users-table-container">
-                    <p style="color: var(--text-muted);"><i class="ph ph-spinner ph-spin"></i> Carregando usuários...</p>
+
+                <div class="admin-subabas">
+                    <button type="button" id="subaba-usuarios" class="admin-subaba ativa" onclick="abrirSubAbaAdmin('usuarios')">
+                        <i class="ph ph-users"></i> Usuários
+                    </button>
+                    <button type="button" id="subaba-config" class="admin-subaba" onclick="abrirSubAbaAdmin('config')">
+                        <i class="ph ph-gear"></i> Configurações
+                    </button>
+                </div>
+
+                <!-- USUÁRIOS -->
+                <div id="admin-secao-usuarios">
+                    <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">Gerencie o acesso dos usuários à plataforma. Cada pessoa escolhe a própria senha no primeiro acesso e fica <strong>pendente</strong> até você aprovar.</p>
+                    <div id="admin-users-table-container">
+                        <p style="color: var(--text-muted);"><i class="ph ph-spinner ph-spin"></i> Carregando usuários...</p>
+                    </div>
+                </div>
+
+                <!-- CONFIGURAÇÕES -->
+                <div id="admin-secao-config" hidden>
+                    <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px;">O que você mudar aqui aparece na hora para quem for se cadastrar. Não precisa publicar nada.</p>
+
+                    <div class="config-grupo">
+                        <h3><i class="ph ph-currency-circle-dollar"></i> Pagamento</h3>
+
+                        <div class="form-group">
+                            <label for="cfg-pix-chave">Chave Pix</label>
+                            <input type="text" id="cfg-pix-chave" class="custom-input-text" placeholder="CPF, CNPJ, e-mail, celular ou chave aleatória" />
+                            <small>Aparece na primeira etapa do cadastro. CPF e CNPJ são formatados sozinhos na tela.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cfg-pix-titular">Nome do titular <span class="config-opcional">(opcional)</span></label>
+                            <input type="text" id="cfg-pix-titular" class="custom-input-text" placeholder="Quem recebe o Pix" />
+                            <small>Ajuda a pessoa a confirmar que está pagando para quem deve.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cfg-pix-valor">Valor <span class="config-opcional">(opcional)</span></label>
+                            <input type="text" id="cfg-pix-valor" class="custom-input-text" placeholder="Ex.: R$ 79,90" />
+                            <small>Deixe vazio para não mostrar valor nenhum.</small>
+                        </div>
+                    </div>
+
+                    <div class="config-grupo">
+                        <h3><i class="ph ph-chat-centered-text"></i> Tela de cadastro</h3>
+                        <div class="form-group">
+                            <label for="cfg-aviso">Recado para quem está se cadastrando <span class="config-opcional">(opcional)</span></label>
+                            <textarea id="cfg-aviso" class="custom-input-text" rows="3" placeholder="Ex.: A liberação costuma sair em até 12 horas."></textarea>
+                            <small>Aparece na etapa do pagamento, abaixo da chave.</small>
+                        </div>
+                    </div>
+
+                    <div class="config-acoes">
+                        <button type="button" id="btn-salvar-config" class="btn-primary"><i class="ph ph-floppy-disk"></i> Salvar configurações</button>
+                        <span id="config-status" class="config-status"></span>
+                    </div>
                 </div>
             </div>
         </main>
@@ -1119,8 +1175,8 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=181"></script>
     <script src="flashcards.js?v=9"></script>
-    <script src="app.js?v=104"></script>
-    <script src="cadastro.js?v=3"></script>
+    <script src="app.js?v=105"></script>
+    <script src="cadastro.js?v=4"></script>
     <script src="cadernos.js?v=3"></script>
     <script src="marcador.js?v=3"></script>
     <script src="tts_material.js?v=4"></script>

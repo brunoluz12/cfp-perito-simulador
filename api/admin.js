@@ -127,6 +127,20 @@ module.exports = async (req, res) => {
       const body = typeof req.body === 'string' ? JSON.parse(req.body || '{}') : (req.body || {});
       const { username, action } = body;
 
+      // Salva as configurações editadas na aba Configurações do painel.
+      if (action === 'saveConfig') {
+        const entrada = body.config || {};
+        const limpar = (v, max) => String(v == null ? '' : v).trim().slice(0, max);
+        const config = {
+          pixChave: limpar(entrada.pixChave, 120),
+          pixValor: limpar(entrada.pixValor, 40),
+          pixTitular: limpar(entrada.pixTitular, 80),
+          avisoCadastro: limpar(entrada.avisoCadastro, 300)
+        };
+        await redis.set('config:app', JSON.stringify(config));
+        return res.status(200).json({ success: true, config });
+      }
+
       // Zera a base de usuários (mantém somente o admin) — usado na virada do
       // app de uso pessoal para uso comercial.
       if (action === 'wipe') {

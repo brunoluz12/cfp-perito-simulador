@@ -333,26 +333,50 @@ function tipoDaChavePix(chave) {
 async function copiarChavePix() {
     const label = document.getElementById('copiar-pix-label');
     try {
-        await navigator.clipboard.writeText(PIX_CHAVE);
+        await navigator.clipboard.writeText(configApp.pixChave);
         if (label) {
             label.textContent = 'Chave copiada!';
             setTimeout(() => { label.textContent = 'Copiar chave'; }, 2500);
         }
     } catch (e) {
         // Navegador sem permissão de área de transferência: a chave está na tela
-        mostrarMensagemLogin('login-erro-msg', 'Não consegui copiar. Anote a chave: ' + PIX_CHAVE);
+        mostrarMensagemLogin('login-erro-msg', 'Não consegui copiar. Anote a chave: ' + configApp.pixChave);
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+// Joga na tela o que estiver salvo na aba Configurações do painel. Chamado
+// na abertura e de novo quando o administrador salva, sem recarregar a página.
+function aplicarConfigNoCadastro() {
     const chave = document.getElementById('cadastro-pix-chave');
-    if (chave) chave.textContent = formatarChavePix(PIX_CHAVE);
-    const rotulo = document.querySelector('.cadastro-pix-rotulo');
-    const tipo = tipoDaChavePix(PIX_CHAVE);
-    if (rotulo && tipo) rotulo.textContent = `Chave Pix (${tipo})`;
-    const valor = document.getElementById('cadastro-pix-valor');
-    if (valor && PIX_VALOR) valor.textContent = PIX_VALOR;
+    if (chave) chave.textContent = formatarChavePix(configApp.pixChave);
 
+    const rotulo = document.querySelector('.cadastro-pix-rotulo');
+    const tipo = tipoDaChavePix(configApp.pixChave);
+    if (rotulo) rotulo.textContent = tipo ? `Chave Pix (${tipo})` : 'Chave Pix';
+
+    const valor = document.getElementById('cadastro-pix-valor');
+    if (valor) valor.textContent = configApp.pixValor || '';
+
+    const titular = document.getElementById('cadastro-pix-titular');
+    if (titular) {
+        titular.textContent = configApp.pixTitular ? 'Titular: ' + configApp.pixTitular : '';
+        titular.hidden = !configApp.pixTitular;
+    }
+
+    const aviso = document.getElementById('cadastro-aviso');
+    if (aviso) {
+        aviso.textContent = configApp.avisoCadastro || '';
+        aviso.hidden = !configApp.avisoCadastro;
+    }
+}
+window.aplicarConfigNoCadastro = aplicarConfigNoCadastro;
+
+document.addEventListener('DOMContentLoaded', () => {
+    aplicarConfigNoCadastro();
+    // Busca o que está salvo e redesenha quando chegar
+    if (typeof carregarConfigApp === 'function') {
+        carregarConfigApp().then(aplicarConfigNoCadastro).catch(() => {});
+    }
     const irCadastro = document.getElementById('btn-ir-cadastro');
     if (irCadastro) irCadastro.addEventListener('click', () => mostrarPainelCadastro(true));
 

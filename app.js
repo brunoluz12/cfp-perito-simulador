@@ -410,12 +410,40 @@ const ADMIN_USER = 'brunoluz12';
 const AUTH_TOKEN_KEY = 'pcpr_auth_token';
 
 // ==========================================
-// DADOS DO PIX MOSTRADOS NA TELA DE CADASTRO
-// Troque aqui para mudar o que o comprador vê. Deixe PIX_VALOR vazio
-// ('') se não quiser exibir um valor fixo.
+// CONFIGURAÇÕES DO APP
+// O que vale de verdade é o que está salvo na aba Configurações do painel
+// Admin (/api/config). Os valores abaixo são só o socorro para quando a API
+// não responde — sem eles a tela de cadastro ficaria sem chave nenhuma.
 // ==========================================
-const PIX_CHAVE = '02481611136';
-const PIX_VALOR = '';
+const CONFIG_PADRAO = {
+    pixChave: '02481611136',
+    pixValor: '',
+    pixTitular: '',
+    avisoCadastro: ''
+};
+let configApp = Object.assign({}, CONFIG_PADRAO);
+
+// Busca as configurações salvas. Roda antes do login, porque a tela de
+// cadastro precisa da chave Pix.
+async function carregarConfigApp() {
+    try {
+        const resposta = await fetch(`${VERCEL_API_URL}/api/config`);
+        if (resposta.ok) {
+            const dados = await resposta.json();
+            if (dados && dados.config) {
+                // O que está salvo manda, inclusive quando está vazio: limpar o
+                // titular ou o aviso no painel precisa limpar na tela também.
+                configApp = Object.assign({}, CONFIG_PADRAO, dados.config);
+                // A chave é a exceção: sem ela a tela de cadastro fica sem para
+                // onde pagar, então nesse caso volta o valor embutido no código.
+                if (!configApp.pixChave) configApp.pixChave = CONFIG_PADRAO.pixChave;
+            }
+        }
+    } catch (e) {
+        console.warn('Configurações não carregadas; usando os valores padrão.', e);
+    }
+    return configApp;
+}
 
 let authToken = null;
 try { authToken = localStorage.getItem(AUTH_TOKEN_KEY); } catch (e) {}
@@ -5425,6 +5453,92 @@ async function alterarStatusUsuario(username, action) {
         alert('Erro de conexão.');
     }
 }
+
+// ==========================================
+// ABA CONFIGURAÇÕES DO PAINEL ADMIN
+// ==========================================
+function abrirSubAbaAdmin(qual) {
+    const usuarios = qual === 'usuarios';
+    const secUsuarios = document.getElementById('admin-secao-usuarios');
+    const secConfig = document.getElementById('admin-secao-config');
+    if (secUsuarios) secUsuarios.hidden = !usuarios;
+    if (secConfig) secConfig.hidden = usuarios;
+
+    const abaU = document.getElementById('subaba-usuarios');
+    const abaC = document.getElementById('subaba-config');
+    if (abaU) abaU.classList.toggle('ativa', usuarios);
+    if (abaC) abaC.classList.toggle('ativa', !usuarios);
+
+    // Atualizar/Zerar só fazem sentido na lista de usuários
+    const acoes = document.getElementById('admin-acoes-usuarios');
+    if (acoes) acoes.style.display = usuarios ? 'flex' : 'none';
+
+    if (!usuarios) preencherFormularioConfig();
+}
+
+function preencherFormularioConfig() {
+    const campos = {
+        'cfg-pix-chave': 'pixChave',
+        'cfg-pix-titular': 'pixTitular',
+        'cfg-pix-valor': 'pixValor',
+        'cfg-aviso': 'avisoCadastro'
+    };
+    Object.entries(campos).forEach(([id, chave]) => {
+        const el = document.getElementById(id);
+        if (el) el.value = configApp[chave] || '';
+    });
+    const status = document.getElementById('config-status');
+    if (status) { status.textContent = ''; status.className = 'config-status'; }
+}
+
+async function salvarConfigApp() {
+    if (!isAdmin) return;
+    const status = document.getElementById('config-status');
+    const btn = document.getElementById('btn-salvar-config');
+    const mostrar = (texto, classe) => {
+        if (!status) return;
+        status.textContent = texto;
+        status.className = 'config-status ' + (classe || '');
+    };
+
+    const config = {
+        pixChave: document.getElementById('cfg-pix-chave').value.trim(),
+        pixTitular: document.getElementById('cfg-pix-titular').value.trim(),
+        pixValor: document.getElementById('cfg-pix-valor').value.trim(),
+        avisoCadastro: document.getElementById('cfg-aviso').value.trim()
+    };
+
+    if (!config.pixChave) {
+        return mostrar('Preencha a chave Pix — é ela que a pessoa usa para pagar.', 'erro');
+    }
+
+    btn.disabled = true;
+    mostrar('Salvando...');
+    try {
+        const resposta = await fetch(`${VERCEL_API_URL}/api/admin`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'X-Admin-Token': authToken || '' },
+            body: JSON.stringify({ action: 'saveConfig', config })
+        });
+        const resultado = await resposta.json().catch(() => ({}));
+        if (!resposta.ok) {
+            return mostrar('Erro ao salvar: ' + (resultado.error || resposta.status), 'erro');
+        }
+        configApp = Object.assign({}, configApp, resultado.config || config);
+        if (typeof window.aplicarConfigNoCadastro === 'function') window.aplicarConfigNoCadastro();
+        mostrar('Salvo! Já vale para quem abrir o cadastro agora.', 'ok');
+    } catch (e) {
+        console.error('Erro ao salvar configurações:', e);
+        mostrar('Erro de conexão.', 'erro');
+    } finally {
+        btn.disabled = false;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btnSalvar = document.getElementById('btn-salvar-config');
+    if (btnSalvar) btnSalvar.addEventListener('click', salvarConfigApp);
+});
 
 // Abre o comprovante do Pix enviado no cadastro, para conferir antes de aprovar.
 async function verComprovante(username) {
