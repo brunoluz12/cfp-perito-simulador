@@ -2241,6 +2241,60 @@ html.dark-mode .discipline-card.is-concluida .discipline-title {
     display: block;
 }
 
+/* Aviso de carregamento sobre a area de leitura do material.
+   O texto que ja existia na barra e discreto demais: o material completo
+   chega a alguns MB de imagens e a pessoa precisa saber que ainda esta vindo. */
+.material-iframe-wrap {
+    position: relative;
+}
+
+.material-loading-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(2px);
+    z-index: 5;
+}
+
+/* display:flex acima vence o hidden padrao do navegador */
+.material-loading-overlay[hidden] {
+    display: none;
+}
+
+html.dark-mode .material-loading-overlay {
+    background: rgba(17, 24, 39, 0.82);
+}
+
+.material-loading-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 22px 28px;
+    text-align: center;
+    max-width: 90%;
+}
+
+.material-loading-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.material-loading-card strong {
+    font-size: 1rem;
+    color: var(--text-main);
+}
+
+.material-loading-card span {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
 .reader-toolbar {
     display: flex;
     align-items: center;

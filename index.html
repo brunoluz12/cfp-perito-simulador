@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=51">
+    <link rel="stylesheet" href="style.css?v=52">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -490,7 +490,16 @@
                     </button>
                     <button id="btn-cap-proximo" class="btn-secondary btn-icon" type="button">Próximo <i class="ph ph-caret-right"></i></button>
                 </div>
-                <iframe id="material-iframe" src=""></iframe>
+                <div class="material-iframe-wrap">
+                    <iframe id="material-iframe" src=""></iframe>
+                    <div id="material-loading-overlay" class="material-loading-overlay" hidden>
+                        <div class="material-loading-card">
+                            <i class="ph ph-circle-notch ph-spin material-loading-icon"></i>
+                            <strong id="material-loading-titulo">Carregando o capítulo...</strong>
+                            <span id="material-loading-detalhe">Aguarde um instante.</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="reader-footer">
                     <button id="btn-cap-anterior-2" class="btn-secondary btn-icon" type="button"><i class="ph ph-caret-left"></i> Capítulo anterior</button>
                     <button id="btn-cap-proximo-2" class="btn-primary btn-icon" type="button">Próximo capítulo <i class="ph ph-caret-right"></i></button>
@@ -1009,7 +1018,7 @@
     <script src="agenda_dados.js?v=15"></script>
     <script src="banco_questoes.js?v=181"></script>
     <script src="flashcards.js?v=9"></script>
-    <script src="app.js?v=101"></script>
+    <script src="app.js?v=102"></script>
     <script src="cadernos.js?v=3"></script>
     <script src="marcador.js?v=3"></script>
     <script src="tts_material.js?v=4"></script>

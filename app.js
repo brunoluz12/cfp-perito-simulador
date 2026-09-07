@@ -3931,6 +3931,53 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusMsg = document.getElementById('material-loading-status');
     const btnEstudado = document.getElementById('btn-marcar-estudado');
 
+    // --- Aviso de carregamento do capítulo ---------------------------------
+    // O texto da barra é discreto demais para o material completo, que traz o
+    // texto integral e todas as figuras da apostila (alguns MB). Aqui um aviso
+    // cobre a área de leitura e, se demorar, explica que ainda está vindo.
+    const loadingOverlay = document.getElementById('material-loading-overlay');
+    const loadingTitulo = document.getElementById('material-loading-titulo');
+    const loadingDetalhe = document.getElementById('material-loading-detalhe');
+    let materialLoadingTimers = [];
+
+    function limparAvisosCarregamento() {
+        materialLoadingTimers.forEach(clearTimeout);
+        materialLoadingTimers = [];
+    }
+
+    function mostrarCarregandoMaterial(versaoCompleta) {
+        limparAvisosCarregamento();
+        if (!loadingOverlay) return;
+        const icone = loadingOverlay.querySelector('.material-loading-icon');
+        if (icone) icone.className = 'ph ph-circle-notch ph-spin material-loading-icon';
+        loadingTitulo.textContent = 'Carregando o capítulo...';
+        loadingDetalhe.textContent = versaoCompleta
+            ? 'A versão completa traz o texto integral e as figuras da apostila. Pode levar alguns segundos.'
+            : 'Só um instante.';
+        loadingOverlay.hidden = false;
+
+        materialLoadingTimers.push(setTimeout(() => {
+            loadingDetalhe.textContent = 'Ainda carregando. Capítulos com muitas imagens demoram mais na primeira vez — depois ficam no cache do navegador.';
+        }, 5000));
+        materialLoadingTimers.push(setTimeout(() => {
+            loadingTitulo.textContent = 'Quase lá...';
+            loadingDetalhe.textContent = 'A conexão está lenta, mas o capítulo continua baixando. Se preferir, use "Ver resumo", que é bem mais leve.';
+        }, 15000));
+        // Sem o onload nunca disparar (queda de conexão), o aviso ficaria girando
+        // para sempre: aqui ele assume a falha e diz o que fazer.
+        materialLoadingTimers.push(setTimeout(() => {
+            loadingTitulo.textContent = 'Não foi possível carregar o capítulo';
+            loadingDetalhe.textContent = 'Verifique sua conexão e selecione o capítulo de novo.';
+            const icone = loadingOverlay.querySelector('.material-loading-icon');
+            if (icone) icone.className = 'ph ph-wifi-slash material-loading-icon';
+        }, 60000));
+    }
+
+    function esconderCarregandoMaterial() {
+        limparAvisosCarregamento();
+        if (loadingOverlay) loadingOverlay.hidden = true;
+    }
+
     // --- Ajuste robusto da altura do iframe de material (mesma origem) ---
     // Mede a altura real do conteúdo e reage a qualquer reflow (fontes, imagens,
     // tabelas), evitando o corte que acontecia quando a altura era calculada uma
@@ -4497,6 +4544,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             iframeContainer.style.display = 'block';
             statusMsg.style.display = 'inline-block';
+            mostrarCarregandoMaterial(materialVersaoCompleta);
             iframe.style.opacity = '0.4';
             btnEstudadoInjetado = null; // evita referência ao botão do capítulo anterior
 
@@ -4507,6 +4555,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             iframe.onload = () => {
                 statusMsg.style.display = 'none';
+                esconderCarregandoMaterial();
                 iframe.style.opacity = '1';
 
                 // Aplica o tema (claro/escuro) ao conteúdo do material
