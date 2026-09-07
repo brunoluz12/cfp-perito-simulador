@@ -244,6 +244,9 @@ async function definirEsteDispositivoComoFonte() {
     alert(`Pronto. ${pendentes.length} item(ns) foram marcados como excluídos e removidos da nuvem.\n\n` +
           'Abra o app no celular e toque em "Nuvem" para ele receber as exclusões.');
 }
+// Ferramenta de manutenção sem botão na tela (ficava no clique direito do
+// antigo botão "Nuvem"). Segue exposta para ser chamada pelo console quando
+// for preciso forçar este aparelho como referência.
 window.definirEsteDispositivoComoFonte = definirEsteDispositivoComoFonte;
 
 function disciplinaPermitidaParaCargo(disciplina) {
@@ -930,6 +933,13 @@ async function logout() {
 // ==========================================
 // `silencioso` = sem alertas: usado na restauração de sessão, que sincroniza
 // sozinha ao abrir o app.
+//
+// O botão "Nuvem" do cabeçalho saiu quando o app virou produto: ninguém mais
+// usa localmente, então sincronizar deixou de ser tarefa do usuário. A função
+// CONTINUA essencial — é ela que faz a mesclagem silenciosa da abertura, sem a
+// qual o aparelho que abre com dados antigos sobrescreve a nuvem. O botão
+// abaixo simplesmente não existe mais no HTML, e por isso todo acesso a ele é
+// protegido por `if (btn)`.
 async function syncLocalWithCloud(silencioso = false) {
     if (!currentUser) return;
 
