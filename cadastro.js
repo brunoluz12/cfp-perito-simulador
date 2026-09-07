@@ -1,15 +1,26 @@
 // ==========================================
-// CADASTRO (nome, e-mail, usuário, senha e comprovante do Pix)
+// CADASTRO EM ETAPAS (Pix → dados → comprovante → enviado)
 // ------------------------------------------------------------------
-// O acesso é pago: quem chega faz o Pix, preenche o cadastro e anexa o
-// comprovante. O administrador confere nome e comprovante no painel antes
-// de liberar. A conta só passa a existir aqui — o login não cria mais nada.
+// O acesso é pago: quem chega faz o Pix, preenche os dados, anexa o
+// comprovante e fica aguardando. O administrador confere nome e comprovante
+// no painel antes de liberar. A conta só nasce aqui — o login não cria mais
+// nada: usuário inexistente é mandado para cá.
 // ==========================================
 
 // Reduz a foto do comprovante antes de subir: print de celular costuma vir
 // com 2-4 MB e a API aceita ~700 KB. PDF vai como está (com limite de tamanho).
 const COMPROVANTE_MAX_DATAURL = 700000;
 const COMPROVANTE_LARGURA_MAX = 1100;
+
+const CADASTRO_ULTIMA_ETAPA = 4; // a tela de "enviado"
+
+// Guarda o comprovante já preparado, para não reprocessar no envio.
+let comprovanteCadastro = null;
+let etapaCadastro = 1;
+
+// ==========================================
+// ARQUIVO DO COMPROVANTE
+// ==========================================
 
 function lerArquivoComoDataURL(file) {
     return new Promise((resolve, reject) => {
@@ -62,18 +73,9 @@ async function prepararComprovante(file) {
     throw new Error('Não consegui reduzir essa imagem o bastante. Tente um print da tela do comprovante.');
 }
 
-// Guarda o comprovante já preparado, para não reprocessar no envio.
-let comprovanteCadastro = null;
-
-function mostrarPainelCadastro(mostrar) {
-    const login = document.getElementById('login-painel');
-    const cadastro = document.getElementById('cadastro-painel');
-    if (login) login.hidden = mostrar;
-    if (cadastro) cadastro.hidden = !mostrar;
-    esconderMensagensLogin();
-    const wrap = document.getElementById('login-reenviar-wrap');
-    if (wrap) wrap.hidden = true;
-}
+// ==========================================
+// MENSAGENS DA TELA DE LOGIN/CADASTRO
+// ==========================================
 
 function esconderMensagensLogin() {
     ['login-status-msg', 'login-pending-msg', 'login-blocked-msg', 'login-invalid-msg',
@@ -96,44 +98,100 @@ function mostrarMensagemLogin(id, texto) {
     el.classList.remove('hidden');
 }
 
-// Mensagens dos erros que a API devolve no cadastro
-const ERROS_CADASTRO = {
-    exists: 'Esse usuário já está em uso. Escolha outro.',
-    badNome: 'Escreva seu nome completo (nome e sobrenome).',
-    badEmail: 'Confira o e-mail digitado.',
-    semComprovante: 'Anexe o comprovante do Pix.',
-    badComprovante: 'Arquivo inválido. Envie uma imagem ou um PDF.',
-    comprovanteGrande: 'O arquivo ficou grande demais. Envie um print da tela.',
-    badUsername: 'Use apenas letras, números, espaço, ponto, hífen ou sublinhado no usuário.',
-    weak: 'A senha precisa ter pelo menos 4 caracteres.'
-};
+// ==========================================
+// NAVEGAÇÃO ENTRE AS ETAPAS
+// ==========================================
 
-async function enviarCadastro() {
+function irParaEtapa(n) {
+    etapaCadastro = n;
+    document.querySelectorAll('.cadastro-etapa').forEach(el => {
+        el.hidden = Number(el.dataset.etapa) !== n;
+    });
+
+    // Trilha do topo: passo atual em destaque, anteriores como concluídos.
+    // Na tela final ela sai, junto com o link de voltar ao login.
+    const trilha = document.getElementById('cadastro-passos');
+    const rodape = document.getElementById('cadastro-rodape');
+    const fim = n >= CADASTRO_ULTIMA_ETAPA;
+    if (trilha) {
+        trilha.hidden = fim;
+        trilha.querySelectorAll('li').forEach(li => {
+            const passo = Number(li.dataset.passo);
+            li.classList.toggle('passo-atual', passo === n);
+            li.classList.toggle('passo-feito', passo < n);
+        });
+    }
+    if (rodape) rodape.hidden = fim;
+
+    const titulo = document.getElementById('cadastro-titulo');
+    if (titulo) titulo.textContent = fim ? 'Tudo certo!' : 'Criar cadastro';
+
+    esconderMensagensLogin();
+}
+
+function mostrarPainelCadastro(mostrar) {
+    const login = document.getElementById('login-painel');
+    const cadastro = document.getElementById('cadastro-painel');
+    if (login) login.hidden = mostrar;
+    if (cadastro) cadastro.hidden = !mostrar;
+    if (mostrar) irParaEtapa(1);
+    esconderMensagensLogin();
+    const wrap = document.getElementById('login-reenviar-wrap');
+    if (wrap) wrap.hidden = true;
+}
+
+// ==========================================
+// VALIDAÇÃO DA ETAPA DOS DADOS
+// ==========================================
+
+// Devolve a mensagem do primeiro problema, ou null se estiver tudo certo.
+function problemaNosDados() {
     const nome = document.getElementById('cad-nome').value.trim();
     const email = document.getElementById('cad-email').value.trim();
     const usuario = document.getElementById('cad-usuario').value.trim();
     const senha = document.getElementById('cad-senha').value;
     const senha2 = document.getElementById('cad-senha2').value;
-    const btn = document.getElementById('btn-cadastrar');
 
-    if (nome.split(/\s+/).filter(Boolean).length < 2) {
-        return mostrarMensagemLogin('login-erro-msg', 'Escreva seu nome completo (nome e sobrenome).');
-    }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
-        return mostrarMensagemLogin('login-erro-msg', 'Confira o e-mail digitado.');
-    }
-    if (usuario.length < 2) {
-        return mostrarMensagemLogin('login-erro-msg', 'Escolha um usuário com pelo menos 2 caracteres.');
-    }
-    if (senha.length < 4) {
-        return mostrarMensagemLogin('login-weak-msg');
-    }
-    if (senha !== senha2) {
-        return mostrarMensagemLogin('login-erro-msg', 'As duas senhas não são iguais.');
+    if (nome.split(/\s+/).filter(Boolean).length < 2) return 'Escreva seu nome completo (nome e sobrenome).';
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return 'Confira o e-mail digitado.';
+    if (usuario.length < 2) return 'Escolha um usuário com pelo menos 2 caracteres.';
+    if (senha.length < 4) return 'A senha precisa ter pelo menos 4 caracteres.';
+    if (senha !== senha2) return 'As duas senhas não são iguais.';
+    return null;
+}
+
+// Mensagens dos erros que a API devolve, e a etapa onde cada um se resolve
+const ERROS_CADASTRO = {
+    exists: { etapa: 2, msg: 'Esse usuário já está em uso. Escolha outro.' },
+    badUsername: { etapa: 2, msg: 'Use apenas letras, números, espaço, ponto, hífen ou sublinhado no usuário.' },
+    badNome: { etapa: 2, msg: 'Escreva seu nome completo (nome e sobrenome).' },
+    badEmail: { etapa: 2, msg: 'Confira o e-mail digitado.' },
+    weak: { etapa: 2, msg: 'A senha precisa ter pelo menos 4 caracteres.' },
+    semComprovante: { etapa: 3, msg: 'Anexe o comprovante do Pix.' },
+    badComprovante: { etapa: 3, msg: 'Arquivo inválido. Envie uma imagem ou um PDF.' },
+    comprovanteGrande: { etapa: 3, msg: 'O arquivo ficou grande demais. Envie um print da tela.' }
+};
+
+// ==========================================
+// ENVIO
+// ==========================================
+
+async function enviarCadastro() {
+    const problema = problemaNosDados();
+    if (problema) {
+        // Algo dos dados escapou: volta para a etapa 2 em vez de só reclamar
+        irParaEtapa(2);
+        return mostrarMensagemLogin('login-erro-msg', problema);
     }
     if (!comprovanteCadastro) {
         return mostrarMensagemLogin('login-erro-msg', 'Anexe o comprovante do Pix.');
     }
+
+    const nome = document.getElementById('cad-nome').value.trim();
+    const email = document.getElementById('cad-email').value.trim();
+    const usuario = document.getElementById('cad-usuario').value.trim();
+    const senha = document.getElementById('cad-senha').value;
+    const btn = document.getElementById('btn-cadastrar');
 
     btn.disabled = true;
     mostrarMensagemLogin('login-status-msg', 'Enviando seu cadastro...');
@@ -154,25 +212,38 @@ async function enviarCadastro() {
         const resultado = await resposta.json().catch(() => ({}));
 
         if (!resposta.ok) {
-            btn.disabled = false;
-            const msg = ERROS_CADASTRO[resultado.status];
-            return mostrarMensagemLogin('login-erro-msg', msg || 'Não consegui enviar o cadastro. Tente de novo.');
+            const erro = ERROS_CADASTRO[resultado.status];
+            if (erro) {
+                irParaEtapa(erro.etapa); // leva de volta à etapa que tem o problema
+                mostrarMensagemLogin('login-erro-msg', erro.msg);
+            } else {
+                mostrarMensagemLogin('login-erro-msg', 'Não consegui enviar o cadastro. Tente de novo.');
+            }
+            return;
         }
 
-        // Cadastro aceito: volta para o login já com o usuário preenchido
+        // Enviado: guarda o usuário para já aparecer no login depois
         try { localStorage.setItem('pcpr_current_user', usuario); } catch (e) {}
         comprovanteCadastro = null;
-        mostrarPainelCadastro(false);
-        document.getElementById('username-input').value = usuario;
-        mostrarMensagemLogin('login-pending-msg');
-        const wrap = document.getElementById('login-reenviar-wrap');
-        if (wrap) wrap.hidden = false;
+        irParaEtapa(CADASTRO_ULTIMA_ETAPA);
     } catch (e) {
         console.error('Erro no cadastro:', e);
         mostrarMensagemLogin('login-offline-msg');
     } finally {
         btn.disabled = false;
     }
+}
+
+// Da tela final de volta para o login, com o usuário preenchido e o aviso
+// de que o acesso está em análise.
+function concluirCadastro() {
+    const usuario = document.getElementById('cad-usuario').value.trim();
+    mostrarPainelCadastro(false);
+    const campoUsuario = document.getElementById('username-input');
+    if (campoUsuario && usuario) campoUsuario.value = usuario;
+    mostrarMensagemLogin('login-pending-msg');
+    const wrap = document.getElementById('login-reenviar-wrap');
+    if (wrap) wrap.hidden = false;
 }
 
 // Reenvio do comprovante por quem já se cadastrou e anexou o arquivo errado.
@@ -195,14 +266,62 @@ async function reenviarComprovante(file) {
         });
         const resultado = await resposta.json().catch(() => ({}));
         if (!resposta.ok) {
+            const erro = ERROS_CADASTRO[resultado.status];
             const msg = resultado.status === 'invalid'
                 ? 'Usuário ou senha incorretos.'
-                : (ERROS_CADASTRO[resultado.status] || 'Não consegui enviar o comprovante.');
+                : (erro ? erro.msg : 'Não consegui enviar o comprovante.');
             return mostrarMensagemLogin('login-erro-msg', msg);
         }
         mostrarMensagemLogin('login-erro-msg', 'Comprovante recebido! Assim que eu conferir, seu acesso é liberado.');
     } catch (e) {
         mostrarMensagemLogin('login-erro-msg', e.message || 'Não consegui enviar o comprovante.');
+    }
+}
+
+// ==========================================
+// LIGAÇÃO COM A TELA
+// ==========================================
+
+async function anexarComprovante(file) {
+    const rotulo = document.getElementById('cad-comprovante-label');
+    const caixa = document.querySelector('.cadastro-arquivo');
+    const preview = document.getElementById('cad-comprovante-preview');
+
+    rotulo.textContent = 'Preparando o arquivo...';
+    try {
+        comprovanteCadastro = await prepararComprovante(file);
+        const kb = Math.round(comprovanteCadastro.length * 0.75 / 1024);
+        rotulo.textContent = `Comprovante anexado (${kb} KB) — toque para trocar`;
+        if (caixa) caixa.classList.add('tem-arquivo');
+        if (preview) {
+            if (comprovanteCadastro.startsWith('data:image/')) {
+                preview.src = comprovanteCadastro;
+                preview.hidden = false;
+            } else {
+                preview.hidden = true;
+            }
+        }
+        esconderMensagensLogin();
+    } catch (e) {
+        comprovanteCadastro = null;
+        rotulo.textContent = 'Anexar comprovante (foto ou PDF)';
+        if (caixa) caixa.classList.remove('tem-arquivo');
+        if (preview) preview.hidden = true;
+        mostrarMensagemLogin('login-erro-msg', e.message);
+    }
+}
+
+async function copiarChavePix() {
+    const label = document.getElementById('copiar-pix-label');
+    try {
+        await navigator.clipboard.writeText(PIX_CHAVE);
+        if (label) {
+            label.textContent = 'Chave copiada!';
+            setTimeout(() => { label.textContent = 'Copiar chave'; }, 2500);
+        }
+    } catch (e) {
+        // Navegador sem permissão de área de transferência: a chave está na tela
+        mostrarMensagemLogin('login-erro-msg', 'Não consegui copiar. Anote a chave: ' + PIX_CHAVE);
     }
 }
 
@@ -218,40 +337,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const voltarLogin = document.getElementById('btn-voltar-login');
     if (voltarLogin) voltarLogin.addEventListener('click', () => mostrarPainelCadastro(false));
 
+    const copiar = document.getElementById('btn-copiar-pix');
+    if (copiar) copiar.addEventListener('click', copiarChavePix);
+
+    const passo1 = document.getElementById('btn-passo1-avancar');
+    if (passo1) passo1.addEventListener('click', () => irParaEtapa(2));
+
+    const passo2 = document.getElementById('btn-passo2-avancar');
+    if (passo2) passo2.addEventListener('click', () => {
+        const problema = problemaNosDados();
+        if (problema) return mostrarMensagemLogin('login-erro-msg', problema);
+        irParaEtapa(3);
+    });
+
+    document.querySelectorAll('[data-voltar]').forEach(btn => {
+        btn.addEventListener('click', () => irParaEtapa(Number(btn.dataset.voltar)));
+    });
+
     const btnCadastrar = document.getElementById('btn-cadastrar');
     if (btnCadastrar) btnCadastrar.addEventListener('click', enviarCadastro);
 
+    const btnFim = document.getElementById('btn-fim-login');
+    if (btnFim) btnFim.addEventListener('click', concluirCadastro);
+
     const arquivo = document.getElementById('cad-comprovante');
     if (arquivo) {
-        arquivo.addEventListener('change', async () => {
+        arquivo.addEventListener('change', () => {
             const file = arquivo.files && arquivo.files[0];
-            const rotulo = document.getElementById('cad-comprovante-label');
-            const caixa = document.querySelector('.cadastro-arquivo');
-            const preview = document.getElementById('cad-comprovante-preview');
-            if (!file) return;
-
-            rotulo.textContent = 'Preparando o arquivo...';
-            try {
-                comprovanteCadastro = await prepararComprovante(file);
-                const kb = Math.round(comprovanteCadastro.length * 0.75 / 1024);
-                rotulo.textContent = `Comprovante anexado (${kb} KB) — toque para trocar`;
-                if (caixa) caixa.classList.add('tem-arquivo');
-                if (preview) {
-                    if (comprovanteCadastro.startsWith('data:image/')) {
-                        preview.src = comprovanteCadastro;
-                        preview.hidden = false;
-                    } else {
-                        preview.hidden = true;
-                    }
-                }
-                esconderMensagensLogin();
-            } catch (e) {
-                comprovanteCadastro = null;
-                rotulo.textContent = 'Anexar comprovante do Pix (foto ou PDF)';
-                if (caixa) caixa.classList.remove('tem-arquivo');
-                if (preview) preview.hidden = true;
-                mostrarMensagemLogin('login-erro-msg', e.message);
-            }
+            if (file) anexarComprovante(file);
         });
     }
 

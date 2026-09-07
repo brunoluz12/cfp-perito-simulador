@@ -2456,6 +2456,98 @@ html.dark-mode .material-loading-overlay {
     text-decoration: underline;
 }
 
+/* Passo a passo do cadastro */
+.cadastro-passos {
+    display: flex;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 4px;
+}
+
+.cadastro-passos[hidden] {
+    display: none;
+}
+
+.cadastro-passos li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 7px 4px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: rgba(0, 0, 0, 0.04);
+    white-space: nowrap;
+}
+
+html.dark-mode .cadastro-passos li {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.cadastro-passo-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: var(--text-muted);
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.cadastro-passos li.passo-atual {
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.12);
+}
+
+.cadastro-passos li.passo-atual .cadastro-passo-num {
+    background: var(--primary-color);
+}
+
+.cadastro-passos li.passo-feito {
+    color: #059669;
+}
+
+.cadastro-passos li.passo-feito .cadastro-passo-num {
+    background: #10b981;
+}
+
+.cadastro-etapa[hidden] {
+    display: none;
+}
+
+.cadastro-navegacao {
+    display: flex;
+    gap: 8px;
+}
+
+.cadastro-navegacao .btn-primary {
+    flex: 1;
+}
+
+.cadastro-fim {
+    padding-top: 6px;
+}
+
+.cadastro-fim-icone {
+    font-size: 2.6rem;
+    color: #10b981;
+}
+
+.cadastro-fim h3 {
+    margin: 8px 0 6px;
+    font-size: 1.15rem;
+}
+
+#cadastro-rodape[hidden] {
+    display: none;
+}
+
 .cadastro-pix {
     display: flex;
     flex-direction: column;

@@ -16,7 +16,7 @@
         } catch(e) {}
       })();
     </script>
-    <link rel="stylesheet" href="style.css?v=53">
+    <link rel="stylesheet" href="style.css?v=54">
     <!-- Ícones do Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
@@ -38,35 +38,77 @@
                 <p class="login-troca">Ainda não tem acesso? <button type="button" id="btn-ir-cadastro" class="link-botao">Criar meu cadastro</button></p>
             </div>
 
-            <!-- CADASTRO -->
+            <!-- CADASTRO EM ETAPAS -->
             <div id="cadastro-painel" hidden>
                 <i class="ph ph-user-plus login-icon"></i>
-                <h2>Criar cadastro</h2>
-                <p>Faça o Pix e preencha os dados abaixo com o comprovante. Assim que eu conferir, seu acesso é liberado.</p>
+                <h2 id="cadastro-titulo">Criar cadastro</h2>
 
-                <div id="cadastro-pix" class="cadastro-pix">
-                    <span class="cadastro-pix-rotulo">Chave Pix</span>
-                    <strong id="cadastro-pix-chave">—</strong>
-                    <span id="cadastro-pix-valor" class="cadastro-pix-valor"></span>
+                <ol class="cadastro-passos" id="cadastro-passos">
+                    <li data-passo="1"><span class="cadastro-passo-num">1</span> Pagamento</li>
+                    <li data-passo="2"><span class="cadastro-passo-num">2</span> Seus dados</li>
+                    <li data-passo="3"><span class="cadastro-passo-num">3</span> Comprovante</li>
+                </ol>
+
+                <!-- ETAPA 1: fazer o Pix -->
+                <div class="cadastro-etapa" data-etapa="1">
+                    <p>Faça um Pix para a chave abaixo e <strong>guarde o comprovante</strong> — você vai anexá-lo no final.</p>
+                    <div class="cadastro-pix">
+                        <span class="cadastro-pix-rotulo">Chave Pix</span>
+                        <strong id="cadastro-pix-chave">—</strong>
+                        <span id="cadastro-pix-valor" class="cadastro-pix-valor"></span>
+                        <button type="button" id="btn-copiar-pix" class="btn-secondary btn-sm" style="margin-top: 8px;">
+                            <i class="ph ph-copy"></i> <span id="copiar-pix-label">Copiar chave</span>
+                        </button>
+                    </div>
+                    <div class="login-input-group">
+                        <button type="button" id="btn-passo1-avancar" class="btn-primary">Já fiz o Pix, avançar <i class="ph ph-arrow-right"></i></button>
+                    </div>
                 </div>
 
-                <div class="login-input-group">
-                    <input type="text" id="cad-nome" placeholder="Nome completo (igual ao do Pix)" class="custom-input-text" autocomplete="name" />
-                    <input type="email" id="cad-email" placeholder="E-mail" class="custom-input-text" autocomplete="email" />
-                    <input type="text" id="cad-usuario" placeholder="Usuário que você vai usar para entrar" class="custom-input-text" autocomplete="username" />
-                    <input type="password" id="cad-senha" placeholder="Senha (mínimo 4 caracteres)" class="custom-input-text" autocomplete="new-password" />
-                    <input type="password" id="cad-senha2" placeholder="Repita a senha" class="custom-input-text" autocomplete="new-password" />
-
-                    <label for="cad-comprovante" class="cadastro-arquivo">
-                        <i class="ph ph-paperclip"></i>
-                        <span id="cad-comprovante-label">Anexar comprovante do Pix (foto ou PDF)</span>
-                    </label>
-                    <input type="file" id="cad-comprovante" accept="image/*,application/pdf" hidden />
-                    <img id="cad-comprovante-preview" class="cadastro-preview" alt="Prévia do comprovante" hidden />
-
-                    <button id="btn-cadastrar" class="btn-primary">Enviar cadastro</button>
+                <!-- ETAPA 2: dados da pessoa -->
+                <div class="cadastro-etapa" data-etapa="2" hidden>
+                    <p>Preencha seus dados. O <strong>nome completo</strong> precisa ser o mesmo que aparece no Pix, é por ele que eu confiro o pagamento.</p>
+                    <div class="login-input-group">
+                        <input type="text" id="cad-nome" placeholder="Nome completo (igual ao do Pix)" class="custom-input-text" autocomplete="name" />
+                        <input type="email" id="cad-email" placeholder="E-mail" class="custom-input-text" autocomplete="email" />
+                        <input type="text" id="cad-usuario" placeholder="Usuário que você vai usar para entrar" class="custom-input-text" autocomplete="username" />
+                        <input type="password" id="cad-senha" placeholder="Senha (mínimo 4 caracteres)" class="custom-input-text" autocomplete="new-password" />
+                        <input type="password" id="cad-senha2" placeholder="Repita a senha" class="custom-input-text" autocomplete="new-password" />
+                        <div class="cadastro-navegacao">
+                            <button type="button" class="btn-secondary btn-icon" data-voltar="1"><i class="ph ph-arrow-left"></i> Voltar</button>
+                            <button type="button" id="btn-passo2-avancar" class="btn-primary">Avançar <i class="ph ph-arrow-right"></i></button>
+                        </div>
+                    </div>
                 </div>
-                <p class="login-troca">Já tem cadastro? <button type="button" id="btn-voltar-login" class="link-botao">Voltar para o login</button></p>
+
+                <!-- ETAPA 3: comprovante -->
+                <div class="cadastro-etapa" data-etapa="3" hidden>
+                    <p>Agora anexe o comprovante do Pix. Pode ser o print da tela do seu banco.</p>
+                    <div class="login-input-group">
+                        <label for="cad-comprovante" class="cadastro-arquivo">
+                            <i class="ph ph-paperclip"></i>
+                            <span id="cad-comprovante-label">Anexar comprovante (foto ou PDF)</span>
+                        </label>
+                        <input type="file" id="cad-comprovante" accept="image/*,application/pdf" hidden />
+                        <img id="cad-comprovante-preview" class="cadastro-preview" alt="Prévia do comprovante" hidden />
+                        <div class="cadastro-navegacao">
+                            <button type="button" class="btn-secondary btn-icon" data-voltar="2"><i class="ph ph-arrow-left"></i> Voltar</button>
+                            <button type="button" id="btn-cadastrar" class="btn-primary">Enviar cadastro <i class="ph ph-paper-plane-tilt"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ETAPA 4: enviado -->
+                <div class="cadastro-etapa cadastro-fim" data-etapa="4" hidden>
+                    <i class="ph ph-check-circle cadastro-fim-icone"></i>
+                    <h3>Cadastro enviado!</h3>
+                    <p>O administrador vai conferir seu pagamento e liberar o acesso. Assim que estiver liberado, é só entrar com o usuário e a senha que você acabou de criar.</p>
+                    <div class="login-input-group">
+                        <button type="button" id="btn-fim-login" class="btn-primary">Ir para o login</button>
+                    </div>
+                </div>
+
+                <p class="login-troca" id="cadastro-rodape">Já tem cadastro? <button type="button" id="btn-voltar-login" class="link-botao">Voltar para o login</button></p>
             </div>
 
             <!-- MENSAGENS -->
@@ -1078,7 +1120,7 @@
     <script src="banco_questoes.js?v=181"></script>
     <script src="flashcards.js?v=9"></script>
     <script src="app.js?v=103"></script>
-    <script src="cadastro.js?v=1"></script>
+    <script src="cadastro.js?v=2"></script>
     <script src="cadernos.js?v=3"></script>
     <script src="marcador.js?v=3"></script>
     <script src="tts_material.js?v=4"></script>
