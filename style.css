@@ -2571,8 +2571,22 @@ html.dark-mode .cadastro-passos li {
     word-break: break-all;
 }
 
+/* O valor e a informacao que a pessoa procura antes de pagar: fica em
+   destaque, e o titular logo abaixo em tom discreto. */
 .cadastro-pix-valor {
-    font-size: 0.85rem;
+    margin-top: 4px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+
+.cadastro-pix-valor:empty {
+    display: none;
+}
+
+.cadastro-pix-titular {
+    font-size: 0.82rem;
     color: var(--text-muted);
 }
 

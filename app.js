@@ -417,7 +417,7 @@ const AUTH_TOKEN_KEY = 'pcpr_auth_token';
 // ==========================================
 const CONFIG_PADRAO = {
     pixChave: '02481611136',
-    pixValor: '',
+    pixValor: 'R$ 52,00',
     pixTitular: '',
     avisoCadastro: ''
 };
