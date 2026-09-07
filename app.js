@@ -26,16 +26,18 @@ function alterarCargoGlobal() {
     if (sel) sel.value = CARGO_FIXO;
 }
 
-// Disciplinas cujas provas já ocorreram: o conteúdo continua no banco e nos
-// materiais, mas elas ficam fora de TODAS as seleções (Simulador, Simulado,
-// Anotações, Flashcards e aba Materiais). Para reativar, basta remover daqui.
-const disciplinasEncerradas = new Set([
-    'Criminalística',
-    'PVAT - Módulo I (Identificação Veicular)',
-    'PVAT - Módulo II (Acidentes de Tráfego)'
+// DISCIPLINAS VISÍVEIS
+// Só as disciplinas listadas aqui aparecem no app (Simulador, Simulado,
+// Anotações, Flashcards e aba Materiais). As demais continuam inteiras no
+// banco de questões e nos arquivos de material — apenas somem das seleções.
+// Para trazer uma de volta, basta incluí-la nas DUAS listas abaixo.
+const disciplinasVisiveis = new Set([
+    'Investigação Policial (IPO)',
+    'Investigação Policial II (IPO II)',
+    'Investigação Policial III (IPO III)'
 ]);
 // Chaves correspondentes no select da aba Materiais
-const materiaisEncerrados = ['criminalistica', 'pvat_mod_1', 'pvat_mod_2'];
+const materiaisVisiveis = ['ipo', 'ipo_2', 'ipo_3'];
 
 // ============================================================================
 // MARCADORES DE EXCLUSÃO (tombstones)
@@ -210,7 +212,7 @@ window.definirEsteDispositivoComoFonte = definirEsteDispositivoComoFonte;
 
 function disciplinaPermitidaParaCargo(disciplina) {
     if (!disciplina) return true;
-    if (disciplinasEncerradas.has(disciplina)) return false;
+    if (!disciplinasVisiveis.has(disciplina)) return false;
     if (cargoAtual === 'todos') return true;
 
     const dUpper = disciplina.toUpperCase();
@@ -3916,12 +3918,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const matDisc = document.getElementById('material-disciplina-select');
     const matCap = document.getElementById('material-capitulo-select');
 
-    // Remove das opções de Materiais as disciplinas com prova já realizada
-    // (os arquivos continuam no projeto; só saem da seleção)
+    // Deixa em Materiais apenas as disciplinas visíveis no momento
+    // (os arquivos das outras continuam no projeto; só saem da seleção)
     if (matDisc) {
-        materiaisEncerrados.forEach(v => {
-            const opt = matDisc.querySelector(`option[value="${v}"]`);
-            if (opt) opt.remove();
+        Array.from(matDisc.options).forEach(opt => {
+            if (!opt.value) return; // preserva o placeholder
+            if (!materiaisVisiveis.includes(opt.value)) opt.remove();
         });
     }
     const iframeContainer = document.querySelector('.material-reader-container');
@@ -4447,6 +4449,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let saved = null;
         try { saved = JSON.parse(localStorage.getItem('pcpr_material_last') || 'null'); } catch (e) {}
         if (!saved || !materialData[saved.disc]) return;
+        // A disciplina pode ter saído da lista de visíveis desde o último acesso
+        if (!Array.from(matDisc.options).some(o => o.value === saved.disc)) return;
         matDisc.value = saved.disc;
         matDisc.dispatchEvent(new Event('change'));
         if (Array.from(matCap.options).some(o => o.value === saved.file)) {
